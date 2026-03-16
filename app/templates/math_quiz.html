@@ -1,0 +1,135 @@
+{% extends "base.html" %}
+
+{% block title %}数学每日小测 - 配置{% endblock %}
+
+{% block content %}
+<div class="max-w-3xl mx-auto">
+    <div class="text-center mb-8">
+        <h1 class="text-3xl font-bold text-gray-800 mb-2">📐 数学每日小测</h1>
+        <p class="text-gray-600">选择年级和题型，生成专属练习题</p>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow-lg p-6 mb-6">
+        <!-- Grade Selection -->
+        <div class="mb-6">
+            <label class="block text-sm font-medium text-gray-700 mb-3">选择年级</label>
+            <div class="flex flex-wrap gap-2" id="grade-selector">
+                {% for g in range(1, 7) %}
+                <button type="button" data-grade="{{ g }}"
+                    class="grade-btn px-4 py-2 rounded-lg border-2 font-medium transition
+                           {% if g == 1 %}border-blue-500 bg-blue-50 text-blue-700{% else %}border-gray-200 text-gray-600 hover:border-gray-300{% endif %}">
+                    {{ g }}年级
+                </button>
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- Count Selection -->
+        <div class="mb-6">
+            <label class="block text-sm font-medium text-gray-700 mb-2">
+                题目数量: <span id="count-display" class="text-blue-600 font-bold">30</span> 道
+            </label>
+            <input type="range" id="count" min="10" max="30" value="30"
+                   class="w-full h-3 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-blue-500">
+            <div class="flex justify-between text-xs text-gray-500 mt-1">
+                <span>10</span>
+                <span>30</span>
+            </div>
+        </div>
+
+        <!-- Problem Types -->
+        <div class="mb-6">
+            <label class="block text-sm font-medium text-gray-700 mb-3">选择题型</label>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-3" id="type-selector">
+                {% for type_id, type_info in problem_types.items() %}
+                <label class="flex items-start space-x-2 p-3 border-2 rounded-lg cursor-pointer hover:bg-gray-50 transition type-option"
+                       data-type="{{ type_id }}">
+                    <input type="checkbox" value="{{ type_id }}" class="type-checkbox w-5 h-5 text-blue-500 rounded focus:ring-blue-500 mt-0.5">
+                    <div class="flex-1">
+                        <div class="font-medium text-sm">{{ type_info.name }}</div>
+                        <div class="text-xs text-gray-500">{{ type_info.desc }}</div>
+                    </div>
+                </label>
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- Show Answers -->
+        <div class="mb-6">
+            <label class="flex items-center space-x-2 cursor-pointer">
+                <input type="checkbox" id="show-answers" class="w-5 h-5 text-blue-500 rounded focus:ring-blue-500">
+                <span class="text-gray-700">显示答案（答案将显示在页面底部）</span>
+            </label>
+        </div>
+
+        <!-- Generate Button -->
+        <button id="generate-btn" disabled
+                class="w-full bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white font-bold py-4 px-8 rounded-xl text-xl shadow-lg transform transition hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none">
+            🚀 生成小测
+        </button>
+    </div>
+</div>
+
+<script>
+// Grade defaults configuration
+const gradeDefaults = {{ grade_defaults | tojson }};
+let currentGrade = 1;
+
+// Update type checkboxes based on grade
+function updateTypeSelection(grade) {
+    const defaults = gradeDefaults[grade] || gradeDefaults[3];
+    document.querySelectorAll('.type-checkbox').forEach(cb => {
+        cb.checked = defaults.includes(parseInt(cb.value));
+    });
+    updateGenerateButton();
+}
+
+// Grade button click handlers
+document.querySelectorAll('.grade-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+        // Update visual selection
+        document.querySelectorAll('.grade-btn').forEach(b => {
+            b.classList.remove('border-blue-500', 'bg-blue-50', 'text-blue-700');
+            b.classList.add('border-gray-200', 'text-gray-600');
+        });
+        btn.classList.remove('border-gray-200', 'text-gray-600');
+        btn.classList.add('border-blue-500', 'bg-blue-50', 'text-blue-700');
+
+        // Update types
+        currentGrade = parseInt(btn.dataset.grade);
+        updateTypeSelection(currentGrade);
+    });
+});
+
+// Count slider
+document.getElementById('count').addEventListener('input', (e) => {
+    document.getElementById('count-display').textContent = e.target.value;
+});
+
+// Type checkbox change handlers
+document.querySelectorAll('.type-checkbox').forEach(cb => {
+    cb.addEventListener('change', updateGenerateButton);
+});
+
+// Update generate button state
+function updateGenerateButton() {
+    const checked = document.querySelectorAll('.type-checkbox:checked');
+    document.getElementById('generate-btn').disabled = checked.length === 0;
+}
+
+// Generate button click
+document.getElementById('generate-btn').addEventListener('click', () => {
+    const grade = currentGrade;
+    const count = document.getElementById('count').value;
+    const types = Array.from(document.querySelectorAll('.type-checkbox:checked'))
+        .map(cb => cb.value)
+        .join(',');
+    const showAnswers = document.getElementById('show-answers').checked ? '1' : '0';
+
+    window.location.href = `/math-quiz/preview?grade=${grade}&count=${count}&types=${types}&show_answers=${showAnswers}`;
+});
+
+// Initialize
+updateTypeSelection(1);
+</script>
+{% endblock %}

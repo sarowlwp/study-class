@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block title %}错字本{% endblock %}
+
+{% block content %}
+<div class="max-w-4xl mx-auto">
+    <h1 class="text-3xl font-bold text-gray-800 mb-6">❌ 错字本</h1>
+    <p class="text-gray-600 mb-6">这里记录了所有标记为"未掌握"的汉字，多加练习吧！</p>
+
+    <!-- Mistakes List -->
+    <div id="mistakes-list" class="bg-white rounded-2xl shadow-lg overflow-hidden">
+        <div class="p-4 text-center text-gray-500">加载中...</div>
+    </div>
+
+    <!-- Empty State -->
+    <div id="empty-state" class="hidden text-center py-12">
+        <div class="text-6xl mb-4">🎊</div>
+        <h3 class="text-xl font-bold text-gray-800 mb-2">太棒了！</h3>
+        <p class="text-gray-600">你没有错字，继续保持！</p>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="mt-6 flex space-x-4">
+        <a href="/" class="flex-1 bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-6 rounded-xl text-center transition">📝 开始抽测</a>
+        <button onclick="printMistakes()" class="flex-1 bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-6 rounded-xl transition">🖨️ 打印错字卡</button>
+    </div>
+</div>
+
+<script>
+async function loadMistakes() {
+    const response = await fetch('/api/mistakes');
+    const data = await response.json();
+    const container = document.getElementById('mistakes-list');
+
+    if (data.mistakes.length === 0) {
+        container.classList.add('hidden');
+        document.getElementById('empty-state').classList.remove('hidden');
+        return;
+    }
+
+    let html = '';
+    data.mistakes.forEach((m, index) => {
+        html += `
+            <div class="border-b last:border-b-0 p-4 hover:bg-red-50 transition">
+                <div class="flex items-center justify-between">
+                    <div class="flex items-center space-x-4">
+                        <div class="text-4xl font-bold text-gray-800" style="font-family: 'KaiTi', 'STKaiti', serif; width: 60px;">${m.char}</div>
+                        <div>
+                            <div class="text-lg text-green-600 font-medium">${m.pinyin}</div>
+                            <div class="text-sm text-gray-600">${m.lesson}</div>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <div class="text-sm text-red-600 font-medium">错了 ${m.mistake_count} 次</div>
+                        <div class="text-xs text-gray-400">最近: ${m.last_tested}</div>
+                    </div>
+                </div>
+            </div>
+        `;
+    });
+
+    container.innerHTML = html;
+}
+
+function printMistakes() {
+    window.location.href = '/print?source=mistakes';
+}
+
+loadMistakes();
+</script>
+{% endblock %}

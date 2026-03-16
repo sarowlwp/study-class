@@ -1,0 +1,142 @@
+{% extends "base.html" %}
+
+{% block title %}英语抽测 - 首页{% endblock %}
+
+{% block content %}
+<div class="max-w-4xl mx-auto">
+    <h1 class="text-3xl font-bold text-gray-800 mb-8 text-center">🔤 英语单词抽测</h1>
+
+    <div class="bg-white rounded-2xl shadow-lg p-8">
+        <form id="quiz-form" class="space-y-6">
+            <!-- Semester selection -->
+            <div>
+                <label class="block text-gray-700 font-bold mb-2">选择年级</label>
+                <select id="semester" name="semester" class="w-full px-4 py-3 border rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                    <option value="">请选择年级</option>
+                    {% for semester in semesters %}
+                    <option value="{{ semester.id }}">{{ semester.name }} ({{ semester.total_words }}词)</option>
+                    {% endfor %}
+                </select>
+            </div>
+
+            <!-- Lesson selection -->
+            <div>
+                <label class="block text-gray-700 font-bold mb-2">选择单元</label>
+                <div id="lessons-container" class="space-y-2">
+                    <p class="text-gray-500">请先选择年级</p>
+                </div>
+            </div>
+
+            <!-- Count slider -->
+            <div>
+                <label class="block text-gray-700 font-bold mb-2">抽测数量</label>
+                <div class="flex items-center space-x-4">
+                    <input type="range" id="count-slider" min="5" max="30" value="20" class="flex-1">
+                    <span id="count-display" class="text-xl font-bold text-blue-600 w-12">20</span>
+                </div>
+            </div>
+
+            <!-- Start button -->
+            <button type="submit" class="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-8 rounded-xl text-lg shadow-lg transition">
+                开始抽测
+            </button>
+        </form>
+    </div>
+
+    <!-- Quick links -->
+    <div class="mt-8 grid grid-cols-2 gap-4">
+        <a href="/english/mistakes" class="bg-red-50 hover:bg-red-100 p-6 rounded-xl text-center transition">
+            <div class="text-3xl mb-2">❌</div>
+            <div class="font-bold text-red-700">错词本</div>
+        </a>
+        <a href="/" class="bg-gray-50 hover:bg-gray-100 p-6 rounded-xl text-center transition">
+            <div class="text-3xl mb-2">📚</div>
+            <div class="font-bold text-gray-700">返回首页</div>
+        </a>
+    </div>
+</div>
+
+<script>
+const semesterSelect = document.getElementById('semester');
+const lessonsContainer = document.getElementById('lessons-container');
+const countSlider = document.getElementById('count-slider');
+const countDisplay = document.getElementById('count-display');
+const quizForm = document.getElementById('quiz-form');
+
+// Count slider
+countSlider.addEventListener('input', () => {
+    countDisplay.textContent = countSlider.value;
+});
+
+// Semester change - load lessons
+semesterSelect.addEventListener('change', async () => {
+    const semesterId = semesterSelect.value;
+    if (!semesterId) {
+        lessonsContainer.innerHTML = '<p class="text-gray-500">请先选择年级</p>';
+        return;
+    }
+
+    try {
+        const response = await fetch(`/api/english/lessons?semester=${semesterId}`);
+        const lessons = await response.json();
+
+        if (lessons.length === 0) {
+            lessonsContainer.innerHTML = '<p class="text-red-500">该年级暂无单元数据</p>';
+            return;
+        }
+
+        lessonsContainer.innerHTML = lessons.map((lesson, index) => `
+            <label class="flex items-center space-x-3 p-3 border rounded-lg hover:bg-gray-50 cursor-pointer">
+                <input type="checkbox" name="lessons" value="${lesson.name}" class="w-5 h-5 text-blue-500" ${index === 0 ? 'checked' : ''}>
+                <span class="flex-1">${lesson.name}</span>
+                <span class="text-gray-500 text-sm">${lesson.word_count}词</span>
+            </label>
+        `).join('');
+    } catch (error) {
+        lessonsContainer.innerHTML = '<p class="text-red-500">加载失败，请重试</p>';
+    }
+});
+
+// Form submit
+quizForm.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const semesterId = semesterSelect.value;
+    const checkedLessons = Array.from(document.querySelectorAll('input[name="lessons"]:checked')).map(cb => cb.value);
+    const count = parseInt(countSlider.value);
+
+    if (!semesterId) {
+        alert('请选择年级');
+        return;
+    }
+
+    if (checkedLessons.length === 0) {
+        alert('请至少选择一个单元');
+        return;
+    }
+
+    try {
+        const response = await fetch('/api/english/quiz/start', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({
+                semester_id: semesterId,
+                lessons: checkedLessons,
+                count: count
+            })
+        });
+
+        if (!response.ok) {
+            const error = await response.json();
+            alert(error.detail || '启动失败');
+            return;
+        }
+
+        const data = await response.json();
+        window.location.href = `/english/quiz?session=${data.session_id}`;
+    } catch (error) {
+        alert('网络错误，请重试');
+    }
+});
+</script>
+{% endblock %}

@@ -1,0 +1,236 @@
+{% extends "base.html" %}
+
+{% block title %}英语抽测 - 进行中{% endblock %}
+
+{% block content %}
+<div class="max-w-2xl mx-auto">
+    <!-- Progress bar -->
+    <div class="mb-6">
+        <div class="flex justify-between text-sm text-gray-600 mb-2">
+            <span>进度</span>
+            <span id="progress-text">1 / 20</span>
+        </div>
+        <div class="w-full bg-gray-200 rounded-full h-3">
+            <div id="progress-bar" class="bg-blue-500 h-3 rounded-full transition-all duration-300" style="width: 5%"></div>
+        </div>
+    </div>
+
+    <!-- Quiz card -->
+    <div class="bg-white rounded-2xl shadow-xl p-8 mb-6 min-h-[400px] flex flex-col">
+        <div id="question-area" class="flex-1 flex flex-col items-center justify-center">
+            <!-- Dynamic content -->
+        </div>
+        <div id="feedback-area" class="hidden mt-6 p-4 rounded-xl text-center">
+            <!-- Feedback message -->
+        </div>
+    </div>
+
+    <!-- Options area -->
+    <div id="options-area" class="grid gap-4">
+        <!-- Dynamic options -->
+    </div>
+
+    <!-- Next button -->
+    <button id="next-btn" class="hidden w-full mt-6 bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-8 rounded-xl text-lg shadow-lg transition">
+        下一题 →
+    </button>
+</div>
+
+<script>
+const sessionId = '{{ session_id }}';
+let currentIndex = 0;
+let words = [];
+let total = 0;
+let hasAnswered = false;
+
+// Check browser speech support
+const speechSupported = 'speechSynthesis' in window;
+
+async function loadSession() {
+    const response = await fetch(`/api/english/quiz/session/${sessionId}`);
+    if (!response.ok) {
+        alert('会话已过期，请重新开始');
+        window.location.href = '/english';
+        return;
+    }
+    const data = await response.json();
+    words = data.words;
+    total = data.total;
+    currentIndex = data.current_index || 0;
+    updateProgress();
+    showQuestion();
+}
+
+function updateProgress() {
+    const percent = ((currentIndex + 1) / total) * 100;
+    document.getElementById('progress-bar').style.width = `${percent}%`;
+    document.getElementById('progress-text').textContent = `${currentIndex + 1} / ${total}`;
+}
+
+function speakWord(word) {
+    if (!speechSupported) {
+        alert('您的浏览器不支持语音播放');
+        return;
+    }
+    const utterance = new SpeechSynthesisUtterance(word);
+    utterance.lang = 'en-US';
+    utterance.rate = 0.8;
+    utterance.pitch = 1.0;
+    speechSynthesis.speak(utterance);
+}
+
+function showQuestion() {
+    hasAnswered = false;
+    const word = words[currentIndex];
+    const questionArea = document.getElementById('question-area');
+    const optionsArea = document.getElementById('options-area');
+    const feedbackArea = document.getElementById('feedback-area');
+    const nextBtn = document.getElementById('next-btn');
+
+    feedbackArea.classList.add('hidden');
+    nextBtn.classList.add('hidden');
+
+    // Show different content based on mode
+    if (word.mode === 'audio_to_word') {
+        // Audio to word mode
+        questionArea.innerHTML = `
+            <button onclick="speakWord('${word.word}')" class="w-32 h-32 rounded-full bg-blue-100 hover:bg-blue-200 flex items-center justify-center mb-4 transition">
+                <span class="text-5xl">🔊</span>
+            </button>
+            <p class="text-gray-600 text-lg">点击播放，选择听到的单词</p>
+        `;
+    } else if (word.mode === 'word_to_meaning') {
+        // Word to meaning mode
+        questionArea.innerHTML = `
+            <div class="text-5xl font-bold text-gray-800 mb-2">${word.word}</div>
+            ${word.phonetic ? `<div class="text-xl text-gray-500 mb-4">${word.phonetic}</div>` : ''}
+            <p class="text-gray-600">选择正确的中文释义</p>
+        `;
+    } else {
+        // Meaning to word mode
+        questionArea.innerHTML = `
+            <div class="text-6xl mb-4">${getEmoji(word.meaning)}</div>
+            <div class="text-3xl font-bold text-gray-800 mb-2">${word.meaning}</div>
+            <p class="text-gray-600">选择正确的英文单词</p>
+        `;
+    }
+
+    // Render options
+    renderOptions(word);
+}
+
+function getEmoji(meaning) {
+    const emojiMap = {
+        '猫': '🐱', '狗': '🐕', '猪': '🐷', '牛': '🐄',
+        '鸟': '🐦', '鱼': '🐟', '马': '🐴', '羊': '🐑',
+        '苹果': '🍎', '香蕉': '🍌', '橙子': '🍊', '西瓜': '🍉',
+        '红色': '🔴', '蓝色': '🔵', '绿色': '🟢', '黄色': '🟡',
+    };
+    return emojiMap[meaning] || '📝';
+}
+
+function renderOptions(word) {
+    const optionsArea = document.getElementById('options-area');
+    const isAudioMode = word.mode === 'audio_to_word';
+    const isWordMode = word.mode === 'meaning_to_word';
+
+    optionsArea.innerHTML = word.options.map((opt, index) => {
+        if (isAudioMode || isWordMode) {
+            // Show word options
+            return `
+                <button onclick="selectOption('${opt.word}', ${opt.is_correct})" class="option-btn bg-white border-2 border-gray-200 hover:border-blue-400 p-4 rounded-xl text-lg font-medium transition text-left" data-word="${opt.word}">
+                    <div class="font-bold">${opt.word}</div>
+                    ${opt.phonetic ? `<div class="text-sm text-gray-500">${opt.phonetic}</div>` : ''}
+                </button>
+            `;
+        } else {
+            // Show Chinese meaning options
+            return `
+                <button onclick="selectOption('${opt.word}', ${opt.is_correct})" class="option-btn bg-white border-2 border-gray-200 hover:border-blue-400 p-4 rounded-xl text-xl font-medium transition" data-word="${opt.word}">
+                    ${opt.meaning}
+                </button>
+            `;
+        }
+    }).join('');
+}
+
+async function selectOption(answer, isCorrect) {
+    if (hasAnswered) return;
+    hasAnswered = true;
+
+    const word = words[currentIndex];
+    const feedbackArea = document.getElementById('feedback-area');
+    const nextBtn = document.getElementById('next-btn');
+
+    // Disable all options
+    document.querySelectorAll('.option-btn').forEach(btn => {
+        btn.disabled = true;
+        const btnWord = btn.getAttribute('data-word');
+        if (btnWord === word.word) {
+            btn.classList.add('bg-green-100', 'border-green-500');
+        } else if (btnWord === answer && !isCorrect) {
+            btn.classList.add('bg-red-100', 'border-red-500');
+        }
+    });
+
+    // Show feedback
+    if (isCorrect) {
+        feedbackArea.className = 'mt-6 p-4 rounded-xl text-center bg-green-100 text-green-800';
+        feedbackArea.innerHTML = '✅ 回答正确！';
+    } else {
+        feedbackArea.className = 'mt-6 p-4 rounded-xl text-center bg-red-100 text-red-800';
+        feedbackArea.innerHTML = `❌ 回答错误，正确答案是：<span class="font-bold">${word.word}</span>`;
+    }
+    feedbackArea.classList.remove('hidden');
+
+    // Submit answer
+    await fetch('/api/english/quiz/submit', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({
+            session_id: sessionId,
+            index: currentIndex,
+            answer: answer
+        })
+    });
+
+    // Show next button or finish
+    if (currentIndex < total - 1) {
+        nextBtn.classList.remove('hidden');
+    } else {
+        nextBtn.textContent = '完成抽测 ✅';
+        nextBtn.classList.remove('hidden');
+        nextBtn.onclick = finishQuiz;
+    }
+}
+
+function nextQuestion() {
+    currentIndex++;
+    updateProgress();
+    showQuestion();
+}
+
+document.getElementById('next-btn').addEventListener('click', nextQuestion);
+
+async function finishQuiz() {
+    await fetch('/api/english/quiz/finish', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({session_id: sessionId})
+    });
+    window.location.href = `/english/result?session=${sessionId}`;
+}
+
+// Keyboard shortcuts
+document.addEventListener('keydown', (e) => {
+    if (hasAnswered && e.key === 'Enter') {
+        const nextBtn = document.getElementById('next-btn');
+        if (!nextBtn.classList.contains('hidden')) {
+            nextBtn.click();
+        }
+    }
+});
+
+loadSession();
+</script>
+{% endblock %}

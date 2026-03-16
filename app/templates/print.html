@@ -1,0 +1,116 @@
+{% extends "base.html" %}
+
+{% block title %}打印卡片{% endblock %}
+
+{% block extra_css %}
+<style>
+@media print {
+    nav, footer, .no-print { display: none !important; }
+    #print-preview { display: block !important; }
+    #cards-container { box-shadow: none !important; padding: 0 !important; }
+    body { background: white !important; }
+    main { max-width: 100% !important; padding: 0 !important; }
+}
+.print-card {
+    width: 90mm;
+    height: 60mm;
+    border: 2px solid #333;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5mm;
+    page-break-inside: avoid;
+    background: white;
+}
+.print-card-front {
+    font-size: 36pt;
+    font-family: 'KaiTi', 'STKaiti', serif;
+}
+.print-card-back {
+    font-size: 14pt;
+    text-align: center;
+    padding: 5mm;
+}
+.print-card-pinyin {
+    font-size: 18pt;
+    color: #059669;
+    margin-bottom: 2mm;
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="max-w-4xl mx-auto">
+    <h1 class="text-3xl font-bold text-gray-800 mb-6">🖨️ 打印卡片</h1>
+
+    <!-- Print Settings -->
+    <div class="bg-white rounded-2xl shadow-lg p-6 mb-6 no-print">
+        <h3 class="font-bold text-gray-700 mb-4">选择打印内容</h3>
+
+        <div class="space-y-3 mb-6">
+            <label class="flex items-center space-x-3 p-3 border rounded-lg cursor-pointer hover:bg-gray-50">
+                <input type="radio" name="print-source" value="mistakes" class="w-5 h-5 text-green-500">
+                <span>错字本（所有未掌握的汉字）</span>
+            </label>
+            <label class="flex items-center space-x-3 p-3 border rounded-lg cursor-pointer hover:bg-gray-50">
+                <input type="radio" name="print-source" value="all" class="w-5 h-5 text-green-500" checked>
+                <span>全部汉字</span>
+            </label>
+        </div>
+
+        <button onclick="generatePrintPage()" class="w-full bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-xl transition">
+            生成打印页面
+        </button>
+    </div>
+
+    <!-- Print Preview -->
+    <div id="print-preview" class="hidden">
+        <div class="flex justify-between items-center mb-4 no-print">
+            <h3 class="font-bold text-gray-700">打印预览</h3>
+            <button onclick="window.print()" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg transition">
+                🖨️ 打印
+            </button>
+        </div>
+
+        <div id="cards-container" class="bg-white p-8 shadow-lg"></div>
+    </div>
+</div>
+
+<script>
+async function generatePrintPage() {
+    const source = document.querySelector('input[name="print-source"]:checked').value;
+    let characters = [];
+
+    if (source === 'mistakes') {
+        const response = await fetch('/api/mistakes');
+        const data = await response.json();
+        characters = data.mistakes;
+    } else {
+        const semesters = await fetch('/api/semesters').then(r => r.json());
+        for (const s of semesters.semesters) {
+            const chars = await fetch(`/api/characters?semester=${s.id}`).then(r => r.json());
+            characters.push(...chars.characters);
+        }
+    }
+
+    const container = document.getElementById('cards-container');
+    container.innerHTML = '';
+
+    characters.forEach(char => {
+        const card = document.createElement('div');
+        card.className = 'print-card';
+        card.innerHTML = `
+            <div class="print-card-front">${char.char}</div>
+            <div class="print-card-back">
+                <div class="print-card-pinyin">${char.pinyin}</div>
+                <div>${char.meaning || char.lesson}</div>
+            </div>
+        `;
+        container.appendChild(card);
+    });
+
+    document.getElementById('print-preview').classList.remove('hidden');
+}
+</script>
+{% endblock %}
