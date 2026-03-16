@@ -1,0 +1,152 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="text-center mb-8">
+    <h1 class="text-4xl font-bold text-gray-800 mb-2">欢迎来到语文学习小工具! 🎯</h1>
+    <p class="text-gray-600">选择课文，开始今天的汉字学习之旅</p>
+</div>
+
+<!-- Config Card -->
+<div class="bg-white rounded-2xl shadow-lg p-6 mb-6">
+    <!-- Semester Selection -->
+    <div class="mb-6">
+        <label class="block text-sm font-medium text-gray-700 mb-2">选择学期</label>
+        <select id="semester" class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-green-500 focus:border-green-500 text-lg">
+            <option value="">请选择...</option>
+        </select>
+    </div>
+
+    <!-- Lesson Selection -->
+    <div class="mb-6">
+        <label class="block text-sm font-medium text-gray-700 mb-2">选择课文</label>
+        <div id="lessons" class="grid grid-cols-2 md:grid-cols-3 gap-3">
+            <p class="text-gray-400 col-span-full">请先选择学期</p>
+        </div>
+    </div>
+
+    <!-- Quiz Count -->
+    <div class="mb-6">
+        <label class="block text-sm font-medium text-gray-700 mb-2">
+            抽测数量: <span id="count-display" class="text-green-600 font-bold">20</span> 个
+        </label>
+        <input type="range" id="count" min="10" max="50" value="20"
+               class="w-full h-3 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-green-500">
+        <div class="flex justify-between text-xs text-gray-500 mt-1">
+            <span>10</span>
+            <span>50</span>
+        </div>
+    </div>
+
+    <!-- Start Button -->
+    <button id="start-btn" disabled class="w-full bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-4 px-8 rounded-xl text-xl shadow-lg transform transition hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none">
+        🚀 开始抽测
+    </button>
+</div>
+
+<!-- Quick Links -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+    <a href="/mistakes" class="bg-white rounded-xl shadow p-6 hover:shadow-lg transition flex items-center space-x-4">
+        <span class="text-4xl">❌</span>
+        <div>
+            <h3 class="font-bold text-gray-800">错字本</h3>
+            <p class="text-sm text-gray-500">复习没掌握的汉字</p>
+        </div>
+    </a>
+    <a href="/print" class="bg-white rounded-xl shadow p-6 hover:shadow-lg transition flex items-center space-x-4">
+        <span class="text-4xl">🖨️</span>
+        <div>
+            <h3 class="font-bold text-gray-800">打印卡片</h3>
+            <p class="text-sm text-gray-500">生成纸质抽测卡</p>
+        </div>
+    </a>
+    <a href="/pdfs" class="bg-white rounded-xl shadow p-6 hover:shadow-lg transition flex items-center space-x-4">
+        <span class="text-4xl">📚</span>
+        <div>
+            <h3 class="font-bold text-gray-800">教材预览</h3>
+            <p class="text-sm text-gray-500">查看电子版教材</p>
+        </div>
+    </a>
+    <a href="/math-quiz" class="bg-white rounded-xl shadow p-6 hover:shadow-lg transition flex items-center space-x-4">
+        <span class="text-4xl">📐</span>
+        <div>
+            <h3 class="font-bold text-gray-800">数学每日小测</h3>
+            <p class="text-sm text-gray-500">生成可打印的数学练习题</p>
+        </div>
+    </a>
+    <a href="/english" class="bg-white rounded-xl shadow p-6 hover:shadow-lg transition flex items-center space-x-4">
+        <span class="text-4xl">🔤</span>
+        <div>
+            <h3 class="font-bold text-gray-800">英语抽测</h3>
+            <p class="text-sm text-gray-500">单词听写练习</p>
+        </div>
+    </a>
+</div>
+
+<script>
+// Load semesters
+async function loadSemesters() {
+    const response = await fetch('/api/semesters');
+    const data = await response.json();
+    const select = document.getElementById('semester');
+    data.semesters.forEach(s => {
+        const option = document.createElement('option');
+        option.value = s.id;
+        option.textContent = s.name;
+        select.appendChild(option);
+    });
+}
+
+// Load lessons
+async function loadLessons(semesterId) {
+    const response = await fetch(`/api/lessons?semester=${semesterId}`);
+    const data = await response.json();
+    const container = document.getElementById('lessons');
+    container.innerHTML = '';
+
+    data.lessons.forEach(l => {
+        const div = document.createElement('div');
+        div.className = 'flex items-center space-x-2 p-3 border rounded-lg hover:bg-green-50 cursor-pointer lesson-item';
+        div.innerHTML = `
+            <input type="checkbox" value="${l.name}" id="lesson-${l.id}" class="w-5 h-5 text-green-500 rounded focus:ring-green-500">
+            <label for="lesson-${l.id}" class="flex-1 cursor-pointer text-sm">${l.name} <span class="text-xs text-gray-400">(${l.char_count}字)</span></label>
+        `;
+        div.querySelector('input').addEventListener('change', updateStartButton);
+        container.appendChild(div);
+    });
+}
+
+// Update start button state
+function updateStartButton() {
+    const checked = document.querySelectorAll('#lessons input:checked');
+    document.getElementById('start-btn').disabled = checked.length === 0;
+}
+
+// Start quiz
+async function startQuiz() {
+    const semester = document.getElementById('semester').value;
+    const lessons = Array.from(document.querySelectorAll('#lessons input:checked')).map(cb => cb.value);
+    const count = parseInt(document.getElementById('count').value);
+
+    const response = await fetch('/api/quiz/start', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({semester, lessons, count})
+    });
+
+    const data = await response.json();
+    window.location.href = `/quiz?session=${data.session_id}`;
+}
+
+// Event listeners
+document.getElementById('semester').addEventListener('change', (e) => {
+    if (e.target.value) loadLessons(e.target.value);
+});
+document.getElementById('count').addEventListener('input', (e) => {
+    document.getElementById('count-display').textContent = e.target.value;
+});
+document.getElementById('start-btn').addEventListener('click', startQuiz);
+
+// Initialize
+loadSemesters();
+</script>
+{% endblock %}

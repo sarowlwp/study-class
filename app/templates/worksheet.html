@@ -1,0 +1,1230 @@
+{% extends "base.html" %}
+
+{% block title %}字帖打印 - 汉字抽测卡{% endblock %}
+
+{% block extra_css %}
+<style>
+/* Override base template max-width for worksheet page */
+main.max-w-4xl {
+    max-width: 1400px !important;
+}
+
+/* Sidebar Layout */
+.worksheet-layout {
+    display: flex;
+    gap: 24px;
+    min-height: calc(100vh - 200px);
+}
+
+.worksheet-sidebar {
+    width: 320px;
+    flex-shrink: 0;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100vh - 180px);
+}
+
+.worksheet-main {
+    flex: 1;
+    min-width: 0;
+}
+
+/* Config Panel Styles */
+.config-panel {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 24px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.config-header {
+    background: #f8fafc;
+    border-bottom: 1px solid #e2e8f0;
+    padding: 16px 20px;
+    flex-shrink: 0;
+}
+
+.config-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #374151;
+    margin: 0;
+}
+
+.config-body {
+    padding: 20px;
+    overflow-y: auto;
+    flex: 1;
+}
+
+/* Collapsible Sections */
+.config-section {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.config-section:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.section-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.section-icon {
+    font-size: 16px;
+}
+
+/* Form Elements */
+.form-group {
+    margin-bottom: 14px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 6px;
+    color: #374151;
+    font-size: 13px;
+}
+
+.form-select,
+.form-input,
+.form-textarea {
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 13px;
+    transition: border-color 0.2s;
+}
+
+.form-select:focus,
+.form-input:focus,
+.form-textarea:focus {
+    outline: none;
+    border-color: #16a34a;
+    box-shadow: 0 0 0 2px rgba(22, 163, 74, 0.1);
+}
+
+.form-textarea {
+    resize: vertical;
+    min-height: 60px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+/* Radio and Checkbox Groups */
+.radio-group,
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.radio-label,
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    padding: 6px 10px;
+    background: #f3f4f6;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+    font-size: 13px;
+}
+
+.radio-label:hover,
+.checkbox-label:hover {
+    background: #e5e7eb;
+}
+
+.radio-label input,
+.checkbox-label input {
+    margin-right: 5px;
+}
+
+.radio-label input:checked + span,
+.checkbox-label input:checked + span {
+    color: #16a34a;
+    font-weight: 500;
+}
+
+/* Range Input */
+.range-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.range-input {
+    flex: 1;
+    height: 5px;
+    border-radius: 3px;
+    background: #e5e7eb;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.range-input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #16a34a;
+    cursor: pointer;
+}
+
+.range-value {
+    min-width: 30px;
+    text-align: center;
+    font-weight: 500;
+    color: #16a34a;
+    font-size: 13px;
+}
+
+/* Button Styles */
+.btn {
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: none;
+    font-size: 13px;
+}
+
+.btn-primary {
+    background: #16a34a;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #15803d;
+}
+
+.btn-secondary {
+    background: #f3f4f6;
+    color: #374151;
+}
+
+.btn-secondary:hover {
+    background: #e5e7eb;
+}
+
+.btn-group {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+/* Worksheet Preview Area */
+#worksheet-preview {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    min-height: 400px;
+}
+
+
+.worksheet-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 100%;
+    --char-size: 48px;  /* 添加字体大小 CSS 变量，默认 48px */
+}
+
+/* 行包装器 - 预览模式 */
+.worksheet-row-wrapper {
+    display: block;
+    width: 100%;
+}
+
+/* 行容器 - 预览模式下的网格布局 */
+.worksheet-row {
+    display: grid;
+    grid-template-columns: repeat(var(--cols, 5), 1fr);
+    gap: 10px;
+    width: 100%;
+}
+
+/* Character Cell */
+.char-cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+.pinyin {
+    font-size: 12px;
+    color: #6b7280;
+    margin-bottom: 4px;
+    height: 16px;
+}
+
+.grid-box {
+    position: relative;
+    aspect-ratio: 1;
+    min-width: 60px;
+    max-width: 120px;
+    width: 100%;
+    border: 2px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Tian Zi Ge (田字格) - 十字线：水平中线 + 垂直中线 */
+.grid-box.tian {
+    position: relative;
+}
+
+.grid-box.tian::before,
+.grid-box.tian::after {
+    content: "";
+    position: absolute;
+    background-color: #d1d5db;
+    pointer-events: none;
+}
+
+/* 水平中线 */
+.grid-box.tian::before {
+    width: 100%;
+    height: 1px;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+/* 垂直中线 */
+.grid-box.tian::after {
+    width: 1px;
+    height: 100%;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+/* Mi Zi Ge (米字格) - 十字线 + 对角线 */
+.grid-box.mi {
+    position: relative;
+}
+
+.grid-box.mi::before,
+.grid-box.mi::after {
+    content: "";
+    position: absolute;
+    background-color: #d1d5db;
+    pointer-events: none;
+}
+
+/* 米字格十字线 - ::before 水平中线, ::after 垂直中线 */
+.grid-box.mi::before {
+    width: 100%;
+    height: 1px;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.grid-box.mi::after {
+    width: 1px;
+    height: 100%;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+/* 米字格对角线 - 使用额外的伪元素通过 background 实现 */
+.grid-box.mi {
+    background-image:
+        linear-gradient(45deg, transparent 49%, #d1d5db 49%, #d1d5db 51%, transparent 51%),
+        linear-gradient(-45deg, transparent 49%, #d1d5db 49%, #d1d5db 51%, transparent 51%);
+    background-size: 100% 100%, 100% 100%;
+    background-position: 0 0, 0 0;
+    background-repeat: no-repeat;
+}
+
+/* Square (方格) */
+.grid-box.square {
+    /* Only border, no internal lines */
+}
+
+/* None (无格) */
+.grid-box.none {
+    border: none;
+    background: transparent;
+}
+
+/* Trace Character */
+.trace-char {
+    font-family: "KaiTi", "STKaiti", "BiauKai", "楷体", serif;
+    color: #ccc;
+    opacity: 0.4;
+    font-size: var(--char-size);  /* 使用 CSS 变量代替固定 48px */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.trace-char.light {
+    opacity: 0.2;
+}
+
+.trace-char.medium {
+    opacity: 0.4;
+}
+
+.trace-char.dark {
+    opacity: 0.6;
+}
+
+/* Example character - first one shown in red */
+.trace-char.example {
+    color: #ff6b6b;
+    opacity: 0.6;
+}
+
+/* Info Row - 每行之间的信息展示区域 */
+.info-row {
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* 左对齐 */
+    gap: 8px;
+    height: 30px; /* 田字格高度的 1/4 (约120px) */
+    padding: 4px 12px;
+    background: #f8fafc;
+    border-top: 1px dashed #cbd5e1;
+    border-bottom: 1px dashed #cbd5e1;
+    margin: 4px 0;
+    page-break-inside: avoid;
+    break-inside: avoid;
+}
+
+.info-pinyin {
+    font-size: 14px;
+    color: #ef4444; /* 红色 */
+    font-weight: 600;
+}
+
+.info-separator {
+    font-size: 14px;
+    color: #9ca3af;
+    margin: 0 4px;
+}
+
+.info-strokes {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.stroke-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+}
+
+.stroke-item svg {
+    width: 100%;
+    height: 100%;
+}
+
+/* Utility Classes - use high specificity to override Tailwind */
+.source-options.hidden,
+#mistakes-options.hidden,
+#semester-options.hidden,
+#lessons-options.hidden,
+#custom-options.hidden {
+    display: none !important;
+}
+
+
+/* Error and Warning Messages */
+.message {
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+.message-error {
+    background: #fef2f2;
+    color: #dc2626;
+    border: 1px solid #fecaca;
+}
+
+.message-warning {
+    background: #fffbeb;
+    color: #d97706;
+    border: 1px solid #fcd34d;
+}
+
+.message-info {
+    background: #eff6ff;
+    color: #2563eb;
+    border: 1px solid #bfdbfe;
+}
+
+/* Source Options */
+.source-options {
+    margin-top: 16px;
+    padding: 16px;
+    background: #f9fafb;
+    border-radius: 8px;
+}
+
+/* Print Styles - 与预览样式严格对齐 */
+@media print {
+    /* 页面设置 - 最小边距，最大化可打印空间 */
+    @page {
+        margin: 0;
+        size: A4 landscape;
+    }
+
+    /* 行包装器 - 用于测量和分页控制 */
+    .worksheet-row-wrapper {
+        display: block;
+        width: 100%;
+        /* 关键：防止行包装器跨页截断 */
+        break-inside: avoid !important;
+        page-break-inside: avoid !important;
+    }
+
+    /* 行容器 - 内部的 grid 布局 */
+    .worksheet-row {
+        display: grid;
+        grid-template-columns: repeat(var(--cols, 5), 1fr);
+        gap: 8px;
+        width: 100%;
+    }
+
+    /* 强制分页符 */
+    .page-break {
+        page-break-before: always;
+        break-before: page;
+        display: block;
+        height: 0;
+        overflow: hidden;
+    }
+
+    /* 仅对需要保留颜色的元素设置 */
+    .grid-box,
+    .trace-char,
+    .trace-char.example,
+    .info-pinyin,
+    .info-row {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    /* Hide non-print elements */
+    nav,
+    footer,
+    .worksheet-sidebar,
+    .config-panel,
+    .no-print,
+    .message {
+        display: none !important;
+    }
+
+    /* Adjust main content */
+    .worksheet-layout {
+        display: block !important;
+    }
+
+    .worksheet-main {
+        max-width: 100% !important;
+        padding: 0 !important;
+    }
+
+    body {
+        background: white !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    /* Adjust preview area */
+    #worksheet-preview {
+        display: block !important;
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        box-shadow: none !important;
+        border-radius: 0 !important;
+    }
+
+    /* Worksheet container - 打印模式下使用 flex 纵向排列行 */
+    .worksheet-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    /* 行内元素样式 */
+    .worksheet-row .info-row {
+        grid-column: 1 / -1;
+        break-before: auto;
+        break-after: avoid;
+        page-break-after: avoid;
+    }
+
+    /* char-cell 保持与预览一致 */
+    .worksheet-row .char-cell {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+
+    /* Grid boxes - 与预览保持一致的边框 */
+    .grid-box {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1 / 1;
+        min-width: 50px;
+        max-width: 100px;
+        border: 2px solid #333;
+        box-sizing: border-box;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        /* 格子内部不截断 */
+        break-inside: avoid !important;
+        page-break-inside: avoid !important;
+    }
+
+    /* Tian Zi Ge - 田字格 (使用 border 实现，避免绝对定位截断问题) */
+    .grid-box.tian {
+        position: relative;
+        overflow: hidden;
+        /* 使用 border 绘制十字线，不会被截断 */
+        border: 2px solid #333;
+    }
+
+    .grid-box.tian::before,
+    .grid-box.tian::after {
+        content: "";
+        position: absolute;
+        background-color: #d1d5db;
+        pointer-events: none;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    /* 水平中线 - 使用渐变背景替代伪元素，避免截断 */
+    .grid-box.tian {
+        background-image: linear-gradient(to bottom, transparent 49.5%, #d1d5db 49.5%, #d1d5db 50.5%, transparent 50.5%),
+                          linear-gradient(to right, transparent 49.5%, #d1d5db 49.5%, #d1d5db 50.5%, transparent 50.5%);
+        background-size: 100% 100%, 100% 100%;
+        background-position: 0 0, 0 0;
+        background-repeat: no-repeat;
+    }
+
+    /* 隐藏原来的伪元素线条，改用 background */
+    .grid-box.tian::before,
+    .grid-box.tian::after {
+        display: none;
+    }
+
+    /* Mi Zi Ge - 米字格 (使用 background 实现所有线条，避免绝对定位截断) */
+    .grid-box.mi {
+        position: relative;
+        overflow: hidden;
+        /* 使用多层渐变背景实现米字格：对角线 + 十字线 */
+        background-image:
+            /* 对角线 */
+            linear-gradient(45deg, transparent 49%, #d1d5db 49%, #d1d5db 51%, transparent 51%),
+            linear-gradient(-45deg, transparent 49%, #d1d5db 49%, #d1d5db 51%, transparent 51%),
+            /* 十字线 */
+            linear-gradient(to bottom, transparent 49.5%, #d1d5db 49.5%, #d1d5db 50.5%, transparent 50.5%),
+            linear-gradient(to right, transparent 49.5%, #d1d5db 49.5%, #d1d5db 50.5%, transparent 50.5%);
+        background-size: 100% 100%, 100% 100%, 100% 100%, 100% 100%;
+        background-position: 0 0, 0 0, 0 0, 0 0;
+        background-repeat: no-repeat;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    /* 隐藏原来的伪元素线条，改用 background */
+    .grid-box.mi::before,
+    .grid-box.mi::after {
+        display: none;
+    }
+
+    /* Pinyin - 与预览一致 */
+    .pinyin {
+        font-size: 12px;
+        color: #6b7280;
+        margin-bottom: 2px;
+        height: 14px;
+        /* 防止拼音跨页截断 */
+        break-inside: avoid !important;
+        page-break-inside: avoid !important;
+    }
+
+    /* Trace character - 与预览一致的字体大小 */
+    .trace-char {
+        font-family: "KaiTi", "STKaiti", "BiauKai", "楷体", serif;
+        color: #ccc;
+        opacity: 0.4;
+        font-size: var(--char-size) !important;  /* 强制使用CSS变量，确保与预览一致 */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        pointer-events: none;
+    }
+
+    .trace-char.light { opacity: 0.2; }
+    .trace-char.medium { opacity: 0.4; }
+    .trace-char.dark { opacity: 0.6; }
+    .trace-char.example {
+        color: #ff6b6b;
+        opacity: 0.6;
+    }
+
+    /* Info row - 与预览一致 */
+    .info-row {
+        grid-column: 1 / -1;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 8px;
+        height: 24px;
+        padding: 2px 12px;
+        background: #f8fafc;
+        border-top: 1px dashed #cbd5e1;
+        border-bottom: 1px dashed #cbd5e1;
+        margin: 2px 0 4px 0;
+        /* 严格防止信息行跨页截断 */
+        break-inside: avoid !important;
+        page-break-inside: avoid !important;
+        break-before: auto;
+        break-after: avoid;
+        page-break-after: avoid;
+    }
+
+    .info-pinyin {
+        font-size: 14px;
+        color: #ef4444;
+        font-weight: 600;
+    }
+
+    .info-separator {
+        font-size: 14px;
+        color: #9ca3af;
+        margin: 0 4px;
+    }
+
+    .info-strokes {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+
+    .stroke-item {
+        width: 20px;
+        height: 20px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .stroke-item svg {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1024px) {
+    .worksheet-layout {
+        flex-direction: column;
+    }
+
+    .worksheet-sidebar {
+        width: 100%;
+        max-height: none;
+        order: 2;
+    }
+
+    .config-body {
+        max-height: 500px;
+    }
+
+    .worksheet-main {
+        order: 1;
+    }
+}
+
+@media (max-width: 768px) {
+    .worksheet-layout {
+        gap: 16px;
+    }
+
+    .worksheet-sidebar {
+        border-radius: 8px;
+    }
+
+    .config-header {
+        padding: 12px 16px;
+    }
+
+    .config-body {
+        padding: 16px;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .radio-group,
+    .checkbox-group {
+        flex-direction: column;
+        gap: 6px;
+    }
+
+    .radio-label,
+    .checkbox-label {
+        width: 100%;
+    }
+
+    .worksheet-container {
+        gap: 6px;
+    }
+
+    .grid-box {
+        min-width: 40px;
+    }
+
+    /* 移动端也使用 CSS 变量保持打印一致性 */
+    .trace-char {
+        font-size: var(--char-size);
+    }
+
+    #worksheet-preview {
+        padding: 16px;
+    }
+}
+
+/* Loading State */
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    color: #6b7280;
+}
+
+.loading::after {
+    content: "";
+    width: 24px;
+    height: 24px;
+    border: 2px solid #e5e7eb;
+    border-top-color: #16a34a;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-left: 12px;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Empty State */
+.empty-state {
+    text-align: center;
+    padding: 48px 24px;
+    color: #6b7280;
+}
+
+.empty-state-icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.empty-state-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #374151;
+}
+
+/* Lesson Select Grid */
+.lesson-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 8px;
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 8px;
+    background: #f9fafb;
+    border-radius: 8px;
+}
+
+.lesson-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: 1px solid #e5e7eb;
+}
+
+.lesson-item:hover {
+    border-color: #16a34a;
+}
+
+.lesson-item.selected {
+    background: #f0fdf4;
+    border-color: #16a34a;
+}
+
+.lesson-item input {
+    margin-right: 8px;
+}
+
+/* Font Preview */
+.font-preview {
+    font-size: 24px;
+    margin-left: 12px;
+    color: #6b7280;
+}
+
+.font-preview.kaiti {
+    font-family: "KaiTi", "STKaiti", "BiauKai", "楷体", serif;
+}
+
+.font-preview.songti {
+    font-family: "SimSun", "STSong", "宋体", serif;
+}
+
+.font-preview.heiti {
+    font-family: "SimHei", "STHeiti", "黑体", sans-serif;
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="worksheet-layout">
+    <!-- Sidebar - Config Panel -->
+    <aside class="worksheet-sidebar no-print">
+        <div class="config-header">
+            <h2 class="config-title">📄 字帖配置</h2>
+        </div>
+
+        <div class="config-body">
+            <!-- Section 1: Data Source -->
+            <div class="config-section">
+                <div class="section-title">
+                    <span class="section-icon">📚</span>
+                    数据来源
+                </div>
+
+                <div class="form-group">
+                    <label>选择数据来源</label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="source" value="mistakes" checked>
+                            <span>❌ 错字本</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="source" value="semester">
+                            <span>📖 指定学期</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="source" value="lessons">
+                            <span>📑 指定课文</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="source" value="custom">
+                            <span>✏️ 自定义输入</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Mistakes Source -->
+                <div id="mistakes-options" class="source-options">
+                    <p class="text-gray-600 text-sm">将获取所有标记为"未掌握"的汉字</p>
+                </div>
+
+                <!-- Semester Source -->
+                <div id="semester-options" class="source-options hidden">
+                    <div class="form-group">
+                        <label for="semester-select">选择学期</label>
+                        <select id="semester-select" class="form-select">
+                            <option value="">请选择学期</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Lessons Source -->
+                <div id="lessons-options" class="source-options hidden">
+                    <div class="form-group">
+                        <label for="lessons-semester-select">选择学期</label>
+                        <select id="lessons-semester-select" class="form-select">
+                            <option value="">请先选择学期</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>选择课文（可多选）</label>
+                        <div id="lessons-grid" class="lesson-grid">
+                            <p class="text-gray-500 text-sm col-span-full">请先选择学期</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Custom Source -->
+                <div id="custom-options" class="source-options hidden">
+                    <div class="form-group">
+                        <label for="custom-chars">输入汉字（支持1-100个字）</label>
+                        <textarea id="custom-chars" class="form-textarea" placeholder="请输入要打印的汉字，例如：天地人你我他..."></textarea>
+                        <p class="text-gray-500 text-sm mt-2">已输入 <span id="char-count">0</span>/100 字，推荐单次打印50字以内以获得最佳效果</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section 2: Grid Settings -->
+            <div class="config-section">
+                <div class="section-title">
+                    <span class="section-icon">▦</span>
+                    网格设置
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>网格类型</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="grid-type" value="tian" checked>
+                                <span>田字格</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="grid-type" value="mi">
+                                <span>米字格</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="grid-type" value="square">
+                                <span>方格</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="grid-type" value="none">
+                                <span>无格</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>字体</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="font" value="kaiti" checked>
+                                <span>楷体</span>
+                                <span class="font-preview kaiti">字</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="font" value="songti">
+                                <span>宋体</span>
+                                <span class="font-preview songti">字</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="font" value="heiti">
+                                <span>黑体</span>
+                                <span class="font-preview heiti">字</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="cols-input">每行方格数 <span class="text-gray-400 text-xs">（每行重复1个字）</span></label>
+                        <div class="range-container">
+                            <input type="range" id="cols-input" class="range-input" min="3" max="10" value="5">
+                            <span class="range-value" id="cols-value">5</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>描红深浅</label>
+                        <div class="radio-group">
+                            <label class="radio-label">
+                                <input type="radio" name="trace-opacity" value="0.2">
+                                <span>浅 (20%)</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="trace-opacity" value="0.4" checked>
+                                <span>中 (40%)</span>
+                            </label>
+                            <label class="radio-label">
+                                <input type="radio" name="trace-opacity" value="0.6">
+                                <span>深 (60%)</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="char-size-input">字体大小 <span class="text-gray-400 text-xs">（描红字）</span></label>
+                        <div class="range-container">
+                            <input type="range" id="char-size-input" class="range-input" min="24" max="72" step="4" value="48">
+                            <span class="range-value" id="char-size-value">48px</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section 3: 字配置 -->
+            <div class="config-section">
+                <div class="section-title">
+                    <span class="section-icon">📝</span>
+                    字配置 <span class="text-gray-400 text-xs font-normal">（每行配置）</span>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="example-count">红色示例字</label>
+                        <div class="range-container">
+                            <input type="range" id="example-count" class="range-input" min="0" max="3" value="1">
+                            <span class="range-value" id="example-count-value">1</span>
+                        </div>
+                        <p class="text-gray-400 text-xs mt-1">每行前 N 格显示红色示例</p>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="trace-count">描红字</label>
+                        <div class="range-container">
+                            <input type="range" id="trace-count" class="range-input" min="1" max="10" value="5">
+                            <span class="range-value" id="trace-count-value">5</span>
+                        </div>
+                        <p class="text-gray-400 text-xs mt-1">示例后 N 格显示描红</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section 4: Content Options -->
+            <div class="config-section">
+                <div class="section-title">
+                    <span class="section-icon">✨</span>
+                    内容选项
+                </div>
+
+                <div class="form-group">
+                    <label>显示选项</label>
+                    <div class="checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="show-pinyin" checked>
+                            <span>显示拼音</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>布局模式</label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="layout-mode" value="horizontal" checked>
+                            <span>横向排列</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="layout-mode" value="vertical">
+                            <span>每行一字</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>打印方向</label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="print-orientation" value="landscape" checked>
+                            <span>📄 横版</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="print-orientation" value="portrait">
+                            <span>📄 竖版</span>
+                        </label>
+                    </div>
+                    <p class="text-gray-400 text-xs mt-1">选择打印时的纸张方向</p>
+                </div>
+            </div>
+
+            <!-- Section 4: Actions -->
+            <div class="btn-group">
+                <button id="preview-btn" class="btn btn-secondary">
+                    👁️ 生成预览
+                </button>
+                <button id="print-btn" class="btn btn-primary">
+                    🖨️ 打印字帖
+                </button>
+            </div>
+
+            <p class="text-center text-gray-500 text-xs mt-4">
+                💡 建议使用 A4 纸，横向打印以获得最佳效果
+            </p>
+        </div>
+    </aside>
+
+    <!-- Main Content - Preview Area -->
+    <main class="worksheet-main">
+        <div id="worksheet-preview">
+            <div id="worksheet-container" class="worksheet-container">
+                <!-- Empty State -->
+                <div class="empty-state col-span-full">
+                    <div class="empty-state-icon">📝</div>
+                    <div class="empty-state-title">字帖预览区域</div>
+                    <p>请在左侧配置字帖选项，然后点击"生成预览"查看效果</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="/static/js/worksheet.js"></script>
+{% endblock %}

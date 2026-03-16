@@ -1,0 +1,8 @@
+/* Custom styles */
+.lesson-item:hover {
+    background-color: #f0fdf4;
+}
+
+input[type="checkbox"] {
+    accent-color: #22c55e;
+}

@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+
+{% block title %}英语抽测 - 结果{% endblock %}
+
+{% block content %}
+<div class="max-w-2xl mx-auto">
+    <h1 class="text-3xl font-bold text-gray-800 mb-8 text-center">📊 抽测结果</h1>
+
+    <div id="result-container" class="bg-white rounded-2xl shadow-lg p-8">
+        <div class="text-center text-gray-500">加载中...</div>
+    </div>
+
+    <div class="mt-8 grid grid-cols-2 gap-4">
+        <a href="/english" class="bg-blue-500 hover:bg-blue-600 text-white text-center font-bold py-4 px-8 rounded-xl shadow-lg transition">
+            再测一次
+        </a>
+        <a href="/" class="bg-gray-500 hover:bg-gray-600 text-white text-center font-bold py-4 px-8 rounded-xl shadow-lg transition">
+            返回首页
+        </a>
+    </div>
+</div>
+
+<script>
+const sessionId = new URLSearchParams(window.location.search).get('session');
+
+async function loadResult() {
+    const response = await fetch(`/api/english/quiz/session/${sessionId}`);
+    if (!response.ok) {
+        document.getElementById('result-container').innerHTML = '<div class="text-red-500 text-center">会话不存在或已过期</div>';
+        return;
+    }
+
+    const data = await response.json();
+    const container = document.getElementById('result-container');
+
+    const mastered = data.records.filter(r => r.result === 'mastered').length;
+    const fuzzy = data.records.filter(r => r.result === 'fuzzy').length;
+    const notMastered = data.records.filter(r => r.result === 'not_mastered').length;
+    const accuracy = data.total > 0 ? Math.round((mastered / data.total) * 100) : 0;
+
+    container.innerHTML = `
+        <!-- Stats cards -->
+        <div class="grid grid-cols-3 gap-4 mb-8">
+            <div class="bg-green-100 rounded-xl p-4 text-center">
+                <div class="text-3xl font-bold text-green-600">${mastered}</div>
+                <div class="text-green-700 text-sm">掌握</div>
+            </div>
+            <div class="bg-yellow-100 rounded-xl p-4 text-center">
+                <div class="text-3xl font-bold text-yellow-600">${fuzzy}</div>
+                <div class="text-yellow-700 text-sm">模糊</div>
+            </div>
+            <div class="bg-red-100 rounded-xl p-4 text-center">
+                <div class="text-3xl font-bold text-red-600">${notMastered}</div>
+                <div class="text-red-700 text-sm">未掌握</div>
+            </div>
+        </div>
+
+        <!-- Accuracy bar -->
+        <div class="mb-8">
+            <div class="flex justify-between text-sm text-gray-600 mb-2">
+                <span>正确率</span>
+                <span class="font-bold">${accuracy}%</span>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-4">
+                <div class="bg-blue-500 h-4 rounded-full transition-all duration-1000" style="width: ${accuracy}%"></div>
+            </div>
+        </div>
+
+        <!-- Detailed results -->
+        <h2 class="font-bold text-gray-700 mb-4">详细结果</h2>
+        <div class="space-y-2">
+            ${data.records.map(r => `
+                <div class="flex items-center justify-between p-3 rounded-lg ${
+                    r.result === 'mastered' ? 'bg-green-50' :
+                    r.result === 'fuzzy' ? 'bg-yellow-50' : 'bg-red-50'
+                }">
+                    <div>
+                        <span class="font-bold">${r.word}</span>
+                        <span class="text-gray-500 text-sm ml-2">${r.meaning}</span>
+                    </div>
+                    <span class="text-2xl">
+                        ${r.result === 'mastered' ? '✅' : r.result === 'fuzzy' ? '⚠️' : '❌'}
+                    </span>
+                </div>
+            `).join('')}
+        </div>
+    `;
+}
+
+loadResult();
+</script>
+{% endblock %}
