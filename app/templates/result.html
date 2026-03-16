@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+
+{% block title %}抽测完成 - 结果{% endblock %}
+
+{% block content %}
+<div class="max-w-2xl mx-auto text-center">
+    <div class="text-6xl mb-4">🎉</div>
+    <h1 class="text-3xl font-bold text-gray-800 mb-2">抽测完成！</h1>
+    <p class="text-gray-600 mb-8">你真棒！继续加油 💪</p>
+
+    <!-- Stats Card -->
+    <div class="bg-white rounded-2xl shadow-lg p-6 mb-6">
+        <div class="grid grid-cols-4 gap-4">
+            <div class="text-center">
+                <div id="stat-total" class="text-3xl font-bold text-gray-800">-</div>
+                <div class="text-sm text-gray-500">总数</div>
+            </div>
+            <div class="text-center">
+                <div id="stat-mastered" class="text-3xl font-bold text-green-600">-</div>
+                <div class="text-sm text-gray-500">掌握</div>
+            </div>
+            <div class="text-center">
+                <div id="stat-fuzzy" class="text-3xl font-bold text-yellow-600">-</div>
+                <div class="text-sm text-gray-500">模糊</div>
+            </div>
+            <div class="text-center">
+                <div id="stat-not-mastered" class="text-3xl font-bold text-red-600">-</div>
+                <div class="text-sm text-gray-500">未掌握</div>
+            </div>
+        </div>
+
+        <div class="mt-6 pt-6 border-t">
+            <div class="text-sm text-gray-500">正确率</div>
+            <div id="stat-accuracy" class="text-4xl font-bold text-green-600">-%</div>
+        </div>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="flex space-x-4">
+        <a href="/" class="flex-1 bg-gray-100 hover:bg-gray-200 text-gray-700 font-bold py-4 px-6 rounded-xl transition text-center">返回首页</a>
+        <a href="/mistakes" class="flex-1 bg-red-100 hover:bg-red-200 text-red-700 font-bold py-4 px-6 rounded-xl transition text-center">查看错字</a>
+        <a href="/" class="flex-1 bg-green-500 hover:bg-green-600 text-white font-bold py-4 px-6 rounded-xl transition text-center">再测一次</a>
+    </div>
+</div>
+
+<script>
+const urlParams = new URLSearchParams(window.location.search);
+const sessionId = urlParams.get('session');
+
+async function loadResults() {
+    const response = await fetch('/api/stats');
+    const data = await response.json();
+
+    if (data.daily_stats && data.daily_stats.length > 0) {
+        const today = new Date().toISOString().split('T')[0];
+        const todayStats = data.daily_stats.find(s => s.date === today);
+
+        if (todayStats) {
+            document.getElementById('stat-total').textContent = todayStats.total;
+            document.getElementById('stat-mastered').textContent = todayStats.mastered;
+
+            const fuzzy = Math.floor((todayStats.total - todayStats.mastered) / 2);
+            const notMastered = todayStats.total - todayStats.mastered - fuzzy;
+            document.getElementById('stat-fuzzy').textContent = fuzzy;
+            document.getElementById('stat-not-mastered').textContent = notMastered;
+
+            const accuracy = Math.round((todayStats.mastered / todayStats.total) * 100);
+            document.getElementById('stat-accuracy').textContent = accuracy + '%';
+        }
+    }
+}
+
+loadResults();
+</script>
+{% endblock %}
