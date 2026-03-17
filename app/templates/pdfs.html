@@ -59,11 +59,11 @@ async function loadPdfs() {
                         </div>
                     </div>
                     <div class="flex-1 min-w-0">
-                        <h3 class="text-lg font-semibold text-gray-800 truncate group-hover:text-green-600 transition"
+                        <h3 class="text-lg font-semibold text-gray-800 line-clamp-2 group-hover:text-green-600 transition leading-tight"
                             title="${pdf.filename}">
                             ${pdf.filename.replace('.pdf', '')}
                         </h3>
-                        <p class="text-sm text-gray-500 mt-1">${pdf.size_human}</p>
+                        <p class="text-sm text-gray-500 mt-2">${pdf.size_human}</p>
                     </div>
                 </div>
                 <div class="mt-4 flex items-center text-green-600 text-sm font-medium">
