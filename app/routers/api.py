@@ -1,6 +1,7 @@
 from typing import List, Optional
 from fastapi import APIRouter, HTTPException, Query
 from pydantic import BaseModel
+from pypinyin import pinyin, Style
 
 from app.services.character_service import CharacterService
 from app.services.record_service import RecordService
@@ -138,3 +139,14 @@ async def get_mistakes(semester: Optional[str] = None):
 @router.get("/stats")
 async def get_stats(semester: Optional[str] = None):
     return record_service.get_stats(semester)
+
+
+@router.get("/pinyin")
+async def get_pinyin(chars: str):
+    """获取汉字的拼音（用于自定义输入）"""
+    result = {}
+    for char in chars:
+        if '\u4e00' <= char <= '\u9fff':
+            py = pinyin(char, style=Style.TONE)
+            result[char] = py[0][0] if py else ""
+    return {"pinyin": result}
