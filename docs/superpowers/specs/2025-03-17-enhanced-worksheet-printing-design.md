@@ -29,18 +29,24 @@
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                     字帖打印页面 (/worksheet)                │
-│  ┌─────────────────────────────────────────────────────┐   │
-│  │                  配置面板 (左侧/顶部)                  │   │
-│  │  ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐  │   │
-│  │  │ 数据来源 │ │ 网格设置 │ │ 内容选项 │ │ 预览/打印 │  │   │
-│  │  └─────────┘ └─────────┘ └─────────┘ └─────────┘  │   │
-│  └─────────────────────────────────────────────────────┘   │
-│  ┌─────────────────────────────────────────────────────┐   │
-│  │                  字帖预览区域                        │   │
-│  │   [田字格 + 描红字 + 拼音 + 笔顺]                     │   │
-│  └─────────────────────────────────────────────────────┘   │
+│  ┌──────────────┬─────────────────────────────────────────┐ │
+│  │              │                                         │ │
+│  │   配置面板    │            字帖预览区域                  │ │
+│  │  (左侧边栏)   │         [田字格 + 描红字 + 拼音]          │ │
+│  │              │                                         │ │
+│  │  📚 数据来源  │                                         │ │
+│  │  ▦ 网格设置   │                                         │ │
+│  │  📝 字配置   │                                         │ │
+│  │  ✨ 内容选项  │                                         │ │
+│  │              │                                         │ │
+│  │  [生成预览]  │                                         │ │
+│  │  [打印字帖]  │                                         │ │
+│  │              │                                         │ │
+│  └──────────────┴─────────────────────────────────────────┘ │
 └─────────────────────────────────────────────────────────────┘
 ```
+
+**注**：实际实现为侧边栏布局，非 Tab 切换方式。
 
 ## 配置面板详细设计
 
@@ -71,19 +77,21 @@
   - 黑体: `'SimHei', 'STHeiti', '黑体', sans-serif`
 - 打印时使用 `!important` 确保字体嵌入：`-webkit-print-color-adjust: exact`
 
-### 3. 内容选项 Tab
+### 3. 内容选项
 
 | 配置项 | 说明 | 默认值 |
 |--------|------|--------|
 | 显示拼音 | 在每个汉字上方显示拼音 | 开启 |
-| 显示笔顺 | 在每个汉字下方显示笔顺序号 | 开启 |
-| 笔顺显示方式 | 预览时动画 / 仅静态 | 预览时动画 |
+| 布局模式 | 横向排列 / 每行一字 | 横向排列 |
+| 打印方向 | 横版 / 竖版 | 横版 |
 
-### 4. 预览/打印 Tab
+### 4. 操作按钮
 
 - **生成预览** 按钮：根据配置渲染字帖
-- **打印** 按钮：调用 window.print()
+- **打印字帖** 按钮：调用 window.print()
 - 打印提示：建议使用 A4 纸，横向打印
+
+**注**：配置修改后自动触发生成预览（带防抖），无需手动点击"生成预览"。
 
 ## 字帖样式设计
 
@@ -147,10 +155,10 @@
 
 ```css
 .trace-char {
-  font-family: 'KaiTi', 'STKaiti', serif;
+  font-family: 'KaiTi', 'STKaiti', 'BiauKai', '楷体', serif;
   color: #ccc;
   opacity: 0.4; /* 根据深浅配置调整: 0.2 / 0.4 / 0.6 */
-  font-size: 72px;
+  font-size: var(--char-size, 48px); /* 使用 CSS 变量，默认 48px，范围 24-72px */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -158,70 +166,22 @@
 }
 ```
 
-## Hanzi Writer 集成
+**注**：字体大小可通过滑块调整（24px - 72px，步进 4px），使用 CSS 变量 `--char-size` 实现预览和打印样式同步。
 
-### 加载方式
+## 描红字渲染
 
-```html
-<script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.3/dist/hanzi-writer.min.js"></script>
-```
-
-### 初始化配置
+使用纯 CSS 和字体渲染描红字，无需外部库：
 
 ```javascript
-// 预览模式 - 播放动画
-const writer = HanziWriter.create(container, character, {
-  width: 80,
-  height: 80,
-  padding: 5,
-  strokeAnimationSpeed: 1.5,
-  delayBetweenStrokes: 300,
-  strokeColor: '#333',
-  radicalColor: '#168f16',
-  showCharacter: false,
-  showOutline: true,
-  highlightOnComplete: true
-});
-writer.animateCharacter();
-
-// 打印模式 - 静态描红
-const writerPrint = HanziWriter.create(container, character, {
-  width: 80,
-  height: 80,
-  padding: 5,
-  strokeColor: '#ccc',
-  showCharacter: false,
-  showOutline: true
-});
-writerPrint.showOutline();
+function createTraceChar(character, config) {
+  const traceChar = document.createElement('span');
+  traceChar.className = `trace-char ${config.opacityClass}`;
+  traceChar.textContent = character;
+  return traceChar;
+}
 ```
 
-### Hanzi Writer CDN Fallback
-
-CDN 加载失败时使用降级方案（显示灰色汉字轮廓）：
-
-```javascript
-function loadHanziWriter() {
-  return new Promise((resolve, reject) => {
-    const script = document.createElement('script');
-    script.src = 'https://cdn.jsdelivr.net/npm/hanzi-writer@3.3/dist/hanzi-writer.min.js';
-    script.onload = () => resolve(true);
-    script.onerror = () => resolve(false);
-    document.head.appendChild(script);
-  });
-}
-
-// 降级渲染函数
-function renderFallbackChar(container, character, opacity) {
-  container.innerHTML = `<span class="fallback-char" style="opacity: ${opacity}; font-size: 72px; font-family: 'KaiTi', serif;">${character}</span>`;
-}
-
-// 使用方式
-const hasHanziWriter = await loadHanziWriter();
-if (hasHanziWriter) {
-  // 使用 Hanzi Writer 渲染
-  const writer = HanziWriter.create(container, character, {...});
-} else {
+**第一字红色示例**：每行第一个格子显示红色示例字（`.trace-char.example`），帮助学习者对照书写。
   // 降级显示灰色汉字
   renderFallbackChar(container, character, config.traceOpacity);
   showWarning('笔顺动画加载失败，已使用描红模式');
@@ -342,18 +302,19 @@ function renderWorksheet() {
 
 ### 自定义输入的拼音处理
 
-对于"自定义输入"数据来源，使用 `pypinyin` 库在后端生成拼音：
+对于"自定义输入"数据来源，使用前端缓存机制获取拼音：
 
-```python
-from pypinyin import pinyin, Style
+```javascript
+// 前端缓存已加载字符的拼音
+const pinyinCache = new Map();
 
-def get_pinyin(char):
-    """获取单个汉字的拼音"""
-    result = pinyin(char, style=Style.TONE)
-    return result[0][0] if result else ""
+// 从已加载的字符数据中查找拼音
+function getPinyinFromCache(char) {
+    return pinyinCache.get(char) || '';
+}
 ```
 
-在前端实现：添加 `/api/pinyin?chars=汉字列表` 端点批量获取拼音，避免多次请求。
+**说明**：实际实现中，自定义输入的字符会通过 `/api/characters` 接口查询拼音（利用现有字符数据），不在后端单独实现 `/api/pinyin` 端点。
 
 ## 打印样式设计
 
