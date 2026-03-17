@@ -54,3 +54,10 @@ logs/
 # Environment variables
 .env
 .env.local
+
+# SSH Keys (never commit these)
+github
+github.pub
+*.pem
+*.key
+.ssh/
