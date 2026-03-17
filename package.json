@@ -1,0 +1,27 @@
+{
+  "name": "study-class",
+  "version": "1.0.0",
+  "description": "帮助小学生每日校验汉字掌握情况的 Web 应用程序。",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarowlwp/study-class.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sarowlwp/study-class/issues"
+  },
+  "homepage": "https://github.com/sarowlwp/study-class#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2"
+  }
+}
