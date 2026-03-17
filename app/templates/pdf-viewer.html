@@ -26,6 +26,15 @@
         justify-content: center;
         overflow: auto;
         padding: 20px;
+        gap: 10px;
+    }
+    #overlay-fullscreen .fs-canvas-container canvas {
+        max-height: calc(100vh - 120px);
+        max-width: calc(50vw - 40px);
+        box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    }
+    #overlay-fullscreen .fs-canvas-container canvas:only-child {
+        max-width: calc(100vw - 80px);
     }
     #overlay-fullscreen .fs-controls {
         position: fixed;
@@ -57,11 +66,6 @@
     #overlay-fullscreen .fs-controls button:disabled {
         opacity: 0.5;
         cursor: not-allowed;
-    }
-    #overlay-fullscreen canvas {
-        max-height: calc(100vh - 40px);
-        max-width: calc(100vw - 40px);
-        box-shadow: 0 4px 20px rgba(0,0,0,0.5);
     }
 </style>
 {% endblock %}
@@ -185,6 +189,12 @@
             </svg>
         </button>
         <div class="w-px h-5 bg-gray-500"></div>
+        <button id="fs-toggle-double" title="单页/双页">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+            </svg>
+        </button>
+        <div class="w-px h-5 bg-gray-500"></div>
         <button id="fs-exit" title="退出全屏 (ESC)">
             <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
@@ -239,6 +249,7 @@
     const fsNextBtn = document.getElementById('fs-next');
     const fsExitBtn = document.getElementById('fs-exit');
     const fsPageInfo = document.getElementById('fs-page-info');
+    const fsToggleDoubleBtn = document.getElementById('fs-toggle-double');
     let isOverlayFullscreen = false;
 
     async function loadPdf() {
@@ -429,6 +440,8 @@
         overlayFullscreen.classList.add('active');
         document.body.style.overflow = 'hidden';
         toggleFullscreenBtn.classList.add('bg-green-100', 'text-green-700');
+        // Sync double page button state
+        fsToggleDoubleBtn.classList.toggle('text-green-400', isDoublePage);
         renderFullscreenPages();
         updateFullscreenControls();
     }
@@ -451,9 +464,12 @@
     }
 
     function updateFullscreenControls() {
+        const step = isDoublePage ? 2 : 1;
         fsPageInfo.textContent = `${pageNum} / ${pageCount}`;
         fsPrevBtn.disabled = pageNum <= 1;
         fsNextBtn.disabled = pageNum >= pageCount;
+        // Update double page button visual state
+        fsToggleDoubleBtn.classList.toggle('text-green-400', isDoublePage);
     }
 
     async function renderFullscreenPages() {
@@ -550,6 +566,21 @@
     });
 
     fsExitBtn.addEventListener('click', closeFullscreen);
+
+    fsToggleDoubleBtn.addEventListener('click', () => {
+        isDoublePage = !isDoublePage;
+        // Update both buttons state
+        toggleDoublePageBtn.classList.toggle('bg-green-100', isDoublePage);
+        toggleDoublePageBtn.classList.toggle('text-green-700', isDoublePage);
+        fsToggleDoubleBtn.classList.toggle('text-green-400', isDoublePage);
+        // Re-render current view
+        if (isOverlayFullscreen) {
+            renderFullscreenPages();
+        } else {
+            renderPages();
+        }
+        updateButtons();
+    });
 
     // Handle window resize in fullscreen
     window.addEventListener('resize', () => {
