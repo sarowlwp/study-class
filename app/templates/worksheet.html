@@ -1,0 +1,798 @@
+{% extends "base.html" %}
+
+{% block title %}字帖打印 - 汉字抽测卡{% endblock %}
+
+{% block extra_css %}
+<style>
+/* Config Panel Styles */
+.config-panel {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 24px;
+    overflow: hidden;
+}
+
+.config-tabs {
+    display: flex;
+    background: #f8fafc;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.tab-btn {
+    flex: 1;
+    padding: 16px 12px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    color: #64748b;
+    transition: all 0.2s;
+    border-bottom: 2px solid transparent;
+}
+
+.tab-btn:hover {
+    color: #16a34a;
+    background: #f0fdf4;
+}
+
+.tab-btn.active {
+    color: #16a34a;
+    border-bottom-color: #16a34a;
+    background: white;
+}
+
+.tab-content {
+    padding: 24px;
+}
+
+.tab-content.hidden {
+    display: none;
+}
+
+/* Form Elements */
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #374151;
+}
+
+.form-select,
+.form-input,
+.form-textarea {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border-color 0.2s;
+}
+
+.form-select:focus,
+.form-input:focus,
+.form-textarea:focus {
+    outline: none;
+    border-color: #16a34a;
+    box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.1);
+}
+
+.form-textarea {
+    resize: vertical;
+    min-height: 80px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+/* Radio and Checkbox Groups */
+.radio-group,
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.radio-label,
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    background: #f3f4f6;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.radio-label:hover,
+.checkbox-label:hover {
+    background: #e5e7eb;
+}
+
+.radio-label input,
+.checkbox-label input {
+    margin-right: 6px;
+}
+
+.radio-label input:checked + span,
+.checkbox-label input:checked + span {
+    color: #16a34a;
+    font-weight: 500;
+}
+
+/* Range Input */
+.range-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.range-input {
+    flex: 1;
+    height: 6px;
+    border-radius: 3px;
+    background: #e5e7eb;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.range-input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #16a34a;
+    cursor: pointer;
+}
+
+.range-value {
+    min-width: 40px;
+    text-align: center;
+    font-weight: 500;
+    color: #16a34a;
+}
+
+/* Button Styles */
+.btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: none;
+    font-size: 14px;
+}
+
+.btn-primary {
+    background: #16a34a;
+    color: white;
+}
+
+.btn-primary:hover {
+    background: #15803d;
+}
+
+.btn-secondary {
+    background: #f3f4f6;
+    color: #374151;
+}
+
+.btn-secondary:hover {
+    background: #e5e7eb;
+}
+
+.btn-group {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+/* Worksheet Preview Area */
+#worksheet-preview {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    min-height: 400px;
+}
+
+.worksheet-container {
+    display: grid;
+    grid-template-columns: repeat(var(--cols, 5), 1fr);
+    gap: 10px;
+    max-width: 100%;
+}
+
+/* Character Cell */
+.char-cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pinyin {
+    font-size: 12px;
+    color: #6b7280;
+    margin-bottom: 4px;
+    height: 16px;
+}
+
+.grid-box {
+    position: relative;
+    aspect-ratio: 1;
+    min-width: 60px;
+    max-width: 120px;
+    width: 100%;
+    border: 2px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Tian Zi Ge (田字格) */
+.grid-box.tian {
+    background-image:
+        linear-gradient(to right, #ddd 1px, transparent 1px),
+        linear-gradient(to bottom, #ddd 1px, transparent 1px),
+        linear-gradient(45deg, transparent 49.5%, #eee 49.5%, #eee 50.5%, transparent 50.5%),
+        linear-gradient(-45deg, transparent 49.5%, #eee 49.5%, #eee 50.5%, transparent 50.5%);
+    background-size: 100% 50%, 50% 100%, 100% 100%, 100% 100%;
+    background-position: 0 50%, 50% 0, 0 0, 0 0;
+    background-repeat: no-repeat;
+}
+
+/* Mi Zi Ge (米字格) */
+.grid-box.mi {
+    background-image:
+        linear-gradient(to right, #ddd 1px, transparent 1px),
+        linear-gradient(to bottom, #ddd 1px, transparent 1px),
+        linear-gradient(45deg, transparent 49%, #ccc 49%, #ccc 51%, transparent 51%),
+        linear-gradient(-45deg, transparent 49%, #ccc 49%, #ccc 51%, transparent 51%);
+    background-size: 100% 50%, 50% 100%, 100% 100%, 100% 100%;
+    background-position: 0 50%, 50% 0, 0 0, 0 0;
+    background-repeat: no-repeat;
+}
+
+/* Square (方格) */
+.grid-box.square {
+    /* Only border, no internal lines */
+}
+
+/* None (无格) */
+.grid-box.none {
+    border: none;
+    background: transparent;
+}
+
+/* Trace Character */
+.trace-char {
+    font-family: "KaiTi", "STKaiti", "BiauKai", "楷体", serif;
+    color: #ccc;
+    opacity: 0.4;
+    font-size: 48px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.trace-char.light {
+    opacity: 0.2;
+}
+
+.trace-char.medium {
+    opacity: 0.4;
+}
+
+.trace-char.dark {
+    opacity: 0.6;
+}
+
+/* Stroke Order */
+.stroke-order {
+    font-size: 10px;
+    color: #9ca3af;
+    margin-top: 4px;
+    height: 14px;
+}
+
+/* Hanzi Writer Container */
+.hanzi-writer-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* Error and Warning Messages */
+.message {
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+.message-error {
+    background: #fef2f2;
+    color: #dc2626;
+    border: 1px solid #fecaca;
+}
+
+.message-warning {
+    background: #fffbeb;
+    color: #d97706;
+    border: 1px solid #fcd34d;
+}
+
+.message-info {
+    background: #eff6ff;
+    color: #2563eb;
+    border: 1px solid #bfdbfe;
+}
+
+/* Print Styles */
+@media print {
+    @page {
+        size: A4 landscape;
+        margin: 10mm;
+    }
+
+    /* Hide non-print elements */
+    nav,
+    footer,
+    .config-panel,
+    .no-print,
+    .message {
+        display: none !important;
+    }
+
+    /* Adjust main content */
+    main {
+        max-width: 100% !important;
+        padding: 0 !important;
+    }
+
+    body {
+        background: white !important;
+    }
+
+    /* Adjust preview area */
+    #worksheet-preview {
+        display: block !important;
+        width: 100% !important;
+        padding: 5mm !important;
+        margin: 0 !important;
+        box-shadow: none !important;
+        border-radius: 0 !important;
+    }
+
+    /* Worksheet container */
+    .worksheet-container {
+        display: grid;
+        gap: 8mm;
+        max-width: 277mm;
+    }
+
+    /* Grid boxes */
+    .grid-box {
+        width: 25mm;
+        height: 25mm;
+        border: 0.5mm solid #333;
+        min-width: auto;
+        max-width: none;
+    }
+
+    .grid-box.tian,
+    .grid-box.mi {
+        border-color: #000 !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    /* Trace character */
+    .trace-char {
+        opacity: 0.5 !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+        font-size: 56px;
+    }
+
+    /* Prevent page breaks inside rows */
+    .worksheet-row {
+        page-break-inside: avoid;
+        page-break-after: auto;
+        display: flex;
+        justify-content: flex-start;
+        gap: 8mm;
+        margin-bottom: 8mm;
+    }
+
+    /* Page break utility */
+    .page-break {
+        page-break-before: always;
+    }
+
+    /* Ensure colors print */
+    * {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .config-tabs {
+        flex-wrap: wrap;
+    }
+
+    .tab-btn {
+        flex: 1 1 50%;
+        padding: 12px 8px;
+        font-size: 13px;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .radio-group,
+    .checkbox-group {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .radio-label,
+    .checkbox-label {
+        width: 100%;
+    }
+
+    .worksheet-container {
+        gap: 6px;
+    }
+
+    .grid-box {
+        min-width: 40px;
+    }
+
+    .trace-char {
+        font-size: 32px;
+    }
+}
+
+/* Loading State */
+.loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    color: #6b7280;
+}
+
+.loading::after {
+    content: "";
+    width: 24px;
+    height: 24px;
+    border: 2px solid #e5e7eb;
+    border-top-color: #16a34a;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-left: 12px;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Empty State */
+.empty-state {
+    text-align: center;
+    padding: 48px 24px;
+    color: #6b7280;
+}
+
+.empty-state-icon {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.empty-state-title {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #374151;
+}
+
+/* Lesson Select Grid */
+.lesson-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 8px;
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 8px;
+    background: #f9fafb;
+    border-radius: 8px;
+}
+
+.lesson-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background: white;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+    border: 1px solid #e5e7eb;
+}
+
+.lesson-item:hover {
+    border-color: #16a34a;
+}
+
+.lesson-item.selected {
+    background: #f0fdf4;
+    border-color: #16a34a;
+}
+
+.lesson-item input {
+    margin-right: 8px;
+}
+
+/* Font Preview */
+.font-preview {
+    font-size: 24px;
+    margin-left: 12px;
+    color: #6b7280;
+}
+
+.font-preview.kaiti {
+    font-family: "KaiTi", "STKaiti", "BiauKai", "楷体", serif;
+}
+
+.font-preview.songti {
+    font-family: "SimSun", "STSong", "宋体", serif;
+}
+
+.font-preview.heiti {
+    font-family: "SimHei", "STHeiti", "黑体", sans-serif;
+}
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="worksheet-page">
+    <!-- Config Panel -->
+    <div class="config-panel no-print">
+        <div class="config-tabs">
+            <button class="tab-btn active" data-tab="source">数据来源</button>
+            <button class="tab-btn" data-tab="grid">网格设置</button>
+            <button class="tab-btn" data-tab="content">内容选项</button>
+            <button class="tab-btn" data-tab="print">预览/打印</button>
+        </div>
+
+        <!-- Tab 1: Data Source -->
+        <div class="tab-content" id="source-tab">
+            <div class="form-group">
+                <label>选择数据来源</label>
+                <div class="radio-group">
+                    <label class="radio-label">
+                        <input type="radio" name="source" value="mistakes" checked>
+                        <span>错字本</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="source" value="semester">
+                        <span>指定学期</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="source" value="lessons">
+                        <span>指定课文</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="source" value="custom">
+                        <span>自定义输入</span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- Mistakes Source -->
+            <div id="mistakes-options" class="source-options">
+                <p class="text-gray-600 text-sm">将获取所有标记为"未掌握"的汉字</p>
+            </div>
+
+            <!-- Semester Source -->
+            <div id="semester-options" class="source-options hidden">
+                <div class="form-group">
+                    <label for="semester-select">选择学期</label>
+                    <select id="semester-select" class="form-select">
+                        <option value="">请选择学期</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Lessons Source -->
+            <div id="lessons-options" class="source-options hidden">
+                <div class="form-group">
+                    <label for="lessons-semester-select">选择学期</label>
+                    <select id="lessons-semester-select" class="form-select">
+                        <option value="">请先选择学期</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>选择课文（可多选）</label>
+                    <div id="lessons-grid" class="lesson-grid">
+                        <p class="text-gray-500 text-sm col-span-full">请先选择学期</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Custom Source -->
+            <div id="custom-options" class="source-options hidden">
+                <div class="form-group">
+                    <label for="custom-chars">输入汉字（支持1-100个字）</label>
+                    <textarea id="custom-chars" class="form-textarea" placeholder="请输入要打印的汉字，例如：天地人你我他..."></textarea>
+                    <p class="text-gray-500 text-sm mt-2">已输入 <span id="char-count">0</span>/100 字，推荐单次打印50字以内以获得最佳效果</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab 2: Grid Settings -->
+        <div class="tab-content hidden" id="grid-tab">
+            <div class="form-row">
+                <div class="form-group">
+                    <label>网格类型</label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="grid-type" value="tian" checked>
+                            <span>田字格</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="grid-type" value="mi">
+                            <span>米字格</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="grid-type" value="square">
+                            <span>方格</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="grid-type" value="none">
+                            <span>无格</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>字体</label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="font" value="kaiti" checked>
+                            <span>楷体</span>
+                            <span class="font-preview kaiti">字</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="font" value="songti">
+                            <span>宋体</span>
+                            <span class="font-preview songti">字</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="font" value="heiti">
+                            <span>黑体</span>
+                            <span class="font-preview heiti">字</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="cols-input">每行字数</label>
+                    <div class="range-container">
+                        <input type="range" id="cols-input" class="range-input" min="3" max="10" value="5">
+                        <span class="range-value" id="cols-value">5</span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="rows-input">每页行数</label>
+                    <div class="range-container">
+                        <input type="range" id="rows-input" class="range-input" min="3" max="12" value="6">
+                        <span class="range-value" id="rows-value">6</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>描红深浅</label>
+                <div class="radio-group">
+                    <label class="radio-label">
+                        <input type="radio" name="trace-opacity" value="0.2">
+                        <span>浅 (20%)</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="trace-opacity" value="0.4" checked>
+                        <span>中 (40%)</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="trace-opacity" value="0.6">
+                        <span>深 (60%)</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab 3: Content Options -->
+        <div class="tab-content hidden" id="content-tab">
+            <div class="form-group">
+                <label>显示选项</label>
+                <div class="checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="show-pinyin" checked>
+                        <span>显示拼音</span>
+                    </label>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="show-stroke" checked>
+                        <span>显示笔顺</span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label>笔顺显示方式</label>
+                <div class="radio-group">
+                    <label class="radio-label">
+                        <input type="radio" name="stroke-mode" value="animate" checked>
+                        <span>预览时动画</span>
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="stroke-mode" value="static">
+                        <span>仅静态显示</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab 4: Preview/Print -->
+        <div class="tab-content hidden" id="print-tab">
+            <div class="text-center">
+                <p class="text-gray-600 mb-4">生成字帖预览并打印</p>
+                <p class="text-gray-500 text-sm mb-6">建议使用 A4 纸，横向打印以获得最佳效果</p>
+                <div class="btn-group">
+                    <button id="preview-btn" class="btn btn-secondary">
+                        生成预览
+                    </button>
+                    <button id="print-btn" class="btn btn-primary">
+                        打印字帖
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Preview Area -->
+    <div id="worksheet-preview">
+        <div id="worksheet-container" class="worksheet-container">
+            <!-- Empty State -->
+            <div class="empty-state col-span-full">
+                <div class="empty-state-icon">📝</div>
+                <div class="empty-state-title">字帖预览区域</div>
+                <p>请在上方配置字帖选项，然后点击"生成预览"查看效果</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.3/dist/hanzi-writer.min.js"></script>
+<script src="/static/js/worksheet.js"></script>
+{% endblock %}
