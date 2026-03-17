@@ -230,9 +230,13 @@ const Worksheet = (function() {
                 updateSourceOptions();
 
                 if (state.source === "semester") {
-                    loadSemesters(elements.semesterSelect);
+                    loadSemesters(elements.semesterSelect).then(() => {
+                        generatePreview();
+                    });
                 } else if (state.source === "lessons") {
-                    loadSemesters(elements.lessonsSemesterSelect);
+                    loadSemesters(elements.lessonsSemesterSelect).then(() => {
+                        generatePreview();
+                    });
                 }
 
                 // Auto-trigger preview for custom/mistakes sources (immediate)
