@@ -41,3 +41,8 @@ async def pdfs_page(request: Request):
 @router.get("/pdf-viewer")
 async def pdf_viewer(request: Request, file: str):
     return templates.TemplateResponse("pdf-viewer.html", {"request": request, "filename": file})
+
+
+@router.get("/worksheet")
+async def worksheet_page(request: Request):
+    return templates.TemplateResponse("worksheet.html", {"request": request})
