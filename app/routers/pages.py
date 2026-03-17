@@ -31,3 +31,13 @@ async def mistakes(request: Request):
 @router.get("/print")
 async def print_page(request: Request):
     return templates.TemplateResponse("print.html", {"request": request})
+
+
+@router.get("/pdfs")
+async def pdfs_page(request: Request):
+    return templates.TemplateResponse("pdfs.html", {"request": request})
+
+
+@router.get("/pdf-viewer")
+async def pdf_viewer(request: Request, file: str):
+    return templates.TemplateResponse("pdf-viewer.html", {"request": request, "filename": file})

@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+
+{% block title %}教材预览{% endblock %}
+
+{% block content %}
+<div class="mb-6">
+    <a href="/" class="text-green-600 hover:text-green-700 flex items-center space-x-2">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+        </svg>
+        <span>返回首页</span>
+    </a>
+</div>
+
+<div class="text-center mb-8">
+    <h1 class="text-3xl font-bold text-gray-800 mb-2">📚 教材预览</h1>
+    <p class="text-gray-600">点击卡片查看电子版教材</p>
+</div>
+
+<!-- PDF List -->
+<div id="pdf-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div class="col-span-full text-center py-12">
+        <div class="inline-block animate-spin rounded-full h-8 w-8 border-4 border-green-500 border-t-transparent"></div>
+        <p class="text-gray-500 mt-2">加载中...</p>
+    </div>
+</div>
+
+<!-- Empty State -->
+<div id="empty-state" class="hidden text-center py-12">
+    <div class="text-6xl mb-4">📂</div>
+    <h3 class="text-xl font-medium text-gray-700 mb-2">暂无教材文件</h3>
+    <p class="text-gray-500">请将 PDF 文件放入 data/pdfs 目录</p>
+</div>
+
+<script>
+async function loadPdfs() {
+    try {
+        const response = await fetch('/api/pdfs');
+        const data = await response.json();
+        const container = document.getElementById('pdf-list');
+        const emptyState = document.getElementById('empty-state');
+
+        if (data.pdfs.length === 0) {
+            container.innerHTML = '';
+            emptyState.classList.remove('hidden');
+            return;
+        }
+
+        container.innerHTML = data.pdfs.map(pdf => `
+            <a href="/pdf-viewer?file=${encodeURIComponent(pdf.filename)}"
+               class="block bg-white rounded-xl shadow-lg hover:shadow-xl transition p-6 group">
+                <div class="flex items-start space-x-4">
+                    <div class="flex-shrink-0">
+                        <div class="w-16 h-16 bg-red-100 rounded-lg flex items-center justify-center">
+                            <svg class="w-10 h-10 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4z" clip-rule="evenodd"/>
+                                <path fill-rule="evenodd" d="M8 10a1 1 0 011-1h2a1 1 0 110 2H9a1 1 0 01-1-1z" clip-rule="evenodd"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="flex-1 min-w-0">
+                        <h3 class="text-lg font-semibold text-gray-800 truncate group-hover:text-green-600 transition"
+                            title="${pdf.filename}">
+                            ${pdf.filename.replace('.pdf', '')}
+                        </h3>
+                        <p class="text-sm text-gray-500 mt-1">${pdf.size_human}</p>
+                    </div>
+                </div>
+                <div class="mt-4 flex items-center text-green-600 text-sm font-medium">
+                    <span>点击预览</span>
+                    <svg class="w-4 h-4 ml-1 group-hover:translate-x-1 transition" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                    </svg>
+                </div>
+            </a>
+        `).join('');
+    } catch (error) {
+        console.error('加载 PDF 列表失败:', error);
+        document.getElementById('pdf-list').innerHTML = `
+            <div class="col-span-full text-center py-12 text-red-500">
+                <p>加载失败，请稍后重试</p>
+                <button onclick="loadPdfs()" class="mt-4 px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600">
+                    重新加载
+                </button>
+            </div>
+        `;
+    }
+}
+
+loadPdfs();
+</script>
+{% endblock %}

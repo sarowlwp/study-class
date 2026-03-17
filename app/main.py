@@ -12,6 +12,7 @@ app = FastAPI(
 )
 
 app.mount("/static", StaticFiles(directory=BASE_DIR / "app" / "static"), name="static")
+app.mount("/data/pdfs", StaticFiles(directory=BASE_DIR / "data" / "pdfs"), name="pdfs")
 app.include_router(pages.router)
 app.include_router(api.router, prefix="/api")
 

@@ -5,6 +5,7 @@ from pydantic import BaseModel
 from app.services.character_service import CharacterService
 from app.services.record_service import RecordService
 from app.services.quiz_service import QuizService
+from app.services.pdf_service import get_pdf_files
 from app.models.record import ResultType
 
 router = APIRouter()
@@ -12,6 +13,12 @@ router = APIRouter()
 char_service = CharacterService()
 record_service = RecordService()
 quiz_service = QuizService(char_service, record_service)
+
+
+@router.get("/pdfs")
+async def get_pdfs():
+    """获取 PDF 文件列表"""
+    return {"pdfs": get_pdf_files()}
 
 
 class StartQuizRequest(BaseModel):

@@ -1,0 +1,176 @@
+{% extends "base.html" %}
+
+{% block title %}PDF 预览 - {{ filename }}{% endblock %}
+
+{% block content %}
+<!-- Toolbar -->
+<div class="bg-white rounded-xl shadow-lg p-4 mb-4 sticky top-4 z-10">
+    <div class="flex flex-wrap items-center justify-between gap-4">
+        <!-- Left: Back & Title -->
+        <div class="flex items-center space-x-4 flex-1 min-w-0">
+            <a href="/pdfs" class="flex-shrink-0 p-2 hover:bg-gray-100 rounded-lg transition">
+                <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+                </svg>
+            </a>
+            <h1 class="text-lg font-semibold text-gray-800 truncate" title="{{ filename }}">
+                {{ filename.replace('.pdf', '') }}
+            </h1>
+        </div>
+
+        <!-- Center: Page Navigation -->
+        <div class="flex items-center space-x-2">
+            <button id="prev-page" class="p-2 hover:bg-gray-100 rounded-lg disabled:opacity-50" disabled>
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+                </svg>
+            </button>
+            <span class="text-sm text-gray-600">
+                <span id="page-num">-</span> / <span id="page-count">-</span>
+            </span>
+            <button id="next-page" class="p-2 hover:bg-gray-100 rounded-lg disabled:opacity-50" disabled>
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                </svg>
+            </button>
+        </div>
+
+        <!-- Right: Zoom & Download -->
+        <div class="flex items-center space-x-2">
+            <button id="zoom-out" class="p-2 hover:bg-gray-100 rounded-lg" title="缩小">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 12H4"/>
+                </svg>
+            </button>
+            <span id="zoom-level" class="text-sm text-gray-600 w-16 text-center">100%</span>
+            <button id="zoom-in" class="p-2 hover:bg-gray-100 rounded-lg" title="放大">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"/>
+                </svg>
+            </button>
+            <div class="w-px h-6 bg-gray-300 mx-2"></div>
+            <a href="/data/pdfs/{{ filename }}" download class="p-2 hover:bg-gray-100 rounded-lg text-green-600" title="下载">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- PDF Viewer -->
+<div class="bg-gray-100 rounded-xl p-4 min-h-[600px] flex items-center justify-center">
+    <div id="loading" class="text-center">
+        <div class="inline-block animate-spin rounded-full h-12 w-12 border-4 border-green-500 border-t-transparent"></div>
+        <p class="text-gray-500 mt-4">加载 PDF 中...</p>
+    </div>
+    <canvas id="pdf-canvas" class="max-w-full shadow-lg hidden"></canvas>
+    <div id="error" class="hidden text-center text-red-500">
+        <p class="text-lg mb-2">加载失败</p>
+        <p class="text-sm">无法加载 PDF 文件，请检查文件是否存在</p>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
+
+    const filename = '{{ filename }}';
+    const pdfPath = `/data/pdfs/${encodeURIComponent(filename)}`;
+
+    let pdfDoc = null;
+    let pageNum = 1;
+    let pageCount = 0;
+    let scale = 1.0;
+    let canvas = document.getElementById('pdf-canvas');
+    let ctx = canvas.getContext('2d');
+
+    const loadingEl = document.getElementById('loading');
+    const errorEl = document.getElementById('error');
+    const prevBtn = document.getElementById('prev-page');
+    const nextBtn = document.getElementById('next-page');
+    const pageNumEl = document.getElementById('page-num');
+    const pageCountEl = document.getElementById('page-count');
+    const zoomInBtn = document.getElementById('zoom-in');
+    const zoomOutBtn = document.getElementById('zoom-out');
+    const zoomLevelEl = document.getElementById('zoom-level');
+
+    async function loadPdf() {
+        try {
+            pdfDoc = await pdfjsLib.getDocument(pdfPath).promise;
+            pageCount = pdfDoc.numPages;
+            pageCountEl.textContent = pageCount;
+
+            loadingEl.classList.add('hidden');
+            canvas.classList.remove('hidden');
+
+            renderPage(pageNum);
+            updateButtons();
+        } catch (error) {
+            console.error('PDF 加载失败:', error);
+            loadingEl.classList.add('hidden');
+            errorEl.classList.remove('hidden');
+        }
+    }
+
+    async function renderPage(num) {
+        const page = await pdfDoc.getPage(num);
+        const viewport = page.getViewport({ scale });
+
+        canvas.height = viewport.height;
+        canvas.width = viewport.width;
+
+        const renderContext = {
+            canvasContext: ctx,
+            viewport: viewport
+        };
+
+        await page.render(renderContext).promise;
+        pageNumEl.textContent = num;
+    }
+
+    function updateButtons() {
+        prevBtn.disabled = pageNum <= 1;
+        nextBtn.disabled = pageNum >= pageCount;
+    }
+
+    prevBtn.addEventListener('click', () => {
+        if (pageNum > 1) {
+            pageNum--;
+            renderPage(pageNum);
+            updateButtons();
+        }
+    });
+
+    nextBtn.addEventListener('click', () => {
+        if (pageNum < pageCount) {
+            pageNum++;
+            renderPage(pageNum);
+            updateButtons();
+        }
+    });
+
+    zoomInBtn.addEventListener('click', () => {
+        scale = Math.min(scale + 0.25, 3.0);
+        zoomLevelEl.textContent = Math.round(scale * 100) + '%';
+        renderPage(pageNum);
+    });
+
+    zoomOutBtn.addEventListener('click', () => {
+        scale = Math.max(scale - 0.25, 0.5);
+        zoomLevelEl.textContent = Math.round(scale * 100) + '%';
+        renderPage(pageNum);
+    });
+
+    // Keyboard shortcuts
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowLeft' && !prevBtn.disabled) {
+            prevBtn.click();
+        } else if (e.key === 'ArrowRight' && !nextBtn.disabled) {
+            nextBtn.click();
+        }
+    });
+
+    loadPdf();
+</script>
+{% endblock %}
