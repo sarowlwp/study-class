@@ -560,9 +560,9 @@ const Worksheet = (function() {
     }
 
     /**
-     * Validate custom characters
+     * Validate custom characters and fetch pinyin
      */
-    function validateCustomChars() {
+    async function validateCustomChars() {
         if (state.source !== "custom") return true;
 
         if (!state.customChars || state.customChars.length === 0) {
@@ -575,7 +575,24 @@ const Worksheet = (function() {
             return false;
         }
 
-        return true;
+        // 获取拼音
+        try {
+            const response = await fetch(`/api/pinyin?chars=${encodeURIComponent(state.customChars)}`);
+            if (!response.ok) throw new Error("获取拼音失败");
+            const data = await response.json();
+
+            // 缓存拼音数据
+            const pinyinData = data.pinyin || {};
+            for (const [char, py] of Object.entries(pinyinData)) {
+                pinyinCache.set(char, py);
+            }
+
+            return true;
+        } catch (error) {
+            console.error("Error fetching pinyin in validation:", error);
+            // 如果拼音获取失败，仍然允许继续
+            return true;
+        }
     }
 
     // =========================================================================
@@ -588,7 +605,7 @@ const Worksheet = (function() {
     async function generatePreview() {
         hideMessage();
 
-        if (state.source === "custom" && !validateCustomChars()) {
+        if (state.source === "custom" && !await validateCustomChars()) {
             return;
         }
 
