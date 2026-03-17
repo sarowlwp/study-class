@@ -24,7 +24,17 @@ const Worksheet = (function() {
         try {
             const saved = localStorage.getItem(STORAGE_KEY);
             if (saved) {
-                return JSON.parse(saved);
+                const config = JSON.parse(saved);
+                // Clean up corrupted data - selectedSemester should be a string
+                if (config.selectedSemester && typeof config.selectedSemester !== "string") {
+                    console.warn("Cleaning corrupted selectedSemester:", config.selectedSemester);
+                    config.selectedSemester = "";
+                }
+                // selectedLessons should be an array of strings
+                if (config.selectedLessons && Array.isArray(config.selectedLessons)) {
+                    config.selectedLessons = config.selectedLessons.filter(l => typeof l === "string");
+                }
+                return config;
             }
         } catch (e) {
             console.warn("Failed to load saved config:", e);
@@ -37,14 +47,27 @@ const Worksheet = (function() {
      */
     function saveConfig(config) {
         try {
-            localStorage.setItem(STORAGE_KEY, JSON.stringify(config));
+            // Validate before saving - ensure selectedSemester is a string
+            const configToSave = { ...config };
+            if (configToSave.selectedSemester && typeof configToSave.selectedSemester !== "string") {
+                console.error("Preventing save of corrupted selectedSemester:", configToSave.selectedSemester);
+                configToSave.selectedSemester = "";
+            }
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(configToSave));
         } catch (e) {
             console.warn("Failed to save config:", e);
         }
     }
 
     // Load saved config or use defaults
-    const savedConfig = loadSavedConfig();
+    let savedConfig = loadSavedConfig();
+
+    // Clear corrupted data if needed (remove this after testing)
+    if (savedConfig?.selectedSemester === "[object Object]") {
+        console.warn("Clearing corrupted localStorage data");
+        localStorage.removeItem(STORAGE_KEY);
+        savedConfig = null;
+    }
 
     // =========================================================================
     // Configuration State
@@ -54,13 +77,15 @@ const Worksheet = (function() {
         gridType: savedConfig?.gridType || "tian",
         font: savedConfig?.font || "kaiti",
         cols: savedConfig?.cols || 5,
-        rows: savedConfig?.rows || 6,
         traceOpacity: savedConfig?.traceOpacity || 0.4,
+        charSize: savedConfig?.charSize || 48,
         showPinyin: savedConfig?.showPinyin !== undefined ? savedConfig.showPinyin : true,
-        showStroke: savedConfig?.showStroke !== undefined ? savedConfig.showStroke : true,
-        strokeMode: savedConfig?.strokeMode || "animate",
-        selectedSemester: "",
-        selectedLessons: [],
+        layoutMode: savedConfig?.layoutMode || "horizontal",
+        printOrientation: savedConfig?.printOrientation || "landscape",
+        exampleCount: savedConfig?.exampleCount || 1,
+        traceCount: savedConfig?.traceCount || 5,
+        selectedSemester: savedConfig?.selectedSemester || "",
+        selectedLessons: savedConfig?.selectedLessons || [],
         customChars: "",
         characters: [],
         isLoading: false
@@ -97,14 +122,18 @@ const Worksheet = (function() {
             fontInputs: document.querySelectorAll('input[name="font"]'),
             colsInput: document.getElementById("cols-input"),
             colsValue: document.getElementById("cols-value"),
-            rowsInput: document.getElementById("rows-input"),
-            rowsValue: document.getElementById("rows-value"),
             traceOpacityInputs: document.querySelectorAll('input[name="trace-opacity"]'),
+            charSizeInput: document.getElementById("char-size-input"),
+            charSizeValue: document.getElementById("char-size-value"),
 
             // Content options
             showPinyin: document.getElementById("show-pinyin"),
-            showStroke: document.getElementById("show-stroke"),
-            strokeModeInputs: document.querySelectorAll('input[name="stroke-mode"]'),
+            layoutModeInputs: document.querySelectorAll('input[name="layout-mode"]'),
+            printOrientationInputs: document.querySelectorAll('input[name="print-orientation"]'),
+            exampleCountInput: document.getElementById("example-count"),
+            exampleCountValue: document.getElementById("example-count-value"),
+            traceCountInput: document.getElementById("trace-count"),
+            traceCountValue: document.getElementById("trace-count-value"),
 
             // Buttons
             previewBtn: document.getElementById("preview-btn"),
@@ -208,14 +237,22 @@ const Worksheet = (function() {
             });
         });
 
+        // Semester select for single semester source
+        elements.semesterSelect?.addEventListener("change", (e) => {
+            state.selectedSemester = e.target.value;
+            saveConfig(getCurrentConfig());
+        });
+
         // Semester select for lessons
         elements.lessonsSemesterSelect?.addEventListener("change", (e) => {
             state.selectedSemester = e.target.value;
+            saveConfig(getCurrentConfig());
             if (state.selectedSemester) {
                 loadLessons(state.selectedSemester);
             } else {
                 elements.lessonsGrid.innerHTML = '<p class="text-gray-500 text-sm col-span-full">请先选择学期</p>';
                 state.selectedLessons = [];
+                saveConfig(getCurrentConfig());
             }
         });
 
@@ -283,13 +320,6 @@ const Worksheet = (function() {
             saveConfig(getCurrentConfig());
         });
 
-        // Rows
-        elements.rowsInput?.addEventListener("input", (e) => {
-            state.rows = parseInt(e.target.value, 10);
-            elements.rowsValue.textContent = state.rows;
-            saveConfig(getCurrentConfig());
-        });
-
         // Trace opacity
         elements.traceOpacityInputs.forEach(input => {
             input.addEventListener("change", () => {
@@ -299,6 +329,25 @@ const Worksheet = (function() {
                 }
             });
         });
+
+        // Char size
+        if (elements.charSizeInput) {
+            elements.charSizeInput.addEventListener("input", debounce((e) => {
+                state.charSize = parseInt(e.target.value, 10);
+                if (elements.charSizeValue) {
+                    elements.charSizeValue.textContent = state.charSize + "px";
+                }
+                saveConfig(getCurrentConfig());
+                updateCharSize();
+                generatePreview();
+            }, 200));
+        }
+    }
+
+    function updateCharSize() {
+        if (elements.worksheetContainer) {
+            elements.worksheetContainer.style.setProperty("--char-size", state.charSize + "px");
+        }
     }
 
     // =========================================================================
@@ -312,20 +361,49 @@ const Worksheet = (function() {
             saveConfig(getCurrentConfig());
         });
 
-        // Show stroke
-        elements.showStroke?.addEventListener("change", (e) => {
-            state.showStroke = e.target.checked;
-            saveConfig(getCurrentConfig());
-        });
-
-        // Stroke mode
-        elements.strokeModeInputs?.forEach(input => {
+        // Layout mode
+        elements.layoutModeInputs?.forEach(input => {
             input.addEventListener("change", () => {
                 if (input.checked) {
-                    state.strokeMode = input.value;
+                    state.layoutMode = input.value;
+                    // Auto adjust columns based on layout
+                    if (state.layoutMode === "vertical") {
+                        state.cols = 1;
+                        if (elements.colsInput) elements.colsInput.value = 1;
+                        if (elements.colsValue) elements.colsValue.textContent = 1;
+                    }
                     saveConfig(getCurrentConfig());
                 }
             });
+        });
+
+        // Print orientation
+        elements.printOrientationInputs?.forEach(input => {
+            input.addEventListener("change", () => {
+                if (input.checked) {
+                    state.printOrientation = input.value;
+                    updatePrintOrientation();
+                    saveConfig(getCurrentConfig());
+                }
+            });
+        });
+
+        // Example count
+        elements.exampleCountInput?.addEventListener("input", (e) => {
+            state.exampleCount = parseInt(e.target.value, 10);
+            if (elements.exampleCountValue) {
+                elements.exampleCountValue.textContent = state.exampleCount;
+            }
+            saveConfig(getCurrentConfig());
+        });
+
+        // Trace count
+        elements.traceCountInput?.addEventListener("input", (e) => {
+            state.traceCount = parseInt(e.target.value, 10);
+            if (elements.traceCountValue) {
+                elements.traceCountValue.textContent = state.traceCount;
+            }
+            saveConfig(getCurrentConfig());
         });
     }
 
@@ -344,6 +422,7 @@ const Worksheet = (function() {
 
     /**
      * Load semesters from API
+     * API returns: [{"id": "...", "name": "...", "file": "...", "total_chars": N}, ...]
      */
     async function loadSemesters(selectElement) {
         if (!selectElement) return;
@@ -359,8 +438,14 @@ const Worksheet = (function() {
             selectElement.innerHTML = '<option value="">请选择学期</option>';
             semesters.forEach(sem => {
                 const option = document.createElement("option");
-                option.value = sem;
-                option.textContent = sem;
+                // Handle both object format and string format
+                if (typeof sem === "object" && sem !== null) {
+                    option.value = sem.id || sem.name || "";
+                    option.textContent = sem.name || sem.id || "";
+                } else {
+                    option.value = sem;
+                    option.textContent = sem;
+                }
                 selectElement.appendChild(option);
             });
         } catch (error) {
@@ -373,6 +458,7 @@ const Worksheet = (function() {
 
     /**
      * Load lessons for a semester
+     * API returns: [{"id": "...", "name": "...", "char_count": N, "mastered_count": N}, ...]
      */
     async function loadLessons(semester) {
         if (!elements.lessonsGrid) return;
@@ -387,7 +473,6 @@ const Worksheet = (function() {
             const lessons = data.lessons || [];
 
             elements.lessonsGrid.innerHTML = "";
-            state.selectedLessons = [];
 
             if (lessons.length === 0) {
                 elements.lessonsGrid.innerHTML = '<p class="text-gray-500 text-sm col-span-full">该学期暂无课文</p>';
@@ -398,21 +483,27 @@ const Worksheet = (function() {
                 const item = document.createElement("label");
                 item.className = "lesson-item";
 
+                // Handle both object format and string format
+                // API returns: {id, name, char_count, mastered_count}
+                // Note: id is generated (lesson-1, lesson-2), but API needs 'name' for filtering
+                const lessonName = typeof lesson === "object" && lesson !== null ? lesson.name || lesson.id || "" : lesson;
+
                 const checkbox = document.createElement("input");
                 checkbox.type = "checkbox";
-                checkbox.value = lesson;
+                checkbox.value = lessonName;  // Use name for API compatibility
                 checkbox.addEventListener("change", () => {
                     if (checkbox.checked) {
-                        state.selectedLessons.push(lesson);
+                        state.selectedLessons.push(lessonName);
                         item.classList.add("selected");
                     } else {
-                        state.selectedLessons = state.selectedLessons.filter(l => l !== lesson);
+                        state.selectedLessons = state.selectedLessons.filter(l => l !== lessonName);
                         item.classList.remove("selected");
                     }
+                    saveConfig(getCurrentConfig());
                 });
 
                 const span = document.createElement("span");
-                span.textContent = lesson;
+                span.textContent = lessonName;
 
                 item.appendChild(checkbox);
                 item.appendChild(span);
@@ -478,16 +569,20 @@ const Worksheet = (function() {
      */
     async function fetchSemesterCharacters() {
         const semester = elements.semesterSelect?.value;
+        console.log("Fetching semester characters for semester ID:", semester);
         if (!semester) {
             showWarning("请先选择学期");
             return [];
         }
 
         try {
-            const response = await fetch(`/api/characters?semester=${encodeURIComponent(semester)}`);
+            const url = `/api/characters?semester=${encodeURIComponent(semester)}`;
+            console.log("API URL:", url);
+            const response = await fetch(url);
             if (!response.ok) throw new Error("Failed to fetch characters");
 
             const data = await response.json();
+            console.log("Fetched characters:", data.characters?.length);
             return data.characters || [];
         } catch (error) {
             console.error("Error fetching semester characters:", error);
@@ -500,7 +595,10 @@ const Worksheet = (function() {
      * Fetch characters for selected lessons
      */
     async function fetchLessonCharacters() {
-        if (!state.selectedSemester) {
+        const semester = state.selectedSemester || elements.lessonsSemesterSelect?.value;
+        console.log("Fetching lesson characters:", { semester, selectedLessons: state.selectedLessons });
+
+        if (!semester) {
             showWarning("请先选择学期");
             return [];
         }
@@ -513,7 +611,7 @@ const Worksheet = (function() {
         try {
             const lessonsParam = state.selectedLessons.join(",");
             const response = await fetch(
-                `/api/characters?semester=${encodeURIComponent(state.selectedSemester)}&lessons=${encodeURIComponent(lessonsParam)}`
+                `/api/characters?semester=${encodeURIComponent(semester)}&lessons=${encodeURIComponent(lessonsParam)}`
             );
             if (!response.ok) throw new Error("Failed to fetch characters");
 
@@ -627,13 +725,20 @@ const Worksheet = (function() {
     async function generatePreview() {
         hideMessage();
 
+        console.log("Generating preview with source:", state.source, "state:", {
+            selectedSemester: state.selectedSemester,
+            selectedLessons: state.selectedLessons,
+            semesterSelectValue: elements.semesterSelect?.value,
+            lessonsSemesterSelectValue: elements.lessonsSemesterSelect?.value
+        });
+
         if (state.source === "custom" && !await validateCustomChars()) {
             return;
         }
 
         showLoading();
 
-        const characters = await fetchCharacters();
+        let characters = await fetchCharacters();
 
         if (characters.length === 0) {
             elements.worksheetContainer.innerHTML = `
@@ -647,6 +752,9 @@ const Worksheet = (function() {
             return;
         }
 
+        // 获取笔顺信息
+        characters = await fetchStrokeData(characters);
+
         state.characters = characters;
         renderWorksheet();
         hideLoading();
@@ -654,77 +762,123 @@ const Worksheet = (function() {
 
     /**
      * Render the worksheet
+     *
+     * 新逻辑：每行只重复练习1个字
+     * - 每行字数（cols）指的是每行的方格数量
+     * - 每行使用同一个字重复
+     * - 每个字占一行，然后根据配置每行显示多个格子
      */
     function renderWorksheet() {
         const container = elements.worksheetContainer;
         container.innerHTML = "";
 
-        // Set grid columns
-        container.style.setProperty("--cols", state.cols);
+        // Set grid columns based on layout mode
+        const cols = state.layoutMode === "vertical" ? 1 : state.cols;
+        container.style.setProperty("--cols", cols);
 
-        // Calculate total cells needed
-        const totalCells = state.cols * state.rows;
+        // 计算总行数：根据字数和每行显示的格子数
+        // 每个字占一行，每行有 cols 个格子
+        const totalRows = state.characters.length;
+        const cellsPerRow = cols;
 
-        // Create cells for each character (repeating if necessary)
-        for (let i = 0; i < totalCells; i++) {
-            const charIndex = i % state.characters.length;
-            const charData = state.characters[charIndex];
-            const cell = createCharCell(charData, i);
-            container.appendChild(cell);
+        // Create cells - 每行重复同一个字，每行上方插入信息展示区域
+        for (let row = 0; row < totalRows; row++) {
+            const charData = state.characters[row];
+
+            // 在每行之前插入信息展示区域
+            const infoRow = createInfoRow(charData);
+            container.appendChild(infoRow);
+
+            // 创建练习格子（一行）
+            for (let col = 0; col < cellsPerRow; col++) {
+                const cellIndex = row * cellsPerRow + col;
+                const cell = createCharCell(charData, cellIndex, col);
+                container.appendChild(cell);
+            }
         }
 
-        // Initialize Hanzi Writer for stroke animations if enabled
-        if (state.showStroke && state.strokeMode === "animate") {
-            initHanziWriters();
-        }
     }
 
     /**
      * Create a character cell
+     *
+     * @param {Object} charData - 汉字数据
+     * @param {number} globalIndex - 全局索引（用于唯一ID）
+     * @param {number} colIndex - 当前行内的列索引（0-based），用于判断格子类型
      */
-    function createCharCell(charData, index) {
+    function createCharCell(charData, globalIndex, colIndex) {
         const cell = document.createElement("div");
         cell.className = "char-cell";
-
-        // Pinyin
-        if (state.showPinyin) {
-            const pinyin = document.createElement("div");
-            pinyin.className = "pinyin";
-            pinyin.textContent = charData.pinyin || "";
-            cell.appendChild(pinyin);
-        }
 
         // Grid box
         const gridBox = document.createElement("div");
         gridBox.className = `grid-box ${state.gridType}`;
 
+        // 使用 colIndex（当前行内的位置）判断格子类型
+        // 0 to exampleCount-1: example (red)
+        // exampleCount to exampleCount+traceCount-1: trace (gray with character)
+        // rest: blank (empty grid)
+        const isExample = colIndex < state.exampleCount;
+        const isTrace = colIndex >= state.exampleCount && colIndex < state.exampleCount + state.traceCount;
+
         // Trace character
         const traceChar = document.createElement("span");
-        traceChar.className = `trace-char ${getOpacityClass()}`;
-        traceChar.style.fontFamily = getFontFamily();
-        traceChar.textContent = charData.char;
-        gridBox.appendChild(traceChar);
-
-        // Hanzi Writer container (if stroke animation enabled)
-        if (state.showStroke && state.strokeMode === "animate") {
-            const writerContainer = document.createElement("div");
-            writerContainer.className = "hanzi-writer-container";
-            writerContainer.id = `hanzi-writer-${index}`;
-            writerContainer.dataset.char = charData.char;
-            gridBox.appendChild(writerContainer);
+        if (isExample) {
+            traceChar.className = "trace-char example";
+            traceChar.style.fontFamily = getFontFamily();
+            traceChar.textContent = charData.char;
+        } else if (isTrace) {
+            traceChar.className = `trace-char ${getOpacityClass()}`;
+            traceChar.style.fontFamily = getFontFamily();
+            traceChar.textContent = charData.char;
+        }
+        // For blank cells, don't add traceChar
+        if (isExample || isTrace) {
+            gridBox.appendChild(traceChar);
         }
 
         cell.appendChild(gridBox);
 
-        // Stroke order number (if static mode)
-        if (state.showStroke && state.strokeMode === "static" && charData.stroke_count) {
-            const strokeOrder = document.createElement("div");
-            strokeOrder.className = "stroke-order";
-            strokeOrder.textContent = `${charData.stroke_count} 画`;
-            cell.appendChild(strokeOrder);
+        return cell;
+    }
+
+    /**
+     * Create info row - 在每行之间展示拼音和笔顺信息
+     * 跨满整行，高度为田字格的 1/4，左对齐，红色文字
+     */
+    function createInfoRow(charData) {
+        const infoRow = document.createElement("div");
+        infoRow.className = "info-row";
+        infoRow.style.gridColumn = "1 / -1"; // 跨满整行
+
+        // 拼音（红色）
+        if (state.showPinyin && charData.pinyin) {
+            const pinyin = document.createElement("span");
+            pinyin.className = "info-pinyin";
+            pinyin.textContent = charData.pinyin;
+            infoRow.appendChild(pinyin);
         }
 
-        return cell;
+        // 分隔符
+        const separator = document.createElement("span");
+        separator.className = "info-separator";
+        separator.textContent = "·";
+        infoRow.appendChild(separator);
+
+        // 笔顺拆解（红色 SVG）
+        if (charData.stroke_svgs && charData.stroke_svgs.length > 0) {
+            const strokesContainer = document.createElement("span");
+            strokesContainer.className = "info-strokes";
+            charData.stroke_svgs.forEach((svg) => {
+                const strokeSpan = document.createElement("span");
+                strokeSpan.className = "stroke-item";
+                strokeSpan.innerHTML = svg;
+                strokesContainer.appendChild(strokeSpan);
+            });
+            infoRow.appendChild(strokesContainer);
+        }
+
+        return infoRow;
     }
 
     /**
@@ -748,53 +902,89 @@ const Worksheet = (function() {
         return fontMap[state.font] || fontMap.kaiti;
     }
 
+    // =========================================================================
+    // Stroke Data Fetching
+    // =========================================================================
+
     /**
-     * Initialize Hanzi Writer instances
+     * Fetch stroke data for characters using Hanzi Writer data
+     * @param {Array} characters - Character objects
+     * @returns {Array} Characters with stroke_svgs added (逐步叠加)
      */
-    function initHanziWriters() {
-        if (typeof HanziWriter === "undefined") {
-            console.warn("Hanzi Writer not loaded");
-            return;
-        }
+    async function fetchStrokeData(characters) {
+        const baseUrl = "https://cdn.jsdelivr.net/npm/hanzi-writer-data@latest";
 
-        const containers = document.querySelectorAll(".hanzi-writer-container");
-        containers.forEach((container, index) => {
-            const char = container.dataset.char;
-            if (!char) return;
+        // 为每个字符获取笔顺数据
+        const promises = characters.map(async (charObj) => {
+            const char = charObj.char;
+            try {
+                const response = await fetch(`${baseUrl}/${char}.json`);
+                if (response.ok) {
+                    const data = await response.json();
+                    // 生成逐步叠加的 SVG: 第1步=第1笔, 第2步=前2笔, ...
+                    const strokeSvgs = [];
+                    if (data.strokes && data.strokes.length > 0) {
+                        const size = 24; // 小尺寸用于展示
+                        const totalStrokes = data.strokes.length;
 
-            // Delay initialization for performance
-            setTimeout(() => {
-                try {
-                    const writer = HanziWriter.create(container.id, char, {
-                        width: 80,
-                        height: 80,
-                        padding: 5,
-                        strokeAnimationSpeed: 1,
-                        delayBetweenStrokes: 1000,
-                        strokeColor: "#333",
-                        radicalColor: "#333",
-                        highlightColor: "#16a34a",
-                        outlineColor: "transparent",
-                        drawingColor: "#333",
-                        showCharacter: false,
-                        showOutline: false,
-                        showHintAfterMisses: 3,
-                        highlightOnComplete: true,
-                        highlightCompleteColor: "#16a34a"
-                    });
+                        // 为每个步骤生成 SVG（逐步叠加）
+                        for (let step = 1; step <= totalStrokes; step++) {
+                            // 收集当前步骤的所有笔画（前 step 笔）
+                            const paths = [];
+                            for (let i = 0; i < step; i++) {
+                                paths.push(`<path d="${data.strokes[i]}" fill="#ef4444" stroke="none"/>`);
+                            }
 
-                    // Auto animate on load
-                    writer.animateCharacter();
-                } catch (error) {
-                    console.error(`Failed to initialize Hanzi Writer for ${char}:`, error);
+                            // 添加 transform 修正 Y 轴翻转（倒立问题）
+                            const svg = `<svg width="${size}" height="${size}" viewBox="0 0 1024 1024"><g transform="translate(0, 1024) scale(1, -1)">${paths.join('')}</g></svg>`;
+                            strokeSvgs.push(svg);
+                        }
+                    }
+                    return {
+                        ...charObj,
+                        stroke_svgs: strokeSvgs
+                    };
                 }
-            }, index * 100);
+            } catch (e) {
+                console.warn(`Failed to fetch stroke data for ${char}:`, e);
+            }
+            // 如果获取失败，返回默认值
+            return {
+                ...charObj,
+                stroke_svgs: []
+            };
         });
+
+        return Promise.all(promises);
     }
 
     // =========================================================================
     // Print Functionality
     // =========================================================================
+
+    /**
+     * Update print orientation CSS
+     */
+    function updatePrintOrientation() {
+        // 查找或创建打印样式表
+        let printStyle = document.getElementById("print-orientation-style");
+        if (!printStyle) {
+            printStyle = document.createElement("style");
+            printStyle.id = "print-orientation-style";
+            document.head.appendChild(printStyle);
+        }
+
+        // 设置纸张方向
+        const orientation = state.printOrientation === "portrait" ? "portrait" : "landscape";
+        printStyle.textContent = `
+            @media print {
+                @page {
+                    size: A4 ${orientation};
+                    margin: 10mm;
+                }
+            }
+        `;
+    }
 
     /**
      * Print the worksheet
@@ -804,6 +994,9 @@ const Worksheet = (function() {
             showWarning("请先生成预览");
             return;
         }
+
+        // 确保打印方向已应用
+        updatePrintOrientation();
 
         // Trigger browser print
         window.print();
@@ -835,14 +1028,10 @@ const Worksheet = (function() {
             fontInput.checked = true;
         }
 
-        // Apply cols and rows
+        // Apply cols
         if (elements.colsInput) {
             elements.colsInput.value = state.cols;
             elements.colsValue.textContent = state.cols;
-        }
-        if (elements.rowsInput) {
-            elements.rowsInput.value = state.rows;
-            elements.rowsValue.textContent = state.rows;
         }
 
         // Apply trace opacity
@@ -855,18 +1044,69 @@ const Worksheet = (function() {
         if (elements.showPinyin) {
             elements.showPinyin.checked = state.showPinyin;
         }
-        if (elements.showStroke) {
-            elements.showStroke.checked = state.showStroke;
+
+        // Apply layout mode
+        const layoutModeInput = document.querySelector(`input[name="layout-mode"][value="${state.layoutMode}"]`);
+        if (layoutModeInput) {
+            layoutModeInput.checked = true;
         }
 
-        // Apply stroke mode
-        const strokeModeInput = document.querySelector(`input[name="stroke-mode"][value="${state.strokeMode}"]`);
-        if (strokeModeInput) {
-            strokeModeInput.checked = true;
+        // Apply print orientation
+        const printOrientationInput = document.querySelector(`input[name="print-orientation"][value="${state.printOrientation}"]`);
+        if (printOrientationInput) {
+            printOrientationInput.checked = true;
         }
+        updatePrintOrientation();
+
+        // Apply example and trace count
+        if (elements.exampleCountInput) {
+            elements.exampleCountInput.value = state.exampleCount;
+            if (elements.exampleCountValue) {
+                elements.exampleCountValue.textContent = state.exampleCount;
+            }
+        }
+        if (elements.traceCountInput) {
+            elements.traceCountInput.value = state.traceCount;
+            if (elements.traceCountValue) {
+                elements.traceCountValue.textContent = state.traceCount;
+            }
+        }
+
+        // Apply char size
+        if (elements.charSizeInput) {
+            elements.charSizeInput.value = state.charSize;
+            elements.charSizeValue.textContent = state.charSize + "px";
+        }
+        updateCharSize();
 
         // Update source options visibility
         updateSourceOptions();
+
+        // Restore semester selections after a short delay to let options load
+        const semesterValue = state.selectedSemester;
+        if (semesterValue && typeof semesterValue === "string") {
+            setTimeout(() => {
+                if (elements.semesterSelect) {
+                    elements.semesterSelect.value = semesterValue;
+                }
+                if (elements.lessonsSemesterSelect) {
+                    elements.lessonsSemesterSelect.value = semesterValue;
+                    // Trigger lessons load if lessons source is active
+                    if (state.source === "lessons" && state.selectedLessons.length > 0) {
+                        loadLessons(semesterValue).then(() => {
+                            // Restore selected lessons checkboxes
+                            const checkboxes = elements.lessonsGrid?.querySelectorAll('input[type="checkbox"]');
+                            checkboxes?.forEach(cb => {
+                                if (state.selectedLessons.includes(cb.value)) {
+                                    cb.checked = true;
+                                    cb.closest('.lesson-item')?.classList.add('selected');
+                                }
+                            });
+                        });
+                    }
+                }
+            }, 100);
+        }
     }
 
     /**
@@ -878,11 +1118,15 @@ const Worksheet = (function() {
             gridType: state.gridType,
             font: state.font,
             cols: state.cols,
-            rows: state.rows,
             traceOpacity: state.traceOpacity,
+            charSize: state.charSize,
             showPinyin: state.showPinyin,
-            showStroke: state.showStroke,
-            strokeMode: state.strokeMode
+            layoutMode: state.layoutMode,
+            printOrientation: state.printOrientation,
+            exampleCount: state.exampleCount,
+            traceCount: state.traceCount,
+            selectedSemester: state.selectedSemester,
+            selectedLessons: state.selectedLessons
         };
     }
 
@@ -896,7 +1140,43 @@ const Worksheet = (function() {
         // Apply saved configuration to UI
         applySavedConfig();
 
+        // Load semesters if needed based on saved source
+        if (state.source === "semester") {
+            loadSemesters(elements.semesterSelect).then(() => {
+                // Restore selected semester value after loading
+                const semester = state.selectedSemester;
+                if (semester && typeof semester === "string" && elements.semesterSelect) {
+                    elements.semesterSelect.value = semester;
+                }
+            });
+        } else if (state.source === "lessons") {
+            loadSemesters(elements.lessonsSemesterSelect).then(() => {
+                // Restore selected semester and load lessons
+                const semester = state.selectedSemester;
+                if (semester && typeof semester === "string" && elements.lessonsSemesterSelect) {
+                    elements.lessonsSemesterSelect.value = semester;
+                    if (state.selectedLessons.length > 0) {
+                        loadLessons(semester).then(() => {
+                            // Restore selected lessons checkboxes
+                            const checkboxes = elements.lessonsGrid?.querySelectorAll('input[type="checkbox"]');
+                            checkboxes?.forEach(cb => {
+                                if (state.selectedLessons.includes(cb.value)) {
+                                    cb.checked = true;
+                                    cb.closest('.lesson-item')?.classList.add('selected');
+                                }
+                            });
+                        });
+                    }
+                }
+            });
+        }
+
         console.log("Worksheet module initialized");
+        console.log("Current state:", {
+            gridType: state.gridType,
+            showPinyin: state.showPinyin,
+            source: state.source
+        });
     }
 
     // =========================================================================
