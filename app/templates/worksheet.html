@@ -790,8 +790,9 @@ main.max-w-4xl {
         min-width: 40px;
     }
 
+    /* 移动端也使用 CSS 变量保持打印一致性 */
     .trace-char {
-        font-size: 32px;
+        font-size: var(--char-size);
     }
 
     #worksheet-preview {
