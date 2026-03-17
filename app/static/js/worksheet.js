@@ -234,6 +234,11 @@ const Worksheet = (function() {
                 } else if (state.source === "lessons") {
                     loadSemesters(elements.lessonsSemesterSelect);
                 }
+
+                // Auto-trigger preview for custom/mistakes sources (immediate)
+                if (state.source === "custom" || state.source === "mistakes") {
+                    generatePreview();
+                }
             });
         });
 
@@ -241,6 +246,7 @@ const Worksheet = (function() {
         elements.semesterSelect?.addEventListener("change", (e) => {
             state.selectedSemester = e.target.value;
             saveConfig(getCurrentConfig());
+            generatePreview();
         });
 
         // Semester select for lessons
@@ -253,6 +259,7 @@ const Worksheet = (function() {
                 elements.lessonsGrid.innerHTML = '<p class="text-gray-500 text-sm col-span-full">请先选择学期</p>';
                 state.selectedLessons = [];
                 saveConfig(getCurrentConfig());
+                generatePreview();
             }
         });
 
@@ -266,7 +273,9 @@ const Worksheet = (function() {
             if (validChars.length > 100) {
                 showWarning("最多支持100个汉字，已自动截断");
             }
-        }, 300));
+
+            generatePreview();
+        }, 500));
     }
 
     /**
@@ -299,6 +308,7 @@ const Worksheet = (function() {
                 if (input.checked) {
                     state.gridType = input.value;
                     saveConfig(getCurrentConfig());
+                    generatePreview();
                 }
             });
         });
@@ -309,16 +319,18 @@ const Worksheet = (function() {
                 if (input.checked) {
                     state.font = input.value;
                     saveConfig(getCurrentConfig());
+                    generatePreview();
                 }
             });
         });
 
         // Columns
-        elements.colsInput?.addEventListener("input", (e) => {
+        elements.colsInput?.addEventListener("input", debounce((e) => {
             state.cols = parseInt(e.target.value, 10);
             elements.colsValue.textContent = state.cols;
             saveConfig(getCurrentConfig());
-        });
+            generatePreview();
+        }, 200));
 
         // Trace opacity
         elements.traceOpacityInputs.forEach(input => {
@@ -326,6 +338,7 @@ const Worksheet = (function() {
                 if (input.checked) {
                     state.traceOpacity = parseFloat(input.value);
                     saveConfig(getCurrentConfig());
+                    generatePreview();
                 }
             });
         });
@@ -359,6 +372,7 @@ const Worksheet = (function() {
         elements.showPinyin?.addEventListener("change", (e) => {
             state.showPinyin = e.target.checked;
             saveConfig(getCurrentConfig());
+            generatePreview();
         });
 
         // Layout mode
@@ -373,6 +387,7 @@ const Worksheet = (function() {
                         if (elements.colsValue) elements.colsValue.textContent = 1;
                     }
                     saveConfig(getCurrentConfig());
+                    generatePreview();
                 }
             });
         });
@@ -384,27 +399,30 @@ const Worksheet = (function() {
                     state.printOrientation = input.value;
                     updatePrintOrientation();
                     saveConfig(getCurrentConfig());
+                    generatePreview();
                 }
             });
         });
 
         // Example count
-        elements.exampleCountInput?.addEventListener("input", (e) => {
+        elements.exampleCountInput?.addEventListener("input", debounce((e) => {
             state.exampleCount = parseInt(e.target.value, 10);
             if (elements.exampleCountValue) {
                 elements.exampleCountValue.textContent = state.exampleCount;
             }
             saveConfig(getCurrentConfig());
-        });
+            generatePreview();
+        }, 200));
 
         // Trace count
-        elements.traceCountInput?.addEventListener("input", (e) => {
+        elements.traceCountInput?.addEventListener("input", debounce((e) => {
             state.traceCount = parseInt(e.target.value, 10);
             if (elements.traceCountValue) {
                 elements.traceCountValue.textContent = state.traceCount;
             }
             saveConfig(getCurrentConfig());
-        });
+            generatePreview();
+        }, 200));
     }
 
     // =========================================================================
@@ -500,6 +518,7 @@ const Worksheet = (function() {
                         item.classList.remove("selected");
                     }
                     saveConfig(getCurrentConfig());
+                    generatePreview();
                 });
 
                 const span = document.createElement("span");
