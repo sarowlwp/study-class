@@ -319,11 +319,28 @@
         updateButtons();
     });
 
-    toggleFullscreenBtn.addEventListener('click', () => {
-        if (!document.fullscreenElement) {
-            document.documentElement.requestFullscreen();
+    // Fullscreen toggle
+    async function toggleFullscreen() {
+        try {
+            if (!document.fullscreenElement) {
+                await document.documentElement.requestFullscreen();
+            } else {
+                await document.exitFullscreen();
+            }
+        } catch (err) {
+            console.error('全屏切换失败:', err);
+            alert('无法进入全屏模式: ' + err.message);
+        }
+    }
+
+    toggleFullscreenBtn.addEventListener('click', toggleFullscreen);
+
+    // Listen for fullscreen change events to update button state
+    document.addEventListener('fullscreenchange', () => {
+        if (document.fullscreenElement) {
+            toggleFullscreenBtn.classList.add('bg-green-100', 'text-green-700');
         } else {
-            document.exitFullscreen();
+            toggleFullscreenBtn.classList.remove('bg-green-100', 'text-green-700');
         }
     });
 
@@ -346,9 +363,13 @@
         } else if (e.key === 'ArrowRight' && !nextBtn.disabled) {
             e.preventDefault();
             nextBtn.click();
-        } else if (e.key === 'f' || e.key === 'F11') {
-            if (e.key === 'f') e.preventDefault();
-            toggleFullscreenBtn.click();
+        } else if (e.key === 'f' || e.key === 'F') {
+            e.preventDefault();
+            toggleFullscreen();
+        } else if (e.key === 'F11') {
+            // F11 由浏览器处理原生全屏
+            e.preventDefault();
+            toggleFullscreen();
         }
     });
 
