@@ -1021,8 +1021,22 @@ const Worksheet = (function() {
         // 确保打印方向已应用
         updatePrintOrientation();
 
+        // 确保打印时 CSS 变量已设置
+        updateCharSize();
+
+        // 将 CSS 变量内联到每个 trace-char 元素以确保打印一致性
+        const traceChars = elements.worksheetContainer.querySelectorAll('.trace-char');
+        traceChars.forEach(el => {
+            el.style.fontSize = `${state.charSize}px`;
+        });
+
         // Trigger browser print
         window.print();
+
+        // 打印后恢复（可选，保持 CSS 变量方式）
+        traceChars.forEach(el => {
+            el.style.fontSize = '';
+        });
     }
 
     // =========================================================================
