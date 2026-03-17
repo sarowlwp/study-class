@@ -57,7 +57,7 @@
                 <span class="text-xl font-bold text-green-600">语文学习小工具</span>
             </a>
             <div class="flex space-x-4">
-                <a href="/" class="text-gray-600 hover:text-green-600 px-4 py-2.5 rounded-lg hover:bg-green-50 transition">汉字抽测卡</a>
+                <a href="/" class="text-gray-600 hover:text-green-600 px-4 py-2.5 rounded-lg hover:bg-green-50 transition">🎯 汉字抽测卡</a>
                 <a href="/mistakes" class="text-gray-600 hover:text-red-600 px-4 py-2.5 rounded-lg hover:bg-red-50 transition">❌ 错字本</a>
                 <a href="/worksheet" class="text-gray-600 hover:text-purple-600 px-4 py-2.5 rounded-lg hover:bg-purple-50 transition">📄 字帖</a>
                 <a href="/pdfs" class="text-gray-600 hover:text-orange-600 px-4 py-2.5 rounded-lg hover:bg-orange-50 transition">📚 教材预览</a>
@@ -68,7 +68,7 @@
 ```
 
 **修改后导航项：**
-1. 汉字抽测卡（原"首页"更名）
+1. 🎯 汉字抽测卡（原"首页"更名，增加 emoji）
 2. ❌ 错字本（增加 emoji）
 3. 📄 字帖
 4. 📚 教材预览（新增）
@@ -78,17 +78,20 @@
 | 位置 | 当前 | 修改后 |
 |------|------|--------|
 | 站点标题 | 📚 汉字抽测卡 | 📚 语文学习小工具 |
-| 导航项 1 | 首页 | 汉字抽测卡 |
+| 导航项 1 | 首页 | 🎯 汉字抽测卡 |
 | 导航项 2 | 错字本 | ❌ 错字本（增加 emoji）|
 | 导航项 3 | 打印 | 📄 字帖 |
-| 导航项 4 | 📄 字帖 | 📚 教材预览 |
+| 导航项 4 | （无）| 📚 教材预览（新增）|
 | 点击区域 | px-3 py-2 | px-4 py-2.5（增大）|
+
+**变更说明：** 导航项 3 由"打印"改为"📄 字帖"（字帖原在导航项 4 位置，现前移）；导航项 4 新增"📚 教材预览"；"打印"从导航中移除但功能保留
 
 ## 影响范围
 
 ### 需要修改的文件
 
-- `app/templates/base.html` - 修改导航菜单和站点标题
+- `app/templates/base.html` - 修改导航菜单、站点标题和 Footer
+- `app/templates/index.html` - 修改首页大标题（"欢迎来到汉字抽测卡" → "欢迎来到语文学习小工具"）
 
 ### 不需要修改的文件
 
@@ -105,8 +108,9 @@
 ## 验收标准
 
 1. [ ] 顶部导航显示"语文学习小工具"作为站点标题
-2. [ ] 导航项顺序为：汉字抽测卡、❌ 错字本、📄 字帖、📚 教材预览
+2. [ ] 导航项顺序为：🎯 汉字抽测卡、❌ 错字本、📄 字帖、📚 教材预览
 3. [ ] 导航项可点击区域明显增大（px-4 py-2.5）
 4. [ ] 打印页面通过 `/print` 仍可正常访问
 5. [ ] 所有页面显示一致的导航菜单
 6. [ ] Footer 显示"语文学习小工具 - 每日进步一点点"
+7. [ ] 首页大标题显示"欢迎来到语文学习小工具! 🎯"
