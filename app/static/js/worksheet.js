@@ -1021,21 +1021,21 @@ const Worksheet = (function() {
         // 确保打印方向已应用
         updatePrintOrientation();
 
-        // 确保打印时 CSS 变量已设置
-        updateCharSize();
+        // 关键：在打印前强制设置容器CSS变量，确保打印时能正确继承
+        if (elements.worksheetContainer) {
+            // 强制使用内联样式设置CSS变量，覆盖任何其他值
+            elements.worksheetContainer.style.setProperty('--char-size', state.charSize + 'px', 'important');
+        }
 
-        // 将 CSS 变量内联到每个 trace-char 元素以确保打印一致性
-        const traceChars = elements.worksheetContainer.querySelectorAll('.trace-char');
-        traceChars.forEach(el => {
-            el.style.fontSize = `${state.charSize}px`;
-        });
+        // 等待一帧确保样式应用
+        requestAnimationFrame(() => {
+            // Trigger browser print
+            window.print();
 
-        // Trigger browser print
-        window.print();
-
-        // 打印后恢复（可选，保持 CSS 变量方式）
-        traceChars.forEach(el => {
-            el.style.fontSize = '';
+            // 打印后恢复（移除important标记）
+            if (elements.worksheetContainer) {
+                elements.worksheetContainer.style.setProperty('--char-size', state.charSize + 'px');
+            }
         });
     }
 

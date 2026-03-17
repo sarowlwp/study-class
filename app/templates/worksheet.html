@@ -658,12 +658,12 @@ main.max-w-4xl {
         height: 16px;
     }
 
-    /* Trace character - 与预览一致的48px */
+    /* Trace character - 与预览一致的字体大小 */
     .trace-char {
         font-family: "KaiTi", "STKaiti", "BiauKai", "楷体", serif;
         color: #ccc;
         opacity: 0.4;
-        font-size: var(--char-size);  /* 使用 CSS 变量 */
+        font-size: var(--char-size) !important;  /* 强制使用CSS变量，确保与预览一致 */
         position: absolute;
         top: 50%;
         left: 50%;
