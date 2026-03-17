@@ -1201,30 +1201,16 @@ const Worksheet = (function() {
             source: state.source
         });
 
-        // Auto-generate preview on first load
+        // Auto-generate preview on first load (avoid duplicating what applySavedConfig already does)
         if (state.source === "mistakes") {
             // 错字本直接生成预览
             generatePreview();
         } else if (state.source === "custom" && state.customChars) {
             // 自定义输入且有内容时生成预览
             generatePreview();
-        } else if (state.source === "semester" && state.selectedSemester) {
-            // 学期已选择时，等待学期加载完成后生成
-            loadSemesters(elements.semesterSelect).then(() => {
-                generatePreview();
-            });
-        } else if (state.source === "lessons" && state.selectedSemester && state.selectedLessons.length > 0) {
-            // 课程已选择时，等待课程加载完成后生成
-            loadSemesters(elements.lessonsSemesterSelect).then(() => {
-                const semester = state.selectedSemester;
-                if (semester && elements.lessonsSemesterSelect) {
-                    elements.lessonsSemesterSelect.value = semester;
-                    loadLessons(semester).then(() => {
-                        generatePreview();
-                    });
-                }
-            });
         }
+        // Note: "semester" and "lessons" sources are handled by applySavedConfig()
+        // which already loads data and triggers preview via change events
     }
 
     // =========================================================================
