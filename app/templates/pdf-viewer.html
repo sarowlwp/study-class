@@ -4,57 +4,64 @@
 
 {% block head %}
 <style>
-    /* Fullscreen styles */
-    :fullscreen #toolbar,
-    :fullscreen #sidebar {
-        display: none !important;
-    }
-    :fullscreen #pdf-viewer-container {
-        height: 100vh !important;
-        width: 100vw !important;
-        max-width: 100vw !important;
-        padding: 0 !important;
-        margin: 0 !important;
-        gap: 0 !important;
-    }
-    :fullscreen #pdf-canvas-container {
-        height: 100vh !important;
-        min-height: 100vh !important;
-        max-height: 100vh !important;
-        border-radius: 0 !important;
-        padding: 0 !important;
-    }
-    :fullscreen {
-        background-color: #1a1a1a;
-    }
-
-    /* Show floating controls in fullscreen */
-    #fullscreen-controls {
+    /* Overlay Fullscreen Mode */
+    #overlay-fullscreen {
         display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #1a1a1a;
+        z-index: 9999;
+        flex-direction: column;
     }
-    :fullscreen #fullscreen-controls {
+    #overlay-fullscreen.active {
         display: flex;
+    }
+    #overlay-fullscreen .fs-canvas-container {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: auto;
+        padding: 20px;
+    }
+    #overlay-fullscreen .fs-controls {
         position: fixed;
         bottom: 20px;
         left: 50%;
         transform: translateX(-50%);
-        background: rgba(0, 0, 0, 0.8);
-        padding: 10px 20px;
+        background: rgba(0, 0, 0, 0.9);
+        padding: 12px 24px;
         border-radius: 30px;
-        z-index: 1000;
-        gap: 15px;
+        display: flex;
         align-items: center;
+        gap: 20px;
+        z-index: 10000;
     }
-    :fullscreen #fullscreen-controls button,
-    :fullscreen #fullscreen-controls span {
+    #overlay-fullscreen .fs-controls button,
+    #overlay-fullscreen .fs-controls span {
         color: white;
         background: transparent;
         border: none;
         cursor: pointer;
-        font-size: 14px;
+        font-size: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-    :fullscreen #fullscreen-controls button:hover {
+    #overlay-fullscreen .fs-controls button:hover {
         color: #4ade80;
+    }
+    #overlay-fullscreen .fs-controls button:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+    #overlay-fullscreen canvas {
+        max-height: calc(100vh - 40px);
+        max-width: calc(100vw - 40px);
+        box-shadow: 0 4px 20px rgba(0,0,0,0.5);
     }
 </style>
 {% endblock %}
@@ -159,25 +166,31 @@
     </div>
 </div>
 
-<!-- Fullscreen Floating Controls -->
-<div id="fullscreen-controls">
-    <button id="fs-prev" title="上一页">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
-        </svg>
-    </button>
-    <span id="fs-page-info">1 / 10</span>
-    <button id="fs-next" title="下一页">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
-        </svg>
-    </button>
-    <div class="w-px h-5 bg-gray-500"></div>
-    <button id="fs-exit" title="退出全屏 (ESC)">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
-        </svg>
-    </button>
+<!-- Overlay Fullscreen Mode -->
+<div id="overlay-fullscreen">
+    <div class="fs-canvas-container">
+        <canvas id="fs-canvas-left"></canvas>
+        <canvas id="fs-canvas-right" class="hidden"></canvas>
+    </div>
+    <div class="fs-controls">
+        <button id="fs-prev" title="上一页">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+            </svg>
+        </button>
+        <span id="fs-page-info">1 / 10</span>
+        <button id="fs-next" title="下一页">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+            </svg>
+        </button>
+        <div class="w-px h-5 bg-gray-500"></div>
+        <button id="fs-exit" title="退出全屏 (ESC)">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+            </svg>
+        </button>
+    </div>
 </div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
@@ -215,6 +228,18 @@
     const toggleSidebarBtn = document.getElementById('toggle-sidebar');
     const sidebar = document.getElementById('sidebar');
     const thumbnailList = document.getElementById('thumbnail-list');
+
+    // Overlay fullscreen elements
+    const overlayFullscreen = document.getElementById('overlay-fullscreen');
+    const fsCanvasLeft = document.getElementById('fs-canvas-left');
+    const fsCanvasRight = document.getElementById('fs-canvas-right');
+    const fsCtxLeft = fsCanvasLeft.getContext('2d');
+    const fsCtxRight = fsCanvasRight.getContext('2d');
+    const fsPrevBtn = document.getElementById('fs-prev');
+    const fsNextBtn = document.getElementById('fs-next');
+    const fsExitBtn = document.getElementById('fs-exit');
+    const fsPageInfo = document.getElementById('fs-page-info');
+    let isOverlayFullscreen = false;
 
     async function loadPdf() {
         try {
@@ -398,51 +423,117 @@
         updateButtons();
     });
 
-    // Fullscreen toggle
-    async function toggleFullscreen() {
-        try {
-            if (!document.fullscreenElement) {
-                await document.documentElement.requestFullscreen();
+    // Overlay Fullscreen Mode
+    function openFullscreen() {
+        isOverlayFullscreen = true;
+        overlayFullscreen.classList.add('active');
+        document.body.style.overflow = 'hidden';
+        toggleFullscreenBtn.classList.add('bg-green-100', 'text-green-700');
+        renderFullscreenPages();
+        updateFullscreenControls();
+    }
+
+    function closeFullscreen() {
+        isOverlayFullscreen = false;
+        overlayFullscreen.classList.remove('active');
+        document.body.style.overflow = '';
+        toggleFullscreenBtn.classList.remove('bg-green-100', 'text-green-700');
+        // Re-render normal view
+        renderPages();
+    }
+
+    function toggleFullscreen() {
+        if (isOverlayFullscreen) {
+            closeFullscreen();
+        } else {
+            openFullscreen();
+        }
+    }
+
+    function updateFullscreenControls() {
+        fsPageInfo.textContent = `${pageNum} / ${pageCount}`;
+        fsPrevBtn.disabled = pageNum <= 1;
+        fsNextBtn.disabled = pageNum >= pageCount;
+    }
+
+    async function renderFullscreenPages() {
+        if (!isOverlayFullscreen || !pdfDoc) return;
+
+        // Calculate scale to fit screen
+        const containerWidth = window.innerWidth - 80;
+        const containerHeight = window.innerHeight - 80;
+
+        // Get first page to determine aspect ratio
+        const firstPage = await pdfDoc.getPage(1);
+        const viewport = firstPage.getViewport({ scale: 1 });
+        const pageAspect = viewport.width / viewport.height;
+
+        let fsScale;
+        if (isDoublePage) {
+            // For double page, fit two pages side by side
+            const availableWidth = containerWidth / 2;
+            const availableHeight = containerHeight;
+            const scaleWidth = availableWidth / viewport.width;
+            const scaleHeight = availableHeight / viewport.height;
+            fsScale = Math.min(scaleWidth, scaleHeight, 1.5);
+        } else {
+            // For single page
+            const scaleWidth = containerWidth / viewport.width;
+            const scaleHeight = containerHeight / viewport.height;
+            fsScale = Math.min(scaleWidth, scaleHeight, 2.0);
+        }
+
+        // Render left page
+        const pageLeft = await pdfDoc.getPage(pageNum);
+        const viewportLeft = pageLeft.getViewport({ scale: fsScale });
+        fsCanvasLeft.width = viewportLeft.width;
+        fsCanvasLeft.height = viewportLeft.height;
+        await pageLeft.render({ canvasContext: fsCtxLeft, viewport: viewportLeft }).promise;
+
+        // Render right page if in double-page mode
+        if (isDoublePage && pageNum < pageCount) {
+            const rightPageNum = pageNum % 2 === 1 ? pageNum + 1 : pageNum;
+            if (rightPageNum <= pageCount && rightPageNum !== pageNum) {
+                const pageRight = await pdfDoc.getPage(rightPageNum);
+                const viewportRight = pageRight.getViewport({ scale: fsScale });
+                fsCanvasRight.width = viewportRight.width;
+                fsCanvasRight.height = viewportRight.height;
+                fsCanvasRight.classList.remove('hidden');
+                await pageRight.render({ canvasContext: fsCtxRight, viewport: viewportRight }).promise;
             } else {
-                await document.exitFullscreen();
+                fsCanvasRight.classList.add('hidden');
             }
-        } catch (err) {
-            console.error('全屏切换失败:', err);
-            alert('无法进入全屏模式: ' + err.message);
+        } else if (isDoublePage && pageNum % 2 === 0) {
+            // Show previous page on left for even pages in double mode
+            const leftPageNum = pageNum - 1;
+            const pageLeft = await pdfDoc.getPage(leftPageNum);
+            const viewportLeft = pageLeft.getViewport({ scale: fsScale });
+            fsCanvasLeft.width = viewportLeft.width;
+            fsCanvasLeft.height = viewportLeft.height;
+            await pageLeft.render({ canvasContext: fsCtxLeft, viewport: viewportLeft }).promise;
+
+            const pageRight = await pdfDoc.getPage(pageNum);
+            const viewportRight = pageRight.getViewport({ scale: fsScale });
+            fsCanvasRight.width = viewportRight.width;
+            fsCanvasRight.height = viewportRight.height;
+            fsCanvasRight.classList.remove('hidden');
+            await pageRight.render({ canvasContext: fsCtxRight, viewport: viewportRight }).promise;
+        } else {
+            fsCanvasRight.classList.add('hidden');
         }
     }
 
     toggleFullscreenBtn.addEventListener('click', toggleFullscreen);
 
-    // Listen for fullscreen change events to update button state
-    document.addEventListener('fullscreenchange', () => {
-        if (document.fullscreenElement) {
-            toggleFullscreenBtn.classList.add('bg-green-100', 'text-green-700');
-            updateFullscreenControls();
-        } else {
-            toggleFullscreenBtn.classList.remove('bg-green-100', 'text-green-700');
-        }
-    });
-
-    // Fullscreen floating controls
-    const fsPrevBtn = document.getElementById('fs-prev');
-    const fsNextBtn = document.getElementById('fs-next');
-    const fsExitBtn = document.getElementById('fs-exit');
-    const fsPageInfo = document.getElementById('fs-page-info');
-
-    function updateFullscreenControls() {
-        if (fsPageInfo) {
-            fsPageInfo.textContent = `${pageNum} / ${pageCount}`;
-        }
-    }
-
     fsPrevBtn.addEventListener('click', () => {
         const step = isDoublePage ? 2 : 1;
         if (pageNum > 1) {
             pageNum = Math.max(1, pageNum - step);
-            renderPages();
-            updateButtons();
+            renderFullscreenPages();
             updateFullscreenControls();
+            updateButtons();
+            updateThumbnailHighlight();
+            pageInput.value = pageNum;
         }
     });
 
@@ -450,13 +541,22 @@
         const step = isDoublePage ? 2 : 1;
         if (pageNum < pageCount) {
             pageNum = Math.min(pageCount, pageNum + step);
-            renderPages();
-            updateButtons();
+            renderFullscreenPages();
             updateFullscreenControls();
+            updateButtons();
+            updateThumbnailHighlight();
+            pageInput.value = pageNum;
         }
     });
 
-    fsExitBtn.addEventListener('click', toggleFullscreen);
+    fsExitBtn.addEventListener('click', closeFullscreen);
+
+    // Handle window resize in fullscreen
+    window.addEventListener('resize', () => {
+        if (isOverlayFullscreen) {
+            renderFullscreenPages();
+        }
+    });
 
     toggleSidebarBtn.addEventListener('click', () => {
         isSidebarVisible = !isSidebarVisible;
@@ -471,19 +571,29 @@
 
     // Keyboard shortcuts
     document.addEventListener('keydown', (e) => {
-        if (e.key === 'ArrowLeft' && !prevBtn.disabled) {
+        if (e.key === 'ArrowLeft') {
             e.preventDefault();
-            prevBtn.click();
-        } else if (e.key === 'ArrowRight' && !nextBtn.disabled) {
+            if (isOverlayFullscreen) {
+                fsPrevBtn.click();
+            } else if (!prevBtn.disabled) {
+                prevBtn.click();
+            }
+        } else if (e.key === 'ArrowRight') {
             e.preventDefault();
-            nextBtn.click();
+            if (isOverlayFullscreen) {
+                fsNextBtn.click();
+            } else if (!nextBtn.disabled) {
+                nextBtn.click();
+            }
         } else if (e.key === 'f' || e.key === 'F') {
             e.preventDefault();
             toggleFullscreen();
         } else if (e.key === 'F11') {
-            // F11 由浏览器处理原生全屏
             e.preventDefault();
             toggleFullscreen();
+        } else if (e.key === 'Escape' && isOverlayFullscreen) {
+            e.preventDefault();
+            closeFullscreen();
         }
     });
 
