@@ -13,22 +13,56 @@ const Worksheet = (function() {
     "use strict";
 
     // =========================================================================
+    // LocalStorage Keys
+    // =========================================================================
+    const STORAGE_KEY = "worksheet_config";
+
+    /**
+     * Load saved configuration from localStorage
+     */
+    function loadSavedConfig() {
+        try {
+            const saved = localStorage.getItem(STORAGE_KEY);
+            if (saved) {
+                return JSON.parse(saved);
+            }
+        } catch (e) {
+            console.warn("Failed to load saved config:", e);
+        }
+        return null;
+    }
+
+    /**
+     * Save configuration to localStorage
+     */
+    function saveConfig(config) {
+        try {
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(config));
+        } catch (e) {
+            console.warn("Failed to save config:", e);
+        }
+    }
+
+    // Load saved config or use defaults
+    const savedConfig = loadSavedConfig();
+
+    // =========================================================================
     // Configuration State
     // =========================================================================
     const state = {
-        source: "mistakes", // mistakes, semester, lessons, custom
-        gridType: "tian", // tian, mi, square, none
-        font: "kaiti", // kaiti, songti, heiti
-        cols: 5,
-        rows: 6,
-        traceOpacity: 0.4,
-        showPinyin: true,
-        showStroke: true,
-        strokeMode: "animate", // animate, static
+        source: savedConfig?.source || "mistakes",
+        gridType: savedConfig?.gridType || "tian",
+        font: savedConfig?.font || "kaiti",
+        cols: savedConfig?.cols || 5,
+        rows: savedConfig?.rows || 6,
+        traceOpacity: savedConfig?.traceOpacity || 0.4,
+        showPinyin: savedConfig?.showPinyin !== undefined ? savedConfig.showPinyin : true,
+        showStroke: savedConfig?.showStroke !== undefined ? savedConfig.showStroke : true,
+        strokeMode: savedConfig?.strokeMode || "animate",
         selectedSemester: "",
         selectedLessons: [],
         customChars: "",
-        characters: [], // Array of {char, pinyin, stroke_count}
+        characters: [],
         isLoading: false
     };
 
@@ -42,10 +76,6 @@ const Worksheet = (function() {
 
     function cacheElements() {
         elements = {
-            // Tabs
-            tabButtons: document.querySelectorAll(".tab-btn"),
-            tabContents: document.querySelectorAll(".tab-content"),
-
             // Source options
             sourceInputs: document.querySelectorAll('input[name="source"]'),
             mistakesOptions: document.getElementById("mistakes-options"),
@@ -158,24 +188,6 @@ const Worksheet = (function() {
     // Tab Events
     // =========================================================================
 
-    function bindTabEvents() {
-        elements.tabButtons.forEach(btn => {
-            btn.addEventListener("click", () => {
-                const tabId = btn.dataset.tab;
-
-                // Update active tab button
-                elements.tabButtons.forEach(b => b.classList.remove("active"));
-                btn.classList.add("active");
-
-                // Show corresponding content
-                elements.tabContents.forEach(content => {
-                    content.classList.add("hidden");
-                });
-                document.getElementById(`${tabId}-tab`).classList.remove("hidden");
-            });
-        });
-    }
-
     // =========================================================================
     // Source Events
     // =========================================================================
@@ -185,6 +197,7 @@ const Worksheet = (function() {
         elements.sourceInputs.forEach(input => {
             input.addEventListener("change", () => {
                 state.source = input.value;
+                saveConfig(getCurrentConfig());
                 updateSourceOptions();
 
                 if (state.source === "semester") {
@@ -248,6 +261,7 @@ const Worksheet = (function() {
             input.addEventListener("change", () => {
                 if (input.checked) {
                     state.gridType = input.value;
+                    saveConfig(getCurrentConfig());
                 }
             });
         });
@@ -257,6 +271,7 @@ const Worksheet = (function() {
             input.addEventListener("change", () => {
                 if (input.checked) {
                     state.font = input.value;
+                    saveConfig(getCurrentConfig());
                 }
             });
         });
@@ -265,12 +280,14 @@ const Worksheet = (function() {
         elements.colsInput?.addEventListener("input", (e) => {
             state.cols = parseInt(e.target.value, 10);
             elements.colsValue.textContent = state.cols;
+            saveConfig(getCurrentConfig());
         });
 
         // Rows
         elements.rowsInput?.addEventListener("input", (e) => {
             state.rows = parseInt(e.target.value, 10);
             elements.rowsValue.textContent = state.rows;
+            saveConfig(getCurrentConfig());
         });
 
         // Trace opacity
@@ -278,6 +295,7 @@ const Worksheet = (function() {
             input.addEventListener("change", () => {
                 if (input.checked) {
                     state.traceOpacity = parseFloat(input.value);
+                    saveConfig(getCurrentConfig());
                 }
             });
         });
@@ -291,11 +309,13 @@ const Worksheet = (function() {
         // Show pinyin
         elements.showPinyin?.addEventListener("change", (e) => {
             state.showPinyin = e.target.checked;
+            saveConfig(getCurrentConfig());
         });
 
         // Show stroke
         elements.showStroke?.addEventListener("change", (e) => {
             state.showStroke = e.target.checked;
+            saveConfig(getCurrentConfig());
         });
 
         // Stroke mode
@@ -303,6 +323,7 @@ const Worksheet = (function() {
             input.addEventListener("change", () => {
                 if (input.checked) {
                     state.strokeMode = input.value;
+                    saveConfig(getCurrentConfig());
                 }
             });
         });
@@ -437,8 +458,9 @@ const Worksheet = (function() {
             const mistakes = data.mistakes || [];
 
             // Convert to character objects
+            // API returns 'char' field, not 'character'
             const chars = mistakes.map(m => ({
-                char: m.character,
+                char: m.char || m.character,
                 pinyin: m.pinyin || "",
                 stroke_count: m.stroke_count || 0
             }));
@@ -446,7 +468,7 @@ const Worksheet = (function() {
             return chars;
         } catch (error) {
             console.error("Error fetching mistakes:", error);
-            showError("获取错字本失败");
+            showError("获取错字本失败: " + error.message);
             return [];
         }
     }
@@ -791,16 +813,88 @@ const Worksheet = (function() {
     // Initialization
     // =========================================================================
 
+    /**
+     * Apply saved configuration to UI elements
+     */
+    function applySavedConfig() {
+        // Apply source
+        const sourceInput = document.querySelector(`input[name="source"][value="${state.source}"]`);
+        if (sourceInput) {
+            sourceInput.checked = true;
+        }
+
+        // Apply grid type
+        const gridTypeInput = document.querySelector(`input[name="grid-type"][value="${state.gridType}"]`);
+        if (gridTypeInput) {
+            gridTypeInput.checked = true;
+        }
+
+        // Apply font
+        const fontInput = document.querySelector(`input[name="font"][value="${state.font}"]`);
+        if (fontInput) {
+            fontInput.checked = true;
+        }
+
+        // Apply cols and rows
+        if (elements.colsInput) {
+            elements.colsInput.value = state.cols;
+            elements.colsValue.textContent = state.cols;
+        }
+        if (elements.rowsInput) {
+            elements.rowsInput.value = state.rows;
+            elements.rowsValue.textContent = state.rows;
+        }
+
+        // Apply trace opacity
+        const opacityInput = document.querySelector(`input[name="trace-opacity"][value="${state.traceOpacity}"]`);
+        if (opacityInput) {
+            opacityInput.checked = true;
+        }
+
+        // Apply content options
+        if (elements.showPinyin) {
+            elements.showPinyin.checked = state.showPinyin;
+        }
+        if (elements.showStroke) {
+            elements.showStroke.checked = state.showStroke;
+        }
+
+        // Apply stroke mode
+        const strokeModeInput = document.querySelector(`input[name="stroke-mode"][value="${state.strokeMode}"]`);
+        if (strokeModeInput) {
+            strokeModeInput.checked = true;
+        }
+
+        // Update source options visibility
+        updateSourceOptions();
+    }
+
+    /**
+     * Get current configuration object for saving
+     */
+    function getCurrentConfig() {
+        return {
+            source: state.source,
+            gridType: state.gridType,
+            font: state.font,
+            cols: state.cols,
+            rows: state.rows,
+            traceOpacity: state.traceOpacity,
+            showPinyin: state.showPinyin,
+            showStroke: state.showStroke,
+            strokeMode: state.strokeMode
+        };
+    }
+
     function init() {
         cacheElements();
-        bindTabEvents();
         bindSourceEvents();
         bindGridEvents();
         bindContentEvents();
         bindPrintEvents();
 
-        // Initialize source options visibility
-        updateSourceOptions();
+        // Apply saved configuration to UI
+        applySavedConfig();
 
         console.log("Worksheet module initialized");
     }
