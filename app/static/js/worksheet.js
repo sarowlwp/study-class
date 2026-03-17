@@ -74,7 +74,7 @@ const Worksheet = (function() {
             // Content options
             showPinyin: document.getElementById("show-pinyin"),
             showStroke: document.getElementById("show-stroke"),
-            strokeModeInputs: document.querySelectorAll('input[name="stroke-mode"]"'),
+            strokeModeInputs: document.querySelectorAll('input[name="stroke-mode"]'),
 
             // Buttons
             previewBtn: document.getElementById("preview-btn"),

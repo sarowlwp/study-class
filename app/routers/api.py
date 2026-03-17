@@ -143,7 +143,18 @@ async def get_stats(semester: Optional[str] = None):
 
 @router.get("/pinyin")
 async def get_pinyin(chars: str):
-    """获取汉字的拼音（用于自定义输入）"""
+    """获取汉字的拼音（用于自定义输入）
+
+    Args:
+        chars: 要获取拼音的汉字字符串（最多100个字符）
+
+    Returns:
+        {"pinyin": {"汉": "hàn", ...}}
+    """
+    # 限制输入长度，防止滥用
+    if len(chars) > 100:
+        chars = chars[:100]
+
     result = {}
     for char in chars:
         if '\u4e00' <= char <= '\u9fff':
