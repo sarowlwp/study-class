@@ -67,6 +67,12 @@ function updateProgress() {
     document.getElementById('progress-text').textContent = `${currentIndex + 1} / ${total}`;
 }
 
+function hideTargetChar(text, targetChar) {
+    if (!text || !targetChar) return text;
+    const regex = new RegExp(targetChar, 'g');
+    return text.replace(regex, '__');
+}
+
 function showCharacter() {
     const char = characters[currentIndex];
     const questionArea = document.getElementById('question-content');
@@ -87,13 +93,17 @@ function showCharacter() {
             <div class="text-gray-500 italic">"${char.example}"</div>
         `;
     } else {
+        const hiddenMeaning = hideTargetChar(char.meaning, char.char);
+        const hiddenExample = hideTargetChar(char.example, char.char);
         questionArea.innerHTML = `
             <div class="text-5xl font-bold text-green-600 mb-4">${char.pinyin}</div>
-            <div class="text-xl text-gray-700">${char.meaning}</div>
+            <div class="text-xl text-gray-700">${hiddenMeaning}</div>
+            <div class="text-gray-500 italic mt-4">"${hiddenExample}"</div>
             <p class="text-gray-500 mt-4">这个字怎么写？</p>
         `;
         answerArea.innerHTML = `
             <div class="text-8xl font-bold text-gray-800 mb-4" style="font-family: 'KaiTi', 'STKaiti', serif;">${char.char}</div>
+            <div class="text-lg text-gray-700 mb-1">${char.meaning}</div>
             <div class="text-gray-500 italic">"${char.example}"</div>
         `;
     }
