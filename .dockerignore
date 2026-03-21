@@ -53,6 +53,5 @@ docs/
 test_*.py
 
 # 不需要打包的数据文件
-data/pdfs/
 data/cache/
 data/records/*.json
