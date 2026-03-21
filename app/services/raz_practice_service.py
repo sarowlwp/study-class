@@ -1,7 +1,6 @@
 import re
 from datetime import date, timedelta
 from pathlib import Path
-from typing import Optional
 import math
 
 from app.models.raz import RazConfig
