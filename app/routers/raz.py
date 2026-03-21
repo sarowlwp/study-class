@@ -31,6 +31,7 @@ async def raz_index(request: Request):
     goal_met = practice_service.is_daily_goal_met(date.today(), config)
     return templates.TemplateResponse("raz/index.html", {
         "request": request,
+        "page_title": "RAZ 跟读",
         "books": books,
         "config": config,
         "today_count": today_count,
@@ -46,6 +47,7 @@ async def raz_book(request: Request, level: str, book_dir: str):
         raise HTTPException(status_code=404, detail="Book not found")
     return templates.TemplateResponse("raz/book.html", {
         "request": request,
+        "page_title": book.title,
         "book": book,
     })
 
@@ -59,6 +61,7 @@ async def raz_practice(request: Request, level: str, book_dir: str):
     config = raz_service.get_config()
     return templates.TemplateResponse("raz/practice.html", {
         "request": request,
+        "page_title": f"{book.title} - 练习",
         "book": book,
         "config": config,
     })
@@ -70,6 +73,7 @@ async def raz_progress(request: Request):
     records = raz_service.get_records_by_date(date.today())
     return templates.TemplateResponse("raz/progress.html", {
         "request": request,
+        "page_title": "学习进度",
         "config": config,
         "today_records": records,
         "today_count": len(records),
