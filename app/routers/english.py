@@ -38,7 +38,8 @@ async def english_index(request: Request):
     semesters = english_service.get_semesters()
     return templates.TemplateResponse("english/index.html", {
         "request": request,
-        "semesters": semesters
+        "semesters": semesters,
+        "page_title": "英语抽测",
     })
 
 
@@ -47,7 +48,8 @@ async def english_quiz_page(request: Request, session: str):
     """English quiz page"""
     return templates.TemplateResponse("english/quiz.html", {
         "request": request,
-        "session_id": session
+        "session_id": session,
+        "page_title": "英语抽测进行中",
     })
 
 
@@ -56,7 +58,8 @@ async def english_result_page(request: Request, session: str):
     """English result page"""
     return templates.TemplateResponse("english/result.html", {
         "request": request,
-        "session_id": session
+        "session_id": session,
+        "page_title": "英语抽测结果",
     })
 
 
@@ -64,7 +67,8 @@ async def english_result_page(request: Request, session: str):
 async def english_mistakes_page(request: Request):
     """English mistakes book page"""
     return templates.TemplateResponse("english/mistakes.html", {
-        "request": request
+        "request": request,
+        "page_title": "英语错词本",
     })
 
 
