@@ -210,7 +210,7 @@ function nextQuestion() {
     showQuestion();
 }
 
-document.getElementById('next-btn').addEventListener('click', nextQuestion);
+document.getElementById('next-btn').onclick = nextQuestion;
 
 async function finishQuiz() {
     await fetch('/api/english/quiz/finish', {
