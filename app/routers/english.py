@@ -108,7 +108,16 @@ async def api_get_session(session_id: str):
         "total": session.total,
         "current_index": session.current_index,
         "words": session.words,
-        "completed": session.completed
+        "completed": session.completed,
+        "records": [
+            {
+                "word": r.word,
+                "meaning": r.meaning,
+                "lesson": r.lesson,
+                "result": r.result.value,
+            }
+            for r in session.records
+        ]
     }
 
 
