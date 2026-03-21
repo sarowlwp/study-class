@@ -8,7 +8,7 @@ services:
     image: hanzi-quiz:latest
     container_name: hanzi-quiz
     ports:
-      - "8000:8000"
+      - "8989:8000"
     environment:
       - PYTHONUNBUFFERED=1
     restart: unless-stopped
