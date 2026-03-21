@@ -86,11 +86,18 @@ data/raz-config.json    # 全局配置（当前 Level、每日任务设置）
 {
   "current_level": "a",
   "daily_mode": "manual",
-  "daily_count": 10
+  "daily_count": 10,
+  "current_session": {
+    "book_id": "the-big-red-barn",
+    "page": 2,
+    "sentence_index": 1
+  }
 }
 ```
 
 `daily_mode`: `"manual"` | `"smart"`
+
+`current_session` 记录最近一次练习位置，刷新页面后可从断点续练。`book_id` 在整个书库中全局唯一（使用目录名，格式 `level-{x}/{dir_name}`，如 `level-a/the-big-red-barn`）。
 
 ---
 
@@ -106,11 +113,13 @@ data/raz-config.json    # 全局配置（当前 Level、每日任务设置）
 
 ### 逐句练习流程（每句）
 
+每页有一个音频文件（`page0X.mp3`），包含该页全部内容的朗读。逐句练习时，每次均播放**整页音频**作为参考示范，学生根据高亮句子录音朗读该句。
+
 1. 展示当前页 PDF
 2. 高亮当前句文本
-3. 点击播放 → 播放该页 `page0X.mp3`
-4. 点击录音 → 浏览器采集音频（WebM/WAV）
-5. 停止录音 → 提交给发音评测服务
+3. 点击播放 → 播放该页整段 `page0X.mp3`（作为参考示范）
+4. 点击录音 → 浏览器采集音频（浏览器 MediaRecorder 默认格式 WebM，服务端转 WAV 后提交评测）
+5. 停止录音 → 提交给发音评测服务（附带目标句子文本）
 6. 显示评分结果（优 ≥90 / 良 ≥70 / 需加油 <70）
 7. 操作：[下一句] / [重新录] / [跳过]
 8. 本页所有句子完成 → 进入下一页
@@ -119,6 +128,8 @@ data/raz-config.json    # 全局配置（当前 Level、每日任务设置）
 
 - **手动模式**：家长设定每天练习 N 句，完成后显示"今日任务完成"，仍可继续
 - **智能推荐**：`近7天平均完成句数 × 完成率`，无历史时默认 10 句
+
+**每日进度计算**：实时扫描 `data/raz-records/YYYY-MM-DD.md`，统计当天行数作为已完成句数。同一句子多次练习均追加记录（保留历史尝试），统计时以行数为准（重录也计入完成）。记录文件格式错误（非标准 Markdown 表格）时跳过该行，不崩溃。
 
 ---
 
@@ -161,7 +172,7 @@ app/
 | `GET /api/raz/progress` | 获取练习进度统计 |
 | `GET /api/raz/config` | 获取全局配置 |
 | `POST /api/raz/config` | 更新全局配置（Level、每日任务） |
-| `GET /raz/static/{level}/{book}/{file}` | 提供 PDF/MP3/MP4 静态文件 |
+| `GET /raz/static/{level}/{book}/{file}` | 提供 PDF/MP3/MP4 静态文件（路径参数严格校验，禁止 `..` 及非法字符，防止路径穿越攻击） |
 
 ---
 
@@ -230,6 +241,8 @@ ALIYUN_NLS_APP_KEY=...
 | 评测 API 超时/失败 | 提示"评分失败"，可重试或跳过 |
 | `book.json` 缺失/格式错误 | 书库页跳过该书，记录日志 |
 | PDF/音频文件不存在 | 练习页显示占位提示，不崩溃 |
+| 记录文件格式损坏 | 跳过格式错误的行，不影响读取其他行 |
+| 当日记录文件不存在 | 视为今日已完成 0 句，正常继续 |
 
 ---
 
