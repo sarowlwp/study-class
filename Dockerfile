@@ -2,6 +2,8 @@
 # 使用多阶段构建优化镜像大小
 
 # ===== 构建阶段 =====
+ARG BUILD_DATE
+ARG VCS_REF
 FROM python:3.12-slim as builder
 
 WORKDIR /app
