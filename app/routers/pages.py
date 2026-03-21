@@ -13,40 +13,50 @@ char_service = CharacterService()
 record_service = RecordService()
 quiz_service = QuizService(char_service, record_service)
 
+
 @router.get("/")
 async def index(request: Request):
     return templates.TemplateResponse("index.html", {"request": request})
 
+
+@router.get("/hanzi")
+async def hanzi(request: Request):
+    return templates.TemplateResponse("hanzi.html", {"request": request, "page_title": "汉字抽测卡"})
+
+
 @router.get("/quiz")
 async def quiz(request: Request, session: str):
-    return templates.TemplateResponse("quiz.html", {"request": request, "session_id": session})
+    return templates.TemplateResponse("quiz.html", {"request": request, "session_id": session, "page_title": "汉字抽测"})
+
 
 @router.get("/result")
 async def result(request: Request):
-    return templates.TemplateResponse("result.html", {"request": request})
+    return templates.TemplateResponse("result.html", {"request": request, "page_title": "抽测结果"})
+
 
 @router.get("/mistakes")
 async def mistakes(request: Request):
-    return templates.TemplateResponse("mistakes.html", {"request": request})
+    return templates.TemplateResponse("mistakes.html", {"request": request, "page_title": "错字本"})
+
 
 @router.get("/print")
 async def print_page(request: Request):
-    return templates.TemplateResponse("print.html", {"request": request})
+    return templates.TemplateResponse("print.html", {"request": request, "page_title": "打印卡片"})
 
 
 @router.get("/pdfs")
 async def pdfs_page(request: Request):
-    return templates.TemplateResponse("pdfs.html", {"request": request})
+    return templates.TemplateResponse("pdfs.html", {"request": request, "page_title": "教材预览"})
 
 
 @router.get("/pdf-viewer")
 async def pdf_viewer(request: Request, file: str):
-    return templates.TemplateResponse("pdf-viewer.html", {"request": request, "filename": file})
+    return templates.TemplateResponse("pdf-viewer.html", {"request": request, "filename": file, "page_title": "教材预览"})
 
 
 @router.get("/worksheet")
 async def worksheet_page(request: Request):
-    return templates.TemplateResponse("worksheet.html", {"request": request})
+    return templates.TemplateResponse("worksheet.html", {"request": request, "page_title": "字帖"})
 
 
 @router.get("/math-quiz")
@@ -56,6 +66,7 @@ async def math_quiz_page(request: Request):
         "request": request,
         "problem_types": PROBLEM_TYPES,
         "grade_defaults": GRADE_DEFAULTS,
+        "page_title": "数学每日小测",
     })
 
 
@@ -81,4 +92,5 @@ async def math_preview_page(
         "problems": problems,
         "show_answers": show_answers,
         "today": __import__("datetime").datetime.now().strftime("%Y年%m月%d日"),
+        "page_title": "数学小测预览",
     })
