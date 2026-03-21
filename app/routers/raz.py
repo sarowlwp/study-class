@@ -1,4 +1,3 @@
-import os
 import re as _re
 from datetime import date, datetime
 from typing import Optional
