@@ -1,0 +1,280 @@
+{% extends "base.html" %}
+{% block title %}练习 - {{ book.title }}{% endblock %}
+{% block content %}
+<div class="max-w-3xl mx-auto px-4 py-4">
+
+  <!-- 顶部导航 -->
+  <div class="flex items-center justify-between mb-4">
+    <a href="/raz/book/{{ book.level }}/{{ book.id.split('/')[-1] }}" class="text-blue-500 hover:underline text-sm">← 返回</a>
+    <p class="text-gray-600 text-sm font-semibold">{{ book.title }}</p>
+    <span id="progress-label" class="text-xs text-gray-400"></span>
+  </div>
+
+  <!-- 当前页 PDF 展示 -->
+  <div class="bg-white rounded-xl shadow mb-4 overflow-hidden">
+    <iframe id="page-pdf" src="" class="w-full h-64 md:h-80 border-0"></iframe>
+  </div>
+
+  <!-- 音频播放器（隐藏控件，由按钮触发） -->
+  <audio id="ref-audio" preload="none"></audio>
+
+  <!-- 句子卡片 -->
+  <div class="bg-white rounded-xl shadow p-5 mb-4">
+    <p class="text-xs text-gray-400 mb-2">当前句子</p>
+    <p id="current-sentence" class="text-xl font-semibold text-gray-800 leading-relaxed"></p>
+  </div>
+
+  <!-- 操作按钮区 -->
+  <div class="flex gap-3 justify-center mb-4 flex-wrap">
+    <button id="btn-play" onclick="playRef()"
+            class="bg-blue-100 hover:bg-blue-200 text-blue-700 font-semibold px-5 py-2 rounded-lg flex items-center gap-2">
+      🔊 听示范
+    </button>
+    <button id="btn-record" onclick="toggleRecord()"
+            class="bg-red-500 hover:bg-red-600 text-white font-semibold px-5 py-2 rounded-lg flex items-center gap-2">
+      🎤 开始录音
+    </button>
+    <button id="btn-skip" onclick="nextSentence(true)"
+            class="bg-gray-100 hover:bg-gray-200 text-gray-600 font-semibold px-4 py-2 rounded-lg">
+      跳过
+    </button>
+  </div>
+
+  <!-- 评分结果区 -->
+  <div id="score-area" class="hidden bg-white rounded-xl shadow p-5 mb-4 text-center">
+    <div id="score-badge" class="text-5xl font-bold mb-2"></div>
+    <div id="score-feedback" class="text-gray-600 mb-4"></div>
+    <button onclick="nextSentence(false)"
+            class="bg-green-500 hover:bg-green-600 text-white font-semibold px-6 py-2 rounded-lg mr-2">
+      下一句 →
+    </button>
+    <button onclick="retryRecord()"
+            class="bg-yellow-100 hover:bg-yellow-200 text-yellow-700 font-semibold px-4 py-2 rounded-lg">
+      重录
+    </button>
+  </div>
+
+  <!-- 今日完成提示 -->
+  <div id="goal-banner" class="hidden bg-green-50 border border-green-200 rounded-xl p-4 text-center mb-4">
+    <p class="text-green-700 font-bold text-lg">🎉 今日目标完成！</p>
+    <p class="text-green-600 text-sm mt-1">可以继续练习，或<a href="/raz" class="underline">返回书库</a></p>
+  </div>
+
+</div>
+
+<script>
+// ── 状态 ─────────────────────────────────────────────────────────────────────
+const BOOK_DATA = {{ book | tojson }};
+const BOOK_LEVEL = "{{ book.level }}";
+const BOOK_DIR = "{{ book.id.split('/')[-1] }}";
+const DAILY_COUNT = {{ config.daily_count }};
+const DAILY_MODE = "{{ config.daily_mode }}";
+
+let currentPageIdx = 0;
+let currentSentIdx = 0;
+let mediaRecorder = null;
+let audioChunks = [];
+let isRecording = false;
+
+// ── 初始化 ───────────────────────────────────────────────────────────────────
+function init() {
+  // 尝试从 config.current_session 恢复断点
+  const session = {{ (config.current_session or {})|tojson }};
+  if (session.book_id === BOOK_DATA.id) {
+    const pageIdx = BOOK_DATA.pages.findIndex(p => p.page === session.page);
+    if (pageIdx >= 0) {
+      currentPageIdx = pageIdx;
+      currentSentIdx = Math.min(session.sentence_index || 0, BOOK_DATA.pages[pageIdx].sentences.length - 1);
+    }
+  }
+  renderCurrent();
+}
+
+function renderCurrent() {
+  const page = BOOK_DATA.pages[currentPageIdx];
+  if (!page) { showFinished(); return; }
+
+  const sentence = page.sentences[currentSentIdx];
+
+  // 更新 PDF
+  document.getElementById('page-pdf').src =
+    `/raz/media/${BOOK_LEVEL}/${BOOK_DIR}/${page.pdf}`;
+
+  // 更新参考音频（不自动播放）
+  document.getElementById('ref-audio').src =
+    `/raz/media/${BOOK_LEVEL}/${BOOK_DIR}/${page.audio}`;
+
+  // 更新句子文本
+  document.getElementById('current-sentence').textContent = sentence;
+
+  // 更新进度标签
+  const totalSents = BOOK_DATA.pages.reduce((s, p) => s + p.sentences.length, 0);
+  let done = 0;
+  for (let i = 0; i < currentPageIdx; i++) done += BOOK_DATA.pages[i].sentences.length;
+  done += currentSentIdx;
+  document.getElementById('progress-label').textContent = `${done + 1} / ${totalSents}`;
+
+  // 隐藏评分区
+  document.getElementById('score-area').classList.add('hidden');
+  document.getElementById('btn-record').textContent = '🎤 开始录音';
+  document.getElementById('btn-record').disabled = false;
+
+  // 保存断点
+  saveSession();
+}
+
+// ── 播放参考音频 ──────────────────────────────────────────────────────────────
+function playRef() {
+  document.getElementById('ref-audio').play();
+}
+
+// ── 录音 ─────────────────────────────────────────────────────────────────────
+async function toggleRecord() {
+  if (isRecording) {
+    stopRecord();
+  } else {
+    await startRecord();
+  }
+}
+
+async function startRecord() {
+  try {
+    const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+    audioChunks = [];
+    mediaRecorder = new MediaRecorder(stream);
+    mediaRecorder.ondataavailable = e => audioChunks.push(e.data);
+    mediaRecorder.onstop = submitAudio;
+    mediaRecorder.start();
+    isRecording = true;
+    document.getElementById('btn-record').textContent = '⏹ 停止录音';
+    document.getElementById('btn-record').classList.replace('bg-red-500', 'bg-orange-500');
+  } catch (e) {
+    alert('无法获取麦克风权限，请在浏览器设置中允许访问麦克风。');
+  }
+}
+
+function stopRecord() {
+  if (mediaRecorder && isRecording) {
+    mediaRecorder.stop();
+    mediaRecorder.stream.getTracks().forEach(t => t.stop());
+    isRecording = false;
+    document.getElementById('btn-record').textContent = '⏳ 评分中...';
+    document.getElementById('btn-record').disabled = true;
+  }
+}
+
+async function submitAudio() {
+  const page = BOOK_DATA.pages[currentPageIdx];
+  const sentence = page.sentences[currentSentIdx];
+
+  const blob = new Blob(audioChunks, { type: 'audio/webm' });
+  const fd = new FormData();
+  fd.append('audio', blob, 'recording.webm');
+  fd.append('text', sentence);
+  fd.append('book_id', BOOK_DATA.id);
+  fd.append('book_title', BOOK_DATA.title);
+  fd.append('level', BOOK_LEVEL);
+  fd.append('page', String(page.page));
+
+  try {
+    const res = await fetch('/api/raz/assess', { method: 'POST', body: fd });
+    if (res.ok) {
+      const data = await res.json();
+      showScore(data.score, data.feedback);
+    } else {
+      const err = await res.json();
+      if (err.detail && err.detail.includes('过短')) {
+        alert('录音过短，请重新录制。');
+      } else {
+        showScoreError();
+      }
+    }
+  } catch {
+    showScoreError();
+  }
+}
+
+function showScore(score, feedback) {
+  const area = document.getElementById('score-area');
+  const badge = document.getElementById('score-badge');
+  const feedbackEl = document.getElementById('score-feedback');
+  area.classList.remove('hidden');
+
+  if (score >= 90) {
+    badge.textContent = `${score} 优`;
+    badge.className = 'text-5xl font-bold mb-2 text-green-600';
+  } else if (score >= 70) {
+    badge.textContent = `${score} 良`;
+    badge.className = 'text-5xl font-bold mb-2 text-yellow-500';
+  } else {
+    badge.textContent = `${score} 加油`;
+    badge.className = 'text-5xl font-bold mb-2 text-red-500';
+  }
+  feedbackEl.textContent = feedback;
+}
+
+function showScoreError() {
+  document.getElementById('score-area').classList.remove('hidden');
+  document.getElementById('score-badge').textContent = '⚠️';
+  document.getElementById('score-feedback').textContent = '评分失败，可重试或跳过。';
+  document.getElementById('btn-record').textContent = '🎤 开始录音';
+  document.getElementById('btn-record').disabled = false;
+  document.getElementById('btn-record').classList.replace('bg-orange-500', 'bg-red-500');
+}
+
+// ── 导航 ─────────────────────────────────────────────────────────────────────
+function nextSentence(skip) {
+  const page = BOOK_DATA.pages[currentPageIdx];
+  if (currentSentIdx + 1 < page.sentences.length) {
+    currentSentIdx++;
+  } else if (currentPageIdx + 1 < BOOK_DATA.pages.length) {
+    currentPageIdx++;
+    currentSentIdx = 0;
+  } else {
+    showFinished();
+    return;
+  }
+  renderCurrent();
+  checkDailyGoal();
+}
+
+function retryRecord() {
+  document.getElementById('score-area').classList.add('hidden');
+  document.getElementById('btn-record').textContent = '🎤 开始录音';
+  document.getElementById('btn-record').disabled = false;
+  document.getElementById('btn-record').className =
+    'bg-red-500 hover:bg-red-600 text-white font-semibold px-5 py-2 rounded-lg flex items-center gap-2';
+}
+
+function showFinished() {
+  document.getElementById('current-sentence').textContent = '🎉 本书练习完成！';
+  document.getElementById('btn-record').disabled = true;
+  document.getElementById('btn-play').disabled = true;
+}
+
+async function checkDailyGoal() {
+  try {
+    const res = await fetch('/api/raz/config');
+    const data = await res.json();
+    if (data.today_count >= DAILY_COUNT) {
+      document.getElementById('goal-banner').classList.remove('hidden');
+    }
+  } catch {}
+}
+
+async function saveSession() {
+  const page = BOOK_DATA.pages[currentPageIdx];
+  await fetch('/api/raz/session', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({
+      book_id: BOOK_DATA.id,
+      page: page.page,
+      sentence_index: currentSentIdx,
+    })
+  });
+}
+
+init();
+</script>
+{% endblock %}
