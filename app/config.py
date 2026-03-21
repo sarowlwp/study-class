@@ -9,3 +9,10 @@ ENGLISH_DIR = DATA_DIR / "english"
 CHARACTERS_DIR.mkdir(parents=True, exist_ok=True)
 RECORDS_DIR.mkdir(parents=True, exist_ok=True)
 ENGLISH_DIR.mkdir(parents=True, exist_ok=True)
+
+RAZ_DIR = DATA_DIR / "raz"
+RAZ_RECORDS_DIR = DATA_DIR / "raz-records"
+RAZ_CONFIG_FILE = DATA_DIR / "raz-config.json"
+
+RAZ_DIR.mkdir(parents=True, exist_ok=True)
+RAZ_RECORDS_DIR.mkdir(parents=True, exist_ok=True)
