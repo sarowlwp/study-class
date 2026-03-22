@@ -1,0 +1,113 @@
+# tests/test_raz_service.py
+import json
+import pytest
+from pathlib import Path
+from datetime import date, datetime
+
+from app.services.raz_service import RazService
+from app.models.raz import RazBook, RazConfig, RazPracticeRecord
+
+
+@pytest.fixture
+def tmp_raz_dir(tmp_path):
+    """创建临时 RAZ 书库目录"""
+    book_dir = tmp_path / "level-a" / "my-book"
+    book_dir.mkdir(parents=True)
+    book_json = {
+        "id": "level-a/my-book",
+        "title": "My Book",
+        "level": "a",
+        "video": None,
+        "pages": [
+            {
+                "page": 1,
+                "pdf": "page01.pdf",
+                "audio": "page01.mp3",
+                "sentences": ["Hello world.", "Goodbye world."]
+            }
+        ]
+    }
+    (book_dir / "book.json").write_text(json.dumps(book_json), encoding="utf-8")
+    return tmp_path
+
+
+@pytest.fixture
+def tmp_records_dir(tmp_path):
+    return tmp_path / "records"
+
+
+@pytest.fixture
+def service(tmp_raz_dir, tmp_records_dir):
+    tmp_records_dir.mkdir()
+    config_file = tmp_raz_dir.parent / "raz-config.json"
+    return RazService(raz_dir=tmp_raz_dir, records_dir=tmp_records_dir, config_file=config_file)
+
+
+class TestRazService:
+    def test_get_books_returns_books_for_level(self, service):
+        books = service.get_books(level="a")
+        assert len(books) == 1
+        assert books[0].title == "My Book"
+        assert books[0].id == "level-a/my-book"
+
+    def test_get_books_empty_for_missing_level(self, service):
+        books = service.get_books(level="z")
+        assert books == []
+
+    def test_get_book_by_id(self, service):
+        book = service.get_book("level-a/my-book")
+        assert book is not None
+        assert len(book.pages) == 1
+        assert book.pages[0].sentences == ["Hello world.", "Goodbye world."]
+
+    def test_get_book_returns_none_for_missing(self, service):
+        book = service.get_book("level-a/nonexistent")
+        assert book is None
+
+    def test_get_config_returns_default_when_no_file(self, service):
+        config = service.get_config()
+        assert config.current_level == "a"
+        assert config.daily_mode == "manual"
+        assert config.daily_count == 10
+
+    def test_save_and_load_config(self, service):
+        from app.models.raz import RazConfig
+        config = RazConfig(current_level="b", daily_mode="smart", daily_count=15)
+        service.save_config(config)
+        loaded = service.get_config()
+        assert loaded.current_level == "b"
+        assert loaded.daily_count == 15
+
+    def test_save_record(self, service):
+        record = RazPracticeRecord(
+            book_id="level-a/my-book",
+            book_title="My Book",
+            level="a",
+            page=1,
+            sentence="Hello world.",
+            score=85,
+            timestamp=datetime(2026, 3, 21, 9, 15, 0),
+        )
+        service.save_record(record)
+        records = service.get_records_by_date(date(2026, 3, 21))
+        assert len(records) == 1
+        assert records[0].score == 85
+        assert records[0].sentence == "Hello world."
+
+    def test_get_records_returns_empty_for_missing_date(self, service):
+        records = service.get_records_by_date(date(2020, 1, 1))
+        assert records == []
+
+    def test_malformed_record_line_is_skipped(self, service, tmp_records_dir):
+        """格式错误的行不应导致崩溃"""
+        record_file = tmp_records_dir / "2026-03-21.md"
+        record_file.write_text(
+            "# RAZ 练习记录 2026-03-21\n\n## My Book (Level A)\n\n"
+            "| 页码 | 句子 | 评分 | 时间 |\n|------|------|------|------|\n"
+            "| 1 | Hello world. | 85 | 09:15:00 |\n"
+            "| BROKEN LINE WITHOUT PROPER FORMAT\n"
+            "| 1 | Goodbye world. | 90 | 09:16:00 |\n",
+            encoding="utf-8"
+        )
+        records = service.get_records_by_date(date(2026, 3, 21))
+        assert len(records) == 2  # 跳过损坏行，读到2条

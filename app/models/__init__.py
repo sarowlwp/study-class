@@ -14,6 +14,7 @@ from app.models.english_word import (
     EnglishQuizRecord,
     EnglishQuizSessionState,
 )
+from app.models.raz import RazPage, RazBook, RazConfig, RazPracticeRecord
 
 __all__ = [
     "Character",
@@ -31,4 +32,8 @@ __all__ = [
     "EnglishQuizMode",
     "EnglishQuizRecord",
     "EnglishQuizSessionState",
+    "RazPage",
+    "RazBook",
+    "RazConfig",
+    "RazPracticeRecord",
 ]

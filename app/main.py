@@ -6,6 +6,7 @@ from app.config import BASE_DIR
 from app.routers import pages, api
 from app.routers import math_quiz
 from app.routers import english
+from app.routers import raz
 
 app = FastAPI(
     title="语文学习小工具",
@@ -19,6 +20,7 @@ app.include_router(pages.router)
 app.include_router(api.router, prefix="/api")
 app.include_router(math_quiz.router)
 app.include_router(english.router)
+app.include_router(raz.router)
 
 if __name__ == "__main__":
     import uvicorn

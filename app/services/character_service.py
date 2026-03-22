@@ -25,17 +25,29 @@ class CharacterService:
         semester_match = re.search(r"^#\s+(.+)$", content, re.MULTILINE)
         semester = semester_match.group(1) if semester_match else filename
 
-        # Parse lessons and tables
-        lesson_pattern = r"^##\s+(.+)$\n+\|([^|]+)\|([^|]+)\|([^|]+)\|([^|]+)\|\n\|[-:|\s]+\|\n((?:\|[^\n]+\|\n?)+)"
+        # Parse lessons and tables (support both ## and ### headers)
+        lesson_pattern = r"^(#{2,3})\s+(.+)$\n+\|([^|]+)\|([^|]+)\|([^|]+)\|([^|]+)\|\n\|[-:|\s]+\|\n((?:\|[^\n]+\|\n?)+)"
 
         for match in re.finditer(lesson_pattern, content, re.MULTILINE):
-            lesson_name = match.group(1).strip()
-            table_content = match.group(6)
+            header_level = match.group(1)  # ## or ###
+            lesson_name = match.group(2).strip()
+            table_content = match.group(7)
+
+            # For level 2 headers (##), use as-is
+            # For level 3 headers (###), prepend parent lesson name
+            if header_level == "###":
+                # Find parent level 2 header
+                pos = match.start()
+                before_content = content[:pos]
+                parent_match = re.search(r"^##\s+(.+)$", before_content, re.MULTILINE)
+                if parent_match:
+                    parent_name = parent_match.group(1).strip()
+                    lesson_name = f"{parent_name}：{lesson_name}"
 
             # Parse headers
             headers = [
                 h.strip().lower()
-                for h in [match.group(2), match.group(3), match.group(4), match.group(5)]
+                for h in [match.group(3), match.group(4), match.group(5), match.group(6)]
             ]
             field_map = self._map_headers(headers)
 
