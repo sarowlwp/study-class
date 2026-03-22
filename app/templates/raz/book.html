@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}{{ book.title }} - RAZ 跟读{% endblock %}
+{% block content %}
+<div class="max-w-2xl mx-auto px-4 py-6">
+  <a href="/raz" class="text-blue-500 hover:underline text-sm">← 返回书库</a>
+
+  <div class="mt-4 bg-white rounded-xl shadow p-6">
+    <h1 class="text-xl font-bold text-gray-800 mb-1">{{ book.title }}</h1>
+    <p class="text-sm text-gray-400 mb-4">Level {{ book.level | upper }} · {{ book.pages | length }} 页</p>
+
+    {% if book.video %}
+    <div class="mb-6">
+      <p class="text-sm font-semibold text-gray-600 mb-2">📽 整本书视频预览</p>
+      <video controls class="w-full rounded-lg border">
+        <source src="/raz/media/{{ book.level }}/{{ book.id.split('/')[-1] }}/{{ book.video }}">
+      </video>
+    </div>
+    {% endif %}
+
+    <div class="bg-blue-50 rounded-lg p-4 mb-6">
+      <p class="text-sm text-gray-600 mb-1">本书共 <strong>{{ book.pages | length }}</strong> 页，练习方式：</p>
+      <ul class="text-sm text-gray-600 list-disc list-inside space-y-1">
+        <li>每页展示 PDF 内容 + 播放参考音频</li>
+        <li>逐句录音跟读，AI 即时评分</li>
+        <li>可重录或跳过</li>
+      </ul>
+    </div>
+
+    <a href="/raz/practice/{{ book.level }}/{{ book.id.split('/')[-1] }}"
+       class="block w-full bg-green-500 hover:bg-green-600 text-white text-center font-bold py-3 rounded-xl text-lg transition">
+      🎤 开始练习
+    </a>
+  </div>
+</div>
+{% endblock %}

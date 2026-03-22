@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}RAZ 练习进度{% endblock %}
+{% block content %}
+<div class="max-w-2xl mx-auto px-4 py-6">
+  <a href="/raz" class="text-blue-500 hover:underline text-sm">← 返回书库</a>
+  <h1 class="text-2xl font-bold text-gray-800 mt-4 mb-6">📊 今日练习进度</h1>
+
+  <div class="bg-white rounded-xl shadow p-5 mb-6">
+    <p class="text-gray-600">今日已完成
+      <span class="text-3xl font-bold text-blue-600 mx-2">{{ today_count }}</span>
+      句
+    </p>
+    <p class="text-sm text-gray-400 mt-1">
+      目标：{{ config.daily_count }} 句（{{ config.daily_mode == 'smart' and '智能推荐' or '手动设置' }}）
+    </p>
+  </div>
+
+  {% if today_records %}
+  <div class="bg-white rounded-xl shadow p-5">
+    <h2 class="font-semibold text-gray-700 mb-3">今日练习记录</h2>
+    <div class="overflow-x-auto">
+      <table class="w-full text-sm">
+        <thead class="text-gray-500 border-b">
+          <tr>
+            <th class="text-left py-1 pr-3">句子</th>
+            <th class="text-center py-1 px-2">评分</th>
+            <th class="text-right py-1 pl-2">时间</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for r in today_records %}
+          <tr class="border-b border-gray-50">
+            <td class="py-1 pr-3 text-gray-700">{{ r.sentence }}</td>
+            <td class="text-center py-1 px-2">
+              <span class="font-bold {% if r.score >= 90 %}text-green-600{% elif r.score >= 70 %}text-yellow-500{% else %}text-red-500{% endif %}">
+                {{ r.score }}
+              </span>
+            </td>
+            <td class="text-right py-1 pl-2 text-gray-400">{{ r.timestamp.strftime('%H:%M') }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  {% else %}
+  <div class="text-center text-gray-400 py-10">今日暂无练习记录</div>
+  {% endif %}
+</div>
+{% endblock %}
