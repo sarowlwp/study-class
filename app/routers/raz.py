@@ -59,10 +59,21 @@ async def raz_practice(request: Request, level: str, book_dir: str):
     if not book:
         raise HTTPException(status_code=404, detail="Book not found")
     config = raz_service.get_config()
+    # Convert dataclass to dict for JSON serialization
+    book_dict = {
+        "id": book.id,
+        "title": book.title,
+        "level": book.level,
+        "video": book.video,
+        "pages": [
+            {"page": p.page, "pdf": p.pdf, "audio": p.audio, "sentences": p.sentences}
+            for p in book.pages
+        ],
+    }
     return templates.TemplateResponse("raz/practice.html", {
         "request": request,
         "page_title": f"{book.title} - 练习",
-        "book": book,
+        "book": book_dict,
         "config": config,
     })
 

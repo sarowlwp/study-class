@@ -81,6 +81,9 @@ class RecordService:
         """Get all historical records"""
         all_records = []
         for filepath in sorted(RECORDS_DIR.glob("*.md")):
+            # Skip non-hanzi record files (english, raz, etc.)
+            if filepath.stem.startswith(("english-", "raz-")):
+                continue
             all_records.extend(self._parse_record_file(filepath))
         return all_records
 
