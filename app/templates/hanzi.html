@@ -120,6 +120,10 @@ async function startQuiz() {
     });
 
     const data = await response.json();
+    if (!response.ok) {
+        alert(`启动失败：${data.detail || '请检查课程数据是否正确'}`);
+        return;
+    }
     window.location.href = `/quiz?session=${data.session_id}`;
 }
 
