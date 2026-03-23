@@ -25,42 +25,18 @@ venv/
 env/
 ENV/
 
-# Node
-node_modules/
-
-# IDEs
-.idea/
+# IDE
 .vscode/
+.idea/
 *.swp
 *.swo
-*~
 
-# OS
-.DS_Store
-Thumbs.db
+# Worktrees
+.worktrees/
 
-# Project specific
-.pytest_cache/
-.mypy_cache/
-.claude/
-.claude-superpowers.json
-
-# Data directories that shouldn't be committed
-data/cache/
-data/records/
-
-
-# Logs
-logs/
-*.log
-
-# Environment variables
-.env
-.env.local
-
-# SSH Keys (never commit these)
-github
-github.pub
-*.pem
-*.key
-.ssh/
+# Data files (large binaries)
+*.mp3
+*.mp4
+*.pdf
+*.zip
+*.tar.gz
