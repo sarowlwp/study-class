@@ -254,4 +254,6 @@ def get_assessor() -> SpeechAssessor:
     provider = os.environ.get("SPEECH_ASSESSOR", "mock").lower()
     if provider == "aliyun":
         return AliyunSpeechAssessor()
+    if provider == "azure":
+        return AzureSpeechAssessor()
     return MockSpeechAssessor()
