@@ -111,13 +111,14 @@ class AzureSpeechAssessor:
         for attempt in range(self._max_retries):
             try:
                 return await self._call_azure_api(audio_bytes, text)
-            except (speechsdk.CancellationError, ConnectionError, TimeoutError) as e:
-                last_error = e
-                if attempt < self._max_retries - 1:
-                    wait_time = 2 ** attempt  # Exponential backoff: 1, 2, 4 seconds
-                    await asyncio.sleep(wait_time)
-                continue
             except Exception as e:
+                last_error = e
+                # Check if it's a cancellation error
+                if "Canceled" in str(e) or "cancellation" in str(e).lower():
+                    if attempt < self._max_retries - 1:
+                        wait_time = 2 ** attempt
+                        await asyncio.sleep(wait_time)
+                        continue
                 # Don't retry on other errors (4xx, etc.)
                 raise RuntimeError(f"Azure Speech API error: {e}")
 
@@ -140,7 +141,7 @@ class AzureSpeechAssessor:
 
         # Create audio input from bytes
         push_stream = speechsdk.audio.PushAudioInputStream()
-        audio_input = speechsdk.AudioConfig(stream=push_stream)
+        audio_input = speechsdk.audio.AudioConfig(stream=push_stream)
         push_stream.write(audio_bytes)
         push_stream.close()
 
@@ -157,7 +158,11 @@ class AzureSpeechAssessor:
 
         if result.reason == speechsdk.ResultReason.Canceled:
             cancellation_details = result.cancellation_details
-            raise speechsdk.CancellationError(f"Speech recognition canceled: {cancellation_details.reason}")
+            error_msg = f"Speech recognition canceled: {cancellation_details.reason}"
+            # Add error details if available
+            if cancellation_details.error_details:
+                error_msg += f" | Details: {cancellation_details.error_details}"
+            raise RuntimeError(error_msg)
 
         if result.reason != speechsdk.ResultReason.RecognizedSpeech:
             raise RuntimeError(f"Speech recognition failed: {result.reason}")
