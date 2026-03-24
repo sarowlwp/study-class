@@ -1,3 +1,4 @@
+import os
 import re as _re
 from datetime import date, datetime
 from typing import Optional
@@ -91,6 +92,18 @@ async def raz_progress(request: Request):
     })
 
 
+@router.get("/raz/speech-test")
+async def raz_speech_test(request: Request):
+    """Azure Speech 发音评估测试页面。"""
+    assessor_type = os.environ.get("SPEECH_ASSESSOR", "mock")
+    return templates.TemplateResponse("raz/speech_test.html", {
+        "request": request,
+        "page_title": "Azure Speech 测试",
+        "assessor_type": assessor_type,
+        "assessor_class": type(assessor).__name__,
+    })
+
+
 # ── API 路由 ──────────────────────────────────────────────────────────────────
 
 @router.get("/api/raz/books")
@@ -129,6 +142,7 @@ async def api_assess(
     page: int = Form(...),
 ):
     audio_bytes = await audio.read()
+
     if len(audio_bytes) < 1000:
         raise HTTPException(status_code=400, detail="录音过短，请重新录制")
 
@@ -147,8 +161,9 @@ async def api_assess(
 
     return {
         "score": result.score,
+        "level": result.level,
         "feedback": result.feedback,
-        "word_scores": [{"word": w.word, "score": w.score} for w in result.word_scores],
+        "word_scores": [{"word": w.word, "score": w.score, "status": w.status} for w in result.word_scores],
     }
 
 
