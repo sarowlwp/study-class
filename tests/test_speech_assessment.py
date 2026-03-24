@@ -57,3 +57,33 @@ class TestAzureSpeechAssessor:
             assessor = AzureSpeechAssessor()
             assert assessor._key == "test-key"
             assert assessor._region == "eastasia"
+
+
+class TestGetAssessor:
+    def test_returns_mock_by_default(self):
+        with patch.dict(os.environ, {}, clear=True):
+            from app.services.speech_assessment import get_assessor, MockSpeechAssessor
+            assessor = get_assessor()
+            assert isinstance(assessor, MockSpeechAssessor)
+
+    def test_returns_mock_when_mock_specified(self):
+        with patch.dict(os.environ, {"SPEECH_ASSESSOR": "mock"}):
+            from app.services.speech_assessment import get_assessor, MockSpeechAssessor
+            assessor = get_assessor()
+            assert isinstance(assessor, MockSpeechAssessor)
+
+    def test_returns_azure_when_azure_specified(self):
+        with patch.dict(os.environ, {
+            "SPEECH_ASSESSOR": "azure",
+            "AZURE_SPEECH_KEY": "test-key",
+            "AZURE_SPEECH_REGION": "eastasia"
+        }):
+            from app.services.speech_assessment import get_assessor, AzureSpeechAssessor
+            assessor = get_assessor()
+            assert isinstance(assessor, AzureSpeechAssessor)
+
+    def test_returns_mock_for_invalid_provider(self):
+        with patch.dict(os.environ, {"SPEECH_ASSESSOR": "invalid"}):
+            from app.services.speech_assessment import get_assessor, MockSpeechAssessor
+            assessor = get_assessor()
+            assert isinstance(assessor, MockSpeechAssessor)
