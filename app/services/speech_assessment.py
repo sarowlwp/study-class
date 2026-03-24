@@ -12,11 +12,13 @@ except ImportError:
 class WordScore:
     word: str
     score: int  # 0-100
+    status: str = "good"  # "good" or "weak"
 
 
 @dataclass
 class SpeechAssessmentResult:
     score: int                                    # 0-100 整体评分
+    level: str = ""                               # "excellent"/"great"/"good"/"keep_trying"
     word_scores: List[WordScore] = field(default_factory=list)
     feedback: str = ""
 
