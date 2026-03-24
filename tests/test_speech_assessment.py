@@ -58,6 +58,48 @@ class TestAzureSpeechAssessor:
             assert assessor._key == "test-key"
             assert assessor._region == "eastasia"
 
+    def test_map_score_to_level_excellent(self):
+        with patch.dict(os.environ, {"AZURE_SPEECH_KEY": "test", "AZURE_SPEECH_REGION": "eastasia"}):
+            from app.services.speech_assessment import AzureSpeechAssessor
+            assessor = AzureSpeechAssessor()
+            assert assessor._map_score_to_level(90) == ("excellent", "非常棒 🌟🌟")
+            assert assessor._map_score_to_level(100) == ("excellent", "非常棒 🌟🌟")
+
+    def test_map_score_to_level_great(self):
+        with patch.dict(os.environ, {"AZURE_SPEECH_KEY": "test", "AZURE_SPEECH_REGION": "eastasia"}):
+            from app.services.speech_assessment import AzureSpeechAssessor
+            assessor = AzureSpeechAssessor()
+            assert assessor._map_score_to_level(75) == ("great", "很好 🌟")
+            assert assessor._map_score_to_level(89) == ("great", "很好 🌟")
+
+    def test_map_score_to_level_good(self):
+        with patch.dict(os.environ, {"AZURE_SPEECH_KEY": "test", "AZURE_SPEECH_REGION": "eastasia"}):
+            from app.services.speech_assessment import AzureSpeechAssessor
+            assessor = AzureSpeechAssessor()
+            assert assessor._map_score_to_level(60) == ("good", "不错 👍")
+            assert assessor._map_score_to_level(74) == ("good", "不错 👍")
+
+    def test_map_score_to_level_keep_trying(self):
+        with patch.dict(os.environ, {"AZURE_SPEECH_KEY": "test", "AZURE_SPEECH_REGION": "eastasia"}):
+            from app.services.speech_assessment import AzureSpeechAssessor
+            assessor = AzureSpeechAssessor()
+            assert assessor._map_score_to_level(0) == ("keep_trying", "继续加油 💪")
+            assert assessor._map_score_to_level(59) == ("keep_trying", "继续加油 💪")
+
+    def test_map_word_score_good(self):
+        with patch.dict(os.environ, {"AZURE_SPEECH_KEY": "test", "AZURE_SPEECH_REGION": "eastasia"}):
+            from app.services.speech_assessment import AzureSpeechAssessor
+            assessor = AzureSpeechAssessor()
+            assert assessor._map_word_score(70) == "good"
+            assert assessor._map_word_score(100) == "good"
+
+    def test_map_word_score_weak(self):
+        with patch.dict(os.environ, {"AZURE_SPEECH_KEY": "test", "AZURE_SPEECH_REGION": "eastasia"}):
+            from app.services.speech_assessment import AzureSpeechAssessor
+            assessor = AzureSpeechAssessor()
+            assert assessor._map_word_score(0) == "weak"
+            assert assessor._map_word_score(69) == "weak"
+
 
 class TestGetAssessor:
     def test_returns_mock_by_default(self):
