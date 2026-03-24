@@ -4,6 +4,21 @@ import asyncio
 from app.services.speech_assessment import MockSpeechAssessor, SpeechAssessmentResult
 
 
+from app.services.speech_assessment import WordScore, SpeechAssessmentResult
+
+
+def test_word_score_has_status_field():
+    ws = WordScore(word="hello", score=85)
+    assert ws.word == "hello"
+    assert ws.score == 85
+    assert ws.status == "good"  # default value
+
+
+def test_word_score_status_can_be_weak():
+    ws = WordScore(word="hello", score=55, status="weak")
+    assert ws.status == "weak"
+
+
 class TestMockSpeechAssessor:
     @pytest.mark.asyncio
     async def test_assess_returns_result(self):
