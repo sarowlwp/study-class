@@ -294,9 +294,10 @@ class AzureSpeechAssessor:
         )
 
         # Create audio input from bytes
-        audio_input = speechsdk.AudioConfig(stream=speechsdk.audio.PushAudioInputStream())
-        audio_input.stream.write(audio_bytes)
-        audio_input.stream.close()
+        push_stream = speechsdk.audio.PushAudioInputStream()
+        audio_input = speechsdk.AudioConfig(stream=push_stream)
+        push_stream.write(audio_bytes)
+        push_stream.close()
 
         # Create speech recognizer
         speech_recognizer = speechsdk.SpeechRecognizer(
