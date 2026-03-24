@@ -1,10 +1,13 @@
 # tests/test_speech_assessment.py
+import os
 import pytest
 import asyncio
-from app.services.speech_assessment import MockSpeechAssessor, SpeechAssessmentResult
-
-
-from app.services.speech_assessment import WordScore, SpeechAssessmentResult
+from unittest.mock import patch
+from app.services.speech_assessment import (
+    MockSpeechAssessor,
+    SpeechAssessmentResult,
+    WordScore,
+)
 
 
 def test_word_score_has_status_field():
@@ -33,3 +36,24 @@ class TestMockSpeechAssessor:
         assessor = MockSpeechAssessor()
         result = await assessor.assess(b"", "Short.")
         assert result.score >= 0
+
+
+class TestAzureSpeechAssessor:
+    def test_init_raises_without_key(self):
+        with patch.dict(os.environ, {"AZURE_SPEECH_KEY": "", "AZURE_SPEECH_REGION": ""}):
+            with pytest.raises(ValueError, match="AZURE_SPEECH_KEY"):
+                from app.services.speech_assessment import AzureSpeechAssessor
+                AzureSpeechAssessor()
+
+    def test_init_raises_without_region(self):
+        with patch.dict(os.environ, {"AZURE_SPEECH_KEY": "test-key", "AZURE_SPEECH_REGION": ""}):
+            with pytest.raises(ValueError, match="AZURE_SPEECH_REGION"):
+                from app.services.speech_assessment import AzureSpeechAssessor
+                AzureSpeechAssessor()
+
+    def test_init_succeeds_with_both_env_vars(self):
+        with patch.dict(os.environ, {"AZURE_SPEECH_KEY": "test-key", "AZURE_SPEECH_REGION": "eastasia"}):
+            from app.services.speech_assessment import AzureSpeechAssessor
+            assessor = AzureSpeechAssessor()
+            assert assessor._key == "test-key"
+            assert assessor._region == "eastasia"
