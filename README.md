@@ -26,6 +26,13 @@
 - ❌ **错题复习**: 自动记录错题，针对性复习
 - 📊 **测验统计**: 实时显示正确率和进度
 
+### RAZ 跟读练习
+- 📖 **RAZ 分级阅读**: 支持 RAZ 绘本跟读练习
+- 🎤 **语音评测**: 集成 Azure Speech Service 进行发音评估
+- ⭐ **四级评分**: 非常棒/很好/不错/继续加油
+- ✓ **单词反馈**: 标记发音准确和需改进的单词
+- 📈 **学习进度**: 记录每日练习情况，智能推荐
+
 ### 通用
 - 👶 **儿童友好**: 色彩丰富的界面，适合小学生使用
 - 📱 **响应式设计**: 支持电脑、平板访问
@@ -45,6 +52,32 @@ uvicorn app.main:app --reload
 ```
 
 然后访问 http://localhost:8000
+
+## 配置
+
+### Azure Speech 发音评估（可选）
+
+RAZ 跟读功能默认使用 Mock 评估器。要启用真实的 Azure Speech 发音评估：
+
+1. 在 Azure  portal 创建 [Speech Service](https://portal.azure.com/#create/Microsoft.CognitiveServicesSpeechServices) 资源
+2. 获取密钥和区域信息
+3. 设置环境变量：
+
+```bash
+# Azure Speech 配置
+export SPEECH_ASSESSOR=azure
+export AZURE_SPEECH_KEY=your-key-here
+export AZURE_SPEECH_REGION=southeastasia  # 或其他区域如 eastasia
+```
+
+或使用 `.env` 文件（项目已提供 `.env.example` 模板）：
+
+```bash
+cp .env.example .env
+# 编辑 .env 填入你的 Azure 配置
+```
+
+支持的区域：`eastasia`, `southeastasia`, `westus`, `westeurope` 等
 
 ### 添加汉字数据
 
@@ -75,9 +108,12 @@ uvicorn app.main:app --reload
 │   ├── characters/   # 汉字数据
 │   ├── records/      # 评测记录
 │   ├── pdfs/         # PDF教材文件
-│   └── english/      # 英语单词数据
-│       ├── words/    # 单词库
-│       └── audios/   # 单词音频文件
+│   ├── english/      # 英语单词数据
+│   │   ├── words/    # 单词库
+│   │   └── audios/   # 单词音频文件
+│   └── raz/          # RAZ 书库和练习记录
+│       ├── library/  # RAZ 绘本资源
+│       └── records/  # RAZ 练习记录
 └── tests/            # 测试文件
 ```
 
@@ -127,6 +163,19 @@ uvicorn app.main:app --reload
 6. 逐题作答，系统自动判分
 7. 完成后查看结果和错题
 8. 在"错题本"中复习未掌握的单词
+
+### RAZ 跟读练习
+1. 点击导航栏"📚 RAZ 跟读"
+2. 选择适合的级别和绘本
+3. 点击"开始练习"进入跟读页面
+4. 点击"🔊 听示范"听标准发音
+5. 点击"🎤 开始录音"跟读句子
+6. 系统自动评分，显示四级评价
+7. 查看单词级反馈（✓ 发音准确 / ✗ 需改进）
+8. 继续练习下一句，或重录改进
+
+### Azure Speech 测试
+访问 `/raz/speech-test` 页面可直接测试 Azure Speech 发音评估功能，无需进入绘本练习。
 
 ## 开发
 
