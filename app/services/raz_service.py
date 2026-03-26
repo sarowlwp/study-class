@@ -49,13 +49,18 @@ class RazService:
                 )
                 for p in data.get("pages", [])
             ]
-            return RazBook(
+            cover = data.get("cover")
+            book = RazBook(
                 id=data["id"],
                 title=data["title"],
                 level=data["level"],
                 pages=pages,
                 video=data.get("video"),
+                cover=cover,
             )
+            if not book.validate_cover():
+                book.cover = None
+            return book
         except Exception:
             return None
 

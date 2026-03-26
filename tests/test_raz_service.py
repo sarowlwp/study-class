@@ -111,3 +111,78 @@ class TestRazService:
         )
         records = service.get_records_by_date(date(2026, 3, 21))
         assert len(records) == 2  # 跳过损坏行，读到2条
+
+
+class TestLoadBookCover:
+    """测试 _load_book 读取 cover 字段"""
+
+    def test_load_book_with_cover(self, tmp_path):
+        """测试 _load_book 正确读取 cover 字段"""
+        book_dir = tmp_path / "level-a" / "test-book"
+        book_dir.mkdir(parents=True)
+        book_json = {
+            "id": "level-a/test-book",
+            "title": "Test Book",
+            "level": "a",
+            "cover": "cover.jpg",
+            "video": None,
+            "pages": []
+        }
+        (book_dir / "book.json").write_text(json.dumps(book_json), encoding="utf-8")
+
+        service = RazService(
+            raz_dir=tmp_path,
+            records_dir=tmp_path / "records",
+            config_file=tmp_path / "config.json"
+        )
+
+        book = service._load_book(book_dir)
+        assert book is not None
+        assert book.cover == "cover.jpg"
+
+    def test_load_book_without_cover(self, tmp_path):
+        """测试 _load_book 处理无 cover 字段的情况"""
+        book_dir = tmp_path / "level-a" / "test-book"
+        book_dir.mkdir(parents=True)
+        book_json = {
+            "id": "level-a/test-book",
+            "title": "Test Book",
+            "level": "a",
+            "video": None,
+            "pages": []
+        }
+        (book_dir / "book.json").write_text(json.dumps(book_json), encoding="utf-8")
+
+        service = RazService(
+            raz_dir=tmp_path,
+            records_dir=tmp_path / "records",
+            config_file=tmp_path / "config.json"
+        )
+
+        book = service._load_book(book_dir)
+        assert book is not None
+        assert book.cover is None
+
+    def test_load_book_with_invalid_cover(self, tmp_path):
+        """测试 _load_book 对非法 cover 字段重置为 None"""
+        book_dir = tmp_path / "level-a" / "test-book"
+        book_dir.mkdir(parents=True)
+        book_json = {
+            "id": "level-a/test-book",
+            "title": "Test Book",
+            "level": "a",
+            "cover": "../../../etc/passwd",
+            "video": None,
+            "pages": []
+        }
+        (book_dir / "book.json").write_text(json.dumps(book_json), encoding="utf-8")
+
+        service = RazService(
+            raz_dir=tmp_path,
+            records_dir=tmp_path / "records",
+            config_file=tmp_path / "config.json"
+        )
+
+        book = service._load_book(book_dir)
+        assert book is not None
+        assert book.cover is None
