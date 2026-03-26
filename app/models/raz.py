@@ -38,7 +38,7 @@ class RazBook:
         if not self.cover:
             return True
         return bool(re.match(
-            r'^[a-zA-Z0-9_\-\.]+\.(jpg|jpeg|png|gif|webp)$',
+            r"^[a-zA-Z0-9_\-\.]+\.(jpg|jpeg|png|gif|webp)$",
             self.cover,
             re.IGNORECASE
         ))
