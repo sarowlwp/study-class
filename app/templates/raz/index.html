@@ -37,11 +37,26 @@
   {% if books %}
   <div class="grid grid-cols-2 md:grid-cols-3 gap-4" id="book-list">
     {% for book in books %}
-    <a href="/raz/book/{{ book.level }}/{{ book.id.split('/')[-1] }}"
-       class="block bg-white rounded-xl shadow hover:shadow-md transition p-4 border border-gray-100">
-      <div class="text-4xl text-center mb-2">📚</div>
-      <p class="text-center font-semibold text-gray-700 text-sm">{{ book.title }}</p>
-      <p class="text-center text-xs text-gray-400 mt-1">{{ book.pages | length }} 页</p>
+    <a href="/raz/book/{{ book.level }}/{{ book.directory_name }}"
+       class="block bg-white rounded-xl shadow hover:shadow-md transition overflow-hidden border border-gray-100">
+      <!-- 封面图片 -->
+      <div class="aspect-[3/4] w-full overflow-hidden bg-gray-100">
+        {% if book.cover %}
+        <img src="/raz/media/{{ book.level }}/{{ book.directory_name }}/{{ book.cover }}"
+             alt="{{ book.title }}"
+             class="h-full w-full object-cover"
+             onerror="this.src='/static/images/default-cover.svg'">
+        {% else %}
+        <img src="/static/images/default-cover.svg"
+             alt="{{ book.title }}"
+             class="h-full w-full object-cover">
+        {% endif %}
+      </div>
+      <!-- 书名 -->
+      <div class="p-3">
+        <p class="text-center font-semibold text-gray-700 text-sm line-clamp-2">{{ book.title }}</p>
+        <p class="text-center text-xs text-gray-400 mt-1">{{ book.pages | length }} 页</p>
+      </div>
     </a>
     {% endfor %}
   </div>
