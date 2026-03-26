@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 from datetime import datetime
 from typing import Optional, List
+import re
 
 
 @dataclass
@@ -18,6 +19,29 @@ class RazBook:
     level: str
     pages: List[RazPage]
     video: Optional[str] = None
+    cover: Optional[str] = None  # 新增: 封面文件名
+
+    @property
+    def directory_name(self) -> str:
+        """返回书籍目录名，用于构建资源路径。
+
+        id 格式为 level-{x}/{dir_name}，如 level-a/a-fish-sees
+        """
+        return self.id.split("/")[-1] if "/" in self.id else self.id
+
+    def validate_cover(self) -> bool:
+        """校验 cover 字段是否为安全的文件名。
+
+        仅允许：字母、数字、下划线、连字符、点
+        扩展名白名单：jpg, jpeg, png, gif, webp
+        """
+        if not self.cover:
+            return True
+        return bool(re.match(
+            r'^[a-zA-Z0-9_\-\.]+\.(jpg|jpeg|png|gif|webp)$',
+            self.cover,
+            re.IGNORECASE
+        ))
 
 
 @dataclass
