@@ -1,3 +1,4 @@
+import json
 import re as _re
 from datetime import date, datetime
 from typing import Optional
@@ -60,7 +61,6 @@ async def raz_practice(request: Request, level: str, book_dir: str):
         raise HTTPException(status_code=404, detail="Book not found")
     config = raz_service.get_config()
     # 读取原始 book.json 获取完整句子数据（含时间戳）
-    import json
     book_json_path = raz_service._raz_dir / book_id / "book.json"
     sentences_with_timestamps = []
     if book_json_path.exists():
@@ -70,8 +70,9 @@ async def raz_practice(request: Request, level: str, book_dir: str):
                 {"text": s.get("text", ""), "start": s.get("start"), "end": s.get("end")}
                 for s in raw_data.get("sentences", [])
             ]
-        except Exception:
-            pass
+        except Exception as e:
+            # Log error for debugging but don't fail the request
+            print(f"Warning: Failed to load book.json for {book_id}: {e}")
     # Convert dataclass to dict for JSON serialization
     book_dict = {
         "id": book.id,
