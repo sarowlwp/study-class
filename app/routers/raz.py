@@ -59,6 +59,19 @@ async def raz_practice(request: Request, level: str, book_dir: str):
     if not book:
         raise HTTPException(status_code=404, detail="Book not found")
     config = raz_service.get_config()
+    # 读取原始 book.json 获取完整句子数据（含时间戳）
+    import json
+    book_json_path = raz_service._raz_dir / book_id / "book.json"
+    sentences_with_timestamps = []
+    if book_json_path.exists():
+        try:
+            raw_data = json.loads(book_json_path.read_text(encoding="utf-8"))
+            sentences_with_timestamps = [
+                {"text": s.get("text", ""), "start": s.get("start"), "end": s.get("end")}
+                for s in raw_data.get("sentences", [])
+            ]
+        except Exception:
+            pass
     # Convert dataclass to dict for JSON serialization
     book_dict = {
         "id": book.id,
@@ -69,6 +82,8 @@ async def raz_practice(request: Request, level: str, book_dir: str):
             {"page": p.page, "pdf": p.pdf, "audio": p.audio, "sentences": p.sentences}
             for p in book.pages
         ],
+        # 新增：完整句子数组用于前端查找时间戳
+        "sentences": sentences_with_timestamps,
     }
     return templates.TemplateResponse("raz/practice.html", {
         "request": request,
