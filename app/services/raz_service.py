@@ -49,6 +49,11 @@ class RazService:
                     pdf=data.get("pdf", ""),
                     audio=data.get("audio", ""),
                     sentences=[sent.get("text", "")],
+                    sentence_data={
+                        "text": sent.get("text", ""),
+                        "start": sent.get("start"),
+                        "end": sent.get("end"),
+                    }
                 )
                 for i, sent in enumerate(sentences)
             ]
