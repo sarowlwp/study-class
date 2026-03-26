@@ -18,13 +18,11 @@ def tmp_raz_dir(tmp_path):
         "title": "My Book",
         "level": "a",
         "video": None,
-        "pages": [
-            {
-                "page": 1,
-                "pdf": "page01.pdf",
-                "audio": "page01.mp3",
-                "sentences": ["Hello world.", "Goodbye world."]
-            }
+        "pdf": "book.pdf",
+        "audio": "audio.mp3",
+        "sentences": [
+            {"text": "Hello world.", "page": 1},
+            {"text": "Goodbye world.", "page": 1}
         ]
     }
     (book_dir / "book.json").write_text(json.dumps(book_json), encoding="utf-8")
@@ -58,6 +56,9 @@ class TestRazService:
         book = service.get_book("level-a/my-book")
         assert book is not None
         assert len(book.pages) == 1
+        assert book.pages[0].page == 1
+        assert book.pages[0].pdf == "book.pdf"
+        assert book.pages[0].audio == "audio.mp3"
         assert book.pages[0].sentences == ["Hello world.", "Goodbye world."]
 
     def test_get_book_returns_none_for_missing(self, service):
@@ -126,7 +127,9 @@ class TestLoadBookCover:
             "level": "a",
             "cover": "cover.jpg",
             "video": None,
-            "pages": []
+            "pdf": "book.pdf",
+            "audio": "audio.mp3",
+            "sentences": []
         }
         (book_dir / "book.json").write_text(json.dumps(book_json), encoding="utf-8")
 
@@ -149,7 +152,9 @@ class TestLoadBookCover:
             "title": "Test Book",
             "level": "a",
             "video": None,
-            "pages": []
+            "pdf": "book.pdf",
+            "audio": "audio.mp3",
+            "sentences": []
         }
         (book_dir / "book.json").write_text(json.dumps(book_json), encoding="utf-8")
 
@@ -173,7 +178,9 @@ class TestLoadBookCover:
             "level": "a",
             "cover": "../../../etc/passwd",
             "video": None,
-            "pages": []
+            "pdf": "book.pdf",
+            "audio": "audio.mp3",
+            "sentences": []
         }
         (book_dir / "book.json").write_text(json.dumps(book_json), encoding="utf-8")
 

@@ -2,8 +2,8 @@ import re as _re
 from datetime import date, datetime
 from typing import Optional
 
-from fastapi import APIRouter, Request, HTTPException, UploadFile, File, Form
-from fastapi.responses import FileResponse
+from fastapi import APIRouter, Request, HTTPException, UploadFile, File, Form, Header
+from fastapi.responses import FileResponse, StreamingResponse
 from fastapi.templating import Jinja2Templates
 from pydantic import BaseModel
 
@@ -210,9 +210,34 @@ async def api_get_config():
 _SAFE_PATH_PATTERN = _re.compile(r'^[a-zA-Z0-9_\-\.]+$')
 
 
+def _get_content_type(filename: str) -> str:
+    """根据文件扩展名返回 Content-Type。"""
+    ext = filename.lower().split(".")[-1] if "." in filename else ""
+    mime_types = {
+        "mp4": "video/mp4",
+        "mov": "video/quicktime",
+        "webm": "video/webm",
+        "mp3": "audio/mpeg",
+        "wav": "audio/wav",
+        "ogg": "audio/ogg",
+        "pdf": "application/pdf",
+        "jpg": "image/jpeg",
+        "jpeg": "image/jpeg",
+        "png": "image/png",
+        "gif": "image/gif",
+        "webp": "image/webp",
+    }
+    return mime_types.get(ext, "application/octet-stream")
+
+
 @router.get("/raz/media/{level}/{book_dir}/{filename}")
-async def raz_media(level: str, book_dir: str, filename: str):
-    """安全地提供书库媒体文件。路径参数严格校验，防止路径穿越。"""
+async def raz_media(
+    level: str,
+    book_dir: str,
+    filename: str,
+    range: Optional[str] = Header(None),
+):
+    """安全地提供书库媒体文件，支持 HTTP Range 请求（视频拖动播放）。"""
     if not all(_SAFE_PATH_PATTERN.match(p) for p in [level, book_dir, filename]):
         raise HTTPException(status_code=400, detail="Invalid path")
 
@@ -225,4 +250,54 @@ async def raz_media(level: str, book_dir: str, filename: str):
     if not file_path.exists():
         raise HTTPException(status_code=404, detail="File not found")
 
-    return FileResponse(file_path)
+    file_size = file_path.stat().st_size
+    content_type = _get_content_type(filename)
+
+    # 无 Range 请求，直接返回完整文件
+    if not range:
+        return FileResponse(
+            file_path,
+            media_type=content_type,
+            headers={"Accept-Ranges": "bytes"},
+        )
+
+    # 解析 Range 请求头 (bytes=start-end)
+    try:
+        range_str = range.replace("bytes=", "")
+        if "-" not in range_str:
+            raise HTTPException(status_code=400, detail="Invalid range")
+
+        start_str, end_str = range_str.split("-", 1)
+        start = int(start_str) if start_str else 0
+        end = int(end_str) if end_str else file_size - 1
+
+        if start < 0 or end >= file_size or start > end:
+            raise HTTPException(status_code=416, detail="Range not satisfiable")
+
+    except (ValueError, HTTPException):
+        raise HTTPException(status_code=400, detail="Invalid range format")
+
+    # 读取指定范围的数据
+    def file_iterator():
+        with open(file_path, "rb") as f:
+            f.seek(start)
+            remaining = end - start + 1
+            chunk_size = 64 * 1024  # 64KB chunks
+            while remaining > 0:
+                read_size = min(chunk_size, remaining)
+                data = f.read(read_size)
+                if not data:
+                    break
+                remaining -= len(data)
+                yield data
+
+    return StreamingResponse(
+        file_iterator(),
+        status_code=206,
+        media_type=content_type,
+        headers={
+            "Accept-Ranges": "bytes",
+            "Content-Range": f"bytes {start}-{end}/{file_size}",
+            "Content-Length": str(end - start + 1),
+        },
+    )

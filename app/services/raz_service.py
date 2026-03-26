@@ -40,6 +40,23 @@ class RazService:
             return None
         try:
             data = json.loads(json_file.read_text(encoding="utf-8"))
+
+            # 处理数据结构：sentences 按 page 分组
+            sentences = data.get("sentences", [])
+            pages_dict: dict = {}
+
+            for sent in sentences:
+                page_num = sent.get("page", 1)
+                if page_num not in pages_dict:
+                    pages_dict[page_num] = {
+                        "page": page_num,
+                        "pdf": data.get("pdf", ""),
+                        "audio": data.get("audio", ""),
+                        "sentences": [],
+                    }
+                pages_dict[page_num]["sentences"].append(sent.get("text", ""))
+
+            # 按页码排序创建 pages 列表
             pages = [
                 RazPage(
                     page=p["page"],
@@ -47,8 +64,10 @@ class RazService:
                     audio=p["audio"],
                     sentences=p["sentences"],
                 )
-                for p in data.get("pages", [])
+                for page_num in sorted(pages_dict.keys())
+                for p in [pages_dict[page_num]]
             ]
+
             cover = data.get("cover")
             book = RazBook(
                 id=data["id"],

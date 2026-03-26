@@ -1,0 +1,46 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip3 install:*)",
+      "Bash(python3 -m pip show fastapi)",
+      "Bash(brew install:*)",
+      "Bash(pip3.11 install:*)",
+      "Bash(python3.11 -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload)",
+      "Bash(ls /Users/sarowlwp/Document/go/study-class/docker-compose*)",
+      "Bash(ls /Users/sarowlwp/Document/go/study-class/*.sh)",
+      "Bash(git add:*)",
+      "Bash(git rm:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(claude:*)",
+      "Bash(git fetch:*)",
+      "Bash(git merge:*)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:8000/raz)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://127.0.0.1:8000/hanzi)",
+      "Bash(pkill -f uvicorn)",
+      "Bash(curl -s http://127.0.0.1:8000/hanzi)",
+      "Bash(ls *.py *.toml *.txt)",
+      "Bash(curl -s http://localhost:8000/api/semesters)",
+      "Bash(curl -s 'http://localhost:8000/api/lessons?semester=grade1-autumn')",
+      "Bash(python3.11 -m json.tool)",
+      "Bash(curl -s -X POST http://localhost:8000/api/quiz/start -H \"Content-Type: application/json\" -d '{\"\"\"\"semester\"\"\"\":\"\"\"\"grade1-autumn\"\"\"\",\"\"\"\"lessons\"\"\"\":[\"\"\"\"入学教育：我是中国人：a o e\"\"\"\"],\"\"\"\"count\"\"\"\":2}')",
+      "mcp__chrome-devtools__navigate_page",
+      "mcp__chrome-devtools__take_snapshot",
+      "mcp__chrome-devtools__click",
+      "mcp__chrome-devtools__wait_for",
+      "Bash(curl -s http://localhost:8000/api/raz/books?level=a)",
+      "Bash(git checkout:*)",
+      "Bash(git pull:*)",
+      "Bash(pytest:*)",
+      "Bash(python:*)",
+      "Bash(python3 -m pytest tests/test_raz_service.py::TestLoadBookCover -v)",
+      "Bash(python3:*)",
+      "Bash(:/Users/sarowlwp/Document/go/study-class/app/static/images/default-cover.svg)",
+      "Bash(:)",
+      "Bash(find /Users/sarowlwp/Document/go/study-class/data/raz -name *.mp4 -o -name *.mov)"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "chrome-devtools"
+  ]
+}
