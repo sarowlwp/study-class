@@ -151,9 +151,9 @@ function renderCurrent() {
 
   // 有时间戳时：跳转并自动播放
   if (sentenceData.start !== null && sentenceData.start !== undefined) {
-    audio.onloadedmetadata = () => {
+    const setupAudio = () => {
       audio.currentTime = sentenceData.start;
-      audio.play();
+      audio.play().catch(err => console.warn('Audio autoplay blocked:', err));
 
       // 设置结束监听（如果有 end 时间）
       if (sentenceData.end !== null && sentenceData.end !== undefined) {
@@ -165,6 +165,13 @@ function renderCurrent() {
         audio.addEventListener('timeupdate', currentEndListener);
       }
     };
+
+    // 处理已缓存的音频（readyState >= 1 表示已有元数据）
+    if (audio.readyState >= 1) {
+      setupAudio();
+    } else {
+      audio.onloadedmetadata = setupAudio;
+    }
   } else {
     // 无时间戳：回退到原行为
     audio.onloadedmetadata = null;
@@ -323,6 +330,14 @@ function retryRecord() {
 }
 
 function showFinished() {
+  // 清理音频状态
+  const audio = document.getElementById('ref-audio');
+  audio.pause();
+  if (currentEndListener) {
+    audio.removeEventListener('timeupdate', currentEndListener);
+    currentEndListener = null;
+  }
+
   document.getElementById('current-sentence').textContent = '🎉 本书练习完成！';
   document.getElementById('btn-record').disabled = true;
   document.getElementById('btn-play').disabled = true;
