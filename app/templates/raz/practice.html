@@ -78,16 +78,49 @@ let isRecording = false;
 
 // ── 初始化 ───────────────────────────────────────────────────────────────────
 function init() {
-  // 尝试从 config.current_session 恢复断点
+  // 1. 数据校验：检查 pages 是否存在且非空
+  if (!BOOK_DATA.pages || BOOK_DATA.pages.length === 0) {
+    showError('本书暂无练习内容，请返回书库选择其他书籍。');
+    return;
+  }
+
+  // 2. 恢复 session（带边界检查）
   const session = {{ (config.current_session or {})|tojson }};
   if (session.book_id === BOOK_DATA.id) {
     const pageIdx = BOOK_DATA.pages.findIndex(p => p.page === session.page);
-    if (pageIdx >= 0) {
-      currentPageIdx = pageIdx;
-      currentSentIdx = Math.min(session.sentence_index || 0, BOOK_DATA.pages[pageIdx].sentences.length - 1);
+    // 检查 pageIdx 是否在有效范围内
+    if (pageIdx >= 0 && pageIdx < BOOK_DATA.pages.length) {
+      const page = BOOK_DATA.pages[pageIdx];
+      // 检查 sentences 是否存在且非空
+      if (page.sentences && page.sentences.length > 0) {
+        currentPageIdx = pageIdx;
+        currentSentIdx = Math.min(
+          Math.max(0, session.sentence_index || 0),
+          page.sentences.length - 1
+        );
+      }
     }
   }
+
+  // 3. 最终索引边界检查（防止越界）
+  currentPageIdx = Math.max(0, Math.min(currentPageIdx, BOOK_DATA.pages.length - 1));
+
+  // 4. 确保当前页有 sentences
+  const currentPage = BOOK_DATA.pages[currentPageIdx];
+  if (!currentPage.sentences || currentPage.sentences.length === 0) {
+    showError('当前页面无练习内容，请返回书库选择其他书籍。');
+    return;
+  }
+
   renderCurrent();
+}
+
+function showError(msg) {
+  document.getElementById('current-sentence').textContent = '⚠️ ' + msg;
+  document.getElementById('current-sentence').className = 'text-xl font-semibold text-red-600 leading-relaxed';
+  document.getElementById('btn-record').disabled = true;
+  document.getElementById('btn-play').disabled = true;
+  document.getElementById('page-pdf').style.display = 'none';
 }
 
 function renderCurrent() {
