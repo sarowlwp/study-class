@@ -55,11 +55,14 @@ class TestRazService:
     def test_get_book_by_id(self, service):
         book = service.get_book("level-a/my-book")
         assert book is not None
-        assert len(book.pages) == 1
+        # 每条 sentence 作为一页（测试数据有 2 条 sentences）
+        assert len(book.pages) == 2
         assert book.pages[0].page == 1
         assert book.pages[0].pdf == "book.pdf"
         assert book.pages[0].audio == "audio.mp3"
-        assert book.pages[0].sentences == ["Hello world.", "Goodbye world."]
+        assert book.pages[0].sentences == ["Hello world."]
+        assert book.pages[1].page == 2
+        assert book.pages[1].sentences == ["Goodbye world."]
 
     def test_get_book_returns_none_for_missing(self, service):
         book = service.get_book("level-a/nonexistent")

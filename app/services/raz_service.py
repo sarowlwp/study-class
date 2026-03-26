@@ -41,31 +41,16 @@ class RazService:
         try:
             data = json.loads(json_file.read_text(encoding="utf-8"))
 
-            # 处理数据结构：sentences 按 page 分组
+            # 每条 sentence 作为一页（整本书只有一个 PDF/音频）
             sentences = data.get("sentences", [])
-            pages_dict: dict = {}
-
-            for sent in sentences:
-                page_num = sent.get("page", 1)
-                if page_num not in pages_dict:
-                    pages_dict[page_num] = {
-                        "page": page_num,
-                        "pdf": data.get("pdf", ""),
-                        "audio": data.get("audio", ""),
-                        "sentences": [],
-                    }
-                pages_dict[page_num]["sentences"].append(sent.get("text", ""))
-
-            # 按页码排序创建 pages 列表
             pages = [
                 RazPage(
-                    page=p["page"],
-                    pdf=p["pdf"],
-                    audio=p["audio"],
-                    sentences=p["sentences"],
+                    page=i + 1,  # 页码从 1 开始
+                    pdf=data.get("pdf", ""),
+                    audio=data.get("audio", ""),
+                    sentences=[sent.get("text", "")],
                 )
-                for page_num in sorted(pages_dict.keys())
-                for p in [pages_dict[page_num]]
+                for i, sent in enumerate(sentences)
             ]
 
             cover = data.get("cover")
