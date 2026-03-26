@@ -75,6 +75,7 @@ let currentSentIdx = 0;
 let mediaRecorder = null;
 let audioChunks = [];
 let isRecording = false;
+let currentEndListener = null;  // 当前句子的结束监听函数
 
 // ── 初始化 ───────────────────────────────────────────────────────────────────
 function init() {
@@ -127,18 +128,50 @@ function renderCurrent() {
   const page = BOOK_DATA.pages[currentPageIdx];
   if (!page) { showFinished(); return; }
 
-  const sentence = page.sentences[currentSentIdx];
+  const sentenceText = page.sentences[currentSentIdx];
 
-  // 更新 PDF
+  // 查找完整句子数据（含 start/end 时间戳）
+  const sentenceData = BOOK_DATA.sentences?.find(s => s.text === sentenceText)
+                      || { start: null, end: null };
+
+  // 更新 PDF 显示
   document.getElementById('page-pdf').src =
     `/raz/media/${BOOK_LEVEL}/${BOOK_DIR}/${page.pdf}`;
 
-  // 更新参考音频（不自动播放）
-  document.getElementById('ref-audio').src =
-    `/raz/media/${BOOK_LEVEL}/${BOOK_DIR}/${page.audio}`;
+  // 更新音频
+  const audio = document.getElementById('ref-audio');
 
-  // 更新句子文本
-  document.getElementById('current-sentence').textContent = sentence;
+  // 清理上一次的结束监听
+  if (currentEndListener) {
+    audio.removeEventListener('timeupdate', currentEndListener);
+    currentEndListener = null;
+  }
+
+  audio.src = `/raz/media/${BOOK_LEVEL}/${BOOK_DIR}/${page.audio}`;
+
+  // 有时间戳时：跳转并自动播放
+  if (sentenceData.start !== null && sentenceData.start !== undefined) {
+    audio.onloadedmetadata = () => {
+      audio.currentTime = sentenceData.start;
+      audio.play();
+
+      // 设置结束监听（如果有 end 时间）
+      if (sentenceData.end !== null && sentenceData.end !== undefined) {
+        currentEndListener = () => {
+          if (audio.currentTime >= sentenceData.end) {
+            audio.pause();
+          }
+        };
+        audio.addEventListener('timeupdate', currentEndListener);
+      }
+    };
+  } else {
+    // 无时间戳：回退到原行为
+    audio.onloadedmetadata = null;
+  }
+
+  // 更新句子文本显示
+  document.getElementById('current-sentence').textContent = sentenceText;
 
   // 更新进度标签
   const totalSents = BOOK_DATA.pages.reduce((s, p) => s + p.sentences.length, 0);
@@ -147,7 +180,7 @@ function renderCurrent() {
   done += currentSentIdx;
   document.getElementById('progress-label').textContent = `${done + 1} / ${totalSents}`;
 
-  // 隐藏评分区
+  // 隐藏评分区，重置录音按钮
   document.getElementById('score-area').classList.add('hidden');
   document.getElementById('btn-record').textContent = '🎤 开始录音';
   document.getElementById('btn-record').disabled = false;
@@ -257,6 +290,16 @@ function showScoreError() {
 
 // ── 导航 ─────────────────────────────────────────────────────────────────────
 function nextSentence(skip) {
+  // 清理当前音频状态
+  const audio = document.getElementById('ref-audio');
+  audio.pause();
+
+  if (currentEndListener) {
+    audio.removeEventListener('timeupdate', currentEndListener);
+    currentEndListener = null;
+  }
+
+  // 原有逻辑
   const page = BOOK_DATA.pages[currentPageIdx];
   if (currentSentIdx + 1 < page.sentences.length) {
     currentSentIdx++;
