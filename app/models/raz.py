@@ -10,6 +10,7 @@ class RazPage:
     pdf: str
     audio: str
     sentences: List[str]
+    sentence_data: Optional[dict] = None  # {text, start, end}
 
 
 @dataclass
