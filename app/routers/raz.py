@@ -98,7 +98,13 @@ async def api_get_books(level: Optional[str] = None):
     config = raz_service.get_config()
     target_level = level or config.current_level
     books = raz_service.get_books(target_level)
-    return [{"id": b.id, "title": b.title, "level": b.level, "page_count": len(b.pages)} for b in books]
+    return [{
+        "id": b.id,
+        "title": b.title,
+        "level": b.level,
+        "page_count": len(b.pages),
+        "cover": b.cover,
+    } for b in books]
 
 
 @router.get("/api/raz/book/{level}/{book_dir}")
