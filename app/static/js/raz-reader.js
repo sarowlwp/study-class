@@ -152,7 +152,8 @@ function updateUI() {
 
     const sentence = timelineData[currentSentenceIndex];
     if (sentenceTextEl) {
-        sentenceTextEl.textContent = sentence ? `"${sentence.text}"` : '本页无句子';
+        const text = sentence && sentence.text ? sentence.text : '';
+        sentenceTextEl.textContent = text || '本页无音频文本';
     }
 }
 
@@ -495,9 +496,12 @@ async function submitRecording(audioBlob) {
         });
     } catch (e) {
         console.error('评测失败:', e);
-        // 模拟评分（开发/测试用）
-        const mockScore = Math.floor(Math.random() * 30) + 70;
-        showToast({ score: mockScore, text: sentence.text });
+        showToast({
+            score: -1,
+            error: true,
+            message: e.message || '评测服务暂时不可用，请稍后重试',
+            text: sentence.text
+        });
     }
 }
 
@@ -506,13 +510,29 @@ function showToast(result) {
     const toastText = toast?.querySelector('.toast-text');
     const toastStars = toast?.querySelector('.toast-stars');
 
+    // 如果 text 为 null 或空，不显示句子文本
+    const hasText = result.text && result.text.trim() !== '';
+
     if (result.score === null) {
         // 评分中
         if (toastScore) toastScore.textContent = '...';
         if (toastStars) toastStars.textContent = '';
-        if (toastSentence) toastSentence.textContent = result.text || '';
+        if (toastSentence) toastSentence.textContent = hasText ? result.text : '';
         if (toastText) toastText.textContent = '评分中...';
+    } else if (result.error) {
+        // 错误状态
+        if (toastScore) {
+            toastScore.textContent = '!';
+            toastScore.className = 'toast-score error';
+        }
+        if (toastStars) toastStars.textContent = '';
+        if (toastSentence) toastSentence.textContent = hasText ? result.text : '';
+        if (toastText) {
+            toastText.textContent = result.message || '评测失败';
+            toastText.className = 'toast-text error';
+        }
     } else {
+        // 评分结果
         const score = result.score;
         if (toastScore) {
             toastScore.textContent = score;
@@ -530,7 +550,8 @@ function showToast(result) {
             if (toastText) toastText.textContent = result.feedback || '继续加油！';
         }
 
-        if (toastSentence) toastSentence.textContent = result.text ? `"${result.text}"` : '';
+        // 去掉双引号，直接显示文本
+        if (toastSentence) toastSentence.textContent = hasText ? result.text : '';
     }
 
     toast?.classList.add('show');

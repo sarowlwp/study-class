@@ -6,7 +6,7 @@ from pathlib import Path
 from unittest.mock import Mock, patch, MagicMock
 
 from scripts.raz_sync_processor.main import RazSyncProcessor
-from scripts.raz_sync_processor.models import PageText, WordTiming, PageTiming
+from scripts.raz_sync_processor.models import PageText, WordTiming
 
 
 class TestIntegration:
@@ -17,18 +17,18 @@ class TestIntegration:
         """创建带有模拟组件的处理器."""
         with patch('scripts.raz_sync_processor.main.PDFProcessor') as mock_pdf, \
              patch('scripts.raz_sync_processor.main.AudioTranscriber') as mock_audio, \
-             patch('scripts.raz_sync_processor.main.TextAligner') as mock_aligner:
+             patch('scripts.raz_sync_processor.main.LlmMapper') as mock_llm:
 
             processor = RazSyncProcessor(model_size="tiny")
             processor.pdf_processor = mock_pdf.return_value
             processor.audio_transcriber = mock_audio.return_value
-            processor.text_aligner = mock_aligner.return_value
+            processor.llm_mapper = mock_llm.return_value
 
-            yield processor, mock_pdf, mock_audio, mock_aligner
+            yield processor, mock_pdf, mock_audio, mock_llm
 
     def test_process_success(self, tmp_path, mock_processor):
         """测试完整处理流程."""
-        processor, _, _, _ = mock_processor
+        processor, _, _, mock_llm = mock_processor
 
         # 创建输入文件
         input_dir = tmp_path / "input"
@@ -53,19 +53,16 @@ class TestIntegration:
             WordTiming("you", 2.2, 2.5),
         ]
 
-        processor.text_aligner.align.return_value = [
-            PageTiming(1, 0.0, 1.0, "Hello world"),
-            PageTiming(2, 1.5, 2.5, "How are you"),
-        ]
+        # LLM mapper 生成 book.json
+        mock_llm.return_value.generate_book_json.return_value = output_dir / "book.json"
 
         # 执行
         success = processor.process(input_dir, output_dir)
 
         # 验证
         assert success is True
-        assert (output_dir / "book.json").exists()
-        assert (output_dir / "word_timings.json").exists()
-        assert (output_dir / "index.html").exists()
+        # LLM mapper 被调用
+        mock_llm.return_value.generate_book_json.assert_called_once()
 
     def test_process_missing_pdf(self, tmp_path, mock_processor):
         """测试缺少 PDF 文件."""
@@ -110,9 +107,9 @@ class TestIntegration:
         success = processor.process(input_dir, output_dir)
         assert success is False
 
-    def test_book_json_content(self, tmp_path, mock_processor):
-        """测试生成的 book.json 内容."""
-        processor, _, _, _ = mock_processor
+    def test_process_llm_mapping_fails(self, tmp_path, mock_processor):
+        """测试 LLM 映射失败的情况."""
+        processor, _, _, mock_llm = mock_processor
 
         input_dir = tmp_path / "input"
         input_dir.mkdir()
@@ -129,15 +126,9 @@ class TestIntegration:
             WordTiming("hello", 0.0, 0.5),
             WordTiming("world", 0.6, 1.0),
         ]
-        processor.text_aligner.align.return_value = [
-            PageTiming(1, 0.0, 1.0, "Hello world"),
-        ]
 
-        processor.process(input_dir, output_dir)
+        # LLM mapper 返回 None 表示失败
+        mock_llm.return_value.generate_book_json.return_value = None
 
-        # 验证 JSON 内容
-        book_json = json.loads((output_dir / "book.json").read_text())
-        assert book_json["title"] == "Input"
-        assert book_json["page_count"] == 1
-        assert len(book_json["pages"]) == 1
-        assert book_json["pages"][0]["text"] == "Hello world"
+        success = processor.process(input_dir, output_dir)
+        assert success is False

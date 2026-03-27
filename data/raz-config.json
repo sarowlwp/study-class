@@ -1,0 +1,10 @@
+{
+  "current_level": "a",
+  "daily_mode": "manual",
+  "daily_count": 10,
+  "current_session": {
+    "book_id": "level-a/sample-book",
+    "page": 1,
+    "sentence_index": 0
+  }
+}
