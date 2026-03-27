@@ -14,6 +14,9 @@ from app.services.raz_service import RazService
 from app.services.raz_practice_service import RazPracticeService
 from app.services.speech_assessment import get_assessor
 
+import logging
+
+logger = logging.getLogger(__name__)
 router = APIRouter()
 templates = Jinja2Templates(directory=BASE_DIR / "app" / "templates")
 
@@ -188,7 +191,13 @@ async def api_assess(
     if len(audio_bytes) < 1000:
         raise HTTPException(status_code=400, detail="录音过短，请重新录制")
 
+    # 记录传入给 speech service 的信息
+    logger.info(f"[Speech Assessment] book_id={book_id}, page={page}, text_length={len(text)}, text={text!r}")
+
     result = await assessor.assess(audio_bytes, text)
+
+    # 记录评测结果
+    logger.info(f"[Speech Assessment Result] score={result.score}, level={result.level}, text={text!r}")
 
     record = RazPracticeRecord(
         book_id=book_id,

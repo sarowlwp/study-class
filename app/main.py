@@ -2,6 +2,19 @@ from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 
+import logging
+import sys
+
+# 配置日志级别为 INFO，强制刷新
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    handlers=[
+        logging.StreamHandler(sys.stderr)
+    ],
+    force=True
+)
+
 from app.config import BASE_DIR
 from app.routers import pages, api
 from app.routers import math_quiz

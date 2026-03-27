@@ -102,35 +102,48 @@ async function loadPDF() {
 }
 
 // 渲染页面
+let isRendering = false;
 async function renderPage(pageNum) {
     if (!pdfDoc) return;
+    if (isRendering) return; // 防止并发渲染
+    isRendering = true;
 
-    const page = await pdfDoc.getPage(pageNum);
-    const ctx = pdfCanvas.getContext('2d');
+    try {
+        const page = await pdfDoc.getPage(pageNum);
+        const ctx = pdfCanvas.getContext('2d');
 
-    // 计算适合高度的缩放比例
-    const viewportHeight = window.innerHeight - 120;
-    const originalViewport = page.getViewport({ scale: 1 });
-    const scale = viewportHeight / originalViewport.height;
-    const viewport = page.getViewport({ scale });
+        // 清理 canvas 并重置变换
+        ctx.setTransform(1, 0, 0, 1, 0, 0);
+        ctx.clearRect(0, 0, pdfCanvas.width, pdfCanvas.height);
 
-    pdfCanvas.height = viewport.height;
-    pdfCanvas.width = viewport.width;
+        // 计算适合高度的缩放比例
+        const viewportHeight = window.innerHeight - 120;
+        const originalViewport = page.getViewport({ scale: 1 });
+        const scale = viewportHeight / originalViewport.height;
+        const viewport = page.getViewport({ scale });
 
-    await page.render({
-        canvasContext: ctx,
-        viewport: viewport
-    }).promise;
+        pdfCanvas.height = viewport.height;
+        pdfCanvas.width = viewport.width;
 
-    // 更新页码指示器
-    if (pageIndicator) {
-        pageIndicator.textContent = `${pageNum} / ${pdfDoc.numPages}`;
+        await page.render({
+            canvasContext: ctx,
+            viewport: viewport
+        }).promise;
+
+        // 更新页码指示器
+        if (pageIndicator) {
+            pageIndicator.textContent = `${pageNum} / ${pdfDoc.numPages}`;
+        }
+    } catch (e) {
+        console.error('PDF 渲染失败:', e);
+    } finally {
+        isRendering = false;
     }
 }
 
-// 获取当前页的句子列表
+// 获取当前页有音频时间戳的句子列表
 function getPageSentences(pageNum) {
-    return timelineData.filter(s => s.page === pageNum);
+    return timelineData.filter(s => s.page === pageNum && s.start !== null && s.start !== undefined);
 }
 
 // 更新 UI
@@ -171,7 +184,7 @@ function playCurrentPage() {
     if (pageSentences.length === 0) {
         // 使用 TTS 朗读
         const sentence = timelineData[currentSentenceIndex];
-        if (sentence) {
+        if (sentence && sentence.text) {
             speakWithTTS(sentence.text);
         }
         return;
@@ -181,9 +194,20 @@ function playCurrentPage() {
     const firstSentence = pageSentences[0];
     const lastSentence = pageSentences[pageSentences.length - 1];
 
+    // 检查是否有有效的时间戳
+    if (firstSentence.start === null || firstSentence.start === undefined) {
+        // 使用 TTS 朗读第一个句子
+        speakWithTTS(firstSentence.text);
+        return;
+    }
+
     if (audio) {
         audio.currentTime = firstSentence.start;
-        audio.play();
+        audio.play().catch(e => {
+            console.error('音频播放失败:', e);
+            // 播放失败时使用 TTS
+            speakWithTTS(firstSentence.text);
+        });
         isPlaying = true;
         updatePlayButtonState(true);
 
@@ -411,8 +435,10 @@ async function startRecording() {
 
         mediaRecorder.onstop = async () => {
             stream.getTracks().forEach(t => t.stop());
-            const audioBlob = new Blob(audioChunks, { type: 'audio/webm' });
-            await submitRecording(audioBlob);
+            const webmBlob = new Blob(audioChunks, { type: 'audio/webm' });
+            // 转换为 WAV 格式以获得更好的兼容性
+            const wavBlob = await convertWebmToWav(webmBlob);
+            await submitRecording(wavBlob);
         };
 
         mediaRecorder.start();
@@ -468,7 +494,7 @@ async function submitRecording(audioBlob) {
 
     // 构建表单数据
     const formData = new FormData();
-    formData.append('audio', audioBlob, 'recording.webm');
+    formData.append('audio', audioBlob, 'recording.wav');
     formData.append('text', sentence.text);
     formData.append('book_id', bookData.id);
     formData.append('book_title', bookData.title);
@@ -492,6 +518,7 @@ async function submitRecording(audioBlob) {
             score: result.score,
             level: result.level,
             feedback: result.feedback,
+            word_scores: result.word_scores,
             text: sentence.text
         });
     } catch (e) {
@@ -509,6 +536,7 @@ async function submitRecording(audioBlob) {
 function showToast(result) {
     const toastText = toast?.querySelector('.toast-text');
     const toastStars = toast?.querySelector('.toast-stars');
+    const toastWordScores = document.getElementById('toastWordScores');
 
     // 如果 text 为 null 或空，不显示句子文本
     const hasText = result.text && result.text.trim() !== '';
@@ -519,6 +547,7 @@ function showToast(result) {
         if (toastStars) toastStars.textContent = '';
         if (toastSentence) toastSentence.textContent = hasText ? result.text : '';
         if (toastText) toastText.textContent = '评分中...';
+        if (toastWordScores) toastWordScores.innerHTML = '';
     } else if (result.error) {
         // 错误状态
         if (toastScore) {
@@ -531,6 +560,7 @@ function showToast(result) {
             toastText.textContent = result.message || '评测失败';
             toastText.className = 'toast-text error';
         }
+        if (toastWordScores) toastWordScores.innerHTML = '';
     } else {
         // 评分结果
         const score = result.score;
@@ -552,12 +582,25 @@ function showToast(result) {
 
         // 去掉双引号，直接显示文本
         if (toastSentence) toastSentence.textContent = hasText ? result.text : '';
+
+        // 显示单词评分
+        if (toastWordScores && result.word_scores && result.word_scores.length > 0) {
+            toastWordScores.innerHTML = '';
+            result.word_scores.forEach(ws => {
+                const span = document.createElement('span');
+                span.className = 'word-score ' + (ws.status === 'good' ? 'good' : 'weak');
+                span.innerHTML = `${ws.word} <span>${ws.score}</span>${ws.status === 'good' ? '✓' : '✗'}`;
+                toastWordScores.appendChild(span);
+            });
+        } else if (toastWordScores) {
+            toastWordScores.innerHTML = '';
+        }
     }
 
     toast?.classList.add('show');
     setTimeout(() => {
         toast?.classList.remove('show');
-    }, 3000);
+    }, 4000);
 }
 
 // 加载状态
@@ -567,6 +610,71 @@ function hideLoading() {
 
 function showLoadingError(message) {
     if (loadingEl) loadingEl.textContent = message;
+}
+
+// WebM 转 WAV 函数（用于 Azure Speech 兼容性）
+async function convertWebmToWav(webmBlob) {
+    const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+    const arrayBuffer = await webmBlob.arrayBuffer();
+    const audioBuffer = await audioContext.decodeAudioData(arrayBuffer);
+
+    // 转换为单声道 16kHz (Azure 推荐格式)
+    const targetSampleRate = 16000;
+    const numberOfChannels = 1;
+    const offlineContext = new OfflineAudioContext(numberOfChannels, audioBuffer.duration * targetSampleRate, targetSampleRate);
+    const source = offlineContext.createBufferSource();
+    source.buffer = audioBuffer;
+    source.connect(offlineContext.destination);
+    source.start();
+
+    const renderedBuffer = await offlineContext.startRendering();
+    return audioBufferToWav(renderedBuffer);
+}
+
+// AudioBuffer 转 WAV Blob
+function audioBufferToWav(audioBuffer) {
+    const numberOfChannels = audioBuffer.numberOfChannels;
+    const sampleRate = audioBuffer.sampleRate;
+    const format = 1; // PCM
+    const bitDepth = 16;
+
+    const bytesPerSample = bitDepth / 8;
+    const blockAlign = numberOfChannels * bytesPerSample;
+
+    const dataLength = audioBuffer.length * numberOfChannels * bytesPerSample;
+    const buffer = new ArrayBuffer(44 + dataLength);
+    const view = new DataView(buffer);
+
+    // 写入 WAV 头部
+    writeString(view, 0, 'RIFF');
+    view.setUint32(4, 36 + dataLength, true);
+    writeString(view, 8, 'WAVE');
+    writeString(view, 12, 'fmt ');
+    view.setUint32(16, 16, true);
+    view.setUint16(20, format, true);
+    view.setUint16(22, numberOfChannels, true);
+    view.setUint32(24, sampleRate, true);
+    view.setUint32(28, sampleRate * blockAlign, true);
+    view.setUint16(32, blockAlign, true);
+    view.setUint16(34, bitDepth, true);
+    writeString(view, 36, 'data');
+    view.setUint32(40, dataLength, true);
+
+    // 写入音频数据
+    const offset = 44;
+    const channelData = audioBuffer.getChannelData(0);
+    for (let i = 0; i < audioBuffer.length; i++) {
+        const sample = Math.max(-1, Math.min(1, channelData[i]));
+        view.setInt16(offset + i * 2, sample < 0 ? sample * 0x8000 : sample * 0x7FFF, true);
+    }
+
+    return new Blob([buffer], { type: 'audio/wav' });
+}
+
+function writeString(view, offset, string) {
+    for (let i = 0; i < string.length; i++) {
+        view.setUint8(offset + i, string.charCodeAt(i));
+    }
 }
 
 // 页面加载完成后初始化
