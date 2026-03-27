@@ -5,7 +5,7 @@ import pytest
 from pathlib import Path
 
 from scripts.raz_sync_processor.sync_generator import SyncGenerator
-from scripts.raz_sync_processor.models import PageTiming, WordTiming, WordTimingWithLocation
+from scripts.raz_sync_processor.models import PageText, WordTiming
 
 
 class TestSyncGenerator:
@@ -16,45 +16,52 @@ class TestSyncGenerator:
         generator = SyncGenerator(tmp_path)
         assert generator.output_dir == tmp_path
 
-    def test_generate_book_json(self, tmp_path):
-        """测试生成 book.json."""
-        generator = SyncGenerator(tmp_path)
-
-        pages = [
-            PageTiming(1, 0.0, 3.5, "Hello world"),
-            PageTiming(2, 4.0, 7.0, "How are you"),
-        ]
-
-        generator.generate_book_json(
-            book_id="level-a/test",
-            title="Test Book",
-            level="a",
-            pages=pages
-        )
-
-        json_path = tmp_path / "book.json"
-        assert json_path.exists()
-
-        data = json.loads(json_path.read_text())
-        assert data["id"] == "level-a/test"
-        assert data["title"] == "Test Book"
-        assert data["page_count"] == 2
-
-    def test_generate_word_timings(self, tmp_path):
-        """测试生成 word_timings.json."""
+    def test_generate_word_timings_simple(self, tmp_path):
+        """测试生成简化版 word_timings.json."""
         generator = SyncGenerator(tmp_path)
 
         words = [
-            WordTimingWithLocation("hello", 0.0, 0.5, 1, 0, 5),
-            WordTimingWithLocation("world", 0.6, 1.0, 1, 6, 11),
+            WordTiming("hello", 0.0, 0.5),
+            WordTiming("world", 0.6, 1.0),
         ]
 
-        generator.generate_word_timings(words)
+        generator.generate_word_timings_simple(words)
 
         json_path = tmp_path / "word_timings.json"
         assert json_path.exists()
         data = json.loads(json_path.read_text())
         assert data["total_words"] == 2
+        assert len(data["timings"]) == 2
+        assert data["timings"][0]["word"] == "hello"
+        assert "start" in data["timings"][0]
+        assert "end" in data["timings"][0]
+        # 简化版没有 page 信息
+        assert "page" not in data["timings"][0]
+
+    def test_generate_pdf_text_json(self, tmp_path):
+        """测试生成 pdf_text.json."""
+        generator = SyncGenerator(tmp_path)
+
+        pages = [
+            PageText(1, "Hello world"),
+            PageText(2, "How are you"),
+        ]
+
+        generator.generate_pdf_text_json(
+            pages=pages,
+            book_id="level-a/test",
+            title="Test Book",
+            level="a"
+        )
+
+        json_path = tmp_path / "pdf_text.json"
+        assert json_path.exists()
+        data = json.loads(json_path.read_text())
+        assert data["id"] == "level-a/test"
+        assert data["title"] == "Test Book"
+        assert data["level"] == "a"
+        assert data["page_count"] == 2
+        assert len(data["pages"]) == 2
 
     def test_create_symlinks(self, tmp_path):
         """测试创建软链接."""

@@ -79,6 +79,18 @@ cp .env.example .env
 
 支持的区域：`eastasia`, `southeastasia`, `westus`, `westeurope` 等
 
+### RAZ 静态资源服务器（可选）
+
+RAZ 阅读器默认从本地加载 PDF 和音频资源。如需使用 CDN 或独立静态资源服务器：
+
+```bash
+# 静态资源服务器配置
+export StaticServer="https://your-cdn.com"
+```
+
+配置后，RAZ reader 将从 `https://your-cdn.com/raz/media/...` 加载资源，而非本地路径。
+未配置时继续使用本地路径 `/raz/media/...`。
+
 ### 添加汉字数据
 
 在 `data/characters/` 目录下创建 Markdown 文件：

@@ -5,8 +5,8 @@ import logging
 from pathlib import Path
 from typing import List
 
-from .models import PageTiming, WordTimingWithLocation
-from .config import OUTPUT_JSON, WORD_TIMINGS_JSON, READER_HTML, PDF_FILENAME, AUDIO_FILENAME
+from .models import PageText, WordTiming
+from .config import WORD_TIMINGS_JSON, READER_HTML, PDF_FILENAME, AUDIO_FILENAME, PDF_TEXT_JSON
 
 logger = logging.getLogger(__name__)
 
@@ -19,45 +19,38 @@ class SyncGenerator:
         self.output_dir = output_dir
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
-    def generate_book_json(
-        self,
-        book_id: str,
-        title: str,
-        level: str,
-        pages: List[PageTiming]
-    ) -> Path:
-        """生成 book.json."""
-        data = {
-            "id": book_id,
-            "title": title,
-            "level": level,
-            "pdf": PDF_FILENAME,
-            "audio": AUDIO_FILENAME,
-            "page_count": len(pages),
-            "pages": [
-                {
-                    "page": p.page_num,
-                    "start_time": p.start_time,
-                    "end_time": p.end_time,
-                    "text": p.text
-                }
-                for p in pages
-            ]
-        }
+    def create_symlinks(self, source_dir: Path, audio_filename: str = AUDIO_FILENAME) -> None:
+        """创建源文件软链接."""
+        pdf_source = source_dir / PDF_FILENAME
+        audio_source = source_dir / audio_filename
 
-        output_path = self.output_dir / OUTPUT_JSON
-        output_path.write_text(
-            json.dumps(data, ensure_ascii=False, indent=2),
-            encoding="utf-8"
-        )
+        if pdf_source.exists():
+            pdf_link = self.output_dir / PDF_FILENAME
+            if pdf_link.exists() or pdf_link.is_symlink():
+                pdf_link.unlink()
+            pdf_link.symlink_to(pdf_source.resolve())
+            logger.info(f"Created symlink: {pdf_link}")
+
+        if audio_source.exists():
+            audio_link = self.output_dir / audio_filename
+            if audio_link.exists() or audio_link.is_symlink():
+                audio_link.unlink()
+            audio_link.symlink_to(audio_source.resolve())
+            logger.info(f"Created symlink: {audio_link}")
+
+    def generate_reader_html(self) -> Path:
+        """生成阅读器 HTML."""
+        html_content = self._get_html_template()
+        output_path = self.output_dir / READER_HTML
+        output_path.write_text(html_content, encoding="utf-8")
         logger.info(f"Generated: {output_path}")
         return output_path
 
-    def generate_word_timings(
+    def generate_word_timings_simple(
         self,
-        word_timings: List[WordTimingWithLocation]
+        word_timings: List[WordTiming]
     ) -> Path:
-        """生成 word_timings.json."""
+        """生成简化版 word_timings.json（无 page 信息）."""
         data = {
             "version": "1.0",
             "total_words": len(word_timings),
@@ -65,10 +58,7 @@ class SyncGenerator:
                 {
                     "word": w.word,
                     "start": w.start,
-                    "end": w.end,
-                    "page": w.page,
-                    "char_start": w.char_start,
-                    "char_end": w.char_end
+                    "end": w.end
                 }
                 for w in word_timings
             ]
@@ -82,30 +72,35 @@ class SyncGenerator:
         logger.info(f"Generated: {output_path}")
         return output_path
 
-    def create_symlinks(self, source_dir: Path) -> None:
-        """创建源文件软链接."""
-        pdf_source = source_dir / PDF_FILENAME
-        audio_source = source_dir / AUDIO_FILENAME
+    def generate_pdf_text_json(
+        self,
+        pages: List[PageText],
+        book_id: str,
+        title: str,
+        level: str
+    ) -> Path:
+        """生成 pdf_text.json，保存 PDF 提取的原始文本用于排查."""
+        data = {
+            "id": book_id,
+            "title": title,
+            "level": level,
+            "source": "pdf_extraction",
+            "description": "PDF 提取的原始文本，用于排查和对比",
+            "page_count": len(pages),
+            "pages": [
+                {
+                    "page": p.page_num,
+                    "text": p.text
+                }
+                for p in pages
+            ]
+        }
 
-        if pdf_source.exists():
-            pdf_link = self.output_dir / PDF_FILENAME
-            if pdf_link.exists() or pdf_link.is_symlink():
-                pdf_link.unlink()
-            pdf_link.symlink_to(pdf_source.resolve())
-            logger.info(f"Created symlink: {pdf_link}")
-
-        if audio_source.exists():
-            audio_link = self.output_dir / AUDIO_FILENAME
-            if audio_link.exists() or audio_link.is_symlink():
-                audio_link.unlink()
-            audio_link.symlink_to(audio_source.resolve())
-            logger.info(f"Created symlink: {audio_link}")
-
-    def generate_reader_html(self) -> Path:
-        """生成阅读器 HTML."""
-        html_content = self._get_html_template()
-        output_path = self.output_dir / READER_HTML
-        output_path.write_text(html_content, encoding="utf-8")
+        output_path = self.output_dir / PDF_TEXT_JSON
+        output_path.write_text(
+            json.dumps(data, ensure_ascii=False, indent=2),
+            encoding="utf-8"
+        )
         logger.info(f"Generated: {output_path}")
         return output_path
 

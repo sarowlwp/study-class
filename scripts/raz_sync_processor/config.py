@@ -13,13 +13,10 @@ DEFAULT_LANGUAGE = "en"
 # 文件路径
 PDF_FILENAME = "book.pdf"
 AUDIO_FILENAME = "book.mp3"
-OUTPUT_JSON = "book.json"
 WORD_TIMINGS_JSON = "word_timings.json"
 READER_HTML = "index.html"
+PDF_TEXT_JSON = "pdf_text.json"
 
 # OCR 配置
 OCR_LANGUAGE = "eng"
 OCR_DPI = 300
-
-# 对齐算法阈值
-MIN_ALIGNMENT_RATIO = 0.8  # 最小对齐比例

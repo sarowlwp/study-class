@@ -86,10 +86,16 @@ async def raz_reader(request: Request, level: str, book_dir: str):
     book = raz_service.get_book(book_id)
     if not book:
         raise HTTPException(status_code=404, detail="Book not found")
+
+    # 检查是否使用静态资源服务器
+    static_server = os.environ.get("StaticServer", "").rstrip("/")
+
     return templates.TemplateResponse("raz/reader.html", {
         "request": request,
         "page_title": book.title,
         "book": book,
+        "book_dir": book_dir,
+        "static_server": static_server,
     })
 
 

@@ -31,6 +31,7 @@ class AudioTranscriber:
         self._model = None
 
         if WhisperModel is None:
+            
             raise ImportError("faster-whisper is required. Install: pip install faster-whisper")
 
     @property
@@ -51,7 +52,12 @@ class AudioTranscriber:
         language: str = "en",
         beam_size: int = 5
     ) -> List[WordTiming]:
-        """转录音频，生成词级时间戳."""
+        """转录音频，生成词级时间戳.
+
+        Returns:
+            List[WordTiming]: 每个单词包含 word, start, end 三个字段
+            注意：faster-whisper 不提供 page 信息，page 需要通过对齐算法推断
+        """
         logger.info(f"Transcribing audio: {audio_path}")
 
         segments, info = self.model.transcribe(

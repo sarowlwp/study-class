@@ -1,7 +1,40 @@
 {% extends "base.html" %}
 {% block title %}RAZ 跟读练习{% endblock %}
 {% block content %}
-<div class="max-w-4xl mx-auto px-4 py-6">
+<style>
+.book-card {
+  aspect-ratio: 3/4;
+  display: flex;
+  flex-direction: column;
+}
+.book-cover {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.book-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.book-cover .fallback-icon {
+  font-size: 3rem;
+  color: white;
+}
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+</style>
+
+<div class="max-w-5xl mx-auto px-4 py-6">
 
   <!-- 顶部：今日进度 + 设置 -->
   <div class="flex items-center justify-between mb-6">
@@ -35,13 +68,21 @@
 
   <!-- 书库列表 -->
   {% if books %}
-  <div class="grid grid-cols-2 md:grid-cols-3 gap-4" id="book-list">
+  <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4" id="book-list">
     {% for book in books %}
-    <a href="/raz/book/{{ book.level }}/{{ book.id.split('/')[-1] }}"
-       class="block bg-white rounded-xl shadow hover:shadow-md transition p-4 border border-gray-100">
-      <div class="text-4xl text-center mb-2">📚</div>
-      <p class="text-center font-semibold text-gray-700 text-sm">{{ book.title }}</p>
-      <p class="text-center text-xs text-gray-400 mt-1">{{ book.pages | length }} 页</p>
+    <a href="/raz/reader/{{ book.level }}/{{ book.id.split('/')[-1] }}"
+       class="book-card bg-white rounded-xl shadow hover:shadow-md transition p-3 border border-gray-100">
+      <div class="book-cover mb-3">
+        {% if book.cover %}
+        <img src="/raz/media/{{ book.level }}/{{ book.id.split('/')[-1] }}/{{ book.cover }}" alt="{{ book.title }}">
+        {% else %}
+        <span class="fallback-icon">📗</span>
+        {% endif %}
+      </div>
+      <p class="text-center font-semibold text-gray-700 text-sm line-clamp-2">{{ book.title }}</p>
+      <p class="text-center text-xs text-gray-400 mt-1">
+        {% if book.total_pages %}{{ book.total_pages }}{% else %}{{ book.pages | length }}{% endif %} 页
+      </p>
     </a>
     {% endfor %}
   </div>

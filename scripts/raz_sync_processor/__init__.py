@@ -7,14 +7,14 @@ __version__ = "1.0.0"
 
 from .pdf_processor import PDFProcessor
 from .audio_transcriber import AudioTranscriber
-from .text_aligner import TextAligner
+from .llm_mapper import LlmMapper
 from .sync_generator import SyncGenerator
 from .main import RazSyncProcessor, main
 
 __all__ = [
     "PDFProcessor",
     "AudioTranscriber",
-    "TextAligner",
+    "LlmMapper",
     "SyncGenerator",
     "RazSyncProcessor",
     "main",

@@ -1,4 +1,10 @@
-"""主处理器：协调各组件完成同步任务."""
+"""主处理器：协调各组件完成同步任务.
+
+简化流程：
+1. PDF -> pdf_text.json (每页文本)
+2. MP3 -> word_timings.json (单词时间戳，无page信息)
+3. LLM Mapper 生成 book.json
+"""
 
 import sys
 import argparse
@@ -8,16 +14,16 @@ from typing import Optional
 
 from .pdf_processor import PDFProcessor
 from .audio_transcriber import AudioTranscriber
-from .text_aligner import TextAligner
 from .sync_generator import SyncGenerator
-from .models import PageText, WordTiming, PageTiming, WordTimingWithLocation
+from .llm_mapper import LlmMapper
+from .models import PageText, WordTiming
 from .config import LOG_FORMAT, LOG_LEVEL, PDF_FILENAME, AUDIO_FILENAME
 
 logger = logging.getLogger(__name__)
 
 
 class RazSyncProcessor:
-    """RAZ 同步处理器主类."""
+    """RAZ 同步处理器 - 简化版."""
 
     def __init__(
         self,
@@ -35,33 +41,44 @@ class RazSyncProcessor:
             model_size=model_size,
             device=device
         )
-        self.text_aligner = TextAligner()
+        self.llm_mapper = LlmMapper()
 
     def process(
         self,
         input_dir: Path,
-        output_dir: Path,
+        output_dir: Optional[Path] = None,
         book_id: Optional[str] = None,
         title: Optional[str] = None,
         force: bool = False
     ) -> bool:
-        """处理单本书."""
+        """处理单本书.
+
+        核心流程：
+        1. 提取 PDF 文本 -> pdf_text.json
+        2. 转录 MP3 -> word_timings.json (无 page 信息)
+        3. LLM 匹配生成 book.json
+
+        所有产物直接生成在 input_dir 中。
+        """
         pdf_path = input_dir / PDF_FILENAME
-        audio_path = input_dir / AUDIO_FILENAME
+        audio_path = self._find_audio_file(input_dir)
 
         if not pdf_path.exists():
             logger.error(f"PDF not found: {pdf_path}")
             return False
 
-        if not audio_path.exists():
-            logger.error(f"Audio not found: {audio_path}")
+        if not audio_path:
+            logger.error(f"Audio not found in: {input_dir}")
             return False
 
-        if output_dir.exists() and not force:
-            logger.info(f"Output exists, skipping: {output_dir}")
-            return True
+        # 所有产物直接生成在 input_dir
+        work_dir = input_dir
 
-        output_dir.mkdir(parents=True, exist_ok=True)
+        # 检查是否已处理过
+        book_json_path = work_dir / "book.json"
+        if book_json_path.exists() and not force:
+            logger.info(f"book.json exists, skipping: {work_dir}")
+            return True
 
         if book_id is None:
             book_id = self._infer_book_id(input_dir)
@@ -72,40 +89,56 @@ class RazSyncProcessor:
         logger.info(f"Processing: {title} (ID: {book_id})")
 
         try:
-            # Step 1: 处理 PDF
-            logger.info("Step 1/4: Processing PDF...")
+            # Step 1: 处理 PDF -> pdf_text.json
+            logger.info("Step 1/3: Extracting PDF text...")
             pages = self._process_pdf(pdf_path)
             if not pages:
                 logger.error("PDF processing failed")
                 return False
 
-            # Step 2: 转录音频
-            logger.info("Step 2/4: Transcribing audio...")
-            word_timings = self._transcribe_audio(audio_path)
+            # Step 2: 转录音频 -> word_timings.json (无 page 信息)
+            logger.info("Step 2/3: Transcribing audio...")
+            word_timings = self.audio_transcriber.transcribe(
+                audio_path, language=self.language
+            )
             if not word_timings:
                 logger.error("Audio transcription failed")
                 return False
 
-            # Step 3: 对齐文本
-            logger.info("Step 3/4: Aligning text...")
-            page_timings = self.text_aligner.align(pages, word_timings)
-            if not page_timings:
-                logger.error("Text alignment failed")
+            logger.info(f"Transcribed {len(word_timings)} words")
+
+            # Step 3: 生成输出文件
+            logger.info("Step 3/3: Generating output files...")
+            generator = SyncGenerator(work_dir)
+
+            # 3.1 生成 pdf_text.json
+            pdf_text_path = generator.generate_pdf_text_json(
+                pages, book_id, title, level
+            )
+
+            # 3.2 生成 word_timings.json (无 page 信息)
+            word_timings_path = generator.generate_word_timings_simple(
+                word_timings
+            )
+
+            # 3.3 LLM 匹配生成 book.json
+            logger.info("Using LLM to map pages to audio timings...")
+            book_json_path = self.llm_mapper.generate_book_json(
+                pdf_text_path=pdf_text_path,
+                word_timings_path=word_timings_path,
+                output_path=work_dir / "book.json",
+                book_id=book_id,
+                title=title,
+                level=level,
+                audio_filename=audio_path.name
+            )
+
+            if not book_json_path:
+                logger.error("LLM mapping failed")
                 return False
 
-            # Step 4: 生成输出
-            logger.info("Step 4/4: Generating output...")
-            generator = SyncGenerator(output_dir)
-            generator.create_symlinks(input_dir)
-            generator.generate_book_json(book_id, title, level, page_timings)
-
-            word_timings_with_loc = self._add_word_locations(
-                word_timings, page_timings
-            )
-            generator.generate_word_timings(word_timings_with_loc)
-            generator.generate_reader_html()
-
             logger.info(f"Successfully processed: {title}")
+            logger.info(f"Output: {work_dir}")
             return True
 
         except Exception as e:
@@ -113,52 +146,23 @@ class RazSyncProcessor:
             return False
 
     def _process_pdf(self, pdf_path: Path) -> list:
-        """处理 PDF."""
+        """处理 PDF，OCR 使用临时文件不保留."""
+        import tempfile
+        import os
+
         if self.pdf_processor.needs_ocr(pdf_path):
             logger.info("PDF needs OCR...")
-            ocr_path = pdf_path.parent / "book_ocr.pdf"
-            if self.pdf_processor.add_ocr_layer(pdf_path, ocr_path):
-                return self.pdf_processor.extract_text_by_page(ocr_path)
+            # 使用临时文件，处理完后自动删除
+            with tempfile.NamedTemporaryFile(suffix=".pdf", delete=False) as tmp:
+                ocr_path = Path(tmp.name)
+            try:
+                if self.pdf_processor.add_ocr_layer(pdf_path, ocr_path):
+                    return self.pdf_processor.extract_text_by_page(ocr_path)
+            finally:
+                # 清理临时 OCR 文件
+                if ocr_path.exists():
+                    os.unlink(ocr_path)
         return self.pdf_processor.extract_text_by_page(pdf_path)
-
-    def _transcribe_audio(self, audio_path: Path) -> list:
-        """转录音频."""
-        return self.audio_transcriber.transcribe(
-            audio_path,
-            language=self.language
-        )
-
-    def _add_word_locations(
-        self,
-        word_timings: list,
-        page_timings: list
-    ) -> list:
-        """为单词添加页面和字符位置信息."""
-        result = []
-        char_offset = 0
-        current_page_idx = 0
-
-        for word in word_timings:
-            while (current_page_idx < len(page_timings) - 1 and
-                   word.start > page_timings[current_page_idx].end_time):
-                char_offset += len(page_timings[current_page_idx].text) + 1
-                current_page_idx += 1
-
-            page = page_timings[current_page_idx]
-            word_len = len(word.word)
-
-            result.append(WordTimingWithLocation(
-                word=word.word,
-                start=word.start,
-                end=word.end,
-                page=page.page_num,
-                char_start=char_offset,
-                char_end=char_offset + word_len
-            ))
-
-            char_offset += word_len + 1
-
-        return result
 
     def _infer_book_id(self, input_dir: Path) -> str:
         """从目录路径推断书籍 ID."""
@@ -170,6 +174,15 @@ class RazSyncProcessor:
         """从目录名推断书名."""
         name = input_dir.name
         return name.replace("-", " ").title()
+
+    def _find_audio_file(self, input_dir: Path) -> Optional[Path]:
+        """查找音频文件，支持常见命名."""
+        audio_names = ["book.mp3", "audio.mp3", "audio.m4a", "audio.wav"]
+        for name in audio_names:
+            path = input_dir / name
+            if path.exists():
+                return path
+        return None
 
 
 def setup_logging():
@@ -186,19 +199,26 @@ def main():
     setup_logging()
 
     parser = argparse.ArgumentParser(
-        description="RAZ 音频-文本同步处理器",
+        description="RAZ 音频-文本同步处理器 (简化版)",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
+简化流程:
+  1. PDF -> pdf_text.json (每页文本)
+  2. MP3 -> word_timings.json (单词时间戳)
+  3. LLM -> book.json (页面与音频匹配)
+
+所有产物直接生成在输入目录中。
+
 示例:
-  python -m scripts.raz_sync_processor -i input/ -o output/
-  python -m scripts.raz_sync_processor -i input/ -o output/ --model tiny --force
+  python -m scripts.raz_sync_processor -i data/raz/level-a/a-fish-sees
+  python -m scripts.raz_sync_processor -i data/raz/level-a/a-fish-sees --model base --force
         """
     )
 
     parser.add_argument("--input", "-i", required=True, type=Path,
-                        help="输入目录（需包含 book.pdf 和 book.mp3）")
-    parser.add_argument("--output", "-o", required=True, type=Path,
-                        help="输出目录")
+                        help="输入目录（需包含 book.pdf 和 audio.mp3，产物直接生成在此目录）")
+    parser.add_argument("--output", "-o", type=Path,
+                        help="输出目录（已废弃，产物直接生成在输入目录）")
     parser.add_argument("--model", "-m", default="base",
                         choices=["tiny", "base", "small", "medium", "large"],
                         help="Whisper 模型大小 (默认: base)")
@@ -219,7 +239,7 @@ def main():
 
     success = processor.process(
         input_dir=args.input,
-        output_dir=args.output,
+        output_dir=None,  # 产物直接生成在 input_dir
         book_id=args.book_id,
         title=args.title,
         force=args.force

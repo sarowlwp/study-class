@@ -5,7 +5,7 @@
 
   <!-- 顶部导航 -->
   <div class="flex items-center justify-between mb-4">
-    <a href="/raz/book/{{ book.level }}/{{ book.id.split('/')[-1] }}" class="text-blue-500 hover:underline text-sm">← 返回</a>
+    <a href="/raz/reader/{{ book.level }}/{{ book.id.split('/')[-1] }}" class="text-blue-500 hover:underline text-sm">← 返回</a>
     <p class="text-gray-600 text-sm font-semibold">{{ book.title }}</p>
     <span id="progress-label" class="text-xs text-gray-400"></span>
   </div>
@@ -125,8 +125,32 @@ function renderCurrent() {
 
 // ── 播放参考音频 ──────────────────────────────────────────────────────────────
 function playRef() {
-  document.getElementById('ref-audio').play();
+  const audio = document.getElementById('ref-audio');
+  if (audio.paused) {
+    audio.play();
+  } else {
+    audio.pause();
+  }
 }
+
+function updatePlayButtonState() {
+  const audio = document.getElementById('ref-audio');
+  const btn = document.getElementById('btn-play');
+  if (audio.paused) {
+    btn.innerHTML = '🔊 听示范';
+    btn.classList.remove('bg-green-100', 'text-green-700', 'hover:bg-green-200');
+    btn.classList.add('bg-blue-100', 'text-blue-700', 'hover:bg-blue-200');
+  } else {
+    btn.innerHTML = '⏸ 暂停';
+    btn.classList.remove('bg-blue-100', 'text-blue-700', 'hover:bg-blue-200');
+    btn.classList.add('bg-green-100', 'text-green-700', 'hover:bg-green-200');
+  }
+}
+
+// 监听音频播放状态变化
+document.getElementById('ref-audio').addEventListener('play', updatePlayButtonState);
+document.getElementById('ref-audio').addEventListener('pause', updatePlayButtonState);
+document.getElementById('ref-audio').addEventListener('ended', updatePlayButtonState);
 
 // ── 录音 ─────────────────────────────────────────────────────────────────────
 async function toggleRecord() {
