@@ -5,6 +5,7 @@ __pycache__/
 *.so
 .Python
 build/
+data/raz/
 develop-eggs/
 dist/
 downloads/
@@ -64,3 +65,4 @@ github.pub
 *.pem
 *.key
 .ssh/
+.gstack/

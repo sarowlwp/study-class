@@ -4,7 +4,7 @@ from datetime import date, datetime
 from pathlib import Path
 from typing import List, Optional
 
-from app.models.raz import RazBook, RazConfig, RazPage, RazPracticeRecord
+from app.models.raz import RazBook, RazConfig, RazPage, RazPracticeRecord, RazSentence
 
 
 class RazService:
@@ -40,6 +40,35 @@ class RazService:
             return None
         try:
             data = json.loads(json_file.read_text(encoding="utf-8"))
+
+            # 检查新格式（sentences 数组）
+            if "sentences" in data:
+                sentences = [
+                    RazSentence(
+                        start=s["start"],
+                        end=s["end"],
+                        text=s["text"],
+                        page=s["page"],
+                        confidence=s.get("confidence"),
+                    )
+                    for s in data.get("sentences", [])
+                ]
+                # 计算总页数
+                total_pages = max((s.page for s in sentences), default=1)
+
+                return RazBook(
+                    id=data["id"],
+                    title=data["title"],
+                    level=data["level"],
+                    pdf=data.get("pdf"),
+                    audio=data.get("audio"),
+                    video=data.get("video"),
+                    cover=data.get("cover"),
+                    total_pages=total_pages,
+                    sentences=sentences,
+                )
+
+            # 旧格式兼容（pages 数组）
             pages = [
                 RazPage(
                     page=p["page"],
