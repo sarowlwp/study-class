@@ -254,11 +254,33 @@ class AliyunSpeechAssessor:
         )
 
 
+class UnconfiguredSpeechAssessor:
+    """未配置语音评测服务时返回提示信息"""
+
+    async def assess(self, audio_bytes: bytes, text: str) -> SpeechAssessmentResult:
+        raise RuntimeError(
+            "语音评测服务未配置。"
+            "请设置环境变量: AZURE_SPEECH_KEY 和 AZURE_SPEECH_REGION，"
+            "然后重启服务。"
+        )
+
+
 def get_assessor() -> SpeechAssessor:
-    """根据环境变量 SPEECH_ASSESSOR 返回对应实现。"""
-    provider = os.environ.get("SPEECH_ASSESSOR", "mock").lower()
-    if provider == "aliyun":
-        return AliyunSpeechAssessor()
-    if provider == "azure":
+    """根据环境变量返回对应实现。
+
+    优先检查 Azure 配置，如果未配置则返回提示错误，而不是 mock。
+    """
+    # 检查 Azure 配置
+    azure_key = os.environ.get("AZURE_SPEECH_KEY")
+    azure_region = os.environ.get("AZURE_SPEECH_REGION")
+
+    if azure_key and azure_region:
         return AzureSpeechAssessor()
-    return MockSpeechAssessor()
+
+    # 检查是否明确请求 mock（仅用于测试）
+    provider = os.environ.get("SPEECH_ASSESSOR", "").lower()
+    if provider == "mock":
+        return MockSpeechAssessor()
+
+    # 默认：未配置返回错误提示
+    return UnconfiguredSpeechAssessor()

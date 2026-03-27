@@ -79,6 +79,26 @@ async def raz_practice(request: Request, level: str, book_dir: str):
     })
 
 
+@router.get("/raz/reader/{level}/{book_dir}")
+async def raz_reader(request: Request, level: str, book_dir: str):
+    """RAZ 阅读器页面（pdf.js + TTS + 评测）"""
+    book_id = f"level-{level}/{book_dir}"
+    book = raz_service.get_book(book_id)
+    if not book:
+        raise HTTPException(status_code=404, detail="Book not found")
+
+    # 检查是否使用静态资源服务器
+    static_server = os.environ.get("StaticServer", "").rstrip("/")
+
+    return templates.TemplateResponse("raz/reader.html", {
+        "request": request,
+        "page_title": book.title,
+        "book": book,
+        "book_dir": book_dir,
+        "static_server": static_server,
+    })
+
+
 @router.get("/raz/progress")
 async def raz_progress(request: Request):
     config = raz_service.get_config()
@@ -128,6 +148,28 @@ async def api_get_book(level: str, book_dir: str):
         "pages": [
             {"page": p.page, "pdf": p.pdf, "audio": p.audio, "sentences": p.sentences}
             for p in book.pages
+        ],
+    }
+
+
+@router.get("/api/raz/book-detail/{level}/{book_dir}")
+async def api_get_book_detail(level: str, book_dir: str):
+    """获取书籍详情（含时间轴，供阅读器使用）"""
+    book_id = f"level-{level}/{book_dir}"
+    book = raz_service.get_book(book_id)
+    if not book:
+        raise HTTPException(status_code=404, detail="Book not found")
+
+    return {
+        "id": book.id,
+        "title": book.title,
+        "level": book.level,
+        "pdf": f"/raz/media/{book.level}/{book_dir}/{book.pdf}" if book.pdf else None,
+        "audio": f"/raz/media/{book.level}/{book_dir}/{book.audio}" if book.audio else None,
+        "total_pages": book.total_pages,
+        "sentences": [
+            {"start": s.start, "end": s.end, "text": s.text, "page": s.page}
+            for s in book.sentences
         ],
     }
 
