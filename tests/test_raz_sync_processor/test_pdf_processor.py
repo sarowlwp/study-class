@@ -1,16 +1,11 @@
 """PDF 处理器测试."""
 
-import sys
+import pytest
 from pathlib import Path
 from unittest.mock import Mock, patch, MagicMock
 
-import pytest
-
-# Mock fitz 模块 before importing PDFProcessor
-fitz_mock = MagicMock()
-with patch.dict(sys.modules, {"fitz": fitz_mock}):
-    from scripts.raz_sync_processor.pdf_processor import PDFProcessor
-    from scripts.raz_sync_processor.models import PageText
+from scripts.raz_sync_processor.pdf_processor import PDFProcessor
+from scripts.raz_sync_processor.models import PageText
 
 
 class TestPDFProcessor:
@@ -26,9 +21,9 @@ class TestPDFProcessor:
         processor = PDFProcessor(dpi=150)
         assert processor.dpi == 150
 
-    def test_extract_text_by_page(self):
+    @patch("scripts.raz_sync_processor.pdf_processor.fitz")
+    def test_extract_text_by_page(self, mock_fitz):
         """测试文本提取."""
-        # 使用模块级别的 fitz_mock
         mock_page = MagicMock()
         mock_page.get_text.return_value = "Hello World"
 
@@ -37,7 +32,7 @@ class TestPDFProcessor:
         mock_doc.__getitem__ = Mock(side_effect=[mock_page, mock_page])
         mock_doc.close = Mock()
 
-        fitz_mock.open.return_value = mock_doc
+        mock_fitz.open.return_value = mock_doc
 
         processor = PDFProcessor()
         result = processor.extract_text_by_page(Path("test.pdf"))
