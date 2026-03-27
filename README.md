@@ -47,8 +47,16 @@ pip install -r requirements.txt
 
 ### 启动应用
 
+前台运行（带日志输出）：
+
 ```bash
-uvicorn app.main:app --reload
+python -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+```
+
+后台运行（日志保存到文件）：
+
+```bash
+python -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload > uvicorn.log 2>&1 &
 ```
 
 然后访问 http://localhost:8000

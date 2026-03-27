@@ -309,6 +309,41 @@
         color: rgba(255,255,255,0.7);
     }
 
+    .toast-word-scores {
+        margin-top: 10px;
+        padding-top: 10px;
+        border-top: 1px solid rgba(255,255,255,0.2);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 6px;
+        max-width: 70vw;
+    }
+
+    .word-score {
+        display: inline-flex;
+        align-items: center;
+        padding: 3px 8px;
+        border-radius: 12px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .word-score.good {
+        background: rgba(76, 175, 80, 0.3);
+        color: #81c784;
+    }
+
+    .word-score.weak {
+        background: rgba(244, 67, 54, 0.3);
+        color: #e57373;
+    }
+
+    .word-score span {
+        margin-left: 3px;
+        font-weight: bold;
+    }
+
     .loading {
         position: fixed;
         top: 50%;
@@ -372,6 +407,7 @@
         <div class="toast-stars">⭐⭐⭐</div>
         <div class="toast-sentence" id="toastSentence"></div>
         <div class="toast-text">非常棒！</div>
+        <div class="toast-word-scores" id="toastWordScores"></div>
     </div>
 </div>
 
@@ -402,7 +438,7 @@
     // 时间轴数据（从 sentences 提取）
     const timelineData = [
         {% for s in book.sentences %}
-        { start: {% if s.start is none %}null{% else %}{{ s.start }}{% endif %}, end: {% if s.end is none %}null{% else %}{{ s.end }}{% endif %}, text: "{{ s.text | escape }}", page: {{ s.page }} }{% if not loop.last %},{% endif %}
+        { start: {% if s.start is none %}null{% else %}{{ s.start }}{% endif %}, end: {% if s.end is none %}null{% else %}{{ s.end }}{% endif %}, text: {{ s.text | tojson }}, page: {{ s.page }} }{% if not loop.last %},{% endif %}
         {% endfor %}
     ];
 </script>

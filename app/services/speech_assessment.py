@@ -9,6 +9,10 @@ try:
 except ImportError:
     from typing_extensions import Protocol, runtime_checkable  # type: ignore
 
+import logging
+
+logger = logging.getLogger(__name__)
+
 
 @dataclass
 class WordScore:
@@ -73,6 +77,9 @@ class AzureSpeechAssessor:
         Returns:
             SpeechAssessmentResult 包含评分和单词级反馈
         """
+        # 记录传给 Azure Speech Service 的详细信息
+        logger.info(f"[Azure Speech] text_length={len(text)}, text={text!r}")
+
         # Validate audio duration
         duration = _extract_audio_duration(audio_bytes)
         if duration < self._audio_duration_min:
