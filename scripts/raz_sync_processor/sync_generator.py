@@ -165,9 +165,12 @@ class SyncGenerator:
             bookData = await fetch('book.json').then(r => r.json());
             wordTimings = await fetch('word_timings.json').then(r => r.json());
 
+            // 兼容处理：从 sentences 计算 page_count
+            const pageCount = bookData.page_count || bookData.sentences?.length || 0;
+
             document.getElementById('book-title').textContent = bookData.title;
             document.getElementById('book-info').textContent =
-                `Level ${bookData.level.toUpperCase()} · ${bookData.page_count} 页`;
+                `Level ${bookData.level.toUpperCase()} · ${pageCount} 页`;
 
             audioPlayer = document.getElementById('audio-player');
             audioPlayer.src = bookData.audio;
@@ -194,19 +197,24 @@ class SyncGenerator:
             canvas.height = viewport.height;
             await page.render({canvasContext: ctx, viewport}).promise;
 
-            const pageData = bookData.pages.find(p => p.page === pageNum);
-            document.getElementById('text-display').textContent = pageData?.text || '';
+            // 从 sentences 数组查找页面数据
+            const sentenceData = bookData.sentences?.find(s => s.page === pageNum);
+            document.getElementById('text-display').textContent = sentenceData?.text || '';
+
+            const pageCount = bookData.page_count || bookData.sentences?.length || 0;
             document.getElementById('page-indicator').textContent =
-                `第 ${pageNum} / ${bookData.page_count} 页`;
+                `第 ${pageNum} / ${pageCount} 页`;
         }
 
         function changePage(delta) {
+            const pageCount = bookData.page_count || bookData.sentences?.length || 0;
             const newPage = currentPage + delta;
-            if (newPage >= 1 && newPage <= bookData.page_count) {
+            if (newPage >= 1 && newPage <= pageCount) {
                 renderPage(newPage);
-                const pageData = bookData.pages.find(p => p.page === newPage);
-                if (pageData) {
-                    audioPlayer.currentTime = pageData.start_time;
+                // 从 sentences 查找并跳转到对应时间
+                const sentenceData = bookData.sentences?.find(s => s.page === newPage);
+                if (sentenceData && sentenceData.start !== null) {
+                    audioPlayer.currentTime = sentenceData.start;
                     audioPlayer.play();
                 }
             }
@@ -218,10 +226,26 @@ class SyncGenerator:
                 w => w.start <= currentTime && w.end >= currentTime
             );
 
-            if (currentWord) {
-                if (currentWord.page !== currentPage) {
-                    renderPage(currentWord.page);
+            if (!currentWord) return;
+
+            // 如果 word_timings 有 page 字段，使用它进行页面跳转
+            if (currentWord.page && currentWord.page !== currentPage) {
+                renderPage(currentWord.page);
+            }
+
+            // 否则尝试从 sentences 推断当前页面（基于时间范围）
+            if (!currentWord.page && bookData.sentences) {
+                const matchingSentence = bookData.sentences.find(
+                    s => s.start !== null && s.end !== null &&
+                         currentTime >= s.start && currentTime <= s.end
+                );
+                if (matchingSentence && matchingSentence.page !== currentPage) {
+                    renderPage(matchingSentence.page);
                 }
+            }
+
+            // 只有存在 char 位置信息时才高亮
+            if (currentWord.char_start !== undefined && currentWord.char_end !== undefined) {
                 highlightWord(currentWord);
             }
         }

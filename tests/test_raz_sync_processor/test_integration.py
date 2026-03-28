@@ -15,16 +15,19 @@ class TestIntegration:
     @pytest.fixture
     def mock_processor(self):
         """创建带有模拟组件的处理器."""
-        with patch('scripts.raz_sync_processor.main.PDFProcessor') as mock_pdf, \
-             patch('scripts.raz_sync_processor.main.AudioTranscriber') as mock_audio, \
-             patch('scripts.raz_sync_processor.main.LlmMapper') as mock_llm:
+        with patch('scripts.raz_sync_processor.pdf_processor.PDFProcessor') as mock_pdf_class, \
+             patch('scripts.raz_sync_processor.audio_transcriber.AudioTranscriber') as mock_audio_class, \
+             patch('scripts.raz_sync_processor.llm_mapper.LlmMapper') as mock_llm_class:
 
+            # 创建处理器实例
             processor = RazSyncProcessor(model_size="tiny")
-            processor.pdf_processor = mock_pdf.return_value
-            processor.audio_transcriber = mock_audio.return_value
-            processor.llm_mapper = mock_llm.return_value
 
-            yield processor, mock_pdf, mock_audio, mock_llm
+            # 替换实例的组件为 mock
+            processor.pdf_processor = mock_pdf_class.return_value
+            processor.audio_transcriber = mock_audio_class.return_value
+            processor.llm_mapper = mock_llm_class.return_value
+
+            yield processor, mock_pdf_class, mock_audio_class, mock_llm_class
 
     def test_process_success(self, tmp_path, mock_processor):
         """测试完整处理流程."""
@@ -44,6 +47,7 @@ class TestIntegration:
             PageText(1, "Hello world"),
             PageText(2, "How are you"),
         ]
+        processor.pdf_processor.extract_cover_image.return_value = True
 
         processor.audio_transcriber.transcribe.return_value = [
             WordTiming("hello", 0.0, 0.5),

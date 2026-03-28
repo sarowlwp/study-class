@@ -16,7 +16,11 @@ AUDIO_FILENAME = "book.mp3"
 WORD_TIMINGS_JSON = "word_timings.json"
 READER_HTML = "index.html"
 PDF_TEXT_JSON = "pdf_text.json"
+COVER_FILENAME = "cover.jpg"
 
 # OCR 配置
 OCR_LANGUAGE = "eng"
 OCR_DPI = 300
+
+# Cover 图片配置
+COVER_DPI = 150
