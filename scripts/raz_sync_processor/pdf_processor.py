@@ -11,7 +11,7 @@ except ImportError:
     fitz = None
 
 from .models import PageText
-from .config import OCR_DPI
+from .config import OCR_DPI, COVER_DPI
 
 logger = logging.getLogger(__name__)
 
@@ -26,6 +26,20 @@ class PDFProcessor:
             dpi: PDF 渲染分辨率
         """
         self.dpi = dpi
+        self._paddleocr = None
+
+    def _get_paddleocr(self):
+        """获取 PaddleOCR 实例（延迟加载）."""
+        if self._paddleocr is None:
+            from paddleocr import PaddleOCR
+            logger.info("Loading PaddleOCR model...")
+            self._paddleocr = PaddleOCR(
+                use_angle_cls=True,
+                lang='en',
+                show_log=False
+            )
+            logger.info("PaddleOCR model loaded")
+        return self._paddleocr
 
     def _check_fitz(self):
         """检查 fitz 是否可用."""
@@ -33,11 +47,23 @@ class PDFProcessor:
             raise ImportError("PyMuPDF (fitz) is required. Install: pip install pymupdf")
 
     def extract_text_by_page(self, pdf_path: Path) -> List[PageText]:
-        """提取每页文本."""
+        """提取每页文本（自动使用 OCR 如果需要）."""
         logger.info(f"Extracting text from {pdf_path}")
+
+        # 首先尝试直接提取文本
+        pages = self._extract_raw_text(pdf_path)
+
+        # 检查是否需要 OCR
+        if self._needs_ocr_from_pages(pages):
+            logger.info("PDF needs OCR, using EasyOCR...")
+            pages = self._extract_with_easyocr(pdf_path)
+
+        return pages
+
+    def _extract_raw_text(self, pdf_path: Path) -> List[PageText]:
+        """直接提取 PDF 文本（不 OCR）."""
         pages = []
         doc = fitz.open(pdf_path)
-
         try:
             for page_num in range(len(doc)):
                 page = doc[page_num]
@@ -45,8 +71,58 @@ class PDFProcessor:
                 pages.append(PageText(page_num=page_num + 1, text=text))
         finally:
             doc.close()
+        return pages
 
-        logger.info(f"Extracted {len(pages)} pages")
+    def _needs_ocr_from_pages(self, pages: List[PageText], sample_pages: int = 2) -> bool:
+        """检查页面是否需要 OCR."""
+        for i in range(min(sample_pages, len(pages))):
+            if len(pages[i].text) > 10:
+                return False
+        return True
+
+    def _extract_with_easyocr(self, pdf_path: Path) -> List[PageText]:
+        """使用 PaddleOCR 提取 PDF 每页文本."""
+        from PIL import Image
+
+        ocr = self._get_paddleocr()
+        pages = []
+        doc = fitz.open(pdf_path)
+
+        try:
+            for page_num in range(len(doc)):
+                page = doc[page_num]
+
+                # 渲染页面为图片
+                zoom = self.dpi / 72
+                mat = fitz.Matrix(zoom, zoom)
+                pix = page.get_pixmap(matrix=mat)
+
+                # 转换为 PIL Image 并保存临时文件
+                img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+                temp_path = f"/tmp/ocr_page_{page_num}.png"
+                img.save(temp_path)
+
+                # OCR
+                results = ocr.ocr(temp_path, cls=True)
+
+                # 合并文本
+                texts = []
+                if results and results[0]:
+                    for line in results[0]:
+                        if line:
+                            texts.append(line[1][0])
+                text = " ".join(texts)
+
+                # 清理临时文件
+                import os
+                os.unlink(temp_path)
+
+                pages.append(PageText(page_num=page_num + 1, text=text))
+                logger.info(f"  Page {page_num + 1}: OCR extracted {len(texts)} text lines")
+        finally:
+            doc.close()
+
+        logger.info(f"OCR extracted {len(pages)} pages")
         return pages
 
     def needs_ocr(self, pdf_path: Path, sample_pages: int = 2) -> bool:
@@ -94,3 +170,46 @@ class PDFProcessor:
         text = re.sub(r'[^\w\s]', '', text)
         text = re.sub(r'\s+', ' ', text)
         return text.strip()
+
+    def extract_cover_image(
+        self,
+        pdf_path: Path,
+        output_path: Path,
+        dpi: int = COVER_DPI
+    ) -> bool:
+        """从 PDF 第一页提取封面图片.
+
+        Args:
+            pdf_path: PDF 文件路径
+            output_path: 输出图片路径
+            dpi: 渲染分辨率 (默认 150)
+
+        Returns:
+            是否成功提取
+        """
+        self._check_fitz()
+        logger.info(f"Extracting cover image from {pdf_path}")
+
+        doc = fitz.open(pdf_path)
+        try:
+            if len(doc) == 0:
+                logger.error("PDF has no pages")
+                return False
+
+            page = doc[0]
+            zoom = dpi / 72  # 默认 72 DPI
+            mat = fitz.Matrix(zoom, zoom)
+            pix = page.get_pixmap(matrix=mat)
+
+            # 确保输出目录存在
+            output_path.parent.mkdir(parents=True, exist_ok=True)
+            pix.save(output_path)
+
+            logger.info(f"Cover saved: {output_path} ({pix.width}x{pix.height})")
+            return True
+
+        except Exception as e:
+            logger.error(f"Failed to extract cover: {e}")
+            return False
+        finally:
+            doc.close()
