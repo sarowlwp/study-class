@@ -11,6 +11,10 @@ services:
       - "8989:8000"
     environment:
       - PYTHONUNBUFFERED=1
+      - AZURE_SPEECH_KEY=${AZURE_SPEECH_KEY}
+      - AZURE_SPEECH_REGION=${AZURE_SPEECH_REGION}
+      - SPEECH_ASSESSOR=${SPEECH_ASSESSOR}
+      - StaticServer=${StaticServer}
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/api/characters')"]
