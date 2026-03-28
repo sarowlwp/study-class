@@ -98,11 +98,11 @@ function renderCurrent() {
 
   // 更新 PDF
   document.getElementById('page-pdf').src =
-    `/raz/media/${BOOK_LEVEL}/${BOOK_DIR}/${page.pdf}`;
+    `/raz/level-${BOOK_LEVEL}/${BOOK_DIR}/${page.pdf}`;
 
   // 更新参考音频（不自动播放）
   document.getElementById('ref-audio').src =
-    `/raz/media/${BOOK_LEVEL}/${BOOK_DIR}/${page.audio}`;
+    `/raz/level-${BOOK_LEVEL}/${BOOK_DIR}/${page.audio}`;
 
   // 更新句子文本
   document.getElementById('current-sentence').textContent = sentence;

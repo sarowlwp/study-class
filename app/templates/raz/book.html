@@ -12,7 +12,7 @@
     <div class="mb-6">
       <p class="text-sm font-semibold text-gray-600 mb-2">📽 整本书视频预览</p>
       <video controls class="w-full rounded-lg border">
-        <source src="/raz/media/{{ book.level }}/{{ book.id.split('/')[-1] }}/{{ book.video }}">
+        <source src="/raz/level-{{ book.level }}/{{ book.id.split('/')[-1] }}/{{ book.video }}">
       </video>
     </div>
     {% endif %}
