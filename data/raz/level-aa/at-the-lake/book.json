@@ -1,0 +1,83 @@
+{
+  "id": "level-aa/at-the-lake",
+  "title": "At The Lake",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 18.48,
+      "text": "at the lake written by sarah gusson illustrated by nina de polonia focus question what can you see at the lake",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 18.86,
+      "end": 20.52,
+      "text": "this swimsuit",
+      "page": 4
+    },
+    {
+      "start": 21.0,
+      "end": 22.5,
+      "text": "this dock",
+      "page": 5
+    },
+    {
+      "start": 23.12,
+      "end": 24.62,
+      "text": "this boat",
+      "page": 6
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 7
+    },
+    {
+      "start": 24.68,
+      "end": 29.24,
+      "text": "this tree this fish",
+      "page": 8
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 9
+    },
+    {
+      "start": 29.62,
+      "end": 33.48,
+      "text": "this rock this frog",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    },
+    {
+      "start": 33.72,
+      "end": 68.26,
+      "text": "this lake connections writing and art what else could you see at the lake draw a picture and write this sentence this science what plants and animals live at the lake share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

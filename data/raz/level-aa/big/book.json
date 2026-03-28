@@ -1,0 +1,77 @@
+{
+  "id": "level-aa/big",
+  "title": "Big",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 7.36,
+      "text": "big written by cheryl ryan illustrated by joe bodie",
+      "page": 2
+    },
+    {
+      "start": 9.18,
+      "end": 11.64,
+      "text": "a big house",
+      "page": 3
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 4
+    },
+    {
+      "start": 17.1,
+      "end": 19.52,
+      "text": "a big car",
+      "page": 5
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 6
+    },
+    {
+      "start": 25.92,
+      "end": 27.5,
+      "text": "a big plane",
+      "page": 7
+    },
+    {
+      "start": 28.7,
+      "end": 31.88,
+      "text": "a big tree",
+      "page": 8
+    },
+    {
+      "start": 32.92,
+      "end": 36.1,
+      "text": "a big elephant",
+      "page": 9
+    },
+    {
+      "start": 37.08,
+      "end": 40.64,
+      "text": "a big dinosaur",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

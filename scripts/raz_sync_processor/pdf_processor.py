@@ -26,20 +26,6 @@ class PDFProcessor:
             dpi: PDF 渲染分辨率
         """
         self.dpi = dpi
-        self._paddleocr = None
-
-    def _get_paddleocr(self):
-        """获取 PaddleOCR 实例（延迟加载）."""
-        if self._paddleocr is None:
-            from paddleocr import PaddleOCR
-            logger.info("Loading PaddleOCR model...")
-            self._paddleocr = PaddleOCR(
-                use_angle_cls=True,
-                lang='en',
-                show_log=False
-            )
-            logger.info("PaddleOCR model loaded")
-        return self._paddleocr
 
     def _check_fitz(self):
         """检查 fitz 是否可用."""
@@ -81,10 +67,10 @@ class PDFProcessor:
         return True
 
     def _extract_with_easyocr(self, pdf_path: Path) -> List[PageText]:
-        """使用 PaddleOCR 提取 PDF 每页文本."""
+        """使用 Tesseract OCR 提取 PDF 每页文本."""
         from PIL import Image
+        import pytesseract
 
-        ocr = self._get_paddleocr()
         pages = []
         doc = fitz.open(pdf_path)
 
@@ -97,28 +83,15 @@ class PDFProcessor:
                 mat = fitz.Matrix(zoom, zoom)
                 pix = page.get_pixmap(matrix=mat)
 
-                # 转换为 PIL Image 并保存临时文件
+                # 转换为 PIL Image
                 img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
-                temp_path = f"/tmp/ocr_page_{page_num}.png"
-                img.save(temp_path)
 
-                # OCR
-                results = ocr.ocr(temp_path, cls=True)
-
-                # 合并文本
-                texts = []
-                if results and results[0]:
-                    for line in results[0]:
-                        if line:
-                            texts.append(line[1][0])
-                text = " ".join(texts)
-
-                # 清理临时文件
-                import os
-                os.unlink(temp_path)
+                # OCR 识别
+                text = pytesseract.image_to_string(img, lang='eng').strip()
 
                 pages.append(PageText(page_num=page_num + 1, text=text))
-                logger.info(f"  Page {page_num + 1}: OCR extracted {len(texts)} text lines")
+                logger.info(f"  Page {page_num + 1}: OCR extracted {len(text)} chars")
+
         finally:
             doc.close()
 
