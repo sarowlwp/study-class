@@ -163,6 +163,7 @@ end   = timings[j]['end'] + 0.28               # 固定后置缓冲
   "pdf": "book.pdf",
   "cover": "cover.jpg",
   "audio": "{audio_filename}",
+  "page_count": <PDF总页数>,
   "sentences": [
     {{
       "start": 0.0,
@@ -175,7 +176,8 @@ end   = timings[j]['end'] + 0.28               # 固定后置缓冲
 }}
 
 要求：
-- 必须包含字段：id, title, level, pdf, audio, sentences
+- 必须包含字段：id, title, level, pdf, audio, page_count, sentences
+- page_count 是整数，表示 PDF 的总页数
 - sentences 数组每个元素包含：start, end, text, page
 - start 和 end 必须是数字（秒），表示该页面对应的音频时间范围
 - 没有音频的页面（如版权页）设置 start: null, end: null
