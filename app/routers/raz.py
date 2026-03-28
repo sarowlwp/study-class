@@ -167,8 +167,8 @@ async def api_get_book_detail(level: str, book_dir: str):
         "id": book.id,
         "title": book.title,
         "level": book.level,
-        "pdf": f"/raz/media/{book.level}/{book_dir}/{book.pdf}" if book.pdf else None,
-        "audio": f"/raz/media/{book.level}/{book_dir}/{book.audio}" if book.audio else None,
+        "pdf": f"/raz/{book.level}/{book_dir}/{book.pdf}" if book.pdf else None,
+        "audio": f"/raz/{book.level}/{book_dir}/{book.audio}" if book.audio else None,
         "total_pages": book.total_pages,
         "sentences": [
             {"start": s.start, "end": s.end, "text": s.text, "page": s.page}
