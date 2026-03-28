@@ -270,7 +270,7 @@ async def api_get_config():
 _SAFE_PATH_PATTERN = _re.compile(r'^[a-zA-Z0-9_\-\.]+$')
 
 
-@router.get("/raz/media/{level}/{book_dir}/{filename}")
+@router.get("/raz/level-{level}/{book_dir}/{filename}")
 async def raz_media(level: str, book_dir: str, filename: str):
     """安全地提供书库媒体文件。路径参数严格校验，防止路径穿越。"""
     if not all(_SAFE_PATH_PATTERN.match(p) for p in [level, book_dir, filename]):
