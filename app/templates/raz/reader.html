@@ -429,8 +429,8 @@
         id: "{{ book.id }}",
         title: "{{ book.title }}",
         level: "{{ book.level }}",
-        pdf: buildResourceUrl("/raz/{{ book.level }}/{{ book_dir }}/{{ book.pdf or 'book.pdf' }}"),
-        audio: {% if book.audio %}buildResourceUrl("/raz/{{ book.level }}/{{ book_dir }}/{{ book.audio }}"){% else %}null{% endif %},
+        pdf: buildResourceUrl("/raz/level-{{ book.level }}/{{ book_dir }}/{{ book.pdf or 'book.pdf' }}"),
+        audio: {% if book.audio %}buildResourceUrl("/raz/level-{{ book.level }}/{{ book_dir }}/{{ book.audio }}"){% else %}null{% endif %},
         totalPages: {{ book.total_pages or 1 }},
         sentences: {{ book.sentences | map(attribute='text') | list | tojson }}
     };
