@@ -1,0 +1,83 @@
+{
+  "id": "level-aa/blue",
+  "title": "Blue",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 4.18,
+      "text": "blue written by rachel rice",
+      "page": 1
+    },
+    {
+      "start": 5.14,
+      "end": 11.78,
+      "text": "focus question where do you see the color blue outside",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 4
+    },
+    {
+      "start": 12.32,
+      "end": 16.94,
+      "text": "the blue helmet",
+      "page": 5
+    },
+    {
+      "start": 17.58,
+      "end": 19.5,
+      "text": "the blue bike",
+      "page": 6
+    },
+    {
+      "start": 19.96,
+      "end": 22.12,
+      "text": "the blue bottle",
+      "page": 7
+    },
+    {
+      "start": 22.6,
+      "end": 24.76,
+      "text": "the blue bench",
+      "page": 8
+    },
+    {
+      "start": 25.16,
+      "end": 27.38,
+      "text": "the blue swing",
+      "page": 9
+    },
+    {
+      "start": 27.62,
+      "end": 30.26,
+      "text": "the blue slide",
+      "page": 10
+    },
+    {
+      "start": 30.72,
+      "end": 33.28,
+      "text": "the blue playground",
+      "page": 11
+    },
+    {
+      "start": 34.0,
+      "end": 57.9,
+      "text": "connections writing and art think of something you see outside that is blue draw a picture and label it science how how do you use your five senses when playing outside share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

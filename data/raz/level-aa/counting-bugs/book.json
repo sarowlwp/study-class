@@ -1,0 +1,77 @@
+{
+  "id": "level-aa/counting-bugs",
+  "title": "Counting Bugs",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 5.36,
+      "text": "counting bugs written by laura tully zwickle",
+      "page": 2
+    },
+    {
+      "start": 6.64,
+      "end": 8.42,
+      "text": "one bug",
+      "page": 3
+    },
+    {
+      "start": 9.92,
+      "end": 11.9,
+      "text": "two bugs",
+      "page": 4
+    },
+    {
+      "start": 13.38,
+      "end": 15.48,
+      "text": "three bugs",
+      "page": 5
+    },
+    {
+      "start": 17.0,
+      "end": 19.04,
+      "text": "four bugs",
+      "page": 6
+    },
+    {
+      "start": 20.7,
+      "end": 23.08,
+      "text": "five bugs",
+      "page": 7
+    },
+    {
+      "start": 24.28,
+      "end": 26.58,
+      "text": "six bugs",
+      "page": 8
+    },
+    {
+      "start": 26.08,
+      "end": 30.04,
+      "text": "seven bugs",
+      "page": 9
+    },
+    {
+      "start": 30.98,
+      "end": 34.12,
+      "text": "so many bugs",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

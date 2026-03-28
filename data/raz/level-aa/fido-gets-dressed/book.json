@@ -1,0 +1,89 @@
+{
+  "id": "level-aa/fido-gets-dressed",
+  "title": "Fido Gets Dressed",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 13,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 6.68,
+      "text": "fido gets dressed written by s r richardson illustrated by angela canstra",
+      "page": 2
+    },
+    {
+      "start": 8.16,
+      "end": 9.76,
+      "text": "my sweater",
+      "page": 3
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 4
+    },
+    {
+      "start": 11.2,
+      "end": 15.94,
+      "text": "my boots my hat",
+      "page": 5
+    },
+    {
+      "start": 17.66,
+      "end": 19.48,
+      "text": "my scarf",
+      "page": 6
+    },
+    {
+      "start": 20.96,
+      "end": 22.74,
+      "text": "my hat",
+      "page": 7
+    },
+    {
+      "start": 24.04,
+      "end": 25.8,
+      "text": "my sunglasses",
+      "page": 8
+    },
+    {
+      "start": 27.66,
+      "end": 29.36,
+      "text": "my hat",
+      "page": 9
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 10
+    },
+    {
+      "start": 29.78,
+      "end": 35.68,
+      "text": "my cape my mask",
+      "page": 11
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 12
+    },
+    {
+      "start": 36.78,
+      "end": 38.72,
+      "text": "my hat",
+      "page": 13
+    }
+  ]
+}

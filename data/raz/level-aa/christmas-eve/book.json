@@ -1,0 +1,83 @@
+{
+  "id": "level-aa/christmas-eve",
+  "title": "Christmas Eve",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 14.5,
+      "text": "christmas eve written by anthony curran illustrated by joe mike tahito focus question what can be seen on christmas eve",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 14.9,
+      "end": 15.92,
+      "text": "the lights",
+      "page": 4
+    },
+    {
+      "start": 16.16,
+      "end": 17.36,
+      "text": "the meal",
+      "page": 5
+    },
+    {
+      "start": 17.62,
+      "end": 19.16,
+      "text": "the eggnog",
+      "page": 6
+    },
+    {
+      "start": 19.12,
+      "end": 20.18,
+      "text": "the tree",
+      "page": 7
+    },
+    {
+      "start": 20.34,
+      "end": 21.58,
+      "text": "the cards",
+      "page": 8
+    },
+    {
+      "start": 21.7,
+      "end": 22.94,
+      "text": "the presents",
+      "page": 9
+    },
+    {
+      "start": 23.22,
+      "end": 24.78,
+      "text": "the stockings",
+      "page": 10
+    },
+    {
+      "start": 24.88,
+      "end": 25.92,
+      "text": "the cookies",
+      "page": 11
+    },
+    {
+      "start": 26.18,
+      "end": 56.62,
+      "text": "connections writing and art draw and label a picture of your favorite holiday social studies as a class discuss different winter holidays how are the holidays the the same and different share your ideas with a friend",
+      "page": 12
+    }
+  ]
+}

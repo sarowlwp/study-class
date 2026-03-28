@@ -1,0 +1,83 @@
+{
+  "id": "level-aa/eleven",
+  "title": "Eleven",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 1.18,
+      "end": 15.4,
+      "text": "written by rachel rice illustrated by hector borlaska focus question what could you see at a birthday party",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 15.46,
+      "end": 17.28,
+      "text": "11 cards",
+      "page": 4
+    },
+    {
+      "start": 17.34,
+      "end": 19.9,
+      "text": "11 balloons",
+      "page": 5
+    },
+    {
+      "start": 19.98,
+      "end": 22.34,
+      "text": "11 hats",
+      "page": 6
+    },
+    {
+      "start": 22.54,
+      "end": 24.8,
+      "text": "11 pizzas",
+      "page": 7
+    },
+    {
+      "start": 24.94,
+      "end": 28.98,
+      "text": "11 cupcakes leaven presence",
+      "page": 8
+    },
+    {
+      "start": 29.16,
+      "end": 32.98,
+      "text": "eleven candy bars eleven friends",
+      "page": 9
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    },
+    {
+      "start": 35.54,
+      "end": 61.34,
+      "text": "connections writing and art what do you like to do on your birthday draw a picture and write about it math create a new page for the book draw 11 party items and count them write the sentence 11",
+      "page": 12
+    }
+  ]
+}

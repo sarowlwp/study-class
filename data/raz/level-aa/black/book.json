@@ -1,0 +1,83 @@
+{
+  "id": "level-aa/black",
+  "title": "Black",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.7,
+      "end": 12.62,
+      "text": "written by nigel pepperhouse focus question where can you find the color black in a magic show",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 12.74,
+      "end": 15.6,
+      "text": "one black stage",
+      "page": 4
+    },
+    {
+      "start": 15.82,
+      "end": 19.08,
+      "text": "one black sheet",
+      "page": 5
+    },
+    {
+      "start": 19.26,
+      "end": 22.2,
+      "text": "one black suit",
+      "page": 6
+    },
+    {
+      "start": 22.24,
+      "end": 25.56,
+      "text": "one black tie",
+      "page": 7
+    },
+    {
+      "start": 25.56,
+      "end": 28.4,
+      "text": "one black cape",
+      "page": 8
+    },
+    {
+      "start": 28.6,
+      "end": 31.42,
+      "text": "one black hat",
+      "page": 9
+    },
+    {
+      "start": 31.36,
+      "end": 34.56,
+      "text": "one black wand",
+      "page": 10
+    },
+    {
+      "start": 34.74,
+      "end": 37.78,
+      "text": "one black rabbit",
+      "page": 11
+    },
+    {
+      "start": 37.8,
+      "end": 77.38,
+      "text": "connections writing and art choose something else that is the color black draw a picture and finish the sentence 1 black math count the number of black items in the book count the number of black items in your classroom as a class talk about which number is more",
+      "page": 12
+    }
+  ]
+}

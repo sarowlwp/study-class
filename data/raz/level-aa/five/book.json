@@ -1,0 +1,77 @@
+{
+  "id": "level-aa/five",
+  "title": "Five",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 9.44,
+      "text": "5 written by mary anne moratzi illustrated by reginald w butler",
+      "page": 2
+    },
+    {
+      "start": 9.44,
+      "end": 9.96,
+      "text": "5",
+      "page": 3
+    },
+    {
+      "start": 9.96,
+      "end": 13.98,
+      "text": "5 cups 5 plates",
+      "page": 4
+    },
+    {
+      "start": 13.98,
+      "end": 17.02,
+      "text": "5 bowls",
+      "page": 5
+    },
+    {
+      "start": 17.02,
+      "end": 19.16,
+      "text": "5 forks",
+      "page": 6
+    },
+    {
+      "start": 19.16,
+      "end": 21.6,
+      "text": "5 spoons",
+      "page": 7
+    },
+    {
+      "start": 21.6,
+      "end": 24.16,
+      "text": "5 pans",
+      "page": 8
+    },
+    {
+      "start": 24.16,
+      "end": 25.74,
+      "text": "5 chairs",
+      "page": 9
+    },
+    {
+      "start": 25.74,
+      "end": 28.6,
+      "text": "5 lunches",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}
