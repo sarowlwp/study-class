@@ -167,8 +167,8 @@ async def api_get_book_detail(level: str, book_dir: str):
         "id": book.id,
         "title": book.title,
         "level": book.level,
-        "pdf": f"/raz/media/{book.level}/{book_dir}/{book.pdf}" if book.pdf else None,
-        "audio": f"/raz/media/{book.level}/{book_dir}/{book.audio}" if book.audio else None,
+        "pdf": f"/raz/{book.level}/{book_dir}/{book.pdf}" if book.pdf else None,
+        "audio": f"/raz/{book.level}/{book_dir}/{book.audio}" if book.audio else None,
         "total_pages": book.total_pages,
         "sentences": [
             {"start": s.start, "end": s.end, "text": s.text, "page": s.page}
@@ -270,7 +270,7 @@ async def api_get_config():
 _SAFE_PATH_PATTERN = _re.compile(r'^[a-zA-Z0-9_\-\.]+$')
 
 
-@router.get("/raz/media/{level}/{book_dir}/{filename}")
+@router.get("/raz/level-{level}/{book_dir}/{filename}")
 async def raz_media(level: str, book_dir: str, filename: str):
     """安全地提供书库媒体文件。路径参数严格校验，防止路径穿越。"""
     if not all(_SAFE_PATH_PATTERN.match(p) for p in [level, book_dir, filename]):

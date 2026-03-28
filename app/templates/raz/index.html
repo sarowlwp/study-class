@@ -74,7 +74,7 @@
        class="book-card bg-white rounded-xl shadow hover:shadow-md transition p-3 border border-gray-100">
       <div class="book-cover mb-3">
         {% if book.cover %}
-        <img src="/raz/media/{{ book.level }}/{{ book.id.split('/')[-1] }}/{{ book.cover }}" alt="{{ book.title }}">
+        <img src="/raz/level-{{ book.level }}/{{ book.id.split('/')[-1] }}/{{ book.cover }}" alt="{{ book.title }}">
         {% else %}
         <span class="fallback-icon">📗</span>
         {% endif %}
