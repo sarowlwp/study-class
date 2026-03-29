@@ -8,44 +8,44 @@
   "page_count": 9,
   "sentences": [
     {
-      "start": null,
-      "end": null,
-      "text": "",
+      "start": 3.82,
+      "end": 11.22,
+      "text": "written by marianne marazzi illustrated by luciana navarro powell",
       "page": 1
     },
     {
-      "start": 16.68,
-      "end": 20.64,
+      "start": 17.54,
+      "end": 20.54,
       "text": "4 busses",
       "page": 2
     },
     {
-      "start": 26.5,
-      "end": 29.36,
-      "text": "4 wagens",
+      "start": 27.62,
+      "end": 30.92,
+      "text": "4 wagons",
       "page": 3
     },
     {
-      "start": 36.32,
-      "end": 39.62,
+      "start": 36.52,
+      "end": 39.12,
       "text": "4 cars",
       "page": 4
     },
     {
-      "start": 46.18,
-      "end": 48.78,
-      "text": "4 carts",
+      "start": 45.42,
+      "end": 48.48,
+      "text": "4 cars",
       "page": 5
     },
     {
-      "start": 52.3,
-      "end": 55.8,
+      "start": 52.76,
+      "end": 55.48,
       "text": "4 airplanes",
       "page": 6
     },
     {
-      "start": 62.22,
-      "end": 64.76,
+      "start": 62.06,
+      "end": 64.66,
       "text": "4 boats",
       "page": 7
     },
@@ -56,9 +56,9 @@
       "page": 8
     },
     {
-      "start": 71.2,
-      "end": 82.9,
-      "text": "4 trex 4 vans",
+      "start": null,
+      "end": null,
+      "text": "",
       "page": 9
     }
   ]

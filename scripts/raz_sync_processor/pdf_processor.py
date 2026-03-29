@@ -1,14 +1,27 @@
 """PDF 处理器：OCR + 文本提取."""
 
+import os
 import re
 import logging
 from pathlib import Path
-from typing import List, Optional
+from typing import List, Optional, Dict, Any, Tuple
 
 try:
     import fitz  # PyMuPDF
 except ImportError:
     fitz = None
+
+try:
+    import easyocr
+except ImportError:
+    easyocr = None
+
+try:
+    import numpy as np
+except ImportError:
+    np = None
+
+from PIL import Image
 
 from .models import PageText
 from .config import OCR_DPI, COVER_DPI
@@ -19,13 +32,32 @@ logger = logging.getLogger(__name__)
 class PDFProcessor:
     """处理 PDF 文件：提取每页文本."""
 
-    def __init__(self, dpi: int = OCR_DPI):
+    def __init__(self, dpi: int = OCR_DPI, lang: str = "en"):
         """初始化处理器.
 
         Args:
             dpi: PDF 渲染分辨率
+            lang: OCR 语言 (默认: en)
         """
         self.dpi = dpi
+        self.lang = lang
+        self._reader: Optional[easyocr.Reader] = None
+
+    def _get_reader(self) -> "easyocr.Reader":
+        """获取或初始化 EasyOCR 引擎."""
+        if self._reader is None:
+            if easyocr is None:
+                raise ImportError(
+                    "EasyOCR is required. Install: pip install easyocr"
+                )
+            logger.info("Initializing EasyOCR...")
+            self._reader = easyocr.Reader(
+                [self.lang],
+                gpu=False,
+                verbose=False,
+                model_storage_directory=str(Path.home() / ".EasyOCR" / "model")
+            )
+        return self._reader
 
     def _check_fitz(self):
         """检查 fitz 是否可用."""
@@ -67,27 +99,34 @@ class PDFProcessor:
         return True
 
     def _extract_with_easyocr(self, pdf_path: Path) -> List[PageText]:
-        """使用 Tesseract OCR 提取 PDF 每页文本."""
-        from PIL import Image
-        import pytesseract
+        """使用 EasyOCR 提取 PDF 每页文本.
 
-        pages = []
+        Args:
+            pdf_path: PDF 文件路径
+
+        Returns:
+            每页的 PageText 列表
+        """
+        pages: List[PageText] = []
         doc = fitz.open(pdf_path)
+        reader = self._get_reader()
 
         try:
             for page_num in range(len(doc)):
                 page = doc[page_num]
 
                 # 渲染页面为图片
-                zoom = self.dpi / 72
+                zoom = max(self.dpi, 200) / 72  # 至少 200 DPI
                 mat = fitz.Matrix(zoom, zoom)
                 pix = page.get_pixmap(matrix=mat)
 
                 # 转换为 PIL Image
                 img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+                img_array = np.array(img)
 
-                # OCR 识别
-                text = pytesseract.image_to_string(img, lang='eng').strip()
+                # EasyOCR 识别
+                results = reader.readtext(img_array, detail=0)
+                text = " ".join(results) if results else ""
 
                 pages.append(PageText(page_num=page_num + 1, text=text))
                 logger.info(f"  Page {page_num + 1}: OCR extracted {len(text)} chars")
@@ -95,7 +134,7 @@ class PDFProcessor:
         finally:
             doc.close()
 
-        logger.info(f"OCR extracted {len(pages)} pages")
+        logger.info(f"EasyOCR extracted {len(pages)} pages")
         return pages
 
     def needs_ocr(self, pdf_path: Path, sample_pages: int = 2) -> bool:

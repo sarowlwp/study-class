@@ -15,74 +15,74 @@
     },
     {
       "start": 0.0,
-      "end": 6.68,
-      "text": "fido gets dressed written by s r richardson illustrated by angela canstra",
+      "end": 7.08,
+      "text": "fido gets dressed written by s r richardson illustrated by angela kamstra",
       "page": 2
     },
     {
-      "start": 8.16,
-      "end": 9.76,
+      "start": 8.74,
+      "end": 9.88,
       "text": "my sweater",
       "page": 3
     },
     {
-      "start": null,
-      "end": null,
-      "text": "",
+      "start": 11.74,
+      "end": 13.08,
+      "text": "my boots",
       "page": 4
     },
     {
-      "start": 11.2,
-      "end": 15.94,
-      "text": "my boots my hat",
+      "start": 15.12,
+      "end": 16.4,
+      "text": "my hat",
       "page": 5
     },
     {
-      "start": 17.66,
-      "end": 19.48,
+      "start": 18.22,
+      "end": 19.56,
       "text": "my scarf",
       "page": 6
     },
     {
-      "start": 20.96,
-      "end": 22.74,
+      "start": 21.58,
+      "end": 22.88,
       "text": "my hat",
       "page": 7
     },
     {
-      "start": 24.04,
-      "end": 25.8,
+      "start": 24.62,
+      "end": 26.04,
       "text": "my sunglasses",
       "page": 8
     },
     {
-      "start": 27.66,
-      "end": 29.36,
+      "start": 27.16,
+      "end": 29.86,
       "text": "my hat",
       "page": 9
     },
     {
-      "start": null,
-      "end": null,
-      "text": "",
+      "start": 31.26,
+      "end": 32.5,
+      "text": "my cape",
       "page": 10
     },
     {
-      "start": 29.78,
-      "end": 35.68,
-      "text": "my cape my mask",
+      "start": 34.44,
+      "end": 35.72,
+      "text": "my mask",
       "page": 11
+    },
+    {
+      "start": 37.64,
+      "end": 38.76,
+      "text": "my hat",
+      "page": 12
     },
     {
       "start": null,
       "end": null,
       "text": "",
-      "page": 12
-    },
-    {
-      "start": 36.78,
-      "end": 38.72,
-      "text": "my hat",
       "page": 13
     }
   ]
