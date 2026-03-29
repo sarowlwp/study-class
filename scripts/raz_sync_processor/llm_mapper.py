@@ -83,6 +83,9 @@ class LlmMapper:
             if result.get("level", "").startswith("level-"):
                 result["level"] = result["level"].replace("level-", "")
 
+            # 对 LLM 生成的时间戳进行后处理优化
+            result = self._post_process_timestamps(result, timings_data)
+
             # 保存结果
             output_path.write_text(
                 json.dumps(result, ensure_ascii=False, indent=2),
@@ -135,8 +138,13 @@ class LlmMapper:
 
 ###时间范围精确截断规则（重点提升播放自然性）：
 对于匹配到的单词序列 [i..j]：
-start = max(0.0, timings[i]['start'] - 0.22)   # 固定前置缓冲，绝不在单词中间截断
-end   = timings[j]['end'] + 0.28               # 固定后置缓冲
+1. 起始时间：取第 i 个单词的实际开始时间，根据前一个单词的结束时间动态调整缓冲
+   - 若前一个单词结束到当前单词开始有较大停顿（>0.5秒），缓冲设为 0.1 秒
+   - 否则，缓冲设为 0.12秒 + 停顿时间（最大不超过 0.25秒）
+2. 结束时间：取第 j 个单词的实际结束时间，根据后一个单词的开始时间动态调整缓冲
+   - 若当前单词结束到下一个单词开始有较大停顿（>0.5秒），缓冲设为 0.1 秒
+   - 否则，缓冲设为 0.15秒 + 停顿时间（最大不超过 0.3秒）
+3. 严格避免在单词中间截断：起始时间不得早于单词开始时间，结束时间不得晚于单词结束时间
 
 ###必须优先在自然截断点切割：
 优先选择句子结束处（. ! ? 之后）或相邻单词间隙 ≥ 0.6 秒的自然停顿处。
@@ -181,6 +189,116 @@ end   = timings[j]['end'] + 0.28               # 固定后置缓冲
 - 没有音频的页面（如版权页）设置 start: null, end: null
 - text 字段必须使用 MP3 转录的小写文字，不是 PDF 原文
 - 返回纯 JSON，不要有其他说明文字"""
+
+    def _post_process_timestamps(self, book_data: dict, timings_data: dict) -> dict:
+        """对 LLM 生成的时间戳进行后处理优化，确保精确的音频截断。
+
+        Args:
+            book_data: LLM 生成的 book.json 数据
+            timings_data: word_timings.json 数据
+
+        Returns:
+            优化后的 book.json 数据
+        """
+        logger.info("Post-processing timestamps to optimize audio truncation...")
+
+        word_timings = timings_data.get("timings", [])
+        sentences = book_data.get("sentences", [])
+
+        # 优化每个页面的时间戳
+        optimized_sentences = []
+        for sentence in sentences:
+            if sentence["start"] is None or sentence["end"] is None:
+                optimized_sentences.append(sentence)
+                continue
+
+            # 找到页面文本对应的单词在 word_timings 中的边界
+            page_words = sentence["text"].lower().split()
+            if not page_words:
+                optimized_sentences.append(sentence)
+                continue
+
+            # 找到页面文本在 word_timings 中的起始和结束索引
+            start_index, end_index = self._find_word_indices(page_words, word_timings)
+
+            if start_index is not None and end_index is not None:
+                # 使用实际单词边界优化时间戳
+                exact_start = word_timings[start_index]["start"]
+                exact_end = word_timings[end_index]["end"]
+
+                # 计算动态缓冲值
+                start_buffer = self._calculate_dynamic_buffer(start_index, word_timings, is_start=True)
+                end_buffer = self._calculate_dynamic_buffer(end_index, word_timings, is_start=False)
+
+                optimized_start = max(0.0, exact_start - start_buffer)
+                optimized_end = exact_end + end_buffer
+
+                logger.debug(
+                    f"页面 {sentence['page']} 优化: "
+                    f"原始 [{sentence['start']:.3f}, {sentence['end']:.3f}] → "
+                    f"优化后 [{optimized_start:.3f}, {optimized_end:.3f}]"
+                )
+
+                sentence["start"] = optimized_start
+                sentence["end"] = optimized_end
+
+            optimized_sentences.append(sentence)
+
+        book_data["sentences"] = optimized_sentences
+        return book_data
+
+    def _find_word_indices(self, page_words: list, word_timings: list) -> tuple[Optional[int], Optional[int]]:
+        """在 word_timings 中找到页面单词序列的起始和结束索引。"""
+        page_words_lower = [word.lower().strip('.,!?;:"\'') for word in page_words]
+        word_timings_lower = [w["word"].lower().strip('.,!?;:"\'') for w in word_timings]
+
+        # 在 word_timings 中查找页面单词序列的匹配
+        for start_idx in range(len(word_timings_lower) - len(page_words_lower) + 1):
+            match = True
+            for i in range(len(page_words_lower)):
+                if word_timings_lower[start_idx + i] != page_words_lower[i]:
+                    match = False
+                    break
+            if match:
+                return start_idx, start_idx + len(page_words_lower) - 1
+
+        return None, None
+
+    def _calculate_dynamic_buffer(self, word_index: int, word_timings: list, is_start: bool = True) -> float:
+        """根据单词上下文计算动态缓冲值。"""
+        min_buffer = 0.1
+        max_buffer = 0.3
+        pause_threshold = 0.5
+
+        if is_start:
+            # 对于起始位置，根据前一个单词的结束时间计算缓冲
+            if word_index == 0:
+                return 0.05  # 第一个单词缓冲非常小，避免截断
+
+            prev_end = word_timings[word_index - 1]["end"]
+            curr_start = word_timings[word_index]["start"]
+            gap = curr_start - prev_end
+
+            # 若前一个单词结束到当前单词开始有较大停顿（>0.5秒），缓冲设为最小值
+            if gap > pause_threshold:
+                return min_buffer
+            else:
+                # 严格限制起始缓冲，防止过早截断
+                return min(0.15, min_buffer + gap)
+        else:
+            # 对于结束位置，根据后一个单词的开始时间计算缓冲
+            if word_index == len(word_timings) - 1:
+                return 0.15  # 最后一个单词缓冲较小
+
+            curr_end = word_timings[word_index]["end"]
+            next_start = word_timings[word_index + 1]["start"]
+            gap = next_start - curr_end
+
+            if gap > pause_threshold:
+                return min_buffer
+            else:
+                # 结束缓冲可以稍大一些，但也有上限
+                return min(0.25, min_buffer + gap)
 
     def _call_llm(self, prompt: str) -> Optional[dict]:
         """调用 LLM 分析并返回结果."""
