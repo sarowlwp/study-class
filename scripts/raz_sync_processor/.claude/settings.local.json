@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 batch_paddleocr_aa.py)",
+      "Read(//Users/sarowlwp/Document/go/study-class/**)",
+      "Bash(python -m scripts.raz_sync_processor -i data/raz/level-aa/at-the-lake --force)",
+      "Bash(python -m scripts.raz_sync_processor -i data/raz/level-aa/big --force)",
+      "Bash(python -m scripts.raz_sync_processor -i data/raz/level-aa/black --force)",
+      "Bash(python -m scripts.raz_sync_processor -i data/raz/level-aa/blue --force)",
+      "Bash(python -m scripts.raz_sync_processor -i data/raz/level-aa/christmas-eve --force)",
+      "Bash(/usr/local/bin/python3 -m scripts.raz_sync_processor -i data/raz/level-aa/at-the-lake --force)",
+      "Bash(/usr/local/bin/python3 -m scripts.raz_sync_processor -i data/raz/level-aa/big --force)",
+      "Bash(/usr/local/bin/python3 -m scripts.raz_sync_processor -i data/raz/level-aa/black --force)",
+      "Bash(/usr/local/bin/python3 -m scripts.raz_sync_processor -i data/raz/level-aa/blue --force)",
+      "Bash(/usr/local/bin/python3 -m scripts.raz_sync_processor -i data/raz/level-aa/christmas-eve --force)",
+      "Bash(/usr/local/bin/python3 -m pip install anthropic -q)",
+      "Bash(ls -la /Users/sarowlwp/Document/go/study-class/data/raz/level-aa/at-the-lake/*.json)",
+      "Bash(ls -la /Users/sarowlwp/Document/go/study-class/data/raz/level-aa/big/*.json)",
+      "Bash(/usr/local/bin/python3 -m scripts.raz_sync_processor -i data/raz/level-a/a-fish-sees --force)",
+      "Bash(/usr/local/bin/python3 -m scripts.raz_sync_processor -i data/raz/level-a/all-kinds-of-faces --force)",
+      "Bash(/usr/local/bin/python3 -m scripts.raz_sync_processor -i data/raz/level-a/athletes --force)",
+      "Bash(/usr/local/bin/python3 -m scripts.raz_sync_processor -i data/raz/level-a/baby-animals --force)",
+      "Bash(/usr/local/bin/python3 -m scripts.raz_sync_processor -i data/raz/level-a/bedtime-counting --force)",
+      "Bash(/usr/local/bin/python3 -m pip install 'numpy<2' -q)",
+      "Bash(/usr/local/bin/python3 -m scripts.raz_sync_processor -i data/raz/level-a/bird-colors --force)",
+      "Bash(/usr/local/bin/python3 -m scripts.raz_sync_processor -i data/raz/level-a/bird-goes-home --force)",
+      "Bash(ls -la /Users/sarowlwp/Document/go/study-class/data/raz/level-a/a-fish-sees/*.json)",
+      "Bash(ls -lt /Users/sarowlwp/Document/go/study-class/data/raz/level-aa/*/pdf_text_easyocr.json)",
+      "Bash(. ~/.venv/reading-party/bin/activate)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "chrome-devtools"
+  ]
+}
