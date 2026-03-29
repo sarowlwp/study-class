@@ -1,5 +1,7 @@
 import os
 import random
+import asyncio
+from io import BytesIO
 from dataclasses import dataclass, field
 from typing import List
 try:
@@ -7,16 +9,22 @@ try:
 except ImportError:
     from typing_extensions import Protocol, runtime_checkable  # type: ignore
 
+import logging
+
+logger = logging.getLogger(__name__)
+
 
 @dataclass
 class WordScore:
     word: str
     score: int  # 0-100
+    status: str = "good"  # "good" or "weak"
 
 
 @dataclass
 class SpeechAssessmentResult:
     score: int                                    # 0-100 整体评分
+    level: str = ""                               # "excellent"/"great"/"good"/"keep_trying"
     word_scores: List[WordScore] = field(default_factory=list)
     feedback: str = ""
 
@@ -25,6 +33,185 @@ class SpeechAssessmentResult:
 class SpeechAssessor(Protocol):
     async def assess(self, audio_bytes: bytes, text: str) -> SpeechAssessmentResult:
         ...
+
+
+def _extract_audio_duration(audio_bytes: bytes) -> float:
+    """Extract audio duration in seconds from audio bytes."""
+    try:
+        from pydub import AudioSegment
+        audio = AudioSegment.from_file(BytesIO(audio_bytes))
+        return len(audio) / 1000.0  # Convert ms to seconds
+    except Exception:
+        # If we can't determine duration, return a safe value
+        return 5.0
+
+
+class AzureSpeechAssessor:
+    """Microsoft Azure Speech Service 发音评估实现。
+
+    环境变量:
+      AZURE_SPEECH_KEY - 语音服务密钥
+      AZURE_SPEECH_REGION - 服务区域 (如 eastasia, westus2)
+
+    参考文档: https://learn.microsoft.com/azure/ai-services/speech-service/how-to-pronunciation-assessment
+    """
+
+    def __init__(self):
+        self._key = os.environ.get("AZURE_SPEECH_KEY")
+        self._region = os.environ.get("AZURE_SPEECH_REGION")
+        if not self._key:
+            raise ValueError("Azure Speech 评估器需要环境变量 AZURE_SPEECH_KEY")
+        if not self._region:
+            raise ValueError("Azure Speech 评估器需要环境变量 AZURE_SPEECH_REGION")
+        self._max_retries = 3
+        self._audio_duration_min = 1.0   # seconds
+        self._audio_duration_max = 60.0  # seconds
+
+    async def assess(self, audio_bytes: bytes, text: str) -> SpeechAssessmentResult:
+        """评估音频发音。
+
+        Args:
+            audio_bytes: 音频数据 (WebM/Opus 格式)
+            text: 参考文本
+
+        Returns:
+            SpeechAssessmentResult 包含评分和单词级反馈
+        """
+        # 记录传给 Azure Speech Service 的详细信息
+        logger.info(f"[Azure Speech] text_length={len(text)}, text={text!r}")
+
+        # Validate audio duration
+        duration = _extract_audio_duration(audio_bytes)
+        if duration < self._audio_duration_min:
+            raise ValueError(f"录音过短 ({duration:.1f}s)，请重新录制")
+        if duration > self._audio_duration_max:
+            raise ValueError(f"录音过长 ({duration:.1f}s)，请分段录制")
+
+        # Try direct submission first
+        try:
+            return await self._assess_with_azure(audio_bytes, text)
+        except ValueError as e:
+            if "format" in str(e).lower() or "codec" in str(e).lower():
+                # Try converting to WAV
+                try:
+                    wav_bytes = self._convert_to_wav(audio_bytes)
+                    return await self._assess_with_azure(wav_bytes, text)
+                except Exception as convert_error:
+                    raise ValueError(f"音频格式不支持: {convert_error}")
+            raise
+
+    def _convert_to_wav(self, audio_bytes: bytes) -> bytes:
+        """Convert audio to 16kHz WAV format."""
+        from pydub import AudioSegment
+        audio = AudioSegment.from_file(BytesIO(audio_bytes))
+        # Convert to 16kHz, 16bit, mono
+        audio = audio.set_frame_rate(16000).set_sample_width(2).set_channels(1)
+        output = BytesIO()
+        audio.export(output, format="wav")
+        return output.getvalue()
+
+    async def _assess_with_azure(self, audio_bytes: bytes, text: str) -> SpeechAssessmentResult:
+        """Call Azure Speech Service with retry logic."""
+        import azure.cognitiveservices.speech as speechsdk
+
+        last_error = None
+        for attempt in range(self._max_retries):
+            try:
+                return await self._call_azure_api(audio_bytes, text)
+            except Exception as e:
+                last_error = e
+                # Check if it's a cancellation error
+                if "Canceled" in str(e) or "cancellation" in str(e).lower():
+                    if attempt < self._max_retries - 1:
+                        wait_time = 2 ** attempt
+                        await asyncio.sleep(wait_time)
+                        continue
+                # Don't retry on other errors (4xx, etc.)
+                raise RuntimeError(f"Azure Speech API error: {e}")
+
+        raise RuntimeError(f"Azure Speech 服务暂时不可用，请稍后重试: {last_error}")
+
+    async def _call_azure_api(self, audio_bytes: bytes, text: str) -> SpeechAssessmentResult:
+        """Make single call to Azure Speech API."""
+        import azure.cognitiveservices.speech as speechsdk
+
+        # Create speech config
+        speech_config = speechsdk.SpeechConfig(subscription=self._key, region=self._region)
+
+        # Create pronunciation assessment config
+        pronunciation_config = speechsdk.PronunciationAssessmentConfig(
+            reference_text=text,
+            grading_system=speechsdk.PronunciationAssessmentGradingSystem.HundredMark,
+            granularity=speechsdk.PronunciationAssessmentGranularity.Word,
+            enable_miscue=True
+        )
+
+        # Create audio input from bytes
+        push_stream = speechsdk.audio.PushAudioInputStream()
+        audio_input = speechsdk.audio.AudioConfig(stream=push_stream)
+        push_stream.write(audio_bytes)
+        push_stream.close()
+
+        # Create speech recognizer
+        speech_recognizer = speechsdk.SpeechRecognizer(
+            speech_config=speech_config,
+            audio_config=audio_input,
+            language="en-US"
+        )
+        pronunciation_config.apply_to(speech_recognizer)
+
+        # Recognize speech
+        result = speech_recognizer.recognize_once()
+
+        if result.reason == speechsdk.ResultReason.Canceled:
+            cancellation_details = result.cancellation_details
+            error_msg = f"Speech recognition canceled: {cancellation_details.reason}"
+            # Add error details if available
+            if cancellation_details.error_details:
+                error_msg += f" | Details: {cancellation_details.error_details}"
+            raise RuntimeError(error_msg)
+
+        if result.reason != speechsdk.ResultReason.RecognizedSpeech:
+            raise RuntimeError(f"Speech recognition failed: {result.reason}")
+
+        # Parse pronunciation assessment result
+        pronunciation_result = speechsdk.PronunciationAssessmentResult(result)
+
+        # Map scores to our format
+        overall_score = round(pronunciation_result.pronunciation_score)
+        level, feedback = self._map_score_to_level(overall_score)
+
+        # Map word scores
+        word_scores = []
+        for word in pronunciation_result.words:
+            word_score = round(word.accuracy_score)
+            word_scores.append(WordScore(
+                word=word.word,
+                score=word_score,
+                status=self._map_word_score(word_score)
+            ))
+
+        return SpeechAssessmentResult(
+            score=overall_score,
+            level=level,
+            feedback=feedback,
+            word_scores=word_scores
+        )
+
+    def _map_score_to_level(self, score: int) -> tuple[str, str]:
+        """Map score to four-tier level and feedback."""
+        if score >= 90:
+            return ("excellent", "非常棒 🌟🌟")
+        elif score >= 75:
+            return ("great", "很好 🌟")
+        elif score >= 60:
+            return ("good", "不错 👍")
+        else:
+            return ("keep_trying", "继续加油 💪")
+
+    def _map_word_score(self, score: int) -> str:
+        """Map word score to status."""
+        return "good" if score >= 70 else "weak"
 
 
 class MockSpeechAssessor:
@@ -74,9 +261,33 @@ class AliyunSpeechAssessor:
         )
 
 
+class UnconfiguredSpeechAssessor:
+    """未配置语音评测服务时返回提示信息"""
+
+    async def assess(self, audio_bytes: bytes, text: str) -> SpeechAssessmentResult:
+        raise RuntimeError(
+            "语音评测服务未配置。"
+            "请设置环境变量: AZURE_SPEECH_KEY 和 AZURE_SPEECH_REGION，"
+            "然后重启服务。"
+        )
+
+
 def get_assessor() -> SpeechAssessor:
-    """根据环境变量 SPEECH_ASSESSOR 返回对应实现。"""
-    provider = os.environ.get("SPEECH_ASSESSOR", "mock").lower()
-    if provider == "aliyun":
-        return AliyunSpeechAssessor()
-    return MockSpeechAssessor()
+    """根据环境变量返回对应实现。
+
+    优先检查 Azure 配置，如果未配置则返回提示错误，而不是 mock。
+    """
+    # 检查 Azure 配置
+    azure_key = os.environ.get("AZURE_SPEECH_KEY")
+    azure_region = os.environ.get("AZURE_SPEECH_REGION")
+
+    if azure_key and azure_region:
+        return AzureSpeechAssessor()
+
+    # 检查是否明确请求 mock（仅用于测试）
+    provider = os.environ.get("SPEECH_ASSESSOR", "").lower()
+    if provider == "mock":
+        return MockSpeechAssessor()
+
+    # 默认：未配置返回错误提示
+    return UnconfiguredSpeechAssessor()

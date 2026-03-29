@@ -1,3 +1,19 @@
+# raz.json
+!data/
+!data/raz/
+!data/raz/*/
+!data/raz/*/*/
+!**/book.json
+data/raz/**/*.mp3
+data/raz/**/*.pdf
+data/raz/**/*.mp4
+data/raz/**/p*.json
+data/raz/**/w*.json
+data/raz/**/*.html
+
+scripts/*.py
+scripts/*.sh
+
 # Python
 __pycache__/
 *.py[cod]
@@ -40,3 +56,11 @@ ENV/
 *.pdf
 *.zip
 *.tar.gz
+
+# SSH Keys (never commit these)
+github
+github.pub
+*.pem
+*.key
+.ssh/
+.gstack/

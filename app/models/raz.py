@@ -1,7 +1,16 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from datetime import datetime
 from typing import Optional, List
 import re
+
+
+@dataclass
+class RazSentence:
+    start: float      # 秒
+    end: float        # 秒
+    text: str
+    page: int
+    confidence: Optional[float] = None
 
 
 @dataclass
@@ -18,9 +27,14 @@ class RazBook:
     id: str           # 全局唯一，格式：level-{x}/{dir_name}，如 level-a/the-big-red-barn
     title: str
     level: str
-    pages: List[RazPage]
+    pdf: Optional[str] = None
+    audio: Optional[str] = None
     video: Optional[str] = None
-    cover: Optional[str] = None  # 新增: 封面文件名
+    cover: Optional[str] = None
+    total_pages: int = 0
+    sentences: List[RazSentence] = field(default_factory=list)
+    # 旧格式兼容
+    pages: List[RazPage] = field(default_factory=list)
 
     @property
     def directory_name(self) -> str:

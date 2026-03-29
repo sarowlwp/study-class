@@ -1,4 +1,5 @@
 import json
+import os
 import re as _re
 from datetime import date, datetime
 from typing import Optional
@@ -14,6 +15,9 @@ from app.services.raz_service import RazService
 from app.services.raz_practice_service import RazPracticeService
 from app.services.speech_assessment import get_assessor
 
+import logging
+
+logger = logging.getLogger(__name__)
 router = APIRouter()
 templates = Jinja2Templates(directory=BASE_DIR / "app" / "templates")
 
@@ -94,6 +98,26 @@ async def raz_practice(request: Request, level: str, book_dir: str):
     })
 
 
+@router.get("/raz/reader/{level}/{book_dir}")
+async def raz_reader(request: Request, level: str, book_dir: str):
+    """RAZ 阅读器页面（pdf.js + TTS + 评测）"""
+    book_id = f"level-{level}/{book_dir}"
+    book = raz_service.get_book(book_id)
+    if not book:
+        raise HTTPException(status_code=404, detail="Book not found")
+
+    # 检查是否使用静态资源服务器
+    static_server = os.environ.get("StaticServer", "").rstrip("/")
+
+    return templates.TemplateResponse("raz/reader.html", {
+        "request": request,
+        "page_title": book.title,
+        "book": book,
+        "book_dir": book_dir,
+        "static_server": static_server,
+    })
+
+
 @router.get("/raz/progress")
 async def raz_progress(request: Request):
     config = raz_service.get_config()
@@ -104,6 +128,18 @@ async def raz_progress(request: Request):
         "config": config,
         "today_records": records,
         "today_count": len(records),
+    })
+
+
+@router.get("/raz/speech-test")
+async def raz_speech_test(request: Request):
+    """Azure Speech 发音评估测试页面。"""
+    assessor_type = os.environ.get("SPEECH_ASSESSOR", "mock")
+    return templates.TemplateResponse("raz/speech_test.html", {
+        "request": request,
+        "page_title": "Azure Speech 测试",
+        "assessor_type": assessor_type,
+        "assessor_class": type(assessor).__name__,
     })
 
 
@@ -141,6 +177,28 @@ async def api_get_book(level: str, book_dir: str):
     }
 
 
+@router.get("/api/raz/book-detail/{level}/{book_dir}")
+async def api_get_book_detail(level: str, book_dir: str):
+    """获取书籍详情（含时间轴，供阅读器使用）"""
+    book_id = f"level-{level}/{book_dir}"
+    book = raz_service.get_book(book_id)
+    if not book:
+        raise HTTPException(status_code=404, detail="Book not found")
+
+    return {
+        "id": book.id,
+        "title": book.title,
+        "level": book.level,
+        "pdf": f"/raz/level-{level}/{book_dir}/{book.pdf}" if book.pdf else None,
+        "audio": f"/raz/level-{level}/{book_dir}/{book.audio}" if book.audio else None,
+        "total_pages": book.total_pages,
+        "sentences": [
+            {"start": s.start, "end": s.end, "text": s.text, "page": s.page}
+            for s in book.sentences
+        ],
+    }
+
+
 @router.post("/api/raz/assess")
 async def api_assess(
     audio: UploadFile = File(...),
@@ -151,10 +209,17 @@ async def api_assess(
     page: int = Form(...),
 ):
     audio_bytes = await audio.read()
+
     if len(audio_bytes) < 1000:
         raise HTTPException(status_code=400, detail="录音过短，请重新录制")
 
+    # 记录传入给 speech service 的信息
+    logger.info(f"[Speech Assessment] book_id={book_id}, page={page}, text_length={len(text)}, text={text!r}")
+
     result = await assessor.assess(audio_bytes, text)
+
+    # 记录评测结果
+    logger.info(f"[Speech Assessment Result] score={result.score}, level={result.level}, text={text!r}")
 
     record = RazPracticeRecord(
         book_id=book_id,
@@ -169,8 +234,9 @@ async def api_assess(
 
     return {
         "score": result.score,
+        "level": result.level,
         "feedback": result.feedback,
-        "word_scores": [{"word": w.word, "score": w.score} for w in result.word_scores],
+        "word_scores": [{"word": w.word, "score": w.score, "status": w.status} for w in result.word_scores],
     }
 
 
@@ -247,13 +313,24 @@ def _get_content_type(filename: str) -> str:
 
 
 @router.get("/raz/media/{level}/{book_dir}/{filename}")
+async def raz_media_old(
+    level: str,
+    book_dir: str,
+    filename: str,
+    range: Optional[str] = Header(None),
+):
+    """旧路由：安全地提供书库媒体文件，支持 HTTP Range 请求（视频拖动播放）。"""
+    return await raz_media(level, book_dir, filename, range)
+
+
+@router.get("/raz/level-{level}/{book_dir}/{filename}")
 async def raz_media(
     level: str,
     book_dir: str,
     filename: str,
     range: Optional[str] = Header(None),
 ):
-    """安全地提供书库媒体文件，支持 HTTP Range 请求（视频拖动播放）。"""
+    """安全地提供书库媒体文件。路径参数严格校验，防止路径穿越。"""
     if not all(_SAFE_PATH_PATTERN.match(p) for p in [level, book_dir, filename]):
         raise HTTPException(status_code=400, detail="Invalid path")
 

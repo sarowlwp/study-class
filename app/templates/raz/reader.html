@@ -1,0 +1,447 @@
+{% extends "base.html" %}
+
+{% block title %}{{ book.title }} - RAZ Reader{% endblock %}
+
+{% block content %}
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .reader-body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        background: #1a1a1a;
+        touch-action: pan-y;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .reader-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: linear-gradient(to bottom, rgba(0,0,0,0.8), transparent);
+        padding: 15px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 100;
+    }
+
+    .reader-back-btn {
+        font-size: 16px;
+        color: #fff;
+        text-decoration: none;
+        padding: 8px 12px;
+        background: rgba(255,255,255,0.2);
+        border-radius: 20px;
+    }
+
+    .reader-book-title {
+        font-size: 18px;
+        font-weight: 600;
+        color: #fff;
+    }
+
+    .reader-page-indicator {
+        font-size: 14px;
+        color: #fff;
+        background: rgba(255,255,255,0.2);
+        padding: 6px 12px;
+        border-radius: 15px;
+    }
+
+    .pdf-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #1a1a1a;
+        padding: 60px 0;
+        touch-action: pan-y;
+    }
+
+    #pdf-canvas {
+        max-height: 100%;
+        max-width: 100%;
+        height: auto;
+        width: auto;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+        touch-action: pan-y;
+    }
+
+    .nav-btn {
+        position: fixed;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 50px;
+        height: 80px;
+        background: rgba(255,255,255,0.15);
+        border: none;
+        color: #fff;
+        font-size: 24px;
+        cursor: pointer;
+        z-index: 50;
+    }
+
+    .nav-btn.prev { left: 0; border-radius: 0 10px 10px 0; }
+    .nav-btn.next { right: 0; border-radius: 10px 0 0 10px; }
+    .nav-btn:active { background: rgba(255,255,255,0.25); }
+
+    .float-toolbar {
+        position: fixed;
+        bottom: 180px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        z-index: 200;
+        cursor: grab;
+        user-select: none;
+        touch-action: none;
+    }
+
+    .float-toolbar.dragging {
+        cursor: grabbing;
+        opacity: 0.9;
+    }
+
+    .drag-handle {
+        width: 36px;
+        height: 5px;
+        background: rgba(255,255,255,0.4);
+        border-radius: 3px;
+        cursor: grab;
+    }
+
+    .float-toolbar.dragging .drag-handle {
+        background: rgba(255,255,255,0.6);
+    }
+
+    .sentence-float {
+        background: rgba(0,0,0,0.75);
+        backdrop-filter: blur(10px);
+        padding: 8px 16px;
+        border-radius: 16px;
+        max-width: 75vw;
+        pointer-events: none;
+    }
+
+    .sentence-text {
+        font-size: 13px;
+        color: #fff;
+        text-align: center;
+        line-height: 1.4;
+    }
+
+    .toolbar {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        background: rgba(0,0,0,0.85);
+        backdrop-filter: blur(10px);
+        padding: 10px 20px;
+        border-radius: 35px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+    }
+
+    .tool-btn {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        transition: transform 0.1s;
+    }
+
+    .tool-btn:active {
+        transform: scale(0.95);
+    }
+
+    .play-btn {
+        background: #4caf50;
+        color: #fff;
+    }
+
+    .play-btn.playing {
+        background: #ff9800;
+    }
+
+    @keyframes rotate {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+    }
+
+    .playing-ring {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border: 3px solid rgba(255,255,255,0.3);
+        border-top-color: #fff;
+        border-radius: 50%;
+        animation: rotate 1s linear infinite;
+        display: none;
+    }
+
+    .tool-btn.playing .playing-ring {
+        display: block;
+    }
+
+    .tool-btn.playing .btn-icon {
+        display: block;
+        position: relative;
+        z-index: 2;
+    }
+
+    .record-btn {
+        background: #f44336;
+        color: #fff;
+    }
+
+    .record-btn.recording {
+        background: #ff9800;
+    }
+
+    @keyframes pulse-ring {
+        0% { transform: scale(1); opacity: 1; }
+        100% { transform: scale(1.6); opacity: 0; }
+    }
+
+    .recording-ring {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border: 3px solid #f44336;
+        border-radius: 50%;
+        animation: pulse-ring 1.5s ease-out infinite;
+        display: none;
+    }
+
+    .record-btn.recording .recording-ring {
+        display: block;
+    }
+
+    .divider {
+        width: 1px;
+        height: 30px;
+        background: rgba(255,255,255,0.3);
+    }
+
+    .record-time {
+        position: absolute;
+        top: -28px;
+        font-size: 11px;
+        color: #ff9800;
+        background: rgba(0,0,0,0.8);
+        padding: 3px 8px;
+        border-radius: 10px;
+        display: none;
+    }
+
+    .record-btn.recording .record-time {
+        display: block;
+    }
+
+    .toast {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0.8);
+        background: rgba(0,0,0,0.9);
+        padding: 20px 35px;
+        border-radius: 14px;
+        text-align: center;
+        z-index: 300;
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.3s ease;
+        max-width: 80vw;
+        cursor: pointer; /* 添加指针样式，提示用户可以点击 */
+    }
+
+    .toast.show {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    .toast-score {
+        font-size: 42px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .toast-score.excellent { color: #4caf50; }
+    .toast-score.good { color: #ff9800; }
+    .toast-score.keep-trying { color: #f44336; }
+
+    .toast-stars {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .toast-sentence {
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 5px;
+        line-height: 1.4;
+    }
+
+    .toast-text {
+        font-size: 13px;
+        color: rgba(255,255,255,0.7);
+    }
+
+    .toast-word-scores {
+        margin-top: 10px;
+        padding-top: 10px;
+        border-top: 1px solid rgba(255,255,255,0.2);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 6px;
+        max-width: 70vw;
+    }
+
+    .word-score {
+        display: inline-flex;
+        align-items: center;
+        padding: 3px 8px;
+        border-radius: 12px;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .word-score.good {
+        background: rgba(76, 175, 80, 0.3);
+        color: #81c784;
+    }
+
+    .word-score.weak {
+        background: rgba(244, 67, 54, 0.3);
+        color: #e57373;
+    }
+
+    .word-score span {
+        margin-left: 3px;
+        font-weight: bold;
+    }
+
+    .loading {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 16px;
+        z-index: 100;
+    }
+
+    .hint-text {
+        position: fixed;
+        bottom: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 11px;
+        color: rgba(255,255,255,0.4);
+        z-index: 100;
+    }
+</style>
+
+<div class="reader-body">
+    <header class="reader-header">
+        <a href="/raz" class="reader-back-btn">← 返回</a>
+        <h1 class="reader-book-title">{{ book.title }}</h1>
+        <span class="reader-page-indicator" id="pageIndicator">1 / {{ book.total_pages or 1 }}</span>
+    </header>
+
+    <div class="pdf-container" id="pdfContainer">
+        <canvas id="pdf-canvas"></canvas>
+    </div>
+
+    <div class="loading" id="loading">加载中...</div>
+
+    <button class="nav-btn prev" id="prevBtn">◀</button>
+    <button class="nav-btn next" id="nextBtn">▶</button>
+
+    <div class="float-toolbar" id="floatToolbar">
+        <div class="drag-handle"></div>
+        <div class="sentence-float">
+            <p class="sentence-text" id="sentenceText">加载中...</p>
+        </div>
+        <div class="toolbar">
+            <button class="tool-btn play-btn" id="playBtn">
+                <span class="playing-ring"></span>
+                <span class="btn-icon">▶</span>
+            </button>
+            <div class="divider"></div>
+            <button class="tool-btn record-btn" id="recordBtn">
+                <span class="recording-ring"></span>
+                <span class="btn-icon">🎤</span>
+                <span class="record-time" id="recordTime">00:00</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="hint-text">拖拽工具栏可移动位置 · 左右滑动可翻页</div>
+
+    <div class="toast" id="toast">
+        <div class="toast-score" id="toastScore">85</div>
+        <div class="toast-stars">⭐⭐⭐</div>
+        <div class="toast-sentence" id="toastSentence"></div>
+        <div class="toast-text">非常棒！</div>
+        <div class="toast-word-scores" id="toastWordScores"></div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+<script>
+    // 静态资源服务器地址（如果配置了 StaticServer 环境变量）
+    const staticServer = {% if static_server %}"{{ static_server }}"{% else %}null{% endif %};
+
+    // 构建资源 URL 的辅助函数
+    function buildResourceUrl(path) {
+        if (staticServer) {
+            return staticServer + path;
+        }
+        return path;
+    }
+
+    // 书籍数据
+    const bookData = {
+        id: "{{ book.id }}",
+        title: "{{ book.title }}",
+        level: "{{ book.level }}",
+        pdf: buildResourceUrl("/raz/level-{{ book.level }}/{{ book_dir }}/{{ book.pdf or 'book.pdf' }}"),
+        audio: {% if book.audio %}buildResourceUrl("/raz/level-{{ book.level }}/{{ book_dir }}/{{ book.audio }}"){% else %}null{% endif %},
+        totalPages: {{ book.total_pages or 1 }},
+        sentences: {{ book.sentences | map(attribute='text') | list | tojson }}
+    };
+
+    // 时间轴数据（从 sentences 提取）
+    const timelineData = [
+        {% for s in book.sentences %}
+        { start: {% if s.start is none %}null{% else %}{{ s.start }}{% endif %}, end: {% if s.end is none %}null{% else %}{{ s.end }}{% endif %}, text: {{ s.text | tojson }}, page: {{ s.page }} }{% if not loop.last %},{% endif %}
+        {% endfor %}
+    ];
+</script>
+<script src="/static/js/raz-reader.js"></script>
+{% endblock %}

@@ -4,7 +4,7 @@ from datetime import date, datetime
 from pathlib import Path
 from typing import List, Optional
 
-from app.models.raz import RazBook, RazConfig, RazPage, RazPracticeRecord
+from app.models.raz import RazBook, RazConfig, RazPage, RazPracticeRecord, RazSentence
 
 
 class RazService:
@@ -41,7 +41,53 @@ class RazService:
         try:
             data = json.loads(json_file.read_text(encoding="utf-8"))
 
-            # 每条 sentence 作为一页（整本书只有一个 PDF/音频）
+            # 检查新格式（sentences 数组）
+            if "sentences" in data:
+                sentences = [
+                    RazSentence(
+                        start=s["start"],
+                        end=s["end"],
+                        text=s["text"],
+                        page=s["page"],
+                        confidence=s.get("confidence"),
+                    )
+                    for s in data.get("sentences", [])
+                ]
+                # 计算总页数
+                total_pages = max((s.page for s in sentences), default=1)
+
+                book = RazBook(
+                    id=data["id"],
+                    title=data["title"],
+                    level=data["level"],
+                    pdf=data.get("pdf"),
+                    audio=data.get("audio"),
+                    video=data.get("video"),
+                    cover=data.get("cover"),
+                    total_pages=total_pages,
+                    sentences=sentences,
+                )
+                # 兼容旧格式（pages 数组）
+                # 每条 sentence 作为一页（整本书只有一个 PDF/音频）
+                book.pages = [
+                    RazPage(
+                        page=i + 1,  # 页码从 1 开始
+                        pdf=data.get("pdf", ""),
+                        audio=data.get("audio", ""),
+                        sentences=[sent.text],
+                        sentence_data={
+                            "text": sent.text,
+                            "start": sent.start,
+                            "end": sent.end,
+                        }
+                    )
+                    for i, sent in enumerate(sentences)
+                ]
+                if not book.validate_cover():
+                    book.cover = None
+                return book
+
+            # 旧格式兼容（pages 数组）
             sentences = data.get("sentences", [])
             pages = [
                 RazPage(
