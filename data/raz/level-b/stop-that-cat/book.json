@@ -1,0 +1,83 @@
+{
+  "id": "level-b/stop-that-cat",
+  "title": "Stop That Cat",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 16.46,
+      "text": "stop that cat written by e d evans illustrated by martin fagan focus question where does cat zoom",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 16.42,
+      "end": 20.98,
+      "text": "cat zoom's past the door",
+      "page": 4
+    },
+    {
+      "start": 20.92,
+      "end": 25.4,
+      "text": "cat zoom's past the car",
+      "page": 5
+    },
+    {
+      "start": 25.44,
+      "end": 29.56,
+      "text": "cat zooms past the yard",
+      "page": 6
+    },
+    {
+      "start": 29.86,
+      "end": 33.5,
+      "text": "cat zooms past the fence",
+      "page": 7
+    },
+    {
+      "start": 33.54,
+      "end": 37.52,
+      "text": "cat zooms past the tree",
+      "page": 8
+    },
+    {
+      "start": 37.42,
+      "end": 41.64,
+      "text": "cat zooms past the dog",
+      "page": 9
+    },
+    {
+      "start": 41.54,
+      "end": 45.7,
+      "text": "cat zooms past the boy",
+      "page": 10
+    },
+    {
+      "start": 45.66,
+      "end": 49.58,
+      "text": "cat needs a long nap",
+      "page": 11
+    },
+    {
+      "start": 49.7,
+      "end": 83.56,
+      "text": "connections writing and art why does cat need a long nap draw a picture and write a sentence use details from the book to support your answer math count how many times cat zooms in the book share your answer with a friend",
+      "page": 12
+    }
+  ]
+}

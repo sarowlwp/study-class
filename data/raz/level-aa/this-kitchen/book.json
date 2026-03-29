@@ -1,0 +1,83 @@
+{
+  "id": "level-aa/this-kitchen",
+  "title": "This Kitchen",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 11.4,
+      "text": "this kitchen written by rachel rice focus question what can you find in a kitchen",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 11.64,
+      "end": 13.1,
+      "text": "this stove",
+      "page": 4
+    },
+    {
+      "start": 13.26,
+      "end": 14.6,
+      "text": "this sink",
+      "page": 5
+    },
+    {
+      "start": 14.86,
+      "end": 16.7,
+      "text": "this fridge",
+      "page": 6
+    },
+    {
+      "start": 16.76,
+      "end": 18.3,
+      "text": "this cupboard",
+      "page": 7
+    },
+    {
+      "start": 18.42,
+      "end": 19.98,
+      "text": "this counter",
+      "page": 8
+    },
+    {
+      "start": 20.22,
+      "end": 21.56,
+      "text": "this toaster",
+      "page": 9
+    },
+    {
+      "start": 21.84,
+      "end": 24.1,
+      "text": "this cookie jar",
+      "page": 10
+    },
+    {
+      "start": 24.14,
+      "end": 26.24,
+      "text": "this trash can",
+      "page": 11
+    },
+    {
+      "start": 29.42,
+      "end": 38.58,
+      "text": "write the names of the things in your kitchen art make a map of your kitchen",
+      "page": 12
+    }
+  ]
+}

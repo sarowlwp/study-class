@@ -1,0 +1,77 @@
+{
+  "id": "level-a/hot-and-cold",
+  "title": "Hot And Cold",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 4.62,
+      "text": "hot and cold written by a net curothers",
+      "page": 2
+    },
+    {
+      "start": 4.76,
+      "end": 7.38,
+      "text": "things can be hot or cold",
+      "page": 3
+    },
+    {
+      "start": 7.16,
+      "end": 9.04,
+      "text": "a place can be hot",
+      "page": 4
+    },
+    {
+      "start": 8.88,
+      "end": 10.9,
+      "text": "a place can be cold",
+      "page": 5
+    },
+    {
+      "start": 11.02,
+      "end": 12.76,
+      "text": "food can be hot",
+      "page": 6
+    },
+    {
+      "start": 12.88,
+      "end": 14.72,
+      "text": "food can be cold",
+      "page": 7
+    },
+    {
+      "start": 14.62,
+      "end": 16.26,
+      "text": "people can be hot",
+      "page": 8
+    },
+    {
+      "start": 16.08,
+      "end": 17.8,
+      "text": "people can be cold",
+      "page": 9
+    },
+    {
+      "start": 17.78,
+      "end": 20.38,
+      "text": "things can be hot or cold",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

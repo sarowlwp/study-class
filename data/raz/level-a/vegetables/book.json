@@ -1,0 +1,83 @@
+{
+  "id": "level-a/vegetables",
+  "title": "Vegetables",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 4.08,
+      "text": "vegetables written by cheryl ryan",
+      "page": 2
+    },
+    {
+      "start": 7.42,
+      "end": 13.92,
+      "text": "focus question what are some vegetables",
+      "page": 3
+    },
+    {
+      "start": 15.14,
+      "end": 19.54,
+      "text": "this is a potato so",
+      "page": 4
+    },
+    {
+      "start": 19.32,
+      "end": 23.8,
+      "text": "this is broccoli",
+      "page": 5
+    },
+    {
+      "start": 24.46,
+      "end": 28.44,
+      "text": "this is lettuce",
+      "page": 6
+    },
+    {
+      "start": 28.48,
+      "end": 31.64,
+      "text": "this is corn",
+      "page": 7
+    },
+    {
+      "start": 31.56,
+      "end": 37.94,
+      "text": "this is a chili pepper",
+      "page": 8
+    },
+    {
+      "start": 37.96,
+      "end": 41.76,
+      "text": "this is cabbage",
+      "page": 9
+    },
+    {
+      "start": 41.72,
+      "end": 45.44,
+      "text": "these are carrots",
+      "page": 10
+    },
+    {
+      "start": 45.5,
+      "end": 49.72,
+      "text": "these are vegetables",
+      "page": 11
+    },
+    {
+      "start": 49.7,
+      "end": 86.44,
+      "text": "connections writing what is your favorite vegetable draw a picture and write about it science pick two vegetables from the book how are they the same how are they different share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

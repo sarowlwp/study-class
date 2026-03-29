@@ -1,0 +1,77 @@
+{
+  "id": "level-a/my-room",
+  "title": "My Room",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 7.8,
+      "text": "my room written by cheryl ryan illustrated by darcy tom",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 7.9,
+      "end": 9.76,
+      "text": "here is my room",
+      "page": 3
+    },
+    {
+      "start": 9.88,
+      "end": 11.94,
+      "text": "here is my bed",
+      "page": 4
+    },
+    {
+      "start": 12.3,
+      "end": 14.24,
+      "text": "here is my desk",
+      "page": 5
+    },
+    {
+      "start": 14.16,
+      "end": 16.18,
+      "text": "here is my fish",
+      "page": 6
+    },
+    {
+      "start": 16.32,
+      "end": 18.26,
+      "text": "here are my books",
+      "page": 7
+    },
+    {
+      "start": 18.42,
+      "end": 20.08,
+      "text": "here are my toys",
+      "page": 8
+    },
+    {
+      "start": 20.28,
+      "end": 22.24,
+      "text": "here are my shoes",
+      "page": 9
+    },
+    {
+      "start": 21.74,
+      "end": 24.22,
+      "text": "here are my clothes",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

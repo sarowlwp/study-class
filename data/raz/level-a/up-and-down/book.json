@@ -1,0 +1,77 @@
+{
+  "id": "level-a/up-and-down",
+  "title": "Up And Down",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": -0.22,
+      "end": 6.2,
+      "text": "up and down written by ali sullivan illustrated by patrick gerard",
+      "page": 2
+    },
+    {
+      "start": 6.32,
+      "end": 7.78,
+      "text": "eyes go up",
+      "page": 3
+    },
+    {
+      "start": 7.76,
+      "end": 9.52,
+      "text": "eyes go down",
+      "page": 4
+    },
+    {
+      "start": 9.54,
+      "end": 11.18,
+      "text": "hands go up",
+      "page": 5
+    },
+    {
+      "start": 11.06,
+      "end": 12.62,
+      "text": "hands go down",
+      "page": 6
+    },
+    {
+      "start": 12.44,
+      "end": 14.14,
+      "text": "dog goes up",
+      "page": 7
+    },
+    {
+      "start": 13.9,
+      "end": 15.58,
+      "text": "dog goes down",
+      "page": 8
+    },
+    {
+      "start": 15.5,
+      "end": 17.36,
+      "text": "frog goes up",
+      "page": 9
+    },
+    {
+      "start": 17.12,
+      "end": 18.86,
+      "text": "frog goes down",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

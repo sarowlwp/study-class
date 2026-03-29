@@ -1,0 +1,83 @@
+{
+  "id": "level-b/valentines-all-around",
+  "title": "Valentines All Around",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 14.34,
+      "end": 28.2,
+      "text": "focus question what can you learn about each character by looking at his or her valentine",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 29.04,
+      "end": 32.8,
+      "text": "this one is for mom",
+      "page": 4
+    },
+    {
+      "start": 33.88,
+      "end": 37.54,
+      "text": "this one is for dad",
+      "page": 5
+    },
+    {
+      "start": 38.28,
+      "end": 41.88,
+      "text": "this one is for noah",
+      "page": 6
+    },
+    {
+      "start": 42.74,
+      "end": 46.04,
+      "text": "this one is for granny",
+      "page": 7
+    },
+    {
+      "start": 46.04,
+      "end": 50.28,
+      "text": "this one is for papy",
+      "page": 8
+    },
+    {
+      "start": 50.86,
+      "end": 54.26,
+      "text": "this one is for spot",
+      "page": 9
+    },
+    {
+      "start": 55.34,
+      "end": 59.3,
+      "text": "this one is for mittens",
+      "page": 10
+    },
+    {
+      "start": 60.02,
+      "end": 63.74,
+      "text": "this one is for you",
+      "page": 11
+    },
+    {
+      "start": 63.74,
+      "end": 95.2,
+      "text": "connections writing and art make a special valentine for a family member or friend draw pictures on your valentine and write about why you love that person social studies how do people celebrate valentine's day share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

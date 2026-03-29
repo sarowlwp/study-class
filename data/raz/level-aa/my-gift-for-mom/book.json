@@ -1,0 +1,65 @@
+{
+  "id": "level-aa/my-gift-for-mom",
+  "title": "My Gift For Mom",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 9,
+  "sentences": [
+    {
+      "start": 2.44,
+      "end": 8.96,
+      "text": "written by bev osborn illustrated by liza woodruff",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 12.78,
+      "end": 15.38,
+      "text": "the bowl",
+      "page": 3
+    },
+    {
+      "start": 16.64,
+      "end": 18.92,
+      "text": "the box",
+      "page": 4
+    },
+    {
+      "start": 19.78,
+      "end": 22.54,
+      "text": "the paper",
+      "page": 5
+    },
+    {
+      "start": 23.78,
+      "end": 26.34,
+      "text": "the bowl",
+      "page": 6
+    },
+    {
+      "start": 27.22,
+      "end": 29.44,
+      "text": "the gift",
+      "page": 7
+    },
+    {
+      "start": 29.36,
+      "end": 33.04,
+      "text": "the smile",
+      "page": 8
+    },
+    {
+      "start": 35.2,
+      "end": 36.26,
+      "text": "the hug",
+      "page": 9
+    }
+  ]
+}

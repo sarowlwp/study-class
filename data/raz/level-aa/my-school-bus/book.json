@@ -1,0 +1,65 @@
+{
+  "id": "level-aa/my-school-bus",
+  "title": "My School Bus",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 9,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 9.42,
+      "text": "my school bus written by bev osborn illustrated by laura freeman",
+      "page": 1
+    },
+    {
+      "start": 11.18,
+      "end": 12.46,
+      "text": "the walk",
+      "page": 2
+    },
+    {
+      "start": 14.24,
+      "end": 15.44,
+      "text": "the bench",
+      "page": 3
+    },
+    {
+      "start": 17.5,
+      "end": 18.68,
+      "text": "the bus",
+      "page": 4
+    },
+    {
+      "start": 20.6,
+      "end": 21.66,
+      "text": "the door",
+      "page": 5
+    },
+    {
+      "start": 23.62,
+      "end": 24.94,
+      "text": "the steps",
+      "page": 6
+    },
+    {
+      "start": 26.76,
+      "end": 28.0,
+      "text": "the seat",
+      "page": 7
+    },
+    {
+      "start": 28.84,
+      "end": 31.44,
+      "text": "the window",
+      "page": 8
+    },
+    {
+      "start": 30.96,
+      "end": 34.24,
+      "text": "the school",
+      "page": 9
+    }
+  ]
+}

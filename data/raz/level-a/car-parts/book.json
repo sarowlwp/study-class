@@ -1,0 +1,77 @@
+{
+  "id": "level-a/car-parts",
+  "title": "Car Parts",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 5.46,
+      "text": "car parts written by russ booyock",
+      "page": 2
+    },
+    {
+      "start": 5.18,
+      "end": 8.64,
+      "text": "a car has an engine",
+      "page": 3
+    },
+    {
+      "start": 8.88,
+      "end": 12.44,
+      "text": "a car has a trunk",
+      "page": 4
+    },
+    {
+      "start": 12.66,
+      "end": 15.42,
+      "text": "a car has lights",
+      "page": 5
+    },
+    {
+      "start": 14.92,
+      "end": 18.48,
+      "text": "a car has wheels",
+      "page": 6
+    },
+    {
+      "start": 18.68,
+      "end": 21.42,
+      "text": "a car has doors",
+      "page": 7
+    },
+    {
+      "start": 21.78,
+      "end": 24.68,
+      "text": "a car has windows",
+      "page": 8
+    },
+    {
+      "start": 24.96,
+      "end": 28.3,
+      "text": "a car has seats",
+      "page": 9
+    },
+    {
+      "start": 27.96,
+      "end": 32.32,
+      "text": "a car has seat belts",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

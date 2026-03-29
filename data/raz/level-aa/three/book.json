@@ -1,0 +1,65 @@
+{
+  "id": "level-aa/three",
+  "title": "Three",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 9,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 34.14,
+      "end": 36.92,
+      "text": "three lions",
+      "page": 3
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 4
+    },
+    {
+      "start": 44.2,
+      "end": 46.92,
+      "text": "3 monkeys",
+      "page": 5
+    },
+    {
+      "start": 53.44,
+      "end": 64.34,
+      "text": "3 elephants 3 elephants",
+      "page": 6
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 7
+    },
+    {
+      "start": 76.18,
+      "end": 79.48,
+      "text": "3 frogs",
+      "page": 8
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 9
+    }
+  ]
+}

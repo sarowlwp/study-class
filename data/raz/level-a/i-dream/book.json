@@ -1,0 +1,83 @@
+{
+  "id": "level-a/i-dream",
+  "title": "I Dream",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 20.86,
+      "end": 25.8,
+      "text": "i dream about space",
+      "page": 4
+    },
+    {
+      "start": 25.94,
+      "end": 31.44,
+      "text": "i dream about and monkeys",
+      "page": 5
+    },
+    {
+      "start": 31.62,
+      "end": 36.82,
+      "text": "i dream about robots",
+      "page": 6
+    },
+    {
+      "start": 37.12,
+      "end": 43.84,
+      "text": "i dream about superpowers",
+      "page": 7
+    },
+    {
+      "start": 43.84,
+      "end": 49.3,
+      "text": "i dream about food",
+      "page": 8
+    },
+    {
+      "start": 49.5,
+      "end": 54.98,
+      "text": "i dream about sports",
+      "page": 9
+    },
+    {
+      "start": 55.36,
+      "end": 60.9,
+      "text": "i dream about monsters",
+      "page": 10
+    },
+    {
+      "start": 61.34,
+      "end": 68.58,
+      "text": "i dream about good sleep",
+      "page": 11
+    },
+    {
+      "start": 68.4,
+      "end": 105.62,
+      "text": "connections writing and art what do you dream about draw a picture and write this sentence i dream about science why do you sleep share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

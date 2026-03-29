@@ -1,0 +1,83 @@
+{
+  "id": "level-b/halloween-costumes",
+  "title": "Halloween Costumes",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 2.82,
+      "end": 15.18,
+      "text": "halloween costumes written by elizabeth jane pustilnik focus question what can people look like on halloween",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 15.4,
+      "end": 18.88,
+      "text": "i look like a flower",
+      "page": 4
+    },
+    {
+      "start": 19.38,
+      "end": 23.06,
+      "text": "i look like a bat",
+      "page": 5
+    },
+    {
+      "start": 23.46,
+      "end": 26.76,
+      "text": "i look like a clown",
+      "page": 6
+    },
+    {
+      "start": 27.24,
+      "end": 31.28,
+      "text": "i look like a superhero",
+      "page": 7
+    },
+    {
+      "start": 31.74,
+      "end": 35.28,
+      "text": "i look like a tiger",
+      "page": 8
+    },
+    {
+      "start": 35.68,
+      "end": 38.66,
+      "text": "i look like a pirate",
+      "page": 9
+    },
+    {
+      "start": 39.0,
+      "end": 42.34,
+      "text": "i look like a dragon",
+      "page": 10
+    },
+    {
+      "start": 42.48,
+      "end": 44.88,
+      "text": "what is this costume",
+      "page": 11
+    },
+    {
+      "start": 44.86,
+      "end": 78.12,
+      "text": "connections writing and art make a new page for the book draw a picture and write this sentence i look like a social studies when is halloween celebrated mark the date on a calendar what day of the week is halloween this year",
+      "page": 12
+    }
+  ]
+}

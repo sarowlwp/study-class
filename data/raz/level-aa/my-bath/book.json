@@ -1,0 +1,83 @@
+{
+  "id": "level-aa/my-bath",
+  "title": "My Bath",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 2.42,
+      "end": 19.2,
+      "text": "written by elizabeth jane pustilnik illustrated by marcus cutler focus question what can you see while taking a bath",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 19.12,
+      "end": 20.76,
+      "text": "my tub",
+      "page": 4
+    },
+    {
+      "start": 20.94,
+      "end": 22.68,
+      "text": "my water",
+      "page": 5
+    },
+    {
+      "start": 22.96,
+      "end": 24.72,
+      "text": "my bubbles",
+      "page": 6
+    },
+    {
+      "start": 25.04,
+      "end": 26.66,
+      "text": "my toys",
+      "page": 7
+    },
+    {
+      "start": 26.96,
+      "end": 28.54,
+      "text": "my soap",
+      "page": 8
+    },
+    {
+      "start": 28.74,
+      "end": 30.28,
+      "text": "my shampoo",
+      "page": 9
+    },
+    {
+      "start": 30.52,
+      "end": 34.4,
+      "text": "my towel my bath",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    },
+    {
+      "start": 34.72,
+      "end": 59.8,
+      "text": "connections writing and art draw a picture of your bathroom and label it social studies people take baths to get clean why do people need to keep clean share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

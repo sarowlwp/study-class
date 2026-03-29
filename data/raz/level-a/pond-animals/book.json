@@ -1,0 +1,77 @@
+{
+  "id": "level-a/pond-animals",
+  "title": "Pond Animals",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 9.42,
+      "end": 11.82,
+      "text": "i see eight bugs",
+      "page": 3
+    },
+    {
+      "start": 12.52,
+      "end": 15.18,
+      "text": "i see seven ducks",
+      "page": 4
+    },
+    {
+      "start": 15.68,
+      "end": 18.46,
+      "text": "i see six frogs",
+      "page": 5
+    },
+    {
+      "start": 18.78,
+      "end": 21.54,
+      "text": "i see five turtles",
+      "page": 6
+    },
+    {
+      "start": 22.08,
+      "end": 24.62,
+      "text": "i see four fish",
+      "page": 7
+    },
+    {
+      "start": 24.92,
+      "end": 27.82,
+      "text": "i see three worms",
+      "page": 8
+    },
+    {
+      "start": 28.6,
+      "end": 31.06,
+      "text": "i see two swans",
+      "page": 9
+    },
+    {
+      "start": 31.42,
+      "end": 34.36,
+      "text": "i see one pond",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "level-a/the-parade",
+  "title": "The Parade",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 9.02,
+      "text": "the parade written by torin anderson illustrated by erin bellingham",
+      "page": 2
+    },
+    {
+      "start": 9.4,
+      "end": 11.34,
+      "text": "i see flags",
+      "page": 3
+    },
+    {
+      "start": 11.94,
+      "end": 14.12,
+      "text": "i see balloons",
+      "page": 4
+    },
+    {
+      "start": 13.62,
+      "end": 17.0,
+      "text": "i see hats",
+      "page": 5
+    },
+    {
+      "start": 17.12,
+      "end": 20.08,
+      "text": "i see clowns",
+      "page": 6
+    },
+    {
+      "start": 19.92,
+      "end": 22.38,
+      "text": "i see drums",
+      "page": 7
+    },
+    {
+      "start": 22.78,
+      "end": 24.94,
+      "text": "i see horses",
+      "page": 8
+    },
+    {
+      "start": 25.52,
+      "end": 27.64,
+      "text": "i see floats",
+      "page": 9
+    },
+    {
+      "start": 28.14,
+      "end": 30.58,
+      "text": "i see the parade",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

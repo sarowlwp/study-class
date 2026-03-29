@@ -1,0 +1,83 @@
+{
+  "id": "level-a/this-is-my-halloween",
+  "title": "This Is My Halloween",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 24.62,
+      "text": "this is my hallowene written by elizabeth jane pustilnick illustrated by grace zong focus question how do people celebrate halloween",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 25.0,
+      "end": 28.16,
+      "text": "this is my pumpkin",
+      "page": 4
+    },
+    {
+      "start": 28.7,
+      "end": 31.78,
+      "text": "this is my hat",
+      "page": 5
+    },
+    {
+      "start": 31.28,
+      "end": 35.54,
+      "text": "this is my jacket",
+      "page": 6
+    },
+    {
+      "start": 35.72,
+      "end": 39.06,
+      "text": "this is my brother",
+      "page": 7
+    },
+    {
+      "start": 39.3,
+      "end": 42.98,
+      "text": "this is my dog",
+      "page": 8
+    },
+    {
+      "start": 43.42,
+      "end": 46.6,
+      "text": "this is my bucket",
+      "page": 9
+    },
+    {
+      "start": 47.06,
+      "end": 50.42,
+      "text": "this is my candy",
+      "page": 10
+    },
+    {
+      "start": 51.06,
+      "end": 54.9,
+      "text": "this is my halloween",
+      "page": 11
+    },
+    {
+      "start": 54.4,
+      "end": 90.06,
+      "text": "connections writing and art what do you want to dress up as for halloween draw a picture and label it social studies what are some rules for staying safe on halloween share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "level-aa/lunch-at-school",
+  "title": "Lunch At School",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 9,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 10.4,
+      "text": "lunch at school written by bev osborn illustrated by andrea zool",
+      "page": 1
+    },
+    {
+      "start": 12.36,
+      "end": 14.78,
+      "text": "my friends",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 16.44,
+      "end": 21.94,
+      "text": "my bag my milk",
+      "page": 4
+    },
+    {
+      "start": 24.02,
+      "end": 25.58,
+      "text": "my noodles",
+      "page": 5
+    },
+    {
+      "start": 27.82,
+      "end": 33.68,
+      "text": "my carrots my cookie",
+      "page": 6
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 7
+    },
+    {
+      "start": 35.42,
+      "end": 37.8,
+      "text": "my napkin",
+      "page": 8
+    },
+    {
+      "start": 39.32,
+      "end": 40.9,
+      "text": "my lunch",
+      "page": 9
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "level-aa/the-subway",
+  "title": "The Subway",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 20.04,
+      "end": 27.64,
+      "text": "what steps do you take to ride the subway",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 27.58,
+      "end": 30.26,
+      "text": "the stairs",
+      "page": 4
+    },
+    {
+      "start": 30.28,
+      "end": 32.78,
+      "text": "the ticket",
+      "page": 5
+    },
+    {
+      "start": 32.8,
+      "end": 35.34,
+      "text": "the gate",
+      "page": 6
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 7
+    },
+    {
+      "start": 37.86,
+      "end": 40.72,
+      "text": "the time",
+      "page": 8
+    },
+    {
+      "start": 40.7,
+      "end": 43.34,
+      "text": "the tunnel",
+      "page": 9
+    },
+    {
+      "start": 43.06,
+      "end": 45.44,
+      "text": "the doors",
+      "page": 10
+    },
+    {
+      "start": 46.5,
+      "end": 48.12,
+      "text": "the subway",
+      "page": 11
+    },
+    {
+      "start": 47.62,
+      "end": 91.18,
+      "text": "connections writing and art people ride the subway to get from place to place in a city where do you think the girl is going draw a picture and write about it social studies what are some other ways to get from one place to another share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

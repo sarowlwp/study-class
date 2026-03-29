@@ -1,0 +1,77 @@
+{
+  "id": "level-b/firefly",
+  "title": "Firefly",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 8.48,
+      "text": "firefly written by harriet rosenblum illustrated by kirsten egan",
+      "page": 2
+    },
+    {
+      "start": 8.9,
+      "end": 13.18,
+      "text": "i tried catching one monday",
+      "page": 3
+    },
+    {
+      "start": 13.66,
+      "end": 17.9,
+      "text": "i tried catching one tuesday",
+      "page": 4
+    },
+    {
+      "start": 18.7,
+      "end": 22.54,
+      "text": "i tried catching one wednesday",
+      "page": 5
+    },
+    {
+      "start": 23.12,
+      "end": 27.0,
+      "text": "i tried catching one thursday",
+      "page": 6
+    },
+    {
+      "start": 26.5,
+      "end": 31.82,
+      "text": "i tried catching one friday",
+      "page": 7
+    },
+    {
+      "start": 32.06,
+      "end": 36.58,
+      "text": "i tried catching one saturday",
+      "page": 8
+    },
+    {
+      "start": 37.08,
+      "end": 41.02,
+      "text": "i tried catching one sunday",
+      "page": 9
+    },
+    {
+      "start": 41.02,
+      "end": 45.16,
+      "text": "i caught one and let it go",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

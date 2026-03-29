@@ -1,0 +1,83 @@
+{
+  "id": "level-b/time-for-soccer",
+  "title": "Time For Soccer",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 9.9,
+      "text": "time for soccer written by russ buyak focus question what are the important parts of soccer",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 10.06,
+      "end": 12.98,
+      "text": "time to wear the soccer uniform",
+      "page": 4
+    },
+    {
+      "start": 13.18,
+      "end": 16.1,
+      "text": "time to tie the soccer cleats",
+      "page": 5
+    },
+    {
+      "start": 16.14,
+      "end": 18.86,
+      "text": "time to greet the soccer team",
+      "page": 6
+    },
+    {
+      "start": 18.72,
+      "end": 21.42,
+      "text": "time to plan the soccer game",
+      "page": 7
+    },
+    {
+      "start": 21.38,
+      "end": 23.98,
+      "text": "time to throw the soccer ball",
+      "page": 8
+    },
+    {
+      "start": 24.08,
+      "end": 26.54,
+      "text": "time to pass the soccer ball",
+      "page": 9
+    },
+    {
+      "start": 26.46,
+      "end": 29.1,
+      "text": "time to kick the soccer ball",
+      "page": 10
+    },
+    {
+      "start": 28.6,
+      "end": 31.52,
+      "text": "time to score a goal",
+      "page": 11
+    },
+    {
+      "start": 31.36,
+      "end": 51.84,
+      "text": "connections writing and art what is your favorite sport draw a picture and write about it social studies why is it important to follow the rules and play fair during a soccer game share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

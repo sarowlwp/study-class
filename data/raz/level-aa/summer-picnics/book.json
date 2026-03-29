@@ -1,0 +1,77 @@
+{
+  "id": "level-aa/summer-picnics",
+  "title": "Summer Picnics",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 1.92,
+      "end": 5.08,
+      "text": "written by elizabeth strauss",
+      "page": 2
+    },
+    {
+      "start": 6.84,
+      "end": 8.84,
+      "text": "summer hats",
+      "page": 3
+    },
+    {
+      "start": 10.62,
+      "end": 12.46,
+      "text": "summer shoes",
+      "page": 4
+    },
+    {
+      "start": 14.5,
+      "end": 16.44,
+      "text": "summer cups",
+      "page": 5
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 6
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 7
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 8
+    },
+    {
+      "start": 20.14,
+      "end": 31.54,
+      "text": "summer or picnics",
+      "page": 9
+    },
+    {
+      "start": 33.22,
+      "end": 34.74,
+      "text": "summer fun",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "level-a/maria-counts-pumpkins",
+  "title": "Maria Counts Pumpkins",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 7.76,
+      "end": 9.84,
+      "text": "maria has one pumpkin",
+      "page": 3
+    },
+    {
+      "start": 9.98,
+      "end": 12.5,
+      "text": "maria has two pumpkins",
+      "page": 4
+    },
+    {
+      "start": 12.86,
+      "end": 15.6,
+      "text": "maria has three pumpkins",
+      "page": 5
+    },
+    {
+      "start": 15.68,
+      "end": 18.16,
+      "text": "maria has four pumpkins",
+      "page": 6
+    },
+    {
+      "start": 18.4,
+      "end": 21.14,
+      "text": "maria has five pumpkins",
+      "page": 7
+    },
+    {
+      "start": 21.36,
+      "end": 24.2,
+      "text": "maria has six pumpkins",
+      "page": 8
+    },
+    {
+      "start": 24.48,
+      "end": 27.08,
+      "text": "maria has seven pumpkins",
+      "page": 9
+    },
+    {
+      "start": 27.14,
+      "end": 30.22,
+      "text": "maria has two many pumpkins",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

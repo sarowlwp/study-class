@@ -1,0 +1,83 @@
+{
+  "id": "level-a/clean-not-clean",
+  "title": "Clean Not Clean",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 19.84,
+      "text": "clean not clean written by edie evans illustrated by nisha hudson focus question what is the difference between clean and not clean",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 20.08,
+      "end": 23.0,
+      "text": "this room is clean",
+      "page": 4
+    },
+    {
+      "start": 23.28,
+      "end": 27.28,
+      "text": "this room is not clean",
+      "page": 5
+    },
+    {
+      "start": 26.78,
+      "end": 31.06,
+      "text": "this shoe is clean",
+      "page": 6
+    },
+    {
+      "start": 31.4,
+      "end": 35.72,
+      "text": "this shoe is not clean",
+      "page": 7
+    },
+    {
+      "start": 36.02,
+      "end": 39.46,
+      "text": "this hand is clean",
+      "page": 8
+    },
+    {
+      "start": 39.76,
+      "end": 43.7,
+      "text": "this hand is not clean",
+      "page": 9
+    },
+    {
+      "start": 44.16,
+      "end": 47.14,
+      "text": "this food is clean",
+      "page": 10
+    },
+    {
+      "start": 47.22,
+      "end": 51.54,
+      "text": "this food is not clean",
+      "page": 11
+    },
+    {
+      "start": 51.54,
+      "end": 83.8,
+      "text": "connections writing and art write two new pages for the book use the pattern from the book draw a picture for each page health when is it important to have clean hands share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

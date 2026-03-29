@@ -1,0 +1,83 @@
+{
+  "id": "level-b/are-these-his-or-hers",
+  "title": "Are These His Or Hers",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 24.08,
+      "end": 30.32,
+      "text": "are these clothes his or hers",
+      "page": 4
+    },
+    {
+      "start": 30.62,
+      "end": 34.58,
+      "text": "these socks are his",
+      "page": 5
+    },
+    {
+      "start": 35.2,
+      "end": 39.02,
+      "text": "these shorts are hers",
+      "page": 6
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 7
+    },
+    {
+      "start": 42.0,
+      "end": 46.9,
+      "text": "these shirts are hers",
+      "page": 8
+    },
+    {
+      "start": 47.34,
+      "end": 51.22,
+      "text": "these jackets are his",
+      "page": 9
+    },
+    {
+      "start": 51.72,
+      "end": 54.98,
+      "text": "these hats are hers",
+      "page": 10
+    },
+    {
+      "start": 54.48,
+      "end": 64.88,
+      "text": "are these jeans his or hers they are his and hers",
+      "page": 11
+    },
+    {
+      "start": 64.32,
+      "end": 96.34,
+      "text": "connections writing and art what are your favorite clothes to wear draw a picture and label it social studies why is it important to help with chores at home share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

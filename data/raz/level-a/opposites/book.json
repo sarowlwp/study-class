@@ -1,0 +1,89 @@
+{
+  "id": "level-a/opposites",
+  "title": "Opposites",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 13,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 3.64,
+      "text": "opposites written by katie knight",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 3.96,
+      "end": 5.88,
+      "text": "this is up",
+      "page": 4
+    },
+    {
+      "start": 6.32,
+      "end": 8.28,
+      "text": "this is down",
+      "page": 5
+    },
+    {
+      "start": 8.68,
+      "end": 10.86,
+      "text": "this is on",
+      "page": 6
+    },
+    {
+      "start": 11.1,
+      "end": 13.44,
+      "text": "this is off",
+      "page": 7
+    },
+    {
+      "start": 13.84,
+      "end": 15.84,
+      "text": "this is open",
+      "page": 8
+    },
+    {
+      "start": 16.36,
+      "end": 18.72,
+      "text": "this is closed",
+      "page": 9
+    },
+    {
+      "start": 18.94,
+      "end": 21.44,
+      "text": "this is fast",
+      "page": 10
+    },
+    {
+      "start": 21.72,
+      "end": 24.44,
+      "text": "this is slow",
+      "page": 11
+    },
+    {
+      "start": 24.58,
+      "end": 28.8,
+      "text": "this is this is",
+      "page": 12
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 13
+    }
+  ]
+}

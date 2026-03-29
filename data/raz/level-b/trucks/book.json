@@ -1,0 +1,83 @@
+{
+  "id": "level-b/trucks",
+  "title": "Trucks",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 11.24,
+      "text": "trucks written by marvin d baudner focus question what do trucks carry",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 11.7,
+      "end": 14.7,
+      "text": "some trucks carry mail",
+      "page": 4
+    },
+    {
+      "start": 15.18,
+      "end": 18.34,
+      "text": "some trucks carry animals",
+      "page": 5
+    },
+    {
+      "start": 18.86,
+      "end": 21.98,
+      "text": "some trucks carry garbage",
+      "page": 6
+    },
+    {
+      "start": 22.4,
+      "end": 25.26,
+      "text": "some trucks carry logs",
+      "page": 7
+    },
+    {
+      "start": 24.76,
+      "end": 28.48,
+      "text": "some trucks carry cement",
+      "page": 8
+    },
+    {
+      "start": 28.78,
+      "end": 32.0,
+      "text": "some trucks carry ice cream",
+      "page": 9
+    },
+    {
+      "start": 32.06,
+      "end": 34.92,
+      "text": "some trucks carry cars",
+      "page": 10
+    },
+    {
+      "start": 35.12,
+      "end": 38.24,
+      "text": "some trucks carry trucks",
+      "page": 11
+    },
+    {
+      "start": 38.48,
+      "end": 67.48,
+      "text": "connections writing and art which truck from the book is your favorite why draw a picture and write about it math count the trucks in this book then sort the trucks into groups based on their eyes what they carry and so on",
+      "page": 12
+    }
+  ]
+}

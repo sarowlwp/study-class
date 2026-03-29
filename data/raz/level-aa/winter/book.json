@@ -1,0 +1,77 @@
+{
+  "id": "level-aa/winter",
+  "title": "Winter",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 6.56,
+      "text": "winter written by vic morse illustrated by darcy tom",
+      "page": 2
+    },
+    {
+      "start": 7.74,
+      "end": 9.26,
+      "text": "the snow",
+      "page": 3
+    },
+    {
+      "start": 9.02,
+      "end": 12.6,
+      "text": "the ice skates",
+      "page": 4
+    },
+    {
+      "start": 14.26,
+      "end": 15.46,
+      "text": "the sled",
+      "page": 5
+    },
+    {
+      "start": 17.3,
+      "end": 18.82,
+      "text": "the snowman",
+      "page": 6
+    },
+    {
+      "start": 20.64,
+      "end": 22.08,
+      "text": "the mittens",
+      "page": 7
+    },
+    {
+      "start": 23.78,
+      "end": 25.0,
+      "text": "the coat",
+      "page": 8
+    },
+    {
+      "start": 26.74,
+      "end": 28.06,
+      "text": "the fire",
+      "page": 9
+    },
+    {
+      "start": 29.78,
+      "end": 31.14,
+      "text": "the winter",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

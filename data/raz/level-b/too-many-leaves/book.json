@@ -1,0 +1,77 @@
+{
+  "id": "level-b/too-many-leaves",
+  "title": "Too Many Leaves",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 8.32,
+      "text": "to many leaves written by bev osborn illustrated by nora vutus",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 8.74,
+      "end": 11.88,
+      "text": "i rake the leaves for grandma",
+      "page": 3
+    },
+    {
+      "start": 12.58,
+      "end": 15.66,
+      "text": "i rake the orange leaves",
+      "page": 4
+    },
+    {
+      "start": 16.1,
+      "end": 18.96,
+      "text": "i rake the brown leaves",
+      "page": 5
+    },
+    {
+      "start": 19.28,
+      "end": 22.24,
+      "text": "i rake the gold leaves",
+      "page": 6
+    },
+    {
+      "start": 22.4,
+      "end": 25.76,
+      "text": "i -rake the red leaves",
+      "page": 7
+    },
+    {
+      "start": 25.92,
+      "end": 28.58,
+      "text": "i -rake the big leaves",
+      "page": 8
+    },
+    {
+      "start": 28.74,
+      "end": 31.66,
+      "text": "i -rake the small leaves",
+      "page": 9
+    },
+    {
+      "start": 31.76,
+      "end": 34.42,
+      "text": "there are too many leaves",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

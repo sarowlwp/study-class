@@ -1,0 +1,77 @@
+{
+  "id": "level-a/i-can",
+  "title": "I Can",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 4
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 5
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 6
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 7
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 8
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 9
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

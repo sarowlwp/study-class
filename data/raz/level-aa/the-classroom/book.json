@@ -1,0 +1,77 @@
+{
+  "id": "level-aa/the-classroom",
+  "title": "The Classroom",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 5.78,
+      "text": "the classroom written by nanette routure",
+      "page": 2
+    },
+    {
+      "start": 5.28,
+      "end": 8.86,
+      "text": "the chair",
+      "page": 3
+    },
+    {
+      "start": 10.56,
+      "end": 12.36,
+      "text": "the desk",
+      "page": 4
+    },
+    {
+      "start": 14.28,
+      "end": 16.02,
+      "text": "the book",
+      "page": 5
+    },
+    {
+      "start": 17.7,
+      "end": 19.46,
+      "text": "the paper",
+      "page": 6
+    },
+    {
+      "start": 21.2,
+      "end": 23.02,
+      "text": "the pencil",
+      "page": 7
+    },
+    {
+      "start": 24.7,
+      "end": 26.22,
+      "text": "the eraser",
+      "page": 8
+    },
+    {
+      "start": 25.72,
+      "end": 30.72,
+      "text": "the backpack",
+      "page": 9
+    },
+    {
+      "start": 31.86,
+      "end": 33.82,
+      "text": "the classroom",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

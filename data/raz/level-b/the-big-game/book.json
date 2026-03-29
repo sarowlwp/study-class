@@ -1,0 +1,77 @@
+{
+  "id": "level-b/the-big-game",
+  "title": "The Big Game",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 9.58,
+      "end": 12.46,
+      "text": "we clean on game day",
+      "page": 3
+    },
+    {
+      "start": 12.44,
+      "end": 16.12,
+      "text": "we dress up on game day",
+      "page": 4
+    },
+    {
+      "start": 16.12,
+      "end": 19.86,
+      "text": "we see friends on game day",
+      "page": 5
+    },
+    {
+      "start": 19.9,
+      "end": 24.04,
+      "text": "we paint faces on game day",
+      "page": 6
+    },
+    {
+      "start": 23.54,
+      "end": 28.14,
+      "text": "we eat snacks on game day",
+      "page": 7
+    },
+    {
+      "start": 27.92,
+      "end": 32.18,
+      "text": "we watch football on game day",
+      "page": 8
+    },
+    {
+      "start": 32.14,
+      "end": 35.32,
+      "text": "we cheer on game day",
+      "page": 9
+    },
+    {
+      "start": 35.14,
+      "end": 38.94,
+      "text": "we play football on game day",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

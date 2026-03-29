@@ -1,0 +1,89 @@
+{
+  "id": "level-a/maria-goes-to-school",
+  "title": "Maria Goes To School",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 13,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 8.54,
+      "end": 10.22,
+      "text": "i get my backpack",
+      "page": 3
+    },
+    {
+      "start": 10.46,
+      "end": 12.16,
+      "text": "i get my pencils",
+      "page": 4
+    },
+    {
+      "start": 12.76,
+      "end": 14.56,
+      "text": "i get my ruler",
+      "page": 5
+    },
+    {
+      "start": 15.1,
+      "end": 17.06,
+      "text": "i get my eraser",
+      "page": 6
+    },
+    {
+      "start": 17.68,
+      "end": 19.76,
+      "text": "i get my crayons",
+      "page": 7
+    },
+    {
+      "start": 20.22,
+      "end": 22.02,
+      "text": "i get my sweater",
+      "page": 8
+    },
+    {
+      "start": 22.66,
+      "end": 24.26,
+      "text": "i get my brother",
+      "page": 9
+    },
+    {
+      "start": 24.94,
+      "end": 26.74,
+      "text": "i get my lunch",
+      "page": 10
+    },
+    {
+      "start": 27.46,
+      "end": 29.48,
+      "text": "i get my hug",
+      "page": 11
+    },
+    {
+      "start": 29.06,
+      "end": 31.72,
+      "text": "i get my ride",
+      "page": 12
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 13
+    }
+  ]
+}

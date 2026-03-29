@@ -1,0 +1,77 @@
+{
+  "id": "level-aa/we-build",
+  "title": "We Build",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 7.5,
+      "text": "we build written by katie knight illustrated by chris baldwin",
+      "page": 2
+    },
+    {
+      "start": 9.62,
+      "end": 11.2,
+      "text": "we draw",
+      "page": 3
+    },
+    {
+      "start": 12.84,
+      "end": 14.8,
+      "text": "we saw",
+      "page": 4
+    },
+    {
+      "start": 16.28,
+      "end": 18.2,
+      "text": "we sand",
+      "page": 5
+    },
+    {
+      "start": 19.99,
+      "end": 21.7,
+      "text": "we hammer",
+      "page": 6
+    },
+    {
+      "start": 21.2,
+      "end": 25.4,
+      "text": "we drill",
+      "page": 7
+    },
+    {
+      "start": 27.05,
+      "end": 28.98,
+      "text": "we paint",
+      "page": 8
+    },
+    {
+      "start": 30.61,
+      "end": 32.46,
+      "text": "we glue",
+      "page": 9
+    },
+    {
+      "start": 34.31,
+      "end": 35.96,
+      "text": "we hang",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}
