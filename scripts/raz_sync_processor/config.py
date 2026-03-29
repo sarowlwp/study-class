@@ -24,3 +24,5 @@ OCR_DPI = 300
 
 # Cover 图片配置
 COVER_DPI = 150
+COVER_TARGET_SIZE_KB = 100  # 目标大小（KB）
+COVER_MAX_DIMENSION = 800  # 最大尺寸（宽/高）
