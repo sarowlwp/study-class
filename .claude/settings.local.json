@@ -37,7 +37,13 @@
       "Bash(python3:*)",
       "Bash(:/Users/sarowlwp/Document/go/study-class/app/static/images/default-cover.svg)",
       "Bash(:)",
-      "Bash(find /Users/sarowlwp/Document/go/study-class/data/raz -name *.mp4 -o -name *.mov)"
+      "Bash(find /Users/sarowlwp/Document/go/study-class/data/raz -name *.mp4 -o -name *.mov)",
+      "Bash(git restore:*)",
+      "Bash(chmod:*)",
+      "Bash(./scripts/process_levels_ab.sh)",
+      "Bash(ps:*)",
+      "Bash(kill 60266 60261 60259)",
+      "Bash(time KMP_DUPLICATE_LIB_OK=TRUE .venv/bin/python3.11 -m scripts.raz_sync_processor -i /Users/sarowlwp/Document/go/study-class/data/raz/level-a/a-fish-sees --model tiny --force 2>&1)"
     ]
   },
   "enabledMcpjsonServers": [
