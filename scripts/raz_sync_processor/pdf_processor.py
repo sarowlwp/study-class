@@ -24,7 +24,7 @@ except ImportError:
 from PIL import Image
 
 from .models import PageText
-from .config import OCR_DPI, COVER_DPI
+from .config import OCR_DPI, COVER_DPI, COVER_TARGET_SIZE_KB, COVER_MAX_DIMENSION
 
 logger = logging.getLogger(__name__)
 
@@ -189,7 +189,7 @@ class PDFProcessor:
         output_path: Path,
         dpi: int = COVER_DPI
     ) -> bool:
-        """从 PDF 第一页提取封面图片.
+        """从 PDF 第一页提取封面图片，并压缩到 100KB 以内.
 
         Args:
             pdf_path: PDF 文件路径
@@ -215,9 +215,60 @@ class PDFProcessor:
 
             # 确保输出目录存在
             output_path.parent.mkdir(parents=True, exist_ok=True)
-            pix.save(output_path)
 
-            logger.info(f"Cover saved: {output_path} ({pix.width}x{pix.height})")
+            # 压缩图片
+            logger.info("Compressing cover image...")
+            from PIL import Image
+            import io
+            import os
+
+            TARGET_SIZE = COVER_TARGET_SIZE_KB * 1024  # 从配置读取
+            MAX_DIMENSION = COVER_MAX_DIMENSION  # 从配置读取
+
+            # 将 pixmap 转换为 PIL Image
+            img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
+
+            # 调整尺寸
+            max_dim = max(img.width, img.height)
+            if max_dim > MAX_DIMENSION:
+                scale_factor = MAX_DIMENSION / max_dim
+                new_width = int(img.width * scale_factor)
+                new_height = int(img.height * scale_factor)
+                img = img.resize((new_width, new_height), Image.Resampling.LANCZOS)
+
+            # 计算最佳质量
+            def calculate_quality(image, target_size):
+                low = 10
+                high = 95
+                best_quality = 95
+                best_image = None
+
+                while low <= high:
+                    mid = (low + high) // 2
+                    img_buffer = io.BytesIO()
+                    image.save(img_buffer, format='JPEG', quality=mid, optimize=True)
+                    size = img_buffer.tell()
+
+                    if size == target_size:
+                        return mid, img_buffer.getvalue()
+
+                    if size < target_size:
+                        best_quality = mid
+                        best_image = img_buffer.getvalue()
+                        low = mid + 1
+                    else:
+                        high = mid - 1
+
+                return best_quality, best_image
+
+            quality, compressed_data = calculate_quality(img, TARGET_SIZE)
+
+            # 保存压缩后的图片
+            with open(output_path, "wb") as f:
+                f.write(compressed_data)
+
+            compressed_size = os.path.getsize(output_path)
+            logger.info(f"Cover saved: {output_path} ({img.width}x{img.height}) - {compressed_size // 1024}KB")
             return True
 
         except Exception as e:
