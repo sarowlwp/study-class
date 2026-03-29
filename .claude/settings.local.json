@@ -55,7 +55,16 @@
       "Bash(git lfs:*)",
       "Bash(pkill -f \"python.*scripts\\\\.raz_sync_processor\")",
       "Bash(pip list:*)",
-      "Bash(xargs ls:*)"
+      "Bash(xargs ls:*)",
+      "Bash(.venv/bin/python -m pip list)",
+      "Bash(time KMP_DUPLICATE_LIB_OK=TRUE .venv/bin/python /Users/sarowlwp/Document/go/study-class/test_transcribe.py direct 2>&1)",
+      "Bash(time KMP_DUPLICATE_LIB_OK=TRUE .venv/bin/python /Users/sarowlwp/Document/go/study-class/test_transcribe.py 2>&1)",
+      "Bash(.venv/bin/python3.11 test_transcribe.py direct)",
+      "Bash(.venv/bin/python3.11 test_transcribe.py)",
+      "Bash(wait:*)",
+      "Bash(.venv/bin/python3.11 test_inside_package.py)",
+      "Bash(.venv/bin/python3.11 -m scripts.raz_sync_processor -i data/raz/level-a/a-fish-sees --model tiny)",
+      "Bash(.venv/bin/python3.11 -m scripts.raz_sync_processor -i data/raz/level-a/a-fish-sees --model tiny --force)"
     ]
   },
   "enabledMcpjsonServers": [
