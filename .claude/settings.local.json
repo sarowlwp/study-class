@@ -43,7 +43,18 @@
       "Bash(./scripts/process_levels_ab.sh)",
       "Bash(ps:*)",
       "Bash(kill 60266 60261 60259)",
-      "Bash(time KMP_DUPLICATE_LIB_OK=TRUE .venv/bin/python3.11 -m scripts.raz_sync_processor -i /Users/sarowlwp/Document/go/study-class/data/raz/level-a/a-fish-sees --model tiny --force 2>&1)"
+      "Bash(time KMP_DUPLICATE_LIB_OK=TRUE .venv/bin/python3.11 -m scripts.raz_sync_processor -i /Users/sarowlwp/Document/go/study-class/data/raz/level-a/a-fish-sees --model tiny --force 2>&1)",
+      "Bash(time KMP_DUPLICATE_LIB_OK=TRUE .venv/bin/python3.11 /Users/sarowlwp/Document/go/study-class/test_whisper.py 2>&1)",
+      "Bash(time KMP_DUPLICATE_LIB_OK=TRUE .venv/bin/python3.11 /Users/sarowlwp/Document/go/study-class/test_whisper.py transcribe 2>&1)",
+      "Bash(ffprobe:*)",
+      "Bash(kill 61615 61613)",
+      "Bash(du -sh *)",
+      "Bash(git rev-list:*)",
+      "Bash(git cat-file:*)",
+      "Bash(sort -k3 -nr)",
+      "Bash(git lfs:*)",
+      "Bash(pkill -f \"python.*scripts\\\\.raz_sync_processor\")",
+      "Bash(pip list:*)"
     ]
   },
   "enabledMcpjsonServers": [

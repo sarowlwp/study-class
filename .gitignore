@@ -10,6 +10,7 @@ data/raz/**/*.mp4
 data/raz/**/p*.json
 data/raz/**/w*.json
 data/raz/**/*.html
+data/raz-records
 
 scripts/*.py
 scripts/*.sh
