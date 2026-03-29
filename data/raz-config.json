@@ -1,9 +1,9 @@
 {
-  "current_level": "f",
+  "current_level": "a",
   "daily_mode": "manual",
   "daily_count": 10,
   "current_session": {
-    "book_id": "level-a/sample-book",
+    "book_id": "level-a/athletes",
     "page": 1,
     "sentence_index": 0
   }
