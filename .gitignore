@@ -11,6 +11,10 @@ data/raz/**/p*.json
 data/raz/**/w*.json
 data/raz/**/*.html
 data/raz-records
+# Test files
+test_*.py
+create_test_files.py
+prepare_test_files.py
 
 scripts/*.py
 scripts/*.sh
