@@ -54,7 +54,8 @@
       "Bash(sort -k3 -nr)",
       "Bash(git lfs:*)",
       "Bash(pkill -f \"python.*scripts\\\\.raz_sync_processor\")",
-      "Bash(pip list:*)"
+      "Bash(pip list:*)",
+      "Bash(xargs ls:*)"
     ]
   },
   "enabledMcpjsonServers": [
