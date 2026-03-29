@@ -64,7 +64,8 @@
       "Bash(wait:*)",
       "Bash(.venv/bin/python3.11 test_inside_package.py)",
       "Bash(.venv/bin/python3.11 -m scripts.raz_sync_processor -i data/raz/level-a/a-fish-sees --model tiny)",
-      "Bash(.venv/bin/python3.11 -m scripts.raz_sync_processor -i data/raz/level-a/a-fish-sees --model tiny --force)"
+      "Bash(.venv/bin/python3.11 -m scripts.raz_sync_processor -i data/raz/level-a/a-fish-sees --model tiny --force)",
+      "Bash(ls -lah test_*.py)"
     ]
   },
   "enabledMcpjsonServers": [

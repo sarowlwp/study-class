@@ -5,17 +5,7 @@
 
 __version__ = "1.0.0"
 
-from .pdf_processor import PDFProcessor
-from .audio_transcriber import AudioTranscriber
-from .llm_mapper import LlmMapper
-from .sync_generator import SyncGenerator
-from .main import RazSyncProcessor, main
+# 不自动导入组件，避免包初始化时的模块冲突
+# 各个组件按需在使用时导入
 
-__all__ = [
-    "PDFProcessor",
-    "AudioTranscriber",
-    "LlmMapper",
-    "SyncGenerator",
-    "RazSyncProcessor",
-    "main",
-]
+__all__ = []

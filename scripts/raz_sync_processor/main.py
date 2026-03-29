@@ -6,6 +6,10 @@
 3. LLM Mapper 生成 book.json
 """
 
+import os
+# 在导入任何其他模块前设置环境变量，避免 OpenMP 库冲突
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+
 import sys
 import argparse
 import logging
