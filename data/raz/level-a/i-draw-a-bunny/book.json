@@ -1,0 +1,77 @@
+{
+  "id": "level-a/i-draw-a-bunny",
+  "title": "I Draw A Bunny",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 5.88,
+      "text": "i draw a bunny written by bev osborn",
+      "page": 2
+    },
+    {
+      "start": 6.1,
+      "end": 8.82,
+      "text": "i draw the ears",
+      "page": 3
+    },
+    {
+      "start": 8.94,
+      "end": 11.62,
+      "text": "i draw the nose",
+      "page": 4
+    },
+    {
+      "start": 11.76,
+      "end": 14.94,
+      "text": "i draw the eyes",
+      "page": 5
+    },
+    {
+      "start": 14.92,
+      "end": 17.56,
+      "text": "i draw the body",
+      "page": 6
+    },
+    {
+      "start": 17.56,
+      "end": 20.24,
+      "text": "i draw the teeth",
+      "page": 7
+    },
+    {
+      "start": 20.28,
+      "end": 22.62,
+      "text": "i draw the feet",
+      "page": 8
+    },
+    {
+      "start": 22.68,
+      "end": 25.28,
+      "text": "i draw the tail",
+      "page": 9
+    },
+    {
+      "start": 25.52,
+      "end": 27.88,
+      "text": "i draw a bunny",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

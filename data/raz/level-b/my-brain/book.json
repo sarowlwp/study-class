@@ -1,0 +1,83 @@
+{
+  "id": "level-b/my-brain",
+  "title": "My Brain",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 13.86,
+      "end": 18.0,
+      "text": "i use my brain to think",
+      "page": 4
+    },
+    {
+      "start": 17.68,
+      "end": 22.3,
+      "text": "i use my brain to see",
+      "page": 5
+    },
+    {
+      "start": 21.92,
+      "end": 26.7,
+      "text": "i use my brain to talk",
+      "page": 6
+    },
+    {
+      "start": 26.2,
+      "end": 31.44,
+      "text": "i use my brain to listen",
+      "page": 7
+    },
+    {
+      "start": 31.52,
+      "end": 36.2,
+      "text": "i use my brain to move",
+      "page": 8
+    },
+    {
+      "start": 36.34,
+      "end": 41.0,
+      "text": "i use my brain to sleep",
+      "page": 9
+    },
+    {
+      "start": 40.9,
+      "end": 45.7,
+      "text": "i use my brain to laugh",
+      "page": 10
+    },
+    {
+      "start": 46.04,
+      "end": 51.36,
+      "text": "i use my brain for everything",
+      "page": 11
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 12
+    }
+  ]
+}

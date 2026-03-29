@@ -1,0 +1,77 @@
+{
+  "id": "level-a/snake-colors",
+  "title": "Snake Colors",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 5.18,
+      "text": "snake colors written by mary ann morazzi",
+      "page": 2
+    },
+    {
+      "start": 5.36,
+      "end": 7.94,
+      "text": "this snake is white",
+      "page": 3
+    },
+    {
+      "start": 8.04,
+      "end": 10.9,
+      "text": "this snake is yellow",
+      "page": 4
+    },
+    {
+      "start": 10.98,
+      "end": 14.32,
+      "text": "this snake is orange",
+      "page": 5
+    },
+    {
+      "start": 14.46,
+      "end": 17.42,
+      "text": "this snake is blue",
+      "page": 6
+    },
+    {
+      "start": 17.38,
+      "end": 20.74,
+      "text": "this snake is green",
+      "page": 7
+    },
+    {
+      "start": 20.82,
+      "end": 24.02,
+      "text": "this snake is pink",
+      "page": 8
+    },
+    {
+      "start": 23.52,
+      "end": 27.44,
+      "text": "this snake is red",
+      "page": 9
+    },
+    {
+      "start": 27.62,
+      "end": 30.92,
+      "text": "this snake is black",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

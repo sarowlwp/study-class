@@ -1,0 +1,77 @@
+{
+  "id": "level-a/fruit-colors",
+  "title": "Fruit Colors",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 3.64,
+      "text": "fruit colors written by harriet rosenblum",
+      "page": 2
+    },
+    {
+      "start": 3.68,
+      "end": 5.36,
+      "text": "fruits can be red",
+      "page": 3
+    },
+    {
+      "start": 5.62,
+      "end": 7.46,
+      "text": "fruits can be green",
+      "page": 4
+    },
+    {
+      "start": 7.68,
+      "end": 9.56,
+      "text": "fruits can be yellow",
+      "page": 5
+    },
+    {
+      "start": 9.94,
+      "end": 11.86,
+      "text": "fruits can be orange",
+      "page": 6
+    },
+    {
+      "start": 12.18,
+      "end": 13.86,
+      "text": "fruits can be purple",
+      "page": 7
+    },
+    {
+      "start": 14.28,
+      "end": 16.14,
+      "text": "fruits can be pink",
+      "page": 8
+    },
+    {
+      "start": 16.36,
+      "end": 18.3,
+      "text": "fruits be blue",
+      "page": 9
+    },
+    {
+      "start": 18.68,
+      "end": 20.36,
+      "text": "yes they can",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

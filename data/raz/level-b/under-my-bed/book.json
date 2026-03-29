@@ -1,0 +1,82 @@
+{
+  "id": "level-b/under-my-bed",
+  "title": "Under My Bed",
+  "level": "b",
+  "pdf": "book.pdf",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 21.8,
+      "end": 25.6,
+      "text": "a sock is under my bed",
+      "page": 4
+    },
+    {
+      "start": 25.6,
+      "end": 31.0,
+      "text": "a block is under my bed",
+      "page": 5
+    },
+    {
+      "start": 31.8,
+      "end": 36.0,
+      "text": "a book is under my bed",
+      "page": 6
+    },
+    {
+      "start": 36.62,
+      "end": 41.1,
+      "text": "a toy is under my bed",
+      "page": 7
+    },
+    {
+      "start": 41.8,
+      "end": 46.48,
+      "text": "a hat is under my bed",
+      "page": 8
+    },
+    {
+      "start": 47.72,
+      "end": 52.12,
+      "text": "a bat is under my bed",
+      "page": 9
+    },
+    {
+      "start": 52.76,
+      "end": 57.0,
+      "text": "a cat is under my bed",
+      "page": 10
+    },
+    {
+      "start": 57.38,
+      "end": 60.88,
+      "text": "i am under my bed",
+      "page": 11
+    },
+    {
+      "start": 60.88,
+      "end": 96.7,
+      "text": "connections writing draw a picture and write this sentence a is under my science list the things the girl finds under her bed sort the things into two groups share your groups with a partner",
+      "page": 12
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "level-aa/the-playground",
+  "title": "The Playground",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 5.56,
+      "text": "the playground written by elizabeth jane pastelnick",
+      "page": 1
+    },
+    {
+      "start": 5.74,
+      "end": 10.5,
+      "text": "focus question what can you do at the playground",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 4
+    },
+    {
+      "start": 11.62,
+      "end": 12.9,
+      "text": "the swing",
+      "page": 5
+    },
+    {
+      "start": 12.78,
+      "end": 14.02,
+      "text": "the slide",
+      "page": 6
+    },
+    {
+      "start": 13.98,
+      "end": 15.28,
+      "text": "the sandbox",
+      "page": 7
+    },
+    {
+      "start": 15.54,
+      "end": 16.7,
+      "text": "the ladder",
+      "page": 8
+    },
+    {
+      "start": 16.9,
+      "end": 17.94,
+      "text": "the bridge",
+      "page": 9
+    },
+    {
+      "start": 18.1,
+      "end": 19.44,
+      "text": "the wheel",
+      "page": 10
+    },
+    {
+      "start": 19.28,
+      "end": 20.72,
+      "text": "the playground",
+      "page": 11
+    },
+    {
+      "start": 20.86,
+      "end": 41.04,
+      "text": "connections writing and art what is your favorite thing to do at the playground draw a picture and write about it social studies why is it important to follow the rules when you're at the playground share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "level-a/i-see-my-colors",
+  "title": "I See My Colors",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 10.86,
+      "end": 12.96,
+      "text": "i see blue",
+      "page": 3
+    },
+    {
+      "start": 12.96,
+      "end": 15.06,
+      "text": "i see green",
+      "page": 4
+    },
+    {
+      "start": 15.1,
+      "end": 17.16,
+      "text": "i see purple",
+      "page": 5
+    },
+    {
+      "start": 17.32,
+      "end": 19.64,
+      "text": "i see brown",
+      "page": 6
+    },
+    {
+      "start": 19.7,
+      "end": 22.12,
+      "text": "i see pink",
+      "page": 7
+    },
+    {
+      "start": 22.24,
+      "end": 24.52,
+      "text": "i see red",
+      "page": 8
+    },
+    {
+      "start": 24.52,
+      "end": 26.999999999999996,
+      "text": "i see orange",
+      "page": 9
+    },
+    {
+      "start": 27.1,
+      "end": 29.34,
+      "text": "i see gold",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

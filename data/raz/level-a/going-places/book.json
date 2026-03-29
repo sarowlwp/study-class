@@ -1,0 +1,77 @@
+{
+  "id": "level-a/going-places",
+  "title": "Going Places",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 4.88,
+      "end": 7.74,
+      "text": "you can go on a plane",
+      "page": 3
+    },
+    {
+      "start": 7.94,
+      "end": 10.26,
+      "text": "you can go on a train",
+      "page": 4
+    },
+    {
+      "start": 10.56,
+      "end": 12.62,
+      "text": "you can go on a boat",
+      "page": 5
+    },
+    {
+      "start": 12.74,
+      "end": 15.06,
+      "text": "you can go in a car",
+      "page": 6
+    },
+    {
+      "start": 15.04,
+      "end": 17.48,
+      "text": "you can go in a bus",
+      "page": 7
+    },
+    {
+      "start": 17.44,
+      "end": 19.64,
+      "text": "you can go on a bike",
+      "page": 8
+    },
+    {
+      "start": 19.72,
+      "end": 22.1,
+      "text": "you can go on a skateboard",
+      "page": 9
+    },
+    {
+      "start": 22.8,
+      "end": 24.8,
+      "text": "you can go on a horse",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

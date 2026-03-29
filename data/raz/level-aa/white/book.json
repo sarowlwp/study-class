@@ -1,0 +1,83 @@
+{
+  "id": "level-aa/white",
+  "title": "White",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 14.7,
+      "text": "white written by nigel pepper house focus question where can you see the color white in nature",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 14.74,
+      "end": 17.16,
+      "text": "the white snow",
+      "page": 4
+    },
+    {
+      "start": 17.46,
+      "end": 20.24,
+      "text": "the white flowers",
+      "page": 5
+    },
+    {
+      "start": 20.7,
+      "end": 23.4,
+      "text": "the white fox",
+      "page": 6
+    },
+    {
+      "start": 23.72,
+      "end": 26.0,
+      "text": "the white whale",
+      "page": 7
+    },
+    {
+      "start": 26.28,
+      "end": 28.8,
+      "text": "the white seal",
+      "page": 8
+    },
+    {
+      "start": 28.3,
+      "end": 31.68,
+      "text": "the white eggs",
+      "page": 9
+    },
+    {
+      "start": 31.96,
+      "end": 34.22,
+      "text": "the white owl",
+      "page": 10
+    },
+    {
+      "start": 34.46,
+      "end": 37.04,
+      "text": "the white igloo",
+      "page": 11
+    },
+    {
+      "start": 36.54,
+      "end": 69.62,
+      "text": "connections writing and art think of something else that is white draw a picture and write about it science many animals that live in the snow are white why do you think this is how does being white help these animals",
+      "page": 12
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "level-b/boats",
+  "title": "Boats",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 11.48,
+      "text": "boats written by eugene stanley focus question what do boats carry",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 11.86,
+      "end": 15.68,
+      "text": "this boat carries people",
+      "page": 4
+    },
+    {
+      "start": 15.96,
+      "end": 19.72,
+      "text": "this boat carries police",
+      "page": 5
+    },
+    {
+      "start": 19.22,
+      "end": 24.04,
+      "text": "this boat carries food",
+      "page": 6
+    },
+    {
+      "start": 24.62,
+      "end": 28.2,
+      "text": "this boat carries logs",
+      "page": 7
+    },
+    {
+      "start": 29.02,
+      "end": 32.5,
+      "text": "this boat carries trash",
+      "page": 8
+    },
+    {
+      "start": 32.94,
+      "end": 36.42,
+      "text": "this boat carries cars",
+      "page": 9
+    },
+    {
+      "start": 36.84,
+      "end": 41.04,
+      "text": "this boat carries planes",
+      "page": 10
+    },
+    {
+      "start": 41.5,
+      "end": 45.5,
+      "text": "this boat carries boats",
+      "page": 11
+    },
+    {
+      "start": 46.34,
+      "end": 78.06,
+      "text": "connections writing and art which boat do you think is the most interesting why draw a picture and write about it social studies boats are used to carry things on the water how are things carried on land or in the air discuss your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "level-aa/seven",
+  "title": "Seven",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 1.32,
+      "end": 11.26,
+      "text": "written by mary ann morazzi illustrated by rebecca stuff",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 13.48,
+      "end": 16.02,
+      "text": "7 lady bugs",
+      "page": 4
+    },
+    {
+      "start": 15.52,
+      "end": 18.34,
+      "text": "7 spiders",
+      "page": 5
+    },
+    {
+      "start": 17.84,
+      "end": 21.5,
+      "text": "7 frogs",
+      "page": 6
+    },
+    {
+      "start": 21.0,
+      "end": 23.6,
+      "text": "7 lizards",
+      "page": 7
+    },
+    {
+      "start": 23.1,
+      "end": 26.06,
+      "text": "7 snakes",
+      "page": 8
+    },
+    {
+      "start": 25.56,
+      "end": 28.8,
+      "text": "7 snails",
+      "page": 9
+    },
+    {
+      "start": 28.3,
+      "end": 31.04,
+      "text": "7 turtles",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

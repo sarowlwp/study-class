@@ -1,0 +1,83 @@
+{
+  "id": "level-b/healthy-snacks",
+  "title": "Healthy Snacks",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 7.7,
+      "end": 12.96,
+      "text": "focus question what snacks can be healthy",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 12.72,
+      "end": 16.44,
+      "text": "apples can be healthy",
+      "page": 4
+    },
+    {
+      "start": 16.0,
+      "end": 20.14,
+      "text": "celery can be healthy",
+      "page": 5
+    },
+    {
+      "start": 19.7,
+      "end": 23.8,
+      "text": "nuts can be healthy",
+      "page": 6
+    },
+    {
+      "start": 23.36,
+      "end": 27.78,
+      "text": "seeds can be healthy",
+      "page": 7
+    },
+    {
+      "start": 27.28,
+      "end": 31.64,
+      "text": "cheese can be healthy",
+      "page": 8
+    },
+    {
+      "start": 31.14,
+      "end": 35.04,
+      "text": "carrots can be healthy",
+      "page": 9
+    },
+    {
+      "start": 34.54,
+      "end": 39.26,
+      "text": "cereal can be healthy",
+      "page": 10
+    },
+    {
+      "start": 39.36,
+      "end": 43.1,
+      "text": "healthy snacks taste good",
+      "page": 11
+    },
+    {
+      "start": 42.6,
+      "end": 69.9,
+      "text": "connections writing and art what is your favorite healthy snack draw a picture and write about it math sort the foods from the book into different groups share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

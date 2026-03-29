@@ -1,0 +1,83 @@
+{
+  "id": "level-b/the-aquarium",
+  "title": "The Aquarium",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 13.86,
+      "text": "the aquarium written by sarah gooson focus question what is an aquarium",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 13.36,
+      "end": 17.64,
+      "text": "fish swim in this tank raise",
+      "page": 4
+    },
+    {
+      "start": 18.2,
+      "end": 21.44,
+      "text": "glide in this tank",
+      "page": 5
+    },
+    {
+      "start": 21.32,
+      "end": 25.72,
+      "text": "otters turn in this tank",
+      "page": 6
+    },
+    {
+      "start": 25.52,
+      "end": 30.6,
+      "text": "jellyfish float in this tank",
+      "page": 7
+    },
+    {
+      "start": 30.4,
+      "end": 35.46,
+      "text": "turtles eat in this tank",
+      "page": 8
+    },
+    {
+      "start": 35.22,
+      "end": 40.36,
+      "text": "seals flip in this tank",
+      "page": 9
+    },
+    {
+      "start": 40.16,
+      "end": 45.5,
+      "text": "dolphins play in this tank",
+      "page": 10
+    },
+    {
+      "start": 45.0,
+      "end": 50.32,
+      "text": "wale's dive in this tank",
+      "page": 11
+    },
+    {
+      "start": 49.82,
+      "end": 77.24,
+      "text": "connections writing list all the animals from the book then write them in a b c order science what do you know about ocean animals share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

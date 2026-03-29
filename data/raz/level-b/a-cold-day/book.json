@@ -1,0 +1,77 @@
+{
+  "id": "level-b/a-cold-day",
+  "title": "A Cold Day",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 9.6,
+      "end": 12.94,
+      "text": "the air feels cold today",
+      "page": 3
+    },
+    {
+      "start": 12.96,
+      "end": 16.38,
+      "text": "the car feels cold today",
+      "page": 4
+    },
+    {
+      "start": 16.28,
+      "end": 19.98,
+      "text": "the tree feels cold today",
+      "page": 5
+    },
+    {
+      "start": 19.9,
+      "end": 23.48,
+      "text": "the fence feels cold today",
+      "page": 6
+    },
+    {
+      "start": 23.3,
+      "end": 27.52,
+      "text": "the mailbox feels cold today",
+      "page": 7
+    },
+    {
+      "start": 27.84,
+      "end": 31.14,
+      "text": "the male feels cold today",
+      "page": 8
+    },
+    {
+      "start": 31.24,
+      "end": 35.38,
+      "text": "the door handle feels cold today",
+      "page": 9
+    },
+    {
+      "start": 35.42,
+      "end": 39.06,
+      "text": "the hot chocolate feels good today",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

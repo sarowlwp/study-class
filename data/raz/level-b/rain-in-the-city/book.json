@@ -1,0 +1,77 @@
+{
+  "id": "level-b/rain-in-the-city",
+  "title": "Rain In The City",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 7.08,
+      "text": "rain in the city written by anthony carran",
+      "page": 2
+    },
+    {
+      "start": 7.18,
+      "end": 9.46,
+      "text": "i see the clouds",
+      "page": 3
+    },
+    {
+      "start": 9.62,
+      "end": 12.3,
+      "text": "i see the rain",
+      "page": 4
+    },
+    {
+      "start": 12.1,
+      "end": 15.02,
+      "text": "i see the lightning",
+      "page": 5
+    },
+    {
+      "start": 15.3,
+      "end": 18.66,
+      "text": "i see the umbrellas",
+      "page": 6
+    },
+    {
+      "start": 18.72,
+      "end": 21.18,
+      "text": "i see the puddle",
+      "page": 7
+    },
+    {
+      "start": 21.44,
+      "end": 24.14,
+      "text": "i see the drain",
+      "page": 8
+    },
+    {
+      "start": 24.22,
+      "end": 27.1,
+      "text": "i see the rainbow",
+      "page": 9
+    },
+    {
+      "start": 27.1,
+      "end": 30.0,
+      "text": "i see the sun",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

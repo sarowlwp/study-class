@@ -1,0 +1,83 @@
+{
+  "id": "level-aa/yellow",
+  "title": "Yellow",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 9.72,
+      "text": "yellow written by a rachel rice focus question where do you see the color yellow",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 9.9,
+      "end": 11.64,
+      "text": "the yellow bus",
+      "page": 4
+    },
+    {
+      "start": 11.66,
+      "end": 13.6,
+      "text": "the yellow light",
+      "page": 5
+    },
+    {
+      "start": 13.7,
+      "end": 15.8,
+      "text": "the yellow cab",
+      "page": 6
+    },
+    {
+      "start": 15.86,
+      "end": 17.78,
+      "text": "the yellow signs",
+      "page": 7
+    },
+    {
+      "start": 18.1,
+      "end": 19.98,
+      "text": "the yellow truck",
+      "page": 8
+    },
+    {
+      "start": 20.2,
+      "end": 22.18,
+      "text": "the yellow vest",
+      "page": 9
+    },
+    {
+      "start": 22.16,
+      "end": 24.52,
+      "text": "the yellow lines",
+      "page": 10
+    },
+    {
+      "start": 24.62,
+      "end": 26.46,
+      "text": "the yellow hat",
+      "page": 11
+    },
+    {
+      "start": 26.4,
+      "end": 58.28,
+      "text": "connections writing and art think of something that is yellow draw a picture of it and write the following under your picture the yellow math ask each student in class which color is their favorite create a class graph showing how many students like each color",
+      "page": 12
+    }
+  ]
+}

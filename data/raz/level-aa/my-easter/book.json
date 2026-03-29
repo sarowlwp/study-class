@@ -1,0 +1,83 @@
+{
+  "id": "level-aa/my-easter",
+  "title": "My Easter",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 18.42,
+      "text": "my easter written by elizabeth jane pustilnik illustrated by violet lamay focus question what does the girl do on easter",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 19.48,
+      "end": 20.86,
+      "text": "my dress",
+      "page": 4
+    },
+    {
+      "start": 21.4,
+      "end": 23.28,
+      "text": "my hat",
+      "page": 5
+    },
+    {
+      "start": 23.68,
+      "end": 26.24,
+      "text": "my basket",
+      "page": 6
+    },
+    {
+      "start": 26.84,
+      "end": 29.64,
+      "text": "my eggs",
+      "page": 7
+    },
+    {
+      "start": 29.78,
+      "end": 32.56,
+      "text": "my candy",
+      "page": 8
+    },
+    {
+      "start": 32.96,
+      "end": 35.36,
+      "text": "my flowers",
+      "page": 9
+    },
+    {
+      "start": 35.8,
+      "end": 38.38,
+      "text": "my family",
+      "page": 10
+    },
+    {
+      "start": 38.86,
+      "end": 41.7,
+      "text": "my easter",
+      "page": 11
+    },
+    {
+      "start": 41.2,
+      "end": 74.84,
+      "text": "connections writing easter is a holiday what are other holidays make a list with a partner social studies and art pick two holidays draw one way they are the same and one way they are different",
+      "page": 12
+    }
+  ]
+}

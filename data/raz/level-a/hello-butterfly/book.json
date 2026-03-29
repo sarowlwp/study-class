@@ -1,0 +1,77 @@
+{
+  "id": "level-a/hello-butterfly",
+  "title": "Hello Butterfly",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 6.86,
+      "end": 9.12,
+      "text": "hello big butterfly",
+      "page": 3
+    },
+    {
+      "start": 9.54,
+      "end": 12.6,
+      "text": "hello small butterfly",
+      "page": 4
+    },
+    {
+      "start": 13.34,
+      "end": 16.08,
+      "text": "hello red butterfly",
+      "page": 5
+    },
+    {
+      "start": 16.44,
+      "end": 19.66,
+      "text": "hello green butterfly",
+      "page": 6
+    },
+    {
+      "start": 20.16,
+      "end": 23.28,
+      "text": "hello striped butterfly",
+      "page": 7
+    },
+    {
+      "start": 23.56,
+      "end": 26.76,
+      "text": "hello spotted butterfly",
+      "page": 8
+    },
+    {
+      "start": 26.72,
+      "end": 29.86,
+      "text": "hello new butterfly",
+      "page": 9
+    },
+    {
+      "start": 29.78,
+      "end": 32.36,
+      "text": "hello butterfly",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

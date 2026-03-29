@@ -1,0 +1,83 @@
+{
+  "id": "level-aa/these-birds",
+  "title": "These Birds",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 3.34,
+      "end": 14.8,
+      "text": "written by rachel rice focus question how are birds the same and different",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 14.84,
+      "end": 16.94,
+      "text": "these doves",
+      "page": 4
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 5
+    },
+    {
+      "start": 18.74,
+      "end": 20.84,
+      "text": "these crows",
+      "page": 6
+    },
+    {
+      "start": 20.8,
+      "end": 22.98,
+      "text": "these owls",
+      "page": 7
+    },
+    {
+      "start": 22.94,
+      "end": 24.84,
+      "text": "these eagles",
+      "page": 8
+    },
+    {
+      "start": 24.76,
+      "end": 26.9,
+      "text": "these geese",
+      "page": 9
+    },
+    {
+      "start": 26.66,
+      "end": 28.82,
+      "text": "these turkeys",
+      "page": 10
+    },
+    {
+      "start": 28.32,
+      "end": 30.84,
+      "text": "these birds",
+      "page": 11
+    },
+    {
+      "start": 30.82,
+      "end": 54.58,
+      "text": "connections writing and art choose your favorite bird from this book draw a picture of the bird and write a sentence about it science tell a partner to facts you know about birds",
+      "page": 12
+    }
+  ]
+}

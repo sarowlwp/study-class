@@ -1,0 +1,83 @@
+{
+  "id": "level-a/this-feels",
+  "title": "This Feels",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 16.7,
+      "text": "this feels written by gabriel harper illustrated by matt loverich focus question how can things feel",
+      "page": 2
+    },
+    {
+      "start": 16.7,
+      "end": 28.9,
+      "text": "this feels so hard this feels so soft this feels so dry",
+      "page": 3
+    },
+    {
+      "start": 28.9,
+      "end": 41.0,
+      "text": "this feels so wet this feels so rough this feels so smooth",
+      "page": 4
+    },
+    {
+      "start": 41.0,
+      "end": 49.0,
+      "text": "this feels so cold this feels so warm",
+      "page": 5
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 6
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 7
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 8
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 9
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    },
+    {
+      "start": 50.16,
+      "end": 82.64,
+      "text": "connections writing and art make a new sentence for the book draw a picture and write this sentence this feels so science which of the four seasons are shown in this book share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

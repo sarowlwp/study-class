@@ -1,0 +1,77 @@
+{
+  "id": "level-aa/pets",
+  "title": "Pets",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.58,
+      "end": 4.28,
+      "text": "pets written by lisa ing",
+      "page": 2
+    },
+    {
+      "start": 5.06,
+      "end": 8.86,
+      "text": "the cat",
+      "page": 3
+    },
+    {
+      "start": 10.9,
+      "end": 12.32,
+      "text": "the dog",
+      "page": 4
+    },
+    {
+      "start": 12.64,
+      "end": 15.9,
+      "text": "the bunny",
+      "page": 5
+    },
+    {
+      "start": 16.66,
+      "end": 19.22,
+      "text": "the bird",
+      "page": 6
+    },
+    {
+      "start": 21.68,
+      "end": 23.5,
+      "text": "the goldfish",
+      "page": 7
+    },
+    {
+      "start": 24.46,
+      "end": 27.2,
+      "text": "the mouse",
+      "page": 8
+    },
+    {
+      "start": 29.3,
+      "end": 30.62,
+      "text": "the turtle",
+      "page": 9
+    },
+    {
+      "start": 30.94,
+      "end": 34.22,
+      "text": "the hamster",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

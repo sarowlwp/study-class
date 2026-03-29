@@ -1,0 +1,83 @@
+{
+  "id": "level-b/too-high",
+  "title": "Too High",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 16.84,
+      "text": "to high written by gabriel harper illustrated by laura zaryn focus question what is to high for the boy",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 16.96,
+      "end": 21.58,
+      "text": "this chair is to high",
+      "page": 4
+    },
+    {
+      "start": 21.42,
+      "end": 25.82,
+      "text": "this hook is to high",
+      "page": 5
+    },
+    {
+      "start": 25.52,
+      "end": 29.94,
+      "text": "this shelf is to hi",
+      "page": 6
+    },
+    {
+      "start": 30.12,
+      "end": 34.1,
+      "text": "this sink is 2 hi",
+      "page": 7
+    },
+    {
+      "start": 34.12,
+      "end": 38.22,
+      "text": "this tree is 2 hi",
+      "page": 8
+    },
+    {
+      "start": 38.34,
+      "end": 42.12,
+      "text": "this roof is 2 hi",
+      "page": 9
+    },
+    {
+      "start": 42.2,
+      "end": 46.02,
+      "text": "this hoop is 2 hi",
+      "page": 10
+    },
+    {
+      "start": 45.98,
+      "end": 50.0,
+      "text": "this head is just right",
+      "page": 11
+    },
+    {
+      "start": 49.98,
+      "end": 75.08,
+      "text": "connections writing and art what is something that is too high for you draw a picture and label it social studies how would you help the boy share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "level-a/baby-animals",
+  "title": "Baby Animals",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 3.82,
+      "text": "baby animals written by cheryl ryan",
+      "page": 1
+    },
+    {
+      "start": 1.66,
+      "end": 3.82,
+      "text": "written by cheryl ryan",
+      "page": 2
+    },
+    {
+      "start": 4.02,
+      "end": 6.02,
+      "text": "this is a kitten",
+      "page": 3
+    },
+    {
+      "start": 6.38,
+      "end": 8.42,
+      "text": "this is a puppy",
+      "page": 4
+    },
+    {
+      "start": 8.44,
+      "end": 10.56,
+      "text": "this is a chick",
+      "page": 5
+    },
+    {
+      "start": 11.04,
+      "end": 13.18,
+      "text": "this is a cub",
+      "page": 6
+    },
+    {
+      "start": 13.58,
+      "end": 16.02,
+      "text": "this is a calf",
+      "page": 7
+    },
+    {
+      "start": 16.3,
+      "end": 18.68,
+      "text": "this is a kid",
+      "page": 8
+    },
+    {
+      "start": 18.84,
+      "end": 21.5,
+      "text": "this is a lamb",
+      "page": 9
+    },
+    {
+      "start": 21.72,
+      "end": 24.24,
+      "text": "this is a fall",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "level-a/shapes-in-nature",
+  "title": "Shapes In Nature",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 5.3,
+      "text": "shapes in nature written by russ buyak",
+      "page": 2
+    },
+    {
+      "start": 5.6,
+      "end": 7.9,
+      "text": "i see a circle shape",
+      "page": 3
+    },
+    {
+      "start": 8.1,
+      "end": 11.14,
+      "text": "i see a square shape",
+      "page": 4
+    },
+    {
+      "start": 11.12,
+      "end": 14.84,
+      "text": "i see a triangle shape",
+      "page": 5
+    },
+    {
+      "start": 15.0,
+      "end": 18.72,
+      "text": "i see an oval shape",
+      "page": 6
+    },
+    {
+      "start": 18.78,
+      "end": 22.14,
+      "text": "i see a star shape",
+      "page": 7
+    },
+    {
+      "start": 22.12,
+      "end": 25.5,
+      "text": "i see a spiral shape",
+      "page": 8
+    },
+    {
+      "start": 25.58,
+      "end": 28.78,
+      "text": "i see a heart shape",
+      "page": 9
+    },
+    {
+      "start": 28.28,
+      "end": 30.76,
+      "text": "i see shapes",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "level-a/i-love-flowers",
+  "title": "I Love Flowers",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 6.02,
+      "text": "i love flowers written by harriet rosenblum",
+      "page": 2
+    },
+    {
+      "start": 5.92,
+      "end": 8.5,
+      "text": "i love violets",
+      "page": 3
+    },
+    {
+      "start": 8.74,
+      "end": 11.2,
+      "text": "i love lilies",
+      "page": 4
+    },
+    {
+      "start": 11.34,
+      "end": 14.22,
+      "text": "i love daisies",
+      "page": 5
+    },
+    {
+      "start": 14.24,
+      "end": 17.22,
+      "text": "i love sunflowers",
+      "page": 6
+    },
+    {
+      "start": 17.34,
+      "end": 19.98,
+      "text": "i love poppies",
+      "page": 7
+    },
+    {
+      "start": 20.02,
+      "end": 22.72,
+      "text": "i love roses",
+      "page": 8
+    },
+    {
+      "start": 23.08,
+      "end": 25.66,
+      "text": "i love mums",
+      "page": 9
+    },
+    {
+      "start": 25.76,
+      "end": 28.04,
+      "text": "i love flowers",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

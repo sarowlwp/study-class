@@ -1,0 +1,83 @@
+{
+  "id": "level-a/christmas-cookies",
+  "title": "Christmas Cookies",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 18.4,
+      "text": "christmas cookies written by harriet rosenblum focus question how are the cookies in this book the same how are they different",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 18.96,
+      "end": 21.92,
+      "text": "make star cookies",
+      "page": 4
+    },
+    {
+      "start": 21.5,
+      "end": 26.12,
+      "text": "make bell cookies",
+      "page": 5
+    },
+    {
+      "start": 26.34,
+      "end": 29.92,
+      "text": "make snowflake cookies",
+      "page": 6
+    },
+    {
+      "start": 29.78,
+      "end": 33.3,
+      "text": "make tree cookies",
+      "page": 7
+    },
+    {
+      "start": 33.58,
+      "end": 37.14,
+      "text": "make flower cookies",
+      "page": 8
+    },
+    {
+      "start": 37.38,
+      "end": 41.24,
+      "text": "make snowman cookies",
+      "page": 9
+    },
+    {
+      "start": 41.38,
+      "end": 45.5,
+      "text": "make candle cookies",
+      "page": 10
+    },
+    {
+      "start": 45.68,
+      "end": 49.58,
+      "text": "make santa cookies",
+      "page": 11
+    },
+    {
+      "start": 49.58,
+      "end": 93.98,
+      "text": "connections writing and art what is your favorite holiday write about a cookie you would make for that holiday draw a picture of it and write this sentence i make cookies math how many cookies are in the book draw pictures to help you count all the cookies in the book",
+      "page": 12
+    }
+  ]
+}

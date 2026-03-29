@@ -1,0 +1,83 @@
+{
+  "id": "level-a/i-love-pirates",
+  "title": "I Love Pirates",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 17.42,
+      "text": "i love pirates written by ed evans illustrated by rainy seymour focus question where does this story take place",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 17.52,
+      "end": 19.78,
+      "text": "i love the ships",
+      "page": 4
+    },
+    {
+      "start": 19.94,
+      "end": 22.68,
+      "text": "i love the sales",
+      "page": 5
+    },
+    {
+      "start": 22.72,
+      "end": 25.62,
+      "text": "i love the parents",
+      "page": 6
+    },
+    {
+      "start": 25.74,
+      "end": 28.68,
+      "text": "i love the songs",
+      "page": 7
+    },
+    {
+      "start": 28.18,
+      "end": 31.78,
+      "text": "i love the gold",
+      "page": 8
+    },
+    {
+      "start": 31.64,
+      "end": 34.46,
+      "text": "i love the flags",
+      "page": 9
+    },
+    {
+      "start": 34.68,
+      "end": 37.82,
+      "text": "i love the ropes",
+      "page": 10
+    },
+    {
+      "start": 37.88,
+      "end": 40.98,
+      "text": "i love the sea",
+      "page": 11
+    },
+    {
+      "start": 40.48,
+      "end": 67.24,
+      "text": "connections writing and art draw a picture of a pirate then write a sentence about your picture social studies pirates sail on the ocean what do you know about the ocean share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

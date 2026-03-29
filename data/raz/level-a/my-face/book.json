@@ -1,0 +1,77 @@
+{
+  "id": "level-a/my-face",
+  "title": "My Face",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 4.36,
+      "text": "my face written by elizabeth austin",
+      "page": 2
+    },
+    {
+      "start": 4.88,
+      "end": 7.34,
+      "text": "this is my eye",
+      "page": 3
+    },
+    {
+      "start": 7.56,
+      "end": 10.16,
+      "text": "this is my eyebrow",
+      "page": 4
+    },
+    {
+      "start": 10.58,
+      "end": 13.36,
+      "text": "this is my ear",
+      "page": 5
+    },
+    {
+      "start": 13.82,
+      "end": 16.4,
+      "text": "this is my cheek",
+      "page": 6
+    },
+    {
+      "start": 16.82,
+      "end": 19.4,
+      "text": "this is my nose",
+      "page": 7
+    },
+    {
+      "start": 19.62,
+      "end": 22.58,
+      "text": "this is my mouth",
+      "page": 8
+    },
+    {
+      "start": 22.78,
+      "end": 25.66,
+      "text": "this is my chin",
+      "page": 9
+    },
+    {
+      "start": 25.8,
+      "end": 28.78,
+      "text": "this is my face",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

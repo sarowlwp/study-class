@@ -1,0 +1,77 @@
+{
+  "id": "level-a/the-rainstorm",
+  "title": "The Rainstorm",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 7.08,
+      "text": "the rainstorm written by laura tully zwickle",
+      "page": 2
+    },
+    {
+      "start": 7.44,
+      "end": 9.78,
+      "text": "i see the sun",
+      "page": 3
+    },
+    {
+      "start": 10.06,
+      "end": 12.5,
+      "text": "i see the sky",
+      "page": 4
+    },
+    {
+      "start": 12.9,
+      "end": 15.74,
+      "text": "i see the clouds",
+      "page": 5
+    },
+    {
+      "start": 16.34,
+      "end": 18.68,
+      "text": "i see the rain",
+      "page": 6
+    },
+    {
+      "start": 19.14,
+      "end": 21.56,
+      "text": "i see the lightning",
+      "page": 7
+    },
+    {
+      "start": 21.82,
+      "end": 24.38,
+      "text": "i see the puddle",
+      "page": 8
+    },
+    {
+      "start": 24.54,
+      "end": 27.0,
+      "text": "i see the rainbow",
+      "page": 9
+    },
+    {
+      "start": 27.6,
+      "end": 30.2,
+      "text": "i see the sun",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

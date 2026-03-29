@@ -1,0 +1,77 @@
+{
+  "id": "level-a/my-body",
+  "title": "My Body",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 5.92,
+      "end": 8.5,
+      "text": "this is my foot",
+      "page": 3
+    },
+    {
+      "start": 8.76,
+      "end": 11.76,
+      "text": "this is my leg",
+      "page": 4
+    },
+    {
+      "start": 11.82,
+      "end": 14.76,
+      "text": "this is my belly",
+      "page": 5
+    },
+    {
+      "start": 14.98,
+      "end": 18.14,
+      "text": "this is my chest",
+      "page": 6
+    },
+    {
+      "start": 17.64,
+      "end": 20.92,
+      "text": "this is my hand",
+      "page": 7
+    },
+    {
+      "start": 21.02,
+      "end": 24.1,
+      "text": "this is my arm",
+      "page": 8
+    },
+    {
+      "start": 24.08,
+      "end": 26.62,
+      "text": "this is my head",
+      "page": 9
+    },
+    {
+      "start": 26.66,
+      "end": 29.42,
+      "text": "this is my body",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

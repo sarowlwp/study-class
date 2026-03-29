@@ -1,0 +1,83 @@
+{
+  "id": "level-a/a-fish-sees",
+  "title": "A Fish Sees",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 9.02,
+      "text": "a fish sees written by edie evans illustrated by micah chambers goldberg",
+      "page": 1
+    },
+    {
+      "start": 8.8,
+      "end": 16.3,
+      "text": "focus question who is fred how do you know",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 15.8,
+      "end": 19.2,
+      "text": "fred sees a bed",
+      "page": 4
+    },
+    {
+      "start": 18.7,
+      "end": 22.24,
+      "text": "fred sees a hat",
+      "page": 5
+    },
+    {
+      "start": 21.74,
+      "end": 25.44,
+      "text": "fred sees a toy",
+      "page": 6
+    },
+    {
+      "start": 24.94,
+      "end": 28.54,
+      "text": "fred sees a picture",
+      "page": 7
+    },
+    {
+      "start": 28.72,
+      "end": 31.66,
+      "text": "fred sees a lamp",
+      "page": 8
+    },
+    {
+      "start": 31.82,
+      "end": 34.86,
+      "text": "fred sees a cat",
+      "page": 9
+    },
+    {
+      "start": 35.1,
+      "end": 38.0,
+      "text": "fred sees a book",
+      "page": 10
+    },
+    {
+      "start": 38.12,
+      "end": 40.94,
+      "text": "fred sees a friend",
+      "page": 11
+    },
+    {
+      "start": 41.76,
+      "end": 62.04,
+      "text": "connections writing and art what would fred see if he were in your bedroom draw a picture and label what fred would see math create a graph showing the kinds of pets your classmates have at home",
+      "page": 12
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "level-a/who-has-it",
+  "title": "Who Has It",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 8.92,
+      "end": 11.84,
+      "text": "who has it",
+      "page": 3
+    },
+    {
+      "start": 11.1,
+      "end": 13.44,
+      "text": "i have it",
+      "page": 4
+    },
+    {
+      "start": 12.94,
+      "end": 15.64,
+      "text": "you have it",
+      "page": 5
+    },
+    {
+      "start": 15.06,
+      "end": 17.36,
+      "text": "he has it",
+      "page": 6
+    },
+    {
+      "start": 16.82,
+      "end": 19.6,
+      "text": "she has it",
+      "page": 7
+    },
+    {
+      "start": 18.84,
+      "end": 21.8,
+      "text": "they have it",
+      "page": 8
+    },
+    {
+      "start": 21.16,
+      "end": 23.76,
+      "text": "we have it",
+      "page": 9
+    },
+    {
+      "start": 23.24,
+      "end": 26.48,
+      "text": "the dog has it",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

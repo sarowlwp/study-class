@@ -1,0 +1,77 @@
+{
+  "id": "level-b/i-love-art-class",
+  "title": "I Love Art Class",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 2.96,
+      "text": "i love art class",
+      "page": 1
+    },
+    {
+      "start": 3.08,
+      "end": 30.24,
+      "text": "written by keith and sarah kortomarton illustrated by marilyn",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 4
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 5
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 6
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 7
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 8
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 9
+    },
+    {
+      "start": 29.76,
+      "end": 33.74,
+      "text": "i love art class",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

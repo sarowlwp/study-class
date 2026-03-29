@@ -1,0 +1,83 @@
+{
+  "id": "level-aa/purple",
+  "title": "Purple",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 3.7,
+      "text": "purple written by rachel rice",
+      "page": 1
+    },
+    {
+      "start": 4.46,
+      "end": 9.5,
+      "text": "focus question where do you see purple at the beach",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 10.06,
+      "end": 11.68,
+      "text": "a purple shirt",
+      "page": 4
+    },
+    {
+      "start": 11.99,
+      "end": 13.94,
+      "text": "a purple hat",
+      "page": 5
+    },
+    {
+      "start": 14.0,
+      "end": 16.22,
+      "text": "a purple flip -slop",
+      "page": 6
+    },
+    {
+      "start": 16.32,
+      "end": 18.36,
+      "text": "a purple ball",
+      "page": 7
+    },
+    {
+      "start": 18.4,
+      "end": 20.22,
+      "text": "a purple towel",
+      "page": 8
+    },
+    {
+      "start": 20.54,
+      "end": 23.0,
+      "text": "a purple backpack",
+      "page": 9
+    },
+    {
+      "start": 22.7,
+      "end": 24.98,
+      "text": "a purple bucket",
+      "page": 10
+    },
+    {
+      "start": 24.98,
+      "end": 27.52,
+      "text": "a purple ice pot",
+      "page": 11
+    },
+    {
+      "start": 27.38,
+      "end": 58.69,
+      "text": "connections writing and art would you rather take a trip to the beach or the mountains why draw a picture and write about your choice science pretend you are at the beach use your five senses to describe to a partner what you see hear smell taste and feel",
+      "page": 12
+    }
+  ]
+}

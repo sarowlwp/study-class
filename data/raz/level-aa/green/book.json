@@ -1,0 +1,83 @@
+{
+  "id": "level-aa/green",
+  "title": "Green",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 1.66,
+      "end": 10.38,
+      "text": "written by rachel rice focus question where can you find green in nature",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 10.44,
+      "end": 12.6,
+      "text": "this green snake",
+      "page": 4
+    },
+    {
+      "start": 12.66,
+      "end": 14.74,
+      "text": "this green leaf",
+      "page": 5
+    },
+    {
+      "start": 14.86,
+      "end": 17.16,
+      "text": "this green moss",
+      "page": 6
+    },
+    {
+      "start": 17.2,
+      "end": 19.72,
+      "text": "this green frog",
+      "page": 7
+    },
+    {
+      "start": 19.72,
+      "end": 22.12,
+      "text": "this green bird",
+      "page": 8
+    },
+    {
+      "start": 22.08,
+      "end": 24.68,
+      "text": "this green insect",
+      "page": 9
+    },
+    {
+      "start": 24.78,
+      "end": 26.82,
+      "text": "this green lizard",
+      "page": 10
+    },
+    {
+      "start": 27.18,
+      "end": 29.54,
+      "text": "this green forest",
+      "page": 11
+    },
+    {
+      "start": 29.04,
+      "end": 56.62,
+      "text": "connections writing and art think of something else that is green and found in nature draw a picture of it and label it science compare two animals from the book tell a partner how they are the same and how they are different",
+      "page": 12
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "level-b/lazy-lulu",
+  "title": "Lazy Lulu",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 13.0,
+      "text": "lazy lulu written by ed evans illustrated by carlos arbat",
+      "page": 2
+    },
+    {
+      "start": 15.1,
+      "end": 20.8,
+      "text": "focus question when is lulu not lazy one",
+      "page": 3
+    },
+    {
+      "start": 21.5,
+      "end": 26.0,
+      "text": "lazy lulu sees a leaf",
+      "page": 4
+    },
+    {
+      "start": 26.32,
+      "end": 30.62,
+      "text": "the leaf blows by lazy",
+      "page": 5
+    },
+    {
+      "start": 30.34,
+      "end": 33.84,
+      "text": "lulu sees a feather",
+      "page": 6
+    },
+    {
+      "start": 35.02,
+      "end": 38.74,
+      "text": "the feather blows by lazy",
+      "page": 7
+    },
+    {
+      "start": 39.14,
+      "end": 44.0,
+      "text": "lulu sees a seed",
+      "page": 8
+    },
+    {
+      "start": 44.12,
+      "end": 48.78,
+      "text": "the scene blows by lazy",
+      "page": 9
+    },
+    {
+      "start": 48.78,
+      "end": 52.68,
+      "text": "lulu sees a fly",
+      "page": 10
+    },
+    {
+      "start": 52.36,
+      "end": 59.44,
+      "text": "lulu is not so lazy after all",
+      "page": 11
+    },
+    {
+      "start": 61.0,
+      "end": 94.78,
+      "text": "connections writing and art what is another animal that can be lazy like lulu draw a picture and write about it science what kind of animal is lulu where do animals like lulu live share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

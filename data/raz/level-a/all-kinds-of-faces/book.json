@@ -1,0 +1,77 @@
+{
+  "id": "level-a/all-kinds-of-faces",
+  "title": "All Kinds Of Faces",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 4.26,
+      "end": 6.14,
+      "text": "this face is happy",
+      "page": 3
+    },
+    {
+      "start": 6.3,
+      "end": 8.2,
+      "text": "this face is sad",
+      "page": 4
+    },
+    {
+      "start": 8.34,
+      "end": 10.32,
+      "text": "this face is sorry",
+      "page": 5
+    },
+    {
+      "start": 10.5,
+      "end": 12.6,
+      "text": "this face is excited",
+      "page": 6
+    },
+    {
+      "start": 12.78,
+      "end": 14.74,
+      "text": "this face is scared",
+      "page": 7
+    },
+    {
+      "start": 14.86,
+      "end": 16.88,
+      "text": "this face is shy",
+      "page": 8
+    },
+    {
+      "start": 17.48,
+      "end": 19.58,
+      "text": "this face is mad",
+      "page": 9
+    },
+    {
+      "start": 19.56,
+      "end": 21.44,
+      "text": "this face is sleepy",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

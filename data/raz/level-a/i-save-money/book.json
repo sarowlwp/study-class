@@ -1,0 +1,77 @@
+{
+  "id": "level-a/i-save-money",
+  "title": "I Save Money",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 4.9,
+      "end": 6.14,
+      "text": "i save a penny",
+      "page": 3
+    },
+    {
+      "start": 6.18,
+      "end": 7.66,
+      "text": "i save a nickel",
+      "page": 4
+    },
+    {
+      "start": 7.78,
+      "end": 9.42,
+      "text": "i save a dime",
+      "page": 5
+    },
+    {
+      "start": 9.24,
+      "end": 11.0,
+      "text": "i save a quarter",
+      "page": 6
+    },
+    {
+      "start": 10.98,
+      "end": 12.94,
+      "text": "i save a dollar",
+      "page": 7
+    },
+    {
+      "start": 12.98,
+      "end": 15.08,
+      "text": "i save five dollars",
+      "page": 8
+    },
+    {
+      "start": 15.22,
+      "end": 16.88,
+      "text": "i save $10",
+      "page": 9
+    },
+    {
+      "start": 17.3,
+      "end": 18.84,
+      "text": "i save money",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

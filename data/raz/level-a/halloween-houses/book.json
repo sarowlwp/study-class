@@ -1,0 +1,83 @@
+{
+  "id": "level-a/halloween-houses",
+  "title": "Halloween Houses",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 21.34,
+      "text": "halloween houses written by sarah guson illustrated by teresa martinez focus question what can you see on halloween",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 20.84,
+      "end": 25.68,
+      "text": "this house has pumpkins",
+      "page": 4
+    },
+    {
+      "start": 25.18,
+      "end": 29.9,
+      "text": "this house has bats",
+      "page": 5
+    },
+    {
+      "start": 29.74,
+      "end": 33.56,
+      "text": "this house has candles",
+      "page": 6
+    },
+    {
+      "start": 33.8,
+      "end": 37.44,
+      "text": "this house has webs",
+      "page": 7
+    },
+    {
+      "start": 37.64,
+      "end": 41.3,
+      "text": "this house has ghosts",
+      "page": 8
+    },
+    {
+      "start": 41.34,
+      "end": 45.08,
+      "text": "this house has fog",
+      "page": 9
+    },
+    {
+      "start": 45.28,
+      "end": 49.26,
+      "text": "this house has monsters",
+      "page": 10
+    },
+    {
+      "start": 49.5,
+      "end": 53.3,
+      "text": "this house has mom",
+      "page": 11
+    },
+    {
+      "start": 52.8,
+      "end": 80.32,
+      "text": "connections writing and art how would you decorate a house for halloween draw a picture and write about it social studies when is halloween find the date on a calendar",
+      "page": 12
+    }
+  ]
+}

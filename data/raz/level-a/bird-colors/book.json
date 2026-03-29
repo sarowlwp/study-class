@@ -1,0 +1,89 @@
+{
+  "id": "level-a/bird-colors",
+  "title": "Bird Colors",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 13,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 5.5,
+      "end": 7.88,
+      "text": "this bird is green",
+      "page": 3
+    },
+    {
+      "start": 7.88,
+      "end": 10.44,
+      "text": "this bird is yellow",
+      "page": 4
+    },
+    {
+      "start": 10.66,
+      "end": 12.94,
+      "text": "this bird is red",
+      "page": 5
+    },
+    {
+      "start": 12.92,
+      "end": 15.38,
+      "text": "this bird is blue",
+      "page": 6
+    },
+    {
+      "start": 15.46,
+      "end": 17.98,
+      "text": "this bird is purple",
+      "page": 7
+    },
+    {
+      "start": 17.98,
+      "end": 20.42,
+      "text": "this bird is pink",
+      "page": 8
+    },
+    {
+      "start": 20.42,
+      "end": 23.0,
+      "text": "this bird is brown",
+      "page": 9
+    },
+    {
+      "start": 22.98,
+      "end": 25.78,
+      "text": "this bird is orange",
+      "page": 10
+    },
+    {
+      "start": 26.32,
+      "end": 28.4,
+      "text": "this bird is gray",
+      "page": 11
+    },
+    {
+      "start": 28.38,
+      "end": 31.38,
+      "text": "this bird is many colors",
+      "page": 12
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 13
+    }
+  ]
+}
