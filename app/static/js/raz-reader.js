@@ -283,6 +283,11 @@ function goToPage(pageNum) {
     currentPage = pageNum;
     renderPage(currentPage);
     updateUI();
+
+    // 翻页后自动播放当前页内容
+    setTimeout(() => {
+        playCurrentPage();
+    }, 500); // 延迟 500ms 后自动播放，确保页面渲染完成
 }
 
 function nextPage() {
@@ -598,9 +603,20 @@ function showToast(result) {
     }
 
     toast?.classList.add('show');
-    setTimeout(() => {
-        toast?.classList.remove('show');
-    }, 4000);
+    // 移除自动隐藏的定时器，改为用户点击后消失
+    if (toast) {
+        toast.style.pointerEvents = 'auto'; // 允许点击
+        toast.addEventListener('click', hideToastOnClick);
+    }
+}
+
+// 点击 Toast 隐藏
+function hideToastOnClick() {
+    if (toast) {
+        toast.classList.remove('show');
+        toast.removeEventListener('click', hideToastOnClick);
+        toast.style.pointerEvents = 'none'; // 恢复不可点击状态
+    }
 }
 
 // 加载状态
