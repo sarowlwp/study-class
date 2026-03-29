@@ -9,7 +9,7 @@
   "sentences": [
     {
       "start": 0.0,
-      "end": 10.88,
+      "end": 11.54,
       "text": "colorful eggs written by katie anderson illustrated by luciana navarro powell",
       "page": 1
     },
@@ -20,14 +20,14 @@
       "page": 2
     },
     {
-      "start": 37.28,
-      "end": 39.42,
+      "start": 36.9,
+      "end": 40.3,
       "text": "a purple egg",
       "page": 3
     },
     {
-      "start": 50.12,
-      "end": 53.98,
+      "start": 51.92,
+      "end": 54.16,
       "text": "a green egg",
       "page": 4
     },
@@ -38,8 +38,8 @@
       "page": 5
     },
     {
-      "start": 64.76,
-      "end": 68.66,
+      "start": 66.34,
+      "end": 68.88,
       "text": "a colorful egg",
       "page": 6
     }

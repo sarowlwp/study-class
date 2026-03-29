@@ -8,15 +8,15 @@
   "page_count": 12,
   "sentences": [
     {
-      "start": 0.0,
-      "end": 4.18,
-      "text": "blue written by rachel rice",
+      "start": null,
+      "end": null,
+      "text": "",
       "page": 1
     },
     {
-      "start": 5.14,
-      "end": 11.78,
-      "text": "focus question where do you see the color blue outside",
+      "start": 0.0,
+      "end": 12.12,
+      "text": "blue written by rachel rice focus question where do you see the color blue outside",
       "page": 2
     },
     {
@@ -32,51 +32,51 @@
       "page": 4
     },
     {
-      "start": 12.32,
-      "end": 16.94,
-      "text": "the blue helmet",
+      "start": 12.52,
+      "end": 17.5,
+      "text": "the blue sky the blue helmet",
       "page": 5
     },
     {
-      "start": 17.58,
-      "end": 19.5,
+      "start": 17.64,
+      "end": 19.82,
       "text": "the blue bike",
       "page": 6
     },
     {
-      "start": 19.96,
-      "end": 22.12,
+      "start": 20.18,
+      "end": 22.52,
       "text": "the blue bottle",
       "page": 7
     },
     {
-      "start": 22.6,
-      "end": 24.76,
+      "start": 22.82,
+      "end": 25.34,
       "text": "the blue bench",
       "page": 8
     },
     {
-      "start": 25.16,
-      "end": 27.38,
+      "start": 24.84,
+      "end": 28.06,
       "text": "the blue swing",
       "page": 9
     },
     {
-      "start": 27.62,
-      "end": 30.26,
+      "start": 28.26,
+      "end": 30.84,
       "text": "the blue slide",
       "page": 10
     },
     {
-      "start": 30.72,
-      "end": 33.28,
-      "text": "the blue playground",
+      "start": 30.88,
+      "end": 33.84,
+      "text": "the blue playground connections",
       "page": 11
     },
     {
-      "start": 34.0,
-      "end": 57.9,
-      "text": "connections writing and art think of something you see outside that is blue draw a picture and label it science how how do you use your five senses when playing outside share your ideas with a partner",
+      "start": 36.3,
+      "end": 58.21,
+      "text": "writing and art think of something you see outside that is blue draw a picture and label it science how do you use your five senses when playing outside share your ideas with a partner",
       "page": 12
     }
   ]

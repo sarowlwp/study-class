@@ -14,14 +14,14 @@
       "page": 1
     },
     {
-      "start": 0.0,
-      "end": 7.36,
-      "text": "big written by cheryl ryan illustrated by joe bodie",
+      "start": 1.32,
+      "end": 7.08,
+      "text": "written by cheryl ryan illustrated by joe boddy",
       "page": 2
     },
     {
-      "start": 9.18,
-      "end": 11.64,
+      "start": 10.12,
+      "end": 11.9,
       "text": "a big house",
       "page": 3
     },
@@ -32,9 +32,9 @@
       "page": 4
     },
     {
-      "start": 17.1,
-      "end": 19.52,
-      "text": "a big car",
+      "start": 14.12,
+      "end": 15.94,
+      "text": "a big dog",
       "page": 5
     },
     {
@@ -44,26 +44,26 @@
       "page": 6
     },
     {
-      "start": 25.92,
-      "end": 27.5,
+      "start": 25.24,
+      "end": 27.86,
       "text": "a big plane",
       "page": 7
     },
     {
-      "start": 28.7,
-      "end": 31.88,
+      "start": 29.78,
+      "end": 32.38,
       "text": "a big tree",
       "page": 8
     },
     {
-      "start": 32.92,
-      "end": 36.1,
+      "start": 34.54,
+      "end": 36.28,
       "text": "a big elephant",
       "page": 9
     },
     {
-      "start": 37.08,
-      "end": 40.64,
+      "start": 38.76,
+      "end": 40.38,
       "text": "a big dinosaur",
       "page": 10
     },

@@ -129,10 +129,21 @@ class RazSyncProcessor:
 
             # Step 1: 处理 PDF -> pdf_text.json
             logger.info("Step 1/3: Extracting PDF text...")
-            pages = self._process_pdf(pdf_path)
-            if not pages:
-                logger.error("PDF processing failed")
-                return False
+
+            # 检查是否已有 pdf_text.json，有则直接加载
+            pdf_text_path = work_dir / PDF_TEXT_JSON
+            if pdf_text_path.exists() and not force:
+                logger.info(f"Loading existing pdf_text.json: {pdf_text_path}")
+                import json
+                with open(pdf_text_path, "r", encoding="utf-8") as f:
+                    data = json.load(f)
+                    pages = [PageText(page_num=p["page"], text=p["text"]) for p in data["pages"]]
+            else:
+                # 否则处理 PDF
+                pages = self._process_pdf(pdf_path)
+                if not pages:
+                    logger.error("PDF processing failed")
+                    return False
 
             # Step 1.5: 提取封面图片 -> cover.jpg
             logger.info("Step 1.5: Extracting cover image...")
@@ -157,10 +168,12 @@ class RazSyncProcessor:
             logger.info("Step 3/3: Generating output files...")
             generator = SyncGenerator(work_dir)
 
-            # 3.1 生成 pdf_text.json
-            pdf_text_path = generator.generate_pdf_text_json(
-                pages, book_id, title, level
-            )
+            # 3.1 生成 pdf_text.json（如果不存在）
+            pdf_text_path = work_dir / PDF_TEXT_JSON
+            if not pdf_text_path.exists() or force:
+                pdf_text_path = generator.generate_pdf_text_json(
+                    pages, book_id, title, level
+                )
 
             # 3.2 生成 word_timings.json (无 page 信息)
             word_timings_path = generator.generate_word_timings_simple(
