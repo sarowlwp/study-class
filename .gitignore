@@ -11,6 +11,9 @@ data/raz/**/p*.json
 data/raz/**/w*.json
 data/raz/**/*.html
 
+scripts/*.py
+scripts/*.sh
+
 # Python
 __pycache__/
 *.py[cod]
