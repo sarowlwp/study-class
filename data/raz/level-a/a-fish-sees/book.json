@@ -1,0 +1,83 @@
+{
+  "id": "level-a/a-fish-sees",
+  "title": "A Fish Sees",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 16.02,
+      "end": 19.2,
+      "text": "fred sees a bed",
+      "page": 4
+    },
+    {
+      "start": 18.92,
+      "end": 22.32,
+      "text": "fred sees a hat",
+      "page": 5
+    },
+    {
+      "start": 22.04,
+      "end": 25.44,
+      "text": "fred sees a toy",
+      "page": 6
+    },
+    {
+      "start": 25.16,
+      "end": 28.52,
+      "text": "fred sees a picture",
+      "page": 7
+    },
+    {
+      "start": 28.24,
+      "end": 31.66,
+      "text": "fred sees a lamp",
+      "page": 8
+    },
+    {
+      "start": 32.14,
+      "end": 34.84,
+      "text": "fred sees a cat",
+      "page": 9
+    },
+    {
+      "start": 35.34,
+      "end": 37.98,
+      "text": "fred sees a book",
+      "page": 10
+    },
+    {
+      "start": 38.66,
+      "end": 40.92,
+      "text": "fred sees a friend",
+      "page": 11
+    },
+    {
+      "start": 41.4,
+      "end": 62.04,
+      "text": "connections writing and art what would fred see if he were in your bedroom draw a picture and label what fred would see math create a graph showing the kinds of pets your classmates have at home",
+      "page": 12
+    }
+  ]
+}

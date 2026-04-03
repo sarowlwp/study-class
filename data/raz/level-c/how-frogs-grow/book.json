@@ -1,0 +1,77 @@
+{
+  "id": "level-c/how-frogs-grow",
+  "title": "How Frogs Grow",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 10.08,
+      "text": "how frogs grow written by russ buyak illustrated by lian schneider",
+      "page": 2
+    },
+    {
+      "start": 11.64,
+      "end": 15.5,
+      "text": "a frog lays eggs in water",
+      "page": 3
+    },
+    {
+      "start": 17.22,
+      "end": 21.26,
+      "text": "tadpoles come out of the eggs",
+      "page": 4
+    },
+    {
+      "start": 23.34,
+      "end": 26.52,
+      "text": "the tadpoles have long tails",
+      "page": 5
+    },
+    {
+      "start": 28.52,
+      "end": 32.46,
+      "text": "the tadpoles grow back legs",
+      "page": 6
+    },
+    {
+      "start": 34.5,
+      "end": 38.24,
+      "text": "the tadpoles grow front legs",
+      "page": 7
+    },
+    {
+      "start": 40.28,
+      "end": 43.24,
+      "text": "the tadpoles are now",
+      "page": 8
+    },
+    {
+      "start": 44.8,
+      "end": 53.42,
+      "text": "the froglets grow and grow their tails get smaller and smaller",
+      "page": 9
+    },
+    {
+      "start": 55.18,
+      "end": 58.78,
+      "text": "the froglets are now frogs",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

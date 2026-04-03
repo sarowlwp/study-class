@@ -1,0 +1,77 @@
+{
+  "id": "level-a/you-can-dance",
+  "title": "You Can Dance",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 10.4,
+      "text": "you can dance written by analisha banner illustrated by joanne liu retoff",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 11.0,
+      "end": 12.6,
+      "text": "you can hop",
+      "page": 3
+    },
+    {
+      "start": 13.32,
+      "end": 14.84,
+      "text": "you can bend",
+      "page": 4
+    },
+    {
+      "start": 15.6,
+      "end": 17.14,
+      "text": "you can step",
+      "page": 5
+    },
+    {
+      "start": 17.9,
+      "end": 19.62,
+      "text": "you can prance",
+      "page": 6
+    },
+    {
+      "start": 20.4,
+      "end": 22.22,
+      "text": "you can skip",
+      "page": 7
+    },
+    {
+      "start": 22.86,
+      "end": 24.46,
+      "text": "you can leap",
+      "page": 8
+    },
+    {
+      "start": 25.24,
+      "end": 26.94,
+      "text": "you can spin",
+      "page": 9
+    },
+    {
+      "start": 27.92,
+      "end": 29.48,
+      "text": "you can dance",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

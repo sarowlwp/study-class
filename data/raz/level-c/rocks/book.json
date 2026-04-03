@@ -1,0 +1,77 @@
+{
+  "id": "level-c/rocks",
+  "title": "Rocks",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 3.52,
+      "text": "rocks written by kitty higgins",
+      "page": 2
+    },
+    {
+      "start": 4.3,
+      "end": 6.32,
+      "text": "this is a mountain",
+      "page": 3
+    },
+    {
+      "start": 6.94,
+      "end": 9.86,
+      "text": "a mountain is made of rock",
+      "page": 4
+    },
+    {
+      "start": 10.5,
+      "end": 15.78,
+      "text": "this is a boulder it broke off the mountain",
+      "page": 5
+    },
+    {
+      "start": 16.34,
+      "end": 22.18,
+      "text": "this is a stone it broke off the boulder",
+      "page": 6
+    },
+    {
+      "start": 22.44,
+      "end": 27.8,
+      "text": "this is a pebble it broke off the stone",
+      "page": 7
+    },
+    {
+      "start": 27.8,
+      "end": 33.36,
+      "text": "this is sand it broke off the pebble",
+      "page": 8
+    },
+    {
+      "start": 33.66,
+      "end": 35.76,
+      "text": "this is dust",
+      "page": 9
+    },
+    {
+      "start": 35.98,
+      "end": 43.04,
+      "text": "dust is the tiniest piece of rock dust is everywhere",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

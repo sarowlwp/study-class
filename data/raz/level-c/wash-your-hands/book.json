@@ -1,0 +1,83 @@
+{
+  "id": "level-c/wash-your-hands",
+  "title": "Wash Your Hands",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 10.18,
+      "text": "wash your hands written by sarah guzon focus question when should you wash your hands",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 10.96,
+      "end": 13.82,
+      "text": "wash your hands before you eat",
+      "page": 4
+    },
+    {
+      "start": 14.6,
+      "end": 17.4,
+      "text": "wash your hands after you sneeze",
+      "page": 5
+    },
+    {
+      "start": 18.08,
+      "end": 21.98,
+      "text": "wash your hands after you use the bathroom",
+      "page": 6
+    },
+    {
+      "start": 22.64,
+      "end": 25.56,
+      "text": "wash your hands after you dig",
+      "page": 7
+    },
+    {
+      "start": 26.36,
+      "end": 29.32,
+      "text": "wash your hands after you paint",
+      "page": 8
+    },
+    {
+      "start": 30.18,
+      "end": 33.64,
+      "text": "wash your hands after you pet a dog",
+      "page": 9
+    },
+    {
+      "start": 34.38,
+      "end": 37.16,
+      "text": "wash your hands after you play",
+      "page": 10
+    },
+    {
+      "start": 37.9,
+      "end": 43.58,
+      "text": "wash front and back wash between your fingers too",
+      "page": 11
+    },
+    {
+      "start": 43.98,
+      "end": 71.34,
+      "text": "connections writing and art make a new page for this book draw a picture showing a time when you should wash your hands complete the sentence wash your hands social studies why is it important to wash your hands share your ideas with your class",
+      "page": 12
+    }
+  ]
+}

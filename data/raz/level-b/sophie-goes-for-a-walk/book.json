@@ -1,0 +1,83 @@
+{
+  "id": "level-b/sophie-goes-for-a-walk",
+  "title": "Sophie Goes For A Walk",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 23.14,
+      "text": "sophie goes for a walk written by sarah gooseon illustrated by martin fagan focus question what does sophie sniff on her walk",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 23.36,
+      "end": 28.02,
+      "text": "sophie sniffs the long leash",
+      "page": 4
+    },
+    {
+      "start": 27.52,
+      "end": 33.14,
+      "text": "sophie sniffs the cut grass",
+      "page": 5
+    },
+    {
+      "start": 33.48,
+      "end": 37.82,
+      "text": "sophie sniffs the fat cat",
+      "page": 6
+    },
+    {
+      "start": 38.34,
+      "end": 43.08,
+      "text": "sophie sniffs the fresh pie",
+      "page": 7
+    },
+    {
+      "start": 43.4,
+      "end": 48.58,
+      "text": "sophie sniffs the jumpy male man",
+      "page": 8
+    },
+    {
+      "start": 48.84,
+      "end": 53.28,
+      "text": "sophie sniffs the hot steak",
+      "page": 9
+    },
+    {
+      "start": 52.78,
+      "end": 58.34,
+      "text": "sophie sniffs the big skunk",
+      "page": 10
+    },
+    {
+      "start": 58.46,
+      "end": 63.06,
+      "text": "sophie sniffs the new friend",
+      "page": 11
+    },
+    {
+      "start": 63.42,
+      "end": 100.16,
+      "text": "connections writing and art what else could sophie sniff on a walk draw a picture and write this sentence sophie sniffs the science how could you sort what sophie sniffs into two groups share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

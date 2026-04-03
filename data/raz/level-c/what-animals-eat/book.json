@@ -1,0 +1,77 @@
+{
+  "id": "level-c/what-animals-eat",
+  "title": "What Animals Eat",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 9.08,
+      "text": "what animals eat written by cheryl ryan illustrated by joe bowdy",
+      "page": 2
+    },
+    {
+      "start": 9.36,
+      "end": 14.96,
+      "text": "cows like to eat grass munch munch",
+      "page": 3
+    },
+    {
+      "start": 15.5,
+      "end": 21.42,
+      "text": "birds like to eat seeds crunch crunch",
+      "page": 4
+    },
+    {
+      "start": 21.62,
+      "end": 27.72,
+      "text": "pandas like to eat leaves munch munch",
+      "page": 5
+    },
+    {
+      "start": 27.44,
+      "end": 35.24,
+      "text": "frogs like to eat bugs zap zap",
+      "page": 6
+    },
+    {
+      "start": 35.86,
+      "end": 41.76,
+      "text": "monkeys like to eat fruit slurp slurp",
+      "page": 7
+    },
+    {
+      "start": 42.18,
+      "end": 48.12,
+      "text": "seals like to eat fish gulp gulp",
+      "page": 8
+    },
+    {
+      "start": 47.62,
+      "end": 56.46,
+      "text": "goats like to eat everything hey stop that's my sock",
+      "page": 9
+    },
+    {
+      "start": 55.96,
+      "end": 65.14,
+      "text": "hey stop that's my shoe hey stop that's my book",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "level-b/animal-caution-signs",
+  "title": "Animal Caution Signs",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 14,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 16.74,
+      "text": "animal caution signs written by craig frederick focus question what are animal caution signs and why are they important",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 16.98,
+      "end": 21.02,
+      "text": "caution watch for ducks",
+      "page": 4
+    },
+    {
+      "start": 21.14,
+      "end": 25.02,
+      "text": "caution watch for cattle",
+      "page": 5
+    },
+    {
+      "start": 25.16,
+      "end": 29.24,
+      "text": "caution watch for deer koshan",
+      "page": 6
+    },
+    {
+      "start": 29.9,
+      "end": 34.36,
+      "text": "watch for moose koshan",
+      "page": 7
+    },
+    {
+      "start": 35.12,
+      "end": 39.36,
+      "text": "watch for kangaroos koshan",
+      "page": 8
+    },
+    {
+      "start": 39.64,
+      "end": 43.96,
+      "text": "watch for elephants koshan",
+      "page": 9
+    },
+    {
+      "start": 44.38,
+      "end": 48.46,
+      "text": "watch for monkeys koshan",
+      "page": 10
+    },
+    {
+      "start": 48.76,
+      "end": 53.04,
+      "text": "watch for turtles koshan",
+      "page": 11
+    },
+    {
+      "start": 53.34,
+      "end": 57.74,
+      "text": "watch for chickens caution",
+      "page": 12
+    },
+    {
+      "start": 57.66,
+      "end": 62.52,
+      "text": "watch for animals",
+      "page": 13
+    },
+    {
+      "start": 62.62,
+      "end": 100.0,
+      "text": "connections writing and art make a new animal caution sign for this book draw a picture and label it caution watch for science how are the animals in this book alike how are they different share your answers with a partner",
+      "page": 14
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "level-b/paint-it-purple",
+  "title": "Paint It Purple",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 9.02,
+      "end": 11.5,
+      "text": "i like purple paint",
+      "page": 3
+    },
+    {
+      "start": 11.48,
+      "end": 14.12,
+      "text": "i paint my swing purple",
+      "page": 4
+    },
+    {
+      "start": 14.2,
+      "end": 16.76,
+      "text": "i paint the fence purple",
+      "page": 5
+    },
+    {
+      "start": 16.96,
+      "end": 19.5,
+      "text": "i paint the hose purple",
+      "page": 6
+    },
+    {
+      "start": 19.6,
+      "end": 22.26,
+      "text": "i paint my shoes purple",
+      "page": 7
+    },
+    {
+      "start": 22.32,
+      "end": 25.1,
+      "text": "i paint the grass purple",
+      "page": 8
+    },
+    {
+      "start": 25.14,
+      "end": 27.72,
+      "text": "i paint the door purple",
+      "page": 9
+    },
+    {
+      "start": 27.22,
+      "end": 33.88,
+      "text": "i paint my mom purple mom does not like purple paint",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

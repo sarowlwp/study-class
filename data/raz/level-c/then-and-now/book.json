@@ -1,0 +1,83 @@
+{
+  "id": "level-c/then-and-now",
+  "title": "Then And Now",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 17.2,
+      "text": "then and now written by craig frederick focus question how have things changed over time",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 17.06,
+      "end": 27.38,
+      "text": "this is an old light bulb this is a new light bulb",
+      "page": 4
+    },
+    {
+      "start": 28.1,
+      "end": 36.56,
+      "text": "this is an old camera this is a new camera",
+      "page": 5
+    },
+    {
+      "start": 36.6,
+      "end": 46.84,
+      "text": "this is an old cell phone this is a new cell phone",
+      "page": 6
+    },
+    {
+      "start": 47.06,
+      "end": 56.46,
+      "text": "this is an old television this is a new television",
+      "page": 7
+    },
+    {
+      "start": 56.84,
+      "end": 65.98,
+      "text": "this is an old computer this is a new computer",
+      "page": 8
+    },
+    {
+      "start": 66.3,
+      "end": 75.5,
+      "text": "this is an old car this is a new car",
+      "page": 9
+    },
+    {
+      "start": 75.92,
+      "end": 84.28,
+      "text": "this is an old train this is a new train",
+      "page": 10
+    },
+    {
+      "start": 84.58,
+      "end": 93.54,
+      "text": "this is an old plane this is a new plane",
+      "page": 11
+    },
+    {
+      "start": 93.62,
+      "end": 138.56,
+      "text": "connections writing and art pick one old and one new item from the book draw a picture and write about one way they are alike and one way they are different social studies why is it important for things to change over time what would happen if nothing changed share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

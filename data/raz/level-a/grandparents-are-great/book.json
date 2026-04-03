@@ -1,0 +1,83 @@
+{
+  "id": "level-a/grandparents-are-great",
+  "title": "Grandparents Are Great",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 16.64,
+      "text": "grandparents are great written by elizabeth jane pustilnik focus question what makes grandparents great",
+      "page": 2
+    },
+    {
+      "start": 17.42,
+      "end": 20.28,
+      "text": "some grandparents cook",
+      "page": 4
+    },
+    {
+      "start": 20.28,
+      "end": 24.04,
+      "text": "some grandparents swim",
+      "page": 5
+    },
+    {
+      "start": 24.04,
+      "end": 27.66,
+      "text": "some grandparents hike",
+      "page": 6
+    },
+    {
+      "start": 27.66,
+      "end": 31.16,
+      "text": "some grand parents golf",
+      "page": 7
+    },
+    {
+      "start": 31.96,
+      "end": 34.7,
+      "text": "some grand parents so",
+      "page": 8
+    },
+    {
+      "start": 35.16,
+      "end": 38.28,
+      "text": "some grand parents garden",
+      "page": 9
+    },
+    {
+      "start": 39.12,
+      "end": 41.96,
+      "text": "some grand parents paint",
+      "page": 10
+    },
+    {
+      "start": 42.66,
+      "end": 45.6,
+      "text": "some grand parents read",
+      "page": 11
+    },
+    {
+      "start": 46.2,
+      "end": 73.2,
+      "text": "connections writing and art what can kids do with their grand parents make another page for the book social studies what can kids learn from grandparents share your ideas with a partner",
+      "page": 12
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    }
+  ]
+}

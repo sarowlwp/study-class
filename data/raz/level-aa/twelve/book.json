@@ -1,0 +1,83 @@
+{
+  "id": "level-aa/twelve",
+  "title": "Twelve",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 15.58,
+      "text": "12 written by rachel rice illustrated by david arumi focus question what do bakers use",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 15.78,
+      "end": 18.08,
+      "text": "12 abrams",
+      "page": 4
+    },
+    {
+      "start": 18.08,
+      "end": 20.5,
+      "text": "12 hats",
+      "page": 5
+    },
+    {
+      "start": 20.54,
+      "end": 22.94,
+      "text": "12 cups",
+      "page": 6
+    },
+    {
+      "start": 23.1,
+      "end": 25.64,
+      "text": "12 bowls",
+      "page": 7
+    },
+    {
+      "start": 25.58,
+      "end": 27.76,
+      "text": "12 spoon",
+      "page": 8
+    },
+    {
+      "start": 27.94,
+      "end": 30.2,
+      "text": "12 pan",
+      "page": 9
+    },
+    {
+      "start": 29.7,
+      "end": 32.54,
+      "text": "12 cookies",
+      "page": 10
+    },
+    {
+      "start": 32.8,
+      "end": 34.72,
+      "text": "12 plates",
+      "page": 11
+    },
+    {
+      "start": 35.04,
+      "end": 65.72,
+      "text": "connections writing and art draw a picture of your favorite type of cookie then write words that describe the cookie math find 12 items with a partner draw each item and label the items 1 to 12 then practice counting to 12",
+      "page": 12
+    }
+  ]
+}

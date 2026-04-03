@@ -1,0 +1,77 @@
+{
+  "id": "level-c/winter-hats",
+  "title": "Winter Hats",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 4.84,
+      "text": "winter hats written by ed evans",
+      "page": 2
+    },
+    {
+      "start": 5.04,
+      "end": 10.44,
+      "text": "winter is here it's time to wear a winter hat",
+      "page": 3
+    },
+    {
+      "start": 10.48,
+      "end": 14.6,
+      "text": "this winter hat has long strings",
+      "page": 4
+    },
+    {
+      "start": 15.02,
+      "end": 18.92,
+      "text": "this winter hat has floppy ears",
+      "page": 5
+    },
+    {
+      "start": 18.78,
+      "end": 23.04,
+      "text": "this winter hat has fuzzy puffs",
+      "page": 6
+    },
+    {
+      "start": 22.54,
+      "end": 27.04,
+      "text": "this winter hat has a silly face",
+      "page": 7
+    },
+    {
+      "start": 27.12,
+      "end": 31.6,
+      "text": "this winter hat has furry ear flaps",
+      "page": 8
+    },
+    {
+      "start": 31.86,
+      "end": 36.06,
+      "text": "this winter hat has a funny tail",
+      "page": 9
+    },
+    {
+      "start": 36.0,
+      "end": 42.18,
+      "text": "winter is here which winter hat do you like best",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

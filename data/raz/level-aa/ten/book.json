@@ -1,0 +1,77 @@
+{
+  "id": "level-aa/ten",
+  "title": "Ten",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 8.92,
+      "text": "ten written by mary ann morazzi illustrated by natalia vasquez",
+      "page": 2
+    },
+    {
+      "start": 9.0,
+      "end": 10.84,
+      "text": "ten apples",
+      "page": 3
+    },
+    {
+      "start": 11.14,
+      "end": 13.18,
+      "text": "ten strawberries",
+      "page": 4
+    },
+    {
+      "start": 13.48,
+      "end": 15.44,
+      "text": "ten carrots",
+      "page": 5
+    },
+    {
+      "start": 15.46,
+      "end": 17.56,
+      "text": "ten pears",
+      "page": 6
+    },
+    {
+      "start": 17.64,
+      "end": 19.44,
+      "text": "ten beats",
+      "page": 7
+    },
+    {
+      "start": 19.58,
+      "end": 21.2,
+      "text": "ten potatoes",
+      "page": 8
+    },
+    {
+      "start": 21.64,
+      "end": 23.32,
+      "text": "ten tomatoes",
+      "page": 9
+    },
+    {
+      "start": 23.58,
+      "end": 25.16,
+      "text": "ten lemons",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

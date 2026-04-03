@@ -1,0 +1,83 @@
+{
+  "id": "level-aa/good-night",
+  "title": "Good Night",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 22.84,
+      "text": "good night written by harriet rosenblum illustrated by kirsten egan focus question how does the girl get ready to go to sleep",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 23.3,
+      "end": 25.1,
+      "text": "the story",
+      "page": 4
+    },
+    {
+      "start": 25.32,
+      "end": 27.62,
+      "text": "the bed",
+      "page": 5
+    },
+    {
+      "start": 28.26,
+      "end": 29.88,
+      "text": "the pillow",
+      "page": 6
+    },
+    {
+      "start": 30.3,
+      "end": 32.14,
+      "text": "the bear",
+      "page": 7
+    },
+    {
+      "start": 32.38,
+      "end": 34.16,
+      "text": "the blanket",
+      "page": 8
+    },
+    {
+      "start": 34.72,
+      "end": 36.76,
+      "text": "the kiss",
+      "page": 9
+    },
+    {
+      "start": 36.96,
+      "end": 39.08,
+      "text": "the moon",
+      "page": 10
+    },
+    {
+      "start": 39.02,
+      "end": 41.08,
+      "text": "the dream",
+      "page": 11
+    },
+    {
+      "start": 41.86,
+      "end": 72.7,
+      "text": "connections writing and art what is your favorite thing to do before you go to sleep draw a picture and label it health why is it important to get enough sleep at night share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

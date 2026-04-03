@@ -1,0 +1,77 @@
+{
+  "id": "level-a/my-room",
+  "title": "My Room",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 7.9,
+      "end": 9.76,
+      "text": "here is my room",
+      "page": 3
+    },
+    {
+      "start": 9.88,
+      "end": 12.04,
+      "text": "here is my bed",
+      "page": 4
+    },
+    {
+      "start": 12.3,
+      "end": 14.42,
+      "text": "here is my desk",
+      "page": 5
+    },
+    {
+      "start": 14.16,
+      "end": 16.18,
+      "text": "here is my fish",
+      "page": 6
+    },
+    {
+      "start": 16.32,
+      "end": 18.16,
+      "text": "here are my books",
+      "page": 7
+    },
+    {
+      "start": 18.42,
+      "end": 19.98,
+      "text": "here are my toys",
+      "page": 8
+    },
+    {
+      "start": 20.28,
+      "end": 22.24,
+      "text": "here are my shoes",
+      "page": 9
+    },
+    {
+      "start": 22.32,
+      "end": 24.24,
+      "text": "here are my clothes",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

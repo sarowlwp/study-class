@@ -1,0 +1,83 @@
+{
+  "id": "level-b/healthy-snacks",
+  "title": "Healthy Snacks",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 7.08,
+      "text": "healthy snacks written by nigel pepper house",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 7.74,
+      "end": 16.48,
+      "text": "focus question what snacks can be healthy apples can be healthy",
+      "page": 4
+    },
+    {
+      "start": 16.36,
+      "end": 20.18,
+      "text": "celery can be healthy",
+      "page": 5
+    },
+    {
+      "start": 19.68,
+      "end": 23.9,
+      "text": "nuts can be healthy",
+      "page": 6
+    },
+    {
+      "start": 23.4,
+      "end": 27.78,
+      "text": "seeds can be healthy",
+      "page": 7
+    },
+    {
+      "start": 27.28,
+      "end": 43.94,
+      "text": "cheese can be healthy",
+      "page": 8
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 9
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    },
+    {
+      "start": 43.44,
+      "end": 69.9,
+      "text": "writing and art what is your favorite healthy snack draw a picture and write about it math sort the foods from the book into different groups share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

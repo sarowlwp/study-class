@@ -1,0 +1,77 @@
+{
+  "id": "level-a/my-dog",
+  "title": "My Dog",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 1.82,
+      "end": 10.32,
+      "text": "written by vic moors illustrated by nora voodis my dog",
+      "page": 2
+    },
+    {
+      "start": 9.82,
+      "end": 11.5,
+      "text": "can jump",
+      "page": 3
+    },
+    {
+      "start": 11.48,
+      "end": 13.8,
+      "text": "my dog can run",
+      "page": 4
+    },
+    {
+      "start": 14.1,
+      "end": 16.24,
+      "text": "my dog can swim",
+      "page": 5
+    },
+    {
+      "start": 16.26,
+      "end": 18.46,
+      "text": "my dog can dig",
+      "page": 6
+    },
+    {
+      "start": 18.48,
+      "end": 20.78,
+      "text": "my dog can climb",
+      "page": 7
+    },
+    {
+      "start": 21.26,
+      "end": 23.64,
+      "text": "my dog can sit",
+      "page": 8
+    },
+    {
+      "start": 24.0,
+      "end": 27.12,
+      "text": "my dog can roll over",
+      "page": 9
+    },
+    {
+      "start": 27.1,
+      "end": 29.36,
+      "text": "my dog can hug",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

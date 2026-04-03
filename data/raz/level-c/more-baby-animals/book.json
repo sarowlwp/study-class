@@ -1,0 +1,83 @@
+{
+  "id": "level-c/more-baby-animals",
+  "title": "More Baby Animals",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 2.7,
+      "text": "more baby animals",
+      "page": 1
+    },
+    {
+      "start": 3.12,
+      "end": 13.84,
+      "text": "written by lauren simmons focus question how are baby animals different from adult animals",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 14.04,
+      "end": 18.18,
+      "text": "do you know what baby animals are called",
+      "page": 4
+    },
+    {
+      "start": 17.94,
+      "end": 21.68,
+      "text": "a baby deer is called a fawn",
+      "page": 5
+    },
+    {
+      "start": 21.7,
+      "end": 25.72,
+      "text": "a baby donkey is called a fawn",
+      "page": 6
+    },
+    {
+      "start": 25.22,
+      "end": 30.0,
+      "text": "a baby gorilla is called an infant",
+      "page": 7
+    },
+    {
+      "start": 30.2,
+      "end": 34.16,
+      "text": "a baby pig is called a piglet",
+      "page": 8
+    },
+    {
+      "start": 34.34,
+      "end": 38.14,
+      "text": "a baby koala is called a joe",
+      "page": 9
+    },
+    {
+      "start": 38.16,
+      "end": 41.78,
+      "text": "a baby owl is called an owllet",
+      "page": 10
+    },
+    {
+      "start": 41.6,
+      "end": 45.6,
+      "text": "which other baby animals do you know",
+      "page": 11
+    },
+    {
+      "start": 45.1,
+      "end": 83.24,
+      "text": "connections writing and art draw a picture of a baby animal not in this book and write this sentence a baby is called a science label one side of a piece of paper adult animals and the other side baby animals cut out pictures of animals and paste them to the correct side of your paper",
+      "page": 12
+    }
+  ]
+}

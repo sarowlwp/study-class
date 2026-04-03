@@ -1,0 +1,89 @@
+{
+  "id": "level-b/it-is-school-time",
+  "title": "It Is School Time",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 13,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 5.9,
+      "end": 8.34,
+      "text": "it is time for breakfast",
+      "page": 3
+    },
+    {
+      "start": 8.52,
+      "end": 11.52,
+      "text": "it is time for the bus",
+      "page": 4
+    },
+    {
+      "start": 11.34,
+      "end": 14.3,
+      "text": "it is school time",
+      "page": 5
+    },
+    {
+      "start": 14.16,
+      "end": 17.46,
+      "text": "it is time for reading",
+      "page": 6
+    },
+    {
+      "start": 17.26,
+      "end": 20.18,
+      "text": "it is recess time",
+      "page": 7
+    },
+    {
+      "start": 20.12,
+      "end": 23.72,
+      "text": "it is time for math",
+      "page": 8
+    },
+    {
+      "start": 23.6,
+      "end": 26.8,
+      "text": "it is time for lunch",
+      "page": 9
+    },
+    {
+      "start": 26.58,
+      "end": 29.46,
+      "text": "it is music time",
+      "page": 10
+    },
+    {
+      "start": 29.0,
+      "end": 32.2,
+      "text": "it is time for science",
+      "page": 11
+    },
+    {
+      "start": 32.36,
+      "end": 35.36,
+      "text": "it is time for home",
+      "page": 12
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 13
+    }
+  ]
+}

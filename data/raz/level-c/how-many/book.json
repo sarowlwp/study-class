@@ -1,0 +1,77 @@
+{
+  "id": "level-c/how-many",
+  "title": "How Many",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 6.58,
+      "end": 11.74,
+      "text": "how many eyes do you see i see too",
+      "page": 3
+    },
+    {
+      "start": 11.9,
+      "end": 17.08,
+      "text": "how many wheels do you see i see three",
+      "page": 4
+    },
+    {
+      "start": 17.62,
+      "end": 23.86,
+      "text": "how many wings do you see i see four",
+      "page": 5
+    },
+    {
+      "start": 24.32,
+      "end": 30.5,
+      "text": "how many candles do you see i see five",
+      "page": 6
+    },
+    {
+      "start": 30.6,
+      "end": 36.3,
+      "text": "how many kites do you see i see six",
+      "page": 7
+    },
+    {
+      "start": 37.1,
+      "end": 44.2,
+      "text": "how many windows do you see i see seven",
+      "page": 8
+    },
+    {
+      "start": 44.7,
+      "end": 50.96,
+      "text": "how many arms do you see i see eight",
+      "page": 9
+    },
+    {
+      "start": 51.48,
+      "end": 58.04,
+      "text": "how many smiles do you see i see nine",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

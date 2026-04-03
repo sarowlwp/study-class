@@ -1,0 +1,83 @@
+{
+  "id": "level-aa/the-baseball-game",
+  "title": "The Baseball Game",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 14.1,
+      "text": "the baseball game written by russ buyak focus question what can you see at a baseball game",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 13.98,
+      "end": 15.92,
+      "text": "this field",
+      "page": 4
+    },
+    {
+      "start": 16.0,
+      "end": 17.96,
+      "text": "this base",
+      "page": 5
+    },
+    {
+      "start": 18.32,
+      "end": 20.14,
+      "text": "this bat",
+      "page": 6
+    },
+    {
+      "start": 20.36,
+      "end": 22.26,
+      "text": "this baseball",
+      "page": 7
+    },
+    {
+      "start": 22.48,
+      "end": 24.22,
+      "text": "this hat",
+      "page": 8
+    },
+    {
+      "start": 24.54,
+      "end": 26.3,
+      "text": "this helmet",
+      "page": 9
+    },
+    {
+      "start": 26.68,
+      "end": 28.9,
+      "text": "this uniform form",
+      "page": 10
+    },
+    {
+      "start": 28.4,
+      "end": 31.24,
+      "text": "this team",
+      "page": 11
+    },
+    {
+      "start": 31.28,
+      "end": 61.8,
+      "text": "connections writing and art draw a picture of yourself playing baseball label the items in your picture science what do you think is the best time of year to play baseball why share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

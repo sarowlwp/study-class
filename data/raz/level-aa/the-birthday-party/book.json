@@ -1,0 +1,83 @@
+{
+  "id": "level-aa/the-birthday-party",
+  "title": "The Birthday Party",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 12.16,
+      "end": 18.56,
+      "text": "focus question what can you see at a birthday party",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 18.06,
+      "end": 20.24,
+      "text": "the guests",
+      "page": 4
+    },
+    {
+      "start": 21.02,
+      "end": 22.2,
+      "text": "the balloons",
+      "page": 5
+    },
+    {
+      "start": 22.38,
+      "end": 24.12,
+      "text": "the hats",
+      "page": 6
+    },
+    {
+      "start": 24.24,
+      "end": 25.76,
+      "text": "the gifts",
+      "page": 7
+    },
+    {
+      "start": 26.06,
+      "end": 27.76,
+      "text": "the cake",
+      "page": 8
+    },
+    {
+      "start": 27.26,
+      "end": 29.46,
+      "text": "the singing",
+      "page": 9
+    },
+    {
+      "start": 29.76,
+      "end": 31.34,
+      "text": "the candles",
+      "page": 10
+    },
+    {
+      "start": 31.7,
+      "end": 34.42,
+      "text": "the birthday party",
+      "page": 11
+    },
+    {
+      "start": 34.14,
+      "end": 63.12,
+      "text": "connections writing and art what is your favorite part of a birthday party draw a picture and label it social studies how would you like to celebrate your birthday why share your answer with a friend",
+      "page": 12
+    }
+  ]
+}

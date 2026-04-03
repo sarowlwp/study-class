@@ -1,0 +1,77 @@
+{
+  "id": "level-aa/big",
+  "title": "Big",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 1.12,
+      "end": 7.54,
+      "text": "written by cheryl ryan illustrated by joe bowdie",
+      "page": 2
+    },
+    {
+      "start": 10.1,
+      "end": 11.9,
+      "text": "a big house",
+      "page": 3
+    },
+    {
+      "start": 14.12,
+      "end": 15.94,
+      "text": "a big dog",
+      "page": 4
+    },
+    {
+      "start": 18.06,
+      "end": 20.02,
+      "text": "a big car",
+      "page": 5
+    },
+    {
+      "start": 21.92,
+      "end": 23.78,
+      "text": "a big bus",
+      "page": 6
+    },
+    {
+      "start": 25.24,
+      "end": 27.84,
+      "text": "a big plane",
+      "page": 7
+    },
+    {
+      "start": 29.78,
+      "end": 32.38,
+      "text": "a big tree",
+      "page": 8
+    },
+    {
+      "start": 34.54,
+      "end": 36.34,
+      "text": "a big elephant",
+      "page": 9
+    },
+    {
+      "start": 38.76,
+      "end": 40.38,
+      "text": "a big dinosaur",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

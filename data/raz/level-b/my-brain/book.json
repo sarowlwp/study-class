@@ -1,0 +1,83 @@
+{
+  "id": "level-b/my-brain",
+  "title": "My Brain",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 13.68,
+      "text": "my brain written by sarah guzon focus question what can you use your brain to do",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 13.86,
+      "end": 17.86,
+      "text": "i use my brain to think",
+      "page": 4
+    },
+    {
+      "start": 17.36,
+      "end": 22.26,
+      "text": "i use my brain to see",
+      "page": 5
+    },
+    {
+      "start": 22.42,
+      "end": 26.68,
+      "text": "i use my brain to talk",
+      "page": 6
+    },
+    {
+      "start": 26.78,
+      "end": 31.44,
+      "text": "i use my brain to listen",
+      "page": 7
+    },
+    {
+      "start": 31.7,
+      "end": 36.06,
+      "text": "i use my brain to move",
+      "page": 8
+    },
+    {
+      "start": 36.44,
+      "end": 40.94,
+      "text": "i use my brain to sleep",
+      "page": 9
+    },
+    {
+      "start": 40.96,
+      "end": 45.56,
+      "text": "i use my brain to laugh",
+      "page": 10
+    },
+    {
+      "start": 45.06,
+      "end": 51.38,
+      "text": "i use my brain for everything",
+      "page": 11
+    },
+    {
+      "start": 52.06,
+      "end": 93.52,
+      "text": "connections writing and art what do you think is the most important way to use your brain draw a picture and write about it science your brain helps your body do everything name some other parts of your body what do they help you do share your ideas with the class",
+      "page": 12
+    }
+  ]
+}

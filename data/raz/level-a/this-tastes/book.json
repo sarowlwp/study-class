@@ -1,0 +1,83 @@
+{
+  "id": "level-a/this-tastes",
+  "title": "This Tastes",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 18.86,
+      "text": "this tastes written by gabriel harper illustrated by andy elkerton focus question how can you describe the way something tastes",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 18.36,
+      "end": 23.86,
+      "text": "this tastes so old",
+      "page": 4
+    },
+    {
+      "start": 23.36,
+      "end": 28.02,
+      "text": "this tastes so juicy",
+      "page": 5
+    },
+    {
+      "start": 27.52,
+      "end": 32.44,
+      "text": "this tastes so sour",
+      "page": 6
+    },
+    {
+      "start": 32.74,
+      "end": 36.54,
+      "text": "this tastes so sweet",
+      "page": 7
+    },
+    {
+      "start": 36.96,
+      "end": 40.86,
+      "text": "this tastes so bland and",
+      "page": 8
+    },
+    {
+      "start": 40.54,
+      "end": 45.3,
+      "text": "this tastes so spicy",
+      "page": 9
+    },
+    {
+      "start": 45.46,
+      "end": 49.54,
+      "text": "this tastes so bitter",
+      "page": 10
+    },
+    {
+      "start": 49.6,
+      "end": 53.64,
+      "text": "this tastes so yummy",
+      "page": 11
+    },
+    {
+      "start": 53.72,
+      "end": 87.4,
+      "text": "connections writing and art draw a picture of your favorite food right words to describe how it tastes science what are your five senses use them to describe your favorite food share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

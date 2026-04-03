@@ -1,0 +1,83 @@
+{
+  "id": "level-a/what-do-i-hear",
+  "title": "What Do I Hear",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 14.14,
+      "text": "what do i hear written by anthony kuren illustrated by michelle henninger focus question what sounds does the boy hear",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 14.52,
+      "end": 17.22,
+      "text": "i hear birds",
+      "page": 4
+    },
+    {
+      "start": 17.9,
+      "end": 20.88,
+      "text": "i hear rain",
+      "page": 5
+    },
+    {
+      "start": 21.1,
+      "end": 24.42,
+      "text": "i hear wind",
+      "page": 6
+    },
+    {
+      "start": 25.06,
+      "end": 28.04,
+      "text": "i hear waves",
+      "page": 7
+    },
+    {
+      "start": 27.54,
+      "end": 32.36,
+      "text": "i hear music",
+      "page": 8
+    },
+    {
+      "start": 32.1,
+      "end": 36.3,
+      "text": "i hear cars",
+      "page": 9
+    },
+    {
+      "start": 36.68,
+      "end": 40.4,
+      "text": "i hear whispers",
+      "page": 10
+    },
+    {
+      "start": 40.62,
+      "end": 44.62,
+      "text": "i hear snores",
+      "page": 11
+    },
+    {
+      "start": 44.78,
+      "end": 71.4,
+      "text": "connections writing and art what sounds can you hear around you draw a picture and label it i hear science what are the five senses which sense is this book about share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

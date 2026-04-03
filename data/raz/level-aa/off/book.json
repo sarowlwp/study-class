@@ -1,0 +1,83 @@
+{
+  "id": "level-aa/off",
+  "title": "Off",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 16.36,
+      "text": "off written by marilyn edna slevin illustrated by nora vutes focus question what is the cat doing in the book",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 16.38,
+      "end": 18.8,
+      "text": "off the bed",
+      "page": 4
+    },
+    {
+      "start": 18.98,
+      "end": 22.0,
+      "text": "off the couch",
+      "page": 5
+    },
+    {
+      "start": 21.5,
+      "end": 24.92,
+      "text": "off the table",
+      "page": 6
+    },
+    {
+      "start": 25.12,
+      "end": 28.34,
+      "text": "off the chair",
+      "page": 7
+    },
+    {
+      "start": 28.54,
+      "end": 31.36,
+      "text": "off the computer",
+      "page": 8
+    },
+    {
+      "start": 31.7,
+      "end": 34.98,
+      "text": "off the towel",
+      "page": 9
+    },
+    {
+      "start": 35.14,
+      "end": 38.06,
+      "text": "off the step",
+      "page": 10
+    },
+    {
+      "start": 38.12,
+      "end": 41.38,
+      "text": "off the car",
+      "page": 11
+    },
+    {
+      "start": 40.88,
+      "end": 70.8,
+      "text": "connections writing and art draw a picture of the cat jumping off something then new label your picture off the math what kinds of pets do your classmates have at home make a graph with your class",
+      "page": 12
+    }
+  ]
+}

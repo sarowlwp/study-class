@@ -1,0 +1,83 @@
+{
+  "id": "level-a/safe-not-safe",
+  "title": "Safe Not Safe",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 22.0,
+      "text": "safe not safe written by ed evans illustrated by nisha hudson focus question why is it important to be safe",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 22.16,
+      "end": 25.58,
+      "text": "this street is safe",
+      "page": 4
+    },
+    {
+      "start": 25.9,
+      "end": 30.44,
+      "text": "this street is not safe",
+      "page": 5
+    },
+    {
+      "start": 30.78,
+      "end": 34.38,
+      "text": "this ice is safe",
+      "page": 6
+    },
+    {
+      "start": 34.42,
+      "end": 38.7,
+      "text": "this ice is not safe",
+      "page": 7
+    },
+    {
+      "start": 38.82,
+      "end": 42.54,
+      "text": "this water is safe",
+      "page": 8
+    },
+    {
+      "start": 42.04,
+      "end": 47.12,
+      "text": "this water is not safe",
+      "page": 9
+    },
+    {
+      "start": 47.36,
+      "end": 50.92,
+      "text": "this fire is safe",
+      "page": 10
+    },
+    {
+      "start": 51.24,
+      "end": 55.94,
+      "text": "this fire is not safe",
+      "page": 11
+    },
+    {
+      "start": 56.0,
+      "end": 95.68,
+      "text": "connections writing and art choose something else that can be both safe and not safe draw a picture and write about it social studies make a poster reminding your classmates to be safe hang your poster up in your classroom",
+      "page": 12
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "level-c/all-about-penguins",
+  "title": "All About Penguins",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 6.86,
+      "text": "all about penguins written by keith and sarah cortamartin",
+      "page": 2
+    },
+    {
+      "start": 6.86,
+      "end": 9.88,
+      "text": "all penguins are birds",
+      "page": 3
+    },
+    {
+      "start": 9.88,
+      "end": 14.4,
+      "text": "some penguins are in cold places",
+      "page": 4
+    },
+    {
+      "start": 14.4,
+      "end": 22.18,
+      "text": "all penguins are birds some penguins are in warm places",
+      "page": 5
+    },
+    {
+      "start": 22.18,
+      "end": 31.36,
+      "text": "all penguins are birds some penguins are black and white",
+      "page": 6
+    },
+    {
+      "start": 31.36,
+      "end": 39.96,
+      "text": "all penguins are birds some penguins are blue and white",
+      "page": 7
+    },
+    {
+      "start": 39.96,
+      "end": 46.94,
+      "text": "all penguins are birds some penguins are little",
+      "page": 8
+    },
+    {
+      "start": 46.94,
+      "end": 54.52,
+      "text": "all penguins are birds some penguins are big",
+      "page": 9
+    },
+    {
+      "start": 54.52,
+      "end": 61.5,
+      "text": "all penguins cannot fly all penguins swim well",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

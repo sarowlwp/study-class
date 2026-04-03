@@ -1,0 +1,77 @@
+{
+  "id": "level-c/what-is-at-the-zoo",
+  "title": "What Is At The Zoo",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 8.36,
+      "text": "what is at the zoo written by katie knight illustrated by paula schrikker",
+      "page": 2
+    },
+    {
+      "start": 8.94,
+      "end": 13.98,
+      "text": "are there bears at the zoo yes there are",
+      "page": 3
+    },
+    {
+      "start": 14.04,
+      "end": 19.5,
+      "text": "are there monkeys at the zoo yes there are",
+      "page": 4
+    },
+    {
+      "start": 19.26,
+      "end": 24.2,
+      "text": "are there elephants at the zoo yes there are",
+      "page": 5
+    },
+    {
+      "start": 24.2,
+      "end": 29.2,
+      "text": "are there giraffes at the zoo yes there are",
+      "page": 6
+    },
+    {
+      "start": 28.7,
+      "end": 35.6,
+      "text": "are there lions and tigers at the zoo yes there are",
+      "page": 7
+    },
+    {
+      "start": 35.64,
+      "end": 41.1,
+      "text": "are there hippos at the zoo yes there are",
+      "page": 8
+    },
+    {
+      "start": 41.12,
+      "end": 46.46,
+      "text": "are there sea lions at the zoo yes there are",
+      "page": 9
+    },
+    {
+      "start": 46.32,
+      "end": 51.96,
+      "text": "are there dinosaurs at the zoo no there are not",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

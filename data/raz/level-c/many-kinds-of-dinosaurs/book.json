@@ -1,0 +1,83 @@
+{
+  "id": "level-c/many-kinds-of-dinosaurs",
+  "title": "Many Kinds Of Dinosaurs",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 2.78,
+      "text": "many kinds of dinosaurs",
+      "page": 1
+    },
+    {
+      "start": 3.2,
+      "end": 13.76,
+      "text": "written by rachel rice focus question how were dinosaurs different from one another",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 13.26,
+      "end": 20.46,
+      "text": "dinosaurs lived long ago there were many kinds of dinosaurs",
+      "page": 4
+    },
+    {
+      "start": 20.7,
+      "end": 24.32,
+      "text": "some dinosaurs had large heads",
+      "page": 5
+    },
+    {
+      "start": 23.82,
+      "end": 27.86,
+      "text": "some dinosaurs had small heads",
+      "page": 6
+    },
+    {
+      "start": 27.88,
+      "end": 31.36,
+      "text": "some dinosaurs had short teeth",
+      "page": 7
+    },
+    {
+      "start": 31.24,
+      "end": 34.48,
+      "text": "some dinosaurs had long teeth",
+      "page": 8
+    },
+    {
+      "start": 34.5,
+      "end": 38.32,
+      "text": "some dinosaurs had two legs",
+      "page": 9
+    },
+    {
+      "start": 38.42,
+      "end": 42.3,
+      "text": "some dinosaurs had four legs",
+      "page": 10
+    },
+    {
+      "start": 42.22,
+      "end": 49.5,
+      "text": "there were many kinds of dinosaurs dinosaur's lived long ago",
+      "page": 11
+    },
+    {
+      "start": 49.0,
+      "end": 73.76,
+      "text": "connections writing and art pick one dinosaur from the book draw a picture of it and describe it in a sentence science what are some other ways you could sort the dinosaurs share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

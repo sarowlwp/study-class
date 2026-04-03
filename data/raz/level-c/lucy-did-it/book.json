@@ -1,0 +1,77 @@
+{
+  "id": "level-c/lucy-did-it",
+  "title": "Lucy Did It",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 8.68,
+      "end": 12.22,
+      "text": "rip winther bag lucy did it",
+      "page": 3
+    },
+    {
+      "start": 11.98,
+      "end": 15.96,
+      "text": "crash winther book lucy did it",
+      "page": 4
+    },
+    {
+      "start": 15.7,
+      "end": 19.48,
+      "text": "plop winther paint lucy did it",
+      "page": 5
+    },
+    {
+      "start": 19.24,
+      "end": 22.74,
+      "text": "clang winther pan lucy did it",
+      "page": 6
+    },
+    {
+      "start": 22.52,
+      "end": 26.48,
+      "text": "ding winther bell lucy did it",
+      "page": 7
+    },
+    {
+      "start": 26.02,
+      "end": 29.98,
+      "text": "wolf winther dog lucy did it",
+      "page": 8
+    },
+    {
+      "start": 29.68,
+      "end": 33.64,
+      "text": "wish went the cat lucy did it",
+      "page": 9
+    },
+    {
+      "start": 33.24,
+      "end": 34.78,
+      "text": "or did she",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

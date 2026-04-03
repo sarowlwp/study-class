@@ -1,0 +1,77 @@
+{
+  "id": "level-b/light-and-heavy",
+  "title": "Light And Heavy",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 7.32,
+      "text": "light and heavy written by russ buyak",
+      "page": 2
+    },
+    {
+      "start": 7.32,
+      "end": 13.26,
+      "text": "this dog is heavy i cannot lift it",
+      "page": 3
+    },
+    {
+      "start": 13.26,
+      "end": 18.48,
+      "text": "this dog is light i can lift it",
+      "page": 4
+    },
+    {
+      "start": 18.02,
+      "end": 23.64,
+      "text": "this rock is heavy i cannot lift it",
+      "page": 5
+    },
+    {
+      "start": 23.18,
+      "end": 28.16,
+      "text": "this rock is light i can lift it",
+      "page": 6
+    },
+    {
+      "start": 27.8,
+      "end": 33.0,
+      "text": "this log is heavy i cannot lift it",
+      "page": 7
+    },
+    {
+      "start": 32.54,
+      "end": 37.36,
+      "text": "this stick is light i can lift it",
+      "page": 8
+    },
+    {
+      "start": 36.96,
+      "end": 41.6,
+      "text": "dad is heavy i cannot lift him",
+      "page": 9
+    },
+    {
+      "start": 41.52,
+      "end": 45.78,
+      "text": "i am light dad can lift me",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

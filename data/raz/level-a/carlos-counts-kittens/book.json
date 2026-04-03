@@ -1,0 +1,77 @@
+{
+  "id": "level-a/carlos-counts-kittens",
+  "title": "Carlos Counts Kittens",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 2.9,
+      "text": "carlos counts kittens",
+      "page": 1
+    },
+    {
+      "start": 2.4,
+      "end": 30.2,
+      "text": "written by lorena f d bello illustrated by angela",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 4
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 5
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 6
+    },
+    {
+      "start": 31.3,
+      "end": 36.88,
+      "text": "carlos has five kittens",
+      "page": 7
+    },
+    {
+      "start": 37.04,
+      "end": 41.98,
+      "text": "carlos has six kittens",
+      "page": 8
+    },
+    {
+      "start": 41.8,
+      "end": 46.66,
+      "text": "carlos has seven kittens",
+      "page": 9
+    },
+    {
+      "start": 46.96,
+      "end": 52.88,
+      "text": "carlos has two many kittens",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

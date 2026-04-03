@@ -1,0 +1,77 @@
+{
+  "id": "level-c/go-awaylily",
+  "title": "Go Awaylily",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 6.88,
+      "text": "go away lily written by catherine page illustrated by keori tajima",
+      "page": 2
+    },
+    {
+      "start": 7.22,
+      "end": 8.88,
+      "text": "lily upset jack",
+      "page": 3
+    },
+    {
+      "start": 8.78,
+      "end": 16.12,
+      "text": "when jack sat down lily sat down go away lily go away",
+      "page": 4
+    },
+    {
+      "start": 15.96,
+      "end": 22.16,
+      "text": "when jack read lily read go away lily go away",
+      "page": 5
+    },
+    {
+      "start": 22.16,
+      "end": 27.76,
+      "text": "when jack played lily played go away lily go away",
+      "page": 6
+    },
+    {
+      "start": 28.02,
+      "end": 33.44,
+      "text": "when jack ate lily ate go away lily go away",
+      "page": 7
+    },
+    {
+      "start": 33.64,
+      "end": 38.78,
+      "text": "when jack ran lily ran go away lily go away",
+      "page": 8
+    },
+    {
+      "start": 39.6,
+      "end": 42.54,
+      "text": "when jack slept lily slept too",
+      "page": 9
+    },
+    {
+      "start": 42.32,
+      "end": 46.18,
+      "text": "shhh stay lily stay",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

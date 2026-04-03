@@ -1,0 +1,77 @@
+{
+  "id": "level-a/hamster-home",
+  "title": "Hamster Home",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 7.52,
+      "text": "hamster home written by anthony kuren illustrated by leanne d's",
+      "page": 2
+    },
+    {
+      "start": 9.36,
+      "end": 12.2,
+      "text": "the hamster has a ball",
+      "page": 3
+    },
+    {
+      "start": 14.86,
+      "end": 17.88,
+      "text": "the hamster has a cage",
+      "page": 4
+    },
+    {
+      "start": 20.02,
+      "end": 23.02,
+      "text": "the hamster has food",
+      "page": 5
+    },
+    {
+      "start": 24.54,
+      "end": 27.8,
+      "text": "the hamster has water",
+      "page": 6
+    },
+    {
+      "start": 29.86,
+      "end": 33.8,
+      "text": "the hamster has a nest",
+      "page": 7
+    },
+    {
+      "start": 36.06,
+      "end": 39.26,
+      "text": "the hamster has a tube",
+      "page": 8
+    },
+    {
+      "start": 41.42,
+      "end": 44.68,
+      "text": "the hamster has a wheel",
+      "page": 9
+    },
+    {
+      "start": 47.1,
+      "end": 50.4,
+      "text": "the hamster has a home",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

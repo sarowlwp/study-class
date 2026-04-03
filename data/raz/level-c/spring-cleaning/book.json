@@ -1,0 +1,83 @@
+{
+  "id": "level-c/spring-cleaning",
+  "title": "Spring Cleaning",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 17.14,
+      "text": "spring cleaning written by russ booyock illustrated by andy elkerton focus question what does the family clean in the spring",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 17.12,
+      "end": 23.44,
+      "text": "it was spring it was time to clean the house",
+      "page": 4
+    },
+    {
+      "start": 22.94,
+      "end": 26.1,
+      "text": "mom cleaned the kitchen",
+      "page": 5
+    },
+    {
+      "start": 26.32,
+      "end": 29.8,
+      "text": "dad cleaned the living room",
+      "page": 6
+    },
+    {
+      "start": 29.88,
+      "end": 32.72,
+      "text": "sasha cleaned the bedrooms",
+      "page": 7
+    },
+    {
+      "start": 33.4,
+      "end": 35.8,
+      "text": "mom cleaned the bathroom",
+      "page": 8
+    },
+    {
+      "start": 36.06,
+      "end": 38.68,
+      "text": "dad cleaned the basement",
+      "page": 9
+    },
+    {
+      "start": 39.2,
+      "end": 41.8,
+      "text": "sasha cleaned the porch",
+      "page": 10
+    },
+    {
+      "start": 42.02,
+      "end": 51.68,
+      "text": "sasha left the front door open now they have to clean everything again",
+      "page": 11
+    },
+    {
+      "start": 52.24,
+      "end": 77.44,
+      "text": "connections writing and art what do you clean at home draw a picture and write about it science what are the four seasons which one comes before spring share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

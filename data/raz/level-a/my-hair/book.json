@@ -1,0 +1,77 @@
+{
+  "id": "level-a/my-hair",
+  "title": "My Hair",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 8.58,
+      "text": "my hair written by julie harding illustrated by angela campstra",
+      "page": 2
+    },
+    {
+      "start": 10.08,
+      "end": 12.22,
+      "text": "my hair is curly",
+      "page": 3
+    },
+    {
+      "start": 13.82,
+      "end": 16.3,
+      "text": "my hair is straight",
+      "page": 4
+    },
+    {
+      "start": 17.68,
+      "end": 19.98,
+      "text": "my hair is black",
+      "page": 5
+    },
+    {
+      "start": 21.64,
+      "end": 24.06,
+      "text": "my hair is blonde",
+      "page": 6
+    },
+    {
+      "start": 25.64,
+      "end": 28.16,
+      "text": "my hair is braided",
+      "page": 7
+    },
+    {
+      "start": 29.9,
+      "end": 32.28,
+      "text": "my hair is short",
+      "page": 8
+    },
+    {
+      "start": 33.78,
+      "end": 36.52,
+      "text": "my hair is long",
+      "page": 9
+    },
+    {
+      "start": 38.0,
+      "end": 40.54,
+      "text": "what is your hair light",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

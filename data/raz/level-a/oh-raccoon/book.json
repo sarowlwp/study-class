@@ -1,0 +1,83 @@
+{
+  "id": "level-a/oh-raccoon",
+  "title": "Oh Raccoon",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 20.64,
+      "text": "oh ra -kun written by karen mokler illustrated by hugh jamison focus question what do you learn about racoon",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 21.58,
+      "end": 23.96,
+      "text": "racoon is awake",
+      "page": 4
+    },
+    {
+      "start": 24.84,
+      "end": 27.16,
+      "text": "racoon is hungry",
+      "page": 5
+    },
+    {
+      "start": 28.1,
+      "end": 30.82,
+      "text": "racoon is smart",
+      "page": 6
+    },
+    {
+      "start": 31.58,
+      "end": 34.48,
+      "text": "racoon is messy",
+      "page": 7
+    },
+    {
+      "start": 35.3,
+      "end": 37.92,
+      "text": "racoon is sneaky",
+      "page": 8
+    },
+    {
+      "start": 38.46,
+      "end": 40.88,
+      "text": "racoon is full",
+      "page": 9
+    },
+    {
+      "start": 41.58,
+      "end": 44.14,
+      "text": "racoon is sleepy",
+      "page": 10
+    },
+    {
+      "start": 44.84,
+      "end": 47.76,
+      "text": "racoon is cute",
+      "page": 11
+    },
+    {
+      "start": 47.76,
+      "end": 79.56,
+      "text": "connections writing and art raccoon has a busy night if you were awake all night what would you do draw a picture label it and share your answer with a partner science and art draw a diagram of a raccoon and label five body parts",
+      "page": 12
+    }
+  ]
+}

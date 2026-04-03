@@ -1,0 +1,77 @@
+{
+  "id": "level-b/winter-fun",
+  "title": "Winter Fun",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 5.0,
+      "text": "winter fun written by catalina page",
+      "page": 2
+    },
+    {
+      "start": 5.14,
+      "end": 7.76,
+      "text": "these are winter hats",
+      "page": 3
+    },
+    {
+      "start": 7.96,
+      "end": 10.72,
+      "text": "these are winter boots",
+      "page": 4
+    },
+    {
+      "start": 11.12,
+      "end": 14.28,
+      "text": "these are winter scarves",
+      "page": 5
+    },
+    {
+      "start": 14.44,
+      "end": 17.56,
+      "text": "these are winter mittens",
+      "page": 6
+    },
+    {
+      "start": 17.96,
+      "end": 20.92,
+      "text": "these are winter pants",
+      "page": 7
+    },
+    {
+      "start": 21.0,
+      "end": 24.18,
+      "text": "these are winter coats",
+      "page": 8
+    },
+    {
+      "start": 24.16,
+      "end": 27.82,
+      "text": "these are winter sleds",
+      "page": 9
+    },
+    {
+      "start": 27.56,
+      "end": 30.6,
+      "text": "this is winter fun",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

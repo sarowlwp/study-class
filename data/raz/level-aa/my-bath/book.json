@@ -1,0 +1,83 @@
+{
+  "id": "level-aa/my-bath",
+  "title": "My Bath",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 19.12,
+      "end": 20.76,
+      "text": "my tub",
+      "page": 4
+    },
+    {
+      "start": 20.96,
+      "end": 22.68,
+      "text": "my water",
+      "page": 5
+    },
+    {
+      "start": 22.96,
+      "end": 24.72,
+      "text": "my bubbles",
+      "page": 6
+    },
+    {
+      "start": 25.02,
+      "end": 26.66,
+      "text": "my toys",
+      "page": 7
+    },
+    {
+      "start": 26.96,
+      "end": 28.56,
+      "text": "my soap",
+      "page": 8
+    },
+    {
+      "start": 28.76,
+      "end": 30.24,
+      "text": "my shampoo",
+      "page": 9
+    },
+    {
+      "start": 30.54,
+      "end": 32.18,
+      "text": "my towel",
+      "page": 10
+    },
+    {
+      "start": 32.42,
+      "end": 34.32,
+      "text": "my bath",
+      "page": 11
+    },
+    {
+      "start": 34.72,
+      "end": 59.98,
+      "text": "connections writing and art draw a picture of your bathroom and label it social studies people take baths to get clean why do people need to keep clean share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

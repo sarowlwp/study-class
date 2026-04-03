@@ -1,0 +1,77 @@
+{
+  "id": "level-aa/gogogo",
+  "title": "Gogogo",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 7.5,
+      "text": "go go go written by brian roberts illustrated by nora vutas",
+      "page": 2
+    },
+    {
+      "start": 9.3,
+      "end": 12.18,
+      "text": "the dogs go",
+      "page": 3
+    },
+    {
+      "start": 13.42,
+      "end": 16.18,
+      "text": "the pigs go",
+      "page": 4
+    },
+    {
+      "start": 17.46,
+      "end": 20.14,
+      "text": "the birds go",
+      "page": 5
+    },
+    {
+      "start": 21.44,
+      "end": 24.24,
+      "text": "the cats go",
+      "page": 6
+    },
+    {
+      "start": 23.74,
+      "end": 28.06,
+      "text": "the goats go",
+      "page": 7
+    },
+    {
+      "start": 27.56,
+      "end": 32.1,
+      "text": "the cows go",
+      "page": 8
+    },
+    {
+      "start": 31.6,
+      "end": 36.16,
+      "text": "the ducks go",
+      "page": 9
+    },
+    {
+      "start": 37.52,
+      "end": 39.54,
+      "text": "the animals go",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

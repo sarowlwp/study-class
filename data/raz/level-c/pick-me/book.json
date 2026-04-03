@@ -1,0 +1,83 @@
+{
+  "id": "level-c/pick-me",
+  "title": "Pick Me",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 17.96,
+      "end": 24.02,
+      "text": "i always get picked last for kickball",
+      "page": 4
+    },
+    {
+      "start": 23.52,
+      "end": 29.5,
+      "text": "david picked me last on monday",
+      "page": 5
+    },
+    {
+      "start": 29.86,
+      "end": 35.56,
+      "text": "olivia picked me last on tuesday",
+      "page": 6
+    },
+    {
+      "start": 35.52,
+      "end": 41.02,
+      "text": "carter picked me last on wednesday",
+      "page": 7
+    },
+    {
+      "start": 41.12,
+      "end": 46.4,
+      "text": "on ya picked me last on thursday",
+      "page": 8
+    },
+    {
+      "start": 46.38,
+      "end": 51.36,
+      "text": "louie picked me last on friday",
+      "page": 9
+    },
+    {
+      "start": 51.28,
+      "end": 57.1,
+      "text": "jean picked me last on saturday",
+      "page": 10
+    },
+    {
+      "start": 57.04,
+      "end": 70.46,
+      "text": "i asked to pick on sunday everyone agreed now i get to pick",
+      "page": 11
+    },
+    {
+      "start": 69.96,
+      "end": 91.74,
+      "text": "connections writing list all of the children's names from the book then write the names in abc order social studies and art draw a picture of a time you take turns write about your picture",
+      "page": 12
+    }
+  ]
+}

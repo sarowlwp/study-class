@@ -1,0 +1,77 @@
+{
+  "id": "level-aa/in",
+  "title": "In",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 8.2,
+      "text": "in written by cheryl ryan illustrated by nora voodis",
+      "page": 2
+    },
+    {
+      "start": 10.28,
+      "end": 12.18,
+      "text": "in the car",
+      "page": 3
+    },
+    {
+      "start": 14.26,
+      "end": 15.9,
+      "text": "in the wagon",
+      "page": 4
+    },
+    {
+      "start": 18.14,
+      "end": 20.12,
+      "text": "in the boat",
+      "page": 5
+    },
+    {
+      "start": 21.98,
+      "end": 23.7,
+      "text": "in the house",
+      "page": 6
+    },
+    {
+      "start": 25.82,
+      "end": 27.26,
+      "text": "in the water",
+      "page": 7
+    },
+    {
+      "start": 29.06,
+      "end": 31.54,
+      "text": "in the grass",
+      "page": 8
+    },
+    {
+      "start": 33.56,
+      "end": 35.22,
+      "text": "in the mud",
+      "page": 9
+    },
+    {
+      "start": 37.22,
+      "end": 38.82,
+      "text": "in the bathtub",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

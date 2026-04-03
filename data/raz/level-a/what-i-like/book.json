@@ -1,0 +1,77 @@
+{
+  "id": "level-a/what-i-like",
+  "title": "What I Like",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 8.42,
+      "end": 10.3,
+      "text": "i like flowers",
+      "page": 3
+    },
+    {
+      "start": 10.34,
+      "end": 12.36,
+      "text": "i like trees",
+      "page": 4
+    },
+    {
+      "start": 12.32,
+      "end": 14.4,
+      "text": "i like birds",
+      "page": 5
+    },
+    {
+      "start": 14.48,
+      "end": 16.38,
+      "text": "i like bees",
+      "page": 6
+    },
+    {
+      "start": 16.32,
+      "end": 18.74,
+      "text": "i like to swing",
+      "page": 7
+    },
+    {
+      "start": 18.78,
+      "end": 20.92,
+      "text": "i like to slide",
+      "page": 8
+    },
+    {
+      "start": 20.88,
+      "end": 23.14,
+      "text": "i like to dig",
+      "page": 9
+    },
+    {
+      "start": 23.06,
+      "end": 25.8,
+      "text": "i like to play outside",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

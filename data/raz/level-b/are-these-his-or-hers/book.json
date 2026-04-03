@@ -1,0 +1,83 @@
+{
+  "id": "level-b/are-these-his-or-hers",
+  "title": "Are These His Or Hers",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 24.6,
+      "text": "are these his or hers written by rachel rice illustrated by lisa fields focus question why is the family doing the chore in the story",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 24.1,
+      "end": 30.26,
+      "text": "are these clothes his or hers",
+      "page": 4
+    },
+    {
+      "start": 29.78,
+      "end": 34.58,
+      "text": "these socks are his",
+      "page": 5
+    },
+    {
+      "start": 34.7,
+      "end": 38.88,
+      "text": "these shorts are hers",
+      "page": 6
+    },
+    {
+      "start": 39.04,
+      "end": 42.92,
+      "text": "these pajamas are his",
+      "page": 7
+    },
+    {
+      "start": 42.42,
+      "end": 46.9,
+      "text": "these shirts are hers",
+      "page": 8
+    },
+    {
+      "start": 46.4,
+      "end": 51.22,
+      "text": "these jackets are his",
+      "page": 9
+    },
+    {
+      "start": 51.3,
+      "end": 54.96,
+      "text": "these hats are hers",
+      "page": 10
+    },
+    {
+      "start": 54.46,
+      "end": 64.78,
+      "text": "are these jeans his or hers they are his and hers",
+      "page": 11
+    },
+    {
+      "start": 64.28,
+      "end": 96.3,
+      "text": "connections writing and art what are your favorite clothes to wear draw a picture and label it social studies why is it important to help with chores at home share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

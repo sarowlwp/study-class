@@ -1,0 +1,83 @@
+{
+  "id": "level-b/my-pet-dinosaur",
+  "title": "My Pet Dinosaur",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 9.66,
+      "end": 14.9,
+      "text": "focus question what can the pet dinosaur do",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 15.42,
+      "end": 19.44,
+      "text": "my pet dinosaur can fetch",
+      "page": 4
+    },
+    {
+      "start": 19.16,
+      "end": 24.1,
+      "text": "my pet dinosaur can sit",
+      "page": 5
+    },
+    {
+      "start": 24.66,
+      "end": 29.3,
+      "text": "my pet dinosaur can shake hands",
+      "page": 6
+    },
+    {
+      "start": 29.88,
+      "end": 33.78,
+      "text": "my pet dinosaur can beg",
+      "page": 7
+    },
+    {
+      "start": 34.46,
+      "end": 38.76,
+      "text": "my pet dinosaur can lie down",
+      "page": 8
+    },
+    {
+      "start": 39.16,
+      "end": 43.02,
+      "text": "my pet dinosaur can roar",
+      "page": 9
+    },
+    {
+      "start": 43.6,
+      "end": 47.24,
+      "text": "my pet dinosaur can lick",
+      "page": 10
+    },
+    {
+      "start": 47.72,
+      "end": 51.34,
+      "text": "my pet dinosaur cannot hide",
+      "page": 11
+    },
+    {
+      "start": 51.06,
+      "end": 80.52,
+      "text": "connections writing and art if you could have a pet dinosaur what trick would you teach it to do draw a picture and write about it science how is the pet dinosaur the same as a pet dog how is it different share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

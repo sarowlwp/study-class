@@ -1,0 +1,77 @@
+{
+  "id": "level-aa/the-garden",
+  "title": "The Garden",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 8.24,
+      "text": "the garden written by ned jinsson illustrated by cindy hill",
+      "page": 2
+    },
+    {
+      "start": 10.06,
+      "end": 12.2,
+      "text": "the peas",
+      "page": 3
+    },
+    {
+      "start": 13.74,
+      "end": 15.44,
+      "text": "the beans",
+      "page": 4
+    },
+    {
+      "start": 17.36,
+      "end": 19.18,
+      "text": "the mellons",
+      "page": 5
+    },
+    {
+      "start": 21.16,
+      "end": 22.64,
+      "text": "the onions",
+      "page": 6
+    },
+    {
+      "start": 23.68,
+      "end": 26.4,
+      "text": "the potatoes",
+      "page": 7
+    },
+    {
+      "start": 26.68,
+      "end": 29.98,
+      "text": "the tomatoes",
+      "page": 8
+    },
+    {
+      "start": 30.88,
+      "end": 33.72,
+      "text": "the corn",
+      "page": 9
+    },
+    {
+      "start": 33.22,
+      "end": 36.68,
+      "text": "the garden",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "level-c/different-kinds-of-sharks",
+  "title": "Different Kinds Of Sharks",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 6.0,
+      "text": "different kinds of sharks written by russ buyak",
+      "page": 2
+    },
+    {
+      "start": 5.92,
+      "end": 9.92,
+      "text": "there are many different kinds of sharks",
+      "page": 3
+    },
+    {
+      "start": 9.94,
+      "end": 12.96,
+      "text": "a whale shark is very big",
+      "page": 4
+    },
+    {
+      "start": 12.84,
+      "end": 16.5,
+      "text": "a tiger shark has light stripes",
+      "page": 5
+    },
+    {
+      "start": 16.42,
+      "end": 20.26,
+      "text": "a zebra shark has dark spots",
+      "page": 6
+    },
+    {
+      "start": 19.76,
+      "end": 23.76,
+      "text": "a blue shark is very fast",
+      "page": 7
+    },
+    {
+      "start": 23.52,
+      "end": 27.32,
+      "text": "an angel shark has wide fins",
+      "page": 8
+    },
+    {
+      "start": 27.38,
+      "end": 31.74,
+      "text": "a great white shark has sharp teeth",
+      "page": 9
+    },
+    {
+      "start": 31.62,
+      "end": 34.34,
+      "text": "all sharks live in water",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

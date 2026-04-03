@@ -1,0 +1,77 @@
+{
+  "id": "level-c/we-make-a-snowman",
+  "title": "We Make A Snowman",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 7.76,
+      "text": "we make a snowman written by cheryl ryan illustrated by john cassner",
+      "page": 2
+    },
+    {
+      "start": 7.26,
+      "end": 9.74,
+      "text": "i go out to play",
+      "page": 3
+    },
+    {
+      "start": 9.24,
+      "end": 12.26,
+      "text": "my friends go out to play",
+      "page": 4
+    },
+    {
+      "start": 11.76,
+      "end": 14.36,
+      "text": "we play in the snow",
+      "page": 5
+    },
+    {
+      "start": 13.86,
+      "end": 16.96,
+      "text": "we make a snowman",
+      "page": 6
+    },
+    {
+      "start": 16.46,
+      "end": 20.12,
+      "text": "we make arms for the snowman",
+      "page": 7
+    },
+    {
+      "start": 19.62,
+      "end": 26.56,
+      "text": "we make eyes for the snowman we make a nose and a mouth",
+      "page": 8
+    },
+    {
+      "start": 26.68,
+      "end": 29.54,
+      "text": "we play with the snowman",
+      "page": 9
+    },
+    {
+      "start": 29.7,
+      "end": 35.8,
+      "text": "we go in the house dad makes heart soup yum",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

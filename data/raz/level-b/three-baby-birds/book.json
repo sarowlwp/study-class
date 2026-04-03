@@ -1,0 +1,77 @@
+{
+  "id": "level-b/three-baby-birds",
+  "title": "Three Baby Birds",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 8.32,
+      "text": "three baby birds written by russ vuyak illustrated by linda silvestri",
+      "page": 2
+    },
+    {
+      "start": 8.14,
+      "end": 11.32,
+      "text": "there were three baby birds",
+      "page": 3
+    },
+    {
+      "start": 11.5,
+      "end": 16.1,
+      "text": "the baby birds grew and grew",
+      "page": 4
+    },
+    {
+      "start": 16.06,
+      "end": 19.7,
+      "text": "one baby bird flew away",
+      "page": 5
+    },
+    {
+      "start": 19.74,
+      "end": 24.62,
+      "text": "two baby birds grew and grew",
+      "page": 6
+    },
+    {
+      "start": 24.42,
+      "end": 28.02,
+      "text": "one baby bird flew away",
+      "page": 7
+    },
+    {
+      "start": 27.52,
+      "end": 33.4,
+      "text": "the last baby bird grew and grew",
+      "page": 8
+    },
+    {
+      "start": 33.44,
+      "end": 37.96,
+      "text": "the last baby bird flew away",
+      "page": 9
+    },
+    {
+      "start": 38.22,
+      "end": 41.28,
+      "text": "the mama bird could rest",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

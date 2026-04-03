@@ -1,0 +1,83 @@
+{
+  "id": "level-c/the-moon",
+  "title": "The Moon",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 2.3,
+      "end": 14.84,
+      "text": "the moon written by d g chelsea focus question how does the moon look different over time",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 14.82,
+      "end": 23.78,
+      "text": "the moon looks different over time the changes happen in a cycle",
+      "page": 4
+    },
+    {
+      "start": 23.76,
+      "end": 27.24,
+      "text": "the moon is dark tonight",
+      "page": 5
+    },
+    {
+      "start": 27.72,
+      "end": 31.06,
+      "text": "the moon is thin tonight",
+      "page": 6
+    },
+    {
+      "start": 31.46,
+      "end": 35.42,
+      "text": "the moon is half full tonight",
+      "page": 7
+    },
+    {
+      "start": 35.66,
+      "end": 39.42,
+      "text": "the moon is full tonight",
+      "page": 8
+    },
+    {
+      "start": 39.4,
+      "end": 44.14,
+      "text": "the moon is half full tonight",
+      "page": 9
+    },
+    {
+      "start": 44.14,
+      "end": 48.34,
+      "text": "the moon is thin tonight",
+      "page": 10
+    },
+    {
+      "start": 48.36,
+      "end": 56.86,
+      "text": "the moon is dark tonight the cycle starts over again",
+      "page": 11
+    },
+    {
+      "start": 56.64,
+      "end": 82.84,
+      "text": "connections writing and art make a poster about the cycle of the moon draw pictures on your poster and label them science and art draw a picture of the moon tonight describe your picture to a partner",
+      "page": 12
+    }
+  ]
+}

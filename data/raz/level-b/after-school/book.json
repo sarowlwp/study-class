@@ -1,0 +1,83 @@
+{
+  "id": "level-b/after-school",
+  "title": "After School",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 22.88,
+      "text": "after school written by elizabeth jane pistilmic illustrated by tracy bishop focus question what are some ways to have fun after school",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 23.16,
+      "end": 28.24,
+      "text": "i like to study after school",
+      "page": 4
+    },
+    {
+      "start": 28.16,
+      "end": 33.22,
+      "text": "i like to play after school",
+      "page": 5
+    },
+    {
+      "start": 32.94,
+      "end": 38.64,
+      "text": "i like to dance after school",
+      "page": 6
+    },
+    {
+      "start": 38.14,
+      "end": 43.06,
+      "text": "i like to act after school",
+      "page": 7
+    },
+    {
+      "start": 42.56,
+      "end": 47.54,
+      "text": "i like to read after school",
+      "page": 8
+    },
+    {
+      "start": 47.52,
+      "end": 52.2,
+      "text": "i like to sing after school",
+      "page": 9
+    },
+    {
+      "start": 52.28,
+      "end": 56.68,
+      "text": "i like to bike after school",
+      "page": 10
+    },
+    {
+      "start": 56.68,
+      "end": 62.0,
+      "text": "we like to have fun after school",
+      "page": 11
+    },
+    {
+      "start": 61.5,
+      "end": 99.74,
+      "text": "connections writing and art make a new page for this book draw a picture and write this sentence i like to after school math what do your classmates do after school make a bar graph as a class to show this information",
+      "page": 12
+    }
+  ]
+}

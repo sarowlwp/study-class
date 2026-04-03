@@ -1,0 +1,77 @@
+{
+  "id": "level-a/nice-not-nice",
+  "title": "Nice Not Nice",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 11.14,
+      "text": "nice not nice written by edie evans illustrated by nisha hudson",
+      "page": 2
+    },
+    {
+      "start": 11.9,
+      "end": 15.06,
+      "text": "this push is nice",
+      "page": 3
+    },
+    {
+      "start": 15.62,
+      "end": 19.38,
+      "text": "this push is not nice",
+      "page": 4
+    },
+    {
+      "start": 19.86,
+      "end": 23.04,
+      "text": "this kick is nice",
+      "page": 5
+    },
+    {
+      "start": 23.54,
+      "end": 27.32,
+      "text": "this kick is not nice",
+      "page": 6
+    },
+    {
+      "start": 27.32,
+      "end": 30.66,
+      "text": "this hit is nice",
+      "page": 7
+    },
+    {
+      "start": 31.36,
+      "end": 34.98,
+      "text": "this hit is not nice",
+      "page": 8
+    },
+    {
+      "start": 35.82,
+      "end": 38.6,
+      "text": "this paul is nice",
+      "page": 9
+    },
+    {
+      "start": 39.22,
+      "end": 42.52,
+      "text": "this paul is not nice",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

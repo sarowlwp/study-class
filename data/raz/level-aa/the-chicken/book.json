@@ -1,0 +1,83 @@
+{
+  "id": "level-aa/the-chicken",
+  "title": "The Chicken",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 11.74,
+      "text": "the chicken written by rachel rice focus question what are the different parts of a chicken",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 11.66,
+      "end": 13.24,
+      "text": "the chicken",
+      "page": 4
+    },
+    {
+      "start": 13.22,
+      "end": 14.54,
+      "text": "the beak",
+      "page": 5
+    },
+    {
+      "start": 14.68,
+      "end": 16.12,
+      "text": "the feathers",
+      "page": 6
+    },
+    {
+      "start": 16.34,
+      "end": 17.88,
+      "text": "the wings",
+      "page": 7
+    },
+    {
+      "start": 17.92,
+      "end": 19.46,
+      "text": "the tail",
+      "page": 8
+    },
+    {
+      "start": 19.6,
+      "end": 21.14,
+      "text": "the legs",
+      "page": 9
+    },
+    {
+      "start": 21.38,
+      "end": 22.54,
+      "text": "the feet",
+      "page": 10
+    },
+    {
+      "start": 22.68,
+      "end": 24.2,
+      "text": "the eggs",
+      "page": 11
+    },
+    {
+      "start": 24.12,
+      "end": 50.4,
+      "text": "connections writing and art chickens and other animals live on farms draw a picture of a farm with many animals write the names of the animals science draw a picture of a chicken and the different parts of its body",
+      "page": 12
+    }
+  ]
+}

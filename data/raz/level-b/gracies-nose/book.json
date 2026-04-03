@@ -1,0 +1,77 @@
+{
+  "id": "level-b/gracies-nose",
+  "title": "Gracies Nose",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 7.8,
+      "text": "gracie's nose written by beverly osborne illustrated by leandee's",
+      "page": 2
+    },
+    {
+      "start": 7.68,
+      "end": 11.0,
+      "text": "gracie's nose is very busy",
+      "page": 3
+    },
+    {
+      "start": 11.18,
+      "end": 14.18,
+      "text": "gracie's nose sniffs everything",
+      "page": 4
+    },
+    {
+      "start": 14.66,
+      "end": 16.76,
+      "text": "gracie's sniffs roses",
+      "page": 5
+    },
+    {
+      "start": 17.18,
+      "end": 19.36,
+      "text": "gracie's sniffs bugs",
+      "page": 6
+    },
+    {
+      "start": 19.8,
+      "end": 22.06,
+      "text": "gracie's sniffs birds",
+      "page": 7
+    },
+    {
+      "start": 22.38,
+      "end": 25.18,
+      "text": "gracie's sniffs my lunch",
+      "page": 8
+    },
+    {
+      "start": 25.34,
+      "end": 27.46,
+      "text": "gracie sniffs my ear",
+      "page": 9
+    },
+    {
+      "start": 28.18,
+      "end": 30.06,
+      "text": "gracie sniffs my toes",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

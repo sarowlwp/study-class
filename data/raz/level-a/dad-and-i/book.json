@@ -1,0 +1,83 @@
+{
+  "id": "level-a/dad-and-i",
+  "title": "Dad And I",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 18.16,
+      "text": "dad and i written by elizabeth jane pustilnik focus question what can kids do with their dad's",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 17.66,
+      "end": 23.1,
+      "text": "dad and i big dad",
+      "page": 4
+    },
+    {
+      "start": 23.02,
+      "end": 26.46,
+      "text": "and i swim",
+      "page": 5
+    },
+    {
+      "start": 25.96,
+      "end": 31.36,
+      "text": "dad and i garden",
+      "page": 6
+    },
+    {
+      "start": 30.86,
+      "end": 36.4,
+      "text": "dad and i play",
+      "page": 7
+    },
+    {
+      "start": 35.9,
+      "end": 41.38,
+      "text": "dad and i bike",
+      "page": 8
+    },
+    {
+      "start": 40.88,
+      "end": 46.26,
+      "text": "dad and i walk",
+      "page": 9
+    },
+    {
+      "start": 45.76,
+      "end": 51.06,
+      "text": "dad and i right",
+      "page": 10
+    },
+    {
+      "start": 50.94,
+      "end": 55.74,
+      "text": "dad and i hug",
+      "page": 11
+    },
+    {
+      "start": 55.24,
+      "end": 88.36,
+      "text": "connections writing and art what else can a dad do with his kids draw a picture and label it social studies find father's day on the calendar what is the date share your answer with a partner",
+      "page": 12
+    }
+  ]
+}

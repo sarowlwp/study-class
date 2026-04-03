@@ -1,0 +1,83 @@
+{
+  "id": "level-b/valentines-all-around",
+  "title": "Valentines All Around",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 28.48,
+      "text": "valentine's all around written by harriet rosenblum illustrated by kelly kennedy focus question what can you learn about each character by looking at his or her valentine",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 28.82,
+      "end": 33.08,
+      "text": "this one is for mom",
+      "page": 4
+    },
+    {
+      "start": 33.66,
+      "end": 37.82,
+      "text": "this one is for dad",
+      "page": 5
+    },
+    {
+      "start": 38.04,
+      "end": 42.16,
+      "text": "this one is for noah",
+      "page": 6
+    },
+    {
+      "start": 42.56,
+      "end": 46.32,
+      "text": "this one is for granny",
+      "page": 7
+    },
+    {
+      "start": 46.58,
+      "end": 50.34,
+      "text": "this one is for poppy",
+      "page": 8
+    },
+    {
+      "start": 50.98,
+      "end": 54.9,
+      "text": "this one is for spot",
+      "page": 9
+    },
+    {
+      "start": 55.34,
+      "end": 59.6,
+      "text": "this one is for knittons",
+      "page": 10
+    },
+    {
+      "start": 59.84,
+      "end": 63.98,
+      "text": "this one is for you",
+      "page": 11
+    },
+    {
+      "start": 64.18,
+      "end": 95.48,
+      "text": "connections writing and art make a special valentine for a family member or friend draw pictures on your valentine and write about why you love that person social studies how do people celebrate valentine's day share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

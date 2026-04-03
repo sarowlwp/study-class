@@ -1,0 +1,83 @@
+{
+  "id": "level-c/we-learn-to-swim",
+  "title": "We Learn To Swim",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": -0.22,
+      "end": 19.34,
+      "text": "we learn to swim written by sarah gusson illustrated by mary yules focus question what skills do people practice as they learn to swim",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 19.86,
+      "end": 28.72,
+      "text": "we are learning to swim this week what are we going to learn",
+      "page": 4
+    },
+    {
+      "start": 28.84,
+      "end": 35.06,
+      "text": "it is monday we learn to blow bubbles",
+      "page": 5
+    },
+    {
+      "start": 35.26,
+      "end": 41.3,
+      "text": "it is tuesday we learn to kick",
+      "page": 6
+    },
+    {
+      "start": 41.32,
+      "end": 47.86,
+      "text": "it is wednesday we learn to paddle",
+      "page": 7
+    },
+    {
+      "start": 47.92,
+      "end": 55.02,
+      "text": "it is thursday we learn to dunk",
+      "page": 8
+    },
+    {
+      "start": 55.16,
+      "end": 61.82,
+      "text": "it is friday we learn to float",
+      "page": 9
+    },
+    {
+      "start": 62.0,
+      "end": 69.42,
+      "text": "it is saturday we learn to jump",
+      "page": 10
+    },
+    {
+      "start": 69.72,
+      "end": 78.58,
+      "text": "it is sunday now we practice what we have learned connections",
+      "page": 11
+    },
+    {
+      "start": 80.66,
+      "end": 110.32,
+      "text": "writing and art do you like to go swimming why or why not draw a picture and write about it social studies what are some rules for staying safe around the water make a poster for water safety and share it with your classmates",
+      "page": 12
+    }
+  ]
+}

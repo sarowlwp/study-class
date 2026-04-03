@@ -1,0 +1,77 @@
+{
+  "id": "level-c/the-woodsy-band-jam",
+  "title": "The Woodsy Band Jam",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 10.1,
+      "text": "the woodsie band jam written by pam bull illustrated by angela camstrad jacobson",
+      "page": 2
+    },
+    {
+      "start": 10.74,
+      "end": 16.06,
+      "text": "spring is here said woodchuck let's jam he said",
+      "page": 3
+    },
+    {
+      "start": 15.86,
+      "end": 20.54,
+      "text": "out came elk i'll play my horn said elk",
+      "page": 4
+    },
+    {
+      "start": 20.7,
+      "end": 25.52,
+      "text": "out came bear i'll play my banjo said bear",
+      "page": 5
+    },
+    {
+      "start": 25.02,
+      "end": 30.8,
+      "text": "out came owl i'll play my fiddle said owl",
+      "page": 6
+    },
+    {
+      "start": 30.96,
+      "end": 36.08,
+      "text": "out came rabbit i'll play my fife said rabbit",
+      "page": 7
+    },
+    {
+      "start": 36.34,
+      "end": 41.58,
+      "text": "out came raccoon i'll play my drum said raccoon",
+      "page": 8
+    },
+    {
+      "start": 42.08,
+      "end": 47.16,
+      "text": "out came fox i'll sing said fox",
+      "page": 9
+    },
+    {
+      "start": 47.56,
+      "end": 49.16,
+      "text": "let's jam",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

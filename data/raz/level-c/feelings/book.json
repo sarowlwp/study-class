@@ -1,0 +1,89 @@
+{
+  "id": "level-c/feelings",
+  "title": "Feelings",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 13,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 6.14,
+      "text": "feelings written by cheryl ryan illustrated by siri weber fini",
+      "page": 2
+    },
+    {
+      "start": 6.52,
+      "end": 10.78,
+      "text": "i have many feelings my feelings change from time to time",
+      "page": 3
+    },
+    {
+      "start": 11.02,
+      "end": 13.04,
+      "text": "sometimes i feel kind of happy",
+      "page": 4
+    },
+    {
+      "start": 13.98,
+      "end": 15.68,
+      "text": "sometimes i feel very happy",
+      "page": 5
+    },
+    {
+      "start": 16.6,
+      "end": 18.34,
+      "text": "sometimes i feel kind of sad",
+      "page": 6
+    },
+    {
+      "start": 19.32,
+      "end": 21.04,
+      "text": "sometimes i feel very sad",
+      "page": 7
+    },
+    {
+      "start": 22.06,
+      "end": 23.36,
+      "text": "sometimes i feel kind of angry",
+      "page": 8
+    },
+    {
+      "start": 23.82,
+      "end": 26.2,
+      "text": "sometimes i feel very angry",
+      "page": 9
+    },
+    {
+      "start": 26.44,
+      "end": 28.2,
+      "text": "sometimes i feel kind of scared",
+      "page": 10
+    },
+    {
+      "start": 28.52,
+      "end": 30.7,
+      "text": "sometimes i feel very scared",
+      "page": 11
+    },
+    {
+      "start": 31.02,
+      "end": 35.7,
+      "text": "i have many different feelings do you have many different feelings too",
+      "page": 12
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 13
+    }
+  ]
+}

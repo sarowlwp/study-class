@@ -1,0 +1,77 @@
+{
+  "id": "level-b/maria-and-her-teacher",
+  "title": "Maria And Her Teacher",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 14.72,
+      "end": 20.62,
+      "text": "maria and her teacher talk",
+      "page": 3
+    },
+    {
+      "start": 20.12,
+      "end": 26.12,
+      "text": "maria and her teacher write",
+      "page": 4
+    },
+    {
+      "start": 25.62,
+      "end": 31.56,
+      "text": "maria and her teacher read",
+      "page": 5
+    },
+    {
+      "start": 31.06,
+      "end": 36.82,
+      "text": "maria and her teacher add",
+      "page": 6
+    },
+    {
+      "start": 36.32,
+      "end": 42.22,
+      "text": "maria and her teacher smile",
+      "page": 7
+    },
+    {
+      "start": 41.72,
+      "end": 47.94,
+      "text": "maria and her teacher paint",
+      "page": 8
+    },
+    {
+      "start": 47.44,
+      "end": 53.3,
+      "text": "maria and her teacher clean",
+      "page": 9
+    },
+    {
+      "start": 52.8,
+      "end": 58.5,
+      "text": "maria and her teacher play",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

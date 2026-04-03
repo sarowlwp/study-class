@@ -1,0 +1,83 @@
+{
+  "id": "level-c/strange-animals",
+  "title": "Strange Animals",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 12.26,
+      "text": "strange animals written by ed evans focus question what makes some animals strange",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 11.76,
+      "end": 19.96,
+      "text": "animals are living things some animals look strange",
+      "page": 4
+    },
+    {
+      "start": 19.8,
+      "end": 24.5,
+      "text": "a panda and looks strange",
+      "page": 5
+    },
+    {
+      "start": 24.02,
+      "end": 28.9,
+      "text": "a blue dragon looks strange",
+      "page": 6
+    },
+    {
+      "start": 28.58,
+      "end": 33.54,
+      "text": "a star spider looks strange",
+      "page": 7
+    },
+    {
+      "start": 33.98,
+      "end": 38.0,
+      "text": "a turtle frog looks strange",
+      "page": 8
+    },
+    {
+      "start": 38.1,
+      "end": 42.78,
+      "text": "a rosy moth looks strange",
+      "page": 9
+    },
+    {
+      "start": 42.54,
+      "end": 47.08,
+      "text": "a water bear looks strange",
+      "page": 10
+    },
+    {
+      "start": 47.06,
+      "end": 52.4,
+      "text": "do these animals look strange",
+      "page": 11
+    },
+    {
+      "start": 51.9,
+      "end": 81.1,
+      "text": "connections writing and art which animal in the book looks the strangest to you draw a picture and write about it math which animals in the book look the strangest to the students in your class make a class graph to show the information",
+      "page": 12
+    }
+  ]
+}

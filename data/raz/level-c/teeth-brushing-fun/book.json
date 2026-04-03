@@ -1,0 +1,77 @@
+{
+  "id": "level-c/teeth-brushing-fun",
+  "title": "Teeth Brushing Fun",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 8.92,
+      "text": "teeth brushing fun written by katie anderson illustrated by laura freeman",
+      "page": 2
+    },
+    {
+      "start": 9.22,
+      "end": 12.62,
+      "text": "i brush my teeth twice a day",
+      "page": 3
+    },
+    {
+      "start": 12.62,
+      "end": 15.58,
+      "text": "i brush my teeth with toothpaste",
+      "page": 4
+    },
+    {
+      "start": 15.74,
+      "end": 19.14,
+      "text": "i brush my teeth for two minutes",
+      "page": 5
+    },
+    {
+      "start": 19.08,
+      "end": 21.96,
+      "text": "i brush my teeth in the front",
+      "page": 6
+    },
+    {
+      "start": 21.94,
+      "end": 25.12,
+      "text": "i brush my teeth in the back",
+      "page": 7
+    },
+    {
+      "start": 24.96,
+      "end": 28.08,
+      "text": "i brush my teeth on the top",
+      "page": 8
+    },
+    {
+      "start": 27.58,
+      "end": 31.12,
+      "text": "i brush my teeth on the bottom",
+      "page": 9
+    },
+    {
+      "start": 31.08,
+      "end": 33.64,
+      "text": "brushing my teeth is fun",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

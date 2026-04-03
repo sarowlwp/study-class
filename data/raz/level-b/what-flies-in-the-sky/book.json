@@ -1,0 +1,77 @@
+{
+  "id": "level-b/what-flies-in-the-sky",
+  "title": "What Flies In The Sky",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 9.06,
+      "text": "what flies in the sky written by ed evans illustrated by jenny kincade",
+      "page": 2
+    },
+    {
+      "start": 8.56,
+      "end": 11.8,
+      "text": "what flies in the sky",
+      "page": 3
+    },
+    {
+      "start": 11.86,
+      "end": 15.14,
+      "text": "a kite flies in the sky",
+      "page": 4
+    },
+    {
+      "start": 14.64,
+      "end": 18.84,
+      "text": "a bird flies in the sky",
+      "page": 5
+    },
+    {
+      "start": 18.34,
+      "end": 22.46,
+      "text": "a balloon flies in the sky",
+      "page": 6
+    },
+    {
+      "start": 21.96,
+      "end": 25.98,
+      "text": "a bee flies in the sky",
+      "page": 7
+    },
+    {
+      "start": 25.48,
+      "end": 29.94,
+      "text": "a rocket flies in the sky",
+      "page": 8
+    },
+    {
+      "start": 29.44,
+      "end": 33.26,
+      "text": "a bat flies in the sky",
+      "page": 9
+    },
+    {
+      "start": 33.24,
+      "end": 36.8,
+      "text": "i wish i could fly in the sky",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

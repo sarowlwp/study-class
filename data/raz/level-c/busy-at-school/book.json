@@ -1,0 +1,89 @@
+{
+  "id": "level-c/busy-at-school",
+  "title": "Busy At School",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 13,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 5.64,
+      "end": 8.54,
+      "text": "the children are busy at school",
+      "page": 3
+    },
+    {
+      "start": 8.52,
+      "end": 10.68,
+      "text": "they sing a song",
+      "page": 4
+    },
+    {
+      "start": 10.78,
+      "end": 12.78,
+      "text": "they paint a picture",
+      "page": 5
+    },
+    {
+      "start": 12.78,
+      "end": 15.08,
+      "text": "they play a game",
+      "page": 6
+    },
+    {
+      "start": 14.96,
+      "end": 17.8,
+      "text": "they listen to a story",
+      "page": 7
+    },
+    {
+      "start": 17.54,
+      "end": 19.98,
+      "text": "they eat snacks",
+      "page": 8
+    },
+    {
+      "start": 20.28,
+      "end": 22.16,
+      "text": "they share toys",
+      "page": 9
+    },
+    {
+      "start": 22.38,
+      "end": 24.16,
+      "text": "they count numbers",
+      "page": 10
+    },
+    {
+      "start": 24.2,
+      "end": 27.62,
+      "text": "they write the abcs",
+      "page": 11
+    },
+    {
+      "start": 27.76,
+      "end": 33.8,
+      "text": "the children are busy at school what other things do they do",
+      "page": 12
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 13
+    }
+  ]
+}

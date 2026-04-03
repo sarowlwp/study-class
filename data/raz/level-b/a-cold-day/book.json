@@ -1,0 +1,77 @@
+{
+  "id": "level-b/a-cold-day",
+  "title": "A Cold Day",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 2.42,
+      "text": "a cold day",
+      "page": 1
+    },
+    {
+      "start": 2.64,
+      "end": 9.56,
+      "text": "written by anthony kern illustrated by arthur lynn",
+      "page": 2
+    },
+    {
+      "start": 9.66,
+      "end": 12.94,
+      "text": "the air feels cold today",
+      "page": 3
+    },
+    {
+      "start": 12.96,
+      "end": 16.38,
+      "text": "the car feels cold today",
+      "page": 4
+    },
+    {
+      "start": 16.28,
+      "end": 20.04,
+      "text": "the tree feels cold today",
+      "page": 5
+    },
+    {
+      "start": 20.0,
+      "end": 23.48,
+      "text": "the fence feels cold today",
+      "page": 6
+    },
+    {
+      "start": 23.4,
+      "end": 27.56,
+      "text": "the mailbox feels cold today",
+      "page": 7
+    },
+    {
+      "start": 27.94,
+      "end": 31.12,
+      "text": "the male feels cold today",
+      "page": 8
+    },
+    {
+      "start": 31.28,
+      "end": 35.36,
+      "text": "the door handle feels cold today",
+      "page": 9
+    },
+    {
+      "start": 35.48,
+      "end": 39.04,
+      "text": "the hot chocolate feels good today",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

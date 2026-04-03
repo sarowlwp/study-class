@@ -1,0 +1,77 @@
+{
+  "id": "level-c/allie-and-ollie",
+  "title": "Allie And Ollie",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 7.16,
+      "text": "ali and ali written by katharine page illustrated by kayori tijima",
+      "page": 2
+    },
+    {
+      "start": 9.22,
+      "end": 12.04,
+      "text": "ali and ali are dogs",
+      "page": 3
+    },
+    {
+      "start": 13.76,
+      "end": 16.58,
+      "text": "ali and ali are sisters",
+      "page": 4
+    },
+    {
+      "start": 18.52,
+      "end": 22.28,
+      "text": "ali and ali think they are people",
+      "page": 5
+    },
+    {
+      "start": 24.02,
+      "end": 27.18,
+      "text": "ali and ali sit like people",
+      "page": 6
+    },
+    {
+      "start": 28.36,
+      "end": 33.12,
+      "text": "ellie and ollie eat like people",
+      "page": 7
+    },
+    {
+      "start": 33.62,
+      "end": 38.16,
+      "text": "ellie and ollie run like people",
+      "page": 8
+    },
+    {
+      "start": 39.18,
+      "end": 42.26,
+      "text": "ellie and ollie sleep like people",
+      "page": 9
+    },
+    {
+      "start": 43.92,
+      "end": 48.2,
+      "text": "but ellie and ollie chase cats just like dogs",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

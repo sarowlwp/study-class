@@ -1,0 +1,83 @@
+{
+  "id": "level-b/we-do-not-share",
+  "title": "We Do Not Share",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 23.2,
+      "text": "we do not share written by 80 evans illustrated by carl west focus question why are the things in this book not okay to share",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 22.7,
+      "end": 31.2,
+      "text": "we do not share toothbrushes",
+      "page": 4
+    },
+    {
+      "start": 31.76,
+      "end": 37.2,
+      "text": "we do not share straws",
+      "page": 5
+    },
+    {
+      "start": 38.24,
+      "end": 43.92,
+      "text": "we do not share tissues",
+      "page": 6
+    },
+    {
+      "start": 43.42,
+      "end": 51.24,
+      "text": "we do not share hair brushes",
+      "page": 7
+    },
+    {
+      "start": 52.02,
+      "end": 57.6,
+      "text": "we do not share gum",
+      "page": 8
+    },
+    {
+      "start": 58.4,
+      "end": 64.68,
+      "text": "we do not share answers",
+      "page": 9
+    },
+    {
+      "start": 64.18,
+      "end": 72.36,
+      "text": "we do not share secrets",
+      "page": 10
+    },
+    {
+      "start": 73.1,
+      "end": 77.9,
+      "text": "we do share butty",
+      "page": 11
+    },
+    {
+      "start": 77.4,
+      "end": 113.1,
+      "text": "connections writing and art make a new page for this book draw a picture and write this sentence we do not share art make a poster that shows things that are okay to share",
+      "page": 12
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "level-c/space",
+  "title": "Space",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": -0.22,
+      "end": 4.2,
+      "text": "space written by catherine page",
+      "page": 2
+    },
+    {
+      "start": 3.7,
+      "end": 8.58,
+      "text": "in the day you see the sky",
+      "page": 3
+    },
+    {
+      "start": 8.08,
+      "end": 13.96,
+      "text": "in the night you can see space",
+      "page": 4
+    },
+    {
+      "start": 13.46,
+      "end": 17.56,
+      "text": "the stars are in space",
+      "page": 5
+    },
+    {
+      "start": 17.68,
+      "end": 21.12,
+      "text": "the moon is in space",
+      "page": 6
+    },
+    {
+      "start": 21.16,
+      "end": 24.5,
+      "text": "planets are in space",
+      "page": 7
+    },
+    {
+      "start": 24.58,
+      "end": 27.96,
+      "text": "comets are in space",
+      "page": 8
+    },
+    {
+      "start": 28.34,
+      "end": 31.57,
+      "text": "satellites are in space",
+      "page": 9
+    },
+    {
+      "start": 31.5,
+      "end": 35.26,
+      "text": "what do you see in space",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

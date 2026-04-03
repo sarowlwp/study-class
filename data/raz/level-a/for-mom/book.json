@@ -1,0 +1,83 @@
+{
+  "id": "level-a/for-mom",
+  "title": "For Mom",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 2.88,
+      "end": 16.54,
+      "text": "written by harriet rosenblum focus question what can children do for their moms",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 16.64,
+      "end": 19.5,
+      "text": "i draw for mom",
+      "page": 4
+    },
+    {
+      "start": 19.88,
+      "end": 24.22,
+      "text": "i cook for mom",
+      "page": 5
+    },
+    {
+      "start": 23.9,
+      "end": 27.9,
+      "text": "i sing 4 mom",
+      "page": 6
+    },
+    {
+      "start": 27.94,
+      "end": 31.8,
+      "text": "i clean 4 mom",
+      "page": 7
+    },
+    {
+      "start": 31.92,
+      "end": 35.86,
+      "text": "i carry 4 mom",
+      "page": 8
+    },
+    {
+      "start": 36.18,
+      "end": 39.92,
+      "text": "i smile 4 mom",
+      "page": 9
+    },
+    {
+      "start": 40.08,
+      "end": 43.36,
+      "text": "i read 4 mom",
+      "page": 10
+    },
+    {
+      "start": 43.58,
+      "end": 47.52,
+      "text": "i sleep for mom",
+      "page": 11
+    },
+    {
+      "start": 47.02,
+      "end": 79.92,
+      "text": "connections writing and art how do you help someone draw a picture and write this sentence i for social studies why is it important to do things for other share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

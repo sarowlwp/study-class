@@ -1,0 +1,77 @@
+{
+  "id": "level-a/what-lives-here",
+  "title": "What Lives Here",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 8.5,
+      "text": "what lives here written by r k burris illustrated by cindy hill",
+      "page": 2
+    },
+    {
+      "start": 8.48,
+      "end": 10.26,
+      "text": "animals live here",
+      "page": 3
+    },
+    {
+      "start": 10.34,
+      "end": 12.32,
+      "text": "a bear lives here",
+      "page": 4
+    },
+    {
+      "start": 12.34,
+      "end": 14.34,
+      "text": "a deer lives here",
+      "page": 5
+    },
+    {
+      "start": 14.38,
+      "end": 16.38,
+      "text": "a fish lives here",
+      "page": 6
+    },
+    {
+      "start": 16.36,
+      "end": 18.56,
+      "text": "a frog lives here",
+      "page": 7
+    },
+    {
+      "start": 18.56,
+      "end": 20.86,
+      "text": "a worm lives here",
+      "page": 8
+    },
+    {
+      "start": 20.8,
+      "end": 22.9,
+      "text": "a bee lives here",
+      "page": 9
+    },
+    {
+      "start": 22.88,
+      "end": 24.78,
+      "text": "a child lives here",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

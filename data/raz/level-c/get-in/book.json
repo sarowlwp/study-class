@@ -1,0 +1,77 @@
+{
+  "id": "level-c/get-in",
+  "title": "Get In",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 8.48,
+      "end": 13.36,
+      "text": "can the boy get in yes he can",
+      "page": 3
+    },
+    {
+      "start": 13.22,
+      "end": 18.1,
+      "text": "can the girl get in yes she can",
+      "page": 4
+    },
+    {
+      "start": 17.98,
+      "end": 23.08,
+      "text": "can the man get in yes he can",
+      "page": 5
+    },
+    {
+      "start": 22.86,
+      "end": 27.42,
+      "text": "can the woman get in yes she can",
+      "page": 6
+    },
+    {
+      "start": 27.2,
+      "end": 32.48,
+      "text": "can the duck get in yes it can",
+      "page": 7
+    },
+    {
+      "start": 32.48,
+      "end": 37.46,
+      "text": "can the dog get in yes it can",
+      "page": 8
+    },
+    {
+      "start": 37.7,
+      "end": 42.44,
+      "text": "can the pig get in yes it can",
+      "page": 9
+    },
+    {
+      "start": 42.46,
+      "end": 48.0,
+      "text": "can the elephant get in no it cannot",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

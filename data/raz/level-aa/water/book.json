@@ -1,0 +1,77 @@
+{
+  "id": "level-aa/water",
+  "title": "Water",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 5.3,
+      "end": 6.22,
+      "text": "water",
+      "page": 3
+    },
+    {
+      "start": 6.42,
+      "end": 9.52,
+      "text": "the ocean",
+      "page": 4
+    },
+    {
+      "start": 11.48,
+      "end": 12.56,
+      "text": "the lake",
+      "page": 5
+    },
+    {
+      "start": 14.7,
+      "end": 15.74,
+      "text": "the river",
+      "page": 6
+    },
+    {
+      "start": 17.6,
+      "end": 18.66,
+      "text": "the rain",
+      "page": 7
+    },
+    {
+      "start": 20.72,
+      "end": 22.06,
+      "text": "the snow",
+      "page": 8
+    },
+    {
+      "start": 23.64,
+      "end": 24.72,
+      "text": "the ice",
+      "page": 9
+    },
+    {
+      "start": 26.72,
+      "end": 27.48,
+      "text": "water",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "level-c/the-festival-of-lights",
+  "title": "The Festival Of Lights",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 20.66,
+      "end": 33.36,
+      "text": "a middle candle lights the others on hanukkah light one camel on night one",
+      "page": 4
+    },
+    {
+      "start": 33.32,
+      "end": 38.36,
+      "text": "light two candles on night two",
+      "page": 5
+    },
+    {
+      "start": 38.14,
+      "end": 43.58,
+      "text": "light three candles on night three",
+      "page": 6
+    },
+    {
+      "start": 43.36,
+      "end": 48.14,
+      "text": "light four candles on night four",
+      "page": 7
+    },
+    {
+      "start": 48.34,
+      "end": 54.36,
+      "text": "light five candles on night five",
+      "page": 8
+    },
+    {
+      "start": 54.5,
+      "end": 60.12,
+      "text": "light six candles on night six",
+      "page": 9
+    },
+    {
+      "start": 60.2,
+      "end": 66.54,
+      "text": "light seven candles on night seven",
+      "page": 10
+    },
+    {
+      "start": 66.62,
+      "end": 79.24,
+      "text": "light eight candles on night eight hanaka is the festival of lights",
+      "page": 11
+    },
+    {
+      "start": 79.82,
+      "end": 108.84,
+      "text": "connections writing and art why is the middle candle important draw a picture and write about it math how many candles are lit on night eight share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

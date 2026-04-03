@@ -1,0 +1,77 @@
+{
+  "id": "level-aa/little",
+  "title": "Little",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 7.52,
+      "text": "little written by cheryl ryan illustrated by gio bodie",
+      "page": 2
+    },
+    {
+      "start": 10.22,
+      "end": 12.18,
+      "text": "a little house",
+      "page": 3
+    },
+    {
+      "start": 14.1,
+      "end": 15.9,
+      "text": "a little dog",
+      "page": 4
+    },
+    {
+      "start": 18.22,
+      "end": 20.08,
+      "text": "a little car",
+      "page": 5
+    },
+    {
+      "start": 20.0,
+      "end": 23.78,
+      "text": "a little plane",
+      "page": 6
+    },
+    {
+      "start": 25.84,
+      "end": 27.94,
+      "text": "a little tree",
+      "page": 7
+    },
+    {
+      "start": 29.78,
+      "end": 32.14,
+      "text": "a little bug",
+      "page": 8
+    },
+    {
+      "start": 33.94,
+      "end": 36.64,
+      "text": "a little mouse",
+      "page": 9
+    },
+    {
+      "start": 38.84,
+      "end": 41.04,
+      "text": "a little baby",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

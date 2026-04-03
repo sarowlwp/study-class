@@ -1,0 +1,77 @@
+{
+  "id": "level-c/tools",
+  "title": "Tools",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 6.68,
+      "text": "tools written by robert charles illustrated by randy gates",
+      "page": 2
+    },
+    {
+      "start": 6.88,
+      "end": 11.78,
+      "text": "i c tools everywhere tools help us work",
+      "page": 3
+    },
+    {
+      "start": 11.56,
+      "end": 15.74,
+      "text": "here as a tool it is a pencil for writing",
+      "page": 4
+    },
+    {
+      "start": 16.04,
+      "end": 19.78,
+      "text": "here is a tool it is a rank for writing",
+      "page": 5
+    },
+    {
+      "start": 20.06,
+      "end": 23.8,
+      "text": "here is a tool it is a hammer for pounding",
+      "page": 6
+    },
+    {
+      "start": 23.88,
+      "end": 27.96,
+      "text": "here is a tool it is a shovel for digging",
+      "page": 7
+    },
+    {
+      "start": 27.94,
+      "end": 31.78,
+      "text": "here is a tool it is a knife for cutting",
+      "page": 8
+    },
+    {
+      "start": 31.9,
+      "end": 35.7,
+      "text": "here is a tool it is a wheelbarrow for carrying",
+      "page": 9
+    },
+    {
+      "start": 35.8,
+      "end": 40.6,
+      "text": "i see tools everywhere what tools do you see",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

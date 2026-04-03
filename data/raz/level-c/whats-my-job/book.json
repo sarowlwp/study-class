@@ -1,0 +1,77 @@
+{
+  "id": "level-c/whats-my-job",
+  "title": "Whats My Job",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 8.88,
+      "text": "what's my job written by maribeth bolts illustrated by bert dodson",
+      "page": 2
+    },
+    {
+      "start": 9.14,
+      "end": 12.72,
+      "text": "women i know do many jobs",
+      "page": 3
+    },
+    {
+      "start": 12.82,
+      "end": 15.98,
+      "text": "a woman i know makes art",
+      "page": 4
+    },
+    {
+      "start": 15.8,
+      "end": 19.3,
+      "text": "a woman i know is a boss",
+      "page": 5
+    },
+    {
+      "start": 19.3,
+      "end": 22.7,
+      "text": "a woman i know drives a truck",
+      "page": 6
+    },
+    {
+      "start": 22.68,
+      "end": 26.12,
+      "text": "a woman i know is a teacher",
+      "page": 7
+    },
+    {
+      "start": 25.62,
+      "end": 29.94,
+      "text": "a woman i know works in a zoo",
+      "page": 8
+    },
+    {
+      "start": 29.84,
+      "end": 32.66,
+      "text": "i will do a job one day",
+      "page": 9
+    },
+    {
+      "start": 32.7,
+      "end": 35.98,
+      "text": "now my job is to play",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

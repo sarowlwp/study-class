@@ -1,0 +1,77 @@
+{
+  "id": "level-a/getting-dressed",
+  "title": "Getting Dressed",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 3.6,
+      "text": "getting dressed written by felicia brown",
+      "page": 2
+    },
+    {
+      "start": 3.42,
+      "end": 5.26,
+      "text": "i put on my shirt",
+      "page": 3
+    },
+    {
+      "start": 5.06,
+      "end": 7.02,
+      "text": "i put on my pants",
+      "page": 4
+    },
+    {
+      "start": 6.8,
+      "end": 8.7,
+      "text": "i put on my belt",
+      "page": 5
+    },
+    {
+      "start": 8.56,
+      "end": 10.5,
+      "text": "i put on my socks",
+      "page": 6
+    },
+    {
+      "start": 10.46,
+      "end": 12.54,
+      "text": "i put on my shoes",
+      "page": 7
+    },
+    {
+      "start": 12.26,
+      "end": 14.18,
+      "text": "i put on my glasses",
+      "page": 8
+    },
+    {
+      "start": 14.1,
+      "end": 16.1,
+      "text": "i put on my jacket",
+      "page": 9
+    },
+    {
+      "start": 15.9,
+      "end": 17.68,
+      "text": "i put on my backpack",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

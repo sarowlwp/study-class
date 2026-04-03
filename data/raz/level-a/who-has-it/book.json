@@ -1,0 +1,77 @@
+{
+  "id": "level-a/who-has-it",
+  "title": "Who Has It",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 9.62,
+      "text": "who has it written by anthony curran illustrated by linda sylvestery",
+      "page": 2
+    },
+    {
+      "start": 9.44,
+      "end": 11.58,
+      "text": "who has it",
+      "page": 3
+    },
+    {
+      "start": 11.24,
+      "end": 13.4,
+      "text": "i have it",
+      "page": 4
+    },
+    {
+      "start": 13.26,
+      "end": 15.44,
+      "text": "you have it",
+      "page": 5
+    },
+    {
+      "start": 15.12,
+      "end": 17.32,
+      "text": "he has it",
+      "page": 6
+    },
+    {
+      "start": 17.02,
+      "end": 19.52,
+      "text": "she has it",
+      "page": 7
+    },
+    {
+      "start": 19.28,
+      "end": 21.64,
+      "text": "they have it",
+      "page": 8
+    },
+    {
+      "start": 21.42,
+      "end": 23.68,
+      "text": "we have it",
+      "page": 9
+    },
+    {
+      "start": 23.52,
+      "end": 26.34,
+      "text": "the dog has it",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

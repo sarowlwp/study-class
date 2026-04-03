@@ -1,0 +1,77 @@
+{
+  "id": "level-b/applesauce",
+  "title": "Applesauce",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 6.9,
+      "text": "apple sauce written by catherine p birdick illustrated by patrick durard",
+      "page": 2
+    },
+    {
+      "start": 9.38,
+      "end": 11.26,
+      "text": "some are red",
+      "page": 3
+    },
+    {
+      "start": 14.18,
+      "end": 16.1,
+      "text": "some are green",
+      "page": 4
+    },
+    {
+      "start": 18.86,
+      "end": 20.64,
+      "text": "some are yellow",
+      "page": 5
+    },
+    {
+      "start": 23.3,
+      "end": 24.84,
+      "text": "cut the apples",
+      "page": 6
+    },
+    {
+      "start": 26.48,
+      "end": 29.48,
+      "text": "cook the apples",
+      "page": 7
+    },
+    {
+      "start": 28.98,
+      "end": 35.48,
+      "text": "mash the apples",
+      "page": 8
+    },
+    {
+      "start": 36.5,
+      "end": 39.32,
+      "text": "add cinnamon",
+      "page": 9
+    },
+    {
+      "start": 41.68,
+      "end": 42.98,
+      "text": "apple sauce",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

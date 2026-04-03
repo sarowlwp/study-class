@@ -1,0 +1,77 @@
+{
+  "id": "level-a/going-places",
+  "title": "Going Places",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 5.26,
+      "text": "going places written by chuck girivano",
+      "page": 2
+    },
+    {
+      "start": 5.48,
+      "end": 7.84,
+      "text": "you can go on a plane",
+      "page": 3
+    },
+    {
+      "start": 7.96,
+      "end": 10.42,
+      "text": "you can go on a train",
+      "page": 4
+    },
+    {
+      "start": 10.62,
+      "end": 12.68,
+      "text": "you can go on a boat",
+      "page": 5
+    },
+    {
+      "start": 12.74,
+      "end": 15.08,
+      "text": "you can go in a car",
+      "page": 6
+    },
+    {
+      "start": 15.08,
+      "end": 17.52,
+      "text": "you can go in a bus",
+      "page": 7
+    },
+    {
+      "start": 17.52,
+      "end": 19.66,
+      "text": "you can go on a bike",
+      "page": 8
+    },
+    {
+      "start": 19.78,
+      "end": 22.1,
+      "text": "you can go on a skateboard",
+      "page": 9
+    },
+    {
+      "start": 22.82,
+      "end": 24.7,
+      "text": "you can go on a horse",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

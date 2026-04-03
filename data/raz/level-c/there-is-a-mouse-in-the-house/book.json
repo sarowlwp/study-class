@@ -1,0 +1,83 @@
+{
+  "id": "level-c/there-is-a-mouse-in-the-house",
+  "title": "There Is A Mouse In The House",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 6.06,
+      "end": 24.82,
+      "text": "written by rachel rice illustrated by laura zaryn focus question how do you know what animal will come next in the story",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 25.44,
+      "end": 29.8,
+      "text": "there is a mouse in the house",
+      "page": 4
+    },
+    {
+      "start": 30.32,
+      "end": 34.8,
+      "text": "there is a bee in the tea",
+      "page": 5
+    },
+    {
+      "start": 35.52,
+      "end": 39.54,
+      "text": "there is a bat on the hat",
+      "page": 6
+    },
+    {
+      "start": 40.08,
+      "end": 44.12,
+      "text": "there is a pup in the cup",
+      "page": 7
+    },
+    {
+      "start": 44.6,
+      "end": 48.22,
+      "text": "there is a bug on the rug",
+      "page": 8
+    },
+    {
+      "start": 48.86,
+      "end": 53.18,
+      "text": "there is a fox in the box",
+      "page": 9
+    },
+    {
+      "start": 53.9,
+      "end": 57.34,
+      "text": "there is a goat on the boat",
+      "page": 10
+    },
+    {
+      "start": 57.34,
+      "end": 62.22,
+      "text": "there is a bear in the air",
+      "page": 11
+    },
+    {
+      "start": 62.22,
+      "end": 99.8,
+      "text": "connections writing and art think of an animal not in this story complete this rhyme there is a in the draw a picture for your rhyme science where can the animals in this book be found in nature share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

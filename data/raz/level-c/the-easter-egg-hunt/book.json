@@ -1,0 +1,77 @@
+{
+  "id": "level-c/the-easter-egg-hunt",
+  "title": "The Easter Egg Hunt",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 10.88,
+      "text": "the easter egg hunt written by keith and sarah cordemarten illustrated by aaron bellingham",
+      "page": 2
+    },
+    {
+      "start": 10.82,
+      "end": 17.92,
+      "text": "today is easter can we find all seven easter eggs",
+      "page": 3
+    },
+    {
+      "start": 18.1,
+      "end": 21.58,
+      "text": "the first egg is in the tree",
+      "page": 4
+    },
+    {
+      "start": 21.46,
+      "end": 25.7,
+      "text": "the second egg is in the grass",
+      "page": 5
+    },
+    {
+      "start": 25.2,
+      "end": 29.8,
+      "text": "the third egg is on the truck",
+      "page": 6
+    },
+    {
+      "start": 29.94,
+      "end": 33.54,
+      "text": "the fourth egg is in the swing",
+      "page": 7
+    },
+    {
+      "start": 33.74,
+      "end": 37.4,
+      "text": "the fifth egg is in the pot",
+      "page": 8
+    },
+    {
+      "start": 37.46,
+      "end": 41.28,
+      "text": "the sixth egg is by the rate",
+      "page": 9
+    },
+    {
+      "start": 41.38,
+      "end": 45.34,
+      "text": "the seventh egg is under the dog",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "level-b/on-the-farm",
+  "title": "On The Farm",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 1.74,
+      "text": "on the farm",
+      "page": 1
+    },
+    {
+      "start": 2.04,
+      "end": 7.98,
+      "text": "written by cheryl ryan illustrated by nora voodis",
+      "page": 2
+    },
+    {
+      "start": 8.4,
+      "end": 10.98,
+      "text": "a dog is in a house",
+      "page": 3
+    },
+    {
+      "start": 11.1,
+      "end": 13.64,
+      "text": "a cow is in a barn",
+      "page": 4
+    },
+    {
+      "start": 14.04,
+      "end": 16.7,
+      "text": "a pig is in the mud",
+      "page": 5
+    },
+    {
+      "start": 17.02,
+      "end": 19.66,
+      "text": "a chicken is in the hay",
+      "page": 6
+    },
+    {
+      "start": 19.5,
+      "end": 22.36,
+      "text": "a goat is in a field",
+      "page": 7
+    },
+    {
+      "start": 22.56,
+      "end": 25.18,
+      "text": "a duck is on a pond",
+      "page": 8
+    },
+    {
+      "start": 25.18,
+      "end": 27.86,
+      "text": "a sheep is on a hill",
+      "page": 9
+    },
+    {
+      "start": 28.1,
+      "end": 30.48,
+      "text": "animals are on a farm",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "level-c/how-many-wheels",
+  "title": "How Many Wheels",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 4.42,
+      "text": "how many wheels written by jerry hopkins",
+      "page": 1
+    },
+    {
+      "start": 4.42,
+      "end": 5.94,
+      "text": "many",
+      "page": 2
+    },
+    {
+      "start": 5.94,
+      "end": 10.28,
+      "text": "things have wheels wheels help things move",
+      "page": 3
+    },
+    {
+      "start": 10.28,
+      "end": 12.96,
+      "text": "some things have one wheel",
+      "page": 4
+    },
+    {
+      "start": 12.96,
+      "end": 16.02,
+      "text": "some things have two wheels",
+      "page": 5
+    },
+    {
+      "start": 16.02,
+      "end": 18.98,
+      "text": "some things have three wheels",
+      "page": 6
+    },
+    {
+      "start": 18.98,
+      "end": 22.16,
+      "text": "some things have four wheels",
+      "page": 7
+    },
+    {
+      "start": 22.16,
+      "end": 25.24,
+      "text": "some things have many wheels",
+      "page": 8
+    },
+    {
+      "start": 25.24,
+      "end": 28.96,
+      "text": "these things have many wheels too",
+      "page": 9
+    },
+    {
+      "start": 28.96,
+      "end": 35.0,
+      "text": "some things have no wheels how do these things move",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

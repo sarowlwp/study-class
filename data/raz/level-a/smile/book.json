@@ -1,0 +1,83 @@
+{
+  "id": "level-a/smile",
+  "title": "Smile",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 17.74,
+      "text": "smile written by anthony curran illustrated by arthur lin focus question who is the boy smiling at",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 17.24,
+      "end": 20.78,
+      "text": "smile at your dog",
+      "page": 4
+    },
+    {
+      "start": 21.06,
+      "end": 24.48,
+      "text": "smile at your brother",
+      "page": 5
+    },
+    {
+      "start": 24.76,
+      "end": 28.48,
+      "text": "smile at your sister",
+      "page": 6
+    },
+    {
+      "start": 28.7,
+      "end": 32.42,
+      "text": "smile at your mom",
+      "page": 7
+    },
+    {
+      "start": 32.6,
+      "end": 36.58,
+      "text": "smile at your dad",
+      "page": 8
+    },
+    {
+      "start": 36.32,
+      "end": 40.72,
+      "text": "smile at your friend",
+      "page": 9
+    },
+    {
+      "start": 41.6,
+      "end": 44.72,
+      "text": "smile at your teacher",
+      "page": 10
+    },
+    {
+      "start": 44.84,
+      "end": 48.12,
+      "text": "smile at yourself",
+      "page": 11
+    },
+    {
+      "start": 48.22,
+      "end": 73.52,
+      "text": "connections writing and art what do you do before school draw a picture and write about it social studies what makes you smile share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

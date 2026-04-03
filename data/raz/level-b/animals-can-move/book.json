@@ -1,0 +1,77 @@
+{
+  "id": "level-b/animals-can-move",
+  "title": "Animals Can Move",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 5.06,
+      "end": 7.22,
+      "text": "the camel can walk",
+      "page": 3
+    },
+    {
+      "start": 7.34,
+      "end": 9.92,
+      "text": "the horse can run",
+      "page": 4
+    },
+    {
+      "start": 9.92,
+      "end": 12.68,
+      "text": "the snake can slither",
+      "page": 5
+    },
+    {
+      "start": 12.92,
+      "end": 15.34,
+      "text": "the rabbit can hop",
+      "page": 6
+    },
+    {
+      "start": 15.52,
+      "end": 18.04,
+      "text": "the polar bear can swim",
+      "page": 7
+    },
+    {
+      "start": 18.28,
+      "end": 20.74,
+      "text": "the bird can fly",
+      "page": 8
+    },
+    {
+      "start": 20.94,
+      "end": 23.44,
+      "text": "the bug can crawl",
+      "page": 9
+    },
+    {
+      "start": 23.58,
+      "end": 26.22,
+      "text": "how can these animals move",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

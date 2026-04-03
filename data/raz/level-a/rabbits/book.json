@@ -1,0 +1,77 @@
+{
+  "id": "level-a/rabbits",
+  "title": "Rabbits",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 2.74,
+      "end": 4.74,
+      "text": "this rabbit is big",
+      "page": 3
+    },
+    {
+      "start": 4.98,
+      "end": 7.5,
+      "text": "this rabbit is small",
+      "page": 4
+    },
+    {
+      "start": 7.64,
+      "end": 10.0,
+      "text": "this rabbit is black",
+      "page": 5
+    },
+    {
+      "start": 10.28,
+      "end": 12.74,
+      "text": "this rabbit is white",
+      "page": 6
+    },
+    {
+      "start": 12.98,
+      "end": 15.26,
+      "text": "this rabbit is fluffy",
+      "page": 7
+    },
+    {
+      "start": 15.64,
+      "end": 17.94,
+      "text": "this rabbit is tall",
+      "page": 8
+    },
+    {
+      "start": 18.22,
+      "end": 20.4,
+      "text": "this rabbit is short",
+      "page": 9
+    },
+    {
+      "start": 20.66,
+      "end": 23.02,
+      "text": "this rabbit is fast",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "level-c/i-can-be",
+  "title": "I Can Be",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 8.02,
+      "text": "i can be written by elizabeth strauss illustrated by angela camstra jacobson",
+      "page": 2
+    },
+    {
+      "start": 8.04,
+      "end": 10.88,
+      "text": "i can be like many things",
+      "page": 3
+    },
+    {
+      "start": 11.06,
+      "end": 14.86,
+      "text": "i can be as loud as a lion",
+      "page": 4
+    },
+    {
+      "start": 14.88,
+      "end": 18.32,
+      "text": "i can be as silent as a snake",
+      "page": 5
+    },
+    {
+      "start": 18.34,
+      "end": 22.26,
+      "text": "i can be as proud as a peacock",
+      "page": 6
+    },
+    {
+      "start": 22.28,
+      "end": 25.52,
+      "text": "i can be as meek as a mouse",
+      "page": 7
+    },
+    {
+      "start": 25.54,
+      "end": 28.7,
+      "text": "i can be as fast as a cheetah",
+      "page": 8
+    },
+    {
+      "start": 28.72,
+      "end": 31.7,
+      "text": "i can be as slow as a slug",
+      "page": 9
+    },
+    {
+      "start": 31.72,
+      "end": 34.42,
+      "text": "i can also be just me",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "level-a/i-dream",
+  "title": "I Dream",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 20.88,
+      "text": "i dream written by anthony curran illustrated by marcus cutler focus question what is a dream",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 20.38,
+      "end": 25.86,
+      "text": "i dream about space",
+      "page": 4
+    },
+    {
+      "start": 25.84,
+      "end": 31.36,
+      "text": "i dream about monkeys",
+      "page": 5
+    },
+    {
+      "start": 31.7,
+      "end": 36.78,
+      "text": "i dream about robots",
+      "page": 6
+    },
+    {
+      "start": 37.06,
+      "end": 43.9,
+      "text": "i dream about super powers",
+      "page": 7
+    },
+    {
+      "start": 43.84,
+      "end": 49.3,
+      "text": "i dream about food",
+      "page": 8
+    },
+    {
+      "start": 48.8,
+      "end": 54.98,
+      "text": "i dream about sports",
+      "page": 9
+    },
+    {
+      "start": 55.28,
+      "end": 60.9,
+      "text": "i dream about monsters",
+      "page": 10
+    },
+    {
+      "start": 61.38,
+      "end": 68.42,
+      "text": "i dream about good sleep",
+      "page": 11
+    },
+    {
+      "start": 67.92,
+      "end": 105.68,
+      "text": "connections writing and art what do you dream about draw a picture and write this sentence i dream about science why do you sleep share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "level-aa/farm-animals",
+  "title": "Farm Animals",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 7.8,
+      "text": "farm animals written by cheryl ryan illustrated by nora voodis",
+      "page": 2
+    },
+    {
+      "start": 9.96,
+      "end": 11.34,
+      "text": "the dog",
+      "page": 3
+    },
+    {
+      "start": 13.2,
+      "end": 14.32,
+      "text": "the pig",
+      "page": 4
+    },
+    {
+      "start": 16.2,
+      "end": 17.32,
+      "text": "the chicken",
+      "page": 5
+    },
+    {
+      "start": 19.24,
+      "end": 20.58,
+      "text": "the goat",
+      "page": 6
+    },
+    {
+      "start": 22.48,
+      "end": 23.8,
+      "text": "the cow",
+      "page": 7
+    },
+    {
+      "start": 25.48,
+      "end": 26.74,
+      "text": "the dog",
+      "page": 8
+    },
+    {
+      "start": 28.1,
+      "end": 29.86,
+      "text": "the sheep",
+      "page": 9
+    },
+    {
+      "start": 31.82,
+      "end": 33.02,
+      "text": "the animals",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

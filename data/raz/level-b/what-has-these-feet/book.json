@@ -1,0 +1,77 @@
+{
+  "id": "level-b/what-has-these-feet",
+  "title": "What Has These Feet",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 4.3,
+      "text": "what has this feet written by kira fried",
+      "page": 2
+    },
+    {
+      "start": 4.84,
+      "end": 7.76,
+      "text": "what kind of animal has this feet",
+      "page": 3
+    },
+    {
+      "start": 8.02,
+      "end": 10.36,
+      "text": "a duck has these little feet",
+      "page": 4
+    },
+    {
+      "start": 10.84,
+      "end": 13.62,
+      "text": "what kind of animal has this feet",
+      "page": 5
+    },
+    {
+      "start": 13.94,
+      "end": 16.9,
+      "text": "an elephant has these big feet",
+      "page": 6
+    },
+    {
+      "start": 17.44,
+      "end": 20.46,
+      "text": "what kind of animal has this feet",
+      "page": 7
+    },
+    {
+      "start": 20.78,
+      "end": 23.92,
+      "text": "a tiger has these soft feet",
+      "page": 8
+    },
+    {
+      "start": 24.26,
+      "end": 27.28,
+      "text": "what kind of animal has no feet",
+      "page": 9
+    },
+    {
+      "start": 27.28,
+      "end": 29.78,
+      "text": "a shark has no feet",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

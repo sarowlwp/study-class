@@ -1,0 +1,83 @@
+{
+  "id": "level-b/old-and-new",
+  "title": "Old And New",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 13.04,
+      "text": "old and new written by anthony keren focus question what is the difference between old and new",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 12.82,
+      "end": 15.98,
+      "text": "these pickup tracks are old",
+      "page": 4
+    },
+    {
+      "start": 15.86,
+      "end": 19.0,
+      "text": "these pickup tracks are new",
+      "page": 5
+    },
+    {
+      "start": 18.88,
+      "end": 21.96,
+      "text": "these houses are old",
+      "page": 6
+    },
+    {
+      "start": 21.84,
+      "end": 24.86,
+      "text": "these houses are new",
+      "page": 7
+    },
+    {
+      "start": 24.6,
+      "end": 27.42,
+      "text": "these bikes are old",
+      "page": 8
+    },
+    {
+      "start": 26.92,
+      "end": 30.0,
+      "text": "these bikes are new",
+      "page": 9
+    },
+    {
+      "start": 29.9,
+      "end": 32.9,
+      "text": "these teddy bears are old",
+      "page": 10
+    },
+    {
+      "start": 32.84,
+      "end": 35.96,
+      "text": "these teddy bears are new",
+      "page": 11
+    },
+    {
+      "start": 35.64,
+      "end": 64.96,
+      "text": "connections writing choose two items from this book write how the old item is different from the new item math ask your classmates which of each item they prefer the old or the new create a class graph showing the information",
+      "page": 12
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "level-b/i-pick-up",
+  "title": "I Pick Up",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 7.18,
+      "text": "i pick up written by pam bull illustrated by angela camstra jacobson",
+      "page": 2
+    },
+    {
+      "start": 7.16,
+      "end": 9.1,
+      "text": "i pick up my ball",
+      "page": 3
+    },
+    {
+      "start": 9.16,
+      "end": 10.8,
+      "text": "i pick up my book",
+      "page": 4
+    },
+    {
+      "start": 10.86,
+      "end": 12.86,
+      "text": "i pick up my shoes",
+      "page": 5
+    },
+    {
+      "start": 12.98,
+      "end": 14.88,
+      "text": "i pick up my hat",
+      "page": 6
+    },
+    {
+      "start": 14.9,
+      "end": 16.74,
+      "text": "i pick up my teddy bear",
+      "page": 7
+    },
+    {
+      "start": 16.78,
+      "end": 18.82,
+      "text": "i pick up my cars",
+      "page": 8
+    },
+    {
+      "start": 18.86,
+      "end": 20.84,
+      "text": "i pick up my blanket",
+      "page": 9
+    },
+    {
+      "start": 20.88,
+      "end": 23.68,
+      "text": "my room is all picked up",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

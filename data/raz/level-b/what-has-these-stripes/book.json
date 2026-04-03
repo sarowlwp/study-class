@@ -1,0 +1,77 @@
+{
+  "id": "level-b/what-has-these-stripes",
+  "title": "What Has These Stripes",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 7.52,
+      "text": "what has these stripes written by kira fried",
+      "page": 2
+    },
+    {
+      "start": 7.46,
+      "end": 12.04,
+      "text": "what kind of animal has these stripes",
+      "page": 3
+    },
+    {
+      "start": 12.28,
+      "end": 16.86,
+      "text": "a zebra has these smooth stripes",
+      "page": 4
+    },
+    {
+      "start": 17.18,
+      "end": 22.06,
+      "text": "what kind of animal has these stripes",
+      "page": 5
+    },
+    {
+      "start": 22.28,
+      "end": 27.42,
+      "text": "a fish has these thin stripes",
+      "page": 6
+    },
+    {
+      "start": 26.92,
+      "end": 32.16,
+      "text": "what kind of animal has these stripes",
+      "page": 7
+    },
+    {
+      "start": 32.22,
+      "end": 37.34,
+      "text": "a snake has these long stripes",
+      "page": 8
+    },
+    {
+      "start": 37.64,
+      "end": 42.5,
+      "text": "what kinds of animals have no stripes",
+      "page": 9
+    },
+    {
+      "start": 42.56,
+      "end": 51.06,
+      "text": "these animals have no stripes what other animals have no stripes",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

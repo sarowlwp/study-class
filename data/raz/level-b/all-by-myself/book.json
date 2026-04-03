@@ -1,0 +1,83 @@
+{
+  "id": "level-b/all-by-myself",
+  "title": "All By Myself",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 3.34,
+      "text": "all by myself",
+      "page": 1
+    },
+    {
+      "start": 4.08,
+      "end": 21.52,
+      "text": "written by gabriel harper illustrated by nadia rancillo focus question what does the girl do all by herself",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 21.86,
+      "end": 26.38,
+      "text": "i read all by myself",
+      "page": 4
+    },
+    {
+      "start": 26.64,
+      "end": 31.9,
+      "text": "i color all by myself",
+      "page": 5
+    },
+    {
+      "start": 32.12,
+      "end": 37.26,
+      "text": "i sing all by myself",
+      "page": 6
+    },
+    {
+      "start": 37.54,
+      "end": 42.54,
+      "text": "i play all by myself",
+      "page": 7
+    },
+    {
+      "start": 42.04,
+      "end": 47.9,
+      "text": "i build all by myself",
+      "page": 8
+    },
+    {
+      "start": 48.3,
+      "end": 53.82,
+      "text": "i listen all by myself",
+      "page": 9
+    },
+    {
+      "start": 54.06,
+      "end": 59.66,
+      "text": "i dress all by myself",
+      "page": 10
+    },
+    {
+      "start": 59.94,
+      "end": 65.88,
+      "text": "i think all by myself",
+      "page": 11
+    },
+    {
+      "start": 65.38,
+      "end": 95.82,
+      "text": "connections writing and art what do you like to do all by yourself draw a picture and write about it social studies what is something that you can't do all by yourself share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

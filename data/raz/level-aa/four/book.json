@@ -1,0 +1,65 @@
+{
+  "id": "level-aa/four",
+  "title": "Four",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 9,
+  "sentences": [
+    {
+      "start": 1.78,
+      "end": 11.22,
+      "text": "4 written by marianne marazzi illustrated by luciana navarro powell",
+      "page": 1
+    },
+    {
+      "start": 17.54,
+      "end": 20.56,
+      "text": "4 busses",
+      "page": 2
+    },
+    {
+      "start": 27.62,
+      "end": 30.92,
+      "text": "4 wagons",
+      "page": 3
+    },
+    {
+      "start": 36.52,
+      "end": 39.12,
+      "text": "4 cars",
+      "page": 4
+    },
+    {
+      "start": 45.42,
+      "end": 48.5,
+      "text": "4 cars",
+      "page": 5
+    },
+    {
+      "start": 52.76,
+      "end": 55.5,
+      "text": "4 airplanes",
+      "page": 6
+    },
+    {
+      "start": 62.08,
+      "end": 64.68,
+      "text": "4 boats",
+      "page": 7
+    },
+    {
+      "start": 70.64,
+      "end": 73.94,
+      "text": "4 tracks",
+      "page": 8
+    },
+    {
+      "start": 80.1,
+      "end": 83.24,
+      "text": "or vans",
+      "page": 9
+    }
+  ]
+}

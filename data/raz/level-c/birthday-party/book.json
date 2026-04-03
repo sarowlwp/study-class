@@ -1,0 +1,77 @@
+{
+  "id": "level-c/birthday-party",
+  "title": "Birthday Party",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 7.06,
+      "end": 11.1,
+      "text": "we go shopping it is birthday party time",
+      "page": 3
+    },
+    {
+      "start": 10.98,
+      "end": 14.76,
+      "text": "we go to the card shop we get a card",
+      "page": 4
+    },
+    {
+      "start": 14.74,
+      "end": 18.64,
+      "text": "we go to the balloon shop we get balloons",
+      "page": 5
+    },
+    {
+      "start": 18.78,
+      "end": 22.66,
+      "text": "we go to the bakery we get a cake",
+      "page": 6
+    },
+    {
+      "start": 22.4,
+      "end": 26.96,
+      "text": "we go to the ice cream shop we get ice cream",
+      "page": 7
+    },
+    {
+      "start": 26.74,
+      "end": 30.9,
+      "text": "we go to the toy store we get a toy",
+      "page": 8
+    },
+    {
+      "start": 30.82,
+      "end": 35.06,
+      "text": "we go to the birthday party we play games",
+      "page": 9
+    },
+    {
+      "start": 34.96,
+      "end": 38.84,
+      "text": "we sing happy birthday we have fun",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

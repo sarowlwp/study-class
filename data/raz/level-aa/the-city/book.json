@@ -1,0 +1,77 @@
+{
+  "id": "level-aa/the-city",
+  "title": "The City",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 5.28,
+      "text": "the city written by veronica angel illustrated by jack vores",
+      "page": 2
+    },
+    {
+      "start": 7.1,
+      "end": 8.34,
+      "text": "the streets",
+      "page": 3
+    },
+    {
+      "start": 10.14,
+      "end": 11.42,
+      "text": "the cars",
+      "page": 4
+    },
+    {
+      "start": 13.3,
+      "end": 14.54,
+      "text": "the buses",
+      "page": 5
+    },
+    {
+      "start": 16.38,
+      "end": 17.76,
+      "text": "the stores",
+      "page": 6
+    },
+    {
+      "start": 19.48,
+      "end": 20.74,
+      "text": "the park",
+      "page": 7
+    },
+    {
+      "start": 22.3,
+      "end": 24.36,
+      "text": "the big buildings",
+      "page": 8
+    },
+    {
+      "start": 26.16,
+      "end": 27.44,
+      "text": "the people",
+      "page": 9
+    },
+    {
+      "start": 28.36,
+      "end": 30.78,
+      "text": "then noise",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

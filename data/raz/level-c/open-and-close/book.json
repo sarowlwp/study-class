@@ -1,0 +1,71 @@
+{
+  "id": "level-c/open-and-close",
+  "title": "Open And Close",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 10,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 2.84,
+      "end": 9.68,
+      "text": "written by ned jensen illustrated by angela camstra",
+      "page": 2
+    },
+    {
+      "start": 10.14,
+      "end": 14.78,
+      "text": "i open the door you close the door",
+      "page": 3
+    },
+    {
+      "start": 14.94,
+      "end": 19.78,
+      "text": "i open the window you close the window",
+      "page": 4
+    },
+    {
+      "start": 20.18,
+      "end": 26.1,
+      "text": "i open the door you close the drawer",
+      "page": 5
+    },
+    {
+      "start": 26.22,
+      "end": 31.34,
+      "text": "i open the box you close the box",
+      "page": 6
+    },
+    {
+      "start": 31.62,
+      "end": 37.24,
+      "text": "i open the book you close the book",
+      "page": 7
+    },
+    {
+      "start": 37.58,
+      "end": 46.06,
+      "text": "i open the jar you close the jar i open the cage",
+      "page": 8
+    },
+    {
+      "start": 46.04,
+      "end": 49.16,
+      "text": "quick quick close the cage",
+      "page": 9
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 10
+    }
+  ]
+}

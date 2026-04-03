@@ -1,0 +1,77 @@
+{
+  "id": "level-a/fun-in-the-water",
+  "title": "Fun In The Water",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 6.88,
+      "text": "fun in the water written by ed evans",
+      "page": 2
+    },
+    {
+      "start": 7.62,
+      "end": 10.62,
+      "text": "you float on the water",
+      "page": 3
+    },
+    {
+      "start": 11.28,
+      "end": 14.82,
+      "text": "you sail on the water",
+      "page": 4
+    },
+    {
+      "start": 14.82,
+      "end": 18.56,
+      "text": "you paddle on the water",
+      "page": 5
+    },
+    {
+      "start": 19.12,
+      "end": 22.62,
+      "text": "you fish in the water",
+      "page": 6
+    },
+    {
+      "start": 23.26,
+      "end": 26.7,
+      "text": "you dive in the water",
+      "page": 7
+    },
+    {
+      "start": 27.14,
+      "end": 30.86,
+      "text": "you swim in the water",
+      "page": 8
+    },
+    {
+      "start": 31.32,
+      "end": 35.02,
+      "text": "you splash in the water",
+      "page": 9
+    },
+    {
+      "start": 35.04,
+      "end": 38.92,
+      "text": "you play in the water",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

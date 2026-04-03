@@ -1,0 +1,83 @@
+{
+  "id": "level-c/what-can-i-be",
+  "title": "What Can I Be",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 14.36,
+      "text": "what can i be written by karen mokler illustrated by kathy reene focus question who is telling this story",
+      "page": 2
+    },
+    {
+      "start": 14.48,
+      "end": 50.86,
+      "text": "halloween is coming soon what can i be what can be i can be a pale ghost i can be a shiny robot i can be an old mummy i can be a big box i can be a cute carrot i can be a sweet child maybe you can be me connections writing and art what else could the monster dress up as for halloween",
+      "page": 3
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 4
+    },
+    {
+      "start": 20.14,
+      "end": 23.58,
+      "text": "i can be a pale ghost",
+      "page": 5
+    },
+    {
+      "start": 23.68,
+      "end": 26.42,
+      "text": "i can be a shiny robot",
+      "page": 6
+    },
+    {
+      "start": 26.44,
+      "end": 29.24,
+      "text": "i can be an old mummy",
+      "page": 7
+    },
+    {
+      "start": 29.74,
+      "end": 32.32,
+      "text": "i can be a big box",
+      "page": 8
+    },
+    {
+      "start": 32.34,
+      "end": 35.46,
+      "text": "i can be a cute carrot",
+      "page": 9
+    },
+    {
+      "start": 35.52,
+      "end": 38.68,
+      "text": "i can be a sweet child",
+      "page": 10
+    },
+    {
+      "start": 38.72,
+      "end": 41.74,
+      "text": "maybe you can be me",
+      "page": 11
+    },
+    {
+      "start": 42.14,
+      "end": 66.66,
+      "text": "connections writing and art what else could the monster dress up as for halloween draw a picture and label it social studies what are some halloween traditions share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

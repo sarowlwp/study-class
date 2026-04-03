@@ -1,0 +1,77 @@
+{
+  "id": "level-c/when-is-nighttime",
+  "title": "When Is Nighttime",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 6.04,
+      "text": "when is nighttime written by cheryl ryan illustrated by nora vuitton",
+      "page": 2
+    },
+    {
+      "start": 6.48,
+      "end": 8.76,
+      "text": "nighttime is when the sun sets",
+      "page": 3
+    },
+    {
+      "start": 9.06,
+      "end": 11.44,
+      "text": "nighttime is when the moon rises",
+      "page": 4
+    },
+    {
+      "start": 11.84,
+      "end": 14.72,
+      "text": "when the stars shine it is nighttime",
+      "page": 5
+    },
+    {
+      "start": 14.9,
+      "end": 17.58,
+      "text": "nighttime is when the fireflies blink",
+      "page": 6
+    },
+    {
+      "start": 17.74,
+      "end": 20.36,
+      "text": "it is nighttime when the bats fly",
+      "page": 7
+    },
+    {
+      "start": 20.7,
+      "end": 23.16,
+      "text": "nighttime is when dad reads to me",
+      "page": 8
+    },
+    {
+      "start": 23.32,
+      "end": 25.7,
+      "text": "the lights go out when it is bedtime",
+      "page": 9
+    },
+    {
+      "start": 26.1,
+      "end": 28.44,
+      "text": "nighttime is when i go to sleep",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "level-b/the-picnic",
+  "title": "The Picnic",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 7.2,
+      "text": "the picnic written by ned johnson illustrated by sydney norton",
+      "page": 2
+    },
+    {
+      "start": 8.86,
+      "end": 13.9,
+      "text": "ted and peg go on a picnic peg gets a picnic basket",
+      "page": 3
+    },
+    {
+      "start": 15.2,
+      "end": 17.32,
+      "text": "ted puts in cheese",
+      "page": 4
+    },
+    {
+      "start": 18.5,
+      "end": 20.22,
+      "text": "peg puts in sandwiches",
+      "page": 5
+    },
+    {
+      "start": 21.6,
+      "end": 23.56,
+      "text": "ted puts in ships",
+      "page": 6
+    },
+    {
+      "start": 24.62,
+      "end": 26.98,
+      "text": "peg puts in soda pop",
+      "page": 7
+    },
+    {
+      "start": 27.42,
+      "end": 30.06,
+      "text": "dad puts in apples",
+      "page": 8
+    },
+    {
+      "start": 31.3,
+      "end": 33.38,
+      "text": "peg puts in cookies",
+      "page": 9
+    },
+    {
+      "start": 34.6,
+      "end": 36.94,
+      "text": "who put the mouse in the basket",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

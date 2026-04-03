@@ -1,0 +1,47 @@
+{
+  "id": "level-aa/colorful-eggs",
+  "title": "Colorful Eggs",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 6,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 11.66,
+      "text": "colorful eggs written by katie anderson illustrated by luciana navarro powell",
+      "page": 1
+    },
+    {
+      "start": 11.16,
+      "end": 19.14,
+      "text": "a red egg",
+      "page": 2
+    },
+    {
+      "start": 33.34,
+      "end": 40.68,
+      "text": "uh purple egg",
+      "page": 3
+    },
+    {
+      "start": 52.12,
+      "end": 54.6,
+      "text": "a green egg",
+      "page": 4
+    },
+    {
+      "start": 58.42,
+      "end": 61.98,
+      "text": "a blue egg",
+      "page": 5
+    },
+    {
+      "start": 61.48,
+      "end": 68.88,
+      "text": "a colorful egg",
+      "page": 6
+    }
+  ]
+}

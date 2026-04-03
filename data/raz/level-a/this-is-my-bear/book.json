@@ -1,0 +1,77 @@
+{
+  "id": "level-a/this-is-my-bear",
+  "title": "This Is My Bear",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 4.84,
+      "text": "this is my bear written by gladys osborn",
+      "page": 2
+    },
+    {
+      "start": 5.3,
+      "end": 7.44,
+      "text": "this is my bear",
+      "page": 3
+    },
+    {
+      "start": 7.76,
+      "end": 9.98,
+      "text": "my bear is soft",
+      "page": 4
+    },
+    {
+      "start": 10.24,
+      "end": 12.44,
+      "text": "my bear has fur",
+      "page": 5
+    },
+    {
+      "start": 12.56,
+      "end": 14.9,
+      "text": "my bear is fat",
+      "page": 6
+    },
+    {
+      "start": 15.2,
+      "end": 17.34,
+      "text": "my bear is brown",
+      "page": 7
+    },
+    {
+      "start": 17.32,
+      "end": 19.58,
+      "text": "my bear has ears",
+      "page": 8
+    },
+    {
+      "start": 19.86,
+      "end": 22.12,
+      "text": "my bear has feet",
+      "page": 9
+    },
+    {
+      "start": 22.32,
+      "end": 24.3,
+      "text": "i love my bear",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

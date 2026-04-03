@@ -1,0 +1,83 @@
+{
+  "id": "level-c/city-shapes",
+  "title": "City Shapes",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 12.18,
+      "end": 17.48,
+      "text": "look around the city what shapes do you see",
+      "page": 4
+    },
+    {
+      "start": 17.52,
+      "end": 20.54,
+      "text": "here you see an oval",
+      "page": 5
+    },
+    {
+      "start": 20.64,
+      "end": 23.22,
+      "text": "here you see triangles",
+      "page": 6
+    },
+    {
+      "start": 23.78,
+      "end": 26.76,
+      "text": "here you see a circle",
+      "page": 7
+    },
+    {
+      "start": 26.92,
+      "end": 29.58,
+      "text": "here you see squares",
+      "page": 8
+    },
+    {
+      "start": 29.08,
+      "end": 33.3,
+      "text": "here you see rectangles",
+      "page": 9
+    },
+    {
+      "start": 33.46,
+      "end": 36.44,
+      "text": "here you see hexagons",
+      "page": 10
+    },
+    {
+      "start": 36.58,
+      "end": 42.44,
+      "text": "here you see many shapes what shapes do you see",
+      "page": 11
+    },
+    {
+      "start": 42.34,
+      "end": 66.46,
+      "text": "connections writing and art draw a city use only the shapes in the book write about your picture math sort the shapes use the number of sides to sort share your answer with a partner",
+      "page": 12
+    }
+  ]
+}

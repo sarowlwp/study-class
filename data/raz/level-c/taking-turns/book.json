@@ -1,0 +1,89 @@
+{
+  "id": "level-c/taking-turns",
+  "title": "Taking Turns",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 13,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 3.86,
+      "text": "taking turns written by meribeth bolts",
+      "page": 2
+    },
+    {
+      "start": 3.88,
+      "end": 5.64,
+      "text": "when is it my turn",
+      "page": 3
+    },
+    {
+      "start": 5.46,
+      "end": 8.28,
+      "text": "the teacher is the first to read",
+      "page": 4
+    },
+    {
+      "start": 8.06,
+      "end": 11.06,
+      "text": "then it is may's turn to read",
+      "page": 5
+    },
+    {
+      "start": 11.0,
+      "end": 13.96,
+      "text": "mikael is the first to slide",
+      "page": 6
+    },
+    {
+      "start": 13.88,
+      "end": 16.98,
+      "text": "then it is dawn's turn to slide",
+      "page": 7
+    },
+    {
+      "start": 16.62,
+      "end": 19.46,
+      "text": "it is louisa's turn to drink",
+      "page": 8
+    },
+    {
+      "start": 19.3,
+      "end": 22.22,
+      "text": "then it is meg's turn to drink",
+      "page": 9
+    },
+    {
+      "start": 22.0,
+      "end": 25.18,
+      "text": "grandwa is first to cut out cookies",
+      "page": 10
+    },
+    {
+      "start": 24.8,
+      "end": 27.4,
+      "text": "then i cut out cookies",
+      "page": 11
+    },
+    {
+      "start": 27.56,
+      "end": 32.8,
+      "text": "we all play a game now it is my turn to go first",
+      "page": 12
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 13
+    }
+  ]
+}

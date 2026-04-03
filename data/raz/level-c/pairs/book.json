@@ -1,0 +1,77 @@
+{
+  "id": "level-c/pairs",
+  "title": "Pairs",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 4.99,
+      "end": 9.96,
+      "text": "two socks make one pair of socks",
+      "page": 3
+    },
+    {
+      "start": 9.98,
+      "end": 16.16,
+      "text": "two shoes make one pair of shoes",
+      "page": 4
+    },
+    {
+      "start": 16.26,
+      "end": 22.86,
+      "text": "two gloves make one pair of gloves",
+      "page": 5
+    },
+    {
+      "start": 22.76,
+      "end": 29.48,
+      "text": "two skates make one pair of skates",
+      "page": 6
+    },
+    {
+      "start": 29.28,
+      "end": 36.16,
+      "text": "two dice make one pair of dice",
+      "page": 7
+    },
+    {
+      "start": 36.26,
+      "end": 42.76,
+      "text": "two wings make one pair of wings",
+      "page": 8
+    },
+    {
+      "start": 42.76,
+      "end": 49.28,
+      "text": "two eyes make one pair of eyes",
+      "page": 9
+    },
+    {
+      "start": 49.3,
+      "end": 55.44,
+      "text": "two twins make one pair of twins",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

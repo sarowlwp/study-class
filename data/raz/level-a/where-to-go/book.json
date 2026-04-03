@@ -1,0 +1,83 @@
+{
+  "id": "level-a/where-to-go",
+  "title": "Where To Go",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 13.6,
+      "text": "where to go written by nigel pepper house focus question where can kids go",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 13.86,
+      "end": 16.64,
+      "text": "go to the playground",
+      "page": 4
+    },
+    {
+      "start": 17.14,
+      "end": 19.98,
+      "text": "go to the pool",
+      "page": 5
+    },
+    {
+      "start": 20.2,
+      "end": 23.04,
+      "text": "go to the woods",
+      "page": 6
+    },
+    {
+      "start": 23.18,
+      "end": 26.6,
+      "text": "go to the museum",
+      "page": 7
+    },
+    {
+      "start": 27.0,
+      "end": 30.3,
+      "text": "go to the beach",
+      "page": 8
+    },
+    {
+      "start": 30.58,
+      "end": 33.7,
+      "text": "go to the game",
+      "page": 9
+    },
+    {
+      "start": 33.98,
+      "end": 37.42,
+      "text": "go to the parade",
+      "page": 10
+    },
+    {
+      "start": 37.66,
+      "end": 39.48,
+      "text": "go to the connections",
+      "page": 11
+    },
+    {
+      "start": 41.9,
+      "end": 78.84,
+      "text": "writing and art where is your favorite place to go draw a picture and label it math how many places in the book are inside how many places in the book are outside with your class make a graph to show how many there are of each",
+      "page": 12
+    }
+  ]
+}

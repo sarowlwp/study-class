@@ -1,0 +1,77 @@
+{
+  "id": "level-b/you-can-go",
+  "title": "You Can Go",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 7.94,
+      "text": "you can go written by elizabeth strauss illustrated by nora vutes",
+      "page": 2
+    },
+    {
+      "start": 8.4,
+      "end": 10.52,
+      "text": "you can go over",
+      "page": 3
+    },
+    {
+      "start": 10.66,
+      "end": 13.36,
+      "text": "you can go under",
+      "page": 4
+    },
+    {
+      "start": 13.36,
+      "end": 16.22,
+      "text": "you can go around",
+      "page": 5
+    },
+    {
+      "start": 16.28,
+      "end": 18.84,
+      "text": "you can go through",
+      "page": 6
+    },
+    {
+      "start": 19.14,
+      "end": 21.86,
+      "text": "you can go forward",
+      "page": 7
+    },
+    {
+      "start": 22.14,
+      "end": 24.92,
+      "text": "you can go backward",
+      "page": 8
+    },
+    {
+      "start": 25.34,
+      "end": 27.82,
+      "text": "you can go across",
+      "page": 9
+    },
+    {
+      "start": 27.32,
+      "end": 30.6,
+      "text": "i can go with you",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

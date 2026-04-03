@@ -1,0 +1,77 @@
+{
+  "id": "level-a/we-can-make-sounds",
+  "title": "We Can Make Sounds",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 5.84,
+      "end": 7.2,
+      "text": "we can clap",
+      "page": 3
+    },
+    {
+      "start": 7.28,
+      "end": 9.06,
+      "text": "we can snap",
+      "page": 4
+    },
+    {
+      "start": 9.1,
+      "end": 10.7,
+      "text": "we can pop",
+      "page": 5
+    },
+    {
+      "start": 10.66,
+      "end": 12.54,
+      "text": "we can tap",
+      "page": 6
+    },
+    {
+      "start": 12.32,
+      "end": 14.1,
+      "text": "we can wrap",
+      "page": 7
+    },
+    {
+      "start": 14.08,
+      "end": 15.8,
+      "text": "we can slap",
+      "page": 8
+    },
+    {
+      "start": 15.66,
+      "end": 17.48,
+      "text": "we can stop",
+      "page": 9
+    },
+    {
+      "start": 17.44,
+      "end": 19.76,
+      "text": "we can make sounds",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

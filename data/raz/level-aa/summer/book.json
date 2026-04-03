@@ -1,0 +1,77 @@
+{
+  "id": "level-aa/summer",
+  "title": "Summer",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 7.28,
+      "text": "summer written by vick moore's illustrated by darcy thong",
+      "page": 2
+    },
+    {
+      "start": 8.74,
+      "end": 10.72,
+      "text": "the sun shine",
+      "page": 3
+    },
+    {
+      "start": 12.32,
+      "end": 13.44,
+      "text": "the rain",
+      "page": 4
+    },
+    {
+      "start": 15.66,
+      "end": 16.99,
+      "text": "the beach",
+      "page": 5
+    },
+    {
+      "start": 19.1,
+      "end": 20.64,
+      "text": "the swim suit",
+      "page": 6
+    },
+    {
+      "start": 22.76,
+      "end": 23.88,
+      "text": "the ball",
+      "page": 7
+    },
+    {
+      "start": 25.92,
+      "end": 27.26,
+      "text": "the flowers",
+      "page": 8
+    },
+    {
+      "start": 26.76,
+      "end": 30.97,
+      "text": "the garden",
+      "page": 9
+    },
+    {
+      "start": 32.42,
+      "end": 33.52,
+      "text": "the sermon",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

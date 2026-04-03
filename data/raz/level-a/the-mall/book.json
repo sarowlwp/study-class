@@ -1,0 +1,83 @@
+{
+  "id": "level-a/the-mall",
+  "title": "The Mall",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 12.42,
+      "text": "the mall written by rachel rice focus question what can you see at a mall",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 12.72,
+      "end": 16.14,
+      "text": "we see the mall",
+      "page": 4
+    },
+    {
+      "start": 15.64,
+      "end": 19.9,
+      "text": "we see the doors",
+      "page": 5
+    },
+    {
+      "start": 20.46,
+      "end": 23.5,
+      "text": "we see the stores",
+      "page": 6
+    },
+    {
+      "start": 24.14,
+      "end": 27.08,
+      "text": "we see the people",
+      "page": 7
+    },
+    {
+      "start": 27.56,
+      "end": 30.34,
+      "text": "we see the workers",
+      "page": 8
+    },
+    {
+      "start": 31.14,
+      "end": 34.64,
+      "text": "we see the bags",
+      "page": 9
+    },
+    {
+      "start": 35.18,
+      "end": 38.44,
+      "text": "we see the food",
+      "page": 10
+    },
+    {
+      "start": 39.04,
+      "end": 42.3,
+      "text": "we see the toys",
+      "page": 11
+    },
+    {
+      "start": 42.92,
+      "end": 71.7,
+      "text": "connections writing and art draw a picture of a mall label the places in the mall social studies what can you buy at the mall that you want what can you buy that you need share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "level-aa/my-hanukkah",
+  "title": "My Hanukkah",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 2.88,
+      "text": "my hanukkah",
+      "page": 1
+    },
+    {
+      "start": 3.22,
+      "end": 23.04,
+      "text": "written by elizabeth jane pustilnick illustrated by jennifer zavoyan focus question what can you see during hanukkah my",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 23.16,
+      "end": 25.7,
+      "text": "family",
+      "page": 4
+    },
+    {
+      "start": 26.86,
+      "end": 28.36,
+      "text": "my candle",
+      "page": 5
+    },
+    {
+      "start": 28.5,
+      "end": 30.9,
+      "text": "my bread",
+      "page": 6
+    },
+    {
+      "start": 30.9,
+      "end": 33.28,
+      "text": "my toy",
+      "page": 7
+    },
+    {
+      "start": 33.38,
+      "end": 35.44,
+      "text": "my gift",
+      "page": 8
+    },
+    {
+      "start": 35.46,
+      "end": 37.68,
+      "text": "my candy",
+      "page": 9
+    },
+    {
+      "start": 37.76,
+      "end": 40.24,
+      "text": "my cookie",
+      "page": 10
+    },
+    {
+      "start": 40.42,
+      "end": 42.9,
+      "text": "my hanukkah",
+      "page": 11
+    },
+    {
+      "start": 42.66,
+      "end": 64.22,
+      "text": "connections riding and art draw a picture of hanukkah and write about it social studies what holidays do you celebrate with your family share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

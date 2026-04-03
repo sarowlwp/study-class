@@ -1,0 +1,77 @@
+{
+  "id": "level-c/mash-the-potatoes",
+  "title": "Mash The Potatoes",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 8.94,
+      "text": "mash the potatoes written by karen mochler illustrated by shirley ying benitez",
+      "page": 2
+    },
+    {
+      "start": 9.2,
+      "end": 11.38,
+      "text": "dad loves the turkey",
+      "page": 3
+    },
+    {
+      "start": 11.66,
+      "end": 14.18,
+      "text": "mom loves the pie",
+      "page": 4
+    },
+    {
+      "start": 14.16,
+      "end": 17.02,
+      "text": "i love the potatoes",
+      "page": 5
+    },
+    {
+      "start": 17.24,
+      "end": 19.6,
+      "text": "i count out the potatoes",
+      "page": 6
+    },
+    {
+      "start": 19.92,
+      "end": 23.68,
+      "text": "dad peels the potatoes in the sink",
+      "page": 7
+    },
+    {
+      "start": 23.62,
+      "end": 27.92,
+      "text": "we boil the potatoes to make them soft",
+      "page": 8
+    },
+    {
+      "start": 27.42,
+      "end": 30.36,
+      "text": "we mash the potatoes",
+      "page": 9
+    },
+    {
+      "start": 30.68,
+      "end": 34.28,
+      "text": "we eat the mashed potatoes",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

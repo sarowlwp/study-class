@@ -1,0 +1,83 @@
+{
+  "id": "level-c/you-like-what",
+  "title": "You Like What",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 17.36,
+      "text": "you like what written by nigel pepper house focus question what are some surprising foods that children like to eat",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 17.62,
+      "end": 21.82,
+      "text": "some children eat surprising foods",
+      "page": 4
+    },
+    {
+      "start": 22.1,
+      "end": 26.98,
+      "text": "this girl likes crickets do you",
+      "page": 5
+    },
+    {
+      "start": 27.26,
+      "end": 32.46,
+      "text": "this girl likes fish eggs do you",
+      "page": 6
+    },
+    {
+      "start": 32.96,
+      "end": 37.52,
+      "text": "this boy likes water bugs do you",
+      "page": 7
+    },
+    {
+      "start": 37.52,
+      "end": 42.62,
+      "text": "this boy likes meal worms do you",
+      "page": 8
+    },
+    {
+      "start": 42.74,
+      "end": 47.22,
+      "text": "this girl likes flowers do you",
+      "page": 9
+    },
+    {
+      "start": 47.28,
+      "end": 51.84,
+      "text": "this boy likes spiders do you",
+      "page": 10
+    },
+    {
+      "start": 51.86,
+      "end": 57.72,
+      "text": "this girl likes squid well maybe not",
+      "page": 11
+    },
+    {
+      "start": 57.68,
+      "end": 84.4,
+      "text": "connections writing and art which of the foods in the book would you try why draw a picture and write about it science sort the foods from the book into different groups share your groups with a partner",
+      "page": 12
+    }
+  ]
+}

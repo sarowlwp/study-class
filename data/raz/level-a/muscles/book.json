@@ -1,0 +1,83 @@
+{
+  "id": "level-a/muscles",
+  "title": "Muscles",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 10.04,
+      "text": "muscles written by 80 evans focus question what do muscles help you do",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 10.04,
+      "end": 13.3,
+      "text": "muscles help me run",
+      "page": 4
+    },
+    {
+      "start": 13.54,
+      "end": 17.28,
+      "text": "muscles help me push",
+      "page": 5
+    },
+    {
+      "start": 17.6,
+      "end": 20.94,
+      "text": "muscles help me jump",
+      "page": 6
+    },
+    {
+      "start": 21.46,
+      "end": 24.64,
+      "text": "muscles help me lift",
+      "page": 7
+    },
+    {
+      "start": 25.2,
+      "end": 28.52,
+      "text": "muscles help me stretch",
+      "page": 8
+    },
+    {
+      "start": 28.02,
+      "end": 32.36,
+      "text": "muscles help me pull",
+      "page": 9
+    },
+    {
+      "start": 32.56,
+      "end": 35.98,
+      "text": "muscles help me kick",
+      "page": 10
+    },
+    {
+      "start": 36.16,
+      "end": 39.76,
+      "text": "muscles help me smile",
+      "page": 11
+    },
+    {
+      "start": 39.88,
+      "end": 69.68,
+      "text": "connections writing and art think of something else muscles help you do draw a picture and write about it science why is it important to use your muscles share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

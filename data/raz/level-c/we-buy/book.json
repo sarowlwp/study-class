@@ -1,0 +1,83 @@
+{
+  "id": "level-c/we-buy",
+  "title": "We Buy",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 11.76,
+      "text": "we by written by sarah gusson illustrated by guy wallick",
+      "page": 1
+    },
+    {
+      "start": 12.52,
+      "end": 18.64,
+      "text": "focused question what can you buy at a store",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 19.7,
+      "end": 25.66,
+      "text": "we go to a store mom buys food",
+      "page": 4
+    },
+    {
+      "start": 26.84,
+      "end": 32.6,
+      "text": "we go to a store i buy candy",
+      "page": 5
+    },
+    {
+      "start": 33.82,
+      "end": 40.4,
+      "text": "we go to a store dad buys clothes",
+      "page": 6
+    },
+    {
+      "start": 41.7,
+      "end": 48.18,
+      "text": "we go to a store i buy toys",
+      "page": 7
+    },
+    {
+      "start": 49.36,
+      "end": 55.78,
+      "text": "we go to a store mom buys tools",
+      "page": 8
+    },
+    {
+      "start": 57.12,
+      "end": 63.76,
+      "text": "we go to a store i buy crayons",
+      "page": 9
+    },
+    {
+      "start": 64.78,
+      "end": 71.58,
+      "text": "we go to a store dad buys furniture",
+      "page": 10
+    },
+    {
+      "start": 72.98,
+      "end": 79.64,
+      "text": "we need more money we go to the bank",
+      "page": 11
+    },
+    {
+      "start": 80.24,
+      "end": 120.52,
+      "text": "connections writing and art what would you buy at a store draw a picture and write about it social studies people by things they want and things they need which of the things in this book do people need which things do people want share your ideas with the class",
+      "page": 12
+    }
+  ]
+}

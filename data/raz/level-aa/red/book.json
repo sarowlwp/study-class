@@ -1,0 +1,83 @@
+{
+  "id": "level-aa/red",
+  "title": "Red",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 9.64,
+      "text": "red written by rachel rice focus question what kinds of food are red",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 9.6,
+      "end": 11.94,
+      "text": "the red tomato",
+      "page": 4
+    },
+    {
+      "start": 12.42,
+      "end": 14.58,
+      "text": "the red beet",
+      "page": 5
+    },
+    {
+      "start": 14.52,
+      "end": 16.72,
+      "text": "the red cherry",
+      "page": 6
+    },
+    {
+      "start": 16.98,
+      "end": 19.44,
+      "text": "the red strawberry",
+      "page": 7
+    },
+    {
+      "start": 19.68,
+      "end": 22.0,
+      "text": "the red apple",
+      "page": 8
+    },
+    {
+      "start": 22.32,
+      "end": 24.58,
+      "text": "the red pepper",
+      "page": 9
+    },
+    {
+      "start": 24.52,
+      "end": 26.7,
+      "text": "the red potato",
+      "page": 10
+    },
+    {
+      "start": 27.1,
+      "end": 29.62,
+      "text": "the red radish",
+      "page": 11
+    },
+    {
+      "start": 29.74,
+      "end": 53.56,
+      "text": "connections writing and art which food from the book is your favorite why draw a picture and write about why it is your favorite science sort the foods from the book into fruits and vegetables",
+      "page": 12
+    }
+  ]
+}

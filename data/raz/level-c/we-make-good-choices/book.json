@@ -1,0 +1,83 @@
+{
+  "id": "level-c/we-make-good-choices",
+  "title": "We Make Good Choices",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 18.24,
+      "end": 22.86,
+      "text": "what makes something a good choice",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 23.2,
+      "end": 29.18,
+      "text": "we try to make good choices every day",
+      "page": 4
+    },
+    {
+      "start": 28.68,
+      "end": 34.64,
+      "text": "being kind is a good choice",
+      "page": 5
+    },
+    {
+      "start": 34.76,
+      "end": 39.94,
+      "text": "being helpful is a good choice",
+      "page": 6
+    },
+    {
+      "start": 40.14,
+      "end": 45.08,
+      "text": "being quiet is a good choice",
+      "page": 7
+    },
+    {
+      "start": 44.58,
+      "end": 50.52,
+      "text": "being healthy is a good choice",
+      "page": 8
+    },
+    {
+      "start": 50.7,
+      "end": 55.58,
+      "text": "being fair is a good choice",
+      "page": 9
+    },
+    {
+      "start": 55.7,
+      "end": 60.46,
+      "text": "being safe is a good choice",
+      "page": 10
+    },
+    {
+      "start": 60.52,
+      "end": 65.42,
+      "text": "the best choices are good choices",
+      "page": 11
+    },
+    {
+      "start": 65.36,
+      "end": 93.94,
+      "text": "connections writing and art what is one good choice you made today draw a picture and write about it social studies create a poster that shows how to make good choices hang the poster in your school",
+      "page": 12
+    }
+  ]
+}

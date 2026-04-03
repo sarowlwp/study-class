@@ -1,0 +1,83 @@
+{
+  "id": "level-b/under-my-bed",
+  "title": "Under My Bed",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 2.88,
+      "text": "under my bed",
+      "page": 1
+    },
+    {
+      "start": 3.74,
+      "end": 20.5,
+      "text": "written by anthony keren illustrated by keith frawley focus question what does under mean",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 20.5,
+      "end": 25.6,
+      "text": "a sock is under my bed",
+      "page": 4
+    },
+    {
+      "start": 26.56,
+      "end": 31.0,
+      "text": "a block is under my bed",
+      "page": 5
+    },
+    {
+      "start": 31.86,
+      "end": 36.0,
+      "text": "a book is under my bed",
+      "page": 6
+    },
+    {
+      "start": 36.0,
+      "end": 41.14,
+      "text": "a toy is under my bed",
+      "page": 7
+    },
+    {
+      "start": 41.14,
+      "end": 46.58,
+      "text": "a hat is under my bed",
+      "page": 8
+    },
+    {
+      "start": 46.58,
+      "end": 51.9,
+      "text": "a bat is under my bed",
+      "page": 9
+    },
+    {
+      "start": 51.9,
+      "end": 56.82,
+      "text": "a cat is under my bed",
+      "page": 10
+    },
+    {
+      "start": 56.82,
+      "end": 60.82,
+      "text": "i am under my bed",
+      "page": 11
+    },
+    {
+      "start": 60.82,
+      "end": 96.7,
+      "text": "connections writing draw a picture and write this sentence is under my science list the things the girl finds under her bed sort the things into two groups share your groups with a partner",
+      "page": 12
+    }
+  ]
+}

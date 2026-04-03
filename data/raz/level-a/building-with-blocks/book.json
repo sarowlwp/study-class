@@ -1,0 +1,83 @@
+{
+  "id": "level-a/building-with-blocks",
+  "title": "Building With Blocks",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 23.66,
+      "text": "building with blocks written by anthony kern illustrated by laura logan focus question what can you build with blocks",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 24.08,
+      "end": 27.42,
+      "text": "i build a house",
+      "page": 4
+    },
+    {
+      "start": 27.3,
+      "end": 31.2,
+      "text": "i build a horse",
+      "page": 5
+    },
+    {
+      "start": 31.26,
+      "end": 35.22,
+      "text": "i build a plane",
+      "page": 6
+    },
+    {
+      "start": 35.32,
+      "end": 38.76,
+      "text": "i build a duck",
+      "page": 7
+    },
+    {
+      "start": 38.8,
+      "end": 42.26,
+      "text": "i build a tree",
+      "page": 8
+    },
+    {
+      "start": 42.42,
+      "end": 46.22,
+      "text": "i build a maze",
+      "page": 9
+    },
+    {
+      "start": 46.22,
+      "end": 49.6,
+      "text": "i build a boat",
+      "page": 10
+    },
+    {
+      "start": 49.14,
+      "end": 53.34,
+      "text": "i build a castle",
+      "page": 11
+    },
+    {
+      "start": 54.06,
+      "end": 95.0,
+      "text": "connections writing and art what is your favorite thing to build with blocks draw a picture and label it social studies should you knock over another student's locks why or why not share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

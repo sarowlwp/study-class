@@ -1,0 +1,89 @@
+{
+  "id": "level-b/i-love-the-earth",
+  "title": "I Love The Earth",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 13,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 6.3,
+      "text": "i love the earth written by beverly osborn",
+      "page": 2
+    },
+    {
+      "start": 6.42,
+      "end": 9.02,
+      "text": "i love the earth",
+      "page": 3
+    },
+    {
+      "start": 8.84,
+      "end": 12.16,
+      "text": "i love the tall trees",
+      "page": 4
+    },
+    {
+      "start": 12.22,
+      "end": 15.18,
+      "text": "i love the bright flowers",
+      "page": 5
+    },
+    {
+      "start": 15.28,
+      "end": 18.3,
+      "text": "i love the green hills",
+      "page": 6
+    },
+    {
+      "start": 18.22,
+      "end": 21.14,
+      "text": "i love the high mountains",
+      "page": 7
+    },
+    {
+      "start": 21.26,
+      "end": 24.32,
+      "text": "i love the long rivers",
+      "page": 8
+    },
+    {
+      "start": 24.54,
+      "end": 27.96,
+      "text": "i love the deep lakes",
+      "page": 9
+    },
+    {
+      "start": 27.46,
+      "end": 31.4,
+      "text": "i love the big oceans",
+      "page": 10
+    },
+    {
+      "start": 31.76,
+      "end": 35.44,
+      "text": "i love the dry deserts",
+      "page": 11
+    },
+    {
+      "start": 34.96,
+      "end": 37.22,
+      "text": "i love the earth",
+      "page": 12
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 13
+    }
+  ]
+}

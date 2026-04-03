@@ -1,0 +1,89 @@
+{
+  "id": "level-a/carlos-goes-to-school",
+  "title": "Carlos Goes To School",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 13,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 18.16,
+      "text": "carlos goes to school written by lord inner f d bellow illustrated by angela",
+      "page": 2
+    },
+    {
+      "start": 20.26,
+      "end": 26.38,
+      "text": "i get my back pack",
+      "page": 3
+    },
+    {
+      "start": 26.6,
+      "end": 31.08,
+      "text": "i get my pencils",
+      "page": 4
+    },
+    {
+      "start": 31.52,
+      "end": 35.96,
+      "text": "i get my ruler",
+      "page": 5
+    },
+    {
+      "start": 36.88,
+      "end": 40.74,
+      "text": "i get my eraser",
+      "page": 6
+    },
+    {
+      "start": 41.16,
+      "end": 46.28,
+      "text": "i get my crayons",
+      "page": 7
+    },
+    {
+      "start": 45.78,
+      "end": 51.08,
+      "text": "i get my sweater",
+      "page": 8
+    },
+    {
+      "start": 51.54,
+      "end": 56.26,
+      "text": "i get my sister",
+      "page": 9
+    },
+    {
+      "start": 56.76,
+      "end": 61.52,
+      "text": "i get my lunch",
+      "page": 10
+    },
+    {
+      "start": 61.82,
+      "end": 66.38,
+      "text": "i get my hug",
+      "page": 11
+    },
+    {
+      "start": 66.7,
+      "end": 71.34,
+      "text": "i get my ride",
+      "page": 12
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 13
+    }
+  ]
+}

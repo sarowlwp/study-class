@@ -1,0 +1,83 @@
+{
+  "id": "level-c/at-the-fair",
+  "title": "At The Fair",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 14.82,
+      "text": "at the fair written by elizabeth jane pustilnik focus question what can you ride at the fair",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 14.92,
+      "end": 19.42,
+      "text": "you can ride the big wheel",
+      "page": 4
+    },
+    {
+      "start": 19.54,
+      "end": 24.36,
+      "text": "you can ride the little car",
+      "page": 5
+    },
+    {
+      "start": 23.86,
+      "end": 28.64,
+      "text": "you can ride the long train",
+      "page": 6
+    },
+    {
+      "start": 28.66,
+      "end": 33.14,
+      "text": "you can ride the fast cup",
+      "page": 7
+    },
+    {
+      "start": 33.3,
+      "end": 37.46,
+      "text": "you can ride the painted horse",
+      "page": 8
+    },
+    {
+      "start": 37.7,
+      "end": 41.94,
+      "text": "you can ride the giant swing",
+      "page": 9
+    },
+    {
+      "start": 42.0,
+      "end": 46.08,
+      "text": "you can ride the tiny plane",
+      "page": 10
+    },
+    {
+      "start": 46.12,
+      "end": 51.64,
+      "text": "what is your favorite ride at the fair",
+      "page": 11
+    },
+    {
+      "start": 51.14,
+      "end": 89.98,
+      "text": "connections writing and art would you prefer to go on a fast ride or a high ride at the fair why draw a picture and write about it math which ride from the book would each person in your class like to go on the most show the information on a class graph",
+      "page": 12
+    }
+  ]
+}

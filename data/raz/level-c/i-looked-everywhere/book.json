@@ -1,0 +1,77 @@
+{
+  "id": "level-c/i-looked-everywhere",
+  "title": "I Looked Everywhere",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 6.68,
+      "end": 8.56,
+      "text": "did you look for your shoe",
+      "page": 3
+    },
+    {
+      "start": 8.72,
+      "end": 12.26,
+      "text": "i looked everywhere my shoe is not there",
+      "page": 4
+    },
+    {
+      "start": 12.42,
+      "end": 14.58,
+      "text": "did you look under the bed",
+      "page": 5
+    },
+    {
+      "start": 14.64,
+      "end": 18.46,
+      "text": "i looked everywhere my shoe is not there",
+      "page": 6
+    },
+    {
+      "start": 18.68,
+      "end": 21.24,
+      "text": "did you look in your toy box",
+      "page": 7
+    },
+    {
+      "start": 21.38,
+      "end": 25.28,
+      "text": "i looked everywhere my shoe is not there",
+      "page": 8
+    },
+    {
+      "start": 25.16,
+      "end": 27.46,
+      "text": "did you look in your closet",
+      "page": 9
+    },
+    {
+      "start": 27.62,
+      "end": 33.0,
+      "text": "oh no i did not look everywhere i did not look there",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

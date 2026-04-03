@@ -1,0 +1,83 @@
+{
+  "id": "level-c/spirals-spirals-everywhere",
+  "title": "Spirals Spirals Everywhere",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 20.32,
+      "text": "spirals spirals everywhere written by dg chelsea focus question where can spirals be seen in nature",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 20.26,
+      "end": 32.44,
+      "text": "a spiral is a shape a spiral can be found in many things",
+      "page": 4
+    },
+    {
+      "start": 32.5,
+      "end": 36.94,
+      "text": "this horn has a spiral",
+      "page": 5
+    },
+    {
+      "start": 36.44,
+      "end": 41.46,
+      "text": "this shell has a spiral",
+      "page": 6
+    },
+    {
+      "start": 41.6,
+      "end": 46.08,
+      "text": "this plant has a spiral",
+      "page": 7
+    },
+    {
+      "start": 46.1,
+      "end": 50.6,
+      "text": "this finger has a spiral",
+      "page": 8
+    },
+    {
+      "start": 50.6,
+      "end": 54.62,
+      "text": "this cloud has a spiral",
+      "page": 9
+    },
+    {
+      "start": 54.64,
+      "end": 58.76,
+      "text": "this hair has a spiral",
+      "page": 10
+    },
+    {
+      "start": 59.06,
+      "end": 68.54,
+      "text": "a spiral is a shape can you find the spiral",
+      "page": 11
+    },
+    {
+      "start": 68.04,
+      "end": 102.12,
+      "text": "connections writing and art where else can you see a spiral draw a picture and write about it science sort the spirals from the book into different groups share your groups with a partner",
+      "page": 12
+    }
+  ]
+}

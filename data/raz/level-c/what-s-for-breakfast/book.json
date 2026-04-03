@@ -1,0 +1,77 @@
+{
+  "id": "level-c/what-s-for-breakfast",
+  "title": "What S For Breakfast",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 5.9,
+      "text": "what's for breakfast written by harriet rosenblum",
+      "page": 2
+    },
+    {
+      "start": 5.96,
+      "end": 9.94,
+      "text": "some kids eat cereal for breakfast",
+      "page": 3
+    },
+    {
+      "start": 10.3,
+      "end": 14.18,
+      "text": "some kids eat eggs for breakfast",
+      "page": 4
+    },
+    {
+      "start": 14.26,
+      "end": 18.68,
+      "text": "some kids eat toast for breakfast",
+      "page": 5
+    },
+    {
+      "start": 18.74,
+      "end": 23.32,
+      "text": "some kids eat yogurt for breakfast",
+      "page": 6
+    },
+    {
+      "start": 23.34,
+      "end": 27.84,
+      "text": "some kids eat muffins for breakfast",
+      "page": 7
+    },
+    {
+      "start": 27.34,
+      "end": 31.72,
+      "text": "some kids eat bacon for breakfast",
+      "page": 8
+    },
+    {
+      "start": 32.14,
+      "end": 36.3,
+      "text": "some kids eat fruit for breakfast",
+      "page": 9
+    },
+    {
+      "start": 36.36,
+      "end": 39.22,
+      "text": "what do you eat for breakfast",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

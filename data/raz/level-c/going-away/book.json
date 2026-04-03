@@ -1,0 +1,77 @@
+{
+  "id": "level-c/going-away",
+  "title": "Going Away",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 10.26,
+      "text": "going away written by ned jensen illustrated by joe bowdy",
+      "page": 2
+    },
+    {
+      "start": 10.52,
+      "end": 18.32,
+      "text": "we can get in a car we can drive away",
+      "page": 3
+    },
+    {
+      "start": 18.36,
+      "end": 25.94,
+      "text": "we can get in a boat we can sail away",
+      "page": 4
+    },
+    {
+      "start": 25.44,
+      "end": 34.0,
+      "text": "we can get on a plane we can fly away",
+      "page": 5
+    },
+    {
+      "start": 34.06,
+      "end": 41.98,
+      "text": "we can get on a bike we can pedal away",
+      "page": 6
+    },
+    {
+      "start": 41.98,
+      "end": 49.76,
+      "text": "we can get in a balloon we can float away",
+      "page": 7
+    },
+    {
+      "start": 49.66,
+      "end": 57.16,
+      "text": "we can get on a train we can chug away",
+      "page": 8
+    },
+    {
+      "start": 57.48,
+      "end": 64.46,
+      "text": "we can get in a rocket we can zoom away",
+      "page": 9
+    },
+    {
+      "start": 64.92,
+      "end": 71.34,
+      "text": "we can put on our shoes we can run away",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "level-a/maria-counts-pumpkins",
+  "title": "Maria Counts Pumpkins",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 7.02,
+      "text": "maria counts pumpkins written by kitty higgins illustrated by angela camstra",
+      "page": 2
+    },
+    {
+      "start": 7.38,
+      "end": 10.06,
+      "text": "maria has 1 pumpkin",
+      "page": 3
+    },
+    {
+      "start": 9.88,
+      "end": 12.68,
+      "text": "maria has 2 pumpkins",
+      "page": 4
+    },
+    {
+      "start": 12.86,
+      "end": 15.76,
+      "text": "maria has 3 pumpkins",
+      "page": 5
+    },
+    {
+      "start": 15.74,
+      "end": 18.36,
+      "text": "maria has 4 pumpkins",
+      "page": 6
+    },
+    {
+      "start": 18.46,
+      "end": 21.32,
+      "text": "maria has 5 pumpkins",
+      "page": 7
+    },
+    {
+      "start": 21.42,
+      "end": 24.5,
+      "text": "maria has 6 pumpkins",
+      "page": 8
+    },
+    {
+      "start": 24.5,
+      "end": 27.22,
+      "text": "maria has 7 pumpkins",
+      "page": 9
+    },
+    {
+      "start": 27.18,
+      "end": 30.22,
+      "text": "maria has 2 many pumpkins",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "level-c/the-animals-of-canada",
+  "title": "The Animals Of Canada",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 5.36,
+      "text": "the animals of canada written by chuck gerophano",
+      "page": 2
+    },
+    {
+      "start": 5.84,
+      "end": 9.82,
+      "text": "this is a moose it lives in canada",
+      "page": 3
+    },
+    {
+      "start": 9.78,
+      "end": 14.14,
+      "text": "this is a goose it lives in canada",
+      "page": 4
+    },
+    {
+      "start": 14.2,
+      "end": 18.46,
+      "text": "this is a bear it lives in canada",
+      "page": 5
+    },
+    {
+      "start": 18.32,
+      "end": 22.86,
+      "text": "this is a beaver it lives in canada",
+      "page": 6
+    },
+    {
+      "start": 22.36,
+      "end": 27.3,
+      "text": "this is an eagle it lives in canada",
+      "page": 7
+    },
+    {
+      "start": 27.34,
+      "end": 31.94,
+      "text": "this is a wolf it lives in canada",
+      "page": 8
+    },
+    {
+      "start": 31.86,
+      "end": 36.54,
+      "text": "this is a loon it lives in canada",
+      "page": 9
+    },
+    {
+      "start": 36.62,
+      "end": 39.96,
+      "text": "many animals live in canada",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

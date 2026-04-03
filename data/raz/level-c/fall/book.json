@@ -1,0 +1,77 @@
+{
+  "id": "level-c/fall",
+  "title": "Fall",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 7.4,
+      "text": "fall written by katherine follett illustrated by signey norton",
+      "page": 2
+    },
+    {
+      "start": 7.46,
+      "end": 14.82,
+      "text": "in fall things turn orange in fall pumpkins turn orange",
+      "page": 3
+    },
+    {
+      "start": 14.66,
+      "end": 18.34,
+      "text": "in fall the moon turns orange",
+      "page": 4
+    },
+    {
+      "start": 18.22,
+      "end": 25.54,
+      "text": "in fall things turn read in fall apples turn red",
+      "page": 5
+    },
+    {
+      "start": 25.36,
+      "end": 28.96,
+      "text": "in fall leaves turn red",
+      "page": 6
+    },
+    {
+      "start": 28.8,
+      "end": 36.78,
+      "text": "in fall things turn brown in fall grass turns brown",
+      "page": 7
+    },
+    {
+      "start": 36.72,
+      "end": 45.0,
+      "text": "in fall things turn yellow in fall corn turns yellow",
+      "page": 8
+    },
+    {
+      "start": 44.82,
+      "end": 53.48,
+      "text": "in fall things turn white in fall frost turns things white",
+      "page": 9
+    },
+    {
+      "start": 53.42,
+      "end": 57.34,
+      "text": "in fall things turn many colors",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "level-a/where-they-hid",
+  "title": "Where They Hid",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 24.34,
+      "text": "where they hid written by anthony kurin illustrated by brian dumm focus question where do the children hide",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 24.8,
+      "end": 27.24,
+      "text": "he hid inside",
+      "page": 4
+    },
+    {
+      "start": 27.66,
+      "end": 30.74,
+      "text": "she hid outside",
+      "page": 5
+    },
+    {
+      "start": 30.84,
+      "end": 33.66,
+      "text": "he hid below",
+      "page": 6
+    },
+    {
+      "start": 33.94,
+      "end": 36.88,
+      "text": "she hid above",
+      "page": 7
+    },
+    {
+      "start": 37.08,
+      "end": 39.6,
+      "text": "he hid between",
+      "page": 8
+    },
+    {
+      "start": 40.0,
+      "end": 42.52,
+      "text": "she hid behind",
+      "page": 9
+    },
+    {
+      "start": 42.86,
+      "end": 45.4,
+      "text": "he hid far",
+      "page": 10
+    },
+    {
+      "start": 45.5,
+      "end": 48.32,
+      "text": "she hid near",
+      "page": 11
+    },
+    {
+      "start": 49.08,
+      "end": 84.62,
+      "text": "connections writing and art where would you hide draw a picture and label it math count the number of children in the story how many boys do you see how many girls do you see share your answers with a partner",
+      "page": 12
+    }
+  ]
+}

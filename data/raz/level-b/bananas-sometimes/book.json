@@ -1,0 +1,77 @@
+{
+  "id": "level-b/bananas-sometimes",
+  "title": "Bananas Sometimes",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 5.36,
+      "end": 8.64,
+      "text": "banana is sometimes looked like hands",
+      "page": 3
+    },
+    {
+      "start": 9.02,
+      "end": 12.12,
+      "text": "banana is sometimes looked like boats",
+      "page": 4
+    },
+    {
+      "start": 12.58,
+      "end": 15.52,
+      "text": "banana is sometimes looked like pencils",
+      "page": 5
+    },
+    {
+      "start": 16.02,
+      "end": 19.14,
+      "text": "banana is sometimes looked like spiders",
+      "page": 6
+    },
+    {
+      "start": 19.5,
+      "end": 23.2,
+      "text": "banana is sometimes looked like telephones",
+      "page": 7
+    },
+    {
+      "start": 23.28,
+      "end": 26.66,
+      "text": "banana is sometimes looked like smiles",
+      "page": 8
+    },
+    {
+      "start": 26.16,
+      "end": 31.64,
+      "text": "bananas sometimes look like frowns",
+      "page": 9
+    },
+    {
+      "start": 31.22,
+      "end": 34.72,
+      "text": "bananas always look good to eat",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

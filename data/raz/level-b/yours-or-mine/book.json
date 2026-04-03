@@ -1,0 +1,77 @@
+{
+  "id": "level-b/yours-or-mine",
+  "title": "Yours Or Mine",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 13.3,
+      "text": "yours or mine written by ed evans illustrated by violet lamey",
+      "page": 2
+    },
+    {
+      "start": 12.92,
+      "end": 17.22,
+      "text": "this bed is my bed",
+      "page": 3
+    },
+    {
+      "start": 17.7,
+      "end": 21.9,
+      "text": "this bed is your bed",
+      "page": 4
+    },
+    {
+      "start": 22.24,
+      "end": 26.54,
+      "text": "this food is my food",
+      "page": 5
+    },
+    {
+      "start": 26.6,
+      "end": 31.0,
+      "text": "this food is your food",
+      "page": 6
+    },
+    {
+      "start": 31.04,
+      "end": 35.64,
+      "text": "this tail is my tail",
+      "page": 7
+    },
+    {
+      "start": 35.62,
+      "end": 40.28,
+      "text": "this tail is your tail",
+      "page": 8
+    },
+    {
+      "start": 39.78,
+      "end": 45.1,
+      "text": "this room is my room",
+      "page": 9
+    },
+    {
+      "start": 45.28,
+      "end": 50.72,
+      "text": "this room is your room too",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

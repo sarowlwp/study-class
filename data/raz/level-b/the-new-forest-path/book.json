@@ -1,0 +1,77 @@
+{
+  "id": "level-b/the-new-forest-path",
+  "title": "The New Forest Path",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 5.08,
+      "text": "a new forest path written by maribeth bolts",
+      "page": 2
+    },
+    {
+      "start": 5.3,
+      "end": 8.5,
+      "text": "we see a new forest path",
+      "page": 3
+    },
+    {
+      "start": 8.62,
+      "end": 12.86,
+      "text": "we see big trees by the path",
+      "page": 4
+    },
+    {
+      "start": 12.84,
+      "end": 16.84,
+      "text": "we see small bugs by the path",
+      "page": 5
+    },
+    {
+      "start": 16.48,
+      "end": 20.28,
+      "text": "we see green moss by the path",
+      "page": 6
+    },
+    {
+      "start": 19.86,
+      "end": 23.48,
+      "text": "we see brown birds by the path",
+      "page": 7
+    },
+    {
+      "start": 23.22,
+      "end": 26.72,
+      "text": "we see old leaves by the path",
+      "page": 8
+    },
+    {
+      "start": 26.22,
+      "end": 30.02,
+      "text": "we see new flowers by the path",
+      "page": 9
+    },
+    {
+      "start": 29.52,
+      "end": 32.78,
+      "text": "we see our dog by the path",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

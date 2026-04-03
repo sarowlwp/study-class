@@ -1,0 +1,77 @@
+{
+  "id": "level-aa/out",
+  "title": "Out",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 0.86,
+      "text": "out",
+      "page": 1
+    },
+    {
+      "start": 1.02,
+      "end": 7.78,
+      "text": "written by cheryl ryan illustrated by nora voodis",
+      "page": 2
+    },
+    {
+      "start": 10.48,
+      "end": 12.44,
+      "text": "out of the car",
+      "page": 3
+    },
+    {
+      "start": 14.32,
+      "end": 16.38,
+      "text": "out of the wagon",
+      "page": 4
+    },
+    {
+      "start": 18.56,
+      "end": 20.54,
+      "text": "out of the boat",
+      "page": 5
+    },
+    {
+      "start": 22.72,
+      "end": 24.76,
+      "text": "out of the house",
+      "page": 6
+    },
+    {
+      "start": 26.7,
+      "end": 28.62,
+      "text": "out of the water",
+      "page": 7
+    },
+    {
+      "start": 30.12,
+      "end": 33.12,
+      "text": "out of the grass",
+      "page": 8
+    },
+    {
+      "start": 35.26,
+      "end": 37.5,
+      "text": "out of the mud",
+      "page": 9
+    },
+    {
+      "start": 39.14,
+      "end": 41.18,
+      "text": "out of the bathtub",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

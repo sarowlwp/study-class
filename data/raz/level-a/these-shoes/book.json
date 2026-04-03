@@ -1,0 +1,77 @@
+{
+  "id": "level-a/these-shoes",
+  "title": "These Shoes",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 6.48,
+      "end": 9.4,
+      "text": "these shoes are blue",
+      "page": 3
+    },
+    {
+      "start": 13.08,
+      "end": 16.04,
+      "text": "these shoes are red",
+      "page": 4
+    },
+    {
+      "start": 19.18,
+      "end": 22.26,
+      "text": "these shoes are wet",
+      "page": 5
+    },
+    {
+      "start": 23.8,
+      "end": 28.22,
+      "text": "these shoes are old",
+      "page": 6
+    },
+    {
+      "start": 31.86,
+      "end": 34.92,
+      "text": "these shoes are big",
+      "page": 7
+    },
+    {
+      "start": 37.38,
+      "end": 40.22,
+      "text": "these shoes are shiny",
+      "page": 8
+    },
+    {
+      "start": 42.8,
+      "end": 46.34,
+      "text": "these shoes are tall",
+      "page": 9
+    },
+    {
+      "start": 48.04,
+      "end": 51.8,
+      "text": "these shoes are funny",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

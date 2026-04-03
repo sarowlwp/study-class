@@ -1,0 +1,77 @@
+{
+  "id": "level-aa/jump-over",
+  "title": "Jump Over",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 7.22,
+      "text": "jump over written by anthony kern illustrated by noravutus",
+      "page": 2
+    },
+    {
+      "start": 7.94,
+      "end": 10.26,
+      "text": "the cat jumps over",
+      "page": 3
+    },
+    {
+      "start": 11.76,
+      "end": 14.82,
+      "text": "the dog jumps over",
+      "page": 4
+    },
+    {
+      "start": 15.82,
+      "end": 18.84,
+      "text": "the horse jumps over",
+      "page": 5
+    },
+    {
+      "start": 19.92,
+      "end": 22.24,
+      "text": "the fox jumps over",
+      "page": 6
+    },
+    {
+      "start": 23.86,
+      "end": 26.1,
+      "text": "the deer jumps over",
+      "page": 7
+    },
+    {
+      "start": 25.6,
+      "end": 30.24,
+      "text": "they go jumps over",
+      "page": 8
+    },
+    {
+      "start": 31.72,
+      "end": 34.68,
+      "text": "the girl jumps over",
+      "page": 9
+    },
+    {
+      "start": 35.84,
+      "end": 38.26,
+      "text": "the cow jumps over",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

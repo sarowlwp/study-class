@@ -1,0 +1,77 @@
+{
+  "id": "level-a/what-makes-me-happy",
+  "title": "What Makes Me Happy",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 13.26,
+      "text": "what makes me happy written by marvin d bodner focus question what are some things that make kids happy",
+      "page": 2
+    },
+    {
+      "start": 13.12,
+      "end": 16.02,
+      "text": "dogs make me happy",
+      "page": 3
+    },
+    {
+      "start": 16.12,
+      "end": 19.28,
+      "text": "cats make me happy",
+      "page": 4
+    },
+    {
+      "start": 19.2,
+      "end": 22.52,
+      "text": "bubbles make me happy",
+      "page": 5
+    },
+    {
+      "start": 22.5,
+      "end": 25.44,
+      "text": "trains make me happy",
+      "page": 6
+    },
+    {
+      "start": 25.6,
+      "end": 29.04,
+      "text": "swings make me happy",
+      "page": 7
+    },
+    {
+      "start": 28.54,
+      "end": 32.62,
+      "text": "flowers make me happy",
+      "page": 8
+    },
+    {
+      "start": 32.82,
+      "end": 35.5,
+      "text": "books make me happy",
+      "page": 9
+    },
+    {
+      "start": 35.7,
+      "end": 38.96,
+      "text": "friends make me happy",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "level-c/my-clothes-are-too-small",
+  "title": "My Clothes Are Too Small",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 3.54,
+      "text": "my clothes are too small",
+      "page": 1
+    },
+    {
+      "start": 4.02,
+      "end": 18.1,
+      "text": "written by anthony keren illustrated by janet mcdonnell focus question how does the boy know he has grown",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 18.08,
+      "end": 21.56,
+      "text": "i must have grown over the summer",
+      "page": 4
+    },
+    {
+      "start": 21.06,
+      "end": 25.28,
+      "text": "my old shirt is too small",
+      "page": 5
+    },
+    {
+      "start": 25.26,
+      "end": 29.3,
+      "text": "my old sweatshirt is too small",
+      "page": 6
+    },
+    {
+      "start": 29.34,
+      "end": 33.16,
+      "text": "my old pants are too small",
+      "page": 7
+    },
+    {
+      "start": 33.16,
+      "end": 37.02,
+      "text": "my old hat is too small",
+      "page": 8
+    },
+    {
+      "start": 37.0,
+      "end": 40.98,
+      "text": "my old socks are too small",
+      "page": 9
+    },
+    {
+      "start": 40.72,
+      "end": 44.76,
+      "text": "my old shoes are too small",
+      "page": 10
+    },
+    {
+      "start": 44.48,
+      "end": 48.9,
+      "text": "it is good i have a little brother",
+      "page": 11
+    },
+    {
+      "start": 48.4,
+      "end": 77.36,
+      "text": "connections writing and art what do you do when you grow out of your clothes draw a picture and write about it social studies how is the story in the book related to reducing reusing and recycling share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

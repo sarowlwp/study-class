@@ -1,0 +1,77 @@
+{
+  "id": "level-a/hello-butterfly",
+  "title": "Hello Butterfly",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 6.56,
+      "text": "hello butterfly written by harriet rosenblum",
+      "page": 2
+    },
+    {
+      "start": 6.48,
+      "end": 9.3,
+      "text": "hello big butterfly",
+      "page": 3
+    },
+    {
+      "start": 9.5,
+      "end": 12.58,
+      "text": "hello small butterfly",
+      "page": 4
+    },
+    {
+      "start": 12.96,
+      "end": 16.04,
+      "text": "hello red butterfly",
+      "page": 5
+    },
+    {
+      "start": 16.48,
+      "end": 19.56,
+      "text": "hello green butterfly",
+      "page": 6
+    },
+    {
+      "start": 20.1,
+      "end": 23.12,
+      "text": "hello striped butterfly",
+      "page": 7
+    },
+    {
+      "start": 23.54,
+      "end": 26.7,
+      "text": "hello spotted butterfly",
+      "page": 8
+    },
+    {
+      "start": 26.94,
+      "end": 29.84,
+      "text": "hello new butterfly",
+      "page": 9
+    },
+    {
+      "start": 29.78,
+      "end": 32.36,
+      "text": "hello butterfly",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

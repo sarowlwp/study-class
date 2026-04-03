@@ -1,0 +1,65 @@
+{
+  "id": "level-aa/the-fort",
+  "title": "The Fort",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 9,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 10.0,
+      "text": "the fort written by russ buyak illustrated by mary yols",
+      "page": 1
+    },
+    {
+      "start": 11.48,
+      "end": 14.62,
+      "text": "the friends",
+      "page": 2
+    },
+    {
+      "start": 14.48,
+      "end": 18.44,
+      "text": "the chairs",
+      "page": 3
+    },
+    {
+      "start": 20.86,
+      "end": 23.04,
+      "text": "the pillows",
+      "page": 4
+    },
+    {
+      "start": 25.06,
+      "end": 27.0,
+      "text": "the lancets",
+      "page": 5
+    },
+    {
+      "start": 28.4,
+      "end": 31.62,
+      "text": "the food",
+      "page": 6
+    },
+    {
+      "start": 31.12,
+      "end": 35.14,
+      "text": "the games",
+      "page": 7
+    },
+    {
+      "start": 37.62,
+      "end": 39.22,
+      "text": "the lights",
+      "page": 8
+    },
+    {
+      "start": 41.94,
+      "end": 43.44,
+      "text": "the fort",
+      "page": 9
+    }
+  ]
+}

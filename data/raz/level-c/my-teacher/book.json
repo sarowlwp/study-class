@@ -1,0 +1,83 @@
+{
+  "id": "level-c/my-teacher",
+  "title": "My Teacher",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 19.02,
+      "text": "my teacher written by e d evans illustrated by juliano aloesi focus question what makes a good teacher",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 18.92,
+      "end": 26.82,
+      "text": "my teacher is the best my teacher is helpful",
+      "page": 4
+    },
+    {
+      "start": 26.84,
+      "end": 30.6,
+      "text": "my teacher is caring",
+      "page": 5
+    },
+    {
+      "start": 30.76,
+      "end": 34.2,
+      "text": "my teacher is creative",
+      "page": 6
+    },
+    {
+      "start": 34.16,
+      "end": 37.78,
+      "text": "my teacher is funny",
+      "page": 7
+    },
+    {
+      "start": 37.7,
+      "end": 41.02,
+      "text": "my teacher is smart",
+      "page": 8
+    },
+    {
+      "start": 41.08,
+      "end": 44.66,
+      "text": "my teacher is talented",
+      "page": 9
+    },
+    {
+      "start": 44.78,
+      "end": 48.58,
+      "text": "my teacher is interesting",
+      "page": 10
+    },
+    {
+      "start": 48.64,
+      "end": 56.88,
+      "text": "i learn so much from my teacher my teacher is the best",
+      "page": 11
+    },
+    {
+      "start": 56.38,
+      "end": 87.32,
+      "text": "connections writing and art draw a picture of your teacher write five words to describe him or her social studies teachers are helpful who else in your community is helpful how do they help share your ideas with your class",
+      "page": 12
+    }
+  ]
+}

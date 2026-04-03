@@ -1,0 +1,83 @@
+{
+  "id": "level-a/smells-like-thanksgiving",
+  "title": "Smells Like Thanksgiving",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 22.88,
+      "end": 25.78,
+      "text": "i smell turkey",
+      "page": 4
+    },
+    {
+      "start": 26.38,
+      "end": 30.44,
+      "text": "i smell stuffing",
+      "page": 5
+    },
+    {
+      "start": 30.44,
+      "end": 33.6,
+      "text": "i smell rolls",
+      "page": 6
+    },
+    {
+      "start": 33.9,
+      "end": 37.64,
+      "text": "i smell yams",
+      "page": 7
+    },
+    {
+      "start": 37.56,
+      "end": 41.28,
+      "text": "i smell potatoes",
+      "page": 8
+    },
+    {
+      "start": 41.84,
+      "end": 45.34,
+      "text": "i smell gravy",
+      "page": 9
+    },
+    {
+      "start": 45.38,
+      "end": 48.64,
+      "text": "i smell pie",
+      "page": 10
+    },
+    {
+      "start": 49.22,
+      "end": 53.48,
+      "text": "i smell thanksgiving",
+      "page": 11
+    },
+    {
+      "start": 54.36,
+      "end": 83.64,
+      "text": "connections writing and art which food in this book would you most like to eat draw a picture and write about it social studies when is thanksgiving this year point to the date on the calendar",
+      "page": 12
+    }
+  ]
+}

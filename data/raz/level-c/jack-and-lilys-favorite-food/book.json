@@ -1,0 +1,77 @@
+{
+  "id": "level-c/jack-and-lilys-favorite-food",
+  "title": "Jack And Lilys Favorite Food",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 6.96,
+      "text": "jack and lilys favorite food written by catherine page illustrated by kayori tajima",
+      "page": 2
+    },
+    {
+      "start": 7.32,
+      "end": 9.82,
+      "text": "in some ways jack and lily are different",
+      "page": 3
+    },
+    {
+      "start": 10.34,
+      "end": 12.82,
+      "text": "jack likes chicken lily doesn't",
+      "page": 4
+    },
+    {
+      "start": 13.14,
+      "end": 15.94,
+      "text": "jack likes beef lily doesn't",
+      "page": 5
+    },
+    {
+      "start": 16.14,
+      "end": 19.18,
+      "text": "jack likes tuna lily doesn't",
+      "page": 6
+    },
+    {
+      "start": 19.5,
+      "end": 22.54,
+      "text": "jack likes pork lily doesn't",
+      "page": 7
+    },
+    {
+      "start": 22.88,
+      "end": 26.2,
+      "text": "jack likes turkey lily doesn't",
+      "page": 8
+    },
+    {
+      "start": 26.44,
+      "end": 30.2,
+      "text": "jack loves salmon lily does too",
+      "page": 9
+    },
+    {
+      "start": 30.52,
+      "end": 33.6,
+      "text": "in this way jack and lily are the same",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

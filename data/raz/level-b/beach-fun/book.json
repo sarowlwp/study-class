@@ -1,0 +1,83 @@
+{
+  "id": "level-b/beach-fun",
+  "title": "Beach Fun",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 13.98,
+      "text": "beach fun written by marvin d bodner focus question what can you do at the beach",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 14.14,
+      "end": 17.26,
+      "text": "we swim at the beach",
+      "page": 4
+    },
+    {
+      "start": 17.36,
+      "end": 20.58,
+      "text": "we dig at the beach",
+      "page": 5
+    },
+    {
+      "start": 20.08,
+      "end": 23.62,
+      "text": "we run at the beach",
+      "page": 6
+    },
+    {
+      "start": 23.88,
+      "end": 26.7,
+      "text": "we eat at the beach",
+      "page": 7
+    },
+    {
+      "start": 27.0,
+      "end": 30.62,
+      "text": "we play at the beach",
+      "page": 8
+    },
+    {
+      "start": 30.7,
+      "end": 35.08,
+      "text": "we fly kites at the beach",
+      "page": 9
+    },
+    {
+      "start": 34.96,
+      "end": 38.8,
+      "text": "we find shells at the beach",
+      "page": 10
+    },
+    {
+      "start": 38.64,
+      "end": 42.68,
+      "text": "we build castles at the beach",
+      "page": 11
+    },
+    {
+      "start": 42.5,
+      "end": 69.02,
+      "text": "connections writing and art what would you like to do at the beach draw a picture and write about it science what types of animals could you see at the beach share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

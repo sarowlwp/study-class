@@ -1,0 +1,83 @@
+{
+  "id": "level-aa/my-closet",
+  "title": "My Closet",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 2.66,
+      "text": "my closet",
+      "page": 1
+    },
+    {
+      "start": 3.48,
+      "end": 25.42,
+      "text": "written by elizabeth jane pastelnic illustrated by juan manuel moreno focus question what can you find in a closet",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 25.96,
+      "end": 27.88,
+      "text": "my hangers",
+      "page": 4
+    },
+    {
+      "start": 27.94,
+      "end": 30.12,
+      "text": "my shirts",
+      "page": 5
+    },
+    {
+      "start": 30.42,
+      "end": 32.86,
+      "text": "my pants",
+      "page": 6
+    },
+    {
+      "start": 32.84,
+      "end": 35.42,
+      "text": "my dresses",
+      "page": 7
+    },
+    {
+      "start": 35.68,
+      "end": 37.98,
+      "text": "my shoes",
+      "page": 8
+    },
+    {
+      "start": 38.22,
+      "end": 39.98,
+      "text": "my belts",
+      "page": 9
+    },
+    {
+      "start": 40.56,
+      "end": 42.24,
+      "text": "my blankets",
+      "page": 10
+    },
+    {
+      "start": 42.56,
+      "end": 44.8,
+      "text": "my closet",
+      "page": 11
+    },
+    {
+      "start": 44.3,
+      "end": 89.66,
+      "text": "connections writing and art draw three things that are in a closet label your pictures share your pictures with a partner science and art draw four boxes and label them with the names of the seasons spring summer fall and winter draw a picture of what you wear during each season",
+      "page": 12
+    }
+  ]
+}

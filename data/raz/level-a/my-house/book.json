@@ -1,0 +1,77 @@
+{
+  "id": "level-a/my-house",
+  "title": "My House",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 3.86,
+      "text": "my house written by bev osborne",
+      "page": 1
+    },
+    {
+      "start": 4.54,
+      "end": 6.58,
+      "text": "this is my house",
+      "page": 2
+    },
+    {
+      "start": 7.06,
+      "end": 8.64,
+      "text": "this is the door",
+      "page": 3
+    },
+    {
+      "start": 9.22,
+      "end": 11.64,
+      "text": "this is the living room",
+      "page": 4
+    },
+    {
+      "start": 12.26,
+      "end": 13.96,
+      "text": "this is the kitchen",
+      "page": 5
+    },
+    {
+      "start": 14.5,
+      "end": 17.3,
+      "text": "this is the dining room",
+      "page": 6
+    },
+    {
+      "start": 17.84,
+      "end": 20.04,
+      "text": "this is the hall",
+      "page": 7
+    },
+    {
+      "start": 20.6,
+      "end": 22.58,
+      "text": "this is the bathroom",
+      "page": 8
+    },
+    {
+      "start": 23.12,
+      "end": 25.5,
+      "text": "this is my bedroom",
+      "page": 9
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

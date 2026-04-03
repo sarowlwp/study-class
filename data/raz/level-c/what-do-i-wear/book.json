@@ -1,0 +1,77 @@
+{
+  "id": "level-c/what-do-i-wear",
+  "title": "What Do I Wear",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 4.46,
+      "text": "what do i wear written by catalina page",
+      "page": 2
+    },
+    {
+      "start": 4.18,
+      "end": 6.98,
+      "text": "a foot wears a shoe",
+      "page": 3
+    },
+    {
+      "start": 7.0,
+      "end": 9.74,
+      "text": "a chest wears a shirt",
+      "page": 4
+    },
+    {
+      "start": 9.76,
+      "end": 12.28,
+      "text": "a waist wears a belt",
+      "page": 5
+    },
+    {
+      "start": 12.22,
+      "end": 14.98,
+      "text": "a finger wears a ring",
+      "page": 6
+    },
+    {
+      "start": 15.14,
+      "end": 17.6,
+      "text": "a wrist wears a watch",
+      "page": 7
+    },
+    {
+      "start": 17.54,
+      "end": 19.99,
+      "text": "a head wears a hat",
+      "page": 8
+    },
+    {
+      "start": 20.16,
+      "end": 22.52,
+      "text": "a face wears a smile",
+      "page": 9
+    },
+    {
+      "start": 22.54,
+      "end": 25.08,
+      "text": "a heart wears love",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

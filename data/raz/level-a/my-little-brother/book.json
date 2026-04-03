@@ -1,0 +1,83 @@
+{
+  "id": "level-a/my-little-brother",
+  "title": "My Little Brother",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 12.6,
+      "end": 19.62,
+      "text": "focus question how does the girl take care of her brother",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 19.12,
+      "end": 22.5,
+      "text": "i need my brother",
+      "page": 4
+    },
+    {
+      "start": 22.82,
+      "end": 25.54,
+      "text": "i hold my brother",
+      "page": 5
+    },
+    {
+      "start": 25.66,
+      "end": 29.08,
+      "text": "i hear my brother",
+      "page": 6
+    },
+    {
+      "start": 29.16,
+      "end": 32.36,
+      "text": "i feed my brother",
+      "page": 7
+    },
+    {
+      "start": 32.38,
+      "end": 35.38,
+      "text": "i rock my brother",
+      "page": 8
+    },
+    {
+      "start": 35.42,
+      "end": 38.42,
+      "text": "i help my brother",
+      "page": 9
+    },
+    {
+      "start": 38.36,
+      "end": 41.64,
+      "text": "i kiss my brother",
+      "page": 10
+    },
+    {
+      "start": 41.58,
+      "end": 45.08,
+      "text": "i love my brother",
+      "page": 11
+    },
+    {
+      "start": 44.58,
+      "end": 69.6,
+      "text": "connections writing and art who is in your family draw and label a picture of your family social studies how can you help your family share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

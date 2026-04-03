@@ -1,0 +1,77 @@
+{
+  "id": "level-b/animal-ears",
+  "title": "Animal Ears",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 6.08,
+      "text": "animal ears written by mary anne marazzi",
+      "page": 2
+    },
+    {
+      "start": 6.06,
+      "end": 10.0,
+      "text": "this elephant has big ears",
+      "page": 3
+    },
+    {
+      "start": 10.0,
+      "end": 13.84,
+      "text": "this beaver has small ears",
+      "page": 4
+    },
+    {
+      "start": 13.84,
+      "end": 18.18,
+      "text": "this fox has pointed ears",
+      "page": 5
+    },
+    {
+      "start": 18.18,
+      "end": 22.22,
+      "text": "this bear has round ears",
+      "page": 6
+    },
+    {
+      "start": 22.2,
+      "end": 26.82,
+      "text": "this cat has striped ears",
+      "page": 7
+    },
+    {
+      "start": 26.82,
+      "end": 31.1,
+      "text": "this puppy has spotted ears",
+      "page": 8
+    },
+    {
+      "start": 31.1,
+      "end": 35.7,
+      "text": "this rabbit has long ears",
+      "page": 9
+    },
+    {
+      "start": 35.7,
+      "end": 39.74,
+      "text": "does this seal have ears",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

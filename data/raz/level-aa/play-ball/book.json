@@ -1,0 +1,77 @@
+{
+  "id": "level-aa/play-ball",
+  "title": "Play Ball",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 1.38,
+      "text": "play ball",
+      "page": 1
+    },
+    {
+      "start": 1.36,
+      "end": 3.82,
+      "text": "written by ty ellison",
+      "page": 2
+    },
+    {
+      "start": 3.8,
+      "end": 5.54,
+      "text": "a beach ball",
+      "page": 3
+    },
+    {
+      "start": 5.28,
+      "end": 6.86,
+      "text": "a baseball",
+      "page": 4
+    },
+    {
+      "start": 7.3,
+      "end": 9.04,
+      "text": "a basket ball",
+      "page": 5
+    },
+    {
+      "start": 8.78,
+      "end": 10.14,
+      "text": "a football",
+      "page": 6
+    },
+    {
+      "start": 10.48,
+      "end": 12.32,
+      "text": "a tennis ball",
+      "page": 7
+    },
+    {
+      "start": 12.12,
+      "end": 14.1,
+      "text": "a golf ball",
+      "page": 8
+    },
+    {
+      "start": 13.9,
+      "end": 15.86,
+      "text": "a soccer ball",
+      "page": 9
+    },
+    {
+      "start": 15.64,
+      "end": 16.96,
+      "text": "a volleyball",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

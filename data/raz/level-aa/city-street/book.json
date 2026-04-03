@@ -1,0 +1,83 @@
+{
+  "id": "level-aa/city-street",
+  "title": "City Street",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 13.72,
+      "end": 15.12,
+      "text": "the steps",
+      "page": 4
+    },
+    {
+      "start": 15.24,
+      "end": 16.8,
+      "text": "the sidewalk",
+      "page": 5
+    },
+    {
+      "start": 17.1,
+      "end": 18.58,
+      "text": "the food",
+      "page": 6
+    },
+    {
+      "start": 18.56,
+      "end": 20.16,
+      "text": "the buildings",
+      "page": 7
+    },
+    {
+      "start": 20.66,
+      "end": 22.14,
+      "text": "the taxi",
+      "page": 8
+    },
+    {
+      "start": 22.3,
+      "end": 23.74,
+      "text": "the bus",
+      "page": 9
+    },
+    {
+      "start": 23.84,
+      "end": 25.24,
+      "text": "the people",
+      "page": 10
+    },
+    {
+      "start": 25.38,
+      "end": 26.84,
+      "text": "the street",
+      "page": 11
+    },
+    {
+      "start": 26.76,
+      "end": 46.64,
+      "text": "connections writing and art draw a picture of a city you know write the name of the city on your picture social studies what is the difference between a city and a farm share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

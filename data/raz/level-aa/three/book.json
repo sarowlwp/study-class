@@ -1,0 +1,65 @@
+{
+  "id": "level-aa/three",
+  "title": "Three",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 9,
+  "sentences": [
+    {
+      "start": 1.72,
+      "end": 10.96,
+      "text": "three written by marianne morazzi illustrated by moran gallegos",
+      "page": 1
+    },
+    {
+      "start": 15.7,
+      "end": 18.78,
+      "text": "three tigers",
+      "page": 2
+    },
+    {
+      "start": 24.98,
+      "end": 29.98,
+      "text": "3 lions wow",
+      "page": 3
+    },
+    {
+      "start": 34.18,
+      "end": 36.78,
+      "text": "3 bears",
+      "page": 4
+    },
+    {
+      "start": 43.3,
+      "end": 46.06,
+      "text": "3 monkeys",
+      "page": 5
+    },
+    {
+      "start": 52.66,
+      "end": 55.64,
+      "text": "three elephants",
+      "page": 6
+    },
+    {
+      "start": 55.14,
+      "end": 65.06,
+      "text": "three camels",
+      "page": 7
+    },
+    {
+      "start": 64.56,
+      "end": 73.94,
+      "text": "three frogs",
+      "page": 8
+    },
+    {
+      "start": 80.24,
+      "end": 86.32,
+      "text": "three and that's three",
+      "page": 9
+    }
+  ]
+}

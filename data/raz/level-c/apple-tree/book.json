@@ -1,0 +1,83 @@
+{
+  "id": "level-c/apple-tree",
+  "title": "Apple Tree",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 16.28,
+      "text": "apple tree written by karen mochler illustrated by violet kim focus question what is the life cycle of an apple",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 16.24,
+      "end": 22.54,
+      "text": "an apple grows in a cycle how does the cycle go",
+      "page": 4
+    },
+    {
+      "start": 22.44,
+      "end": 24.98,
+      "text": "first comes the seed",
+      "page": 5
+    },
+    {
+      "start": 24.48,
+      "end": 28.1,
+      "text": "then comes the sprout",
+      "page": 6
+    },
+    {
+      "start": 28.06,
+      "end": 30.92,
+      "text": "next come the years",
+      "page": 7
+    },
+    {
+      "start": 30.82,
+      "end": 33.64,
+      "text": "then comes the tree",
+      "page": 8
+    },
+    {
+      "start": 33.66,
+      "end": 36.48,
+      "text": "next come the blooms",
+      "page": 9
+    },
+    {
+      "start": 37.04,
+      "end": 39.64,
+      "text": "then come the apples",
+      "page": 10
+    },
+    {
+      "start": 39.7,
+      "end": 46.56,
+      "text": "seeds wait inside each apple the cycle begins again",
+      "page": 11
+    },
+    {
+      "start": 47.16,
+      "end": 77.72,
+      "text": "connections writing draw a picture of an apple write words to describe how an apple tastes smells feels looks and sounds when eaten science how does an apple grow explain the different stages in the cycle to a partner",
+      "page": 12
+    }
+  ]
+}

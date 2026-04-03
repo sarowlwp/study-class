@@ -1,0 +1,77 @@
+{
+  "id": "level-c/all-about-spiders",
+  "title": "All About Spiders",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 3.54,
+      "end": 6.16,
+      "text": "written by russ buyak",
+      "page": 2
+    },
+    {
+      "start": 6.3,
+      "end": 9.7,
+      "text": "there are many kinds of spiders",
+      "page": 3
+    },
+    {
+      "start": 9.86,
+      "end": 15.48,
+      "text": "a spider has eight legs it eats bugs",
+      "page": 4
+    },
+    {
+      "start": 15.58,
+      "end": 21.06,
+      "text": "a spider has eight legs it can climb",
+      "page": 5
+    },
+    {
+      "start": 21.34,
+      "end": 26.86,
+      "text": "a spider has eight legs it can make silk",
+      "page": 6
+    },
+    {
+      "start": 27.04,
+      "end": 33.26,
+      "text": "a spider has eight legs it has many eyes",
+      "page": 7
+    },
+    {
+      "start": 33.46,
+      "end": 39.7,
+      "text": "a spider has eight legs it lays eggs",
+      "page": 8
+    },
+    {
+      "start": 39.92,
+      "end": 46.28,
+      "text": "a spider has eight legs it can live outside",
+      "page": 9
+    },
+    {
+      "start": 46.52,
+      "end": 49.7,
+      "text": "it can live inside too",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

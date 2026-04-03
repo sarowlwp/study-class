@@ -1,0 +1,77 @@
+{
+  "id": "level-b/playful-puppy",
+  "title": "Playful Puppy",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 7.82,
+      "end": 10.52,
+      "text": "puppy seas a little mouse",
+      "page": 3
+    },
+    {
+      "start": 10.56,
+      "end": 12.64,
+      "text": "let it be puppy puppy",
+      "page": 4
+    },
+    {
+      "start": 12.74,
+      "end": 14.96,
+      "text": "puppy seas a little frog",
+      "page": 5
+    },
+    {
+      "start": 15.04,
+      "end": 17.28,
+      "text": "let it be puppy",
+      "page": 6
+    },
+    {
+      "start": 17.44,
+      "end": 19.8,
+      "text": "puppy seas a little turtle",
+      "page": 7
+    },
+    {
+      "start": 20.12,
+      "end": 22.34,
+      "text": "let it be puppy",
+      "page": 8
+    },
+    {
+      "start": 22.6,
+      "end": 24.66,
+      "text": "puppy seas a little ball",
+      "page": 9
+    },
+    {
+      "start": 24.38,
+      "end": 26.62,
+      "text": "get the ball puppy",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

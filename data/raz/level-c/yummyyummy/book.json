@@ -1,0 +1,77 @@
+{
+  "id": "level-c/yummyyummy",
+  "title": "Yummyyummy",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": 10.82,
+      "end": 15.84,
+      "text": "i like popcorn yami yami",
+      "page": 3
+    },
+    {
+      "start": 16.94,
+      "end": 20.46,
+      "text": "i like pizza yami yami",
+      "page": 4
+    },
+    {
+      "start": 22.52,
+      "end": 27.6,
+      "text": "i like bread and jam yami yami",
+      "page": 5
+    },
+    {
+      "start": 28.88,
+      "end": 34.74,
+      "text": "i like apples and bananas yummy yummy",
+      "page": 6
+    },
+    {
+      "start": 37.02,
+      "end": 42.1,
+      "text": "i like corn on the cob yummy yummy",
+      "page": 7
+    },
+    {
+      "start": 43.84,
+      "end": 48.34,
+      "text": "i like carrots and peas yummy yummy",
+      "page": 8
+    },
+    {
+      "start": 50.38,
+      "end": 54.88,
+      "text": "i like cookies and milk yummy yummy",
+      "page": 9
+    },
+    {
+      "start": 56.12,
+      "end": 61.64,
+      "text": "i don't like lima beans yucky yucky",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

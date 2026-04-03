@@ -1,0 +1,83 @@
+{
+  "id": "level-a/go-fly-a-kite",
+  "title": "Go Fly A Kite",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 3.06,
+      "text": "go fly a kite",
+      "page": 1
+    },
+    {
+      "start": 3.58,
+      "end": 16.86,
+      "text": "written by elizabeth jane pastelnick focus question what are some different kinds of kites",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 16.72,
+      "end": 19.94,
+      "text": "fly a fish kite",
+      "page": 4
+    },
+    {
+      "start": 19.66,
+      "end": 23.1,
+      "text": "fly a plain kite",
+      "page": 5
+    },
+    {
+      "start": 22.68,
+      "end": 26.18,
+      "text": "fly a shark kite",
+      "page": 6
+    },
+    {
+      "start": 26.18,
+      "end": 29.58,
+      "text": "fly a bird kite",
+      "page": 7
+    },
+    {
+      "start": 28.48,
+      "end": 33.58,
+      "text": "fly a boat kite",
+      "page": 8
+    },
+    {
+      "start": 33.44,
+      "end": 37.1,
+      "text": "fly a butterfly kite",
+      "page": 9
+    },
+    {
+      "start": 37.2,
+      "end": 41.1,
+      "text": "fly a dragon kite",
+      "page": 10
+    },
+    {
+      "start": 41.2,
+      "end": 45.28,
+      "text": "fly a rainbow kite",
+      "page": 11
+    },
+    {
+      "start": 45.18,
+      "end": 77.44,
+      "text": "connections writing and art draw a picture of your own special kite right and finish this sentence fly a kite science how do you think kite fly in the air share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

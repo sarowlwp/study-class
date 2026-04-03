@@ -1,0 +1,77 @@
+{
+  "id": "level-b/the-hungry-goat",
+  "title": "The Hungry Goat",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 7.94,
+      "text": "the hungry goat written by torren anderson illustrated by linda sylvestery",
+      "page": 2
+    },
+    {
+      "start": 7.8,
+      "end": 11.3,
+      "text": "my goat ate the pretty flowers",
+      "page": 3
+    },
+    {
+      "start": 11.44,
+      "end": 15.06,
+      "text": "my goat ate the stinky trash",
+      "page": 4
+    },
+    {
+      "start": 15.06,
+      "end": 18.74,
+      "text": "my goat ate the clean clothes",
+      "page": 5
+    },
+    {
+      "start": 18.86,
+      "end": 22.46,
+      "text": "my goat ate the old shoes",
+      "page": 6
+    },
+    {
+      "start": 22.52,
+      "end": 26.02,
+      "text": "my goat ate the new ball",
+      "page": 7
+    },
+    {
+      "start": 26.04,
+      "end": 29.8,
+      "text": "my goat ate the math problems",
+      "page": 8
+    },
+    {
+      "start": 29.78,
+      "end": 33.76,
+      "text": "my goat ate the big book",
+      "page": 9
+    },
+    {
+      "start": 33.7,
+      "end": 37.46,
+      "text": "my goat will not eat its lunch",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

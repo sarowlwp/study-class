@@ -1,0 +1,77 @@
+{
+  "id": "level-a/the-forest",
+  "title": "The Forest",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 4.66,
+      "text": "the forest written and illustrated by noravutus",
+      "page": 2
+    },
+    {
+      "start": 4.94,
+      "end": 6.66,
+      "text": "this is a tree",
+      "page": 3
+    },
+    {
+      "start": 6.8,
+      "end": 8.68,
+      "text": "this is a squirrel",
+      "page": 4
+    },
+    {
+      "start": 9.02,
+      "end": 10.86,
+      "text": "this is a rabbit",
+      "page": 5
+    },
+    {
+      "start": 11.14,
+      "end": 12.64,
+      "text": "this is a deer",
+      "page": 6
+    },
+    {
+      "start": 12.86,
+      "end": 14.52,
+      "text": "this is a fox",
+      "page": 7
+    },
+    {
+      "start": 14.74,
+      "end": 16.22,
+      "text": "this is a mushroom",
+      "page": 8
+    },
+    {
+      "start": 16.68,
+      "end": 18.28,
+      "text": "this is a stream",
+      "page": 9
+    },
+    {
+      "start": 18.44,
+      "end": 20.24,
+      "text": "this is a forest",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

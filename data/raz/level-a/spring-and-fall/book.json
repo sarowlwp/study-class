@@ -1,0 +1,83 @@
+{
+  "id": "level-a/spring-and-fall",
+  "title": "Spring And Fall",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 6.56,
+      "text": "spring and fall written by gabriel harper",
+      "page": 2
+    },
+    {
+      "start": 7.52,
+      "end": 17.22,
+      "text": "focus question how are spring and fall the same and different",
+      "page": 3
+    },
+    {
+      "start": 17.7,
+      "end": 20.62,
+      "text": "see leaves in spring",
+      "page": 4
+    },
+    {
+      "start": 21.2,
+      "end": 24.2,
+      "text": "see leaves in fall",
+      "page": 5
+    },
+    {
+      "start": 24.6,
+      "end": 27.24,
+      "text": "see birds in spring",
+      "page": 6
+    },
+    {
+      "start": 27.84,
+      "end": 30.72,
+      "text": "see birds in fall",
+      "page": 7
+    },
+    {
+      "start": 30.78,
+      "end": 33.84,
+      "text": "see corn in spring",
+      "page": 8
+    },
+    {
+      "start": 34.3,
+      "end": 37.32,
+      "text": "see corn in fall",
+      "page": 9
+    },
+    {
+      "start": 37.3,
+      "end": 40.86,
+      "text": "see me in spring",
+      "page": 10
+    },
+    {
+      "start": 41.04,
+      "end": 44.34,
+      "text": "see me in spring ball",
+      "page": 11
+    },
+    {
+      "start": 44.32,
+      "end": 85.58,
+      "text": "connections writing and art what else can you see in spring and all draw two pictures and finish these sentences see in spring see in fall science what are the other two seasons of the year share what you know about them with a partner",
+      "page": 12
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "level-b/what-gives-cover",
+  "title": "What Gives Cover",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 18.1,
+      "text": "what gives cover written by harriet rosenblum illustrated by kiyada pascolado focus question what is cover",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 19.12,
+      "end": 22.6,
+      "text": "uh tent gives cover",
+      "page": 4
+    },
+    {
+      "start": 23.44,
+      "end": 27.18,
+      "text": "uh tree gives cover",
+      "page": 5
+    },
+    {
+      "start": 28.22,
+      "end": 31.98,
+      "text": "uh cave give's cover",
+      "page": 6
+    },
+    {
+      "start": 32.34,
+      "end": 36.32,
+      "text": "ah long give's cover",
+      "page": 7
+    },
+    {
+      "start": 36.9,
+      "end": 41.18,
+      "text": "and umbrella give's cover",
+      "page": 8
+    },
+    {
+      "start": 42.08,
+      "end": 46.12,
+      "text": "ah mushroom give's cover",
+      "page": 9
+    },
+    {
+      "start": 46.44,
+      "end": 50.28,
+      "text": "ah house give's cover",
+      "page": 10
+    },
+    {
+      "start": 50.28,
+      "end": 54.66,
+      "text": "even a leaf give's cover",
+      "page": 11
+    },
+    {
+      "start": 54.52,
+      "end": 79.48,
+      "text": "connections writing and art what else gives cover draw a picture and label it science why do people and other animals need cover share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

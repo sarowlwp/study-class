@@ -1,0 +1,82 @@
+{
+  "id": "level-c/shadows",
+  "title": "Shadows",
+  "level": "c",
+  "pdf": "book.pdf",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 1.94,
+      "end": 13.66,
+      "text": "shadows written by katie moore focus question what is a shadow",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 13.86,
+      "end": 27.16,
+      "text": "a dark shape forms when light is blocked this shape is called a shadow",
+      "page": 4
+    },
+    {
+      "start": 27.3,
+      "end": 33.26,
+      "text": "this shadow is a round shape",
+      "page": 5
+    },
+    {
+      "start": 33.32,
+      "end": 39.46,
+      "text": "this shadow is a square shape",
+      "page": 6
+    },
+    {
+      "start": 39.68,
+      "end": 45.3,
+      "text": "this shadow is a long shape",
+      "page": 7
+    },
+    {
+      "start": 45.44,
+      "end": 51.12,
+      "text": "this shadow is a short shape",
+      "page": 8
+    },
+    {
+      "start": 51.06,
+      "end": 57.28,
+      "text": "this shadow is a big shape",
+      "page": 9
+    },
+    {
+      "start": 57.58,
+      "end": 63.38,
+      "text": "this shadow is a little shape",
+      "page": 10
+    },
+    {
+      "start": 63.28,
+      "end": 74.94,
+      "text": "shadows can be any shape this shadow is my shape",
+      "page": 11
+    },
+    {
+      "start": 74.84,
+      "end": 103.2,
+      "text": "connections writing make a list of five shadows and share them with your class sort the shadows into groups science where does the light that makes shadows come from share your ideas with your class",
+      "page": 12
+    }
+  ]
+}

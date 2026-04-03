@@ -1,0 +1,83 @@
+{
+  "id": "level-c/take-a-bite",
+  "title": "Take A Bite",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 13.7,
+      "text": "take a bite written by harriet rosenblum illustrated by chad libby focus question what lesson does mani learn in this story",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 13.58,
+      "end": 16.92,
+      "text": "mani hated all the food on his plate",
+      "page": 4
+    },
+    {
+      "start": 16.84,
+      "end": 20.02,
+      "text": "take a bite his parents said",
+      "page": 5
+    },
+    {
+      "start": 19.82,
+      "end": 23.04,
+      "text": "mani took one bite of chicken",
+      "page": 6
+    },
+    {
+      "start": 23.02,
+      "end": 26.22,
+      "text": "take a bite his parents said",
+      "page": 7
+    },
+    {
+      "start": 25.72,
+      "end": 29.34,
+      "text": "mani took one bite of peas",
+      "page": 8
+    },
+    {
+      "start": 29.18,
+      "end": 32.3,
+      "text": "take a bite his parents said",
+      "page": 9
+    },
+    {
+      "start": 32.3,
+      "end": 34.86,
+      "text": "mani took one bite of salad",
+      "page": 10
+    },
+    {
+      "start": 34.78,
+      "end": 40.38,
+      "text": "the family had cake for dessert mani got one bite",
+      "page": 11
+    },
+    {
+      "start": 40.32,
+      "end": 59.74,
+      "text": "connections writing and art what is your least favorite food draw a picture and tell why you dislike it social studies is having dessert a want or a need share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "level-b/the-big-game",
+  "title": "The Big Game",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 9.5,
+      "text": "the big game written by torin anderson illustrated by linda sylvestery",
+      "page": 2
+    },
+    {
+      "start": 9.6,
+      "end": 12.46,
+      "text": "we clean on game day",
+      "page": 3
+    },
+    {
+      "start": 12.56,
+      "end": 16.12,
+      "text": "we dress up on game day",
+      "page": 4
+    },
+    {
+      "start": 16.12,
+      "end": 19.88,
+      "text": "we see friends on game day",
+      "page": 5
+    },
+    {
+      "start": 19.8,
+      "end": 24.02,
+      "text": "we paint faces on game day",
+      "page": 6
+    },
+    {
+      "start": 24.04,
+      "end": 28.08,
+      "text": "we eat snacks on game day",
+      "page": 7
+    },
+    {
+      "start": 27.92,
+      "end": 32.26,
+      "text": "we watch football on game day",
+      "page": 8
+    },
+    {
+      "start": 32.36,
+      "end": 35.3,
+      "text": "we cheer on game day",
+      "page": 9
+    },
+    {
+      "start": 35.14,
+      "end": 38.92,
+      "text": "we play football on game day",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

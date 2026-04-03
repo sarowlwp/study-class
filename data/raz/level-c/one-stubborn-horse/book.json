@@ -1,0 +1,83 @@
+{
+  "id": "level-c/one-stubborn-horse",
+  "title": "One Stubborn Horse",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 12.28,
+      "text": "one stubborn horse written by harriet rosenblum illustrated by colin jack",
+      "page": 1
+    },
+    {
+      "start": 13.28,
+      "end": 20.88,
+      "text": "focus question how do you know the horse is stubborn",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 20.38,
+      "end": 27.7,
+      "text": "i pushed the horse she would not move",
+      "page": 4
+    },
+    {
+      "start": 28.22,
+      "end": 34.84,
+      "text": "i pulled the horse she would not move",
+      "page": 5
+    },
+    {
+      "start": 35.2,
+      "end": 42.3,
+      "text": "i fed the horse she would not move",
+      "page": 6
+    },
+    {
+      "start": 42.56,
+      "end": 49.46,
+      "text": "i tickled the horse she would not move",
+      "page": 7
+    },
+    {
+      "start": 49.78,
+      "end": 57.18,
+      "text": "i washed the horse she would not move",
+      "page": 8
+    },
+    {
+      "start": 57.5,
+      "end": 64.2,
+      "text": "i brushed the horse she would not move",
+      "page": 9
+    },
+    {
+      "start": 64.62,
+      "end": 72.12,
+      "text": "i begged the horse she would not move",
+      "page": 10
+    },
+    {
+      "start": 72.5,
+      "end": 79.6,
+      "text": "i give up she is one stubborn horse",
+      "page": 11
+    },
+    {
+      "start": 79.1,
+      "end": 105.5,
+      "text": "connections writing and art change the ending of this book draw a picture and write about it science draw a diagram of a horse label five body parts",
+      "page": 12
+    }
+  ]
+}

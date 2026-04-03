@@ -19,6 +19,19 @@ prepare_test_files.py
 scripts/*.py
 scripts/*.sh
 
+# Temporary batch processing scripts
+batch_process_*.py
+process_level_*.py
+check_*.py
+generate_*.py
+monitor_task.py
+reprocess_*.py
+update_all_level_scripts.py
+null_pages_report.json
+
+# Temporary data files
+data/raz/check_*.py
+
 # Python
 __pycache__/
 *.py[cod]
@@ -69,3 +82,6 @@ github.pub
 *.key
 .ssh/
 .gstack/
+
+# Local configuration
+.claude/

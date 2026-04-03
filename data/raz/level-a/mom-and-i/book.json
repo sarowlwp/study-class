@@ -1,0 +1,77 @@
+{
+  "id": "level-a/mom-and-i",
+  "title": "Mom And I",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 6.78,
+      "text": "mom and i written by ava g k lish",
+      "page": 2
+    },
+    {
+      "start": 6.88,
+      "end": 11.4,
+      "text": "mom and i are lions",
+      "page": 3
+    },
+    {
+      "start": 11.86,
+      "end": 16.48,
+      "text": "mom and i are elephants",
+      "page": 4
+    },
+    {
+      "start": 16.62,
+      "end": 21.8,
+      "text": "mom and i are are giraffes",
+      "page": 5
+    },
+    {
+      "start": 21.64,
+      "end": 25.6,
+      "text": "mom and i are zebras",
+      "page": 6
+    },
+    {
+      "start": 25.82,
+      "end": 29.88,
+      "text": "mom and i are bears",
+      "page": 7
+    },
+    {
+      "start": 30.36,
+      "end": 35.42,
+      "text": "mom and i are apes",
+      "page": 8
+    },
+    {
+      "start": 35.48,
+      "end": 40.18,
+      "text": "mom and i are kangaroos",
+      "page": 9
+    },
+    {
+      "start": 40.28,
+      "end": 44.48,
+      "text": "mom and i are dolphins",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

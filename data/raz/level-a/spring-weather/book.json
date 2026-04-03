@@ -1,0 +1,77 @@
+{
+  "id": "level-a/spring-weather",
+  "title": "Spring Weather",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 4.44,
+      "text": "spring weather written by katie knight",
+      "page": 2
+    },
+    {
+      "start": 4.38,
+      "end": 7.02,
+      "text": "the fog comes",
+      "page": 3
+    },
+    {
+      "start": 7.26,
+      "end": 9.78,
+      "text": "the clouds come",
+      "page": 4
+    },
+    {
+      "start": 9.72,
+      "end": 12.6,
+      "text": "the storm comes",
+      "page": 5
+    },
+    {
+      "start": 12.74,
+      "end": 15.54,
+      "text": "the rain comes",
+      "page": 6
+    },
+    {
+      "start": 15.68,
+      "end": 18.52,
+      "text": "the wind comes",
+      "page": 7
+    },
+    {
+      "start": 18.46,
+      "end": 21.38,
+      "text": "the sun comes",
+      "page": 8
+    },
+    {
+      "start": 21.28,
+      "end": 24.08,
+      "text": "the flowers come",
+      "page": 9
+    },
+    {
+      "start": 23.98,
+      "end": 26.86,
+      "text": "the spring comes",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

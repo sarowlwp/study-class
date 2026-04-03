@@ -1,0 +1,77 @@
+{
+  "id": "level-c/new-again",
+  "title": "New Again",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 5.8,
+      "text": "new again written by keith and sarah cordemarten",
+      "page": 2
+    },
+    {
+      "start": 5.8,
+      "end": 10.88,
+      "text": "we can make old things into new things",
+      "page": 3
+    },
+    {
+      "start": 11.0,
+      "end": 15.44,
+      "text": "we can make a sock into a puppet",
+      "page": 4
+    },
+    {
+      "start": 15.62,
+      "end": 20.52,
+      "text": "we can make a bucket into a drum",
+      "page": 5
+    },
+    {
+      "start": 20.6,
+      "end": 25.62,
+      "text": "we can make two cans into a phone",
+      "page": 6
+    },
+    {
+      "start": 25.82,
+      "end": 30.14,
+      "text": "we can make paper into an airplane",
+      "page": 7
+    },
+    {
+      "start": 30.46,
+      "end": 35.16,
+      "text": "we can make a bottle into a sprinkler",
+      "page": 8
+    },
+    {
+      "start": 35.26,
+      "end": 39.92,
+      "text": "we can make a box into a fort",
+      "page": 9
+    },
+    {
+      "start": 39.94,
+      "end": 43.34,
+      "text": "what can you make with old things",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

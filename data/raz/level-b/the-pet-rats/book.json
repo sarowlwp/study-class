@@ -1,0 +1,83 @@
+{
+  "id": "level-b/the-pet-rats",
+  "title": "The Pet Rats",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 15.96,
+      "text": "the pet rats written by rachel rice illustrated by gabor utomo focus question what can pet rats do",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 16.6,
+      "end": 19.3,
+      "text": "the pet rats eat",
+      "page": 4
+    },
+    {
+      "start": 19.82,
+      "end": 23.2,
+      "text": "the pet rats drink",
+      "page": 5
+    },
+    {
+      "start": 22.7,
+      "end": 26.72,
+      "text": "the pet rats chew",
+      "page": 6
+    },
+    {
+      "start": 26.22,
+      "end": 30.38,
+      "text": "the pet rats climb",
+      "page": 7
+    },
+    {
+      "start": 29.88,
+      "end": 33.76,
+      "text": "the pet rats hide",
+      "page": 8
+    },
+    {
+      "start": 33.26,
+      "end": 37.3,
+      "text": "the pet rats run",
+      "page": 9
+    },
+    {
+      "start": 36.8,
+      "end": 40.8,
+      "text": "the pet rats sleep",
+      "page": 10
+    },
+    {
+      "start": 40.3,
+      "end": 44.88,
+      "text": "rats are fun class pets",
+      "page": 11
+    },
+    {
+      "start": 44.38,
+      "end": 67.52,
+      "text": "connections writing and art what animal would you like for a class pet draw a picture and write about it science what do you need to take care of a pet rat share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

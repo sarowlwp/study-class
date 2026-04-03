@@ -1,0 +1,83 @@
+{
+  "id": "level-b/clean-is-not-for-me",
+  "title": "Clean Is Not For Me",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 14.58,
+      "text": "clean is not for me written by anthony kern illustrated by marcus cutler focus question what are some ways to get messy",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 14.6,
+      "end": 17.82,
+      "text": "mud is for my shoes",
+      "page": 4
+    },
+    {
+      "start": 17.94,
+      "end": 21.44,
+      "text": "catch up is for my shirt",
+      "page": 5
+    },
+    {
+      "start": 21.5,
+      "end": 25.28,
+      "text": "oil is for my fingers",
+      "page": 6
+    },
+    {
+      "start": 25.62,
+      "end": 29.3,
+      "text": "grass is for my pants",
+      "page": 7
+    },
+    {
+      "start": 28.8,
+      "end": 32.82,
+      "text": "paint is for my hat",
+      "page": 8
+    },
+    {
+      "start": 32.32,
+      "end": 36.78,
+      "text": "dirt is for my socks",
+      "page": 9
+    },
+    {
+      "start": 37.22,
+      "end": 40.56,
+      "text": "hey is for my hair",
+      "page": 10
+    },
+    {
+      "start": 40.06,
+      "end": 44.46,
+      "text": "clean is not for me",
+      "page": 11
+    },
+    {
+      "start": 44.32,
+      "end": 72.24,
+      "text": "connections writing and art draw a picture and write a sentence about your favorite way to get messy science tell a partner which season this story likely takes place in and give examples from the book to support your answer",
+      "page": 12
+    }
+  ]
+}

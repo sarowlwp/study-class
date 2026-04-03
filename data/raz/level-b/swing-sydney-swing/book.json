@@ -1,0 +1,83 @@
+{
+  "id": "level-b/swing-sydney-swing",
+  "title": "Swing Sydney Swing",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": 0.0,
+      "end": 3.16,
+      "text": "swing sydney swing",
+      "page": 1
+    },
+    {
+      "start": 3.56,
+      "end": 16.74,
+      "text": "written by rachel rice illustrated by brian dumm focus question where does sydney swing",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 16.84,
+      "end": 20.22,
+      "text": "sydney loves to swing",
+      "page": 4
+    },
+    {
+      "start": 20.18,
+      "end": 25.12,
+      "text": "sydney swings above the grass",
+      "page": 5
+    },
+    {
+      "start": 24.62,
+      "end": 30.3,
+      "text": "sydney swings below the tree",
+      "page": 6
+    },
+    {
+      "start": 30.34,
+      "end": 35.24,
+      "text": "sydney swings over the mud",
+      "page": 7
+    },
+    {
+      "start": 35.78,
+      "end": 39.62,
+      "text": "sydney swings under the nest",
+      "page": 8
+    },
+    {
+      "start": 39.74,
+      "end": 44.44,
+      "text": "sydney swings beside the goat",
+      "page": 9
+    },
+    {
+      "start": 44.62,
+      "end": 49.26,
+      "text": "sydney swings between the chickens",
+      "page": 10
+    },
+    {
+      "start": 48.76,
+      "end": 53.92,
+      "text": "sydney swings at the farm",
+      "page": 11
+    },
+    {
+      "start": 53.42,
+      "end": 89.26,
+      "text": "connections writing and art what other things could sydney see on a farm draw a picture and write about it social studies how is a farm the same as where you live how is it different share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

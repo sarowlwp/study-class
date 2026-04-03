@@ -1,0 +1,77 @@
+{
+  "id": "level-a/i-set-the-table",
+  "title": "I Set The Table",
+  "level": "a",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 4.3,
+      "text": "i set the table written by beverly osborne",
+      "page": 2
+    },
+    {
+      "start": 4.38,
+      "end": 6.82,
+      "text": "i put the cloth here",
+      "page": 3
+    },
+    {
+      "start": 6.66,
+      "end": 9.02,
+      "text": "i put the plate here",
+      "page": 4
+    },
+    {
+      "start": 9.12,
+      "end": 11.9,
+      "text": "i put the napkin here",
+      "page": 5
+    },
+    {
+      "start": 11.6,
+      "end": 14.04,
+      "text": "i put the fork here",
+      "page": 6
+    },
+    {
+      "start": 13.72,
+      "end": 16.38,
+      "text": "i put the knife here",
+      "page": 7
+    },
+    {
+      "start": 16.02,
+      "end": 18.62,
+      "text": "i put the spoon here",
+      "page": 8
+    },
+    {
+      "start": 18.3,
+      "end": 21.08,
+      "text": "i put the glass here",
+      "page": 9
+    },
+    {
+      "start": 20.76,
+      "end": 23.32,
+      "text": "i put the flowers here",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

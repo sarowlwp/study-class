@@ -1,0 +1,83 @@
+{
+  "id": "level-c/building-a-road",
+  "title": "Building A Road",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 12.9,
+      "text": "building a road written by d g chelsea focus question what are the steps for building a road",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 12.8,
+      "end": 15.3,
+      "text": "how is a road built",
+      "page": 4
+    },
+    {
+      "start": 15.3,
+      "end": 18.5,
+      "text": "first the plan is made",
+      "page": 5
+    },
+    {
+      "start": 18.74,
+      "end": 21.58,
+      "text": "next the dirt is moved",
+      "page": 6
+    },
+    {
+      "start": 21.68,
+      "end": 25.18,
+      "text": "then the gravel is spread",
+      "page": 7
+    },
+    {
+      "start": 24.68,
+      "end": 28.74,
+      "text": "next the road is paved",
+      "page": 8
+    },
+    {
+      "start": 29.04,
+      "end": 32.54,
+      "text": "then the road is flattened",
+      "page": 9
+    },
+    {
+      "start": 32.46,
+      "end": 35.82,
+      "text": "last the road is painted",
+      "page": 10
+    },
+    {
+      "start": 36.1,
+      "end": 43.02,
+      "text": "now it is time for a ride where do you want to go",
+      "page": 11
+    },
+    {
+      "start": 42.96,
+      "end": 69.1,
+      "text": "connections writing and art where is your favorite place to drive to draw a picture and write about it social studies why is it important to follow the steps in order when building a road share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

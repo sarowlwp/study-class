@@ -1,0 +1,77 @@
+{
+  "id": "level-b/pond-life",
+  "title": "Pond Life",
+  "level": "b",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 4.1,
+      "text": "pond life written by susan hartley",
+      "page": 2
+    },
+    {
+      "start": 4.1,
+      "end": 7.4,
+      "text": "there are plants in the pond",
+      "page": 3
+    },
+    {
+      "start": 7.6,
+      "end": 10.62,
+      "text": "there are fish in the pond",
+      "page": 4
+    },
+    {
+      "start": 10.7,
+      "end": 14.24,
+      "text": "there are snails in the pond",
+      "page": 5
+    },
+    {
+      "start": 14.44,
+      "end": 17.78,
+      "text": "there are bugs in the pond",
+      "page": 6
+    },
+    {
+      "start": 17.86,
+      "end": 21.38,
+      "text": "there are ducks in the pond",
+      "page": 7
+    },
+    {
+      "start": 21.36,
+      "end": 24.88,
+      "text": "there are turtles in the pond",
+      "page": 8
+    },
+    {
+      "start": 25.08,
+      "end": 28.64,
+      "text": "there are beavers in the pond",
+      "page": 9
+    },
+    {
+      "start": 28.14,
+      "end": 31.9,
+      "text": "there are boys in the pond",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "level-aa/the-school",
+  "title": "The School",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 11,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 0.0,
+      "end": 4.8,
+      "text": "the school written by katie knight",
+      "page": 2
+    },
+    {
+      "start": 6.72,
+      "end": 8.08,
+      "text": "the classroom",
+      "page": 3
+    },
+    {
+      "start": 10.3,
+      "end": 12.36,
+      "text": "the music room",
+      "page": 4
+    },
+    {
+      "start": 14.66,
+      "end": 16.6,
+      "text": "the art room",
+      "page": 5
+    },
+    {
+      "start": 18.68,
+      "end": 20.74,
+      "text": "the lunch room",
+      "page": 6
+    },
+    {
+      "start": 22.82,
+      "end": 24.22,
+      "text": "the library",
+      "page": 7
+    },
+    {
+      "start": 26.28,
+      "end": 27.92,
+      "text": "the gym",
+      "page": 8
+    },
+    {
+      "start": 29.78,
+      "end": 31.86,
+      "text": "the playground",
+      "page": 9
+    },
+    {
+      "start": 33.94,
+      "end": 35.24,
+      "text": "the school",
+      "page": 10
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 11
+    }
+  ]
+}

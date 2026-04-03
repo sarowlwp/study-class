@@ -1,0 +1,83 @@
+{
+  "id": "level-aa/my-garden",
+  "title": "My Garden",
+  "level": "aa",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": 9.76,
+      "end": 17.38,
+      "text": "focus question what do you see in a garden my",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 15.92,
+      "end": 17.22,
+      "text": "my shovel",
+      "page": 4
+    },
+    {
+      "start": 17.34,
+      "end": 18.98,
+      "text": "my dirt",
+      "page": 5
+    },
+    {
+      "start": 19.08,
+      "end": 20.86,
+      "text": "my hoe",
+      "page": 6
+    },
+    {
+      "start": 20.86,
+      "end": 22.96,
+      "text": "my rose",
+      "page": 7
+    },
+    {
+      "start": 23.18,
+      "end": 25.14,
+      "text": "my seeds",
+      "page": 8
+    },
+    {
+      "start": 25.42,
+      "end": 27.56,
+      "text": "my hose",
+      "page": 9
+    },
+    {
+      "start": 27.7,
+      "end": 29.58,
+      "text": "my plants",
+      "page": 10
+    },
+    {
+      "start": 29.02,
+      "end": 31.62,
+      "text": "my garden",
+      "page": 11
+    },
+    {
+      "start": 31.12,
+      "end": 56.08,
+      "text": "connections writing and art what is one thing you can grow in a garden draw a picture and label it science what do plants need to grow share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "level-c/selfish-sasha",
+  "title": "Selfish Sasha",
+  "level": "c",
+  "pdf": "book.pdf",
+  "cover": "cover.jpg",
+  "audio": "audio.mp3",
+  "page_count": 12,
+  "sentences": [
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 1
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 2
+    },
+    {
+      "start": null,
+      "end": null,
+      "text": "",
+      "page": 3
+    },
+    {
+      "start": 22.4,
+      "end": 34.44,
+      "text": "sasha is selfish she does not like to share almost anything",
+      "page": 4
+    },
+    {
+      "start": 34.7,
+      "end": 39.9,
+      "text": "sasha does not share her pencils",
+      "page": 5
+    },
+    {
+      "start": 40.48,
+      "end": 45.06,
+      "text": "sasha does not share her toys",
+      "page": 6
+    },
+    {
+      "start": 45.74,
+      "end": 50.9,
+      "text": "sasha does not share her eraser",
+      "page": 7
+    },
+    {
+      "start": 51.52,
+      "end": 56.86,
+      "text": "sasha does not share her cookies",
+      "page": 8
+    },
+    {
+      "start": 57.1,
+      "end": 61.7,
+      "text": "sasha does not share her help",
+      "page": 9
+    },
+    {
+      "start": 62.34,
+      "end": 67.0,
+      "text": "sasha does not share her time",
+      "page": 10
+    },
+    {
+      "start": 67.8,
+      "end": 76.94,
+      "text": "sasha would like to share seth's umbrella no such luck",
+      "page": 11
+    },
+    {
+      "start": 77.08,
+      "end": 104.78,
+      "text": "connections writing and art what do you like to share with your friends draw a picture and write about it social studies why is it important to share share your ideas with a partner",
+      "page": 12
+    }
+  ]
+}
