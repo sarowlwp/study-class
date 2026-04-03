@@ -1,0 +1,146 @@
+{
+  "version": "1.0",
+  "total_words": 28,
+  "timings": [
+    {
+      "word": "8",
+      "start": 0.0,
+      "end": 0.86
+    },
+    {
+      "word": "written",
+      "start": 1.72,
+      "end": 2.04
+    },
+    {
+      "word": "by",
+      "start": 2.04,
+      "end": 2.62
+    },
+    {
+      "word": "mary",
+      "start": 2.62,
+      "end": 3.08
+    },
+    {
+      "word": "ann",
+      "start": 3.08,
+      "end": 3.96
+    },
+    {
+      "word": "morazzi",
+      "start": 3.96,
+      "end": 4.56
+    },
+    {
+      "word": "illustrated",
+      "start": 4.56,
+      "end": 6.08
+    },
+    {
+      "word": "by",
+      "start": 6.08,
+      "end": 6.62
+    },
+    {
+      "word": "mary",
+      "start": 6.62,
+      "end": 7.16
+    },
+    {
+      "word": "yules",
+      "start": 7.16,
+      "end": 7.96
+    },
+    {
+      "word": "8",
+      "start": 7.96,
+      "end": 9.0
+    },
+    {
+      "word": "backpacks",
+      "start": 9.74,
+      "end": 10.72
+    },
+    {
+      "word": "8",
+      "start": 10.72,
+      "end": 12.06
+    },
+    {
+      "word": "bottles",
+      "start": 12.56,
+      "end": 13.16
+    },
+    {
+      "word": "8",
+      "start": 13.16,
+      "end": 14.44
+    },
+    {
+      "word": "rain",
+      "start": 14.8,
+      "end": 15.12
+    },
+    {
+      "word": "coats",
+      "start": 15.12,
+      "end": 15.8
+    },
+    {
+      "word": "8",
+      "start": 15.8,
+      "end": 16.66
+    },
+    {
+      "word": "jazz",
+      "start": 17.32,
+      "end": 17.68
+    },
+    {
+      "word": "8",
+      "start": 17.68,
+      "end": 18.78
+    },
+    {
+      "word": "lights",
+      "start": 19.42,
+      "end": 19.78
+    },
+    {
+      "word": "8",
+      "start": 19.78,
+      "end": 20.82
+    },
+    {
+      "word": "sticks",
+      "start": 21.58,
+      "end": 22.1
+    },
+    {
+      "word": "8",
+      "start": 22.1,
+      "end": 23.22
+    },
+    {
+      "word": "hot",
+      "start": 23.72,
+      "end": 23.9
+    },
+    {
+      "word": "dogs",
+      "start": 23.9,
+      "end": 24.52
+    },
+    {
+      "word": "8",
+      "start": 24.52,
+      "end": 25.52
+    },
+    {
+      "word": "friends",
+      "start": 26.04,
+      "end": 26.28
+    }
+  ]
+}

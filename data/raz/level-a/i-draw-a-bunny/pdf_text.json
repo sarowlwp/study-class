@@ -1,0 +1,54 @@
+{
+  "id": "level-a/i-draw-a-bunny",
+  "title": "I Draw A Bunny",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A I Draw q Written by Bev Osborn wwwreadinga-z.com Bunny"
+    },
+    {
+      "page": 2,
+      "text": "I Draw a Bunny Written Bev Osborn wwwreadinga-z.com by"
+    },
+    {
+      "page": 3,
+      "text": "I draw the ears; Draw a Bunny 0 Level A 3"
+    },
+    {
+      "page": 4,
+      "text": "I draw the nose:"
+    },
+    {
+      "page": 5,
+      "text": "M I draw the eyes. Draw a Bunny 0 Level A 5 { 1"
+    },
+    {
+      "page": 6,
+      "text": "I draw the body:"
+    },
+    {
+      "page": 7,
+      "text": "I draw the teeth: Draw a Bunny 0 Level A"
+    },
+    {
+      "page": 8,
+      "text": "I draw the feet. 8"
+    },
+    {
+      "page": 9,
+      "text": "I draw the tail: Draw a Bunny 0 Level A"
+    },
+    {
+      "page": 10,
+      "text": "I draw a bunnyl 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: All photos by @ Learning A-ZIGawain Douglas I Draw a Bunny Level A Leveled Book Correlation 0 Learning A-Z LEVEL A Written by Bev Osborn Fountas & Pinnell A AIl rights reserved: Reading_Recovery 1 DRA A-1 wwwreadinga-z.com"
+    }
+  ]
+}

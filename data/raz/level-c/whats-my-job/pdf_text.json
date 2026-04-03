@@ -1,0 +1,54 @@
+{
+  "id": "level-c/whats-my-job",
+  "title": "Whats My Job",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C What' s ( Job? The Big of Writien by Maribeth Boelts Illusirated by Burt Dodson wwwreadinga-z.com My Book Jobs"
+    },
+    {
+      "page": 2,
+      "text": "What' s Job? Written Maribeth Boelts Illustrated by Burt Dodson wwwreadinga-z.com My by"
+    },
+    {
+      "page": 3,
+      "text": "Women I know do many What's My Job? Level C 3 jobs."
+    },
+    {
+      "page": 4,
+      "text": "A woman I know makes art."
+    },
+    {
+      "page": 5,
+      "text": "A woman I know is a boss. What's My Job? Level C 5"
+    },
+    {
+      "page": 6,
+      "text": "A woman I know drives a truck:"
+    },
+    {
+      "page": 7,
+      "text": "L> A woman I know is a teacher: What's My Job? Level C"
+    },
+    {
+      "page": 8,
+      "text": "Zebras A woman I know works in a ZOO. 8"
+    },
+    {
+      "page": 9,
+      "text": "the 8i9\" 6< I will do a one What's My Job? Level C Book Jobs job day:"
+    },
+    {
+      "page": 10,
+      "text": "$ Now my   job is to playl 10 Wcc"
+    },
+    {
+      "page": 11,
+      "text": "What's My Job? Level C Leveled Book 0 Learning A-Z Correlation Written by Maribeth Boelts LEVEL C Illustrated by Burt Dodson Fountas & Pinnell C All rights reserved: Reading Recovery 3-4 DRA 3-4 wwwreadinga-zcom"
+    }
+  ]
+}

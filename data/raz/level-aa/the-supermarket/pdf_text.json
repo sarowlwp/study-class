@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/the-supermarket",
+  "title": "The Supermarket",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , aa The Supermarket Written by Katalina Page Illustrated by Nora Voutas www.readinga-z.com SALEI"
+    },
+    {
+      "page": 2,
+      "text": "The Supermarket Written Katalina Illustrated by Nora Voutas wwwreadinga-z.com Page by"
+    },
+    {
+      "page": 3,
+      "text": "The carts. The Supermarket Level aa 3"
+    },
+    {
+      "page": 4,
+      "text": "The fruits."
+    },
+    {
+      "page": 5,
+      "text": "The vegetables The Supermarket Level aa 5"
+    },
+    {
+      "page": 6,
+      "text": "BREAD The bread:"
+    },
+    {
+      "page": 7,
+      "text": "The cereal: The Supermarket Level aa @oi (ow Wbw_"
+    },
+    {
+      "page": 8,
+      "text": "MEEAFF Q The meat. 8 BA C O N"
+    },
+    {
+      "page": 9,
+      "text": "EGGS AAAAL 3 The eggs. The Supermarket Level aa"
+    },
+    {
+      "page": 10,
+      "text": "CHECKouz The checkout. 10"
+    },
+    {
+      "page": 11,
+      "text": "The Supermarket Level aa Leveled Book Learning A-Z Correlation Written by Katalina Page LEVEL aa Illustrated by Nora Voutas Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-zcom"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "version": "1.0",
+  "total_words": 24,
+  "timings": [
+    {
+      "word": "counting",
+      "start": 0.0,
+      "end": 0.78
+    },
+    {
+      "word": "bugs",
+      "start": 0.78,
+      "end": 1.34
+    },
+    {
+      "word": "written",
+      "start": 2.1,
+      "end": 2.32
+    },
+    {
+      "word": "by",
+      "start": 2.32,
+      "end": 2.78
+    },
+    {
+      "word": "laura",
+      "start": 2.78,
+      "end": 3.18
+    },
+    {
+      "word": "tully",
+      "start": 3.18,
+      "end": 3.98
+    },
+    {
+      "word": "zwickle",
+      "start": 4.54,
+      "end": 5.5
+    },
+    {
+      "word": "one",
+      "start": 7.56,
+      "end": 7.76
+    },
+    {
+      "word": "bag",
+      "start": 7.76,
+      "end": 8.22
+    },
+    {
+      "word": "two",
+      "start": 10.42,
+      "end": 11.06
+    },
+    {
+      "word": "bugs",
+      "start": 11.06,
+      "end": 11.84
+    },
+    {
+      "word": "three",
+      "start": 13.84,
+      "end": 14.5
+    },
+    {
+      "word": "bugs",
+      "start": 14.5,
+      "end": 15.3
+    },
+    {
+      "word": "four",
+      "start": 17.44,
+      "end": 18.06
+    },
+    {
+      "word": "bugs",
+      "start": 18.06,
+      "end": 19.04
+    },
+    {
+      "word": "five",
+      "start": 21.04,
+      "end": 21.8
+    },
+    {
+      "word": "bugs",
+      "start": 21.8,
+      "end": 22.6
+    },
+    {
+      "word": "six",
+      "start": 25.02,
+      "end": 25.4
+    },
+    {
+      "word": "bugs",
+      "start": 25.4,
+      "end": 26.26
+    },
+    {
+      "word": "seven",
+      "start": 27.76,
+      "end": 29.16
+    },
+    {
+      "word": "bugs",
+      "start": 29.16,
+      "end": 30.1
+    },
+    {
+      "word": "so",
+      "start": 31.26,
+      "end": 32.76
+    },
+    {
+      "word": "many",
+      "start": 32.76,
+      "end": 33.4
+    },
+    {
+      "word": "bugs",
+      "start": 33.4,
+      "end": 34.2
+    }
+  ]
+}

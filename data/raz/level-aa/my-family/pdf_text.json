@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/my-family",
+  "title": "My Family",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book 0 a0 My 235 Written by Cheryl Ryan Illustrated by Nora Voutas wwwreadinga-z.com Family"
+    },
+    {
+      "page": 2,
+      "text": "My Family 0 Written by Cheryl Ryan Illustrated by Nora Voutas wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "mother: My Family Level aa 3 2 My"
+    },
+    {
+      "page": 4,
+      "text": "(( father: NEWS My"
+    },
+    {
+      "page": 5,
+      "text": "7 ) ) ( brother: My Family Level aa 5 \"M My"
+    },
+    {
+      "page": 6,
+      "text": "0 Q 0 sister: 2 My"
+    },
+    {
+      "page": 7,
+      "text": "grandfather: My Family Level aa (( CV My"
+    },
+    {
+      "page": 8,
+      "text": "AlaC ~o) m-c 6 grandmother: 8 3 My"
+    },
+    {
+      "page": 9,
+      "text": "0 Q Me. My Family Level aa 9 VM"
+    },
+    {
+      "page": 10,
+      "text": "333 family and me. 10 My"
+    },
+    {
+      "page": 11,
+      "text": "My Family Level aa Leveled Book @ Learning A-Z Correlation Written by Cheryl Ryan LEVEL aa Illustrated by Nora Voutas Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-zcom"
+    }
+  ]
+}

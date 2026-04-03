@@ -1,0 +1,54 @@
+{
+  "id": "level-c/when-is-nighttime",
+  "title": "When Is Nighttime",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C When Is Nighhttimke? Written by Cheryl Ryan Illustrated by Nora Voutas wwwreadinga-z.com 3"
+    },
+    {
+      "page": 2,
+      "text": "When Is Nighttime? )) Written by Cheryl Ryan Illustrated by Nora Voutas wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "l3 Nighttime is when the sun sets. When Is Nighttime? Level € 3 N N 1"
+    },
+    {
+      "page": 4,
+      "text": "Nighttime is when the moon rises."
+    },
+    {
+      "page": 5,
+      "text": "Xl When the stars shine; it is nighttime: When Is Nighttime? Level € 5"
+    },
+    {
+      "page": 6,
+      "text": "Nighttime is when the fireflies blink k"
+    },
+    {
+      "page": 7,
+      "text": "It is nighttime when the bats When Is Nighttime? Level C fly:"
+    },
+    {
+      "page": 8,
+      "text": "Nighttime is when Dad reads to me. 8"
+    },
+    {
+      "page": 9,
+      "text": "'~k 4dp The lights go out when it is bedtime: When Is Nighttime? Level €"
+    },
+    {
+      "page": 10,
+      "text": "Nighttime is when I go to 10 sleep:"
+    },
+    {
+      "page": 11,
+      "text": "~ 0 [OADING When Is Nighttime? Level C Leveled Book Learning A-Z Correlation Written by Cheryl Ryan LEVEL C Illustrated by Nora Voutas Fountas & Pinnell C All rights reserved: Reading Recovery 3-4 DRA 3-4 wwwreadinga-zcom"
+    }
+  ]
+}

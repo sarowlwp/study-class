@@ -1,0 +1,676 @@
+{
+  "version": "1.0",
+  "total_words": 134,
+  "timings": [
+    {
+      "word": "we",
+      "start": 0.0,
+      "end": 0.78
+    },
+    {
+      "word": "by",
+      "start": 1.2,
+      "end": 2.12
+    },
+    {
+      "word": "written",
+      "start": 3.06,
+      "end": 3.42
+    },
+    {
+      "word": "by",
+      "start": 3.42,
+      "end": 3.88
+    },
+    {
+      "word": "sarah",
+      "start": 3.88,
+      "end": 4.42
+    },
+    {
+      "word": "gusson",
+      "start": 4.42,
+      "end": 6.24
+    },
+    {
+      "word": "illustrated",
+      "start": 7.44,
+      "end": 8.16
+    },
+    {
+      "word": "by",
+      "start": 8.16,
+      "end": 9.22
+    },
+    {
+      "word": "guy",
+      "start": 9.22,
+      "end": 10.28
+    },
+    {
+      "word": "wallick",
+      "start": 10.28,
+      "end": 11.76
+    },
+    {
+      "word": "focused",
+      "start": 12.52,
+      "end": 12.82
+    },
+    {
+      "word": "question",
+      "start": 12.82,
+      "end": 13.82
+    },
+    {
+      "word": "what",
+      "start": 13.82,
+      "end": 14.98
+    },
+    {
+      "word": "can",
+      "start": 14.98,
+      "end": 15.66
+    },
+    {
+      "word": "you",
+      "start": 15.66,
+      "end": 16.26
+    },
+    {
+      "word": "buy",
+      "start": 16.26,
+      "end": 16.76
+    },
+    {
+      "word": "at",
+      "start": 16.76,
+      "end": 17.68
+    },
+    {
+      "word": "a",
+      "start": 17.68,
+      "end": 18.14
+    },
+    {
+      "word": "store",
+      "start": 18.14,
+      "end": 18.64
+    },
+    {
+      "word": "we",
+      "start": 19.7,
+      "end": 19.7
+    },
+    {
+      "word": "go",
+      "start": 19.7,
+      "end": 20.44
+    },
+    {
+      "word": "to",
+      "start": 20.44,
+      "end": 21.5
+    },
+    {
+      "word": "a",
+      "start": 21.5,
+      "end": 21.86
+    },
+    {
+      "word": "store",
+      "start": 21.86,
+      "end": 22.52
+    },
+    {
+      "word": "mom",
+      "start": 23.76,
+      "end": 23.76
+    },
+    {
+      "word": "buys",
+      "start": 23.76,
+      "end": 24.76
+    },
+    {
+      "word": "food",
+      "start": 24.76,
+      "end": 25.66
+    },
+    {
+      "word": "we",
+      "start": 26.84,
+      "end": 26.84
+    },
+    {
+      "word": "go",
+      "start": 26.84,
+      "end": 27.58
+    },
+    {
+      "word": "to",
+      "start": 27.58,
+      "end": 28.82
+    },
+    {
+      "word": "a",
+      "start": 28.82,
+      "end": 29.16
+    },
+    {
+      "word": "store",
+      "start": 29.16,
+      "end": 29.86
+    },
+    {
+      "word": "i",
+      "start": 29.86,
+      "end": 31.06
+    },
+    {
+      "word": "buy",
+      "start": 31.06,
+      "end": 31.76
+    },
+    {
+      "word": "candy",
+      "start": 31.76,
+      "end": 32.6
+    },
+    {
+      "word": "we",
+      "start": 33.82,
+      "end": 33.82
+    },
+    {
+      "word": "go",
+      "start": 33.82,
+      "end": 34.6
+    },
+    {
+      "word": "to",
+      "start": 34.6,
+      "end": 35.5
+    },
+    {
+      "word": "a",
+      "start": 35.5,
+      "end": 36.08
+    },
+    {
+      "word": "store",
+      "start": 36.08,
+      "end": 36.8
+    },
+    {
+      "word": "dad",
+      "start": 37.58,
+      "end": 38.06
+    },
+    {
+      "word": "buys",
+      "start": 38.06,
+      "end": 39.14
+    },
+    {
+      "word": "clothes",
+      "start": 39.14,
+      "end": 40.4
+    },
+    {
+      "word": "we",
+      "start": 41.7,
+      "end": 41.7
+    },
+    {
+      "word": "go",
+      "start": 41.7,
+      "end": 42.62
+    },
+    {
+      "word": "to",
+      "start": 42.62,
+      "end": 43.54
+    },
+    {
+      "word": "a",
+      "start": 43.54,
+      "end": 44.18
+    },
+    {
+      "word": "store",
+      "start": 44.18,
+      "end": 44.84
+    },
+    {
+      "word": "i",
+      "start": 45.86,
+      "end": 46.08
+    },
+    {
+      "word": "buy",
+      "start": 46.08,
+      "end": 47.08
+    },
+    {
+      "word": "toys",
+      "start": 47.08,
+      "end": 48.18
+    },
+    {
+      "word": "we",
+      "start": 48.18,
+      "end": 49.36
+    },
+    {
+      "word": "go",
+      "start": 49.36,
+      "end": 50.22
+    },
+    {
+      "word": "to",
+      "start": 50.22,
+      "end": 51.44
+    },
+    {
+      "word": "a",
+      "start": 51.44,
+      "end": 51.86
+    },
+    {
+      "word": "store",
+      "start": 51.86,
+      "end": 52.46
+    },
+    {
+      "word": "mom",
+      "start": 53.24,
+      "end": 53.64
+    },
+    {
+      "word": "buys",
+      "start": 53.64,
+      "end": 54.72
+    },
+    {
+      "word": "tools",
+      "start": 54.72,
+      "end": 55.78
+    },
+    {
+      "word": "we",
+      "start": 57.12,
+      "end": 57.12
+    },
+    {
+      "word": "go",
+      "start": 57.12,
+      "end": 58.1
+    },
+    {
+      "word": "to",
+      "start": 58.1,
+      "end": 58.96
+    },
+    {
+      "word": "a",
+      "start": 58.96,
+      "end": 59.64
+    },
+    {
+      "word": "store",
+      "start": 59.64,
+      "end": 60.34
+    },
+    {
+      "word": "i",
+      "start": 61.12,
+      "end": 61.52
+    },
+    {
+      "word": "buy",
+      "start": 61.52,
+      "end": 62.46
+    },
+    {
+      "word": "crayons",
+      "start": 62.46,
+      "end": 63.76
+    },
+    {
+      "word": "we",
+      "start": 64.78,
+      "end": 64.78
+    },
+    {
+      "word": "go",
+      "start": 64.78,
+      "end": 65.82
+    },
+    {
+      "word": "to",
+      "start": 65.82,
+      "end": 67.06
+    },
+    {
+      "word": "a",
+      "start": 67.06,
+      "end": 67.48
+    },
+    {
+      "word": "store",
+      "start": 67.48,
+      "end": 68.32
+    },
+    {
+      "word": "dad",
+      "start": 68.32,
+      "end": 69.46
+    },
+    {
+      "word": "buys",
+      "start": 69.46,
+      "end": 70.6
+    },
+    {
+      "word": "furniture",
+      "start": 70.6,
+      "end": 71.58
+    },
+    {
+      "word": "we",
+      "start": 72.98,
+      "end": 72.98
+    },
+    {
+      "word": "need",
+      "start": 72.98,
+      "end": 73.64
+    },
+    {
+      "word": "more",
+      "start": 73.64,
+      "end": 74.54
+    },
+    {
+      "word": "money",
+      "start": 74.54,
+      "end": 75.44
+    },
+    {
+      "word": "we",
+      "start": 76.78,
+      "end": 76.92
+    },
+    {
+      "word": "go",
+      "start": 76.92,
+      "end": 77.78
+    },
+    {
+      "word": "to",
+      "start": 77.78,
+      "end": 78.64
+    },
+    {
+      "word": "the",
+      "start": 78.64,
+      "end": 78.98
+    },
+    {
+      "word": "bank",
+      "start": 78.98,
+      "end": 79.64
+    },
+    {
+      "word": "connections",
+      "start": 80.24,
+      "end": 81.32
+    },
+    {
+      "word": "writing",
+      "start": 82.42,
+      "end": 82.64
+    },
+    {
+      "word": "and",
+      "start": 82.64,
+      "end": 83.5
+    },
+    {
+      "word": "art",
+      "start": 83.5,
+      "end": 84.5
+    },
+    {
+      "word": "what",
+      "start": 85.74,
+      "end": 85.76
+    },
+    {
+      "word": "would",
+      "start": 85.76,
+      "end": 86.4
+    },
+    {
+      "word": "you",
+      "start": 86.4,
+      "end": 86.86
+    },
+    {
+      "word": "buy",
+      "start": 86.86,
+      "end": 87.5
+    },
+    {
+      "word": "at",
+      "start": 87.5,
+      "end": 88.24
+    },
+    {
+      "word": "a",
+      "start": 88.24,
+      "end": 88.68
+    },
+    {
+      "word": "store",
+      "start": 88.68,
+      "end": 89.34
+    },
+    {
+      "word": "draw",
+      "start": 89.34,
+      "end": 90.4
+    },
+    {
+      "word": "a",
+      "start": 90.4,
+      "end": 90.98
+    },
+    {
+      "word": "picture",
+      "start": 90.98,
+      "end": 91.44
+    },
+    {
+      "word": "and",
+      "start": 91.44,
+      "end": 92.3
+    },
+    {
+      "word": "write",
+      "start": 92.3,
+      "end": 92.76
+    },
+    {
+      "word": "about",
+      "start": 92.76,
+      "end": 93.56
+    },
+    {
+      "word": "it",
+      "start": 93.56,
+      "end": 94.4
+    },
+    {
+      "word": "social",
+      "start": 95.64,
+      "end": 96.06
+    },
+    {
+      "word": "studies",
+      "start": 96.06,
+      "end": 97.02
+    },
+    {
+      "word": "people",
+      "start": 97.02,
+      "end": 98.66
+    },
+    {
+      "word": "by",
+      "start": 98.66,
+      "end": 99.4
+    },
+    {
+      "word": "things",
+      "start": 99.4,
+      "end": 100.18
+    },
+    {
+      "word": "they",
+      "start": 100.18,
+      "end": 100.88
+    },
+    {
+      "word": "want",
+      "start": 100.88,
+      "end": 101.38
+    },
+    {
+      "word": "and",
+      "start": 102.64,
+      "end": 102.74
+    },
+    {
+      "word": "things",
+      "start": 102.74,
+      "end": 103.42
+    },
+    {
+      "word": "they",
+      "start": 103.42,
+      "end": 103.96
+    },
+    {
+      "word": "need",
+      "start": 103.96,
+      "end": 104.6
+    },
+    {
+      "word": "which",
+      "start": 105.74,
+      "end": 106.14
+    },
+    {
+      "word": "of",
+      "start": 106.14,
+      "end": 106.66
+    },
+    {
+      "word": "the",
+      "start": 106.66,
+      "end": 106.96
+    },
+    {
+      "word": "things",
+      "start": 106.96,
+      "end": 107.46
+    },
+    {
+      "word": "in",
+      "start": 107.46,
+      "end": 108.08
+    },
+    {
+      "word": "this",
+      "start": 108.08,
+      "end": 108.44
+    },
+    {
+      "word": "book",
+      "start": 108.44,
+      "end": 109.16
+    },
+    {
+      "word": "do",
+      "start": 109.16,
+      "end": 109.78
+    },
+    {
+      "word": "people",
+      "start": 109.78,
+      "end": 110.3
+    },
+    {
+      "word": "need",
+      "start": 110.3,
+      "end": 111.34
+    },
+    {
+      "word": "which",
+      "start": 112.22,
+      "end": 112.56
+    },
+    {
+      "word": "things",
+      "start": 112.56,
+      "end": 113.42
+    },
+    {
+      "word": "do",
+      "start": 113.42,
+      "end": 113.94
+    },
+    {
+      "word": "people",
+      "start": 113.94,
+      "end": 114.66
+    },
+    {
+      "word": "want",
+      "start": 114.66,
+      "end": 115.62
+    },
+    {
+      "word": "share",
+      "start": 116.9,
+      "end": 117.18
+    },
+    {
+      "word": "your",
+      "start": 117.18,
+      "end": 117.9
+    },
+    {
+      "word": "ideas",
+      "start": 117.9,
+      "end": 118.6
+    },
+    {
+      "word": "with",
+      "start": 118.6,
+      "end": 119.58
+    },
+    {
+      "word": "the",
+      "start": 119.58,
+      "end": 119.96
+    },
+    {
+      "word": "class",
+      "start": 119.96,
+      "end": 120.52
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "level-a/sundae-time",
+  "title": "Sundae Time",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Sundae Time 0 Written by Racheal Rice Illustrated by Alessia Girasole www.readinga-Z.com 3"
+    },
+    {
+      "page": 2,
+      "text": "Sundae Time Written Racheal Rice Illustrated by Alessia Girasole WWWreadinga-Z.com Focus Question What are the steps for making a sundae? by"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know add hot fudge banana ice cream berries nuts brownie spoons candy Sundae Time Level A Leveled Book Learning A-Z Correlation Written by Racheal Rice LEVEL A Illustrated by Alessia Girasole Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 wwwreadinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "I add the brownie. Sundae Time Level A 3 3"
+    },
+    {
+      "page": 5,
+      "text": "0 I add the ice cream. 4 3"
+    },
+    {
+      "page": 6,
+      "text": "I add the banana: Sundae Time Level A 5"
+    },
+    {
+      "page": 7,
+      "text": "0 I add the hot  fudge: y"
+    },
+    {
+      "page": 8,
+      "text": "I add the nuts. Sundae Time Level A 3"
+    },
+    {
+      "page": 9,
+      "text": "I add the candy: 8"
+    },
+    {
+      "page": 10,
+      "text": "I add the berries. Sundae Time Level A 3"
+    },
+    {
+      "page": 11,
+      "text": "0 I add the spoons: 10"
+    },
+    {
+      "page": 12,
+      "text": "Sundae Time A Reading A-Z Level A Leveled Book Word Count: 34 Connections Writing and Art How would you make an ice cream sundae? Draw a picture and write about it. Math How many different items added to the sundae in the book? Count them and share your answer with a partner: Reading A-z Visit wwwreadinga-z.com for thousands of books and materials. get"
+    }
+  ]
+}

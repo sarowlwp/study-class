@@ -1,0 +1,366 @@
+{
+  "version": "1.0",
+  "total_words": 72,
+  "timings": [
+    {
+      "word": "my",
+      "start": 0.0,
+      "end": 0.66
+    },
+    {
+      "word": "easter",
+      "start": 0.66,
+      "end": 1.8
+    },
+    {
+      "word": "written",
+      "start": 2.74,
+      "end": 3.06
+    },
+    {
+      "word": "by",
+      "start": 3.06,
+      "end": 3.94
+    },
+    {
+      "word": "elizabeth",
+      "start": 3.94,
+      "end": 4.74
+    },
+    {
+      "word": "jane",
+      "start": 4.74,
+      "end": 5.7
+    },
+    {
+      "word": "pustilnik",
+      "start": 5.7,
+      "end": 7.24
+    },
+    {
+      "word": "illustrated",
+      "start": 8.26,
+      "end": 9.06
+    },
+    {
+      "word": "by",
+      "start": 9.06,
+      "end": 9.9
+    },
+    {
+      "word": "violet",
+      "start": 9.9,
+      "end": 10.68
+    },
+    {
+      "word": "lamay",
+      "start": 10.68,
+      "end": 11.92
+    },
+    {
+      "word": "focus",
+      "start": 12.86,
+      "end": 13.22
+    },
+    {
+      "word": "question",
+      "start": 13.22,
+      "end": 14.04
+    },
+    {
+      "word": "what",
+      "start": 15.02,
+      "end": 15.22
+    },
+    {
+      "word": "does",
+      "start": 15.22,
+      "end": 15.66
+    },
+    {
+      "word": "the",
+      "start": 15.66,
+      "end": 15.98
+    },
+    {
+      "word": "girl",
+      "start": 15.98,
+      "end": 16.28
+    },
+    {
+      "word": "do",
+      "start": 16.28,
+      "end": 16.88
+    },
+    {
+      "word": "on",
+      "start": 16.88,
+      "end": 17.6
+    },
+    {
+      "word": "easter",
+      "start": 17.6,
+      "end": 18.14
+    },
+    {
+      "word": "my",
+      "start": 19.7,
+      "end": 19.7
+    },
+    {
+      "word": "dress",
+      "start": 19.7,
+      "end": 20.58
+    },
+    {
+      "word": "my",
+      "start": 21.62,
+      "end": 21.62
+    },
+    {
+      "word": "hat",
+      "start": 21.62,
+      "end": 23.0
+    },
+    {
+      "word": "my",
+      "start": 23.9,
+      "end": 24.44
+    },
+    {
+      "word": "basket",
+      "start": 24.44,
+      "end": 25.96
+    },
+    {
+      "word": "my",
+      "start": 27.02,
+      "end": 27.78
+    },
+    {
+      "word": "eggs",
+      "start": 27.78,
+      "end": 29.36
+    },
+    {
+      "word": "my",
+      "start": 30.0,
+      "end": 30.74
+    },
+    {
+      "word": "candy",
+      "start": 30.74,
+      "end": 32.3
+    },
+    {
+      "word": "my",
+      "start": 33.2,
+      "end": 33.66
+    },
+    {
+      "word": "flowers",
+      "start": 33.66,
+      "end": 35.08
+    },
+    {
+      "word": "my",
+      "start": 36.08,
+      "end": 36.46
+    },
+    {
+      "word": "family",
+      "start": 36.46,
+      "end": 38.1
+    },
+    {
+      "word": "my",
+      "start": 39.1,
+      "end": 40.14
+    },
+    {
+      "word": "easter",
+      "start": 40.14,
+      "end": 41.46
+    },
+    {
+      "word": "connections",
+      "start": 41.46,
+      "end": 42.98
+    },
+    {
+      "word": "writing",
+      "start": 44.6,
+      "end": 45.04
+    },
+    {
+      "word": "easter",
+      "start": 46.64,
+      "end": 47.12
+    },
+    {
+      "word": "is",
+      "start": 47.12,
+      "end": 47.9
+    },
+    {
+      "word": "a",
+      "start": 47.9,
+      "end": 48.5
+    },
+    {
+      "word": "holiday",
+      "start": 48.5,
+      "end": 49.14
+    },
+    {
+      "word": "what",
+      "start": 50.3,
+      "end": 50.54
+    },
+    {
+      "word": "are",
+      "start": 50.54,
+      "end": 51.18
+    },
+    {
+      "word": "other",
+      "start": 51.18,
+      "end": 51.72
+    },
+    {
+      "word": "holidays",
+      "start": 51.72,
+      "end": 52.7
+    },
+    {
+      "word": "make",
+      "start": 53.98,
+      "end": 54.22
+    },
+    {
+      "word": "a",
+      "start": 54.22,
+      "end": 54.66
+    },
+    {
+      "word": "list",
+      "start": 54.66,
+      "end": 55.08
+    },
+    {
+      "word": "with",
+      "start": 55.08,
+      "end": 55.98
+    },
+    {
+      "word": "a",
+      "start": 55.98,
+      "end": 56.52
+    },
+    {
+      "word": "partner",
+      "start": 56.52,
+      "end": 57.12
+    },
+    {
+      "word": "social",
+      "start": 57.12,
+      "end": 59.14
+    },
+    {
+      "word": "studies",
+      "start": 59.14,
+      "end": 59.9
+    },
+    {
+      "word": "and",
+      "start": 59.9,
+      "end": 60.86
+    },
+    {
+      "word": "art",
+      "start": 60.86,
+      "end": 62.12
+    },
+    {
+      "word": "pick",
+      "start": 63.24,
+      "end": 63.3
+    },
+    {
+      "word": "two",
+      "start": 63.3,
+      "end": 64.2
+    },
+    {
+      "word": "holidays",
+      "start": 64.2,
+      "end": 65.36
+    },
+    {
+      "word": "draw",
+      "start": 66.76,
+      "end": 67.08
+    },
+    {
+      "word": "one",
+      "start": 67.08,
+      "end": 67.68
+    },
+    {
+      "word": "way",
+      "start": 67.68,
+      "end": 68.3
+    },
+    {
+      "word": "they",
+      "start": 68.3,
+      "end": 69.06
+    },
+    {
+      "word": "are",
+      "start": 69.06,
+      "end": 69.58
+    },
+    {
+      "word": "the",
+      "start": 69.58,
+      "end": 69.92
+    },
+    {
+      "word": "same",
+      "start": 69.92,
+      "end": 70.62
+    },
+    {
+      "word": "and",
+      "start": 71.26,
+      "end": 71.64
+    },
+    {
+      "word": "one",
+      "start": 71.64,
+      "end": 72.0
+    },
+    {
+      "word": "way",
+      "start": 72.0,
+      "end": 72.7
+    },
+    {
+      "word": "they",
+      "start": 72.7,
+      "end": 73.46
+    },
+    {
+      "word": "are",
+      "start": 73.46,
+      "end": 74.08
+    },
+    {
+      "word": "different",
+      "start": 74.08,
+      "end": 74.56
+    }
+  ]
+}

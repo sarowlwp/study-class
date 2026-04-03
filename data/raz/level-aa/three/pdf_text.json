@@ -1,0 +1,46 @@
+{
+  "id": "level-aa/three",
+  "title": "Three",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 9,
+  "pages": [
+    {
+      "page": 1,
+      "text": "Three Written by Mary Ann Marazzi Illustrated by Lauren Gallegos wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "{3 Three tigers_ Thuee * Level aa 3"
+    },
+    {
+      "page": 3,
+      "text": "Three lions_ 4 2"
+    },
+    {
+      "page": 4,
+      "text": "Three bears_ 0 Thuee * Level aa 5"
+    },
+    {
+      "page": 5,
+      "text": "C 3 Three monkeys 6"
+    },
+    {
+      "page": 6,
+      "text": "Three elephants: Thuee * Level aa"
+    },
+    {
+      "page": 7,
+      "text": "Three camels_ 8"
+    },
+    {
+      "page": 8,
+      "text": "Three frogs. Thuee * Level aa"
+    },
+    {
+      "page": 9,
+      "text": "Three pandas 10 2"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "level-aa/the-street",
+  "title": "The Street",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 9,
+  "pages": [
+    {
+      "page": 1,
+      "text": "The Street 4 030 Written by Harriet Rosenbloom Illustrated by Cale Atkinson wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "The gate: The Street * Levelaa 3"
+    },
+    {
+      "page": 3,
+      "text": "OA M ( The mailbox 4"
+    },
+    {
+      "page": 4,
+      "text": "(h m m (h The sidewalk: The Street * Levelaa 5"
+    },
+    {
+      "page": 5,
+      "text": "The fence_ 6 Nx^ 3"
+    },
+    {
+      "page": 6,
+      "text": "2 Ha m The flowers  The Street * Levelaa"
+    },
+    {
+      "page": 7,
+      "text": "(h 12 Nxa The bike_ 8 M n mMah Nh^"
+    },
+    {
+      "page": 8,
+      "text": "Y A ( 33 (hm The friend The Street * Levelaa 4"
+    },
+    {
+      "page": 9,
+      "text": "I m The street: 10 07 C^"
+    }
+  ]
+}

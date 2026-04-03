@@ -1,0 +1,54 @@
+{
+  "id": "level-c/going-away",
+  "title": "Going Away",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C Going Away Written by Ned Jensen Illustrated Joe Boddy wwwreadinga-z.com by"
+    },
+    {
+      "page": 2,
+      "text": "Going Written by Ned Jensen Illustrated by Joe Boddy wwwreadinga-z.com Away"
+    },
+    {
+      "page": 3,
+      "text": "(= We can in a car; We can drive awaY. Going Away = Level C 3 390 get"
+    },
+    {
+      "page": 4,
+      "text": "2 We can in a boat. We can sail awaY: get"
+    },
+    {
+      "page": 5,
+      "text": "We can on a plane: We can away: Going Away = Level C 5 get fly"
+    },
+    {
+      "page": 6,
+      "text": "We can on a bike: We can away: get pedal"
+    },
+    {
+      "page": 7,
+      "text": "olo We can in a balloon: We can float away: Going Away = Level C get"
+    },
+    {
+      "page": 8,
+      "text": "3 We can on a train: We can chug away: 8 -o@ 7@8F get"
+    },
+    {
+      "page": 9,
+      "text": "We can in a rocket. We can zoom away: Going Away = Level C get"
+    },
+    {
+      "page": 10,
+      "text": "We can on our shoes: We can run away: 10 put"
+    },
+    {
+      "page": 11,
+      "text": "Level C Leveled Book Learning A-Z Correlation Written by Ned Jensen LEVEL C Illustrated by Joe Boddy Fountas & Pinnell C All rights reserved: Reading Recovery 3-4 DRA 3-4 wwwreadinga-zcom Going Away"
+    }
+  ]
+}

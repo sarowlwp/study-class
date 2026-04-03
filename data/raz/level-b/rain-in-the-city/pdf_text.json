@@ -1,0 +1,54 @@
+{
+  "id": "level-b/rain-in-the-city",
+  "title": "Rain In The City",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Rain in the Writien by Anthony Curran wwwreadinga-z.com Gity"
+    },
+    {
+      "page": 2,
+      "text": "Rain in the Written by Anthony Curran wwwreadinga-z.com City"
+    },
+    {
+      "page": 3,
+      "text": "I see the clouds. Rain in the 0 Level B 3 City"
+    },
+    {
+      "page": 4,
+      "text": "I see the rain: 4"
+    },
+    {
+      "page": 5,
+      "text": "I see the lightning: Rain in the 0 Level B 5 City"
+    },
+    {
+      "page": 6,
+      "text": "I see the umbrellas."
+    },
+    {
+      "page": 7,
+      "text": "C I see the puddle: Rain in the 0 Level B City"
+    },
+    {
+      "page": 8,
+      "text": "I see the drain_ 8"
+    },
+    {
+      "page": 9,
+      "text": "I see the rainbow: Rain in the 0 Level B City"
+    },
+    {
+      "page": 10,
+      "text": "I see the Sun: 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover: @ iStockphoto.com/Imgorthand; back cover: @ Mitchell Funk /The Image Bank/Getty Images; title page: @ Jim Jordan Photography/Photographer's Choice/Getty Images; page 3: @ Bernhard Classen/Alamy: page 4: @ Robert Harding Picture Library/Superstock; page 5 (foreground): @ iStockphotocom/Denis Jr; Tangney: page 5 (background): @ Hipgnosis/Dreamstime.com; page b: @ Stuart Pearcelage fotostock/Superstock; page 7: @ iStockphoto.com/Matej Michelizza; page 8: @ Andrew Fox/Alamy: page 9: @ REUTERSIJuan Carlos Ulate; page 10: iStock/daizuoxin Rain in the Level B Leveled Book Correlation Learning A-Z LEVEL B Written by Anthony Curran Fountas & Pinnell B AIl rights reserved: Reading Recovery 2 DRA 2 wwwreadinga-z.com City"
+    }
+  ]
+}

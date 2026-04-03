@@ -1,0 +1,146 @@
+{
+  "version": "1.0",
+  "total_words": 28,
+  "timings": [
+    {
+      "word": "my",
+      "start": 0.0,
+      "end": 0.4
+    },
+    {
+      "word": "gift",
+      "start": 0.4,
+      "end": 0.84
+    },
+    {
+      "word": "for",
+      "start": 0.84,
+      "end": 1.46
+    },
+    {
+      "word": "mom",
+      "start": 1.46,
+      "end": 2.14
+    },
+    {
+      "word": "written",
+      "start": 2.66,
+      "end": 2.88
+    },
+    {
+      "word": "by",
+      "start": 2.88,
+      "end": 3.58
+    },
+    {
+      "word": "bev",
+      "start": 3.58,
+      "end": 4.02
+    },
+    {
+      "word": "osborn",
+      "start": 4.02,
+      "end": 5.1
+    },
+    {
+      "word": "illustrated",
+      "start": 5.8,
+      "end": 6.34
+    },
+    {
+      "word": "by",
+      "start": 6.34,
+      "end": 7.26
+    },
+    {
+      "word": "liza",
+      "start": 7.26,
+      "end": 7.78
+    },
+    {
+      "word": "woodrow",
+      "start": 7.78,
+      "end": 8.7
+    },
+    {
+      "word": "the",
+      "start": 10.48,
+      "end": 10.6
+    },
+    {
+      "word": "day",
+      "start": 10.6,
+      "end": 11.4
+    },
+    {
+      "word": "the",
+      "start": 13.0,
+      "end": 14.06
+    },
+    {
+      "word": "bowl",
+      "start": 14.06,
+      "end": 15.1
+    },
+    {
+      "word": "the",
+      "start": 16.0,
+      "end": 17.56
+    },
+    {
+      "word": "box",
+      "start": 17.56,
+      "end": 18.64
+    },
+    {
+      "word": "the",
+      "start": 20.0,
+      "end": 21.22
+    },
+    {
+      "word": "paper",
+      "start": 21.22,
+      "end": 22.26
+    },
+    {
+      "word": "the",
+      "start": 24.0,
+      "end": 25.04
+    },
+    {
+      "word": "bowl",
+      "start": 25.04,
+      "end": 26.06
+    },
+    {
+      "word": "the",
+      "start": 27.44,
+      "end": 28.66
+    },
+    {
+      "word": "gift",
+      "start": 28.66,
+      "end": 29.16
+    },
+    {
+      "word": "the",
+      "start": 29.52,
+      "end": 32.04
+    },
+    {
+      "word": "smile",
+      "start": 32.04,
+      "end": 32.76
+    },
+    {
+      "word": "the",
+      "start": 35.42,
+      "end": 35.64
+    },
+    {
+      "word": "hug",
+      "start": 35.64,
+      "end": 35.98
+    }
+  ]
+}

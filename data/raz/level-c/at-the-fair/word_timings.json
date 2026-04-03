@@ -1,0 +1,606 @@
+{
+  "version": "1.0",
+  "total_words": 120,
+  "timings": [
+    {
+      "word": "at",
+      "start": 0.0,
+      "end": 0.48
+    },
+    {
+      "word": "the",
+      "start": 0.48,
+      "end": 1.08
+    },
+    {
+      "word": "fair",
+      "start": 1.08,
+      "end": 1.88
+    },
+    {
+      "word": "written",
+      "start": 2.94,
+      "end": 3.2
+    },
+    {
+      "word": "by",
+      "start": 3.2,
+      "end": 3.78
+    },
+    {
+      "word": "elizabeth",
+      "start": 3.78,
+      "end": 4.7
+    },
+    {
+      "word": "jane",
+      "start": 4.7,
+      "end": 5.62
+    },
+    {
+      "word": "pustilnik",
+      "start": 5.62,
+      "end": 6.64
+    },
+    {
+      "word": "focus",
+      "start": 8.56,
+      "end": 8.7
+    },
+    {
+      "word": "question",
+      "start": 8.7,
+      "end": 9.5
+    },
+    {
+      "word": "what",
+      "start": 10.86,
+      "end": 11.08
+    },
+    {
+      "word": "can",
+      "start": 11.08,
+      "end": 11.96
+    },
+    {
+      "word": "you",
+      "start": 11.96,
+      "end": 12.4
+    },
+    {
+      "word": "ride",
+      "start": 12.4,
+      "end": 12.76
+    },
+    {
+      "word": "at",
+      "start": 12.76,
+      "end": 13.74
+    },
+    {
+      "word": "the",
+      "start": 13.74,
+      "end": 14.08
+    },
+    {
+      "word": "fair",
+      "start": 14.08,
+      "end": 14.54
+    },
+    {
+      "word": "you",
+      "start": 15.14,
+      "end": 15.44
+    },
+    {
+      "word": "can",
+      "start": 15.44,
+      "end": 15.92
+    },
+    {
+      "word": "ride",
+      "start": 15.92,
+      "end": 16.42
+    },
+    {
+      "word": "the",
+      "start": 16.42,
+      "end": 17.18
+    },
+    {
+      "word": "big",
+      "start": 17.18,
+      "end": 18.1
+    },
+    {
+      "word": "wheel",
+      "start": 18.1,
+      "end": 19.14
+    },
+    {
+      "word": "you",
+      "start": 19.76,
+      "end": 20.26
+    },
+    {
+      "word": "can",
+      "start": 20.26,
+      "end": 20.8
+    },
+    {
+      "word": "ride",
+      "start": 20.8,
+      "end": 21.28
+    },
+    {
+      "word": "the",
+      "start": 21.28,
+      "end": 22.38
+    },
+    {
+      "word": "little",
+      "start": 22.38,
+      "end": 23.06
+    },
+    {
+      "word": "car",
+      "start": 23.06,
+      "end": 24.08
+    },
+    {
+      "word": "you",
+      "start": 24.08,
+      "end": 24.8
+    },
+    {
+      "word": "can",
+      "start": 24.8,
+      "end": 25.22
+    },
+    {
+      "word": "ride",
+      "start": 25.22,
+      "end": 25.88
+    },
+    {
+      "word": "the",
+      "start": 25.88,
+      "end": 26.9
+    },
+    {
+      "word": "long",
+      "start": 26.9,
+      "end": 27.34
+    },
+    {
+      "word": "train",
+      "start": 27.34,
+      "end": 28.36
+    },
+    {
+      "word": "you",
+      "start": 28.88,
+      "end": 29.12
+    },
+    {
+      "word": "can",
+      "start": 29.12,
+      "end": 29.62
+    },
+    {
+      "word": "ride",
+      "start": 29.62,
+      "end": 30.26
+    },
+    {
+      "word": "the",
+      "start": 30.26,
+      "end": 31.38
+    },
+    {
+      "word": "fast",
+      "start": 31.38,
+      "end": 32.08
+    },
+    {
+      "word": "cup",
+      "start": 32.08,
+      "end": 32.86
+    },
+    {
+      "word": "you",
+      "start": 33.52,
+      "end": 33.52
+    },
+    {
+      "word": "can",
+      "start": 33.52,
+      "end": 34.0
+    },
+    {
+      "word": "ride",
+      "start": 34.0,
+      "end": 34.68
+    },
+    {
+      "word": "the",
+      "start": 34.68,
+      "end": 35.64
+    },
+    {
+      "word": "painted",
+      "start": 35.64,
+      "end": 36.18
+    },
+    {
+      "word": "horse",
+      "start": 36.18,
+      "end": 37.18
+    },
+    {
+      "word": "you",
+      "start": 37.92,
+      "end": 37.98
+    },
+    {
+      "word": "can",
+      "start": 37.98,
+      "end": 38.5
+    },
+    {
+      "word": "ride",
+      "start": 38.5,
+      "end": 39.06
+    },
+    {
+      "word": "the",
+      "start": 39.06,
+      "end": 40.04
+    },
+    {
+      "word": "giant",
+      "start": 40.04,
+      "end": 40.56
+    },
+    {
+      "word": "swing",
+      "start": 40.56,
+      "end": 41.66
+    },
+    {
+      "word": "you",
+      "start": 42.22,
+      "end": 42.48
+    },
+    {
+      "word": "can",
+      "start": 42.48,
+      "end": 43.0
+    },
+    {
+      "word": "ride",
+      "start": 43.0,
+      "end": 43.52
+    },
+    {
+      "word": "the",
+      "start": 43.52,
+      "end": 44.48
+    },
+    {
+      "word": "tiny",
+      "start": 44.48,
+      "end": 44.92
+    },
+    {
+      "word": "plane",
+      "start": 44.92,
+      "end": 45.8
+    },
+    {
+      "word": "what",
+      "start": 46.34,
+      "end": 46.6
+    },
+    {
+      "word": "is",
+      "start": 46.6,
+      "end": 47.38
+    },
+    {
+      "word": "your",
+      "start": 47.38,
+      "end": 48.02
+    },
+    {
+      "word": "favorite",
+      "start": 48.02,
+      "end": 48.76
+    },
+    {
+      "word": "ride",
+      "start": 48.76,
+      "end": 49.62
+    },
+    {
+      "word": "at",
+      "start": 49.62,
+      "end": 50.5
+    },
+    {
+      "word": "the",
+      "start": 50.5,
+      "end": 50.78
+    },
+    {
+      "word": "fair",
+      "start": 50.78,
+      "end": 51.36
+    },
+    {
+      "word": "connections",
+      "start": 51.36,
+      "end": 53.18
+    },
+    {
+      "word": "writing",
+      "start": 53.9,
+      "end": 54.24
+    },
+    {
+      "word": "and",
+      "start": 54.24,
+      "end": 54.92
+    },
+    {
+      "word": "art",
+      "start": 54.92,
+      "end": 55.64
+    },
+    {
+      "word": "would",
+      "start": 56.54,
+      "end": 56.7
+    },
+    {
+      "word": "you",
+      "start": 56.7,
+      "end": 57.24
+    },
+    {
+      "word": "prefer",
+      "start": 57.24,
+      "end": 57.96
+    },
+    {
+      "word": "to",
+      "start": 57.96,
+      "end": 58.9
+    },
+    {
+      "word": "go",
+      "start": 58.9,
+      "end": 59.32
+    },
+    {
+      "word": "on",
+      "start": 59.32,
+      "end": 59.62
+    },
+    {
+      "word": "a",
+      "start": 59.62,
+      "end": 59.94
+    },
+    {
+      "word": "fast",
+      "start": 59.94,
+      "end": 60.3
+    },
+    {
+      "word": "ride",
+      "start": 60.3,
+      "end": 61.0
+    },
+    {
+      "word": "or",
+      "start": 61.0,
+      "end": 62.16
+    },
+    {
+      "word": "a",
+      "start": 62.16,
+      "end": 63.06
+    },
+    {
+      "word": "high",
+      "start": 63.06,
+      "end": 63.52
+    },
+    {
+      "word": "ride",
+      "start": 63.52,
+      "end": 64.0
+    },
+    {
+      "word": "at",
+      "start": 64.0,
+      "end": 64.8
+    },
+    {
+      "word": "the",
+      "start": 64.8,
+      "end": 65.12
+    },
+    {
+      "word": "fair",
+      "start": 65.12,
+      "end": 65.58
+    },
+    {
+      "word": "why",
+      "start": 66.66,
+      "end": 67.18
+    },
+    {
+      "word": "draw",
+      "start": 68.46,
+      "end": 68.78
+    },
+    {
+      "word": "a",
+      "start": 68.78,
+      "end": 69.16
+    },
+    {
+      "word": "picture",
+      "start": 69.16,
+      "end": 69.54
+    },
+    {
+      "word": "and",
+      "start": 69.54,
+      "end": 70.32
+    },
+    {
+      "word": "write",
+      "start": 70.32,
+      "end": 70.88
+    },
+    {
+      "word": "about",
+      "start": 70.88,
+      "end": 71.42
+    },
+    {
+      "word": "it",
+      "start": 71.42,
+      "end": 72.72
+    },
+    {
+      "word": "math",
+      "start": 72.72,
+      "end": 74.32
+    },
+    {
+      "word": "which",
+      "start": 75.54,
+      "end": 75.88
+    },
+    {
+      "word": "ride",
+      "start": 75.88,
+      "end": 76.54
+    },
+    {
+      "word": "from",
+      "start": 76.54,
+      "end": 76.96
+    },
+    {
+      "word": "the",
+      "start": 76.96,
+      "end": 77.32
+    },
+    {
+      "word": "book",
+      "start": 77.32,
+      "end": 77.78
+    },
+    {
+      "word": "would",
+      "start": 77.78,
+      "end": 78.46
+    },
+    {
+      "word": "each",
+      "start": 78.46,
+      "end": 79.16
+    },
+    {
+      "word": "person",
+      "start": 79.16,
+      "end": 79.74
+    },
+    {
+      "word": "in",
+      "start": 79.74,
+      "end": 80.22
+    },
+    {
+      "word": "your",
+      "start": 80.22,
+      "end": 80.58
+    },
+    {
+      "word": "class",
+      "start": 80.58,
+      "end": 81.22
+    },
+    {
+      "word": "like",
+      "start": 81.22,
+      "end": 82.12
+    },
+    {
+      "word": "to",
+      "start": 82.12,
+      "end": 82.44
+    },
+    {
+      "word": "go",
+      "start": 82.44,
+      "end": 82.74
+    },
+    {
+      "word": "on",
+      "start": 82.74,
+      "end": 83.14
+    },
+    {
+      "word": "the",
+      "start": 83.14,
+      "end": 83.48
+    },
+    {
+      "word": "most",
+      "start": 83.48,
+      "end": 84.2
+    },
+    {
+      "word": "show",
+      "start": 85.22,
+      "end": 85.48
+    },
+    {
+      "word": "the",
+      "start": 85.48,
+      "end": 86.0
+    },
+    {
+      "word": "information",
+      "start": 86.0,
+      "end": 86.7
+    },
+    {
+      "word": "on",
+      "start": 86.7,
+      "end": 87.84
+    },
+    {
+      "word": "a",
+      "start": 87.84,
+      "end": 88.48
+    },
+    {
+      "word": "class",
+      "start": 88.48,
+      "end": 88.92
+    },
+    {
+      "word": "graph",
+      "start": 88.92,
+      "end": 89.7
+    }
+  ]
+}

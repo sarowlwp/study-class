@@ -1,0 +1,146 @@
+{
+  "version": "1.0",
+  "total_words": 28,
+  "timings": [
+    {
+      "word": "three",
+      "start": 1.94,
+      "end": 3.34
+    },
+    {
+      "word": "written",
+      "start": 4.36,
+      "end": 4.36
+    },
+    {
+      "word": "by",
+      "start": 4.36,
+      "end": 4.98
+    },
+    {
+      "word": "marianne",
+      "start": 4.98,
+      "end": 6.16
+    },
+    {
+      "word": "morazzi",
+      "start": 6.16,
+      "end": 6.66
+    },
+    {
+      "word": "illustrated",
+      "start": 6.68,
+      "end": 8.16
+    },
+    {
+      "word": "by",
+      "start": 8.16,
+      "end": 8.86
+    },
+    {
+      "word": "moran",
+      "start": 8.86,
+      "end": 9.72
+    },
+    {
+      "word": "gallegos",
+      "start": 9.72,
+      "end": 10.74
+    },
+    {
+      "word": "three",
+      "start": 15.92,
+      "end": 17.32
+    },
+    {
+      "word": "tigers",
+      "start": 17.32,
+      "end": 18.5
+    },
+    {
+      "word": "3",
+      "start": 25.2,
+      "end": 26.6
+    },
+    {
+      "word": "lions",
+      "start": 26.6,
+      "end": 28.0
+    },
+    {
+      "word": "wow",
+      "start": 28.0,
+      "end": 29.7
+    },
+    {
+      "word": "3",
+      "start": 34.4,
+      "end": 35.8
+    },
+    {
+      "word": "bears",
+      "start": 35.8,
+      "end": 36.5
+    },
+    {
+      "word": "3",
+      "start": 43.52,
+      "end": 44.92
+    },
+    {
+      "word": "monkeys",
+      "start": 44.92,
+      "end": 45.78
+    },
+    {
+      "word": "three",
+      "start": 52.88,
+      "end": 54.28
+    },
+    {
+      "word": "elephants",
+      "start": 54.28,
+      "end": 55.36
+    },
+    {
+      "word": "three",
+      "start": 55.36,
+      "end": 63.32
+    },
+    {
+      "word": "camels",
+      "start": 63.32,
+      "end": 64.78
+    },
+    {
+      "word": "three",
+      "start": 64.78,
+      "end": 72.76
+    },
+    {
+      "word": "frogs",
+      "start": 72.76,
+      "end": 73.66
+    },
+    {
+      "word": "three",
+      "start": 80.46,
+      "end": 81.86
+    },
+    {
+      "word": "and",
+      "start": 82.42,
+      "end": 82.62
+    },
+    {
+      "word": "that's",
+      "start": 82.62,
+      "end": 84.48
+    },
+    {
+      "word": "three",
+      "start": 84.48,
+      "end": 86.04
+    }
+  ]
+}

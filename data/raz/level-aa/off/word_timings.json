@@ -1,0 +1,411 @@
+{
+  "version": "1.0",
+  "total_words": 81,
+  "timings": [
+    {
+      "word": "off",
+      "start": 0.0,
+      "end": 0.66
+    },
+    {
+      "word": "written",
+      "start": 1.52,
+      "end": 1.92
+    },
+    {
+      "word": "by",
+      "start": 1.92,
+      "end": 2.52
+    },
+    {
+      "word": "marilyn",
+      "start": 2.52,
+      "end": 3.04
+    },
+    {
+      "word": "edna",
+      "start": 3.04,
+      "end": 4.14
+    },
+    {
+      "word": "slevin",
+      "start": 4.14,
+      "end": 4.96
+    },
+    {
+      "word": "illustrated",
+      "start": 5.74,
+      "end": 6.4
+    },
+    {
+      "word": "by",
+      "start": 6.4,
+      "end": 7.12
+    },
+    {
+      "word": "nora",
+      "start": 7.12,
+      "end": 7.58
+    },
+    {
+      "word": "vutes",
+      "start": 7.58,
+      "end": 8.28
+    },
+    {
+      "word": "focus",
+      "start": 9.68,
+      "end": 9.92
+    },
+    {
+      "word": "question",
+      "start": 9.92,
+      "end": 10.98
+    },
+    {
+      "word": "what",
+      "start": 11.9,
+      "end": 12.14
+    },
+    {
+      "word": "is",
+      "start": 12.14,
+      "end": 12.76
+    },
+    {
+      "word": "the",
+      "start": 12.76,
+      "end": 13.08
+    },
+    {
+      "word": "cat",
+      "start": 13.08,
+      "end": 13.5
+    },
+    {
+      "word": "doing",
+      "start": 13.5,
+      "end": 14.38
+    },
+    {
+      "word": "in",
+      "start": 14.38,
+      "end": 15.28
+    },
+    {
+      "word": "the",
+      "start": 15.28,
+      "end": 15.54
+    },
+    {
+      "word": "book",
+      "start": 15.54,
+      "end": 16.08
+    },
+    {
+      "word": "off",
+      "start": 16.6,
+      "end": 16.88
+    },
+    {
+      "word": "the",
+      "start": 17.5,
+      "end": 17.64
+    },
+    {
+      "word": "bed",
+      "start": 17.64,
+      "end": 18.52
+    },
+    {
+      "word": "off",
+      "start": 19.2,
+      "end": 19.56
+    },
+    {
+      "word": "the",
+      "start": 20.58,
+      "end": 20.58
+    },
+    {
+      "word": "couch",
+      "start": 20.58,
+      "end": 21.72
+    },
+    {
+      "word": "off",
+      "start": 21.72,
+      "end": 22.62
+    },
+    {
+      "word": "the",
+      "start": 22.62,
+      "end": 23.86
+    },
+    {
+      "word": "table",
+      "start": 23.86,
+      "end": 24.64
+    },
+    {
+      "word": "off",
+      "start": 25.34,
+      "end": 25.62
+    },
+    {
+      "word": "the",
+      "start": 25.62,
+      "end": 26.9
+    },
+    {
+      "word": "chair",
+      "start": 26.9,
+      "end": 28.06
+    },
+    {
+      "word": "off",
+      "start": 28.76,
+      "end": 29.06
+    },
+    {
+      "word": "the",
+      "start": 29.06,
+      "end": 30.16
+    },
+    {
+      "word": "computer",
+      "start": 30.16,
+      "end": 31.08
+    },
+    {
+      "word": "off",
+      "start": 31.92,
+      "end": 32.32
+    },
+    {
+      "word": "the",
+      "start": 32.32,
+      "end": 33.78
+    },
+    {
+      "word": "towel",
+      "start": 33.78,
+      "end": 34.7
+    },
+    {
+      "word": "off",
+      "start": 35.36,
+      "end": 35.88
+    },
+    {
+      "word": "the",
+      "start": 35.88,
+      "end": 36.68
+    },
+    {
+      "word": "step",
+      "start": 36.68,
+      "end": 37.78
+    },
+    {
+      "word": "off",
+      "start": 38.34,
+      "end": 38.72
+    },
+    {
+      "word": "the",
+      "start": 38.72,
+      "end": 39.78
+    },
+    {
+      "word": "car",
+      "start": 39.78,
+      "end": 41.1
+    },
+    {
+      "word": "connections",
+      "start": 41.1,
+      "end": 42.16
+    },
+    {
+      "word": "writing",
+      "start": 43.32,
+      "end": 43.62
+    },
+    {
+      "word": "and",
+      "start": 43.62,
+      "end": 44.62
+    },
+    {
+      "word": "art",
+      "start": 44.62,
+      "end": 45.7
+    },
+    {
+      "word": "draw",
+      "start": 46.68,
+      "end": 47.0
+    },
+    {
+      "word": "a",
+      "start": 47.0,
+      "end": 47.52
+    },
+    {
+      "word": "picture",
+      "start": 47.52,
+      "end": 47.96
+    },
+    {
+      "word": "of",
+      "start": 47.96,
+      "end": 48.56
+    },
+    {
+      "word": "the",
+      "start": 48.56,
+      "end": 48.72
+    },
+    {
+      "word": "cat",
+      "start": 48.72,
+      "end": 49.26
+    },
+    {
+      "word": "jumping",
+      "start": 49.26,
+      "end": 49.86
+    },
+    {
+      "word": "off",
+      "start": 49.86,
+      "end": 50.62
+    },
+    {
+      "word": "something",
+      "start": 50.62,
+      "end": 51.34
+    },
+    {
+      "word": "then",
+      "start": 51.34,
+      "end": 51.48
+    },
+    {
+      "word": "new",
+      "start": 51.48,
+      "end": 52.5
+    },
+    {
+      "word": "label",
+      "start": 53.22,
+      "end": 53.82
+    },
+    {
+      "word": "your",
+      "start": 53.82,
+      "end": 54.1
+    },
+    {
+      "word": "picture",
+      "start": 54.1,
+      "end": 54.64
+    },
+    {
+      "word": "off",
+      "start": 54.64,
+      "end": 55.88
+    },
+    {
+      "word": "the",
+      "start": 55.88,
+      "end": 59.06
+    },
+    {
+      "word": "math",
+      "start": 59.06,
+      "end": 59.72
+    },
+    {
+      "word": "what",
+      "start": 61.16,
+      "end": 61.42
+    },
+    {
+      "word": "kinds",
+      "start": 61.42,
+      "end": 62.32
+    },
+    {
+      "word": "of",
+      "start": 62.32,
+      "end": 62.8
+    },
+    {
+      "word": "pets",
+      "start": 62.8,
+      "end": 63.24
+    },
+    {
+      "word": "do",
+      "start": 63.24,
+      "end": 63.88
+    },
+    {
+      "word": "your",
+      "start": 63.88,
+      "end": 64.26
+    },
+    {
+      "word": "classmates",
+      "start": 64.26,
+      "end": 64.68
+    },
+    {
+      "word": "have",
+      "start": 64.68,
+      "end": 65.54
+    },
+    {
+      "word": "at",
+      "start": 65.54,
+      "end": 66.06
+    },
+    {
+      "word": "home",
+      "start": 66.06,
+      "end": 66.7
+    },
+    {
+      "word": "make",
+      "start": 67.72,
+      "end": 68.06
+    },
+    {
+      "word": "a",
+      "start": 68.06,
+      "end": 68.48
+    },
+    {
+      "word": "graph",
+      "start": 68.48,
+      "end": 68.94
+    },
+    {
+      "word": "with",
+      "start": 68.94,
+      "end": 69.58
+    },
+    {
+      "word": "your",
+      "start": 69.58,
+      "end": 69.96
+    },
+    {
+      "word": "class",
+      "start": 69.96,
+      "end": 70.52
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "level-b/the-picnic",
+  "title": "The Picnic",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B The Picnic Written by Ned Jensen Illustrated by Signe Nordin wwwreadinga-z.com ~"
+    },
+    {
+      "page": 2,
+      "text": "The Picnic LD Written by Ned Jensen Illustrated by Signe Nordin wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "- Ted and go on a picnic. a basket_ The Picnic Level B 3 Peg Peg gets picnic"
+    },
+    {
+      "page": 4,
+      "text": "Ted in cheese. puts"
+    },
+    {
+      "page": 5,
+      "text": "in sandwiches _ The Picnic Level B 5 = Peg puts"
+    },
+    {
+      "page": 6,
+      "text": "Ted puts in chips."
+    },
+    {
+      "page": 7,
+      "text": "in soda pop_ The Picnic Level B Peg puts"
+    },
+    {
+      "page": 8,
+      "text": "Ted puts in 8 apples."
+    },
+    {
+      "page": 9,
+      "text": "in cookies _ The Picnic Level B Peg puts"
+    },
+    {
+      "page": 10,
+      "text": "LJ L Who the mouse in the basket? 10 put"
+    },
+    {
+      "page": 11,
+      "text": "LOADING The Picnic Level B Leveled Book Learning A-Z Correlation Written by Ned Jensen LEVEL B Illustrated by Signe Nordin Fountas & Pinnell B All rights reserved. Reading Recovery 2 DRA 2 WWW.  readinga-z.com"
+    }
+  ]
+}

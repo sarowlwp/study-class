@@ -1,0 +1,54 @@
+{
+  "id": "level-a/bird-goes-home",
+  "title": "Bird Goes Home",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Bird Goes Home Written by Cheryl Ryan Illustrated by Signe Nordin wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Bird Goes Home Written by Cheryl Ryan Illustrated by Signe Nordin wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "The bird goes over the tree: Bird Goes Home Level A 3 muHN"
+    },
+    {
+      "page": 4,
+      "text": "o00 The bird goes over the farm:"
+    },
+    {
+      "page": 5,
+      "text": "The bird goes over the Bird Goes Home Level A 5 city:"
+    },
+    {
+      "page": 6,
+      "text": "The bird goes over the street."
+    },
+    {
+      "page": 7,
+      "text": "The bird goes over the tables; Bird Goes Home Level A"
+    },
+    {
+      "page": 8,
+      "text": "The bird goes over the cars_ 0 8"
+    },
+    {
+      "page": 9,
+      "text": "The bird goes over the mountains. Bird Goes Home Level A OMTU_"
+    },
+    {
+      "page": 10,
+      "text": "2J The bird goes home. 10 E"
+    },
+    {
+      "page": 11,
+      "text": "Bird Goes Home Level A Leveled Book Learning A-Z Correlation Written by Cheryl Ryan LEVEL A Illustrated by Signe Nordin Fountas & Pinnell A All rights reserved: Reading Recovery DRA A-1 wwwreadinga-zcom"
+    }
+  ]
+}

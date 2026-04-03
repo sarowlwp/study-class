@@ -1,0 +1,276 @@
+{
+  "version": "1.0",
+  "total_words": 54,
+  "timings": [
+    {
+      "word": "banana",
+      "start": 0.0,
+      "end": 0.4
+    },
+    {
+      "word": "is",
+      "start": 0.4,
+      "end": 0.82
+    },
+    {
+      "word": "sometimes",
+      "start": 0.82,
+      "end": 1.7
+    },
+    {
+      "word": "written",
+      "start": 1.7,
+      "end": 2.64
+    },
+    {
+      "word": "by",
+      "start": 2.64,
+      "end": 3.24
+    },
+    {
+      "word": "elizabeth",
+      "start": 3.24,
+      "end": 3.78
+    },
+    {
+      "word": "strauss",
+      "start": 3.78,
+      "end": 5.12
+    },
+    {
+      "word": "banana",
+      "start": 5.58,
+      "end": 5.78
+    },
+    {
+      "word": "is",
+      "start": 5.78,
+      "end": 6.2
+    },
+    {
+      "word": "sometimes",
+      "start": 6.2,
+      "end": 7.02
+    },
+    {
+      "word": "looked",
+      "start": 7.02,
+      "end": 7.52
+    },
+    {
+      "word": "like",
+      "start": 7.52,
+      "end": 7.9
+    },
+    {
+      "word": "hands",
+      "start": 7.9,
+      "end": 8.36
+    },
+    {
+      "word": "banana",
+      "start": 9.24,
+      "end": 9.36
+    },
+    {
+      "word": "is",
+      "start": 9.36,
+      "end": 9.72
+    },
+    {
+      "word": "sometimes",
+      "start": 9.72,
+      "end": 10.36
+    },
+    {
+      "word": "looked",
+      "start": 10.36,
+      "end": 10.96
+    },
+    {
+      "word": "like",
+      "start": 10.96,
+      "end": 11.26
+    },
+    {
+      "word": "boats",
+      "start": 11.26,
+      "end": 11.84
+    },
+    {
+      "word": "banana",
+      "start": 12.8,
+      "end": 12.86
+    },
+    {
+      "word": "is",
+      "start": 12.86,
+      "end": 13.42
+    },
+    {
+      "word": "sometimes",
+      "start": 13.42,
+      "end": 13.84
+    },
+    {
+      "word": "looked",
+      "start": 13.84,
+      "end": 14.42
+    },
+    {
+      "word": "like",
+      "start": 14.42,
+      "end": 14.7
+    },
+    {
+      "word": "pencils",
+      "start": 14.7,
+      "end": 15.24
+    },
+    {
+      "word": "banana",
+      "start": 16.24,
+      "end": 16.36
+    },
+    {
+      "word": "is",
+      "start": 16.36,
+      "end": 16.84
+    },
+    {
+      "word": "sometimes",
+      "start": 16.84,
+      "end": 17.36
+    },
+    {
+      "word": "looked",
+      "start": 17.36,
+      "end": 17.9
+    },
+    {
+      "word": "like",
+      "start": 17.9,
+      "end": 18.38
+    },
+    {
+      "word": "spiders",
+      "start": 18.38,
+      "end": 18.86
+    },
+    {
+      "word": "banana",
+      "start": 19.72,
+      "end": 20.04
+    },
+    {
+      "word": "is",
+      "start": 20.04,
+      "end": 20.44
+    },
+    {
+      "word": "sometimes",
+      "start": 20.44,
+      "end": 21.02
+    },
+    {
+      "word": "looked",
+      "start": 21.02,
+      "end": 21.62
+    },
+    {
+      "word": "like",
+      "start": 21.62,
+      "end": 22.06
+    },
+    {
+      "word": "telephones",
+      "start": 22.06,
+      "end": 22.92
+    },
+    {
+      "word": "banana",
+      "start": 23.5,
+      "end": 23.76
+    },
+    {
+      "word": "is",
+      "start": 23.76,
+      "end": 24.22
+    },
+    {
+      "word": "sometimes",
+      "start": 24.22,
+      "end": 24.88
+    },
+    {
+      "word": "looked",
+      "start": 24.88,
+      "end": 25.42
+    },
+    {
+      "word": "like",
+      "start": 25.42,
+      "end": 25.84
+    },
+    {
+      "word": "smiles",
+      "start": 25.84,
+      "end": 26.38
+    },
+    {
+      "word": "bananas",
+      "start": 26.38,
+      "end": 27.92
+    },
+    {
+      "word": "sometimes",
+      "start": 27.92,
+      "end": 28.76
+    },
+    {
+      "word": "look",
+      "start": 28.76,
+      "end": 29.26
+    },
+    {
+      "word": "like",
+      "start": 29.26,
+      "end": 29.76
+    },
+    {
+      "word": "frowns",
+      "start": 29.76,
+      "end": 31.36
+    },
+    {
+      "word": "bananas",
+      "start": 31.44,
+      "end": 31.96
+    },
+    {
+      "word": "always",
+      "start": 31.96,
+      "end": 32.64
+    },
+    {
+      "word": "look",
+      "start": 32.64,
+      "end": 33.36
+    },
+    {
+      "word": "good",
+      "start": 33.36,
+      "end": 33.9
+    },
+    {
+      "word": "to",
+      "start": 33.9,
+      "end": 34.2
+    },
+    {
+      "word": "eat",
+      "start": 34.2,
+      "end": 34.44
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "version": "1.0",
+  "total_words": 39,
+  "timings": [
+    {
+      "word": "snake",
+      "start": 0.0,
+      "end": 0.7
+    },
+    {
+      "word": "colors",
+      "start": 0.7,
+      "end": 1.68
+    },
+    {
+      "word": "written",
+      "start": 2.42,
+      "end": 2.68
+    },
+    {
+      "word": "by",
+      "start": 2.68,
+      "end": 3.24
+    },
+    {
+      "word": "mary",
+      "start": 3.24,
+      "end": 3.68
+    },
+    {
+      "word": "anne",
+      "start": 3.68,
+      "end": 4.24
+    },
+    {
+      "word": "morazzi",
+      "start": 4.24,
+      "end": 4.9
+    },
+    {
+      "word": "this",
+      "start": 5.6,
+      "end": 5.74
+    },
+    {
+      "word": "snake",
+      "start": 5.74,
+      "end": 6.38
+    },
+    {
+      "word": "is",
+      "start": 6.38,
+      "end": 7.02
+    },
+    {
+      "word": "white",
+      "start": 7.02,
+      "end": 7.66
+    },
+    {
+      "word": "this",
+      "start": 8.26,
+      "end": 8.5
+    },
+    {
+      "word": "snake",
+      "start": 8.5,
+      "end": 9.2
+    },
+    {
+      "word": "is",
+      "start": 9.2,
+      "end": 9.9
+    },
+    {
+      "word": "yellow",
+      "start": 9.9,
+      "end": 10.62
+    },
+    {
+      "word": "this",
+      "start": 11.22,
+      "end": 11.5
+    },
+    {
+      "word": "snake",
+      "start": 11.5,
+      "end": 12.36
+    },
+    {
+      "word": "is",
+      "start": 12.36,
+      "end": 12.98
+    },
+    {
+      "word": "orange",
+      "start": 12.98,
+      "end": 14.04
+    },
+    {
+      "word": "this",
+      "start": 14.68,
+      "end": 14.92
+    },
+    {
+      "word": "snake",
+      "start": 14.92,
+      "end": 15.7
+    },
+    {
+      "word": "is",
+      "start": 15.7,
+      "end": 16.44
+    },
+    {
+      "word": "blue",
+      "start": 16.44,
+      "end": 17.14
+    },
+    {
+      "word": "this",
+      "start": 17.6,
+      "end": 18.06
+    },
+    {
+      "word": "snake",
+      "start": 18.06,
+      "end": 18.84
+    },
+    {
+      "word": "is",
+      "start": 18.84,
+      "end": 19.58
+    },
+    {
+      "word": "green",
+      "start": 19.58,
+      "end": 20.46
+    },
+    {
+      "word": "this",
+      "start": 21.06,
+      "end": 21.42
+    },
+    {
+      "word": "snake",
+      "start": 21.42,
+      "end": 22.3
+    },
+    {
+      "word": "is",
+      "start": 22.3,
+      "end": 23.0
+    },
+    {
+      "word": "pink",
+      "start": 23.0,
+      "end": 23.74
+    },
+    {
+      "word": "this",
+      "start": 23.74,
+      "end": 24.66
+    },
+    {
+      "word": "snake",
+      "start": 24.66,
+      "end": 25.54
+    },
+    {
+      "word": "is",
+      "start": 25.54,
+      "end": 26.24
+    },
+    {
+      "word": "red",
+      "start": 26.24,
+      "end": 27.16
+    },
+    {
+      "word": "this",
+      "start": 27.84,
+      "end": 28.1
+    },
+    {
+      "word": "snake",
+      "start": 28.1,
+      "end": 28.96
+    },
+    {
+      "word": "is",
+      "start": 28.96,
+      "end": 29.76
+    },
+    {
+      "word": "black",
+      "start": 29.76,
+      "end": 30.64
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "level-a/snake-colors",
+  "title": "Snake Colors",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Snake Colors Written by Ann Marazzi wwwreadinga-z.com 2 Mary"
+    },
+    {
+      "page": 2,
+      "text": "Snake Colors Written by Mary Ann Marazzi WWWreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "This snake is white. Snake Colors Level A 3"
+    },
+    {
+      "page": 4,
+      "text": "This snake is yellow:"
+    },
+    {
+      "page": 5,
+      "text": "This snake is orange: Snake Colors Level A 5"
+    },
+    {
+      "page": 6,
+      "text": "This snake is blue:"
+    },
+    {
+      "page": 7,
+      "text": "This snake is green: Snake Colors Level A"
+    },
+    {
+      "page": 8,
+      "text": "This snake is 8 pink"
+    },
+    {
+      "page": 9,
+      "text": "This snake is red: Snake Colors Level A"
+    },
+    {
+      "page": 10,
+      "text": "This snake is black: 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover: @ Ch'ien Lee/Minden Pictures; back cover: @ Giacomo Radi/ardea.com; title page: @ Adam Jones/ Visuals Unlimited/Corbis; page 3: @ Zigmund Leszczynski/age fotostock; page 4: @ Thomas Marentlardea.com; page 5: Roberto Nistri/Alamy; pages 6, 8: @ Michael D Kern/NPL/Minden Pictures; page 7: Jieophoto/iStock/ Thinkstock; page 9: @ George Grall/National Geographic Creative; page 1O: @ John Cancalosi/ardea.com Names of snakes in this book: Front cover Sabah bamboo pit viper page 6 small-scaled stiletto snake Back cover asp viper page 7 green tree Title page green vine snake page 8 corn snake page 3 Texas ratsnake page 9 red-bellied snake page 4 eyelash pit viper page 10 eastern ratsnake page 5 corn snake Snake Colors Level A Leveled Book Correlation Learning A-Z LEVEL A Written by Ann Marazzi Fountas & Pinnell A AIl rights reserved. Reading Recovery_ DRA A-1 wwwreadinga-z.com python Mary"
+    }
+  ]
+}

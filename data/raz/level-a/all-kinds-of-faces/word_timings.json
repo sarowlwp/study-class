@@ -1,0 +1,211 @@
+{
+  "version": "1.0",
+  "total_words": 41,
+  "timings": [
+    {
+      "word": "all",
+      "start": 0.0,
+      "end": 0.38
+    },
+    {
+      "word": "kinds",
+      "start": 0.38,
+      "end": 0.76
+    },
+    {
+      "word": "of",
+      "start": 0.76,
+      "end": 1.04
+    },
+    {
+      "word": "faces",
+      "start": 1.04,
+      "end": 1.58
+    },
+    {
+      "word": "written",
+      "start": 1.58,
+      "end": 2.24
+    },
+    {
+      "word": "by",
+      "start": 2.24,
+      "end": 2.68
+    },
+    {
+      "word": "a",
+      "start": 2.68,
+      "end": 2.92
+    },
+    {
+      "word": "net",
+      "start": 2.92,
+      "end": 3.12
+    },
+    {
+      "word": "currothers",
+      "start": 3.12,
+      "end": 3.8
+    },
+    {
+      "word": "this",
+      "start": 4.54,
+      "end": 4.7
+    },
+    {
+      "word": "face",
+      "start": 4.7,
+      "end": 5.02
+    },
+    {
+      "word": "is",
+      "start": 5.02,
+      "end": 5.46
+    },
+    {
+      "word": "happy",
+      "start": 5.46,
+      "end": 5.86
+    },
+    {
+      "word": "this",
+      "start": 6.54,
+      "end": 6.74
+    },
+    {
+      "word": "face",
+      "start": 6.74,
+      "end": 7.16
+    },
+    {
+      "word": "is",
+      "start": 7.16,
+      "end": 7.58
+    },
+    {
+      "word": "sad",
+      "start": 7.58,
+      "end": 7.96
+    },
+    {
+      "word": "this",
+      "start": 8.58,
+      "end": 8.84
+    },
+    {
+      "word": "face",
+      "start": 8.84,
+      "end": 9.26
+    },
+    {
+      "word": "is",
+      "start": 9.26,
+      "end": 9.68
+    },
+    {
+      "word": "sorry",
+      "start": 9.68,
+      "end": 10.06
+    },
+    {
+      "word": "this",
+      "start": 10.8,
+      "end": 11.0
+    },
+    {
+      "word": "face",
+      "start": 11.0,
+      "end": 11.48
+    },
+    {
+      "word": "is",
+      "start": 11.48,
+      "end": 11.78
+    },
+    {
+      "word": "excited",
+      "start": 11.78,
+      "end": 12.34
+    },
+    {
+      "word": "this",
+      "start": 13.1,
+      "end": 13.24
+    },
+    {
+      "word": "face",
+      "start": 13.24,
+      "end": 13.74
+    },
+    {
+      "word": "is",
+      "start": 13.74,
+      "end": 14.12
+    },
+    {
+      "word": "scared",
+      "start": 14.12,
+      "end": 14.48
+    },
+    {
+      "word": "this",
+      "start": 15.16,
+      "end": 15.4
+    },
+    {
+      "word": "face",
+      "start": 15.4,
+      "end": 15.84
+    },
+    {
+      "word": "is",
+      "start": 15.84,
+      "end": 16.2
+    },
+    {
+      "word": "shy",
+      "start": 16.2,
+      "end": 16.68
+    },
+    {
+      "word": "this",
+      "start": 17.86,
+      "end": 18.06
+    },
+    {
+      "word": "face",
+      "start": 18.06,
+      "end": 18.52
+    },
+    {
+      "word": "is",
+      "start": 18.52,
+      "end": 18.92
+    },
+    {
+      "word": "mad",
+      "start": 18.92,
+      "end": 19.3
+    },
+    {
+      "word": "this",
+      "start": 19.92,
+      "end": 20.1
+    },
+    {
+      "word": "face",
+      "start": 20.1,
+      "end": 20.58
+    },
+    {
+      "word": "is",
+      "start": 20.58,
+      "end": 20.94
+    },
+    {
+      "word": "sleepy",
+      "start": 20.94,
+      "end": 21.18
+    }
+  ]
+}

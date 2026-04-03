@@ -1,0 +1,651 @@
+{
+  "version": "1.0",
+  "total_words": 129,
+  "timings": [
+    {
+      "word": "there",
+      "start": 0.0,
+      "end": 0.7
+    },
+    {
+      "word": "is",
+      "start": 0.7,
+      "end": 1.6
+    },
+    {
+      "word": "a",
+      "start": 1.6,
+      "end": 2.04
+    },
+    {
+      "word": "mouse",
+      "start": 2.04,
+      "end": 2.52
+    },
+    {
+      "word": "in",
+      "start": 2.52,
+      "end": 3.48
+    },
+    {
+      "word": "the",
+      "start": 3.48,
+      "end": 4.1
+    },
+    {
+      "word": "house",
+      "start": 4.1,
+      "end": 5.12
+    },
+    {
+      "word": "written",
+      "start": 6.06,
+      "end": 6.34
+    },
+    {
+      "word": "by",
+      "start": 6.34,
+      "end": 7.18
+    },
+    {
+      "word": "rachel",
+      "start": 7.18,
+      "end": 7.68
+    },
+    {
+      "word": "rice",
+      "start": 7.68,
+      "end": 8.82
+    },
+    {
+      "word": "illustrated",
+      "start": 10.4,
+      "end": 10.4
+    },
+    {
+      "word": "by",
+      "start": 10.4,
+      "end": 11.42
+    },
+    {
+      "word": "laura",
+      "start": 11.42,
+      "end": 11.88
+    },
+    {
+      "word": "zaryn",
+      "start": 11.88,
+      "end": 13.04
+    },
+    {
+      "word": "focus",
+      "start": 14.7,
+      "end": 15.06
+    },
+    {
+      "word": "question",
+      "start": 15.06,
+      "end": 16.04
+    },
+    {
+      "word": "how",
+      "start": 16.04,
+      "end": 17.96
+    },
+    {
+      "word": "do",
+      "start": 17.96,
+      "end": 18.66
+    },
+    {
+      "word": "you",
+      "start": 18.66,
+      "end": 19.06
+    },
+    {
+      "word": "know",
+      "start": 19.06,
+      "end": 19.54
+    },
+    {
+      "word": "what",
+      "start": 19.54,
+      "end": 20.3
+    },
+    {
+      "word": "animal",
+      "start": 20.3,
+      "end": 21.18
+    },
+    {
+      "word": "will",
+      "start": 21.18,
+      "end": 21.98
+    },
+    {
+      "word": "come",
+      "start": 21.98,
+      "end": 22.38
+    },
+    {
+      "word": "next",
+      "start": 22.38,
+      "end": 23.22
+    },
+    {
+      "word": "in",
+      "start": 23.22,
+      "end": 23.84
+    },
+    {
+      "word": "the",
+      "start": 23.84,
+      "end": 24.18
+    },
+    {
+      "word": "story",
+      "start": 24.18,
+      "end": 24.82
+    },
+    {
+      "word": "there",
+      "start": 25.44,
+      "end": 25.7
+    },
+    {
+      "word": "is",
+      "start": 25.7,
+      "end": 26.6
+    },
+    {
+      "word": "a",
+      "start": 26.6,
+      "end": 27.04
+    },
+    {
+      "word": "mouse",
+      "start": 27.04,
+      "end": 27.52
+    },
+    {
+      "word": "in",
+      "start": 27.52,
+      "end": 28.54
+    },
+    {
+      "word": "the",
+      "start": 28.54,
+      "end": 29.12
+    },
+    {
+      "word": "house",
+      "start": 29.12,
+      "end": 29.8
+    },
+    {
+      "word": "there",
+      "start": 30.32,
+      "end": 30.48
+    },
+    {
+      "word": "is",
+      "start": 30.48,
+      "end": 31.26
+    },
+    {
+      "word": "a",
+      "start": 31.26,
+      "end": 31.84
+    },
+    {
+      "word": "bee",
+      "start": 31.84,
+      "end": 32.32
+    },
+    {
+      "word": "in",
+      "start": 32.32,
+      "end": 33.4
+    },
+    {
+      "word": "the",
+      "start": 33.4,
+      "end": 34.26
+    },
+    {
+      "word": "tea",
+      "start": 34.26,
+      "end": 34.8
+    },
+    {
+      "word": "there",
+      "start": 35.52,
+      "end": 35.52
+    },
+    {
+      "word": "is",
+      "start": 35.52,
+      "end": 36.16
+    },
+    {
+      "word": "a",
+      "start": 36.16,
+      "end": 36.74
+    },
+    {
+      "word": "bat",
+      "start": 36.74,
+      "end": 37.16
+    },
+    {
+      "word": "on",
+      "start": 37.16,
+      "end": 38.26
+    },
+    {
+      "word": "the",
+      "start": 38.26,
+      "end": 38.96
+    },
+    {
+      "word": "hat",
+      "start": 38.96,
+      "end": 39.54
+    },
+    {
+      "word": "there",
+      "start": 40.08,
+      "end": 40.28
+    },
+    {
+      "word": "is",
+      "start": 40.28,
+      "end": 41.02
+    },
+    {
+      "word": "a",
+      "start": 41.02,
+      "end": 41.64
+    },
+    {
+      "word": "pup",
+      "start": 41.64,
+      "end": 41.98
+    },
+    {
+      "word": "in",
+      "start": 41.98,
+      "end": 42.94
+    },
+    {
+      "word": "the",
+      "start": 42.94,
+      "end": 43.6
+    },
+    {
+      "word": "cup",
+      "start": 43.6,
+      "end": 44.12
+    },
+    {
+      "word": "there",
+      "start": 44.6,
+      "end": 44.8
+    },
+    {
+      "word": "is",
+      "start": 44.8,
+      "end": 45.36
+    },
+    {
+      "word": "a",
+      "start": 45.36,
+      "end": 45.86
+    },
+    {
+      "word": "bug",
+      "start": 45.86,
+      "end": 46.22
+    },
+    {
+      "word": "on",
+      "start": 46.22,
+      "end": 47.16
+    },
+    {
+      "word": "the",
+      "start": 47.16,
+      "end": 47.74
+    },
+    {
+      "word": "rug",
+      "start": 47.74,
+      "end": 48.22
+    },
+    {
+      "word": "there",
+      "start": 48.86,
+      "end": 49.04
+    },
+    {
+      "word": "is",
+      "start": 49.04,
+      "end": 49.7
+    },
+    {
+      "word": "a",
+      "start": 49.7,
+      "end": 50.42
+    },
+    {
+      "word": "fox",
+      "start": 50.42,
+      "end": 50.88
+    },
+    {
+      "word": "in",
+      "start": 50.88,
+      "end": 51.86
+    },
+    {
+      "word": "the",
+      "start": 51.86,
+      "end": 52.66
+    },
+    {
+      "word": "box",
+      "start": 52.66,
+      "end": 53.18
+    },
+    {
+      "word": "there",
+      "start": 53.9,
+      "end": 53.98
+    },
+    {
+      "word": "is",
+      "start": 53.98,
+      "end": 54.64
+    },
+    {
+      "word": "a",
+      "start": 54.64,
+      "end": 55.0
+    },
+    {
+      "word": "goat",
+      "start": 55.0,
+      "end": 55.42
+    },
+    {
+      "word": "on",
+      "start": 55.42,
+      "end": 56.26
+    },
+    {
+      "word": "the",
+      "start": 56.26,
+      "end": 56.84
+    },
+    {
+      "word": "boat",
+      "start": 56.84,
+      "end": 57.34
+    },
+    {
+      "word": "there",
+      "start": 57.34,
+      "end": 58.02
+    },
+    {
+      "word": "is",
+      "start": 58.02,
+      "end": 58.94
+    },
+    {
+      "word": "a",
+      "start": 58.94,
+      "end": 59.24
+    },
+    {
+      "word": "bear",
+      "start": 59.24,
+      "end": 59.9
+    },
+    {
+      "word": "in",
+      "start": 59.9,
+      "end": 60.88
+    },
+    {
+      "word": "the",
+      "start": 60.88,
+      "end": 61.44
+    },
+    {
+      "word": "air",
+      "start": 61.44,
+      "end": 62.22
+    },
+    {
+      "word": "connections",
+      "start": 62.22,
+      "end": 63.3
+    },
+    {
+      "word": "writing",
+      "start": 64.76,
+      "end": 64.94
+    },
+    {
+      "word": "and",
+      "start": 64.94,
+      "end": 65.86
+    },
+    {
+      "word": "art",
+      "start": 65.86,
+      "end": 67.14
+    },
+    {
+      "word": "think",
+      "start": 68.04,
+      "end": 68.08
+    },
+    {
+      "word": "of",
+      "start": 68.08,
+      "end": 68.7
+    },
+    {
+      "word": "an",
+      "start": 68.7,
+      "end": 69.1
+    },
+    {
+      "word": "animal",
+      "start": 69.1,
+      "end": 69.54
+    },
+    {
+      "word": "not",
+      "start": 69.54,
+      "end": 70.14
+    },
+    {
+      "word": "in",
+      "start": 70.14,
+      "end": 70.8
+    },
+    {
+      "word": "this",
+      "start": 70.8,
+      "end": 71.2
+    },
+    {
+      "word": "story",
+      "start": 71.2,
+      "end": 72.24
+    },
+    {
+      "word": "complete",
+      "start": 73.16,
+      "end": 73.5
+    },
+    {
+      "word": "this",
+      "start": 73.5,
+      "end": 74.52
+    },
+    {
+      "word": "rhyme",
+      "start": 74.52,
+      "end": 75.02
+    },
+    {
+      "word": "there",
+      "start": 76.48,
+      "end": 76.72
+    },
+    {
+      "word": "is",
+      "start": 76.72,
+      "end": 77.64
+    },
+    {
+      "word": "a",
+      "start": 77.64,
+      "end": 79.16
+    },
+    {
+      "word": "in",
+      "start": 79.16,
+      "end": 79.86
+    },
+    {
+      "word": "the",
+      "start": 79.86,
+      "end": 81.26
+    },
+    {
+      "word": "draw",
+      "start": 81.26,
+      "end": 82.48
+    },
+    {
+      "word": "a",
+      "start": 82.48,
+      "end": 82.96
+    },
+    {
+      "word": "picture",
+      "start": 82.96,
+      "end": 83.38
+    },
+    {
+      "word": "for",
+      "start": 83.38,
+      "end": 84.4
+    },
+    {
+      "word": "your",
+      "start": 84.4,
+      "end": 84.94
+    },
+    {
+      "word": "rhyme",
+      "start": 84.94,
+      "end": 85.46
+    },
+    {
+      "word": "science",
+      "start": 86.86,
+      "end": 87.86
+    },
+    {
+      "word": "where",
+      "start": 89.5,
+      "end": 89.72
+    },
+    {
+      "word": "can",
+      "start": 89.72,
+      "end": 90.32
+    },
+    {
+      "word": "the",
+      "start": 90.32,
+      "end": 90.74
+    },
+    {
+      "word": "animals",
+      "start": 90.74,
+      "end": 91.24
+    },
+    {
+      "word": "in",
+      "start": 91.24,
+      "end": 91.94
+    },
+    {
+      "word": "this",
+      "start": 91.94,
+      "end": 92.3
+    },
+    {
+      "word": "book",
+      "start": 92.3,
+      "end": 92.98
+    },
+    {
+      "word": "be",
+      "start": 92.98,
+      "end": 93.4
+    },
+    {
+      "word": "found",
+      "start": 93.4,
+      "end": 93.76
+    },
+    {
+      "word": "in",
+      "start": 93.76,
+      "end": 94.26
+    },
+    {
+      "word": "nature",
+      "start": 94.26,
+      "end": 94.96
+    },
+    {
+      "word": "share",
+      "start": 96.88,
+      "end": 97.1
+    },
+    {
+      "word": "your",
+      "start": 97.1,
+      "end": 97.68
+    },
+    {
+      "word": "ideas",
+      "start": 97.68,
+      "end": 98.32
+    },
+    {
+      "word": "with",
+      "start": 98.32,
+      "end": 99.18
+    },
+    {
+      "word": "a",
+      "start": 99.18,
+      "end": 99.4
+    },
+    {
+      "word": "partner",
+      "start": 99.4,
+      "end": 99.8
+    }
+  ]
+}

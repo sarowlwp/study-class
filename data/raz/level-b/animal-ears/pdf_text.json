@@ -1,0 +1,54 @@
+{
+  "id": "level-b/animal-ears",
+  "title": "Animal Ears",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Animal Ears Written by Mary Ann Marazzi wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Animal Ears Written by Mary Ann Marazzi WWWreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "This elephant has big ears. Animal Ears Level B 3"
+    },
+    {
+      "page": 4,
+      "text": "This beaver has small ears."
+    },
+    {
+      "page": 5,
+      "text": "This fox has pointed ears. Animal Ears Level B 5"
+    },
+    {
+      "page": 6,
+      "text": "This bear has round ears."
+    },
+    {
+      "page": 7,
+      "text": "This cat has striped ears. Animal Ears Level B"
+    },
+    {
+      "page": 8,
+      "text": "This puppy has spotted ears. 8"
+    },
+    {
+      "page": 9,
+      "text": "This rabbit has long ears. Animal Ears Level B"
+    },
+    {
+      "page": 10,
+      "text": "Does this seal have ears? 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover; page 3: @ Vladimir Liverts/123RF; back cover: Eric Isselee/iStock/Thinkstock; title page: Eastman PhotographyliStock/ Thinkstock; page 4: @ Robert McGouey/ Wildlife/Alamy; page 5: @ Eric Gevaert/Hemera/Thinkstock; page 6: @ Tom + Pat Leeson/ardea.com; page 7: @ Hedrus/Dreamstime.com; page 8: @0 DoraZettfiStock/Thinkstock; page 9: @ Exactostock/SuperStock; page 10: @ Charlesmasters/ Dreamstime.com Animal Ears Level B Leveled Book Correlation 0 Learning A-Z LEVEL B Written by Ann Marazzi Fountas & Pinnell B AIl rights reserved. Reading Recovery 2 DRA 2 wwwreadinga-z.com Mary"
+    }
+  ]
+}

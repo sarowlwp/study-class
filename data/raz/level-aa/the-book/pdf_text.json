@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/the-book",
+  "title": "The Book",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , aa The Book LEVELED Book ' C Mongo and Cutie Wrillan by Gludys Osborn Illublrgled by Ryyulu W, Buller wwwreadinga-zcom Written by Keith and Sarah Kortemartin Illustrated by Reginald W. Butler wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "The Book LEVELED Book , € Mongo and Cutie Writtgn by Gldy' O@o Illustouy] By Kyyhgly W jullyr wwrreadinga-zcom Written Keith and Sarah Kortemartin Illustrated Reginald W. Butler wwwreadinga-z.com by by"
+    },
+    {
+      "page": 3,
+      "text": "LEVELED Book , C Mongo and Cutie Wrilten by Glbdys Osborh Illustrgled by Ragnold W. Burler wwwreadinga-zcom The front cover. The Book Level aa 3"
+    },
+    {
+      "page": 4,
+      "text": "sngo and Cutie A Reading A-Z Level C Leveled Book Word Count: 44 Readinga-z Visit wwwreadinga-z.com for thousands of books ond materiols The back cover:"
+    },
+    {
+      "page": 5,
+      "text": "LEVELED Book , C Mongo nd Cutie Writt Illustrol The title: The Book Level aa 5"
+    },
+    {
+      "page": 6,
+      "text": "D Wbkh D wngo ti run: IWd wh ln The pages: Aaty"
+    },
+    {
+      "page": 7,
+      "text": "tries to The words. The Book Level aa"
+    },
+    {
+      "page": 8,
+      "text": "ie t The letters: 8"
+    },
+    {
+      "page": 9,
+      "text": "Mongo in: The page number The Book Level aa"
+    },
+    {
+      "page": 10,
+      "text": "DlaLOD Mongo Curle The book 10 Mongo ond Cutie Wrmfd and Reading - 4-2"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: All photos Craig Frederick/O Learning A-Z Book Level aa Leveled Book @ Learning A-Z Correlation Written by Keith and Sarah Kortemartin LEVEL aa Illustrated by Reginald W Butler Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-zcom The"
+    }
+  ]
+}

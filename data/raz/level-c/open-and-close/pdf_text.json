@@ -1,0 +1,50 @@
+{
+  "id": "level-c/open-and-close",
+  "title": "Open And Close",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 10,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C Open and Close 3x 6 Written by Ned Jensen Illustrated by Angela Kamstra WWw.readinga-z.com S5"
+    },
+    {
+      "page": 2,
+      "text": "Open and Close Written by Ned Jensen Illustrated Angela Kamstra wwwreadinga-z.com by"
+    },
+    {
+      "page": 3,
+      "text": "GY 98 L open the door _ You close the door_ Open and Close Level € 3"
+    },
+    {
+      "page": 4,
+      "text": "1 open the window_ You close the window _ 09"
+    },
+    {
+      "page": 5,
+      "text": "I@LsV L open the drawer . You close the drawer . Open and Close Level € 5"
+    },
+    {
+      "page": 6,
+      "text": "6> 6, 6_ 'U I open the box. You close the box."
+    },
+    {
+      "page": 7,
+      "text": "e Sa 1 open the book. You close the book_ Open and Close Level €"
+    },
+    {
+      "page": 8,
+      "text": "1 open the cage. Open and Close Level €"
+    },
+    {
+      "page": 9,
+      "text": "J Quick, 1 quickl Close the cagel 10"
+    },
+    {
+      "page": 10,
+      "text": "IoadinG and Close Level C Leveled Book Learning A-Z Correlation Written by Ned Jensen LEVEL C Illustrated by Angela Kamstra Fountas & Pinnell All rights reserved. Reading Recovery 3-4 DRA 3-4 WWW.R readinga-z.com Open"
+    }
+  ]
+}

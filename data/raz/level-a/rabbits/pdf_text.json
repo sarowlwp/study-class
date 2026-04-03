@@ -1,0 +1,54 @@
+{
+  "id": "level-a/rabbits",
+  "title": "Rabbits",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Rabbits Written by Kim Brown wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Rabbits Written by Kim Brown wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "This rabbit is big: Rabbits Level A 3"
+    },
+    {
+      "page": 4,
+      "text": "This rabbit is small:"
+    },
+    {
+      "page": 5,
+      "text": "This rabbit is black. Rabbits Level A 5"
+    },
+    {
+      "page": 6,
+      "text": "This rabbit is white:"
+    },
+    {
+      "page": 7,
+      "text": "This rabbit is Rabbits Level A fluffy:"
+    },
+    {
+      "page": 8,
+      "text": "This rabbit is tall: 8"
+    },
+    {
+      "page": 9,
+      "text": "This rabbit is short_ Rabbits Level A"
+    },
+    {
+      "page": 10,
+      "text": "This rabbit is fast. 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover; page &: @ FI ONLINEISuperStock; back cover: @ RubberBall SuperStock; title page: Patricia Vazquez/SuperStock; page 3: @ Fancy Collection/SuperStock; page 4: SOMOS/SuperStock; page 5: @ Westendbl GmbHAlamy; page 6: @ Michael Quinton/Minden Pictures; page 7: iStockphotocom/Peng Wu; page 9: Cyril Ruoso/JH EditorialMinden Pictures; page 10: @0 Konrad WothelMinden Pictures Rabbits Level A Leveled Book Correlation Learning A-Z LEVEL A Written by Kim Brown Fountas & Pinnell A All rights reserved: Reading_ Recovery 1 DRA A-1 wwwreadinga-z.com"
+    }
+  ]
+}

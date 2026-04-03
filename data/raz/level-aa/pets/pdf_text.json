@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/pets",
+  "title": "Pets",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , Aa Pets Written by Lisa Ing WWw.readinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Pets Written by Lisa wwwreadinga-z.com Ing"
+    },
+    {
+      "page": 3,
+      "text": "C The cat. Pets Level aa 3"
+    },
+    {
+      "page": 4,
+      "text": "The dog_"
+    },
+    {
+      "page": 5,
+      "text": "The bunny. Pets Level aa 5"
+    },
+    {
+      "page": 6,
+      "text": "The bird."
+    },
+    {
+      "page": 7,
+      "text": "The   goldfish: Pets Level aa"
+    },
+    {
+      "page": 8,
+      "text": "The mouse. 8"
+    },
+    {
+      "page": 9,
+      "text": "The turtle. Pets Level aa"
+    },
+    {
+      "page": 10,
+      "text": "The hamster . 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover, page 5: @ iStockphoto.com; back cover, page 3: @ iStockphoto com/ Angelika Schwarz; title page, page 4: @ iStockphoto com / GoosePhotographic; pages 6 1O: @ Hemera Technologies/ Jupiterimages Corporation; page 7: Photodisc; page 8: @ iStockphoto.com; Alexander Ishchenko; page 9: iStockphoto.com Pets Level aa Leveled Book Correlation Learning A-Z LEVEL aa Written by Lisa Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 WWW.R readinga-z.com Ing"
+    }
+  ]
+}

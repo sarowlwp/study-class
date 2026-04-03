@@ -1,0 +1,54 @@
+{
+  "id": "level-b/the-hungry-goat",
+  "title": "The Hungry Goat",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B The Hungry Goat Written by Torran Anderson\" Illustrated by Linda Silvestri wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "The Hungry Goat m1 {tio , Vlv Written by Torran Anderson Illustrated by Linda Silvestri wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "goat ate the pretty flowers. The Hungry Goat Level B 3 Kg My"
+    },
+    {
+      "page": 4,
+      "text": "goat ate the   stinky trash: My"
+    },
+    {
+      "page": 5,
+      "text": "goat ate the clean clothes. The Hungry Goat Level B 5 My"
+    },
+    {
+      "page": 6,
+      "text": "WM ( ( u ; 1 1 WI/ Ne goat ate the old shoes. 7o Ac Viy_ My"
+    },
+    {
+      "page": 7,
+      "text": "3// M goat ate the new ball: The Hungry Goat Level B Mii_ My"
+    },
+    {
+      "page": 8,
+      "text": "0 4 J V 0 6 6 95 0 lo 2 - Ielo- J 4 goat ate the math problems 8 04m 53i teoie Ix A 091 ~ 37 No~ 071? ArC 4488v M~ My"
+    },
+    {
+      "page": 9,
+      "text": "goat ate the big book The Hungry Goat Level B 8 My"
+    },
+    {
+      "page": 10,
+      "text": "\" goat will not eat its lunch: 10 My"
+    },
+    {
+      "page": 11,
+      "text": "The Hungry Goat Level B Leveled Book Learning A-Z Correlation Written by Torran Anderson LEVEL B Illustrated by Linda Silvestri Fountas & Pinnell B AIl rights reserved: Reading_Recovery 2 DRA 2 wwwreadinga-z.com"
+    }
+  ]
+}

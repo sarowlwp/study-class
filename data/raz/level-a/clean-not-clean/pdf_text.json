@@ -1,0 +1,58 @@
+{
+  "id": "level-a/clean-not-clean",
+  "title": "Clean Not Clean",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Clean; Not Clean Written by Edie Evans Illustrated by Neesha Hudson wwwreadinga-z.com Ja"
+    },
+    {
+      "page": 2,
+      "text": "Clean, Not Clean Written by Edie Evans Illustrated by Neesha Hudson wwwreadinga-z.com Focus Question What is the difference between clean and not clean?"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know clean not food room hand shoe Clean; Not Clean Level A Leveled Book Learning A-Z Correlation Written by Edie Evans LEVEL A Illustrated by Neesha Hudson Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 wwwreadinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "0 This room is clean: Clean; Not Clean G Level A 3 22"
+    },
+    {
+      "page": 5,
+      "text": "8 This room is not clean: 40"
+    },
+    {
+      "page": 6,
+      "text": "This shoe is clean: Clean; Not Clean G Level A 5"
+    },
+    {
+      "page": 7,
+      "text": "This shoe is not clean:"
+    },
+    {
+      "page": 8,
+      "text": "38 e This hand is clean: Clean; Not Clean * Level A"
+    },
+    {
+      "page": 9,
+      "text": "RS This hand is not clean: 8"
+    },
+    {
+      "page": 10,
+      "text": "0 This food is clean: Clean; Not Clean G Level A"
+    },
+    {
+      "page": 11,
+      "text": "( < & This food is not clean: 10"
+    },
+    {
+      "page": 12,
+      "text": "Clean, Not Clean A Reading A-Z Level A Leveled Book Word Count: 36 Connections Writing and Art Write two new pages for the book Use the pattern from the book: Draw a picture for each page: Health When is it important to have clean hands? Share your ideas with a partner Reading A-z Visit wwwreadinga-z.com for thousands of books and materials."
+    }
+  ]
+}

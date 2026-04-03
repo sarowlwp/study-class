@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/in",
+  "title": "In",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book 0 A0 Q1 In 3m Written by Cheryl Ryan Illustrated by Nora Voutas wwwreadinga-z.com 333"
+    },
+    {
+      "page": 2,
+      "text": "In Written by Cheryl Ryan Illustrated by Nora Voutas wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "S2 In the car_ In Level aa 3"
+    },
+    {
+      "page": 4,
+      "text": "ZL In the wagon_"
+    },
+    {
+      "page": 5,
+      "text": ")) In the boat_ In Level aa 5"
+    },
+    {
+      "page": 6,
+      "text": "2) In the house . Lt"
+    },
+    {
+      "page": 7,
+      "text": "In the water . In Level aa"
+    },
+    {
+      "page": 8,
+      "text": "In the grass. 8 ( Mkukts"
+    },
+    {
+      "page": 9,
+      "text": "s8 )) ( Cz In the mud In Level aa"
+    },
+    {
+      "page": 10,
+      "text": "TO (( L 'In the bathtub. 10 7c (SOAP"
+    },
+    {
+      "page": 11,
+      "text": "In Level aa Leveled Book Learning A-Z Correlation Written by Cheryl Ryan LEVEL aa Illustrated by Nora Voutas Fountas & Pinnell A All reserved. Reading_Recovery DRA A-1 WWW.   readinga-z.( com rights"
+    }
+  ]
+}

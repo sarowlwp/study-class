@@ -1,0 +1,496 @@
+{
+  "version": "1.0",
+  "total_words": 98,
+  "timings": [
+    {
+      "word": "swing",
+      "start": 0.0,
+      "end": 0.9
+    },
+    {
+      "word": "sydney",
+      "start": 1.24,
+      "end": 1.68
+    },
+    {
+      "word": "swing",
+      "start": 2.06,
+      "end": 2.88
+    },
+    {
+      "word": "written",
+      "start": 3.78,
+      "end": 4.08
+    },
+    {
+      "word": "by",
+      "start": 4.08,
+      "end": 4.86
+    },
+    {
+      "word": "rachel",
+      "start": 4.86,
+      "end": 5.56
+    },
+    {
+      "word": "rice",
+      "start": 5.56,
+      "end": 6.6
+    },
+    {
+      "word": "illustrated",
+      "start": 7.4,
+      "end": 7.94
+    },
+    {
+      "word": "by",
+      "start": 7.94,
+      "end": 8.9
+    },
+    {
+      "word": "brian",
+      "start": 8.9,
+      "end": 9.56
+    },
+    {
+      "word": "dumm",
+      "start": 9.56,
+      "end": 11.46
+    },
+    {
+      "word": "focus",
+      "start": 11.7,
+      "end": 11.98
+    },
+    {
+      "word": "question",
+      "start": 12.58,
+      "end": 12.98
+    },
+    {
+      "word": "where",
+      "start": 13.92,
+      "end": 14.24
+    },
+    {
+      "word": "does",
+      "start": 14.24,
+      "end": 14.94
+    },
+    {
+      "word": "sydney",
+      "start": 14.94,
+      "end": 15.42
+    },
+    {
+      "word": "swing",
+      "start": 16.0,
+      "end": 16.46
+    },
+    {
+      "word": "sydney",
+      "start": 17.06,
+      "end": 17.54
+    },
+    {
+      "word": "loves",
+      "start": 18.22,
+      "end": 18.66
+    },
+    {
+      "word": "to",
+      "start": 18.66,
+      "end": 19.44
+    },
+    {
+      "word": "swing",
+      "start": 19.44,
+      "end": 19.9
+    },
+    {
+      "word": "sydney",
+      "start": 20.4,
+      "end": 20.96
+    },
+    {
+      "word": "swings",
+      "start": 21.66,
+      "end": 22.18
+    },
+    {
+      "word": "above",
+      "start": 22.18,
+      "end": 23.22
+    },
+    {
+      "word": "the",
+      "start": 23.22,
+      "end": 24.04
+    },
+    {
+      "word": "grass",
+      "start": 24.04,
+      "end": 24.84
+    },
+    {
+      "word": "sydney",
+      "start": 24.84,
+      "end": 25.86
+    },
+    {
+      "word": "swings",
+      "start": 26.32,
+      "end": 27.18
+    },
+    {
+      "word": "below",
+      "start": 27.18,
+      "end": 28.36
+    },
+    {
+      "word": "the",
+      "start": 28.36,
+      "end": 29.36
+    },
+    {
+      "word": "tree",
+      "start": 29.36,
+      "end": 30.02
+    },
+    {
+      "word": "sydney",
+      "start": 30.56,
+      "end": 30.92
+    },
+    {
+      "word": "swings",
+      "start": 31.78,
+      "end": 32.2
+    },
+    {
+      "word": "over",
+      "start": 32.2,
+      "end": 33.4
+    },
+    {
+      "word": "the",
+      "start": 33.4,
+      "end": 34.18
+    },
+    {
+      "word": "mud",
+      "start": 34.18,
+      "end": 34.96
+    },
+    {
+      "word": "sydney",
+      "start": 36.0,
+      "end": 36.0
+    },
+    {
+      "word": "swings",
+      "start": 36.42,
+      "end": 37.1
+    },
+    {
+      "word": "under",
+      "start": 37.1,
+      "end": 38.0
+    },
+    {
+      "word": "the",
+      "start": 38.0,
+      "end": 38.8
+    },
+    {
+      "word": "nest",
+      "start": 38.8,
+      "end": 39.34
+    },
+    {
+      "word": "sydney",
+      "start": 39.96,
+      "end": 40.36
+    },
+    {
+      "word": "swings",
+      "start": 40.92,
+      "end": 41.62
+    },
+    {
+      "word": "beside",
+      "start": 41.62,
+      "end": 42.76
+    },
+    {
+      "word": "the",
+      "start": 42.76,
+      "end": 43.58
+    },
+    {
+      "word": "goat",
+      "start": 43.58,
+      "end": 44.16
+    },
+    {
+      "word": "sydney",
+      "start": 44.84,
+      "end": 45.16
+    },
+    {
+      "word": "swings",
+      "start": 45.5,
+      "end": 46.28
+    },
+    {
+      "word": "between",
+      "start": 46.28,
+      "end": 47.26
+    },
+    {
+      "word": "the",
+      "start": 47.26,
+      "end": 48.38
+    },
+    {
+      "word": "chickens",
+      "start": 48.38,
+      "end": 48.98
+    },
+    {
+      "word": "sydney",
+      "start": 48.98,
+      "end": 50.2
+    },
+    {
+      "word": "swings",
+      "start": 50.2,
+      "end": 51.32
+    },
+    {
+      "word": "at",
+      "start": 51.32,
+      "end": 52.36
+    },
+    {
+      "word": "the",
+      "start": 52.36,
+      "end": 53.12
+    },
+    {
+      "word": "farm",
+      "start": 53.12,
+      "end": 53.64
+    },
+    {
+      "word": "connections",
+      "start": 53.64,
+      "end": 54.74
+    },
+    {
+      "word": "writing",
+      "start": 56.06,
+      "end": 56.2
+    },
+    {
+      "word": "and",
+      "start": 56.2,
+      "end": 57.02
+    },
+    {
+      "word": "art",
+      "start": 57.02,
+      "end": 57.96
+    },
+    {
+      "word": "what",
+      "start": 59.3,
+      "end": 59.38
+    },
+    {
+      "word": "other",
+      "start": 59.38,
+      "end": 60.2
+    },
+    {
+      "word": "things",
+      "start": 60.2,
+      "end": 61.14
+    },
+    {
+      "word": "could",
+      "start": 61.14,
+      "end": 62.02
+    },
+    {
+      "word": "sydney",
+      "start": 62.02,
+      "end": 62.6
+    },
+    {
+      "word": "see",
+      "start": 62.6,
+      "end": 63.6
+    },
+    {
+      "word": "on",
+      "start": 63.6,
+      "end": 64.26
+    },
+    {
+      "word": "a",
+      "start": 64.26,
+      "end": 64.84
+    },
+    {
+      "word": "farm",
+      "start": 64.84,
+      "end": 65.46
+    },
+    {
+      "word": "draw",
+      "start": 66.38,
+      "end": 66.88
+    },
+    {
+      "word": "a",
+      "start": 66.88,
+      "end": 67.52
+    },
+    {
+      "word": "picture",
+      "start": 67.52,
+      "end": 67.92
+    },
+    {
+      "word": "and",
+      "start": 67.92,
+      "end": 69.0
+    },
+    {
+      "word": "write",
+      "start": 69.0,
+      "end": 69.84
+    },
+    {
+      "word": "about",
+      "start": 69.84,
+      "end": 70.64
+    },
+    {
+      "word": "it",
+      "start": 70.64,
+      "end": 71.72
+    },
+    {
+      "word": "social",
+      "start": 72.5,
+      "end": 72.9
+    },
+    {
+      "word": "studies",
+      "start": 72.9,
+      "end": 73.9
+    },
+    {
+      "word": "how",
+      "start": 73.9,
+      "end": 75.94
+    },
+    {
+      "word": "is",
+      "start": 75.94,
+      "end": 76.64
+    },
+    {
+      "word": "a",
+      "start": 76.64,
+      "end": 77.14
+    },
+    {
+      "word": "farm",
+      "start": 77.14,
+      "end": 77.58
+    },
+    {
+      "word": "the",
+      "start": 77.58,
+      "end": 78.28
+    },
+    {
+      "word": "same",
+      "start": 78.28,
+      "end": 79.0
+    },
+    {
+      "word": "as",
+      "start": 79.0,
+      "end": 79.72
+    },
+    {
+      "word": "where",
+      "start": 79.72,
+      "end": 80.22
+    },
+    {
+      "word": "you",
+      "start": 80.22,
+      "end": 80.8
+    },
+    {
+      "word": "live",
+      "start": 80.8,
+      "end": 81.4
+    },
+    {
+      "word": "how",
+      "start": 82.16,
+      "end": 82.38
+    },
+    {
+      "word": "is",
+      "start": 82.38,
+      "end": 83.3
+    },
+    {
+      "word": "it",
+      "start": 83.3,
+      "end": 83.84
+    },
+    {
+      "word": "different",
+      "start": 83.84,
+      "end": 84.44
+    },
+    {
+      "word": "share",
+      "start": 85.54,
+      "end": 85.9
+    },
+    {
+      "word": "your",
+      "start": 85.9,
+      "end": 86.66
+    },
+    {
+      "word": "ideas",
+      "start": 86.66,
+      "end": 87.38
+    },
+    {
+      "word": "with",
+      "start": 87.38,
+      "end": 88.3
+    },
+    {
+      "word": "a",
+      "start": 88.3,
+      "end": 88.6
+    },
+    {
+      "word": "partner",
+      "start": 88.6,
+      "end": 88.98
+    }
+  ]
+}

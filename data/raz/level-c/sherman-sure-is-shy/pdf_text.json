@@ -1,0 +1,62 @@
+{
+  "id": "level-c/sherman-sure-is-shy",
+  "title": "Sherman Sure Is Shy",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 13,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C Sherman Sure Is WM Tl Written by Karen Mockler Illustrated by Kaori Tajima wwwreadinga-z.com Shy"
+    },
+    {
+      "page": 2,
+      "text": "Sherman Sure Is Wn Written by Karen Mockler Illustrated by Kaori Tajima wwwreadinga-z.com Shy"
+    },
+    {
+      "page": 3,
+      "text": "1046 HIn Tne V M sure is wonderful: Sherman Sure Is Shy Level € 3 Wally"
+    },
+    {
+      "page": 4,
+      "text": "@h@ #7 Vt; 105 M Mp  Sherman sure is shy:"
+    },
+    {
+      "page": 5,
+      "text": "Iu, Preston sure is proud Sherman Sure Is Shy Level € 5"
+    },
+    {
+      "page": 6,
+      "text": "WM T077 # Ju' Ma I, T, Sherman sure is Mt shy:"
+    },
+    {
+      "page": 7,
+      "text": "Wm Ia- Wm 14- U4 #0 Fred sure is Sherman Sure Is Shy Level € fancy_"
+    },
+    {
+      "page": 8,
+      "text": "IIZ H M Vi 1n' Sherman sure is 8 shy:"
+    },
+    {
+      "page": 9,
+      "text": "@0 0 0 Um sure is grand: Sherman Sure Is Shy Level € 8 Greg"
+    },
+    {
+      "page": 10,
+      "text": "Wk Mn M 0 Sherman sure is 10 Hp Wa shy:"
+    },
+    {
+      "page": 11,
+      "text": "4 ut Shirley sure likes Sherman: Sherman Sure Is Shy Level € 11"
+    },
+    {
+      "page": 12,
+      "text": "Iu Shirley is too. 12 shy;"
+    },
+    {
+      "page": 13,
+      "text": "Sherman Sure Is Level C Leveled Book Learning A-Z Correlation Written by Karen Mockler LEVEL € Illustrated by Kaori Tajima Fountas & Pinnell C All rights reserved: Reading Recovery 3-4 DRA 3-4 wwwreadinga-zcom Shy"
+    }
+  ]
+}

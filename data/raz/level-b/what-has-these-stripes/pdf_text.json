@@ -1,0 +1,54 @@
+{
+  "id": "level-b/what-has-these-stripes",
+  "title": "What Has These Stripes",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B What Has These Stripes? Written by Kira Freed wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "What Has These Stripes? Written by Kira Freed wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "What kind Of animal has these stripes? What Has These Stripes? Level B 3"
+    },
+    {
+      "page": 4,
+      "text": "A zebra has these smooth stripes:"
+    },
+    {
+      "page": 5,
+      "text": "What kind Of animal has these stripes? What Has These Stripes? Level B 5"
+    },
+    {
+      "page": 6,
+      "text": "A fish has these thin stripes: 6"
+    },
+    {
+      "page": 7,
+      "text": "What kind Of animal has these stripes? What Has These Stripes? Level B"
+    },
+    {
+      "page": 8,
+      "text": "A snake has these stripes 8 long"
+    },
+    {
+      "page": 9,
+      "text": "What kinds Of animals have no stripes? What Has These Stripes? Level B"
+    },
+    {
+      "page": 10,
+      "text": "lion rhino These animals have no stripes: What other animals have no stripes? 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover: Frans Lanting/Minden Pictures; back cover: @ Frank Lukasseck/ Corbis; title page: @ iStockphotocom/Andrew Douglas; pages 3, 4: @ Jupiterimages Corporation; pages 5, 6: @ imagebroker/Alamy; pages 7, 8: Minden Pictures/SuperStock; pages 9 (top), 10 (top): @ iStockphotocom/S Panosian; pages 9 (bottom), 10 (bottom): @ Dpwebphotos/Dreamstime.com What Has These Stripes? Level B Leveled Book Correlation Learning A-Z LEVEL B Written by Kira Freed Fountas & Pinnell B All rights reserved: Reading Recovery 2 DRA 2 wwwreadinga-zcom Greg"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "version": "1.0",
+  "total_words": 21,
+  "timings": [
+    {
+      "word": "pasta",
+      "start": 0.0,
+      "end": 0.66
+    },
+    {
+      "word": "written",
+      "start": 0.98,
+      "end": 1.52
+    },
+    {
+      "word": "by",
+      "start": 1.52,
+      "end": 1.96
+    },
+    {
+      "word": "keith",
+      "start": 1.96,
+      "end": 2.3
+    },
+    {
+      "word": "martin",
+      "start": 2.3,
+      "end": 3.0
+    },
+    {
+      "word": "long",
+      "start": 5.42,
+      "end": 5.58
+    },
+    {
+      "word": "pasta",
+      "start": 5.58,
+      "end": 6.44
+    },
+    {
+      "word": "short",
+      "start": 8.76,
+      "end": 9.0
+    },
+    {
+      "word": "pasta",
+      "start": 9.0,
+      "end": 10.0
+    },
+    {
+      "word": "red",
+      "start": 12.32,
+      "end": 12.58
+    },
+    {
+      "word": "pasta",
+      "start": 12.58,
+      "end": 13.46
+    },
+    {
+      "word": "green",
+      "start": 15.74,
+      "end": 16.14
+    },
+    {
+      "word": "pasta",
+      "start": 16.14,
+      "end": 17.06
+    },
+    {
+      "word": "wide",
+      "start": 19.3,
+      "end": 19.62
+    },
+    {
+      "word": "pasta",
+      "start": 19.62,
+      "end": 20.58
+    },
+    {
+      "word": "then",
+      "start": 22.9,
+      "end": 23.12
+    },
+    {
+      "word": "pasta",
+      "start": 23.12,
+      "end": 23.98
+    },
+    {
+      "word": "curly",
+      "start": 26.36,
+      "end": 26.78
+    },
+    {
+      "word": "pasta",
+      "start": 26.78,
+      "end": 27.52
+    },
+    {
+      "word": "yami",
+      "start": 29.0,
+      "end": 30.4
+    },
+    {
+      "word": "pasta",
+      "start": 30.4,
+      "end": 31.16
+    }
+  ]
+}

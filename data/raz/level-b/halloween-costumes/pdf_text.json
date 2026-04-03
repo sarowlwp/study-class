@@ -1,0 +1,58 @@
+{
+  "id": "level-b/halloween-costumes",
+  "title": "Halloween Costumes",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Halloween Costumes Wriiien by Elizabeth Jane Pustilnik 4 wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Halloween Costumes Written by Elizabeth Jane Pustilnik wwwreadinga-z.com Focus Question What can people look like on Halloween?"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know clown look costume pirate dragon superhero Photo Credits: Front cover; back cover: @ Sergey Novikov/123RF; title page: @ Blend Images/ Blend Images/SuperStock; page 3: @ Stockbyte/Thinkstock; pages 4_ 9: 0 Radius Images/Alamy Stock Photo; page 5: 0 Aleksandr Frolov/123RF; page 6: @ Dominic DiSaia/Blend Images/SuperStock; page 7: @ Yobro1o/ Dreamstime.com; pages 8_ 10: @ Blend Images/SuperStock Halloween Costumes Level B Leveled Book Correlation Learning A-Z LEVEL B Written by Elizabeth Jane Pustilnik Fountas & Pinnell B All rights reserved. Reading Recovery 2 DRA 2 www.readinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "I look like a flower: Halloween Costumes Level B 3"
+    },
+    {
+      "page": 5,
+      "text": "I look like a bat. 4"
+    },
+    {
+      "page": 6,
+      "text": "I look like a clown: Halloween Costumes Level B 5"
+    },
+    {
+      "page": 7,
+      "text": "Jc I look like a superhero: 6"
+    },
+    {
+      "page": 8,
+      "text": "I look like a tiger: Halloween Costumes Level B"
+    },
+    {
+      "page": 9,
+      "text": "I look like a pirate: 8"
+    },
+    {
+      "page": 10,
+      "text": "I look like a dragon: Halloween Costumes Level B"
+    },
+    {
+      "page": 11,
+      "text": "What is this costume? 10 3"
+    },
+    {
+      "page": 12,
+      "text": "Halloween Costumes A Reading A-Z Level B Leveled Book Word Count: 41 Connections Writing and Art Make a new page for the book Draw a picture and write this sentence: I look like a Social Studies When is Halloween celebrated? Mark the date on a calendar: What of the week is Halloween this Redding A-2 Visit WWw readinga-z.com for thousands of books and materials. day year?"
+    }
+  ]
+}

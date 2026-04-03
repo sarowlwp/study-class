@@ -1,0 +1,211 @@
+{
+  "version": "1.0",
+  "total_words": 41,
+  "timings": [
+    {
+      "word": "jump",
+      "start": 0.0,
+      "end": 0.42
+    },
+    {
+      "word": "over",
+      "start": 0.42,
+      "end": 1.08
+    },
+    {
+      "word": "written",
+      "start": 1.62,
+      "end": 1.78
+    },
+    {
+      "word": "by",
+      "start": 1.78,
+      "end": 2.26
+    },
+    {
+      "word": "anthony",
+      "start": 2.26,
+      "end": 2.6
+    },
+    {
+      "word": "kern",
+      "start": 2.6,
+      "end": 3.22
+    },
+    {
+      "word": "illustrated",
+      "start": 3.84,
+      "end": 4.28
+    },
+    {
+      "word": "by",
+      "start": 4.28,
+      "end": 4.8
+    },
+    {
+      "word": "noravutus",
+      "start": 4.8,
+      "end": 6.94
+    },
+    {
+      "word": "the",
+      "start": 8.16,
+      "end": 8.22
+    },
+    {
+      "word": "cat",
+      "start": 8.22,
+      "end": 8.54
+    },
+    {
+      "word": "jumps",
+      "start": 8.54,
+      "end": 9.14
+    },
+    {
+      "word": "over",
+      "start": 9.14,
+      "end": 9.98
+    },
+    {
+      "word": "the",
+      "start": 11.98,
+      "end": 12.18
+    },
+    {
+      "word": "dog",
+      "start": 12.18,
+      "end": 12.58
+    },
+    {
+      "word": "jumps",
+      "start": 12.58,
+      "end": 13.18
+    },
+    {
+      "word": "over",
+      "start": 13.18,
+      "end": 14.54
+    },
+    {
+      "word": "the",
+      "start": 16.04,
+      "end": 16.32
+    },
+    {
+      "word": "horse",
+      "start": 16.32,
+      "end": 16.66
+    },
+    {
+      "word": "jumps",
+      "start": 16.66,
+      "end": 17.22
+    },
+    {
+      "word": "over",
+      "start": 17.22,
+      "end": 18.56
+    },
+    {
+      "word": "the",
+      "start": 20.14,
+      "end": 20.34
+    },
+    {
+      "word": "fox",
+      "start": 20.34,
+      "end": 20.8
+    },
+    {
+      "word": "jumps",
+      "start": 20.8,
+      "end": 21.28
+    },
+    {
+      "word": "over",
+      "start": 21.28,
+      "end": 21.96
+    },
+    {
+      "word": "the",
+      "start": 24.08,
+      "end": 24.32
+    },
+    {
+      "word": "deer",
+      "start": 24.32,
+      "end": 24.58
+    },
+    {
+      "word": "jumps",
+      "start": 24.58,
+      "end": 25.14
+    },
+    {
+      "word": "over",
+      "start": 25.14,
+      "end": 25.82
+    },
+    {
+      "word": "they",
+      "start": 25.82,
+      "end": 28.26
+    },
+    {
+      "word": "go",
+      "start": 28.26,
+      "end": 28.62
+    },
+    {
+      "word": "jumps",
+      "start": 28.62,
+      "end": 29.04
+    },
+    {
+      "word": "over",
+      "start": 29.04,
+      "end": 29.96
+    },
+    {
+      "word": "the",
+      "start": 31.94,
+      "end": 32.18
+    },
+    {
+      "word": "girl",
+      "start": 32.18,
+      "end": 32.58
+    },
+    {
+      "word": "jumps",
+      "start": 32.58,
+      "end": 33.2
+    },
+    {
+      "word": "over",
+      "start": 33.2,
+      "end": 34.4
+    },
+    {
+      "word": "the",
+      "start": 36.06,
+      "end": 36.26
+    },
+    {
+      "word": "cow",
+      "start": 36.26,
+      "end": 36.64
+    },
+    {
+      "word": "jumps",
+      "start": 36.64,
+      "end": 37.26
+    },
+    {
+      "word": "over",
+      "start": 37.26,
+      "end": 37.98
+    }
+  ]
+}

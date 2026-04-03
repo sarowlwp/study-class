@@ -1,0 +1,54 @@
+{
+  "id": "level-c/lucy-did-it",
+  "title": "Lucy Did It",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C Did It '6 Written by Katherine Burdick Illustrated by Roberta Collier-Morales wwwreadinga-z.com Lucy APP \"( ( ("
+    },
+    {
+      "page": 2,
+      "text": "Did It Ne Written by Katherine Burdick Illustrated by Roberta Collier-Morales wwwreadinga-z.com Lucy"
+    },
+    {
+      "page": 3,
+      "text": "6 went the did itl Lucy Did It Level € 3 AP (( (( Rip bag- Lucy"
+    },
+    {
+      "page": 4,
+      "text": "T Crash went the book did itl Lucy"
+    },
+    {
+      "page": 5,
+      "text": "wkky Plps Plop went the paint: did itl Did It Level € 5 S LLLLL Llku l LLLlL LLLL 2 SlkNlk ( Lucy Lucy"
+    },
+    {
+      "page": 6,
+      "text": "N( d Clang went the pan: did itl M Lucy"
+    },
+    {
+      "page": 7,
+      "text": "NNc went the bell: did itl Did It Level € Ding Lucy Lucy"
+    },
+    {
+      "page": 8,
+      "text": "Woofi Muc Woof went the did itl 8 O dog: Lucy"
+    },
+    {
+      "page": 9,
+      "text": "a[(Xu 2oobh Whoosh went the cat. did itl Did It Level € (te Lucy Lucy"
+    },
+    {
+      "page": 10,
+      "text": "LLt Ati A Or did she? 10 { ((cct"
+    },
+    {
+      "page": 11,
+      "text": "Did It Level C Leveled Book Learning A-Z Correlation Written by Katherine Burdick LEVEL € Illustrated by Roberta Collier-Morales Fountas & Pinnell C AIl rights reserved: Reading_Recovery 3-4 DRA 3-4 wwwreadinga-z.com Lucy"
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "version": "1.0",
+  "total_words": 57,
+  "timings": [
+    {
+      "word": "different",
+      "start": 0.0,
+      "end": 0.62
+    },
+    {
+      "word": "kinds",
+      "start": 0.62,
+      "end": 1.44
+    },
+    {
+      "word": "of",
+      "start": 1.44,
+      "end": 1.86
+    },
+    {
+      "word": "sharks",
+      "start": 1.86,
+      "end": 2.44
+    },
+    {
+      "word": "written",
+      "start": 3.52,
+      "end": 3.76
+    },
+    {
+      "word": "by",
+      "start": 3.76,
+      "end": 4.24
+    },
+    {
+      "word": "russ",
+      "start": 4.24,
+      "end": 4.86
+    },
+    {
+      "word": "buyak",
+      "start": 4.86,
+      "end": 5.72
+    },
+    {
+      "word": "there",
+      "start": 6.14,
+      "end": 6.26
+    },
+    {
+      "word": "are",
+      "start": 6.26,
+      "end": 6.76
+    },
+    {
+      "word": "many",
+      "start": 6.76,
+      "end": 7.28
+    },
+    {
+      "word": "different",
+      "start": 7.28,
+      "end": 8.02
+    },
+    {
+      "word": "kinds",
+      "start": 8.02,
+      "end": 8.76
+    },
+    {
+      "word": "of",
+      "start": 8.76,
+      "end": 9.2
+    },
+    {
+      "word": "sharks",
+      "start": 9.2,
+      "end": 9.64
+    },
+    {
+      "word": "a",
+      "start": 10.16,
+      "end": 10.2
+    },
+    {
+      "word": "whale",
+      "start": 10.2,
+      "end": 10.56
+    },
+    {
+      "word": "shark",
+      "start": 10.56,
+      "end": 11.16
+    },
+    {
+      "word": "is",
+      "start": 11.16,
+      "end": 11.78
+    },
+    {
+      "word": "very",
+      "start": 11.78,
+      "end": 12.28
+    },
+    {
+      "word": "big",
+      "start": 12.28,
+      "end": 12.68
+    },
+    {
+      "word": "a",
+      "start": 13.06,
+      "end": 13.12
+    },
+    {
+      "word": "tiger",
+      "start": 13.12,
+      "end": 13.54
+    },
+    {
+      "word": "shark",
+      "start": 13.54,
+      "end": 14.3
+    },
+    {
+      "word": "has",
+      "start": 14.3,
+      "end": 15.1
+    },
+    {
+      "word": "light",
+      "start": 15.1,
+      "end": 15.46
+    },
+    {
+      "word": "stripes",
+      "start": 15.46,
+      "end": 16.22
+    },
+    {
+      "word": "a",
+      "start": 16.64,
+      "end": 16.8
+    },
+    {
+      "word": "zebra",
+      "start": 16.8,
+      "end": 17.18
+    },
+    {
+      "word": "shark",
+      "start": 17.18,
+      "end": 18.14
+    },
+    {
+      "word": "has",
+      "start": 18.14,
+      "end": 18.6
+    },
+    {
+      "word": "dark",
+      "start": 18.6,
+      "end": 19.34
+    },
+    {
+      "word": "spots",
+      "start": 19.34,
+      "end": 19.98
+    },
+    {
+      "word": "a",
+      "start": 19.98,
+      "end": 20.64
+    },
+    {
+      "word": "blue",
+      "start": 20.64,
+      "end": 21.16
+    },
+    {
+      "word": "shark",
+      "start": 21.16,
+      "end": 21.66
+    },
+    {
+      "word": "is",
+      "start": 21.66,
+      "end": 22.28
+    },
+    {
+      "word": "very",
+      "start": 22.28,
+      "end": 22.68
+    },
+    {
+      "word": "fast",
+      "start": 22.68,
+      "end": 23.48
+    },
+    {
+      "word": "an",
+      "start": 23.74,
+      "end": 24.08
+    },
+    {
+      "word": "angel",
+      "start": 24.08,
+      "end": 24.48
+    },
+    {
+      "word": "shark",
+      "start": 24.48,
+      "end": 25.14
+    },
+    {
+      "word": "has",
+      "start": 25.14,
+      "end": 25.8
+    },
+    {
+      "word": "wide",
+      "start": 25.8,
+      "end": 26.26
+    },
+    {
+      "word": "fins",
+      "start": 26.26,
+      "end": 27.04
+    },
+    {
+      "word": "a",
+      "start": 27.6,
+      "end": 27.6
+    },
+    {
+      "word": "great",
+      "start": 27.6,
+      "end": 28.08
+    },
+    {
+      "word": "white",
+      "start": 28.08,
+      "end": 28.8
+    },
+    {
+      "word": "shark",
+      "start": 28.8,
+      "end": 29.54
+    },
+    {
+      "word": "has",
+      "start": 29.54,
+      "end": 30.34
+    },
+    {
+      "word": "sharp",
+      "start": 30.34,
+      "end": 30.82
+    },
+    {
+      "word": "teeth",
+      "start": 30.82,
+      "end": 31.46
+    },
+    {
+      "word": "all",
+      "start": 31.84,
+      "end": 32.22
+    },
+    {
+      "word": "sharks",
+      "start": 32.22,
+      "end": 32.74
+    },
+    {
+      "word": "live",
+      "start": 32.74,
+      "end": 33.3
+    },
+    {
+      "word": "in",
+      "start": 33.3,
+      "end": 33.7
+    },
+    {
+      "word": "water",
+      "start": 33.7,
+      "end": 34.06
+    }
+  ]
+}

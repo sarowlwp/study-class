@@ -1,0 +1,54 @@
+{
+  "id": "level-c/how-frogs-grow",
+  "title": "How Frogs Grow",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C How Frogs Written by Rus Buyek Illustraled by Leighanne Schneider wwwreadinga-z.com Grow"
+    },
+    {
+      "page": 2,
+      "text": "How Frogs Grow Written by Rus Buyok Illustrated by Leighanne Schneider wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "A frog  lays eggs in water . How Frogs Level C 3 Grow"
+    },
+    {
+      "page": 4,
+      "text": "082 Tadpoles come out of the eggs."
+    },
+    {
+      "page": 5,
+      "text": "The tadpoles have long tails . How Frogs Grow Level C 5"
+    },
+    {
+      "page": 6,
+      "text": "The tadpoles grow back 6 legs."
+    },
+    {
+      "page": 7,
+      "text": "The tadpoles grow front How Frogs Grow Level C legs."
+    },
+    {
+      "page": 8,
+      "text": "The tadpoles are now froglets _ 8"
+    },
+    {
+      "page": 9,
+      "text": "The froglets grow and grow . Their tails smaller and smaller . How Frogs Level C 9 gef Grow"
+    },
+    {
+      "page": 10,
+      "text": "The froglets are now frogs. 10"
+    },
+    {
+      "page": 11,
+      "text": "How Grow Level C Leveled Book Learning A-Z Correlation Wrilten by Rus Buyok LEVEL C Illustrated by Leighanne Schneider Fountas & Pinnell All rights reserved. Reading Recovery 3-4 DRA 3-4 WWW . readinga-z.C com Frogs"
+    }
+  ]
+}

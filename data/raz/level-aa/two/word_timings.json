@@ -1,0 +1,236 @@
+{
+  "version": "1.0",
+  "total_words": 46,
+  "timings": [
+    {
+      "word": "two",
+      "start": 3.28,
+      "end": 4.68
+    },
+    {
+      "word": "written",
+      "start": 5.9,
+      "end": 5.9
+    },
+    {
+      "word": "by",
+      "start": 5.9,
+      "end": 6.44
+    },
+    {
+      "word": "torin",
+      "start": 6.44,
+      "end": 7.16
+    },
+    {
+      "word": "anderson",
+      "start": 7.16,
+      "end": 7.78
+    },
+    {
+      "word": "illustrated",
+      "start": 8.68,
+      "end": 9.26
+    },
+    {
+      "word": "by",
+      "start": 9.26,
+      "end": 10.04
+    },
+    {
+      "word": "gale",
+      "start": 10.04,
+      "end": 10.5
+    },
+    {
+      "word": "a",
+      "start": 10.5,
+      "end": 11.28
+    },
+    {
+      "word": "bushman",
+      "start": 11.84,
+      "end": 13.24
+    },
+    {
+      "word": "2",
+      "start": 26.56,
+      "end": 27.96
+    },
+    {
+      "word": "-b's",
+      "start": 27.96,
+      "end": 29.36
+    },
+    {
+      "word": "2",
+      "start": 29.36,
+      "end": 32.1
+    },
+    {
+      "word": "-b's",
+      "start": 32.1,
+      "end": 32.1
+    },
+    {
+      "word": "2",
+      "start": 32.1,
+      "end": 32.1
+    },
+    {
+      "word": "-b's",
+      "start": 32.1,
+      "end": 34.44
+    },
+    {
+      "word": "2",
+      "start": 36.16,
+      "end": 37.56
+    },
+    {
+      "word": "fish",
+      "start": 37.98,
+      "end": 38.74
+    },
+    {
+      "word": "2",
+      "start": 49.36,
+      "end": 50.76
+    },
+    {
+      "word": "birds",
+      "start": 51.5,
+      "end": 52.02
+    },
+    {
+      "word": "two",
+      "start": 62.08,
+      "end": 63.48
+    },
+    {
+      "word": "cats",
+      "start": 63.98,
+      "end": 64.84
+    },
+    {
+      "word": "two",
+      "start": 77.34,
+      "end": 78.74
+    },
+    {
+      "word": "dogs",
+      "start": 79.5,
+      "end": 79.76
+    },
+    {
+      "word": "two",
+      "start": 79.76,
+      "end": 81.26
+    },
+    {
+      "word": "h",
+      "start": 81.26,
+      "end": 81.26
+    },
+    {
+      "word": "-what",
+      "start": 81.26,
+      "end": 81.26
+    },
+    {
+      "word": "-whoa",
+      "start": 81.26,
+      "end": 81.96
+    },
+    {
+      "word": "g",
+      "start": 86.14,
+      "end": 87.48
+    },
+    {
+      "word": "-g",
+      "start": 87.48,
+      "end": 87.48
+    },
+    {
+      "word": "-g",
+      "start": 87.48,
+      "end": 87.72
+    },
+    {
+      "word": "-ghhhhh",
+      "start": 87.72,
+      "end": 91.92
+    },
+    {
+      "word": "g",
+      "start": 91.92,
+      "end": 92.86
+    },
+    {
+      "word": "-ghhhhh",
+      "start": 92.86,
+      "end": 92.86
+    },
+    {
+      "word": "two",
+      "start": 92.86,
+      "end": 93.56
+    },
+    {
+      "word": "h",
+      "start": 93.74,
+      "end": 93.86
+    },
+    {
+      "word": "-ghhhhh",
+      "start": 93.86,
+      "end": 96.02
+    },
+    {
+      "word": "g",
+      "start": 99.46,
+      "end": 100.32
+    },
+    {
+      "word": "-ghhhhh",
+      "start": 100.32,
+      "end": 100.32
+    },
+    {
+      "word": "two",
+      "start": 106.32,
+      "end": 107.14
+    },
+    {
+      "word": "h",
+      "start": 107.14,
+      "end": 107.5
+    },
+    {
+      "word": "-ghhhhh",
+      "start": 107.5,
+      "end": 108.24
+    },
+    {
+      "word": "g",
+      "start": 109.32,
+      "end": 109.74
+    },
+    {
+      "word": "-ghhhhh",
+      "start": 109.74,
+      "end": 109.74
+    },
+    {
+      "word": "two",
+      "start": 121.38,
+      "end": 122.78
+    },
+    {
+      "word": "kids",
+      "start": 122.78,
+      "end": 123.68
+    }
+  ]
+}

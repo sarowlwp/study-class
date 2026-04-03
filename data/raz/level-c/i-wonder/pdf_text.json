@@ -1,0 +1,54 @@
+{
+  "id": "level-c/i-wonder",
+  "title": "I Wonder",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C I Wonder Wriften by Beverly Rice Illustrated by Laura Ferraro Close wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "IWonder Written by Beverly Rice Illustrated by Laura Ferraro Close wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "I wonder about lots of  things. I wonder about animals. Wonder G Level C 3"
+    },
+    {
+      "page": 4,
+      "text": "I wonder about cats. Cats can purr."
+    },
+    {
+      "page": 5,
+      "text": "R @ How do cats Wonder G Level C 5 p U R R RR purr?"
+    },
+    {
+      "page": 6,
+      "text": "I wonder about can grow wool. sheep. Sheep"
+    },
+    {
+      "page": 7,
+      "text": "How do grow wool? Wonder G Level C sheep"
+    },
+    {
+      "page": 8,
+      "text": "I wonder about fish. Fish can 8 sleep."
+    },
+    {
+      "page": 9,
+      "text": "How do fish sleep? Wonder G Level C"
+    },
+    {
+      "page": 10,
+      "text": "L wonder about lots of  things. Do wonder about me? 10 they"
+    },
+    {
+      "page": 11,
+      "text": "Wonder Level C Leveled Book Learning A-Z Correlation Written by Beverly Rice LEVEL C Illustrated by  Laura Ferraro Close Fountas & Pinnell C All rights reserved. Reading Recovery 3-4 DRA 3-4 WWW: readinga-z.com"
+    }
+  ]
+}

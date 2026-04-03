@@ -1,0 +1,54 @@
+{
+  "id": "level-a/baby-animals",
+  "title": "Baby Animals",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Animals Written by Cheryl Ryan wwwreadinga-z.com Baby"
+    },
+    {
+      "page": 2,
+      "text": "Animals Written by Cheryl Ryan Baby"
+    },
+    {
+      "page": 3,
+      "text": "This is a kitten: Baby Animals Level A 3"
+    },
+    {
+      "page": 4,
+      "text": "This is a puppy:"
+    },
+    {
+      "page": 5,
+      "text": "This is  a chick Baby Animals Level A 5"
+    },
+    {
+      "page": 6,
+      "text": "This is a cub."
+    },
+    {
+      "page": 7,
+      "text": "This is  a calf: Baby Animals Level A"
+    },
+    {
+      "page": 8,
+      "text": "This isa kid. 8"
+    },
+    {
+      "page": 9,
+      "text": "This is a lamb_ Baby Animals Level A"
+    },
+    {
+      "page": 10,
+      "text": "This is a foal: 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover (top) , page 7: @ iStockphotocom/Joe Michl; front cover (bottom) , back cover; pages 4, 6, 9, 1O: @ Isselee/Dreamstime.com; title page, page 3: @ Jiri Hera/Dreamstimecom; page 5: @ Jose Manuel Gelpi Diaz/Dreamstime.com; page 8: @ Willeecole/Dreamstime.com Baby Animals Level A Leveled Book Correlation Learning A-Z LEVEL A Written by Cheryl Ryan Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-zcom"
+    }
+  ]
+}

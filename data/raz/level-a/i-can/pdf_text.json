@@ -1,0 +1,54 @@
+{
+  "id": "level-a/i-can",
+  "title": "I Can",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A I Can 46 Written by Bill Dinardo Illustrated by Nora Voutas WWw.readinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "I Can 2 Written by Bill Dinardo Illustrated Nora Voutas wwwreadinga-z.com by"
+    },
+    {
+      "page": 3,
+      "text": "1 can run_ Can Level A 3"
+    },
+    {
+      "page": 4,
+      "text": "44  can jump_"
+    },
+    {
+      "page": 5,
+      "text": " 1 can Can Level A 5 swing"
+    },
+    {
+      "page": 6,
+      "text": "( 1 can hop_"
+    },
+    {
+      "page": 7,
+      "text": ") I can ride. Can Level A"
+    },
+    {
+      "page": 8,
+      "text": "( L can climb_ 8 2"
+    },
+    {
+      "page": 9,
+      "text": "1 can crawl_ Can Level A 9 $"
+    },
+    {
+      "page": 10,
+      "text": "1 can play _ 10"
+    },
+    {
+      "page": 11,
+      "text": "I Can Level A Leveled Book Learning A-Z Correlation Written by Bill Dinardo LEVEL A Illustrated by Nora Voutas Fountas & Pinnell A All rights reserved. Reading Recovery T DRA A-1 WwW. readinga-z.com"
+    }
+  ]
+}

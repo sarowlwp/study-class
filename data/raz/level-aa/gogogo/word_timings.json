@@ -1,0 +1,181 @@
+{
+  "version": "1.0",
+  "total_words": 35,
+  "timings": [
+    {
+      "word": "go",
+      "start": 0.0,
+      "end": 0.28
+    },
+    {
+      "word": "go",
+      "start": 0.62,
+      "end": 0.92
+    },
+    {
+      "word": "go",
+      "start": 1.04,
+      "end": 1.58
+    },
+    {
+      "word": "written",
+      "start": 1.8,
+      "end": 2.2
+    },
+    {
+      "word": "by",
+      "start": 2.2,
+      "end": 2.72
+    },
+    {
+      "word": "brian",
+      "start": 2.72,
+      "end": 3.2
+    },
+    {
+      "word": "roberts",
+      "start": 3.2,
+      "end": 3.9
+    },
+    {
+      "word": "illustrated",
+      "start": 4.52,
+      "end": 5.18
+    },
+    {
+      "word": "by",
+      "start": 5.18,
+      "end": 5.76
+    },
+    {
+      "word": "nora",
+      "start": 5.76,
+      "end": 6.28
+    },
+    {
+      "word": "vutas",
+      "start": 6.28,
+      "end": 7.22
+    },
+    {
+      "word": "the",
+      "start": 9.52,
+      "end": 9.66
+    },
+    {
+      "word": "dogs",
+      "start": 9.66,
+      "end": 10.2
+    },
+    {
+      "word": "go",
+      "start": 10.2,
+      "end": 11.9
+    },
+    {
+      "word": "the",
+      "start": 13.64,
+      "end": 13.72
+    },
+    {
+      "word": "pigs",
+      "start": 13.72,
+      "end": 14.28
+    },
+    {
+      "word": "go",
+      "start": 14.28,
+      "end": 15.9
+    },
+    {
+      "word": "the",
+      "start": 17.68,
+      "end": 17.68
+    },
+    {
+      "word": "birds",
+      "start": 17.68,
+      "end": 18.32
+    },
+    {
+      "word": "go",
+      "start": 18.32,
+      "end": 19.86
+    },
+    {
+      "word": "the",
+      "start": 21.66,
+      "end": 21.72
+    },
+    {
+      "word": "cats",
+      "start": 21.72,
+      "end": 22.36
+    },
+    {
+      "word": "go",
+      "start": 22.36,
+      "end": 23.96
+    },
+    {
+      "word": "the",
+      "start": 23.96,
+      "end": 25.98
+    },
+    {
+      "word": "goats",
+      "start": 25.98,
+      "end": 26.46
+    },
+    {
+      "word": "go",
+      "start": 26.46,
+      "end": 27.78
+    },
+    {
+      "word": "the",
+      "start": 27.78,
+      "end": 29.78
+    },
+    {
+      "word": "cows",
+      "start": 29.78,
+      "end": 30.4
+    },
+    {
+      "word": "go",
+      "start": 30.4,
+      "end": 31.82
+    },
+    {
+      "word": "the",
+      "start": 31.82,
+      "end": 33.74
+    },
+    {
+      "word": "ducks",
+      "start": 33.74,
+      "end": 34.3
+    },
+    {
+      "word": "go",
+      "start": 34.3,
+      "end": 35.88
+    },
+    {
+      "word": "the",
+      "start": 37.74,
+      "end": 37.74
+    },
+    {
+      "word": "animals",
+      "start": 37.74,
+      "end": 38.36
+    },
+    {
+      "word": "go",
+      "start": 38.36,
+      "end": 39.26
+    }
+  ]
+}

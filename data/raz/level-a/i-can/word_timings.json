@@ -1,0 +1,436 @@
+{
+  "version": "1.0",
+  "total_words": 86,
+  "timings": [
+    {
+      "word": "i",
+      "start": 0.0,
+      "end": 0.58
+    },
+    {
+      "word": "can",
+      "start": 0.58,
+      "end": 1.1
+    },
+    {
+      "word": "skate",
+      "start": 1.1,
+      "end": 2.12
+    },
+    {
+      "word": "written",
+      "start": 2.94,
+      "end": 3.24
+    },
+    {
+      "word": "by",
+      "start": 3.24,
+      "end": 4.08
+    },
+    {
+      "word": "anthony",
+      "start": 4.08,
+      "end": 4.82
+    },
+    {
+      "word": "kern",
+      "start": 4.82,
+      "end": 5.56
+    },
+    {
+      "word": "illustrated",
+      "start": 6.8,
+      "end": 7.52
+    },
+    {
+      "word": "by",
+      "start": 7.52,
+      "end": 8.34
+    },
+    {
+      "word": "violet",
+      "start": 8.34,
+      "end": 9.12
+    },
+    {
+      "word": "lame",
+      "start": 9.12,
+      "end": 9.56
+    },
+    {
+      "word": "focus",
+      "start": 10.98,
+      "end": 11.42
+    },
+    {
+      "word": "question",
+      "start": 11.42,
+      "end": 12.68
+    },
+    {
+      "word": "what",
+      "start": 13.54,
+      "end": 13.72
+    },
+    {
+      "word": "can",
+      "start": 13.72,
+      "end": 27.74
+    },
+    {
+      "word": "the",
+      "start": 27.74,
+      "end": 28.04
+    },
+    {
+      "word": "forward",
+      "start": 28.04,
+      "end": 29.24
+    },
+    {
+      "word": "i",
+      "start": 30.06,
+      "end": 30.48
+    },
+    {
+      "word": "can",
+      "start": 30.48,
+      "end": 31.22
+    },
+    {
+      "word": "skate",
+      "start": 31.22,
+      "end": 32.08
+    },
+    {
+      "word": "backward",
+      "start": 32.84,
+      "end": 33.48
+    },
+    {
+      "word": "i",
+      "start": 33.96,
+      "end": 34.24
+    },
+    {
+      "word": "can",
+      "start": 34.24,
+      "end": 34.9
+    },
+    {
+      "word": "spin",
+      "start": 34.9,
+      "end": 35.72
+    },
+    {
+      "word": "i",
+      "start": 36.42,
+      "end": 36.66
+    },
+    {
+      "word": "can",
+      "start": 36.66,
+      "end": 37.32
+    },
+    {
+      "word": "jump",
+      "start": 37.32,
+      "end": 38.1
+    },
+    {
+      "word": "i",
+      "start": 38.66,
+      "end": 38.88
+    },
+    {
+      "word": "can",
+      "start": 38.88,
+      "end": 39.7
+    },
+    {
+      "word": "fall",
+      "start": 39.7,
+      "end": 40.58
+    },
+    {
+      "word": "i",
+      "start": 41.04,
+      "end": 41.66
+    },
+    {
+      "word": "can",
+      "start": 41.66,
+      "end": 42.32
+    },
+    {
+      "word": "have",
+      "start": 42.32,
+      "end": 42.96
+    },
+    {
+      "word": "fun",
+      "start": 42.96,
+      "end": 44.0
+    },
+    {
+      "word": "connections",
+      "start": 44.44,
+      "end": 45.44
+    },
+    {
+      "word": "writing",
+      "start": 45.44,
+      "end": 46.74
+    },
+    {
+      "word": "and",
+      "start": 46.74,
+      "end": 47.4
+    },
+    {
+      "word": "art",
+      "start": 47.4,
+      "end": 48.22
+    },
+    {
+      "word": "what",
+      "start": 49.2,
+      "end": 49.32
+    },
+    {
+      "word": "is",
+      "start": 49.32,
+      "end": 50.08
+    },
+    {
+      "word": "an",
+      "start": 50.08,
+      "end": 50.58
+    },
+    {
+      "word": "activity",
+      "start": 50.58,
+      "end": 51.1
+    },
+    {
+      "word": "you",
+      "start": 51.1,
+      "end": 52.0
+    },
+    {
+      "word": "know",
+      "start": 52.0,
+      "end": 52.46
+    },
+    {
+      "word": "how",
+      "start": 52.46,
+      "end": 52.92
+    },
+    {
+      "word": "to",
+      "start": 52.92,
+      "end": 53.34
+    },
+    {
+      "word": "do",
+      "start": 53.34,
+      "end": 54.3
+    },
+    {
+      "word": "draw",
+      "start": 55.22,
+      "end": 55.4
+    },
+    {
+      "word": "a",
+      "start": 55.4,
+      "end": 55.94
+    },
+    {
+      "word": "picture",
+      "start": 55.94,
+      "end": 56.42
+    },
+    {
+      "word": "of",
+      "start": 56.42,
+      "end": 56.88
+    },
+    {
+      "word": "that",
+      "start": 56.88,
+      "end": 57.26
+    },
+    {
+      "word": "activity",
+      "start": 57.26,
+      "end": 58.04
+    },
+    {
+      "word": "then",
+      "start": 59.08,
+      "end": 59.14
+    },
+    {
+      "word": "finish",
+      "start": 59.14,
+      "end": 59.82
+    },
+    {
+      "word": "the",
+      "start": 59.82,
+      "end": 60.34
+    },
+    {
+      "word": "sentence",
+      "start": 60.34,
+      "end": 61.12
+    },
+    {
+      "word": "i",
+      "start": 61.92,
+      "end": 62.02
+    },
+    {
+      "word": "can",
+      "start": 62.02,
+      "end": 63.12
+    },
+    {
+      "word": "science",
+      "start": 64.48,
+      "end": 64.98
+    },
+    {
+      "word": "many",
+      "start": 66.2,
+      "end": 66.38
+    },
+    {
+      "word": "people",
+      "start": 66.38,
+      "end": 67.1
+    },
+    {
+      "word": "i",
+      "start": 67.1,
+      "end": 67.56
+    },
+    {
+      "word": "skate",
+      "start": 67.56,
+      "end": 67.9
+    },
+    {
+      "word": "in",
+      "start": 67.9,
+      "end": 68.44
+    },
+    {
+      "word": "winter",
+      "start": 68.44,
+      "end": 69.32
+    },
+    {
+      "word": "describe",
+      "start": 69.32,
+      "end": 70.46
+    },
+    {
+      "word": "the",
+      "start": 70.46,
+      "end": 70.84
+    },
+    {
+      "word": "season",
+      "start": 70.84,
+      "end": 71.18
+    },
+    {
+      "word": "of",
+      "start": 71.18,
+      "end": 71.62
+    },
+    {
+      "word": "winter",
+      "start": 71.62,
+      "end": 71.98
+    },
+    {
+      "word": "to",
+      "start": 71.98,
+      "end": 72.66
+    },
+    {
+      "word": "a",
+      "start": 72.66,
+      "end": 72.86
+    },
+    {
+      "word": "partner",
+      "start": 72.86,
+      "end": 73.36
+    },
+    {
+      "word": "then",
+      "start": 74.58,
+      "end": 74.66
+    },
+    {
+      "word": "make",
+      "start": 74.66,
+      "end": 75.26
+    },
+    {
+      "word": "a",
+      "start": 75.26,
+      "end": 75.6
+    },
+    {
+      "word": "poster",
+      "start": 75.6,
+      "end": 76.06
+    },
+    {
+      "word": "that",
+      "start": 76.06,
+      "end": 76.8
+    },
+    {
+      "word": "includes",
+      "start": 76.8,
+      "end": 77.26
+    },
+    {
+      "word": "pictures",
+      "start": 77.26,
+      "end": 78.08
+    },
+    {
+      "word": "and",
+      "start": 78.08,
+      "end": 78.78
+    },
+    {
+      "word": "words",
+      "start": 78.78,
+      "end": 79.22
+    },
+    {
+      "word": "that",
+      "start": 79.22,
+      "end": 79.78
+    },
+    {
+      "word": "describe",
+      "start": 79.78,
+      "end": 80.34
+    },
+    {
+      "word": "winter",
+      "start": 80.34,
+      "end": 81.08
+    }
+  ]
+}

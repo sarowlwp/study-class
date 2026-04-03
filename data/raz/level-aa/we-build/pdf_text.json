@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/we-build",
+  "title": "We Build",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book 0 A0 We Build Written by Katie Knight Illustrated by Chris Baldwin wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "We Build Written Katie Knight Illustrated by Chris Baldwin wwwreadinga-z.com 1 by"
+    },
+    {
+      "page": 3,
+      "text": "Ltt We draw: We Build Level aa 3"
+    },
+    {
+      "page": 4,
+      "text": "We SaW."
+    },
+    {
+      "page": 5,
+      "text": "We sand: We Build Level aa 5"
+    },
+    {
+      "page": 6,
+      "text": "We hammer:"
+    },
+    {
+      "page": 7,
+      "text": "0 We drill: We Build Level aa 74 _"
+    },
+    {
+      "page": 8,
+      "text": "We paint 8 1"
+    },
+    {
+      "page": 9,
+      "text": "We  glue: We Build Level aa"
+    },
+    {
+      "page": 10,
+      "text": "4 We 10 hang;"
+    },
+    {
+      "page": 11,
+      "text": "We Build Level aa Leveled Book @ Learning A-Z Correlation Written by Katie Knight LEVEL aa Illustrated by Chris Baldwin Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-zcom"
+    }
+  ]
+}

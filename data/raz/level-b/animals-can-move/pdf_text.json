@@ -1,0 +1,54 @@
+{
+  "id": "level-b/animals-can-move",
+  "title": "Animals Can Move",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Animals Can Move Written by Pam Bull wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Animals Can Move Written by Pam Bull wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "The camel can walk. Animals Can Move Level B 3"
+    },
+    {
+      "page": 4,
+      "text": "The horse can run."
+    },
+    {
+      "page": 5,
+      "text": "The snake can slither . Animals Can Move Level B 5"
+    },
+    {
+      "page": 6,
+      "text": "The rabbit can hop_"
+    },
+    {
+      "page": 7,
+      "text": "The bear can swim Animals Can Move Level B polar"
+    },
+    {
+      "page": 8,
+      "text": "The bird can 8 fly"
+    },
+    {
+      "page": 9,
+      "text": "The bug can crawl: Animals Can Move Level B"
+    },
+    {
+      "page": 10,
+      "text": "How can these animals move? 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover: @ Renee Lynn/Corbis; back cover: @ Pecak/Dreamstimecom; title page: @ Pichugin/Dreamstime.com; page 3: @ Sergey Rusakov/ Dreamstime.com; page 4: @ Melissa Schalke/Dreamstimecom; page 5: Courtesy of US Fish & Wildlife Service; page 6: @ Alan Carey/Corbis; pages 7, 9, 10 (top left and bottom right): @ Jupiterimages Corporation; page 8: @ iStockphotocom/ Richard Goerg; page 10 (top right): @ Villiers Steyn/Dreamstime.com Animals Can Move Level B Leveled Book Correlation Learning A-Z LEVEL B Written by Pam Bull Fountas & Pinnell B All rights reserved: Reading Recovery 2 DRA 2 wwwreadinga-zcom Dmitry"
+    }
+  ]
+}

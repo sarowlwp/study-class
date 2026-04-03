@@ -1,0 +1,171 @@
+{
+  "version": "1.0",
+  "total_words": 33,
+  "timings": [
+    {
+      "word": "on",
+      "start": 0.0,
+      "end": 0.62
+    },
+    {
+      "word": "written",
+      "start": 1.2,
+      "end": 1.62
+    },
+    {
+      "word": "by",
+      "start": 1.62,
+      "end": 2.28
+    },
+    {
+      "word": "cheryl",
+      "start": 2.28,
+      "end": 3.04
+    },
+    {
+      "word": "ryan",
+      "start": 3.04,
+      "end": 3.9
+    },
+    {
+      "word": "illustrated",
+      "start": 4.66,
+      "end": 5.1
+    },
+    {
+      "word": "by",
+      "start": 5.1,
+      "end": 6.16
+    },
+    {
+      "word": "nora",
+      "start": 6.16,
+      "end": 6.8
+    },
+    {
+      "word": "voodis",
+      "start": 6.8,
+      "end": 7.43
+    },
+    {
+      "word": "on",
+      "start": 10.64,
+      "end": 11.04
+    },
+    {
+      "word": "the",
+      "start": 11.04,
+      "end": 11.58
+    },
+    {
+      "word": "house",
+      "start": 11.58,
+      "end": 12.26
+    },
+    {
+      "word": "on",
+      "start": 14.86,
+      "end": 15.22
+    },
+    {
+      "word": "the",
+      "start": 15.22,
+      "end": 15.86
+    },
+    {
+      "word": "bike",
+      "start": 15.86,
+      "end": 16.48
+    },
+    {
+      "word": "on",
+      "start": 19.12,
+      "end": 19.48
+    },
+    {
+      "word": "the",
+      "start": 19.48,
+      "end": 19.92
+    },
+    {
+      "word": "swing",
+      "start": 19.92,
+      "end": 20.36
+    },
+    {
+      "word": "on",
+      "start": 22.8,
+      "end": 23.32
+    },
+    {
+      "word": "the",
+      "start": 23.32,
+      "end": 23.82
+    },
+    {
+      "word": "bed",
+      "start": 23.82,
+      "end": 24.42
+    },
+    {
+      "word": "on",
+      "start": 26.98,
+      "end": 27.46
+    },
+    {
+      "word": "the",
+      "start": 27.46,
+      "end": 28.0
+    },
+    {
+      "word": "airplane",
+      "start": 28.0,
+      "end": 28.68
+    },
+    {
+      "word": "on",
+      "start": 30.72,
+      "end": 31.88
+    },
+    {
+      "word": "the",
+      "start": 31.88,
+      "end": 32.2
+    },
+    {
+      "word": "fence",
+      "start": 32.2,
+      "end": 32.82
+    },
+    {
+      "word": "on",
+      "start": 35.56,
+      "end": 35.8
+    },
+    {
+      "word": "the",
+      "start": 35.8,
+      "end": 36.2
+    },
+    {
+      "word": "table",
+      "start": 36.2,
+      "end": 36.78
+    },
+    {
+      "word": "on",
+      "start": 39.28,
+      "end": 39.64
+    },
+    {
+      "word": "the",
+      "start": 39.64,
+      "end": 40.08
+    },
+    {
+      "word": "skates",
+      "start": 40.08,
+      "end": 40.76
+    }
+  ]
+}

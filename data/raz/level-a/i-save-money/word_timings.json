@@ -1,0 +1,191 @@
+{
+  "version": "1.0",
+  "total_words": 37,
+  "timings": [
+    {
+      "word": "i",
+      "start": 0.0,
+      "end": 0.36
+    },
+    {
+      "word": "save",
+      "start": 0.36,
+      "end": 0.6
+    },
+    {
+      "word": "money",
+      "start": 0.6,
+      "end": 1.22
+    },
+    {
+      "word": "written",
+      "start": 2.04,
+      "end": 2.2
+    },
+    {
+      "word": "by",
+      "start": 2.2,
+      "end": 2.6
+    },
+    {
+      "word": "simon",
+      "start": 2.6,
+      "end": 2.98
+    },
+    {
+      "word": "a",
+      "start": 2.98,
+      "end": 3.7
+    },
+    {
+      "word": "av",
+      "start": 3.92,
+      "end": 4.24
+    },
+    {
+      "word": "i",
+      "start": 4.72,
+      "end": 5.12
+    },
+    {
+      "word": "save",
+      "start": 5.12,
+      "end": 5.36
+    },
+    {
+      "word": "a",
+      "start": 5.36,
+      "end": 5.62
+    },
+    {
+      "word": "penny",
+      "start": 5.62,
+      "end": 5.92
+    },
+    {
+      "word": "i",
+      "start": 6.4,
+      "end": 6.4
+    },
+    {
+      "word": "save",
+      "start": 6.4,
+      "end": 6.78
+    },
+    {
+      "word": "a",
+      "start": 6.78,
+      "end": 7.04
+    },
+    {
+      "word": "nickel",
+      "start": 7.04,
+      "end": 7.38
+    },
+    {
+      "word": "i",
+      "start": 8.02,
+      "end": 8.02
+    },
+    {
+      "word": "save",
+      "start": 8.02,
+      "end": 8.4
+    },
+    {
+      "word": "a",
+      "start": 8.4,
+      "end": 8.76
+    },
+    {
+      "word": "dime",
+      "start": 8.76,
+      "end": 9.14
+    },
+    {
+      "word": "i",
+      "start": 9.46,
+      "end": 9.72
+    },
+    {
+      "word": "save",
+      "start": 9.72,
+      "end": 10.02
+    },
+    {
+      "word": "a",
+      "start": 10.02,
+      "end": 10.38
+    },
+    {
+      "word": "quarter",
+      "start": 10.38,
+      "end": 10.72
+    },
+    {
+      "word": "i",
+      "start": 11.28,
+      "end": 11.52
+    },
+    {
+      "word": "save",
+      "start": 11.52,
+      "end": 11.9
+    },
+    {
+      "word": "a",
+      "start": 11.9,
+      "end": 12.3
+    },
+    {
+      "word": "dollar",
+      "start": 12.3,
+      "end": 12.66
+    },
+    {
+      "word": "i",
+      "start": 13.22,
+      "end": 13.48
+    },
+    {
+      "word": "save",
+      "start": 13.48,
+      "end": 13.82
+    },
+    {
+      "word": "$5",
+      "start": 13.82,
+      "end": 14.58
+    },
+    {
+      "word": "i",
+      "start": 15.44,
+      "end": 15.66
+    },
+    {
+      "word": "save",
+      "start": 15.66,
+      "end": 16.08
+    },
+    {
+      "word": "$10",
+      "start": 16.08,
+      "end": 16.64
+    },
+    {
+      "word": "i",
+      "start": 17.48,
+      "end": 17.84
+    },
+    {
+      "word": "save",
+      "start": 17.84,
+      "end": 18.22
+    },
+    {
+      "word": "money",
+      "start": 18.22,
+      "end": 18.56
+    }
+  ]
+}

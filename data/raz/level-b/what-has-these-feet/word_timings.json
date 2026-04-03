@@ -1,0 +1,301 @@
+{
+  "version": "1.0",
+  "total_words": 59,
+  "timings": [
+    {
+      "word": "what",
+      "start": 0.0,
+      "end": 0.46
+    },
+    {
+      "word": "has",
+      "start": 0.46,
+      "end": 1.18
+    },
+    {
+      "word": "this",
+      "start": 1.18,
+      "end": 1.6
+    },
+    {
+      "word": "feet",
+      "start": 1.6,
+      "end": 2.0
+    },
+    {
+      "word": "written",
+      "start": 2.0,
+      "end": 2.96
+    },
+    {
+      "word": "by",
+      "start": 2.96,
+      "end": 3.32
+    },
+    {
+      "word": "kira",
+      "start": 3.32,
+      "end": 3.68
+    },
+    {
+      "word": "fried",
+      "start": 3.68,
+      "end": 4.3
+    },
+    {
+      "word": "what",
+      "start": 4.84,
+      "end": 4.96
+    },
+    {
+      "word": "kind",
+      "start": 4.96,
+      "end": 5.5
+    },
+    {
+      "word": "of",
+      "start": 5.5,
+      "end": 5.82
+    },
+    {
+      "word": "animal",
+      "start": 5.82,
+      "end": 6.22
+    },
+    {
+      "word": "has",
+      "start": 6.22,
+      "end": 6.84
+    },
+    {
+      "word": "this",
+      "start": 6.84,
+      "end": 7.3
+    },
+    {
+      "word": "feet",
+      "start": 7.3,
+      "end": 7.76
+    },
+    {
+      "word": "a",
+      "start": 8.02,
+      "end": 8.2
+    },
+    {
+      "word": "duck",
+      "start": 8.2,
+      "end": 8.52
+    },
+    {
+      "word": "has",
+      "start": 8.52,
+      "end": 9.16
+    },
+    {
+      "word": "these",
+      "start": 9.16,
+      "end": 9.58
+    },
+    {
+      "word": "little",
+      "start": 9.58,
+      "end": 9.92
+    },
+    {
+      "word": "feet",
+      "start": 9.92,
+      "end": 10.36
+    },
+    {
+      "word": "what",
+      "start": 10.84,
+      "end": 10.94
+    },
+    {
+      "word": "kind",
+      "start": 10.94,
+      "end": 11.42
+    },
+    {
+      "word": "of",
+      "start": 11.42,
+      "end": 11.62
+    },
+    {
+      "word": "animal",
+      "start": 11.62,
+      "end": 12.02
+    },
+    {
+      "word": "has",
+      "start": 12.02,
+      "end": 12.72
+    },
+    {
+      "word": "this",
+      "start": 12.72,
+      "end": 13.12
+    },
+    {
+      "word": "feet",
+      "start": 13.12,
+      "end": 13.62
+    },
+    {
+      "word": "an",
+      "start": 13.94,
+      "end": 14.1
+    },
+    {
+      "word": "elephant",
+      "start": 14.1,
+      "end": 14.66
+    },
+    {
+      "word": "has",
+      "start": 14.66,
+      "end": 15.38
+    },
+    {
+      "word": "these",
+      "start": 15.38,
+      "end": 15.78
+    },
+    {
+      "word": "big",
+      "start": 15.78,
+      "end": 16.3
+    },
+    {
+      "word": "feet",
+      "start": 16.3,
+      "end": 16.9
+    },
+    {
+      "word": "what",
+      "start": 17.44,
+      "end": 17.64
+    },
+    {
+      "word": "kind",
+      "start": 17.64,
+      "end": 18.16
+    },
+    {
+      "word": "of",
+      "start": 18.16,
+      "end": 18.24
+    },
+    {
+      "word": "animal",
+      "start": 18.24,
+      "end": 18.84
+    },
+    {
+      "word": "has",
+      "start": 18.84,
+      "end": 19.62
+    },
+    {
+      "word": "this",
+      "start": 19.62,
+      "end": 19.94
+    },
+    {
+      "word": "feet",
+      "start": 19.94,
+      "end": 20.46
+    },
+    {
+      "word": "a",
+      "start": 20.78,
+      "end": 20.94
+    },
+    {
+      "word": "tiger",
+      "start": 20.94,
+      "end": 21.38
+    },
+    {
+      "word": "has",
+      "start": 21.38,
+      "end": 22.2
+    },
+    {
+      "word": "these",
+      "start": 22.2,
+      "end": 22.48
+    },
+    {
+      "word": "soft",
+      "start": 22.48,
+      "end": 23.18
+    },
+    {
+      "word": "feet",
+      "start": 23.18,
+      "end": 23.92
+    },
+    {
+      "word": "what",
+      "start": 24.26,
+      "end": 24.4
+    },
+    {
+      "word": "kind",
+      "start": 24.4,
+      "end": 24.86
+    },
+    {
+      "word": "of",
+      "start": 24.86,
+      "end": 25.06
+    },
+    {
+      "word": "animal",
+      "start": 25.06,
+      "end": 25.48
+    },
+    {
+      "word": "has",
+      "start": 25.48,
+      "end": 26.28
+    },
+    {
+      "word": "no",
+      "start": 26.28,
+      "end": 26.68
+    },
+    {
+      "word": "feet",
+      "start": 26.68,
+      "end": 27.28
+    },
+    {
+      "word": "a",
+      "start": 27.28,
+      "end": 27.8
+    },
+    {
+      "word": "shark",
+      "start": 27.8,
+      "end": 28.18
+    },
+    {
+      "word": "has",
+      "start": 28.18,
+      "end": 28.9
+    },
+    {
+      "word": "no",
+      "start": 28.9,
+      "end": 29.42
+    },
+    {
+      "word": "feet",
+      "start": 29.42,
+      "end": 29.78
+    }
+  ]
+}

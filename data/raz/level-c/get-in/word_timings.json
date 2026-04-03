@@ -1,0 +1,376 @@
+{
+  "version": "1.0",
+  "total_words": 74,
+  "timings": [
+    {
+      "word": "get",
+      "start": 0.0,
+      "end": 0.28
+    },
+    {
+      "word": "in",
+      "start": 0.28,
+      "end": 0.88
+    },
+    {
+      "word": "written",
+      "start": 1.56,
+      "end": 1.82
+    },
+    {
+      "word": "by",
+      "start": 1.82,
+      "end": 2.38
+    },
+    {
+      "word": "vick",
+      "start": 2.38,
+      "end": 3.16
+    },
+    {
+      "word": "moore's",
+      "start": 3.16,
+      "end": 4.88
+    },
+    {
+      "word": "illustrated",
+      "start": 4.88,
+      "end": 5.46
+    },
+    {
+      "word": "by",
+      "start": 5.46,
+      "end": 6.24
+    },
+    {
+      "word": "maria",
+      "start": 6.24,
+      "end": 6.8
+    },
+    {
+      "word": "vores",
+      "start": 6.8,
+      "end": 7.64
+    },
+    {
+      "word": "can",
+      "start": 8.7,
+      "end": 8.78
+    },
+    {
+      "word": "the",
+      "start": 8.78,
+      "end": 9.02
+    },
+    {
+      "word": "boy",
+      "start": 9.02,
+      "end": 9.52
+    },
+    {
+      "word": "get",
+      "start": 9.52,
+      "end": 10.02
+    },
+    {
+      "word": "in",
+      "start": 10.02,
+      "end": 10.66
+    },
+    {
+      "word": "yes",
+      "start": 11.32,
+      "end": 11.78
+    },
+    {
+      "word": "he",
+      "start": 12.24,
+      "end": 12.34
+    },
+    {
+      "word": "can",
+      "start": 12.34,
+      "end": 13.08
+    },
+    {
+      "word": "can",
+      "start": 13.54,
+      "end": 13.74
+    },
+    {
+      "word": "the",
+      "start": 13.74,
+      "end": 13.96
+    },
+    {
+      "word": "girl",
+      "start": 13.96,
+      "end": 14.42
+    },
+    {
+      "word": "get",
+      "start": 14.42,
+      "end": 14.88
+    },
+    {
+      "word": "in",
+      "start": 14.88,
+      "end": 15.48
+    },
+    {
+      "word": "yes",
+      "start": 16.14,
+      "end": 16.62
+    },
+    {
+      "word": "she",
+      "start": 16.86,
+      "end": 17.18
+    },
+    {
+      "word": "can",
+      "start": 17.18,
+      "end": 17.82
+    },
+    {
+      "word": "can",
+      "start": 18.3,
+      "end": 18.58
+    },
+    {
+      "word": "the",
+      "start": 18.58,
+      "end": 18.84
+    },
+    {
+      "word": "man",
+      "start": 18.84,
+      "end": 19.44
+    },
+    {
+      "word": "get",
+      "start": 19.44,
+      "end": 19.96
+    },
+    {
+      "word": "in",
+      "start": 19.96,
+      "end": 20.74
+    },
+    {
+      "word": "yes",
+      "start": 21.18,
+      "end": 21.8
+    },
+    {
+      "word": "he",
+      "start": 21.8,
+      "end": 22.12
+    },
+    {
+      "word": "can",
+      "start": 22.12,
+      "end": 22.72
+    },
+    {
+      "word": "can",
+      "start": 23.38,
+      "end": 23.48
+    },
+    {
+      "word": "the",
+      "start": 23.48,
+      "end": 23.72
+    },
+    {
+      "word": "woman",
+      "start": 23.72,
+      "end": 24.08
+    },
+    {
+      "word": "get",
+      "start": 24.08,
+      "end": 24.5
+    },
+    {
+      "word": "in",
+      "start": 24.5,
+      "end": 25.08
+    },
+    {
+      "word": "yes",
+      "start": 25.44,
+      "end": 25.98
+    },
+    {
+      "word": "she",
+      "start": 26.16,
+      "end": 26.5
+    },
+    {
+      "word": "can",
+      "start": 26.5,
+      "end": 27.04
+    },
+    {
+      "word": "can",
+      "start": 27.04,
+      "end": 27.88
+    },
+    {
+      "word": "the",
+      "start": 27.88,
+      "end": 28.12
+    },
+    {
+      "word": "duck",
+      "start": 28.12,
+      "end": 28.46
+    },
+    {
+      "word": "get",
+      "start": 28.46,
+      "end": 28.94
+    },
+    {
+      "word": "in",
+      "start": 28.94,
+      "end": 29.62
+    },
+    {
+      "word": "yes",
+      "start": 30.48,
+      "end": 30.8
+    },
+    {
+      "word": "it",
+      "start": 31.22,
+      "end": 31.52
+    },
+    {
+      "word": "can",
+      "start": 31.52,
+      "end": 32.22
+    },
+    {
+      "word": "can",
+      "start": 32.82,
+      "end": 33.06
+    },
+    {
+      "word": "the",
+      "start": 33.06,
+      "end": 33.38
+    },
+    {
+      "word": "dog",
+      "start": 33.38,
+      "end": 33.82
+    },
+    {
+      "word": "get",
+      "start": 33.82,
+      "end": 34.36
+    },
+    {
+      "word": "in",
+      "start": 34.36,
+      "end": 35.06
+    },
+    {
+      "word": "yes",
+      "start": 35.6,
+      "end": 36.18
+    },
+    {
+      "word": "it",
+      "start": 36.4,
+      "end": 36.68
+    },
+    {
+      "word": "can",
+      "start": 36.68,
+      "end": 37.18
+    },
+    {
+      "word": "can",
+      "start": 37.92,
+      "end": 38.16
+    },
+    {
+      "word": "the",
+      "start": 38.16,
+      "end": 38.46
+    },
+    {
+      "word": "pig",
+      "start": 38.46,
+      "end": 38.84
+    },
+    {
+      "word": "get",
+      "start": 38.84,
+      "end": 39.32
+    },
+    {
+      "word": "in",
+      "start": 39.32,
+      "end": 40.1
+    },
+    {
+      "word": "yes",
+      "start": 40.62,
+      "end": 41.1
+    },
+    {
+      "word": "it",
+      "start": 41.4,
+      "end": 41.74
+    },
+    {
+      "word": "can",
+      "start": 41.74,
+      "end": 42.16
+    },
+    {
+      "word": "can",
+      "start": 42.78,
+      "end": 42.98
+    },
+    {
+      "word": "the",
+      "start": 42.98,
+      "end": 43.22
+    },
+    {
+      "word": "elephant",
+      "start": 43.22,
+      "end": 43.74
+    },
+    {
+      "word": "get",
+      "start": 43.74,
+      "end": 44.42
+    },
+    {
+      "word": "in",
+      "start": 44.42,
+      "end": 45.22
+    },
+    {
+      "word": "no",
+      "start": 45.78,
+      "end": 46.4
+    },
+    {
+      "word": "it",
+      "start": 46.94,
+      "end": 47.22
+    },
+    {
+      "word": "cannot",
+      "start": 47.22,
+      "end": 47.7
+    }
+  ]
+}

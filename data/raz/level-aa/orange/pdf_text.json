@@ -1,0 +1,58 @@
+{
+  "id": "level-aa/orange",
+  "title": "Orange",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , Aa Orange series Colors Written by Racheal Rice wwwreadinga-Z.com"
+    },
+    {
+      "page": 2,
+      "text": "Orange Allis-chALMeRS 197 Written Racheal Rice wwwreadinga-z.com Focus Question Where do you see orange in the fall? by"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know butterfly pumpkin field snake flower sunset leaf tree orange Photo Credits: Front cover; back cover: @ delogg/iStock/Thinkstock; title page: @ Noel Bridgeman/Alamy: page 3: @ Sergey Borisov/Alamy: page 4: @ iStock/ Thinkstock; page 5: @ Kenishirotie/iStock/Thinkstock; page 6: @ DejanKolar/ iStock/Thinkstock; page 7: @ Dean_FikarliStock/Thinkstock; page &: John Cancalosilardea.com; page 9: @ AnnekeDeBlok/iStock/Thinkstock; page 1O: AGrigorjeva/iStock/Thinkstock Orange Level aa Leveled Book Correlation Learning A-Z LEVEL aa Written by Racheal Rice Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "An orange tree. Orange Level aa 3"
+    },
+    {
+      "page": 5,
+      "text": "An orange leaf: 4"
+    },
+    {
+      "page": 6,
+      "text": "An orange pumpkin: Orange Level aa 5"
+    },
+    {
+      "page": 7,
+      "text": "An orange flower: 6"
+    },
+    {
+      "page": 8,
+      "text": "An orange butterfly: Orange Level aa"
+    },
+    {
+      "page": 9,
+      "text": "An orange snake: 8"
+    },
+    {
+      "page": 10,
+      "text": "An orange field. Orange Level aa"
+    },
+    {
+      "page": 11,
+      "text": "An orange sunset: 10"
+    },
+    {
+      "page": 12,
+      "text": "Orange A Reading A-Z Level aa Leveled Book Word Count: 24 Connections Writing and Art What is your favorite thing to do in the fall? Draw & picture and write about it. Science What is the weather like in the fall? Share your ideas with a partner: Deading F Visit wwwreadinga-z.com for thousands of books and materials"
+    }
+  ]
+}

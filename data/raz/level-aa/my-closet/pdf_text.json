@@ -1,0 +1,58 @@
+{
+  "id": "level-aa/my-closet",
+  "title": "My Closet",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , aa Closet 5 6 2 U. 7 8 Written by Elizabeth Jane Pustilnik Illustrated by Juan Manuel Moreno wwwreadinga-z.com My"
+    },
+    {
+      "page": 2,
+      "text": "My Closet  Written by Elizabeth Jane Pustilnik Illustrated Juan Manuel Moreno wwwreadinga-z.com Focus Question What can you find in a closet? by"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know belts hangers blankets pants closet shoes My Closet Level aa Leveled Book 0 Learning A-Z Correlation Written by Elizabeth Jane Pustilnik LEVEL aa Illustrated by Juan Manuel Moreno Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "hangers. Closet 0 Level aa 3 My My"
+    },
+    {
+      "page": 5,
+      "text": "0 6 73 0 shirts. My"
+    },
+    {
+      "page": 6,
+      "text": "pants. Closet 0 Level aa 5 My My"
+    },
+    {
+      "page": 7,
+      "text": "2 4 7 a 83 dresses: My"
+    },
+    {
+      "page": 8,
+      "text": "shoes. Closet 0 Level aa My My"
+    },
+    {
+      "page": 9,
+      "text": "belts. 8 My"
+    },
+    {
+      "page": 10,
+      "text": "0 blankets. Closet 0 Level aa My My"
+    },
+    {
+      "page": 11,
+      "text": "63 7 83 closet. 10 My"
+    },
+    {
+      "page": 12,
+      "text": "Closet A Reading A-Z Level aa Leveled Book Word Count: 16 Connections Writing and Art Draw three things that are in a closet: Label your pictures Share your pictures with a partner: Science and Art Draw four boxes and label them with the names of the seasons: spring; summer; fall; and winter: Draw a picture of what you wear during each season: Reading A-z Visit www.readinga-z.com for thousands of books and materials. My"
+    }
+  ]
+}

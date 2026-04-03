@@ -1,0 +1,281 @@
+{
+  "version": "1.0",
+  "total_words": 55,
+  "timings": [
+    {
+      "word": "carlos",
+      "start": 0.0,
+      "end": 1.18
+    },
+    {
+      "word": "goes",
+      "start": 1.18,
+      "end": 2.58
+    },
+    {
+      "word": "to",
+      "start": 2.58,
+      "end": 4.16
+    },
+    {
+      "word": "school",
+      "start": 4.16,
+      "end": 5.52
+    },
+    {
+      "word": "written",
+      "start": 6.6,
+      "end": 6.78
+    },
+    {
+      "word": "by",
+      "start": 6.78,
+      "end": 8.12
+    },
+    {
+      "word": "lord",
+      "start": 8.12,
+      "end": 9.26
+    },
+    {
+      "word": "inner",
+      "start": 9.26,
+      "end": 10.74
+    },
+    {
+      "word": "f",
+      "start": 10.74,
+      "end": 11.3
+    },
+    {
+      "word": "d",
+      "start": 11.3,
+      "end": 12.36
+    },
+    {
+      "word": "bellow",
+      "start": 12.88,
+      "end": 13.94
+    },
+    {
+      "word": "illustrated",
+      "start": 14.7,
+      "end": 15.54
+    },
+    {
+      "word": "by",
+      "start": 15.54,
+      "end": 17.14
+    },
+    {
+      "word": "angela",
+      "start": 17.14,
+      "end": 17.88
+    },
+    {
+      "word": "i",
+      "start": 20.48,
+      "end": 21.88
+    },
+    {
+      "word": "get",
+      "start": 21.88,
+      "end": 23.24
+    },
+    {
+      "word": "my",
+      "start": 23.24,
+      "end": 24.7
+    },
+    {
+      "word": "back",
+      "start": 24.7,
+      "end": 25.44
+    },
+    {
+      "word": "pack",
+      "start": 25.44,
+      "end": 26.1
+    },
+    {
+      "word": "i",
+      "start": 26.82,
+      "end": 26.82
+    },
+    {
+      "word": "get",
+      "start": 26.82,
+      "end": 28.06
+    },
+    {
+      "word": "my",
+      "start": 28.06,
+      "end": 29.58
+    },
+    {
+      "word": "pencils",
+      "start": 29.58,
+      "end": 30.8
+    },
+    {
+      "word": "i",
+      "start": 31.74,
+      "end": 31.74
+    },
+    {
+      "word": "get",
+      "start": 31.74,
+      "end": 33.1
+    },
+    {
+      "word": "my",
+      "start": 33.1,
+      "end": 34.6
+    },
+    {
+      "word": "ruler",
+      "start": 34.6,
+      "end": 35.68
+    },
+    {
+      "word": "i",
+      "start": 37.1,
+      "end": 37.12
+    },
+    {
+      "word": "get",
+      "start": 37.12,
+      "end": 37.78
+    },
+    {
+      "word": "my",
+      "start": 37.78,
+      "end": 39.0
+    },
+    {
+      "word": "eraser",
+      "start": 39.0,
+      "end": 40.46
+    },
+    {
+      "word": "i",
+      "start": 41.38,
+      "end": 41.38
+    },
+    {
+      "word": "get",
+      "start": 41.38,
+      "end": 42.78
+    },
+    {
+      "word": "my",
+      "start": 42.78,
+      "end": 44.26
+    },
+    {
+      "word": "crayons",
+      "start": 44.26,
+      "end": 46.0
+    },
+    {
+      "word": "i",
+      "start": 46.0,
+      "end": 46.84
+    },
+    {
+      "word": "get",
+      "start": 46.84,
+      "end": 48.2
+    },
+    {
+      "word": "my",
+      "start": 48.2,
+      "end": 49.74
+    },
+    {
+      "word": "sweater",
+      "start": 49.74,
+      "end": 50.8
+    },
+    {
+      "word": "i",
+      "start": 51.76,
+      "end": 51.76
+    },
+    {
+      "word": "get",
+      "start": 51.76,
+      "end": 53.02
+    },
+    {
+      "word": "my",
+      "start": 53.02,
+      "end": 54.54
+    },
+    {
+      "word": "sister",
+      "start": 54.54,
+      "end": 55.98
+    },
+    {
+      "word": "i",
+      "start": 56.98,
+      "end": 56.98
+    },
+    {
+      "word": "get",
+      "start": 56.98,
+      "end": 58.48
+    },
+    {
+      "word": "my",
+      "start": 58.48,
+      "end": 59.9
+    },
+    {
+      "word": "lunch",
+      "start": 59.9,
+      "end": 61.24
+    },
+    {
+      "word": "i",
+      "start": 62.04,
+      "end": 62.04
+    },
+    {
+      "word": "get",
+      "start": 62.04,
+      "end": 63.3
+    },
+    {
+      "word": "my",
+      "start": 63.3,
+      "end": 64.64
+    },
+    {
+      "word": "hug",
+      "start": 64.64,
+      "end": 66.1
+    },
+    {
+      "word": "i",
+      "start": 66.92,
+      "end": 66.92
+    },
+    {
+      "word": "get",
+      "start": 66.92,
+      "end": 68.1
+    },
+    {
+      "word": "my",
+      "start": 68.1,
+      "end": 69.56
+    },
+    {
+      "word": "ride",
+      "start": 69.56,
+      "end": 71.06
+    }
+  ]
+}

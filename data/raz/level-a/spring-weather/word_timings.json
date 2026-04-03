@@ -1,0 +1,156 @@
+{
+  "version": "1.0",
+  "total_words": 30,
+  "timings": [
+    {
+      "word": "spring",
+      "start": 0.0,
+      "end": 0.58
+    },
+    {
+      "word": "weather",
+      "start": 0.58,
+      "end": 1.62
+    },
+    {
+      "word": "written",
+      "start": 2.24,
+      "end": 2.58
+    },
+    {
+      "word": "by",
+      "start": 2.58,
+      "end": 3.08
+    },
+    {
+      "word": "katie",
+      "start": 3.08,
+      "end": 3.44
+    },
+    {
+      "word": "knight",
+      "start": 3.44,
+      "end": 4.16
+    },
+    {
+      "word": "the",
+      "start": 4.6,
+      "end": 4.86
+    },
+    {
+      "word": "fog",
+      "start": 4.86,
+      "end": 5.66
+    },
+    {
+      "word": "comes",
+      "start": 5.66,
+      "end": 6.74
+    },
+    {
+      "word": "the",
+      "start": 7.48,
+      "end": 7.48
+    },
+    {
+      "word": "clouds",
+      "start": 7.48,
+      "end": 8.58
+    },
+    {
+      "word": "come",
+      "start": 8.58,
+      "end": 9.5
+    },
+    {
+      "word": "the",
+      "start": 9.94,
+      "end": 10.12
+    },
+    {
+      "word": "storm",
+      "start": 10.12,
+      "end": 11.24
+    },
+    {
+      "word": "comes",
+      "start": 11.24,
+      "end": 12.32
+    },
+    {
+      "word": "the",
+      "start": 12.96,
+      "end": 13.08
+    },
+    {
+      "word": "rain",
+      "start": 13.08,
+      "end": 14.3
+    },
+    {
+      "word": "comes",
+      "start": 14.3,
+      "end": 15.26
+    },
+    {
+      "word": "the",
+      "start": 15.9,
+      "end": 16.04
+    },
+    {
+      "word": "wind",
+      "start": 16.04,
+      "end": 17.08
+    },
+    {
+      "word": "comes",
+      "start": 17.08,
+      "end": 18.24
+    },
+    {
+      "word": "the",
+      "start": 18.68,
+      "end": 18.86
+    },
+    {
+      "word": "sun",
+      "start": 18.86,
+      "end": 19.98
+    },
+    {
+      "word": "comes",
+      "start": 19.98,
+      "end": 21.1
+    },
+    {
+      "word": "the",
+      "start": 21.5,
+      "end": 21.72
+    },
+    {
+      "word": "flowers",
+      "start": 21.72,
+      "end": 22.92
+    },
+    {
+      "word": "come",
+      "start": 22.92,
+      "end": 23.8
+    },
+    {
+      "word": "the",
+      "start": 24.2,
+      "end": 24.64
+    },
+    {
+      "word": "spring",
+      "start": 24.64,
+      "end": 25.58
+    },
+    {
+      "word": "comes",
+      "start": 25.58,
+      "end": 26.58
+    }
+  ]
+}

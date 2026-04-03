@@ -1,0 +1,141 @@
+{
+  "version": "1.0",
+  "total_words": 27,
+  "timings": [
+    {
+      "word": "the",
+      "start": 0.0,
+      "end": 0.4
+    },
+    {
+      "word": "supermarket",
+      "start": 0.4,
+      "end": 1.08
+    },
+    {
+      "word": "written",
+      "start": 1.74,
+      "end": 2.24
+    },
+    {
+      "word": "by",
+      "start": 2.24,
+      "end": 2.76
+    },
+    {
+      "word": "catalina",
+      "start": 2.76,
+      "end": 3.34
+    },
+    {
+      "word": "page",
+      "start": 3.34,
+      "end": 4.1
+    },
+    {
+      "word": "illustrated",
+      "start": 4.88,
+      "end": 5.38
+    },
+    {
+      "word": "by",
+      "start": 5.38,
+      "end": 6.06
+    },
+    {
+      "word": "nora",
+      "start": 6.06,
+      "end": 6.48
+    },
+    {
+      "word": "votis",
+      "start": 6.48,
+      "end": 7.36
+    },
+    {
+      "word": "the",
+      "start": 8.02,
+      "end": 8.24
+    },
+    {
+      "word": "carts",
+      "start": 8.24,
+      "end": 8.76
+    },
+    {
+      "word": "the",
+      "start": 9.32,
+      "end": 9.6
+    },
+    {
+      "word": "fruits",
+      "start": 9.6,
+      "end": 10.06
+    },
+    {
+      "word": "the",
+      "start": 10.78,
+      "end": 10.88
+    },
+    {
+      "word": "vegetables",
+      "start": 10.88,
+      "end": 11.38
+    },
+    {
+      "word": "the",
+      "start": 12.42,
+      "end": 12.5
+    },
+    {
+      "word": "bread",
+      "start": 12.5,
+      "end": 12.94
+    },
+    {
+      "word": "the",
+      "start": 13.52,
+      "end": 13.7
+    },
+    {
+      "word": "cereal",
+      "start": 13.7,
+      "end": 14.22
+    },
+    {
+      "word": "the",
+      "start": 14.68,
+      "end": 14.82
+    },
+    {
+      "word": "meat",
+      "start": 14.82,
+      "end": 15.26
+    },
+    {
+      "word": "the",
+      "start": 15.94,
+      "end": 16.14
+    },
+    {
+      "word": "eggs",
+      "start": 16.14,
+      "end": 16.68
+    },
+    {
+      "word": "the",
+      "start": 17.12,
+      "end": 17.42
+    },
+    {
+      "word": "check",
+      "start": 17.42,
+      "end": 17.64
+    },
+    {
+      "word": "out",
+      "start": 17.64,
+      "end": 18.12
+    }
+  ]
+}

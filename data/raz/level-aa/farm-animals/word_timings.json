@@ -1,0 +1,136 @@
+{
+  "version": "1.0",
+  "total_words": 26,
+  "timings": [
+    {
+      "word": "farm",
+      "start": 0.0,
+      "end": 0.58
+    },
+    {
+      "word": "animals",
+      "start": 0.58,
+      "end": 1.38
+    },
+    {
+      "word": "written",
+      "start": 2.2,
+      "end": 2.36
+    },
+    {
+      "word": "by",
+      "start": 2.36,
+      "end": 2.96
+    },
+    {
+      "word": "cheryl",
+      "start": 2.96,
+      "end": 3.48
+    },
+    {
+      "word": "ryan",
+      "start": 3.48,
+      "end": 4.1
+    },
+    {
+      "word": "illustrated",
+      "start": 4.86,
+      "end": 5.22
+    },
+    {
+      "word": "by",
+      "start": 5.22,
+      "end": 6.0
+    },
+    {
+      "word": "nora",
+      "start": 6.0,
+      "end": 6.56
+    },
+    {
+      "word": "voodis",
+      "start": 6.56,
+      "end": 7.52
+    },
+    {
+      "word": "the",
+      "start": 10.18,
+      "end": 10.38
+    },
+    {
+      "word": "dog",
+      "start": 10.38,
+      "end": 11.06
+    },
+    {
+      "word": "the",
+      "start": 13.42,
+      "end": 13.52
+    },
+    {
+      "word": "pig",
+      "start": 13.52,
+      "end": 14.04
+    },
+    {
+      "word": "the",
+      "start": 16.42,
+      "end": 16.66
+    },
+    {
+      "word": "chicken",
+      "start": 16.66,
+      "end": 17.04
+    },
+    {
+      "word": "the",
+      "start": 19.46,
+      "end": 19.6
+    },
+    {
+      "word": "goat",
+      "start": 19.6,
+      "end": 20.3
+    },
+    {
+      "word": "the",
+      "start": 22.7,
+      "end": 22.86
+    },
+    {
+      "word": "cow",
+      "start": 22.86,
+      "end": 23.52
+    },
+    {
+      "word": "the",
+      "start": 25.7,
+      "end": 25.8
+    },
+    {
+      "word": "dog",
+      "start": 25.8,
+      "end": 26.46
+    },
+    {
+      "word": "the",
+      "start": 28.1,
+      "end": 29.06
+    },
+    {
+      "word": "sheep",
+      "start": 29.06,
+      "end": 29.58
+    },
+    {
+      "word": "the",
+      "start": 32.04,
+      "end": 32.3
+    },
+    {
+      "word": "animals",
+      "start": 32.3,
+      "end": 32.74
+    }
+  ]
+}

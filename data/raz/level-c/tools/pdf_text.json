@@ -1,0 +1,54 @@
+{
+  "id": "level-c/tools",
+  "title": "Tools",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C Tools Q 4 Written by Robert Charles Illustrated by Randy Gates wwwreadinga-z.com 1"
+    },
+    {
+      "page": 2,
+      "text": "Tools 8 / Written by Robert Charles Illustrated by Randy Gates wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "I see tools everywhere: Tools US work: Tools Level € 3 help"
+    },
+    {
+      "page": 4,
+      "text": "0 0  Here is a tool: It is a for writing: 3 IrTER Wa Me * #ltuteg pencil"
+    },
+    {
+      "page": 5,
+      "text": "Here is a tool: It is a rake for raking: Tools Level € 5"
+    },
+    {
+      "page": 6,
+      "text": "Here is a tool: It is a hammer for pounding:"
+    },
+    {
+      "page": 7,
+      "text": "Here is a tool: It is a shovel for digging: Tools Level €"
+    },
+    {
+      "page": 8,
+      "text": "Ail \"U' Here is a tool. It is a knife for cutting: 8 Jt"
+    },
+    {
+      "page": 9,
+      "text": "Here is a tool; It is a wheelbarrow for carrying: Tools Level €"
+    },
+    {
+      "page": 10,
+      "text": "l I see tools everywhere: What tools do yoU see? 10 3 %"
+    },
+    {
+      "page": 11,
+      "text": "Tools Level C Leveled Book Learning A-Z Correlation Written by Robert Charles LEVEL C Illustrated by Randy Gates Fountas & Pinnell C All rights reserved: Reading Recovery 3-4 DRA 3-4 wwwreadinga-zcom"
+    }
+  ]
+}

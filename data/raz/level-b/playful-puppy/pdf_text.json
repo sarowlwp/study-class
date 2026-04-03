@@ -1,0 +1,54 @@
+{
+  "id": "level-b/playful-puppy",
+  "title": "Playful Puppy",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Playful Zumd Written by Joe Slade Illustrated by Catalina Rankin wwwreadinga-z.com Puppy"
+    },
+    {
+      "page": 2,
+      "text": "Playful Written by Joe Slade Illustrated by Catalina Rankin wwwreadinga-z.com Puppy"
+    },
+    {
+      "page": 3,
+      "text": "3 sees a little mouse. Playful Level B 3 Puppy Puppy"
+    },
+    {
+      "page": 4,
+      "text": "Let it be , 1 1, Puppy _"
+    },
+    {
+      "page": 5,
+      "text": "@LU sees a little Playful Level B 5 Puppy frog- Puppy"
+    },
+    {
+      "page": 6,
+      "text": "Let it be , 1 Puppy _"
+    },
+    {
+      "page": 7,
+      "text": "3ep Wab sees a little turtle. Playful Level B Puppy Puppy"
+    },
+    {
+      "page": 8,
+      "text": "I Let it be, 1 8 Puppy _"
+    },
+    {
+      "page": 9,
+      "text": "sees a little ball. Playful Level B Puppy Puppy"
+    },
+    {
+      "page": 10,
+      "text": "Get the ball 1 10 Puppy _"
+    },
+    {
+      "page": 11,
+      "text": "Playful Level B Leveled Book Learning A-Z Correlation Written by Joe Slade LEVEL B Illustrated by Catalina Rankin Fountas & Pinnell B All rights reserved. Reading_Recovery 2 DRA 2 WWW.  readinga-z.com Puppy"
+    }
+  ]
+}

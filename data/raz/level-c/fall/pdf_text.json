@@ -1,0 +1,54 @@
+{
+  "id": "level-c/fall",
+  "title": "Fall",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C Fall 0 Written by Katherine Follett Illustrated by Signe Nordin wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Fall E Written by Katherine Follett Illustrated by Signe Nordin wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "# '4 In fall, things turn orange: In fall, pumpkins turn orange: Fall Level C 3"
+    },
+    {
+      "page": 4,
+      "text": "# In fall, the moon turns orange:"
+    },
+    {
+      "page": 5,
+      "text": "# 38 In fall, things turn red: In fall, apples turn red; Fall Level C 5"
+    },
+    {
+      "page": 6,
+      "text": "0 In fall; leaves turn red:"
+    },
+    {
+      "page": 7,
+      "text": "\" M KM M udp In fall, things turn brown: In fall; grass turns brown: Fall Level C"
+    },
+    {
+      "page": 8,
+      "text": "@ ' 2 In fall,  things turn yellow: In fall; corn turns yellow: 8"
+    },
+    {
+      "page": 9,
+      "text": "stle  LA(Z In fall, things turn white: In fall; frost turns white: Fall Level C K ' things"
+    },
+    {
+      "page": 10,
+      "text": "In fall, turn many colors! 10 4 things"
+    },
+    {
+      "page": 11,
+      "text": "Fall Level C Leveled Book Learning A-Z Correlation Written by Katherine Follett LEVEL C Illustrated by Signe Nordin Fountas & Pinnell C All rights reserved: Reading Recovery 3-4 DRA 3-4 wwwreadinga-zcom"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "level-c/rocks",
+  "title": "Rocks",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C Rocks Written by Kitty Higgins wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Rocks Written by Kitty Higgins wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "This is a mountain: Rocks Level C 3"
+    },
+    {
+      "page": 4,
+      "text": "A mountain is made Of rock"
+    },
+    {
+      "page": 5,
+      "text": "This is a boulder: It broke off the mountain: Rocks Level C 5"
+    },
+    {
+      "page": 6,
+      "text": "This is a stone. It broke off the boulder."
+    },
+    {
+      "page": 7,
+      "text": "This is a pebble: It broke off the stone: Rocks Level C"
+    },
+    {
+      "page": 8,
+      "text": "This is sand: It broke off the pebble: 8"
+    },
+    {
+      "page": 9,
+      "text": "This is dust. Rocks Level C"
+    },
+    {
+      "page": 10,
+      "text": "Dust is the tiniest piece Of rock Dust is everywhere: 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover; back cover; 3,4: @ ArtToday; title page; pages 5, 6 7, 8: David Gates/@ Learning A-Z; page 9: @ Universal Images Group/SuperStock; page I0: Craig Frederick/O Learning A-Z Rocks Level C Leveled Book Correlation Learning A-Z LEVEL € Written by Kitty Higgins Fountas & Pinnell C All rights reserved: Reading Recovery 3-4 DRA 3-4 wwwreadinga-zcom"
+    }
+  ]
+}

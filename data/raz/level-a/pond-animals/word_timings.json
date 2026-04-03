@@ -1,0 +1,221 @@
+{
+  "version": "1.0",
+  "total_words": 43,
+  "timings": [
+    {
+      "word": "pand",
+      "start": 0.0,
+      "end": 0.5
+    },
+    {
+      "word": "animals",
+      "start": 0.5,
+      "end": 1.16
+    },
+    {
+      "word": "written",
+      "start": 1.78,
+      "end": 2.06
+    },
+    {
+      "word": "by",
+      "start": 2.06,
+      "end": 2.56
+    },
+    {
+      "word": "ned",
+      "start": 2.56,
+      "end": 3.06
+    },
+    {
+      "word": "jensen",
+      "start": 3.06,
+      "end": 3.86
+    },
+    {
+      "word": "illustrated",
+      "start": 4.82,
+      "end": 5.46
+    },
+    {
+      "word": "by",
+      "start": 5.46,
+      "end": 6.08
+    },
+    {
+      "word": "angela",
+      "start": 6.08,
+      "end": 6.66
+    },
+    {
+      "word": "kamstra",
+      "start": 6.66,
+      "end": 7.52
+    },
+    {
+      "word": "jacobson",
+      "start": 7.52,
+      "end": 8.78
+    },
+    {
+      "word": "i",
+      "start": 9.64,
+      "end": 9.64
+    },
+    {
+      "word": "see",
+      "start": 9.64,
+      "end": 9.96
+    },
+    {
+      "word": "eight",
+      "start": 9.96,
+      "end": 10.8
+    },
+    {
+      "word": "bugs",
+      "start": 10.8,
+      "end": 11.54
+    },
+    {
+      "word": "i",
+      "start": 12.74,
+      "end": 12.92
+    },
+    {
+      "word": "see",
+      "start": 12.92,
+      "end": 13.34
+    },
+    {
+      "word": "seven",
+      "start": 13.34,
+      "end": 14.14
+    },
+    {
+      "word": "ducks",
+      "start": 14.14,
+      "end": 14.9
+    },
+    {
+      "word": "i",
+      "start": 15.88,
+      "end": 16.2
+    },
+    {
+      "word": "see",
+      "start": 16.2,
+      "end": 16.6
+    },
+    {
+      "word": "six",
+      "start": 16.6,
+      "end": 17.34
+    },
+    {
+      "word": "frogs",
+      "start": 17.34,
+      "end": 18.18
+    },
+    {
+      "word": "i",
+      "start": 19.0,
+      "end": 19.4
+    },
+    {
+      "word": "see",
+      "start": 19.4,
+      "end": 19.82
+    },
+    {
+      "word": "five",
+      "start": 19.82,
+      "end": 20.56
+    },
+    {
+      "word": "turtles",
+      "start": 20.56,
+      "end": 21.26
+    },
+    {
+      "word": "i",
+      "start": 22.24,
+      "end": 22.54
+    },
+    {
+      "word": "see",
+      "start": 22.54,
+      "end": 22.96
+    },
+    {
+      "word": "four",
+      "start": 22.96,
+      "end": 23.48
+    },
+    {
+      "word": "fish",
+      "start": 23.48,
+      "end": 24.34
+    },
+    {
+      "word": "i",
+      "start": 25.14,
+      "end": 25.48
+    },
+    {
+      "word": "see",
+      "start": 25.48,
+      "end": 25.84
+    },
+    {
+      "word": "three",
+      "start": 25.84,
+      "end": 26.72
+    },
+    {
+      "word": "worms",
+      "start": 26.72,
+      "end": 27.54
+    },
+    {
+      "word": "i",
+      "start": 27.54,
+      "end": 28.82
+    },
+    {
+      "word": "see",
+      "start": 28.82,
+      "end": 29.36
+    },
+    {
+      "word": "two",
+      "start": 29.36,
+      "end": 29.98
+    },
+    {
+      "word": "swans",
+      "start": 29.98,
+      "end": 30.78
+    },
+    {
+      "word": "i",
+      "start": 31.54,
+      "end": 32.02
+    },
+    {
+      "word": "see",
+      "start": 32.02,
+      "end": 32.48
+    },
+    {
+      "word": "one",
+      "start": 32.48,
+      "end": 33.22
+    },
+    {
+      "word": "pond",
+      "start": 33.22,
+      "end": 34.06
+    }
+  ]
+}

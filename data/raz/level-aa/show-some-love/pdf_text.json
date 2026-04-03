@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/show-some-love",
+  "title": "Show Some Love",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , Aa Show Some Love Written by Bev Osborn wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Show Some Love Written by Bev Osborn wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "The smile: Show Some Love Level aa 3"
+    },
+    {
+      "page": 4,
+      "text": "URO The hug:"
+    },
+    {
+      "page": 5,
+      "text": "The Show Some Love Level aa 5 pat."
+    },
+    {
+      "page": 6,
+      "text": "2 The card_ 6"
+    },
+    {
+      "page": 7,
+      "text": "The Show Some Love Level aa Leens 701 gift."
+    },
+    {
+      "page": 8,
+      "text": "The kiss. 8"
+    },
+    {
+      "page": 9,
+      "text": "1991 The wink Up Show Some Love Level aa"
+    },
+    {
+      "page": 10,
+      "text": "The lick. 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover: @ Exactostock/SuperStock; back cover: @ Dreamstime.com; title page: @ Blend Images/Alamy; page 3: @ Monkey Business Images/Dreamstime.com; page 4: Blend Images/Superstock; page 5: @ Blue Jean Images/Alamy; pages 6, 7: @ Learning A-ZIGawain Douglas; page 8: @ iStockphotocom/Nathan Schepker; page 9: @ John T. Fowler/Alamy: page 10: @ iStockphotocom/Sergey Lavrentev Show Some Love Level aa Leveled Book Correlation Learning A-Z LEVEL aa Written by Bev Osborn Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-zcom"
+    }
+  ]
+}

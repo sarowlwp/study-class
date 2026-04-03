@@ -1,0 +1,196 @@
+{
+  "version": "1.0",
+  "total_words": 38,
+  "timings": [
+    {
+      "word": "winter",
+      "start": 0.0,
+      "end": 0.52
+    },
+    {
+      "word": "fun",
+      "start": 0.52,
+      "end": 1.64
+    },
+    {
+      "word": "written",
+      "start": 1.64,
+      "end": 2.36
+    },
+    {
+      "word": "by",
+      "start": 2.36,
+      "end": 3.04
+    },
+    {
+      "word": "catalina",
+      "start": 3.04,
+      "end": 3.9
+    },
+    {
+      "word": "page",
+      "start": 3.9,
+      "end": 4.72
+    },
+    {
+      "word": "these",
+      "start": 5.36,
+      "end": 5.36
+    },
+    {
+      "word": "are",
+      "start": 5.36,
+      "end": 6.06
+    },
+    {
+      "word": "winter",
+      "start": 6.06,
+      "end": 6.76
+    },
+    {
+      "word": "hats",
+      "start": 6.76,
+      "end": 7.48
+    },
+    {
+      "word": "these",
+      "start": 8.18,
+      "end": 8.18
+    },
+    {
+      "word": "are",
+      "start": 8.18,
+      "end": 8.9
+    },
+    {
+      "word": "winter",
+      "start": 8.9,
+      "end": 9.64
+    },
+    {
+      "word": "boots",
+      "start": 9.64,
+      "end": 10.44
+    },
+    {
+      "word": "these",
+      "start": 11.34,
+      "end": 11.4
+    },
+    {
+      "word": "are",
+      "start": 11.4,
+      "end": 12.18
+    },
+    {
+      "word": "winter",
+      "start": 12.18,
+      "end": 12.86
+    },
+    {
+      "word": "scarves",
+      "start": 12.86,
+      "end": 14.0
+    },
+    {
+      "word": "these",
+      "start": 14.66,
+      "end": 14.68
+    },
+    {
+      "word": "are",
+      "start": 14.68,
+      "end": 15.44
+    },
+    {
+      "word": "winter",
+      "start": 15.44,
+      "end": 16.18
+    },
+    {
+      "word": "mittens",
+      "start": 16.18,
+      "end": 17.28
+    },
+    {
+      "word": "these",
+      "start": 18.18,
+      "end": 18.18
+    },
+    {
+      "word": "are",
+      "start": 18.18,
+      "end": 19.02
+    },
+    {
+      "word": "winter",
+      "start": 19.02,
+      "end": 19.76
+    },
+    {
+      "word": "pants",
+      "start": 19.76,
+      "end": 20.64
+    },
+    {
+      "word": "these",
+      "start": 21.22,
+      "end": 21.52
+    },
+    {
+      "word": "are",
+      "start": 21.52,
+      "end": 22.6
+    },
+    {
+      "word": "winter",
+      "start": 22.6,
+      "end": 23.08
+    },
+    {
+      "word": "coats",
+      "start": 23.08,
+      "end": 23.9
+    },
+    {
+      "word": "these",
+      "start": 24.38,
+      "end": 24.8
+    },
+    {
+      "word": "are",
+      "start": 24.8,
+      "end": 25.96
+    },
+    {
+      "word": "winter",
+      "start": 25.96,
+      "end": 26.6
+    },
+    {
+      "word": "sleds",
+      "start": 26.6,
+      "end": 27.54
+    },
+    {
+      "word": "this",
+      "start": 27.78,
+      "end": 28.2
+    },
+    {
+      "word": "is",
+      "start": 28.2,
+      "end": 29.08
+    },
+    {
+      "word": "winter",
+      "start": 29.08,
+      "end": 29.64
+    },
+    {
+      "word": "fun",
+      "start": 29.64,
+      "end": 30.32
+    }
+  ]
+}

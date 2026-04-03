@@ -1,0 +1,391 @@
+{
+  "version": "1.0",
+  "total_words": 77,
+  "timings": [
+    {
+      "word": "feelings",
+      "start": 0.0,
+      "end": 0.62
+    },
+    {
+      "word": "written",
+      "start": 0.62,
+      "end": 1.48
+    },
+    {
+      "word": "by",
+      "start": 1.48,
+      "end": 1.86
+    },
+    {
+      "word": "cheryl",
+      "start": 1.86,
+      "end": 2.22
+    },
+    {
+      "word": "ryan",
+      "start": 2.22,
+      "end": 3.42
+    },
+    {
+      "word": "illustrated",
+      "start": 3.84,
+      "end": 4.14
+    },
+    {
+      "word": "by",
+      "start": 4.14,
+      "end": 4.58
+    },
+    {
+      "word": "siri",
+      "start": 4.58,
+      "end": 5.0
+    },
+    {
+      "word": "weber",
+      "start": 5.0,
+      "end": 5.5
+    },
+    {
+      "word": "fini",
+      "start": 5.5,
+      "end": 6.14
+    },
+    {
+      "word": "i",
+      "start": 6.52,
+      "end": 6.52
+    },
+    {
+      "word": "have",
+      "start": 6.52,
+      "end": 6.8
+    },
+    {
+      "word": "many",
+      "start": 6.8,
+      "end": 7.12
+    },
+    {
+      "word": "feelings",
+      "start": 7.12,
+      "end": 7.66
+    },
+    {
+      "word": "my",
+      "start": 8.34,
+      "end": 8.52
+    },
+    {
+      "word": "feelings",
+      "start": 8.52,
+      "end": 8.9
+    },
+    {
+      "word": "change",
+      "start": 8.9,
+      "end": 9.44
+    },
+    {
+      "word": "from",
+      "start": 9.44,
+      "end": 9.76
+    },
+    {
+      "word": "time",
+      "start": 9.76,
+      "end": 10.06
+    },
+    {
+      "word": "to",
+      "start": 10.06,
+      "end": 10.3
+    },
+    {
+      "word": "time",
+      "start": 10.3,
+      "end": 10.78
+    },
+    {
+      "word": "sometimes",
+      "start": 11.02,
+      "end": 11.46
+    },
+    {
+      "word": "i",
+      "start": 11.46,
+      "end": 11.9
+    },
+    {
+      "word": "feel",
+      "start": 11.9,
+      "end": 12.14
+    },
+    {
+      "word": "kind",
+      "start": 12.14,
+      "end": 12.46
+    },
+    {
+      "word": "of",
+      "start": 12.46,
+      "end": 12.64
+    },
+    {
+      "word": "happy",
+      "start": 12.64,
+      "end": 13.04
+    },
+    {
+      "word": "sometimes",
+      "start": 13.98,
+      "end": 13.98
+    },
+    {
+      "word": "i",
+      "start": 13.98,
+      "end": 14.52
+    },
+    {
+      "word": "feel",
+      "start": 14.52,
+      "end": 14.82
+    },
+    {
+      "word": "very",
+      "start": 14.82,
+      "end": 15.2
+    },
+    {
+      "word": "happy",
+      "start": 15.2,
+      "end": 15.68
+    },
+    {
+      "word": "sometimes",
+      "start": 16.6,
+      "end": 16.6
+    },
+    {
+      "word": "i",
+      "start": 16.6,
+      "end": 17.08
+    },
+    {
+      "word": "feel",
+      "start": 17.08,
+      "end": 17.4
+    },
+    {
+      "word": "kind",
+      "start": 17.4,
+      "end": 17.7
+    },
+    {
+      "word": "of",
+      "start": 17.7,
+      "end": 17.98
+    },
+    {
+      "word": "sad",
+      "start": 17.98,
+      "end": 18.34
+    },
+    {
+      "word": "sometimes",
+      "start": 19.32,
+      "end": 19.32
+    },
+    {
+      "word": "i",
+      "start": 19.32,
+      "end": 19.84
+    },
+    {
+      "word": "feel",
+      "start": 19.84,
+      "end": 20.08
+    },
+    {
+      "word": "very",
+      "start": 20.08,
+      "end": 20.4
+    },
+    {
+      "word": "sad",
+      "start": 20.4,
+      "end": 21.04
+    },
+    {
+      "word": "sometimes",
+      "start": 22.06,
+      "end": 22.06
+    },
+    {
+      "word": "i",
+      "start": 22.06,
+      "end": 22.3
+    },
+    {
+      "word": "feel",
+      "start": 22.3,
+      "end": 22.48
+    },
+    {
+      "word": "kind",
+      "start": 22.48,
+      "end": 22.82
+    },
+    {
+      "word": "of",
+      "start": 22.82,
+      "end": 22.98
+    },
+    {
+      "word": "angry",
+      "start": 22.98,
+      "end": 23.36
+    },
+    {
+      "word": "sometimes",
+      "start": 23.82,
+      "end": 24.48
+    },
+    {
+      "word": "i",
+      "start": 24.48,
+      "end": 25.02
+    },
+    {
+      "word": "feel",
+      "start": 25.02,
+      "end": 25.18
+    },
+    {
+      "word": "very",
+      "start": 25.18,
+      "end": 25.58
+    },
+    {
+      "word": "angry",
+      "start": 25.58,
+      "end": 26.2
+    },
+    {
+      "word": "sometimes",
+      "start": 26.44,
+      "end": 26.84
+    },
+    {
+      "word": "i",
+      "start": 26.84,
+      "end": 27.14
+    },
+    {
+      "word": "feel",
+      "start": 27.14,
+      "end": 27.32
+    },
+    {
+      "word": "kind",
+      "start": 27.32,
+      "end": 27.66
+    },
+    {
+      "word": "of",
+      "start": 27.66,
+      "end": 27.82
+    },
+    {
+      "word": "scared",
+      "start": 27.82,
+      "end": 28.2
+    },
+    {
+      "word": "sometimes",
+      "start": 28.52,
+      "end": 29.08
+    },
+    {
+      "word": "i",
+      "start": 29.08,
+      "end": 29.66
+    },
+    {
+      "word": "feel",
+      "start": 29.66,
+      "end": 29.86
+    },
+    {
+      "word": "very",
+      "start": 29.86,
+      "end": 30.3
+    },
+    {
+      "word": "scared",
+      "start": 30.3,
+      "end": 30.7
+    },
+    {
+      "word": "i",
+      "start": 31.02,
+      "end": 31.02
+    },
+    {
+      "word": "have",
+      "start": 31.02,
+      "end": 31.32
+    },
+    {
+      "word": "many",
+      "start": 31.32,
+      "end": 31.68
+    },
+    {
+      "word": "different",
+      "start": 31.68,
+      "end": 32.16
+    },
+    {
+      "word": "feelings",
+      "start": 32.16,
+      "end": 32.56
+    },
+    {
+      "word": "do",
+      "start": 33.42,
+      "end": 33.64
+    },
+    {
+      "word": "you",
+      "start": 33.64,
+      "end": 33.92
+    },
+    {
+      "word": "have",
+      "start": 33.92,
+      "end": 34.2
+    },
+    {
+      "word": "many",
+      "start": 34.2,
+      "end": 34.52
+    },
+    {
+      "word": "different",
+      "start": 34.52,
+      "end": 34.92
+    },
+    {
+      "word": "feelings",
+      "start": 34.92,
+      "end": 35.32
+    },
+    {
+      "word": "too",
+      "start": 35.32,
+      "end": 35.7
+    }
+  ]
+}

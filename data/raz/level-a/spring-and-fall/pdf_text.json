@@ -1,0 +1,58 @@
+{
+  "id": "level-a/spring-and-fall",
+  "title": "Spring And Fall",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Spring and Fall Written by Gabriel Harper wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Spring and Fall Written by Gabriel Harper www.readinga-z.com Focus Question How are spring and fall the same and different?"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know birds leaves corn see fall spring Photo Credits: Front cover: @ nagelestock com/Alamy Stock Photo; title page: @ angelacolac/ iStock /Thinkstock; page 3: Ingram Publishing/Thinkstock; page 4: @ sborisov/ iStock/Thinkstock; page 5: Jill Battaglia/iStock/Thinkstock; page 6: @ Arco Images GmbH/Alamy Stock Photo; page 7: @ YelenaYemchuk/iStock/Thinkstock; page 8: @ Francesco Palermo/Alamy Stock Photo; page 9 145/Gilbert Lauriel Ocean/Corbis; page 1O: @ Ariel Skelley/Blend Images/Corbis Spring and Fall Level A Leveled Book Correlation Learning A-Z LEVEL A Written by Gabriel Harper Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 wwwreadinga-z.( com"
+    },
+    {
+      "page": 4,
+      "text": "See leaves in spring: Spring and Fall Level A 3"
+    },
+    {
+      "page": 5,
+      "text": "See leaves in fall: 4"
+    },
+    {
+      "page": 6,
+      "text": "See birds in spring: Spring and Fall Level A 5"
+    },
+    {
+      "page": 7,
+      "text": "See birds in fall:"
+    },
+    {
+      "page": 8,
+      "text": "See corn in spring: Spring and Fall Level A"
+    },
+    {
+      "page": 9,
+      "text": "See corn in fall: 8"
+    },
+    {
+      "page": 10,
+      "text": "See me in spring: Spring and Fall Level A"
+    },
+    {
+      "page": 11,
+      "text": "See me in falll 10"
+    },
+    {
+      "page": 12,
+      "text": "Spring and Fall A Reading A-Z Level A Leveled Book Word Count: 32 Connections Writing and Art What else can you see in spring and fall? Draw two pictures and finish these sentences: See in spring: See in fall: Science What are the other two seasons of the year? Share what you know about them with a partner: Reading A-Z Visit wwwreadinga-z.com for thousands of books and materials."
+    }
+  ]
+}

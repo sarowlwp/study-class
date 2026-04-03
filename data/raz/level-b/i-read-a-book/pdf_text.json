@@ -1,0 +1,54 @@
+{
+  "id": "level-b/i-read-a-book",
+  "title": "I Read A Book",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B I Read @ Book Written by Ned Jensen Illustrated by John Kastner wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "I Read a Book Kammy the Tuns Written by Ned Jensen Illustrated John Kastner wwwreadinga-z.com Qtt ounny by"
+    },
+    {
+      "page": 3,
+      "text": "1 read with my mom Read a Book Level B 3"
+    },
+    {
+      "page": 4,
+      "text": "7) L read with my dad. 3"
+    },
+    {
+      "page": 5,
+      "text": "1 read with my grandma. Read a Book Level B 5"
+    },
+    {
+      "page": 6,
+      "text": "Idb I read with my grandpa."
+    },
+    {
+      "page": 7,
+      "text": "8 4 19 8 8 1 read with my aunt_ Read a Book Level B 8 $ 3"
+    },
+    {
+      "page": 8,
+      "text": "I read with my sister . 8"
+    },
+    {
+      "page": 9,
+      "text": "8 1 read with my brother _ Read a Book Level B"
+    },
+    {
+      "page": 10,
+      "text": "I read to my dog: 10"
+    },
+    {
+      "page": 11,
+      "text": "Read a Book Level B Leveled Book Learning A-Z Correlation Written by Ned Jensen LEVEL B Illustrated by John Kastner Fountas & Pinnell B All rights reserved. Reading Recovery 2 DRA 2 WWW.  readinga-z.com"
+    }
+  ]
+}

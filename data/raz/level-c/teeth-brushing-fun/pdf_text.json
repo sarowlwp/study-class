@@ -1,0 +1,54 @@
+{
+  "id": "level-c/teeth-brushing-fun",
+  "title": "Teeth Brushing Fun",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C Teeth Brushing Fun Written by Katie Anderson Illustrated by Laura Freeman WWWreadinga-Z.com"
+    },
+    {
+      "page": 2,
+      "text": "Teeth Brushing Fun Written by Katie Anderson Illustrated by Laura Freeman wwwreadinga-z.com 2.0"
+    },
+    {
+      "page": 3,
+      "text": "I brush my teeth twice a Teeth Brushing Fun Level C 3 CQ day:"
+    },
+    {
+      "page": 4,
+      "text": "I brush my teeth with toothpaste:"
+    },
+    {
+      "page": 5,
+      "text": "2:4 I brush my teeth for two minutes. Teeth Brushing Fun Level C 5"
+    },
+    {
+      "page": 6,
+      "text": "0 I brush my teeth in the front. 6 3 T"
+    },
+    {
+      "page": 7,
+      "text": "I brush my teeth in the back Teeth Brushing Fun Level C"
+    },
+    {
+      "page": 8,
+      "text": "I brush my teeth on the 8 top-"
+    },
+    {
+      "page": 9,
+      "text": "I brush my teeth on the bottom: Teeth Brushing Fun Level C"
+    },
+    {
+      "page": 10,
+      "text": "Brushing my teeth is funl 10"
+    },
+    {
+      "page": 11,
+      "text": "Teeth Brushing Fun Level €C Leveled Book 0 Learning A-Z Correlation Written by Katie Anderson LEVEL C Illustrated by Laura Freeman Fountas & Pinnell All rights reserved. Reading Recovery 3-4 DRA 3-4 www.readinga-z.com"
+    }
+  ]
+}

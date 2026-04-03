@@ -1,0 +1,166 @@
+{
+  "version": "1.0",
+  "total_words": 32,
+  "timings": [
+    {
+      "word": "fido",
+      "start": 0.0,
+      "end": 0.62
+    },
+    {
+      "word": "gets",
+      "start": 0.62,
+      "end": 1.12
+    },
+    {
+      "word": "dressed",
+      "start": 1.12,
+      "end": 1.86
+    },
+    {
+      "word": "written",
+      "start": 2.4,
+      "end": 2.56
+    },
+    {
+      "word": "by",
+      "start": 2.56,
+      "end": 2.86
+    },
+    {
+      "word": "s",
+      "start": 2.86,
+      "end": 3.14
+    },
+    {
+      "word": "r",
+      "start": 3.14,
+      "end": 3.32
+    },
+    {
+      "word": "richardson",
+      "start": 3.78,
+      "end": 3.78
+    },
+    {
+      "word": "illustrated",
+      "start": 4.48,
+      "end": 4.92
+    },
+    {
+      "word": "by",
+      "start": 4.92,
+      "end": 5.44
+    },
+    {
+      "word": "angela",
+      "start": 5.44,
+      "end": 5.8
+    },
+    {
+      "word": "kamstra",
+      "start": 5.8,
+      "end": 6.8
+    },
+    {
+      "word": "my",
+      "start": 8.96,
+      "end": 9.14
+    },
+    {
+      "word": "sweater",
+      "start": 9.14,
+      "end": 9.6
+    },
+    {
+      "word": "my",
+      "start": 11.94,
+      "end": 12.2
+    },
+    {
+      "word": "boots",
+      "start": 12.2,
+      "end": 12.82
+    },
+    {
+      "word": "my",
+      "start": 15.28,
+      "end": 15.5
+    },
+    {
+      "word": "hat",
+      "start": 15.5,
+      "end": 16.04
+    },
+    {
+      "word": "my",
+      "start": 18.36,
+      "end": 18.68
+    },
+    {
+      "word": "scarf",
+      "start": 18.68,
+      "end": 19.24
+    },
+    {
+      "word": "my",
+      "start": 21.74,
+      "end": 22.0
+    },
+    {
+      "word": "hat",
+      "start": 22.0,
+      "end": 22.58
+    },
+    {
+      "word": "my",
+      "start": 24.82,
+      "end": 25.14
+    },
+    {
+      "word": "sunglasses",
+      "start": 25.14,
+      "end": 25.72
+    },
+    {
+      "word": "my",
+      "start": 27.42,
+      "end": 28.66
+    },
+    {
+      "word": "hat",
+      "start": 28.66,
+      "end": 29.52
+    },
+    {
+      "word": "my",
+      "start": 31.36,
+      "end": 31.72
+    },
+    {
+      "word": "cape",
+      "start": 31.72,
+      "end": 32.22
+    },
+    {
+      "word": "my",
+      "start": 34.66,
+      "end": 34.82
+    },
+    {
+      "word": "mask",
+      "start": 34.82,
+      "end": 35.44
+    },
+    {
+      "word": "my",
+      "start": 37.84,
+      "end": 38.08
+    },
+    {
+      "word": "hat",
+      "start": 38.08,
+      "end": 38.48
+    }
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "version": "1.0",
+  "total_words": 89,
+  "timings": [
+    {
+      "word": "this",
+      "start": 0.0,
+      "end": 0.86
+    },
+    {
+      "word": "is",
+      "start": 0.86,
+      "end": 1.64
+    },
+    {
+      "word": "my",
+      "start": 1.64,
+      "end": 2.52
+    },
+    {
+      "word": "hallowene",
+      "start": 2.52,
+      "end": 4.14
+    },
+    {
+      "word": "written",
+      "start": 5.26,
+      "end": 5.44
+    },
+    {
+      "word": "by",
+      "start": 5.44,
+      "end": 6.3
+    },
+    {
+      "word": "elizabeth",
+      "start": 6.3,
+      "end": 7.22
+    },
+    {
+      "word": "jane",
+      "start": 7.22,
+      "end": 8.38
+    },
+    {
+      "word": "pustilnick",
+      "start": 8.38,
+      "end": 10.42
+    },
+    {
+      "word": "illustrated",
+      "start": 11.72,
+      "end": 11.76
+    },
+    {
+      "word": "by",
+      "start": 11.76,
+      "end": 12.84
+    },
+    {
+      "word": "grace",
+      "start": 12.84,
+      "end": 13.8
+    },
+    {
+      "word": "zong",
+      "start": 13.8,
+      "end": 15.1
+    },
+    {
+      "word": "focus",
+      "start": 16.48,
+      "end": 16.6
+    },
+    {
+      "word": "question",
+      "start": 16.6,
+      "end": 18.42
+    },
+    {
+      "word": "how",
+      "start": 19.64,
+      "end": 19.84
+    },
+    {
+      "word": "do",
+      "start": 19.84,
+      "end": 20.66
+    },
+    {
+      "word": "people",
+      "start": 20.66,
+      "end": 21.54
+    },
+    {
+      "word": "celebrate",
+      "start": 21.54,
+      "end": 22.82
+    },
+    {
+      "word": "halloween",
+      "start": 22.82,
+      "end": 24.34
+    },
+    {
+      "word": "this",
+      "start": 24.34,
+      "end": 25.46
+    },
+    {
+      "word": "is",
+      "start": 25.46,
+      "end": 26.36
+    },
+    {
+      "word": "my",
+      "start": 26.36,
+      "end": 26.98
+    },
+    {
+      "word": "pumpkin",
+      "start": 26.98,
+      "end": 27.96
+    },
+    {
+      "word": "this",
+      "start": 28.68,
+      "end": 29.02
+    },
+    {
+      "word": "is",
+      "start": 29.02,
+      "end": 30.04
+    },
+    {
+      "word": "my",
+      "start": 30.04,
+      "end": 30.68
+    },
+    {
+      "word": "hat",
+      "start": 30.68,
+      "end": 31.5
+    },
+    {
+      "word": "this",
+      "start": 32.42,
+      "end": 32.56
+    },
+    {
+      "word": "is",
+      "start": 32.56,
+      "end": 33.58
+    },
+    {
+      "word": "my",
+      "start": 33.58,
+      "end": 34.26
+    },
+    {
+      "word": "jacket",
+      "start": 34.26,
+      "end": 35.26
+    },
+    {
+      "word": "this",
+      "start": 35.96,
+      "end": 36.3
+    },
+    {
+      "word": "is",
+      "start": 36.3,
+      "end": 37.76
+    },
+    {
+      "word": "my",
+      "start": 37.76,
+      "end": 38.02
+    },
+    {
+      "word": "brother",
+      "start": 38.02,
+      "end": 38.82
+    },
+    {
+      "word": "this",
+      "start": 39.7,
+      "end": 40.0
+    },
+    {
+      "word": "is",
+      "start": 40.0,
+      "end": 41.42
+    },
+    {
+      "word": "my",
+      "start": 41.42,
+      "end": 41.8
+    },
+    {
+      "word": "dog",
+      "start": 41.8,
+      "end": 42.64
+    },
+    {
+      "word": "this",
+      "start": 42.64,
+      "end": 43.86
+    },
+    {
+      "word": "is",
+      "start": 43.86,
+      "end": 44.92
+    },
+    {
+      "word": "my",
+      "start": 44.92,
+      "end": 45.52
+    },
+    {
+      "word": "bucket",
+      "start": 45.52,
+      "end": 46.28
+    },
+    {
+      "word": "this",
+      "start": 47.24,
+      "end": 47.34
+    },
+    {
+      "word": "is",
+      "start": 47.34,
+      "end": 48.32
+    },
+    {
+      "word": "my",
+      "start": 48.32,
+      "end": 49.12
+    },
+    {
+      "word": "candy",
+      "start": 49.12,
+      "end": 50.14
+    },
+    {
+      "word": "this",
+      "start": 51.28,
+      "end": 51.32
+    },
+    {
+      "word": "is",
+      "start": 51.32,
+      "end": 52.5
+    },
+    {
+      "word": "my",
+      "start": 52.5,
+      "end": 53.3
+    },
+    {
+      "word": "halloween",
+      "start": 53.3,
+      "end": 54.5
+    },
+    {
+      "word": "connections",
+      "start": 54.5,
+      "end": 56.16
+    },
+    {
+      "word": "writing",
+      "start": 57.5,
+      "end": 57.6
+    },
+    {
+      "word": "and",
+      "start": 57.6,
+      "end": 58.54
+    },
+    {
+      "word": "art",
+      "start": 58.54,
+      "end": 59.76
+    },
+    {
+      "word": "what",
+      "start": 59.76,
+      "end": 61.3
+    },
+    {
+      "word": "do",
+      "start": 61.3,
+      "end": 62.06
+    },
+    {
+      "word": "you",
+      "start": 62.06,
+      "end": 62.68
+    },
+    {
+      "word": "want",
+      "start": 62.68,
+      "end": 63.4
+    },
+    {
+      "word": "to",
+      "start": 63.4,
+      "end": 64.0
+    },
+    {
+      "word": "dress",
+      "start": 64.0,
+      "end": 64.4
+    },
+    {
+      "word": "up",
+      "start": 64.4,
+      "end": 64.98
+    },
+    {
+      "word": "as",
+      "start": 64.98,
+      "end": 65.76
+    },
+    {
+      "word": "for",
+      "start": 65.76,
+      "end": 66.6
+    },
+    {
+      "word": "halloween",
+      "start": 66.6,
+      "end": 67.48
+    },
+    {
+      "word": "draw",
+      "start": 68.84,
+      "end": 69.14
+    },
+    {
+      "word": "a",
+      "start": 69.14,
+      "end": 69.8
+    },
+    {
+      "word": "picture",
+      "start": 69.8,
+      "end": 70.34
+    },
+    {
+      "word": "and",
+      "start": 70.34,
+      "end": 71.5
+    },
+    {
+      "word": "label",
+      "start": 71.5,
+      "end": 72.22
+    },
+    {
+      "word": "it",
+      "start": 72.22,
+      "end": 73.24
+    },
+    {
+      "word": "social",
+      "start": 74.34,
+      "end": 74.74
+    },
+    {
+      "word": "studies",
+      "start": 74.74,
+      "end": 75.74
+    },
+    {
+      "word": "what",
+      "start": 77.3,
+      "end": 77.32
+    },
+    {
+      "word": "are",
+      "start": 77.32,
+      "end": 78.12
+    },
+    {
+      "word": "some",
+      "start": 78.12,
+      "end": 78.72
+    },
+    {
+      "word": "rules",
+      "start": 78.72,
+      "end": 79.32
+    },
+    {
+      "word": "for",
+      "start": 79.32,
+      "end": 80.28
+    },
+    {
+      "word": "staying",
+      "start": 80.28,
+      "end": 80.8
+    },
+    {
+      "word": "safe",
+      "start": 80.8,
+      "end": 81.98
+    },
+    {
+      "word": "on",
+      "start": 81.98,
+      "end": 83.08
+    },
+    {
+      "word": "halloween",
+      "start": 83.08,
+      "end": 83.86
+    },
+    {
+      "word": "share",
+      "start": 83.86,
+      "end": 85.56
+    },
+    {
+      "word": "your",
+      "start": 85.56,
+      "end": 86.54
+    },
+    {
+      "word": "ideas",
+      "start": 86.54,
+      "end": 87.48
+    },
+    {
+      "word": "with",
+      "start": 87.48,
+      "end": 88.54
+    },
+    {
+      "word": "a",
+      "start": 88.54,
+      "end": 89.3
+    },
+    {
+      "word": "partner",
+      "start": 89.3,
+      "end": 89.76
+    }
+  ]
+}

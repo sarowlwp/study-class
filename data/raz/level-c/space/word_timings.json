@@ -1,0 +1,241 @@
+{
+  "version": "1.0",
+  "total_words": 47,
+  "timings": [
+    {
+      "word": "space",
+      "start": 0.0,
+      "end": 0.68
+    },
+    {
+      "word": "written",
+      "start": 0.68,
+      "end": 1.9
+    },
+    {
+      "word": "by",
+      "start": 1.9,
+      "end": 2.6
+    },
+    {
+      "word": "catherine",
+      "start": 2.6,
+      "end": 3.16
+    },
+    {
+      "word": "page",
+      "start": 3.16,
+      "end": 3.92
+    },
+    {
+      "word": "in",
+      "start": 3.92,
+      "end": 4.48
+    },
+    {
+      "word": "the",
+      "start": 4.48,
+      "end": 5.02
+    },
+    {
+      "word": "day",
+      "start": 5.02,
+      "end": 5.76
+    },
+    {
+      "word": "you",
+      "start": 6.26,
+      "end": 6.64
+    },
+    {
+      "word": "see",
+      "start": 6.64,
+      "end": 7.24
+    },
+    {
+      "word": "the",
+      "start": 7.24,
+      "end": 7.86
+    },
+    {
+      "word": "sky",
+      "start": 7.86,
+      "end": 8.3
+    },
+    {
+      "word": "in",
+      "start": 8.3,
+      "end": 9.0
+    },
+    {
+      "word": "the",
+      "start": 9.0,
+      "end": 9.66
+    },
+    {
+      "word": "night",
+      "start": 9.66,
+      "end": 10.64
+    },
+    {
+      "word": "you",
+      "start": 11.26,
+      "end": 11.66
+    },
+    {
+      "word": "can",
+      "start": 11.66,
+      "end": 12.4
+    },
+    {
+      "word": "see",
+      "start": 12.4,
+      "end": 13.0
+    },
+    {
+      "word": "space",
+      "start": 13.0,
+      "end": 13.68
+    },
+    {
+      "word": "the",
+      "start": 13.68,
+      "end": 14.32
+    },
+    {
+      "word": "stars",
+      "start": 14.32,
+      "end": 15.32
+    },
+    {
+      "word": "are",
+      "start": 15.32,
+      "end": 16.14
+    },
+    {
+      "word": "in",
+      "start": 16.14,
+      "end": 16.84
+    },
+    {
+      "word": "space",
+      "start": 16.84,
+      "end": 17.28
+    },
+    {
+      "word": "the",
+      "start": 17.9,
+      "end": 18.0
+    },
+    {
+      "word": "moon",
+      "start": 18.0,
+      "end": 18.72
+    },
+    {
+      "word": "is",
+      "start": 18.72,
+      "end": 19.46
+    },
+    {
+      "word": "in",
+      "start": 19.46,
+      "end": 20.38
+    },
+    {
+      "word": "space",
+      "start": 20.38,
+      "end": 20.84
+    },
+    {
+      "word": "planets",
+      "start": 21.38,
+      "end": 21.98
+    },
+    {
+      "word": "are",
+      "start": 21.98,
+      "end": 22.8
+    },
+    {
+      "word": "in",
+      "start": 22.8,
+      "end": 23.8
+    },
+    {
+      "word": "space",
+      "start": 23.8,
+      "end": 24.22
+    },
+    {
+      "word": "comets",
+      "start": 24.8,
+      "end": 25.3
+    },
+    {
+      "word": "are",
+      "start": 25.3,
+      "end": 26.12
+    },
+    {
+      "word": "in",
+      "start": 26.12,
+      "end": 27.14
+    },
+    {
+      "word": "space",
+      "start": 27.14,
+      "end": 27.68
+    },
+    {
+      "word": "satellites",
+      "start": 28.56,
+      "end": 28.96
+    },
+    {
+      "word": "are",
+      "start": 28.96,
+      "end": 29.76
+    },
+    {
+      "word": "in",
+      "start": 29.76,
+      "end": 30.66
+    },
+    {
+      "word": "space",
+      "start": 30.66,
+      "end": 31.29
+    },
+    {
+      "word": "what",
+      "start": 31.72,
+      "end": 31.88
+    },
+    {
+      "word": "do",
+      "start": 31.88,
+      "end": 32.54
+    },
+    {
+      "word": "you",
+      "start": 32.54,
+      "end": 33.22
+    },
+    {
+      "word": "see",
+      "start": 33.22,
+      "end": 33.72
+    },
+    {
+      "word": "in",
+      "start": 33.72,
+      "end": 34.58
+    },
+    {
+      "word": "space",
+      "start": 34.58,
+      "end": 34.98
+    }
+  ]
+}

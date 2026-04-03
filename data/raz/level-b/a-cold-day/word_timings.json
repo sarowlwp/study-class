@@ -1,0 +1,271 @@
+{
+  "version": "1.0",
+  "total_words": 53,
+  "timings": [
+    {
+      "word": "a",
+      "start": 0.0,
+      "end": 0.42
+    },
+    {
+      "word": "cold",
+      "start": 0.42,
+      "end": 0.86
+    },
+    {
+      "word": "day",
+      "start": 0.86,
+      "end": 2.14
+    },
+    {
+      "word": "written",
+      "start": 2.86,
+      "end": 3.0
+    },
+    {
+      "word": "by",
+      "start": 3.0,
+      "end": 3.66
+    },
+    {
+      "word": "anthony",
+      "start": 3.66,
+      "end": 4.36
+    },
+    {
+      "word": "kern",
+      "start": 4.36,
+      "end": 5.1
+    },
+    {
+      "word": "illustrated",
+      "start": 6.5,
+      "end": 7.1
+    },
+    {
+      "word": "by",
+      "start": 7.1,
+      "end": 7.8
+    },
+    {
+      "word": "arthur",
+      "start": 7.8,
+      "end": 8.54
+    },
+    {
+      "word": "lynn",
+      "start": 8.54,
+      "end": 9.28
+    },
+    {
+      "word": "the",
+      "start": 9.88,
+      "end": 10.04
+    },
+    {
+      "word": "air",
+      "start": 10.04,
+      "end": 10.62
+    },
+    {
+      "word": "feels",
+      "start": 10.62,
+      "end": 11.24
+    },
+    {
+      "word": "cold",
+      "start": 11.24,
+      "end": 11.96
+    },
+    {
+      "word": "today",
+      "start": 11.96,
+      "end": 12.66
+    },
+    {
+      "word": "the",
+      "start": 13.18,
+      "end": 13.5
+    },
+    {
+      "word": "car",
+      "start": 13.5,
+      "end": 14.14
+    },
+    {
+      "word": "feels",
+      "start": 14.14,
+      "end": 14.78
+    },
+    {
+      "word": "cold",
+      "start": 14.78,
+      "end": 15.48
+    },
+    {
+      "word": "today",
+      "start": 15.48,
+      "end": 16.1
+    },
+    {
+      "word": "the",
+      "start": 16.5,
+      "end": 16.9
+    },
+    {
+      "word": "tree",
+      "start": 16.9,
+      "end": 17.46
+    },
+    {
+      "word": "feels",
+      "start": 17.46,
+      "end": 18.34
+    },
+    {
+      "word": "cold",
+      "start": 18.34,
+      "end": 19.16
+    },
+    {
+      "word": "today",
+      "start": 19.16,
+      "end": 19.76
+    },
+    {
+      "word": "the",
+      "start": 20.22,
+      "end": 20.56
+    },
+    {
+      "word": "fence",
+      "start": 20.56,
+      "end": 21.14
+    },
+    {
+      "word": "feels",
+      "start": 21.14,
+      "end": 21.9
+    },
+    {
+      "word": "cold",
+      "start": 21.9,
+      "end": 22.58
+    },
+    {
+      "word": "today",
+      "start": 22.58,
+      "end": 23.2
+    },
+    {
+      "word": "the",
+      "start": 23.62,
+      "end": 23.96
+    },
+    {
+      "word": "mailbox",
+      "start": 23.96,
+      "end": 24.92
+    },
+    {
+      "word": "feels",
+      "start": 24.92,
+      "end": 25.86
+    },
+    {
+      "word": "cold",
+      "start": 25.86,
+      "end": 26.5
+    },
+    {
+      "word": "today",
+      "start": 26.5,
+      "end": 27.28
+    },
+    {
+      "word": "the",
+      "start": 28.16,
+      "end": 28.22
+    },
+    {
+      "word": "male",
+      "start": 28.22,
+      "end": 28.76
+    },
+    {
+      "word": "feels",
+      "start": 28.76,
+      "end": 29.44
+    },
+    {
+      "word": "cold",
+      "start": 29.44,
+      "end": 30.16
+    },
+    {
+      "word": "today",
+      "start": 30.16,
+      "end": 30.84
+    },
+    {
+      "word": "the",
+      "start": 31.5,
+      "end": 31.7
+    },
+    {
+      "word": "door",
+      "start": 31.7,
+      "end": 32.26
+    },
+    {
+      "word": "handle",
+      "start": 32.26,
+      "end": 33.16
+    },
+    {
+      "word": "feels",
+      "start": 33.16,
+      "end": 33.68
+    },
+    {
+      "word": "cold",
+      "start": 33.68,
+      "end": 34.38
+    },
+    {
+      "word": "today",
+      "start": 34.38,
+      "end": 35.08
+    },
+    {
+      "word": "the",
+      "start": 35.7,
+      "end": 35.86
+    },
+    {
+      "word": "hot",
+      "start": 35.86,
+      "end": 36.22
+    },
+    {
+      "word": "chocolate",
+      "start": 36.22,
+      "end": 36.76
+    },
+    {
+      "word": "feels",
+      "start": 36.76,
+      "end": 37.46
+    },
+    {
+      "word": "good",
+      "start": 37.46,
+      "end": 38.02
+    },
+    {
+      "word": "today",
+      "start": 38.02,
+      "end": 38.76
+    }
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "version": "1.0",
+  "total_words": 41,
+  "timings": [
+    {
+      "word": "out",
+      "start": 0.0,
+      "end": 0.58
+    },
+    {
+      "word": "written",
+      "start": 1.24,
+      "end": 1.66
+    },
+    {
+      "word": "by",
+      "start": 1.66,
+      "end": 2.26
+    },
+    {
+      "word": "cheryl",
+      "start": 2.26,
+      "end": 3.02
+    },
+    {
+      "word": "ryan",
+      "start": 3.02,
+      "end": 3.88
+    },
+    {
+      "word": "illustrated",
+      "start": 4.74,
+      "end": 5.44
+    },
+    {
+      "word": "by",
+      "start": 5.44,
+      "end": 6.28
+    },
+    {
+      "word": "nora",
+      "start": 6.28,
+      "end": 6.98
+    },
+    {
+      "word": "voodis",
+      "start": 6.98,
+      "end": 7.5
+    },
+    {
+      "word": "out",
+      "start": 10.7,
+      "end": 11.02
+    },
+    {
+      "word": "of",
+      "start": 11.02,
+      "end": 11.48
+    },
+    {
+      "word": "the",
+      "start": 11.48,
+      "end": 11.8
+    },
+    {
+      "word": "car",
+      "start": 11.8,
+      "end": 12.16
+    },
+    {
+      "word": "out",
+      "start": 14.54,
+      "end": 14.92
+    },
+    {
+      "word": "of",
+      "start": 14.92,
+      "end": 15.5
+    },
+    {
+      "word": "the",
+      "start": 15.5,
+      "end": 15.68
+    },
+    {
+      "word": "wagon",
+      "start": 15.68,
+      "end": 16.1
+    },
+    {
+      "word": "out",
+      "start": 18.78,
+      "end": 19.08
+    },
+    {
+      "word": "of",
+      "start": 19.08,
+      "end": 19.6
+    },
+    {
+      "word": "the",
+      "start": 19.6,
+      "end": 19.82
+    },
+    {
+      "word": "boat",
+      "start": 19.82,
+      "end": 20.26
+    },
+    {
+      "word": "out",
+      "start": 22.94,
+      "end": 23.26
+    },
+    {
+      "word": "of",
+      "start": 23.26,
+      "end": 23.78
+    },
+    {
+      "word": "the",
+      "start": 23.78,
+      "end": 23.9
+    },
+    {
+      "word": "house",
+      "start": 23.9,
+      "end": 24.48
+    },
+    {
+      "word": "out",
+      "start": 26.92,
+      "end": 27.32
+    },
+    {
+      "word": "of",
+      "start": 27.32,
+      "end": 27.8
+    },
+    {
+      "word": "the",
+      "start": 27.8,
+      "end": 28.08
+    },
+    {
+      "word": "water",
+      "start": 28.08,
+      "end": 28.34
+    },
+    {
+      "word": "out",
+      "start": 30.34,
+      "end": 31.34
+    },
+    {
+      "word": "of",
+      "start": 31.34,
+      "end": 31.88
+    },
+    {
+      "word": "the",
+      "start": 31.88,
+      "end": 32.02
+    },
+    {
+      "word": "grass",
+      "start": 32.02,
+      "end": 32.84
+    },
+    {
+      "word": "out",
+      "start": 35.48,
+      "end": 35.88
+    },
+    {
+      "word": "of",
+      "start": 35.88,
+      "end": 36.38
+    },
+    {
+      "word": "the",
+      "start": 36.38,
+      "end": 36.66
+    },
+    {
+      "word": "mud",
+      "start": 36.66,
+      "end": 37.22
+    },
+    {
+      "word": "out",
+      "start": 39.36,
+      "end": 39.7
+    },
+    {
+      "word": "of",
+      "start": 39.7,
+      "end": 40.28
+    },
+    {
+      "word": "the",
+      "start": 40.28,
+      "end": 40.46
+    },
+    {
+      "word": "bathtub",
+      "start": 40.46,
+      "end": 40.9
+    }
+  ]
+}

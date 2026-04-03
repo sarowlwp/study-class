@@ -1,0 +1,54 @@
+{
+  "id": "level-b/you-and-i",
+  "title": "You And I",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B You and I 244 Written by Elizabeth Strauss Illustrated by John Kastner wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "You and I Written by Elizabeth Strauss Illustrated by John Kastner wwwreadinga-z.com ( vavti"
+    },
+    {
+      "page": 3,
+      "text": "St You and I You and | G Level B 3 swing:"
+    },
+    {
+      "page": 4,
+      "text": "8 LL You and I slide:"
+    },
+    {
+      "page": 5,
+      "text": "Ivt ( 77 (lo (( ( Il6 < %1: You and I ride You and | G Level B 5 2 / Trc \"{6 ("
+    },
+    {
+      "page": 6,
+      "text": "Icv You and I hike: ^v M (Vly cWt ( IfvA"
+    },
+    {
+      "page": 7,
+      "text": "You and I bike You and | G Level B or ln vabts"
+    },
+    {
+      "page": 8,
+      "text": "N < ( You and I run: 8"
+    },
+    {
+      "page": 9,
+      "text": "You and I dance You and | G Level B"
+    },
+    {
+      "page": 10,
+      "text": "You and I have lots Of fun: 10"
+    },
+    {
+      "page": 11,
+      "text": "You and I Level B Leveled Book Learning A-Z Correlation Written by Elizabeth Strauss LEVEL B Illustrated by John Kastner Fountas & Pinnell B All rights reserved: Reading_ Recovery 2 DRA 2 wwwreadinga-zcom"
+    }
+  ]
+}

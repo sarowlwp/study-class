@@ -1,0 +1,58 @@
+{
+  "id": "level-a/where-they-hid",
+  "title": "Where They Hid",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Where Hid Written by Anthony Curran Illustrated by Brian Dumm wwWreadinga-z.com They"
+    },
+    {
+      "page": 2,
+      "text": "Where They Hid Writter by Anthony Curran Illustrated Brian Dumm wwreadinga-z.com Focus Question Where do the children hide? M by"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know above hid behind inside below near between outside far Where Hid Level A Leveled Book 0 Learning A-Z Correlation Written by Anthony Curran LEVEL A Illustrated by Brian Dumm Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com They"
+    },
+    {
+      "page": 4,
+      "text": "xy He hid inside: Where They Hid Level A 3"
+    },
+    {
+      "page": 5,
+      "text": "~0 She hid outside: 4"
+    },
+    {
+      "page": 6,
+      "text": "He hid below: Where They Hid Level A 5 K"
+    },
+    {
+      "page": 7,
+      "text": "She hid above: 6"
+    },
+    {
+      "page": 8,
+      "text": "3 Wn 6~ He hid between: Where They Hid Level A"
+    },
+    {
+      "page": 9,
+      "text": "V She hid behind: 8 \""
+    },
+    {
+      "page": 10,
+      "text": "He hid far; Where They Hid Level A"
+    },
+    {
+      "page": 11,
+      "text": "She hid near 10"
+    },
+    {
+      "page": 12,
+      "text": "Where They Hid A Reading A-Z Level A Leveled Book Word Count: 24 Connections Writing and Art Where would you hide? Draw a picture and label it. Math Count the number of children in the story: How many boys do you see? How many do you see? Share your answers with a partner: Reading A-z Visit www.readinga-z.com for thousands of books and materials. girls"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "level-a/you-can-dance",
+  "title": "You Can Dance",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A You Can Dance Written by Annalecia Benner Illustrated by Joanne Lew-Vriethoff WWWreadinga-Z.com"
+    },
+    {
+      "page": 2,
+      "text": "You Can Dance F F pl 0 Written by Annalecia Benner Illustrated by Joanne Lew-Vriethoff wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "F Lv You can You Can Dance Level A 3 hop-"
+    },
+    {
+      "page": 4,
+      "text": "You can bend:"
+    },
+    {
+      "page": 5,
+      "text": "You can You Can Dance Level A 5 step:"
+    },
+    {
+      "page": 6,
+      "text": "3 2 2 4 You can prance:"
+    },
+    {
+      "page": 7,
+      "text": "Keee 1 Tu You can skip. You Can Dance Level A"
+    },
+    {
+      "page": 8,
+      "text": "You can 8 leap"
+    },
+    {
+      "page": 9,
+      "text": "You can spin: You Can Dance Level A"
+    },
+    {
+      "page": 10,
+      "text": "You can dancel 10"
+    },
+    {
+      "page": 11,
+      "text": "You Can Dance Level A Leveled Book 0 Learning A-Z Correlation Written by Annalecia Benner LEVEL A Illustrated by Joanne Lew-Vriethoff Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com"
+    }
+  ]
+}

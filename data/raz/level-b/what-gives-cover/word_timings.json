@@ -1,0 +1,396 @@
+{
+  "version": "1.0",
+  "total_words": 78,
+  "timings": [
+    {
+      "word": "what",
+      "start": 0.0,
+      "end": 0.4
+    },
+    {
+      "word": "gives",
+      "start": 0.4,
+      "end": 1.22
+    },
+    {
+      "word": "cover",
+      "start": 1.22,
+      "end": 2.22
+    },
+    {
+      "word": "written",
+      "start": 3.54,
+      "end": 3.94
+    },
+    {
+      "word": "by",
+      "start": 3.94,
+      "end": 4.72
+    },
+    {
+      "word": "harriet",
+      "start": 4.72,
+      "end": 5.26
+    },
+    {
+      "word": "rosenblum",
+      "start": 5.26,
+      "end": 7.26
+    },
+    {
+      "word": "illustrated",
+      "start": 8.36,
+      "end": 8.86
+    },
+    {
+      "word": "by",
+      "start": 8.86,
+      "end": 9.62
+    },
+    {
+      "word": "kiyada",
+      "start": 9.62,
+      "end": 10.46
+    },
+    {
+      "word": "pascolado",
+      "start": 10.46,
+      "end": 12.06
+    },
+    {
+      "word": "focus",
+      "start": 13.34,
+      "end": 13.68
+    },
+    {
+      "word": "question",
+      "start": 13.68,
+      "end": 14.42
+    },
+    {
+      "word": "what",
+      "start": 15.96,
+      "end": 16.08
+    },
+    {
+      "word": "is",
+      "start": 16.08,
+      "end": 17.06
+    },
+    {
+      "word": "cover",
+      "start": 17.06,
+      "end": 17.88
+    },
+    {
+      "word": "uh",
+      "start": 19.28,
+      "end": 19.28
+    },
+    {
+      "word": "tent",
+      "start": 19.34,
+      "end": 19.76
+    },
+    {
+      "word": "gives",
+      "start": 19.76,
+      "end": 21.0
+    },
+    {
+      "word": "cover",
+      "start": 21.0,
+      "end": 22.32
+    },
+    {
+      "word": "uh",
+      "start": 23.66,
+      "end": 23.66
+    },
+    {
+      "word": "tree",
+      "start": 23.72,
+      "end": 24.14
+    },
+    {
+      "word": "gives",
+      "start": 24.14,
+      "end": 25.56
+    },
+    {
+      "word": "cover",
+      "start": 25.56,
+      "end": 26.9
+    },
+    {
+      "word": "uh",
+      "start": 28.44,
+      "end": 28.44
+    },
+    {
+      "word": "cave",
+      "start": 28.5,
+      "end": 28.96
+    },
+    {
+      "word": "give's",
+      "start": 28.96,
+      "end": 31.14
+    },
+    {
+      "word": "cover",
+      "start": 31.14,
+      "end": 31.7
+    },
+    {
+      "word": "ah",
+      "start": 32.56,
+      "end": 32.56
+    },
+    {
+      "word": "long",
+      "start": 32.8,
+      "end": 33.44
+    },
+    {
+      "word": "give's",
+      "start": 34.46,
+      "end": 35.6
+    },
+    {
+      "word": "cover",
+      "start": 35.6,
+      "end": 36.04
+    },
+    {
+      "word": "and",
+      "start": 37.12,
+      "end": 37.12
+    },
+    {
+      "word": "umbrella",
+      "start": 37.12,
+      "end": 38.0
+    },
+    {
+      "word": "give's",
+      "start": 39.5,
+      "end": 40.9
+    },
+    {
+      "word": "cover",
+      "start": 40.9,
+      "end": 40.9
+    },
+    {
+      "word": "ah",
+      "start": 42.3,
+      "end": 42.3
+    },
+    {
+      "word": "mushroom",
+      "start": 42.34,
+      "end": 42.94
+    },
+    {
+      "word": "give's",
+      "start": 44.16,
+      "end": 45.36
+    },
+    {
+      "word": "cover",
+      "start": 45.36,
+      "end": 45.84
+    },
+    {
+      "word": "ah",
+      "start": 46.66,
+      "end": 46.66
+    },
+    {
+      "word": "house",
+      "start": 47.2,
+      "end": 47.76
+    },
+    {
+      "word": "give's",
+      "start": 48.46,
+      "end": 49.62
+    },
+    {
+      "word": "cover",
+      "start": 49.62,
+      "end": 50.0
+    },
+    {
+      "word": "even",
+      "start": 50.5,
+      "end": 50.82
+    },
+    {
+      "word": "a",
+      "start": 51.56,
+      "end": 51.84
+    },
+    {
+      "word": "leaf",
+      "start": 51.84,
+      "end": 52.22
+    },
+    {
+      "word": "give's",
+      "start": 53.06,
+      "end": 53.92
+    },
+    {
+      "word": "cover",
+      "start": 53.92,
+      "end": 54.38
+    },
+    {
+      "word": "connections",
+      "start": 54.74,
+      "end": 55.9
+    },
+    {
+      "word": "writing",
+      "start": 56.98,
+      "end": 57.24
+    },
+    {
+      "word": "and",
+      "start": 57.24,
+      "end": 58.12
+    },
+    {
+      "word": "art",
+      "start": 58.12,
+      "end": 59.06
+    },
+    {
+      "word": "what",
+      "start": 60.14,
+      "end": 60.3
+    },
+    {
+      "word": "else",
+      "start": 60.3,
+      "end": 61.02
+    },
+    {
+      "word": "gives",
+      "start": 61.02,
+      "end": 61.54
+    },
+    {
+      "word": "cover",
+      "start": 61.54,
+      "end": 62.3
+    },
+    {
+      "word": "draw",
+      "start": 63.52,
+      "end": 63.88
+    },
+    {
+      "word": "a",
+      "start": 63.88,
+      "end": 64.48
+    },
+    {
+      "word": "picture",
+      "start": 64.48,
+      "end": 64.9
+    },
+    {
+      "word": "and",
+      "start": 64.9,
+      "end": 66.02
+    },
+    {
+      "word": "label",
+      "start": 66.02,
+      "end": 66.5
+    },
+    {
+      "word": "it",
+      "start": 66.5,
+      "end": 67.36
+    },
+    {
+      "word": "science",
+      "start": 68.24,
+      "end": 68.72
+    },
+    {
+      "word": "why",
+      "start": 70.08,
+      "end": 70.34
+    },
+    {
+      "word": "do",
+      "start": 70.34,
+      "end": 70.8
+    },
+    {
+      "word": "people",
+      "start": 70.8,
+      "end": 71.44
+    },
+    {
+      "word": "and",
+      "start": 71.44,
+      "end": 72.02
+    },
+    {
+      "word": "other",
+      "start": 72.02,
+      "end": 72.64
+    },
+    {
+      "word": "animals",
+      "start": 72.64,
+      "end": 73.22
+    },
+    {
+      "word": "need",
+      "start": 73.22,
+      "end": 74.04
+    },
+    {
+      "word": "cover",
+      "start": 74.04,
+      "end": 74.9
+    },
+    {
+      "word": "share",
+      "start": 75.92,
+      "end": 76.22
+    },
+    {
+      "word": "your",
+      "start": 76.22,
+      "end": 76.9
+    },
+    {
+      "word": "ideas",
+      "start": 76.9,
+      "end": 77.66
+    },
+    {
+      "word": "with",
+      "start": 77.66,
+      "end": 78.62
+    },
+    {
+      "word": "a",
+      "start": 78.62,
+      "end": 78.88
+    },
+    {
+      "word": "partner",
+      "start": 78.88,
+      "end": 79.2
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "level-b/are-these-his-or-hers",
+  "title": "Are These His Or Hers",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Are These Hissor ZHers? Wrilten by Racheal Rice Illustrated by Lisa Fields wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Are These His or Hers? Written by Racheal Rice Illustrated Lisa Fields wwwreadinga-z.com Focus Question is the family doing the chore in the story? by Why"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know clothes pajamas jackets shirts jeans shorts Are These His or Hers? Level B Leveled Book Learning A-Z Correlation Written by Racheal Rice LEVEL B Illustrated by Lisa Fields Fountas & Pinnell B AIl rights reserved. Reading Recovery 2 DRA 2 wwwreadinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "N Are these clothes his or hers? Are These His or Hers? Level B 3"
+    },
+    {
+      "page": 5,
+      "text": "These socks are his_"
+    },
+    {
+      "page": 6,
+      "text": "These shorts are hers. Are These His or Hers? Level B 5"
+    },
+    {
+      "page": 7,
+      "text": "These  pajamas are his_"
+    },
+    {
+      "page": 8,
+      "text": "These shirts are hers. Are These His or Hers? Level B"
+    },
+    {
+      "page": 9,
+      "text": "These jackets are his_ 8"
+    },
+    {
+      "page": 10,
+      "text": "These hats are hers. Are These His or Hers? Level B"
+    },
+    {
+      "page": 11,
+      "text": "Are these jeans his or hers? are his and hers: 10 7 They"
+    },
+    {
+      "page": 12,
+      "text": "Are These His or Hers? A Reading A-Z Level B Leveled Book Word Count: 41 Connections Writing and Art What are your favorite clothes to wear? Draw a picture and label it: Social Studies is it important to help with chores at home? Share your ideas with a partner: Reading A-z Visit wwwreadinga-z.com for thousands of books and materials. Why"
+    }
+  ]
+}

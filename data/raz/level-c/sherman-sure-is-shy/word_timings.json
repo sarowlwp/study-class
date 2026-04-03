@@ -1,0 +1,266 @@
+{
+  "version": "1.0",
+  "total_words": 52,
+  "timings": [
+    {
+      "word": "sherman",
+      "start": 0.0,
+      "end": 0.62
+    },
+    {
+      "word": "sure",
+      "start": 0.62,
+      "end": 1.62
+    },
+    {
+      "word": "is",
+      "start": 1.62,
+      "end": 2.36
+    },
+    {
+      "word": "shai",
+      "start": 2.36,
+      "end": 3.88
+    },
+    {
+      "word": "written",
+      "start": 5.04,
+      "end": 5.3
+    },
+    {
+      "word": "by",
+      "start": 5.3,
+      "end": 6.2
+    },
+    {
+      "word": "karen",
+      "start": 6.2,
+      "end": 6.64
+    },
+    {
+      "word": "mowgler",
+      "start": 6.64,
+      "end": 7.98
+    },
+    {
+      "word": "illustrated",
+      "start": 9.16,
+      "end": 9.74
+    },
+    {
+      "word": "by",
+      "start": 9.74,
+      "end": 10.7
+    },
+    {
+      "word": "keori",
+      "start": 10.7,
+      "end": 11.28
+    },
+    {
+      "word": "tajima",
+      "start": 11.28,
+      "end": 12.24
+    },
+    {
+      "word": "wally",
+      "start": 12.82,
+      "end": 13.08
+    },
+    {
+      "word": "sure",
+      "start": 13.08,
+      "end": 13.84
+    },
+    {
+      "word": "is",
+      "start": 13.84,
+      "end": 14.52
+    },
+    {
+      "word": "wonderful",
+      "start": 14.52,
+      "end": 15.4
+    },
+    {
+      "word": "sherman",
+      "start": 15.7,
+      "end": 16.14
+    },
+    {
+      "word": "sure",
+      "start": 16.14,
+      "end": 16.88
+    },
+    {
+      "word": "is",
+      "start": 16.88,
+      "end": 17.66
+    },
+    {
+      "word": "shai",
+      "start": 17.66,
+      "end": 18.22
+    },
+    {
+      "word": "preston",
+      "start": 18.52,
+      "end": 18.96
+    },
+    {
+      "word": "sure",
+      "start": 19.44,
+      "end": 19.62
+    },
+    {
+      "word": "is",
+      "start": 19.62,
+      "end": 20.26
+    },
+    {
+      "word": "proud",
+      "start": 20.26,
+      "end": 21.04
+    },
+    {
+      "word": "sherman",
+      "start": 21.3,
+      "end": 21.68
+    },
+    {
+      "word": "sure",
+      "start": 22.26,
+      "end": 22.44
+    },
+    {
+      "word": "is",
+      "start": 22.44,
+      "end": 23.1
+    },
+    {
+      "word": "shai",
+      "start": 23.1,
+      "end": 24.06
+    },
+    {
+      "word": "fred",
+      "start": 24.28,
+      "end": 24.48
+    },
+    {
+      "word": "sure",
+      "start": 24.48,
+      "end": 25.32
+    },
+    {
+      "word": "is",
+      "start": 25.32,
+      "end": 25.98
+    },
+    {
+      "word": "fancy",
+      "start": 25.98,
+      "end": 26.82
+    },
+    {
+      "word": "sherman",
+      "start": 26.82,
+      "end": 27.52
+    },
+    {
+      "word": "sure",
+      "start": 27.52,
+      "end": 28.34
+    },
+    {
+      "word": "is",
+      "start": 28.34,
+      "end": 29.0
+    },
+    {
+      "word": "shy",
+      "start": 29.0,
+      "end": 29.74
+    },
+    {
+      "word": "greg",
+      "start": 29.74,
+      "end": 30.3
+    },
+    {
+      "word": "sure",
+      "start": 30.3,
+      "end": 31.38
+    },
+    {
+      "word": "is",
+      "start": 31.38,
+      "end": 32.04
+    },
+    {
+      "word": "grand",
+      "start": 32.04,
+      "end": 32.78
+    },
+    {
+      "word": "sherman",
+      "start": 32.78,
+      "end": 33.44
+    },
+    {
+      "word": "sure",
+      "start": 33.44,
+      "end": 34.36
+    },
+    {
+      "word": "is",
+      "start": 34.36,
+      "end": 35.08
+    },
+    {
+      "word": "shy",
+      "start": 35.08,
+      "end": 35.82
+    },
+    {
+      "word": "surely",
+      "start": 35.82,
+      "end": 36.3
+    },
+    {
+      "word": "sure",
+      "start": 36.3,
+      "end": 37.2
+    },
+    {
+      "word": "likes",
+      "start": 37.2,
+      "end": 37.8
+    },
+    {
+      "word": "sherman",
+      "start": 37.8,
+      "end": 38.44
+    },
+    {
+      "word": "surely",
+      "start": 38.44,
+      "end": 39.0
+    },
+    {
+      "word": "is",
+      "start": 39.0,
+      "end": 39.98
+    },
+    {
+      "word": "shy",
+      "start": 39.98,
+      "end": 40.58
+    },
+    {
+      "word": "too",
+      "start": 40.58,
+      "end": 40.92
+    }
+  ]
+}

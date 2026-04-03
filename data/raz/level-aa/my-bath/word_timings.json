@@ -1,0 +1,361 @@
+{
+  "version": "1.0",
+  "total_words": 71,
+  "timings": [
+    {
+      "word": "my",
+      "start": 0.0,
+      "end": 0.62
+    },
+    {
+      "word": "bath",
+      "start": 0.62,
+      "end": 2.14
+    },
+    {
+      "word": "written",
+      "start": 2.64,
+      "end": 3.38
+    },
+    {
+      "word": "by",
+      "start": 3.38,
+      "end": 4.2
+    },
+    {
+      "word": "elizabeth",
+      "start": 4.2,
+      "end": 4.84
+    },
+    {
+      "word": "jane",
+      "start": 4.84,
+      "end": 5.82
+    },
+    {
+      "word": "pustilnik",
+      "start": 5.82,
+      "end": 7.24
+    },
+    {
+      "word": "illustrated",
+      "start": 8.06,
+      "end": 8.54
+    },
+    {
+      "word": "by",
+      "start": 8.54,
+      "end": 9.7
+    },
+    {
+      "word": "marcus",
+      "start": 9.7,
+      "end": 10.32
+    },
+    {
+      "word": "cutler",
+      "start": 10.32,
+      "end": 11.42
+    },
+    {
+      "word": "focus",
+      "start": 12.74,
+      "end": 12.94
+    },
+    {
+      "word": "question",
+      "start": 12.94,
+      "end": 13.9
+    },
+    {
+      "word": "what",
+      "start": 15.12,
+      "end": 15.2
+    },
+    {
+      "word": "can",
+      "start": 15.2,
+      "end": 15.84
+    },
+    {
+      "word": "you",
+      "start": 15.84,
+      "end": 16.14
+    },
+    {
+      "word": "see",
+      "start": 16.14,
+      "end": 16.8
+    },
+    {
+      "word": "while",
+      "start": 16.8,
+      "end": 17.4
+    },
+    {
+      "word": "taking",
+      "start": 17.4,
+      "end": 17.92
+    },
+    {
+      "word": "a",
+      "start": 17.92,
+      "end": 18.38
+    },
+    {
+      "word": "bath",
+      "start": 18.38,
+      "end": 18.92
+    },
+    {
+      "word": "my",
+      "start": 19.34,
+      "end": 19.56
+    },
+    {
+      "word": "tub",
+      "start": 19.56,
+      "end": 20.48
+    },
+    {
+      "word": "my",
+      "start": 21.18,
+      "end": 21.46
+    },
+    {
+      "word": "water",
+      "start": 21.46,
+      "end": 22.4
+    },
+    {
+      "word": "my",
+      "start": 23.18,
+      "end": 23.44
+    },
+    {
+      "word": "bubbles",
+      "start": 23.44,
+      "end": 24.44
+    },
+    {
+      "word": "my",
+      "start": 25.24,
+      "end": 25.54
+    },
+    {
+      "word": "toys",
+      "start": 25.54,
+      "end": 26.38
+    },
+    {
+      "word": "my",
+      "start": 27.18,
+      "end": 27.48
+    },
+    {
+      "word": "soap",
+      "start": 27.48,
+      "end": 28.28
+    },
+    {
+      "word": "my",
+      "start": 28.28,
+      "end": 28.98
+    },
+    {
+      "word": "shampoo",
+      "start": 28.98,
+      "end": 29.96
+    },
+    {
+      "word": "my",
+      "start": 30.76,
+      "end": 31.08
+    },
+    {
+      "word": "towel",
+      "start": 31.08,
+      "end": 31.9
+    },
+    {
+      "word": "my",
+      "start": 32.64,
+      "end": 32.96
+    },
+    {
+      "word": "bath",
+      "start": 32.96,
+      "end": 34.04
+    },
+    {
+      "word": "connections",
+      "start": 34.94,
+      "end": 35.7
+    },
+    {
+      "word": "writing",
+      "start": 37.06,
+      "end": 37.44
+    },
+    {
+      "word": "and",
+      "start": 37.44,
+      "end": 38.38
+    },
+    {
+      "word": "art",
+      "start": 38.38,
+      "end": 39.56
+    },
+    {
+      "word": "draw",
+      "start": 40.36,
+      "end": 40.64
+    },
+    {
+      "word": "a",
+      "start": 40.64,
+      "end": 41.1
+    },
+    {
+      "word": "picture",
+      "start": 41.1,
+      "end": 41.58
+    },
+    {
+      "word": "of",
+      "start": 41.58,
+      "end": 42.2
+    },
+    {
+      "word": "your",
+      "start": 42.2,
+      "end": 42.46
+    },
+    {
+      "word": "bathroom",
+      "start": 42.46,
+      "end": 42.92
+    },
+    {
+      "word": "and",
+      "start": 42.92,
+      "end": 43.7
+    },
+    {
+      "word": "label",
+      "start": 43.7,
+      "end": 44.02
+    },
+    {
+      "word": "it",
+      "start": 44.02,
+      "end": 45.16
+    },
+    {
+      "word": "social",
+      "start": 45.8,
+      "end": 46.08
+    },
+    {
+      "word": "studies",
+      "start": 46.08,
+      "end": 47.08
+    },
+    {
+      "word": "people",
+      "start": 48.48,
+      "end": 48.72
+    },
+    {
+      "word": "take",
+      "start": 48.72,
+      "end": 49.26
+    },
+    {
+      "word": "baths",
+      "start": 49.26,
+      "end": 50.18
+    },
+    {
+      "word": "to",
+      "start": 50.18,
+      "end": 50.54
+    },
+    {
+      "word": "get",
+      "start": 50.54,
+      "end": 50.82
+    },
+    {
+      "word": "clean",
+      "start": 50.82,
+      "end": 51.48
+    },
+    {
+      "word": "why",
+      "start": 52.76,
+      "end": 53.08
+    },
+    {
+      "word": "do",
+      "start": 53.08,
+      "end": 53.4
+    },
+    {
+      "word": "people",
+      "start": 53.4,
+      "end": 53.78
+    },
+    {
+      "word": "need",
+      "start": 53.78,
+      "end": 54.34
+    },
+    {
+      "word": "to",
+      "start": 54.34,
+      "end": 54.86
+    },
+    {
+      "word": "keep",
+      "start": 54.86,
+      "end": 55.24
+    },
+    {
+      "word": "clean",
+      "start": 55.24,
+      "end": 55.88
+    },
+    {
+      "word": "share",
+      "start": 55.88,
+      "end": 57.26
+    },
+    {
+      "word": "your",
+      "start": 57.26,
+      "end": 57.8
+    },
+    {
+      "word": "ideas",
+      "start": 57.8,
+      "end": 58.38
+    },
+    {
+      "word": "with",
+      "start": 58.38,
+      "end": 59.2
+    },
+    {
+      "word": "a",
+      "start": 59.2,
+      "end": 59.42
+    },
+    {
+      "word": "partner",
+      "start": 59.42,
+      "end": 59.8
+    }
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "version": "1.0",
+  "total_words": 89,
+  "timings": [
+    {
+      "word": "what",
+      "start": 0.0,
+      "end": 0.44
+    },
+    {
+      "word": "is",
+      "start": 0.44,
+      "end": 0.94
+    },
+    {
+      "word": "at",
+      "start": 0.94,
+      "end": 1.2
+    },
+    {
+      "word": "the",
+      "start": 1.2,
+      "end": 1.4
+    },
+    {
+      "word": "zoo",
+      "start": 1.4,
+      "end": 2.14
+    },
+    {
+      "word": "written",
+      "start": 2.88,
+      "end": 3.08
+    },
+    {
+      "word": "by",
+      "start": 3.08,
+      "end": 3.66
+    },
+    {
+      "word": "katie",
+      "start": 3.66,
+      "end": 4.16
+    },
+    {
+      "word": "knight",
+      "start": 4.16,
+      "end": 5.08
+    },
+    {
+      "word": "illustrated",
+      "start": 5.72,
+      "end": 6.06
+    },
+    {
+      "word": "by",
+      "start": 6.06,
+      "end": 6.74
+    },
+    {
+      "word": "paula",
+      "start": 6.74,
+      "end": 7.38
+    },
+    {
+      "word": "schrikker",
+      "start": 7.38,
+      "end": 8.08
+    },
+    {
+      "word": "are",
+      "start": 9.16,
+      "end": 9.16
+    },
+    {
+      "word": "there",
+      "start": 9.16,
+      "end": 9.66
+    },
+    {
+      "word": "bears",
+      "start": 9.66,
+      "end": 10.12
+    },
+    {
+      "word": "at",
+      "start": 10.12,
+      "end": 10.6
+    },
+    {
+      "word": "the",
+      "start": 10.6,
+      "end": 10.78
+    },
+    {
+      "word": "zoo",
+      "start": 10.78,
+      "end": 11.04
+    },
+    {
+      "word": "yes",
+      "start": 12.16,
+      "end": 12.48
+    },
+    {
+      "word": "there",
+      "start": 12.76,
+      "end": 13.04
+    },
+    {
+      "word": "are",
+      "start": 13.04,
+      "end": 13.76
+    },
+    {
+      "word": "are",
+      "start": 14.26,
+      "end": 14.58
+    },
+    {
+      "word": "there",
+      "start": 14.58,
+      "end": 15.06
+    },
+    {
+      "word": "monkeys",
+      "start": 15.06,
+      "end": 15.46
+    },
+    {
+      "word": "at",
+      "start": 15.46,
+      "end": 16.06
+    },
+    {
+      "word": "the",
+      "start": 16.06,
+      "end": 16.36
+    },
+    {
+      "word": "zoo",
+      "start": 16.36,
+      "end": 16.68
+    },
+    {
+      "word": "yes",
+      "start": 17.62,
+      "end": 18.04
+    },
+    {
+      "word": "there",
+      "start": 18.14,
+      "end": 18.52
+    },
+    {
+      "word": "are",
+      "start": 18.52,
+      "end": 19.28
+    },
+    {
+      "word": "are",
+      "start": 19.48,
+      "end": 19.72
+    },
+    {
+      "word": "there",
+      "start": 19.72,
+      "end": 20.08
+    },
+    {
+      "word": "elephants",
+      "start": 20.08,
+      "end": 20.5
+    },
+    {
+      "word": "at",
+      "start": 20.5,
+      "end": 20.96
+    },
+    {
+      "word": "the",
+      "start": 20.96,
+      "end": 21.16
+    },
+    {
+      "word": "zoo",
+      "start": 21.16,
+      "end": 21.94
+    },
+    {
+      "word": "yes",
+      "start": 22.44,
+      "end": 23.0
+    },
+    {
+      "word": "there",
+      "start": 23.0,
+      "end": 23.34
+    },
+    {
+      "word": "are",
+      "start": 23.34,
+      "end": 23.92
+    },
+    {
+      "word": "are",
+      "start": 24.42,
+      "end": 24.62
+    },
+    {
+      "word": "there",
+      "start": 24.62,
+      "end": 24.88
+    },
+    {
+      "word": "giraffes",
+      "start": 24.88,
+      "end": 25.68
+    },
+    {
+      "word": "at",
+      "start": 25.68,
+      "end": 26.12
+    },
+    {
+      "word": "the",
+      "start": 26.12,
+      "end": 26.34
+    },
+    {
+      "word": "zoo",
+      "start": 26.34,
+      "end": 26.74
+    },
+    {
+      "word": "yes",
+      "start": 27.64,
+      "end": 28.1
+    },
+    {
+      "word": "there",
+      "start": 28.26,
+      "end": 28.5
+    },
+    {
+      "word": "are",
+      "start": 28.5,
+      "end": 28.92
+    },
+    {
+      "word": "are",
+      "start": 28.92,
+      "end": 30.0
+    },
+    {
+      "word": "there",
+      "start": 30.0,
+      "end": 30.4
+    },
+    {
+      "word": "lions",
+      "start": 30.4,
+      "end": 30.92
+    },
+    {
+      "word": "and",
+      "start": 30.92,
+      "end": 31.52
+    },
+    {
+      "word": "tigers",
+      "start": 31.52,
+      "end": 31.98
+    },
+    {
+      "word": "at",
+      "start": 31.98,
+      "end": 32.38
+    },
+    {
+      "word": "the",
+      "start": 32.38,
+      "end": 32.66
+    },
+    {
+      "word": "zoo",
+      "start": 32.66,
+      "end": 33.1
+    },
+    {
+      "word": "yes",
+      "start": 34.06,
+      "end": 34.34
+    },
+    {
+      "word": "there",
+      "start": 34.6,
+      "end": 34.9
+    },
+    {
+      "word": "are",
+      "start": 34.9,
+      "end": 35.3
+    },
+    {
+      "word": "are",
+      "start": 35.86,
+      "end": 36.04
+    },
+    {
+      "word": "there",
+      "start": 36.04,
+      "end": 36.4
+    },
+    {
+      "word": "hippos",
+      "start": 36.4,
+      "end": 36.98
+    },
+    {
+      "word": "at",
+      "start": 36.98,
+      "end": 37.32
+    },
+    {
+      "word": "the",
+      "start": 37.32,
+      "end": 37.56
+    },
+    {
+      "word": "zoo",
+      "start": 37.56,
+      "end": 37.94
+    },
+    {
+      "word": "yes",
+      "start": 38.96,
+      "end": 39.36
+    },
+    {
+      "word": "there",
+      "start": 39.58,
+      "end": 39.9
+    },
+    {
+      "word": "are",
+      "start": 39.9,
+      "end": 40.82
+    },
+    {
+      "word": "are",
+      "start": 41.34,
+      "end": 41.52
+    },
+    {
+      "word": "there",
+      "start": 41.52,
+      "end": 41.98
+    },
+    {
+      "word": "sea",
+      "start": 41.98,
+      "end": 42.3
+    },
+    {
+      "word": "lions",
+      "start": 42.3,
+      "end": 42.78
+    },
+    {
+      "word": "at",
+      "start": 42.78,
+      "end": 43.18
+    },
+    {
+      "word": "the",
+      "start": 43.18,
+      "end": 43.42
+    },
+    {
+      "word": "zoo",
+      "start": 43.42,
+      "end": 43.86
+    },
+    {
+      "word": "yes",
+      "start": 44.58,
+      "end": 45.06
+    },
+    {
+      "word": "there",
+      "start": 45.06,
+      "end": 45.44
+    },
+    {
+      "word": "are",
+      "start": 45.44,
+      "end": 46.18
+    },
+    {
+      "word": "are",
+      "start": 46.54,
+      "end": 46.76
+    },
+    {
+      "word": "there",
+      "start": 46.76,
+      "end": 47.12
+    },
+    {
+      "word": "dinosaurs",
+      "start": 47.12,
+      "end": 47.64
+    },
+    {
+      "word": "at",
+      "start": 47.64,
+      "end": 48.38
+    },
+    {
+      "word": "the",
+      "start": 48.38,
+      "end": 48.62
+    },
+    {
+      "word": "zoo",
+      "start": 48.62,
+      "end": 49.14
+    },
+    {
+      "word": "no",
+      "start": 49.78,
+      "end": 50.38
+    },
+    {
+      "word": "there",
+      "start": 50.8,
+      "end": 51.02
+    },
+    {
+      "word": "are",
+      "start": 51.02,
+      "end": 51.46
+    },
+    {
+      "word": "not",
+      "start": 51.46,
+      "end": 51.74
+    }
+  ]
+}

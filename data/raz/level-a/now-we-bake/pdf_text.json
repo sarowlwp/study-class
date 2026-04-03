@@ -1,0 +1,58 @@
+{
+  "id": "level-a/now-we-bake",
+  "title": "Now We Bake",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Now We Bakel Wriiten by Harriet Rosenbloom Illustreted by Olivler Pelletier WWWreadinga-Z.com"
+    },
+    {
+      "page": 2,
+      "text": "Now We Belkel Written by Harriet Rosenbloom Illustrated by Olivier Pelletier www.readinga-z.com Focus Question What do you need to do to make a cake?"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know bake serve frost shop pour wait Now We Bakel Level A Leveled Book 0 Learning A-Z Correlation Written by Harriet Rosenbloom LEVEL A Illustrated by Olivier Pelletier Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "Now we Now We Bakel 0 Level A 3 shop"
+    },
+    {
+      "page": 5,
+      "text": "Now we mix"
+    },
+    {
+      "page": 6,
+      "text": "Now we pour: Now We Bakel 0 Level A 5 }"
+    },
+    {
+      "page": 7,
+      "text": "40 Now we bake."
+    },
+    {
+      "page": 8,
+      "text": "Now we wait. Now We Bakel 0 Level A"
+    },
+    {
+      "page": 9,
+      "text": "Now we frost. 8"
+    },
+    {
+      "page": 10,
+      "text": "Now we serve. Now We Bakel 0 Level A"
+    },
+    {
+      "page": 11,
+      "text": "Now we eatl 10"
+    },
+    {
+      "page": 12,
+      "text": "Now We Bakel A Reading A-Z Level A Leveled Book Word Count: 24 Connections Writing and Art What is your favorite part of baking a cake? Draw a picture and label it; Social Studies Which holidays or special celebrations usually include cake? Share your ideas with a partner: Reading A-z Visit www.readinga-z.com for thousands of books and materials."
+    }
+  ]
+}

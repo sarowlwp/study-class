@@ -1,0 +1,501 @@
+{
+  "version": "1.0",
+  "total_words": 99,
+  "timings": [
+    {
+      "word": "all",
+      "start": 0.0,
+      "end": 0.52
+    },
+    {
+      "word": "by",
+      "start": 0.52,
+      "end": 1.36
+    },
+    {
+      "word": "myself",
+      "start": 1.36,
+      "end": 3.06
+    },
+    {
+      "word": "written",
+      "start": 4.08,
+      "end": 4.3
+    },
+    {
+      "word": "by",
+      "start": 4.3,
+      "end": 5.12
+    },
+    {
+      "word": "gabriel",
+      "start": 5.12,
+      "end": 5.84
+    },
+    {
+      "word": "harper",
+      "start": 5.84,
+      "end": 7.5
+    },
+    {
+      "word": "illustrated",
+      "start": 8.66,
+      "end": 9.48
+    },
+    {
+      "word": "by",
+      "start": 9.48,
+      "end": 10.48
+    },
+    {
+      "word": "nadia",
+      "start": 10.48,
+      "end": 11.6
+    },
+    {
+      "word": "rancillo",
+      "start": 11.6,
+      "end": 13.28
+    },
+    {
+      "word": "focus",
+      "start": 13.28,
+      "end": 14.88
+    },
+    {
+      "word": "question",
+      "start": 14.88,
+      "end": 15.98
+    },
+    {
+      "word": "what",
+      "start": 17.0,
+      "end": 17.16
+    },
+    {
+      "word": "does",
+      "start": 17.16,
+      "end": 17.8
+    },
+    {
+      "word": "the",
+      "start": 17.8,
+      "end": 18.12
+    },
+    {
+      "word": "girl",
+      "start": 18.12,
+      "end": 18.66
+    },
+    {
+      "word": "do",
+      "start": 18.66,
+      "end": 19.34
+    },
+    {
+      "word": "all",
+      "start": 19.34,
+      "end": 19.98
+    },
+    {
+      "word": "by",
+      "start": 19.98,
+      "end": 20.38
+    },
+    {
+      "word": "herself",
+      "start": 20.38,
+      "end": 21.24
+    },
+    {
+      "word": "i",
+      "start": 22.08,
+      "end": 22.08
+    },
+    {
+      "word": "read",
+      "start": 22.08,
+      "end": 23.18
+    },
+    {
+      "word": "all",
+      "start": 23.18,
+      "end": 23.92
+    },
+    {
+      "word": "by",
+      "start": 23.92,
+      "end": 24.74
+    },
+    {
+      "word": "myself",
+      "start": 24.74,
+      "end": 26.1
+    },
+    {
+      "word": "i",
+      "start": 26.86,
+      "end": 26.86
+    },
+    {
+      "word": "color",
+      "start": 26.86,
+      "end": 27.92
+    },
+    {
+      "word": "all",
+      "start": 27.92,
+      "end": 29.18
+    },
+    {
+      "word": "by",
+      "start": 29.18,
+      "end": 30.08
+    },
+    {
+      "word": "myself",
+      "start": 30.08,
+      "end": 31.62
+    },
+    {
+      "word": "i",
+      "start": 32.12,
+      "end": 32.44
+    },
+    {
+      "word": "sing",
+      "start": 32.44,
+      "end": 33.42
+    },
+    {
+      "word": "all",
+      "start": 33.42,
+      "end": 34.5
+    },
+    {
+      "word": "by",
+      "start": 34.5,
+      "end": 35.36
+    },
+    {
+      "word": "myself",
+      "start": 35.36,
+      "end": 36.98
+    },
+    {
+      "word": "i",
+      "start": 37.76,
+      "end": 37.76
+    },
+    {
+      "word": "play",
+      "start": 37.76,
+      "end": 38.68
+    },
+    {
+      "word": "all",
+      "start": 38.68,
+      "end": 40.24
+    },
+    {
+      "word": "by",
+      "start": 40.24,
+      "end": 41.12
+    },
+    {
+      "word": "myself",
+      "start": 41.12,
+      "end": 42.26
+    },
+    {
+      "word": "i",
+      "start": 42.26,
+      "end": 42.88
+    },
+    {
+      "word": "build",
+      "start": 42.88,
+      "end": 43.88
+    },
+    {
+      "word": "all",
+      "start": 43.88,
+      "end": 45.18
+    },
+    {
+      "word": "by",
+      "start": 45.18,
+      "end": 46.3
+    },
+    {
+      "word": "myself",
+      "start": 46.3,
+      "end": 47.62
+    },
+    {
+      "word": "i",
+      "start": 48.52,
+      "end": 48.52
+    },
+    {
+      "word": "listen",
+      "start": 48.52,
+      "end": 49.8
+    },
+    {
+      "word": "all",
+      "start": 49.8,
+      "end": 50.98
+    },
+    {
+      "word": "by",
+      "start": 50.98,
+      "end": 52.1
+    },
+    {
+      "word": "myself",
+      "start": 52.1,
+      "end": 53.54
+    },
+    {
+      "word": "i",
+      "start": 54.28,
+      "end": 54.28
+    },
+    {
+      "word": "dress",
+      "start": 54.28,
+      "end": 55.4
+    },
+    {
+      "word": "all",
+      "start": 55.4,
+      "end": 56.8
+    },
+    {
+      "word": "by",
+      "start": 56.8,
+      "end": 57.84
+    },
+    {
+      "word": "myself",
+      "start": 57.84,
+      "end": 59.38
+    },
+    {
+      "word": "i",
+      "start": 60.16,
+      "end": 60.16
+    },
+    {
+      "word": "think",
+      "start": 60.16,
+      "end": 61.74
+    },
+    {
+      "word": "all",
+      "start": 61.74,
+      "end": 62.82
+    },
+    {
+      "word": "by",
+      "start": 62.82,
+      "end": 64.08
+    },
+    {
+      "word": "myself",
+      "start": 64.08,
+      "end": 65.6
+    },
+    {
+      "word": "connections",
+      "start": 65.6,
+      "end": 67.74
+    },
+    {
+      "word": "writing",
+      "start": 68.22,
+      "end": 68.52
+    },
+    {
+      "word": "and",
+      "start": 69.4,
+      "end": 69.72
+    },
+    {
+      "word": "art",
+      "start": 69.72,
+      "end": 70.3
+    },
+    {
+      "word": "what",
+      "start": 71.7,
+      "end": 71.74
+    },
+    {
+      "word": "do",
+      "start": 71.74,
+      "end": 72.38
+    },
+    {
+      "word": "you",
+      "start": 72.38,
+      "end": 72.9
+    },
+    {
+      "word": "like",
+      "start": 72.9,
+      "end": 73.78
+    },
+    {
+      "word": "to",
+      "start": 73.78,
+      "end": 74.06
+    },
+    {
+      "word": "do",
+      "start": 74.06,
+      "end": 74.6
+    },
+    {
+      "word": "all",
+      "start": 74.6,
+      "end": 75.22
+    },
+    {
+      "word": "by",
+      "start": 75.22,
+      "end": 75.56
+    },
+    {
+      "word": "yourself",
+      "start": 75.56,
+      "end": 76.66
+    },
+    {
+      "word": "draw",
+      "start": 77.5,
+      "end": 77.78
+    },
+    {
+      "word": "a",
+      "start": 77.78,
+      "end": 78.24
+    },
+    {
+      "word": "picture",
+      "start": 78.24,
+      "end": 78.74
+    },
+    {
+      "word": "and",
+      "start": 79.58,
+      "end": 80.0
+    },
+    {
+      "word": "write",
+      "start": 80.0,
+      "end": 80.34
+    },
+    {
+      "word": "about",
+      "start": 80.34,
+      "end": 81.02
+    },
+    {
+      "word": "it",
+      "start": 81.02,
+      "end": 82.14
+    },
+    {
+      "word": "social",
+      "start": 82.9,
+      "end": 83.18
+    },
+    {
+      "word": "studies",
+      "start": 83.18,
+      "end": 84.02
+    },
+    {
+      "word": "what",
+      "start": 85.16,
+      "end": 85.42
+    },
+    {
+      "word": "is",
+      "start": 85.42,
+      "end": 85.94
+    },
+    {
+      "word": "something",
+      "start": 85.94,
+      "end": 86.62
+    },
+    {
+      "word": "that",
+      "start": 86.62,
+      "end": 87.6
+    },
+    {
+      "word": "you",
+      "start": 87.6,
+      "end": 87.84
+    },
+    {
+      "word": "can't",
+      "start": 87.84,
+      "end": 88.64
+    },
+    {
+      "word": "do",
+      "start": 88.64,
+      "end": 89.2
+    },
+    {
+      "word": "all",
+      "start": 89.2,
+      "end": 89.8
+    },
+    {
+      "word": "by",
+      "start": 89.8,
+      "end": 90.14
+    },
+    {
+      "word": "yourself",
+      "start": 90.14,
+      "end": 91.22
+    },
+    {
+      "word": "share",
+      "start": 91.22,
+      "end": 92.8
+    },
+    {
+      "word": "your",
+      "start": 92.8,
+      "end": 93.4
+    },
+    {
+      "word": "ideas",
+      "start": 93.4,
+      "end": 94.08
+    },
+    {
+      "word": "with",
+      "start": 94.08,
+      "end": 94.88
+    },
+    {
+      "word": "a",
+      "start": 94.88,
+      "end": 95.12
+    },
+    {
+      "word": "partner",
+      "start": 95.12,
+      "end": 95.54
+    }
+  ]
+}

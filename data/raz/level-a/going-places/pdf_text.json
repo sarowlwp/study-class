@@ -1,0 +1,54 @@
+{
+  "id": "level-a/going-places",
+  "title": "Going Places",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Places Writlen by Chuck Garotano wwwreadinga-z.com Going"
+    },
+    {
+      "page": 2,
+      "text": "Going Places Written by Chuck Garofano wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "You can go on 0 plane. Going Places Level A 3"
+    },
+    {
+      "page": 4,
+      "text": "13 4 65 You can go on a train_"
+    },
+    {
+      "page": 5,
+      "text": "You can go on a boat _ Going Places Level A 5"
+    },
+    {
+      "page": 6,
+      "text": "You can go in a car_ 0"
+    },
+    {
+      "page": 7,
+      "text": "BuS TUCSOH  UHIFVED   SChDOL   DSTRUI STOP 203 336 226 You can go in a bus. Going Places Level A SCHUUL"
+    },
+    {
+      "page": 8,
+      "text": "You can go on a bike. 8"
+    },
+    {
+      "page": 9,
+      "text": "You can go on a skateboard. Going Places Level A"
+    },
+    {
+      "page": 10,
+      "text": "You can go on a horse. 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover, pages 8 , 1O: @ Ben Blankenburg/Corbis; back cover, pages 3, 4, 7: Jupiterimages Corporation; title page, page 6: Tom Grill/Corbis; page 5: @ Robert Porter / Dreamstime.com; page 9: @ Michael Newman/PhotoEdit Places Level A Leveled Book Correlation Learning A-Z LEVEL A Written by Chuck Garofano Fountas & Pinnell A AlI reserved. Reading_Recovery DRA A-1 WWW.   readinga-z.( com Going rights"
+    }
+  ]
+}

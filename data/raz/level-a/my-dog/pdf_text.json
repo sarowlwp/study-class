@@ -1,0 +1,54 @@
+{
+  "id": "level-a/my-dog",
+  "title": "My Dog",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A (( Mb Written by Vic Moors Illustrated by Nora Voutas wwwreadinga-z.com My Dog P)"
+    },
+    {
+      "page": 2,
+      "text": "Written by Vic Moors Illustrated by Nora Voutas WWWreadinga-z.com My Dog 1S@"
+    },
+    {
+      "page": 3,
+      "text": "dog can jump. My Level A 3 My Dog"
+    },
+    {
+      "page": 4,
+      "text": "M dog can run. )B My"
+    },
+    {
+      "page": 5,
+      "text": "Qv C k dog can swim _ My Level A 5 12 My Dog"
+    },
+    {
+      "page": 6,
+      "text": "8 0 dog can 8 My dig"
+    },
+    {
+      "page": 7,
+      "text": "2 2 0 0 dog can climb. My Level A ASO My Dog"
+    },
+    {
+      "page": 8,
+      "text": "[MI dog can sit. 8 My"
+    },
+    {
+      "page": 9,
+      "text": "7 dog can roll over _ My Level A 9 My Dog"
+    },
+    {
+      "page": 10,
+      "text": "Ib dog can 10 P) My hug_"
+    },
+    {
+      "page": 11,
+      "text": "LOADING My Level A Leveled Book Learning A-Z Correlation Written by Vic Moors LEVEL A Illustrated by Nora Voutas Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 WWW.E readinga-z c com Dog"
+    }
+  ]
+}

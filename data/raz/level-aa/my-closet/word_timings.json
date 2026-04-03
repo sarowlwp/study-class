@@ -1,0 +1,446 @@
+{
+  "version": "1.0",
+  "total_words": 88,
+  "timings": [
+    {
+      "word": "my",
+      "start": 0.0,
+      "end": 0.66
+    },
+    {
+      "word": "closet",
+      "start": 0.66,
+      "end": 2.38
+    },
+    {
+      "word": "written",
+      "start": 3.7,
+      "end": 3.96
+    },
+    {
+      "word": "by",
+      "start": 3.96,
+      "end": 5.24
+    },
+    {
+      "word": "elizabeth",
+      "start": 5.24,
+      "end": 6.12
+    },
+    {
+      "word": "jane",
+      "start": 6.12,
+      "end": 7.78
+    },
+    {
+      "word": "pastelnic",
+      "start": 7.78,
+      "end": 9.8
+    },
+    {
+      "word": "illustrated",
+      "start": 11.06,
+      "end": 11.7
+    },
+    {
+      "word": "by",
+      "start": 11.7,
+      "end": 13.32
+    },
+    {
+      "word": "juan",
+      "start": 13.32,
+      "end": 14.04
+    },
+    {
+      "word": "manuel",
+      "start": 14.04,
+      "end": 15.16
+    },
+    {
+      "word": "moreno",
+      "start": 15.16,
+      "end": 16.62
+    },
+    {
+      "word": "focus",
+      "start": 17.98,
+      "end": 18.32
+    },
+    {
+      "word": "question",
+      "start": 18.32,
+      "end": 19.56
+    },
+    {
+      "word": "what",
+      "start": 19.56,
+      "end": 21.22
+    },
+    {
+      "word": "can",
+      "start": 21.22,
+      "end": 22.04
+    },
+    {
+      "word": "you",
+      "start": 22.04,
+      "end": 22.52
+    },
+    {
+      "word": "find",
+      "start": 22.52,
+      "end": 23.28
+    },
+    {
+      "word": "in",
+      "start": 23.28,
+      "end": 23.96
+    },
+    {
+      "word": "a",
+      "start": 23.96,
+      "end": 24.6
+    },
+    {
+      "word": "closet",
+      "start": 24.6,
+      "end": 25.14
+    },
+    {
+      "word": "my",
+      "start": 26.18,
+      "end": 26.18
+    },
+    {
+      "word": "hangers",
+      "start": 26.18,
+      "end": 27.6
+    },
+    {
+      "word": "my",
+      "start": 28.16,
+      "end": 28.52
+    },
+    {
+      "word": "shirts",
+      "start": 28.52,
+      "end": 29.84
+    },
+    {
+      "word": "my",
+      "start": 30.64,
+      "end": 31.46
+    },
+    {
+      "word": "pants",
+      "start": 31.46,
+      "end": 32.58
+    },
+    {
+      "word": "my",
+      "start": 33.06,
+      "end": 33.78
+    },
+    {
+      "word": "dresses",
+      "start": 33.78,
+      "end": 35.14
+    },
+    {
+      "word": "my",
+      "start": 35.9,
+      "end": 36.66
+    },
+    {
+      "word": "shoes",
+      "start": 36.66,
+      "end": 37.7
+    },
+    {
+      "word": "my",
+      "start": 37.7,
+      "end": 38.44
+    },
+    {
+      "word": "belts",
+      "start": 38.44,
+      "end": 39.84
+    },
+    {
+      "word": "my",
+      "start": 40.78,
+      "end": 40.78
+    },
+    {
+      "word": "blankets",
+      "start": 40.78,
+      "end": 41.96
+    },
+    {
+      "word": "my",
+      "start": 42.78,
+      "end": 43.12
+    },
+    {
+      "word": "closet",
+      "start": 43.12,
+      "end": 44.52
+    },
+    {
+      "word": "connections",
+      "start": 44.52,
+      "end": 45.92
+    },
+    {
+      "word": "writing",
+      "start": 47.66,
+      "end": 47.9
+    },
+    {
+      "word": "and",
+      "start": 47.9,
+      "end": 48.96
+    },
+    {
+      "word": "art",
+      "start": 48.96,
+      "end": 50.36
+    },
+    {
+      "word": "draw",
+      "start": 51.58,
+      "end": 51.84
+    },
+    {
+      "word": "three",
+      "start": 51.84,
+      "end": 52.7
+    },
+    {
+      "word": "things",
+      "start": 52.7,
+      "end": 53.7
+    },
+    {
+      "word": "that",
+      "start": 53.7,
+      "end": 54.42
+    },
+    {
+      "word": "are",
+      "start": 54.42,
+      "end": 54.86
+    },
+    {
+      "word": "in",
+      "start": 54.86,
+      "end": 55.16
+    },
+    {
+      "word": "a",
+      "start": 55.16,
+      "end": 55.62
+    },
+    {
+      "word": "closet",
+      "start": 55.62,
+      "end": 56.26
+    },
+    {
+      "word": "label",
+      "start": 57.64,
+      "end": 57.82
+    },
+    {
+      "word": "your",
+      "start": 57.82,
+      "end": 58.5
+    },
+    {
+      "word": "pictures",
+      "start": 58.5,
+      "end": 59.08
+    },
+    {
+      "word": "share",
+      "start": 60.64,
+      "end": 61.0
+    },
+    {
+      "word": "your",
+      "start": 61.0,
+      "end": 61.66
+    },
+    {
+      "word": "pictures",
+      "start": 61.66,
+      "end": 62.32
+    },
+    {
+      "word": "with",
+      "start": 62.32,
+      "end": 63.42
+    },
+    {
+      "word": "a",
+      "start": 63.42,
+      "end": 63.64
+    },
+    {
+      "word": "partner",
+      "start": 63.64,
+      "end": 64.24
+    },
+    {
+      "word": "science",
+      "start": 64.24,
+      "end": 66.22
+    },
+    {
+      "word": "and",
+      "start": 66.22,
+      "end": 66.88
+    },
+    {
+      "word": "art",
+      "start": 66.88,
+      "end": 67.68
+    },
+    {
+      "word": "draw",
+      "start": 68.8,
+      "end": 68.86
+    },
+    {
+      "word": "four",
+      "start": 68.86,
+      "end": 69.7
+    },
+    {
+      "word": "boxes",
+      "start": 69.7,
+      "end": 70.62
+    },
+    {
+      "word": "and",
+      "start": 70.62,
+      "end": 72.04
+    },
+    {
+      "word": "label",
+      "start": 72.04,
+      "end": 72.5
+    },
+    {
+      "word": "them",
+      "start": 72.5,
+      "end": 73.04
+    },
+    {
+      "word": "with",
+      "start": 73.04,
+      "end": 73.62
+    },
+    {
+      "word": "the",
+      "start": 73.62,
+      "end": 73.9
+    },
+    {
+      "word": "names",
+      "start": 73.9,
+      "end": 74.38
+    },
+    {
+      "word": "of",
+      "start": 74.38,
+      "end": 74.88
+    },
+    {
+      "word": "the",
+      "start": 74.88,
+      "end": 75.1
+    },
+    {
+      "word": "seasons",
+      "start": 75.1,
+      "end": 75.82
+    },
+    {
+      "word": "spring",
+      "start": 77.0,
+      "end": 77.34
+    },
+    {
+      "word": "summer",
+      "start": 78.54,
+      "end": 78.9
+    },
+    {
+      "word": "fall",
+      "start": 80.02,
+      "end": 80.56
+    },
+    {
+      "word": "and",
+      "start": 80.56,
+      "end": 81.52
+    },
+    {
+      "word": "winter",
+      "start": 81.52,
+      "end": 82.18
+    },
+    {
+      "word": "draw",
+      "start": 83.48,
+      "end": 83.74
+    },
+    {
+      "word": "a",
+      "start": 83.74,
+      "end": 84.2
+    },
+    {
+      "word": "picture",
+      "start": 84.2,
+      "end": 84.76
+    },
+    {
+      "word": "of",
+      "start": 84.76,
+      "end": 85.68
+    },
+    {
+      "word": "what",
+      "start": 85.68,
+      "end": 86.22
+    },
+    {
+      "word": "you",
+      "start": 86.22,
+      "end": 86.54
+    },
+    {
+      "word": "wear",
+      "start": 86.54,
+      "end": 87.22
+    },
+    {
+      "word": "during",
+      "start": 87.22,
+      "end": 87.82
+    },
+    {
+      "word": "each",
+      "start": 87.82,
+      "end": 88.78
+    },
+    {
+      "word": "season",
+      "start": 88.78,
+      "end": 89.38
+    }
+  ]
+}

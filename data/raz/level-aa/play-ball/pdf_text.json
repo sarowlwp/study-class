@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/play-ball",
+  "title": "Play Ball",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , aa Balll Written by Ty Allison 2 www.readinga-z.com Play #l: 0 1 7v8 (~BALL 770a `"
+    },
+    {
+      "page": 2,
+      "text": "Balll Written by Ty Allison wwwreadinga-z.com Play"
+    },
+    {
+      "page": 3,
+      "text": "A beach ball; Balll Level aa 3 Play"
+    },
+    {
+      "page": 4,
+      "text": "A baseball: 4 #Yhhn)r Wo"
+    },
+    {
+      "page": 5,
+      "text": "A basketball: Balll Level aa 5 Play"
+    },
+    {
+      "page": 6,
+      "text": "A foolball; 6"
+    },
+    {
+      "page": 7,
+      "text": "A tennis ball: Balll Level aa Play"
+    },
+    {
+      "page": 8,
+      "text": "A ball. 8 golf"
+    },
+    {
+      "page": 9,
+      "text": "A soccer ball. Balll Level aa G Play"
+    },
+    {
+      "page": 10,
+      "text": "A volleyball: 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: AIl photos: @ ArtToday Balll Level aa Leveled Book Correlation Learning A-Z LEVEL aa Written by Ty Allison Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-zcom Play"
+    }
+  ]
+}

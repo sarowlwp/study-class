@@ -1,0 +1,54 @@
+{
+  "id": "level-c/go-awaylily",
+  "title": "Go Awaylily",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C Go Um AL_N Written by Katherine Page Illustrated by Kaori Tajima wwwreadinga-z.com Away; Lily Lar"
+    },
+    {
+      "page": 2,
+      "text": "Go Written by Katherine Page Illustrated by Kaori Tajima wwwreadinga-z.com Away; Lily"
+    },
+    {
+      "page": 3,
+      "text": "upset Jack Go Lily Level € 3 Lily Away;"
+    },
+    {
+      "page": 4,
+      "text": "When Jack sat down, sat down: Go away, Lilyl Go awaY: Lily"
+    },
+    {
+      "page": 5,
+      "text": "3 AAS AL_L When Jack read_ Lily read: Go away, Lilyl Go awaY: Go Lily Level € 5 13 Away;"
+    },
+    {
+      "page": 6,
+      "text": "When Jack played; played. Go away, Lilyl Go awaY: Lily"
+    },
+    {
+      "page": 7,
+      "text": "When Jack ate, ate. Go away, Lilyl Go awaY: Go Lily Level € Lily Away;"
+    },
+    {
+      "page": 8,
+      "text": "When Jack ran; ran. Go awaY, Lilyl Go awaY: 8 Lily"
+    },
+    {
+      "page": 9,
+      "text": "When Jack slept, slept, too. Go Lily Level € Lily Away;"
+    },
+    {
+      "page": 10,
+      "text": "Shhh: 10 Stay; Lily: Stay:"
+    },
+    {
+      "page": 11,
+      "text": "Go Lily Level C Leveled Book @ Learning A-Z Correlation Written by Katherine LEVEL € Illustrated by Kaori Tajima Fountas & Pinnell C All rights reserved: Reading Recovery 3-4 DRA 3-4 wwwreadinga-zcom Away; Page"
+    }
+  ]
+}

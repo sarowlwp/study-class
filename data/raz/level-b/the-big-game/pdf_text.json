@@ -1,0 +1,54 @@
+{
+  "id": "level-b/the-big-game",
+  "title": "The Big Game",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B The Big Game 6 2 30 Written by Torran Anderson Illustrated by Linda Silvestri wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "The Big Game 20 Written by Torran Anderson Illustrated by Linda Silvestri wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "We clean on game The Big Game Level B 3 day:"
+    },
+    {
+      "page": 4,
+      "text": "We dress up on game 20 day_"
+    },
+    {
+      "page": 5,
+      "text": "20 We see friends on game The Big Game Level B 5 day:"
+    },
+    {
+      "page": 6,
+      "text": "30 6 55 We paint faces on game day-"
+    },
+    {
+      "page": 7,
+      "text": "Do4 20 67 6 We eat snacks on game The Big Game Level B day:"
+    },
+    {
+      "page": 8,
+      "text": "41 3 FN We watch football on game 8 day:"
+    },
+    {
+      "page": 9,
+      "text": "2 30 7 We cheer on game The Big Game Level B day:"
+    },
+    {
+      "page": 10,
+      "text": "We play football on game dayl 10"
+    },
+    {
+      "page": 11,
+      "text": "The Big Game Level B Leveled Book Learning A-Z Correlation Written by Torran Anderson LEVEL B Illustrated by Linda Silvestri Fountas & Pinnell A AIl rights reserved: Reading Recovery_ DRA A-1 wwwreadinga-z.com"
+    }
+  ]
+}

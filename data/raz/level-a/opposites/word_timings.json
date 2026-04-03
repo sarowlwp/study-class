@@ -1,0 +1,171 @@
+{
+  "version": "1.0",
+  "total_words": 33,
+  "timings": [
+    {
+      "word": "opposites",
+      "start": 0.0,
+      "end": 0.9
+    },
+    {
+      "word": "written",
+      "start": 0.9,
+      "end": 1.68
+    },
+    {
+      "word": "by",
+      "start": 1.68,
+      "end": 2.22
+    },
+    {
+      "word": "katie",
+      "start": 2.22,
+      "end": 2.58
+    },
+    {
+      "word": "knight",
+      "start": 2.58,
+      "end": 3.36
+    },
+    {
+      "word": "this",
+      "start": 4.18,
+      "end": 4.36
+    },
+    {
+      "word": "is",
+      "start": 4.36,
+      "end": 5.2
+    },
+    {
+      "word": "up",
+      "start": 5.2,
+      "end": 5.66
+    },
+    {
+      "word": "this",
+      "start": 6.54,
+      "end": 6.58
+    },
+    {
+      "word": "is",
+      "start": 6.58,
+      "end": 7.14
+    },
+    {
+      "word": "down",
+      "start": 7.14,
+      "end": 7.96
+    },
+    {
+      "word": "this",
+      "start": 8.88,
+      "end": 9.22
+    },
+    {
+      "word": "is",
+      "start": 9.22,
+      "end": 9.78
+    },
+    {
+      "word": "on",
+      "start": 9.78,
+      "end": 10.64
+    },
+    {
+      "word": "this",
+      "start": 11.32,
+      "end": 11.78
+    },
+    {
+      "word": "is",
+      "start": 11.78,
+      "end": 12.68
+    },
+    {
+      "word": "off",
+      "start": 12.68,
+      "end": 13.14
+    },
+    {
+      "word": "this",
+      "start": 14.06,
+      "end": 14.34
+    },
+    {
+      "word": "is",
+      "start": 14.34,
+      "end": 15.2
+    },
+    {
+      "word": "open",
+      "start": 15.2,
+      "end": 15.62
+    },
+    {
+      "word": "this",
+      "start": 16.54,
+      "end": 16.98
+    },
+    {
+      "word": "is",
+      "start": 16.98,
+      "end": 17.96
+    },
+    {
+      "word": "closed",
+      "start": 17.96,
+      "end": 18.44
+    },
+    {
+      "word": "this",
+      "start": 19.16,
+      "end": 19.76
+    },
+    {
+      "word": "is",
+      "start": 19.76,
+      "end": 20.28
+    },
+    {
+      "word": "fast",
+      "start": 20.28,
+      "end": 21.16
+    },
+    {
+      "word": "this",
+      "start": 21.92,
+      "end": 22.56
+    },
+    {
+      "word": "is",
+      "start": 22.56,
+      "end": 23.12
+    },
+    {
+      "word": "slow",
+      "start": 23.12,
+      "end": 24.16
+    },
+    {
+      "word": "this",
+      "start": 24.78,
+      "end": 25.36
+    },
+    {
+      "word": "is",
+      "start": 25.36,
+      "end": 26.7
+    },
+    {
+      "word": "this",
+      "start": 26.7,
+      "end": 27.84
+    },
+    {
+      "word": "is",
+      "start": 27.84,
+      "end": 28.52
+    }
+  ]
+}

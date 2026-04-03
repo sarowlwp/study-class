@@ -1,0 +1,351 @@
+{
+  "version": "1.0",
+  "total_words": 69,
+  "timings": [
+    {
+      "word": "all",
+      "start": 0.0,
+      "end": 0.68
+    },
+    {
+      "word": "about",
+      "start": 0.68,
+      "end": 1.4
+    },
+    {
+      "word": "spiders",
+      "start": 1.4,
+      "end": 2.28
+    },
+    {
+      "word": "written",
+      "start": 3.76,
+      "end": 3.98
+    },
+    {
+      "word": "by",
+      "start": 3.98,
+      "end": 4.46
+    },
+    {
+      "word": "russ",
+      "start": 4.46,
+      "end": 4.92
+    },
+    {
+      "word": "buyak",
+      "start": 4.92,
+      "end": 5.88
+    },
+    {
+      "word": "there",
+      "start": 6.52,
+      "end": 6.74
+    },
+    {
+      "word": "are",
+      "start": 6.74,
+      "end": 7.1
+    },
+    {
+      "word": "many",
+      "start": 7.1,
+      "end": 7.72
+    },
+    {
+      "word": "kinds",
+      "start": 7.72,
+      "end": 8.38
+    },
+    {
+      "word": "of",
+      "start": 8.38,
+      "end": 8.72
+    },
+    {
+      "word": "spiders",
+      "start": 8.72,
+      "end": 9.42
+    },
+    {
+      "word": "a",
+      "start": 10.08,
+      "end": 10.38
+    },
+    {
+      "word": "spider",
+      "start": 10.38,
+      "end": 10.82
+    },
+    {
+      "word": "has",
+      "start": 10.82,
+      "end": 11.36
+    },
+    {
+      "word": "eight",
+      "start": 11.36,
+      "end": 11.9
+    },
+    {
+      "word": "legs",
+      "start": 11.9,
+      "end": 12.58
+    },
+    {
+      "word": "it",
+      "start": 13.7,
+      "end": 14.06
+    },
+    {
+      "word": "eats",
+      "start": 14.06,
+      "end": 14.52
+    },
+    {
+      "word": "bugs",
+      "start": 14.52,
+      "end": 15.2
+    },
+    {
+      "word": "a",
+      "start": 15.8,
+      "end": 16.08
+    },
+    {
+      "word": "spider",
+      "start": 16.08,
+      "end": 16.58
+    },
+    {
+      "word": "has",
+      "start": 16.58,
+      "end": 17.16
+    },
+    {
+      "word": "eight",
+      "start": 17.16,
+      "end": 17.7
+    },
+    {
+      "word": "legs",
+      "start": 17.7,
+      "end": 18.48
+    },
+    {
+      "word": "it",
+      "start": 19.48,
+      "end": 19.76
+    },
+    {
+      "word": "can",
+      "start": 19.76,
+      "end": 20.36
+    },
+    {
+      "word": "climb",
+      "start": 20.36,
+      "end": 20.78
+    },
+    {
+      "word": "a",
+      "start": 21.56,
+      "end": 21.6
+    },
+    {
+      "word": "spider",
+      "start": 21.6,
+      "end": 22.08
+    },
+    {
+      "word": "has",
+      "start": 22.08,
+      "end": 22.78
+    },
+    {
+      "word": "eight",
+      "start": 22.78,
+      "end": 23.26
+    },
+    {
+      "word": "legs",
+      "start": 23.26,
+      "end": 23.92
+    },
+    {
+      "word": "it",
+      "start": 23.92,
+      "end": 25.16
+    },
+    {
+      "word": "can",
+      "start": 25.16,
+      "end": 25.58
+    },
+    {
+      "word": "make",
+      "start": 25.58,
+      "end": 26.12
+    },
+    {
+      "word": "silk",
+      "start": 26.12,
+      "end": 26.58
+    },
+    {
+      "word": "a",
+      "start": 27.26,
+      "end": 27.38
+    },
+    {
+      "word": "spider",
+      "start": 27.38,
+      "end": 27.78
+    },
+    {
+      "word": "has",
+      "start": 27.78,
+      "end": 28.36
+    },
+    {
+      "word": "eight",
+      "start": 28.36,
+      "end": 28.96
+    },
+    {
+      "word": "legs",
+      "start": 28.96,
+      "end": 29.76
+    },
+    {
+      "word": "it",
+      "start": 30.92,
+      "end": 31.14
+    },
+    {
+      "word": "has",
+      "start": 31.14,
+      "end": 31.6
+    },
+    {
+      "word": "many",
+      "start": 31.6,
+      "end": 32.06
+    },
+    {
+      "word": "eyes",
+      "start": 32.06,
+      "end": 32.98
+    },
+    {
+      "word": "a",
+      "start": 33.68,
+      "end": 33.82
+    },
+    {
+      "word": "spider",
+      "start": 33.82,
+      "end": 34.32
+    },
+    {
+      "word": "has",
+      "start": 34.32,
+      "end": 35.02
+    },
+    {
+      "word": "eight",
+      "start": 35.02,
+      "end": 35.64
+    },
+    {
+      "word": "legs",
+      "start": 35.64,
+      "end": 36.48
+    },
+    {
+      "word": "it",
+      "start": 37.6,
+      "end": 37.9
+    },
+    {
+      "word": "lays",
+      "start": 37.9,
+      "end": 38.5
+    },
+    {
+      "word": "eggs",
+      "start": 38.5,
+      "end": 39.42
+    },
+    {
+      "word": "a",
+      "start": 40.14,
+      "end": 40.28
+    },
+    {
+      "word": "spider",
+      "start": 40.28,
+      "end": 40.82
+    },
+    {
+      "word": "has",
+      "start": 40.82,
+      "end": 41.48
+    },
+    {
+      "word": "eight",
+      "start": 41.48,
+      "end": 41.98
+    },
+    {
+      "word": "legs",
+      "start": 41.98,
+      "end": 42.86
+    },
+    {
+      "word": "it",
+      "start": 43.9,
+      "end": 44.2
+    },
+    {
+      "word": "can",
+      "start": 44.2,
+      "end": 44.6
+    },
+    {
+      "word": "live",
+      "start": 44.6,
+      "end": 45.0
+    },
+    {
+      "word": "outside",
+      "start": 45.0,
+      "end": 46.0
+    },
+    {
+      "word": "it",
+      "start": 46.64,
+      "end": 46.94
+    },
+    {
+      "word": "can",
+      "start": 46.94,
+      "end": 47.34
+    },
+    {
+      "word": "live",
+      "start": 47.34,
+      "end": 47.86
+    },
+    {
+      "word": "inside",
+      "start": 47.86,
+      "end": 48.6
+    },
+    {
+      "word": "too",
+      "start": 48.6,
+      "end": 49.42
+    }
+  ]
+}

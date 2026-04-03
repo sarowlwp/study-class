@@ -1,0 +1,54 @@
+{
+  "id": "level-b/applesauce",
+  "title": "Applesauce",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Applesauce Written-by Katherine P Burdick Illustrated Patffck Girouand_ wwwreadinga-z.com by"
+    },
+    {
+      "page": 2,
+      "text": "Applesauce Written by Katherine P. Burdick Illustrated by Patrick Girouard wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "k kuo  2 Some are red. Applesauce Level B 3"
+    },
+    {
+      "page": 4,
+      "text": "Some are green _"
+    },
+    {
+      "page": 5,
+      "text": "PRODT Some are yellow . Applesauce Level B 5 SH_ FRES sale"
+    },
+    {
+      "page": 6,
+      "text": "J 5 Cut the 6 apples."
+    },
+    {
+      "page": 7,
+      "text": "L c , Cook the Applesauce Level B AS apples _"
+    },
+    {
+      "page": 8,
+      "text": "Mash the 8 W` apples."
+    },
+    {
+      "page": 9,
+      "text": "0 0 O Add cinnamon? Applesauce Level B 9"
+    },
+    {
+      "page": 10,
+      "text": "Applesaucel 10"
+    },
+    {
+      "page": 11,
+      "text": "Applesauce Level B Leveled Book Learning A-Z Correlation Wrilten by Katherine P. Burdick LEVEL B Illustrated by Patrick Girouard Fountas & Pinnell B All rights reserved. Reading Recovery 2 DRA 2 WWW . readinga-z.C com"
+    }
+  ]
+}

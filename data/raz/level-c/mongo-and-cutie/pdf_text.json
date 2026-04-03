@@ -1,0 +1,54 @@
+{
+  "id": "level-c/mongo-and-cutie",
+  "title": "Mongo And Cutie",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C Mongo @nd Cutie 0 Written by Gladys Osborn Illustrated by Reginald Wa Butler wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Mongo and Cutie Written by Gladys Osborn Illustrated by Reginald W. Butler wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "Grandma comes for lunch: Mongo and Cutie Level €C 3"
+    },
+    {
+      "page": 4,
+      "text": "Cutie comes with her:"
+    },
+    {
+      "page": 5,
+      "text": "Mom tells Mongo to play nice with Cutie: Mongo and Cutie Level €C 5"
+    },
+    {
+      "page": 6,
+      "text": "\" Cutie does not play nice with Mongol 6"
+    },
+    {
+      "page": 7,
+      "text": "2 Mongo tries to run. Mongo and Cutie Level €C"
+    },
+    {
+      "page": 8,
+      "text": "Mongo tries to hide: 8"
+    },
+    {
+      "page": 9,
+      "text": "Help is herel Mom is backl Mongo and Cutie Level €C"
+    },
+    {
+      "page": 10,
+      "text": "Mongo never wants to play with Cutie  againl 10"
+    },
+    {
+      "page": 11,
+      "text": "Mongo and Cutie Level C Leveled Book @ Learning A-Z Correlation Written by Gladys Osborn LEVEL € Illustrated by Reginald W Butler Fountas & Pinnell C All rights reserved: Reading Recovery 3-4 DRA 3-4 wwwreadinga-zcom"
+    }
+  ]
+}

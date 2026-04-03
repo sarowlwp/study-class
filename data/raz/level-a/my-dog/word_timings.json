@@ -1,0 +1,221 @@
+{
+  "version": "1.0",
+  "total_words": 43,
+  "timings": [
+    {
+      "word": "my",
+      "start": 0.0,
+      "end": 0.6
+    },
+    {
+      "word": "dog",
+      "start": 0.6,
+      "end": 1.22
+    },
+    {
+      "word": "written",
+      "start": 2.04,
+      "end": 2.54
+    },
+    {
+      "word": "by",
+      "start": 2.54,
+      "end": 3.08
+    },
+    {
+      "word": "vic",
+      "start": 3.08,
+      "end": 3.82
+    },
+    {
+      "word": "moors",
+      "start": 3.82,
+      "end": 4.82
+    },
+    {
+      "word": "illustrated",
+      "start": 5.4,
+      "end": 6.24
+    },
+    {
+      "word": "by",
+      "start": 6.24,
+      "end": 6.96
+    },
+    {
+      "word": "nora",
+      "start": 6.96,
+      "end": 7.64
+    },
+    {
+      "word": "voodis",
+      "start": 7.64,
+      "end": 8.72
+    },
+    {
+      "word": "my",
+      "start": 8.72,
+      "end": 9.6
+    },
+    {
+      "word": "dog",
+      "start": 9.6,
+      "end": 10.04
+    },
+    {
+      "word": "can",
+      "start": 10.04,
+      "end": 10.66
+    },
+    {
+      "word": "jump",
+      "start": 10.66,
+      "end": 11.22
+    },
+    {
+      "word": "my",
+      "start": 11.7,
+      "end": 11.94
+    },
+    {
+      "word": "dog",
+      "start": 11.94,
+      "end": 12.36
+    },
+    {
+      "word": "can",
+      "start": 12.36,
+      "end": 13.02
+    },
+    {
+      "word": "run",
+      "start": 13.02,
+      "end": 13.52
+    },
+    {
+      "word": "my",
+      "start": 14.32,
+      "end": 14.42
+    },
+    {
+      "word": "dog",
+      "start": 14.42,
+      "end": 14.9
+    },
+    {
+      "word": "can",
+      "start": 14.9,
+      "end": 15.44
+    },
+    {
+      "word": "swim",
+      "start": 15.44,
+      "end": 15.96
+    },
+    {
+      "word": "my",
+      "start": 16.48,
+      "end": 16.84
+    },
+    {
+      "word": "dog",
+      "start": 16.84,
+      "end": 17.2
+    },
+    {
+      "word": "can",
+      "start": 17.2,
+      "end": 17.82
+    },
+    {
+      "word": "dig",
+      "start": 17.82,
+      "end": 18.18
+    },
+    {
+      "word": "my",
+      "start": 18.7,
+      "end": 19.0
+    },
+    {
+      "word": "dog",
+      "start": 19.0,
+      "end": 19.46
+    },
+    {
+      "word": "can",
+      "start": 19.46,
+      "end": 20.04
+    },
+    {
+      "word": "climb",
+      "start": 20.04,
+      "end": 20.5
+    },
+    {
+      "word": "my",
+      "start": 21.48,
+      "end": 21.84
+    },
+    {
+      "word": "dog",
+      "start": 21.84,
+      "end": 22.34
+    },
+    {
+      "word": "can",
+      "start": 22.34,
+      "end": 22.7
+    },
+    {
+      "word": "sit",
+      "start": 22.7,
+      "end": 23.36
+    },
+    {
+      "word": "my",
+      "start": 24.22,
+      "end": 24.68
+    },
+    {
+      "word": "dog",
+      "start": 24.68,
+      "end": 25.2
+    },
+    {
+      "word": "can",
+      "start": 25.2,
+      "end": 25.82
+    },
+    {
+      "word": "roll",
+      "start": 25.82,
+      "end": 26.2
+    },
+    {
+      "word": "over",
+      "start": 26.2,
+      "end": 26.84
+    },
+    {
+      "word": "my",
+      "start": 27.32,
+      "end": 27.74
+    },
+    {
+      "word": "dog",
+      "start": 27.74,
+      "end": 28.1
+    },
+    {
+      "word": "can",
+      "start": 28.1,
+      "end": 28.7
+    },
+    {
+      "word": "hug",
+      "start": 28.7,
+      "end": 29.08
+    }
+  ]
+}

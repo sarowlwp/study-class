@@ -1,0 +1,58 @@
+{
+  "id": "level-b/boats",
+  "title": "Boats",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Boats 2 BCL JOANNA Written by Eugene Stanley wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Boats Written by Eugene Stanley www.readinga-z.com Focus Question What do boats carry?"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know boat planes carries police logs trash Photo Credits: Front cover; page 8: @ imageBROKER/Alamy Stock Photo; title page: dmbaker/iStock/Thinkstock; page 3: @ Vladimir Korostyshevskiy/123RF; page 4: @ Erica Schroeder/Dreamstime.com; page 5: @ ostill/123RF; page 6: Bill Kearnslepa/Corbis; page 7: @ freeteo/123RF; page 9: @ US Photol Alamy Stock Photo; page I0: @ Onne van der Wal/Corbis Boats Level B Leveled Book Correlation Learning A-Z LEVEL B Written by Eugene Stanley Fountas & Pinnell B All rights reserved. Reading Recovery 2 DRA 2 wwwreadinga-z.com Navy"
+    },
+    {
+      "page": 4,
+      "text": "NLW York_WateR TaXl GENE FUC; This boat carries people: Boats Level B 3"
+    },
+    {
+      "page": 5,
+      "text": "POLICE 1 This boat carries police: HeLiOS KELIoS"
+    },
+    {
+      "page": 6,
+      "text": "This boat carries food_ Boats Level B 5"
+    },
+    {
+      "page": 7,
+      "text": "This boat carries logs."
+    },
+    {
+      "page": 8,
+      "text": "This boat carries trash. Boats Level B"
+    },
+    {
+      "page": 9,
+      "text": ":~ This boat carries cars. 8"
+    },
+    {
+      "page": 10,
+      "text": "This boat carries planes Boats Level B"
+    },
+    {
+      "page": 11,
+      "text": "DOck WISE_ This boat carries boats. 10 "
+    },
+    {
+      "page": 12,
+      "text": "Boats A Reading A-Z Level B Leveled Book Word Count: 32 Connections Writing and Art Which boat do you think is the most interesting? Why? Draw a picture and write about it. Social Studies Boats are used to carry things on the water: How are things carried on land or in the air? Discuss your ideas with a partner: Reading A-Z Visit wwwreadinga-z.com for thousands of books and materials."
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "version": "1.0",
+  "total_words": 46,
+  "timings": [
+    {
+      "word": "getting",
+      "start": 0.0,
+      "end": 0.52
+    },
+    {
+      "word": "dressed",
+      "start": 0.52,
+      "end": 1.36
+    },
+    {
+      "word": "written",
+      "start": 1.72,
+      "end": 2.08
+    },
+    {
+      "word": "by",
+      "start": 2.08,
+      "end": 2.32
+    },
+    {
+      "word": "felicia",
+      "start": 2.32,
+      "end": 2.8
+    },
+    {
+      "word": "brown",
+      "start": 2.8,
+      "end": 3.32
+    },
+    {
+      "word": "i",
+      "start": 3.64,
+      "end": 3.72
+    },
+    {
+      "word": "put",
+      "start": 3.72,
+      "end": 3.9
+    },
+    {
+      "word": "on",
+      "start": 3.9,
+      "end": 4.24
+    },
+    {
+      "word": "my",
+      "start": 4.24,
+      "end": 4.6
+    },
+    {
+      "word": "shirt",
+      "start": 4.6,
+      "end": 4.98
+    },
+    {
+      "word": "i",
+      "start": 5.28,
+      "end": 5.4
+    },
+    {
+      "word": "put",
+      "start": 5.4,
+      "end": 5.56
+    },
+    {
+      "word": "on",
+      "start": 5.56,
+      "end": 5.94
+    },
+    {
+      "word": "my",
+      "start": 5.94,
+      "end": 6.2
+    },
+    {
+      "word": "pants",
+      "start": 6.2,
+      "end": 6.74
+    },
+    {
+      "word": "i",
+      "start": 7.02,
+      "end": 7.14
+    },
+    {
+      "word": "put",
+      "start": 7.14,
+      "end": 7.34
+    },
+    {
+      "word": "on",
+      "start": 7.34,
+      "end": 7.66
+    },
+    {
+      "word": "my",
+      "start": 7.66,
+      "end": 8.0
+    },
+    {
+      "word": "belt",
+      "start": 8.0,
+      "end": 8.42
+    },
+    {
+      "word": "i",
+      "start": 8.78,
+      "end": 8.98
+    },
+    {
+      "word": "put",
+      "start": 8.98,
+      "end": 9.18
+    },
+    {
+      "word": "on",
+      "start": 9.18,
+      "end": 9.52
+    },
+    {
+      "word": "my",
+      "start": 9.52,
+      "end": 9.86
+    },
+    {
+      "word": "socks",
+      "start": 9.86,
+      "end": 10.22
+    },
+    {
+      "word": "i",
+      "start": 10.68,
+      "end": 10.8
+    },
+    {
+      "word": "put",
+      "start": 10.8,
+      "end": 10.98
+    },
+    {
+      "word": "on",
+      "start": 10.98,
+      "end": 11.3
+    },
+    {
+      "word": "my",
+      "start": 11.3,
+      "end": 11.66
+    },
+    {
+      "word": "shoes",
+      "start": 11.66,
+      "end": 12.26
+    },
+    {
+      "word": "i",
+      "start": 12.48,
+      "end": 12.66
+    },
+    {
+      "word": "put",
+      "start": 12.66,
+      "end": 12.86
+    },
+    {
+      "word": "on",
+      "start": 12.86,
+      "end": 13.24
+    },
+    {
+      "word": "my",
+      "start": 13.24,
+      "end": 13.4
+    },
+    {
+      "word": "glasses",
+      "start": 13.4,
+      "end": 13.9
+    },
+    {
+      "word": "i",
+      "start": 14.32,
+      "end": 14.56
+    },
+    {
+      "word": "put",
+      "start": 14.56,
+      "end": 14.7
+    },
+    {
+      "word": "on",
+      "start": 14.7,
+      "end": 15.08
+    },
+    {
+      "word": "my",
+      "start": 15.08,
+      "end": 15.36
+    },
+    {
+      "word": "jacket",
+      "start": 15.36,
+      "end": 15.82
+    },
+    {
+      "word": "i",
+      "start": 16.12,
+      "end": 16.32
+    },
+    {
+      "word": "put",
+      "start": 16.32,
+      "end": 16.48
+    },
+    {
+      "word": "on",
+      "start": 16.48,
+      "end": 16.8
+    },
+    {
+      "word": "my",
+      "start": 16.8,
+      "end": 17.08
+    },
+    {
+      "word": "backpack",
+      "start": 17.08,
+      "end": 17.4
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "level-aa/my-hanukkah",
+  "title": "My Hanukkah",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , aa Hanukkah Written by Elizabeth Jane Pustilnik Illustrated by Jennifer Zivoin WWWreadinga-Z.com My"
+    },
+    {
+      "page": 2,
+      "text": "Hanukkah Written by Elizabeth Jane Pustilnik Illustrated by Jennifer Zivoin wwwreadinga-z.com Focus Question What can you see during Hanukkah? My"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know bread candle Hanukkah family My Hanukkah Level aa Leveled Book 0 Learning A-Z Correlation Written by Elizabeth Jane Pustilnik LEVEL aa Illustrated by Jennifer Zivoin Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com gift toy"
+    },
+    {
+      "page": 4,
+      "text": "family: My Hanukkah Level aa 3 My"
+    },
+    {
+      "page": 5,
+      "text": "candle: My"
+    },
+    {
+      "page": 6,
+      "text": "bread: My Hanukkah Level aa 5 My"
+    },
+    {
+      "page": 7,
+      "text": "My toy:"
+    },
+    {
+      "page": 8,
+      "text": "My Hanukkah Level aa gift. My"
+    },
+    {
+      "page": 9,
+      "text": "candy: 8 My"
+    },
+    {
+      "page": 10,
+      "text": "cookie: My Hanukkah Level aa My"
+    },
+    {
+      "page": 11,
+      "text": "Hanukkah: 10 hx O My"
+    },
+    {
+      "page": 12,
+      "text": "Hanukkah A Reading A-Z Level aa Leveled Book Word Count: 16 Connections Writing and Art Draw a picture of Hanukkah and write about it; Social Studies What holidays do you celebrate with your family? Share your ideas with a partner: Reading A-z Visit www.readinga-z.com for thousands of books and materials. My"
+    }
+  ]
+}

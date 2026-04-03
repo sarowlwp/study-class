@@ -1,0 +1,54 @@
+{
+  "id": "level-b/maria-and-her-teacher",
+  "title": "Maria And Her Teacher",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Maria and Her Teacher Written by Elizabeth Strauss Illustrated by Angela Kamstra- Jacobson series Maria wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Maria and Her Teacher nn WLI L~ ~ Written by Elizabeth Strauss Illustrated by Angela Kamstra-Jacobson wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "Tt L E M LlL LLA L~ LLLL Maria and her teacher talk Maria and Her Teacher Level B 3"
+    },
+    {
+      "page": 4,
+      "text": ")) ( 4LWl tal Lll ML Maria and her teacher write."
+    },
+    {
+      "page": 5,
+      "text": "Maria and her teacher read; Maria and Her Teacher Level B 5"
+    },
+    {
+      "page": 6,
+      "text": "4 +3 +8 Maria and her teacher add:"
+    },
+    {
+      "page": 7,
+      "text": "5 I, Maria and her teacher smile: Maria and Her Teacher Level B"
+    },
+    {
+      "page": 8,
+      "text": "2E Maria and her teacher paint: 8"
+    },
+    {
+      "page": 9,
+      "text": "CLEAN UP AFTER YOURSELF SOAi Maria and her teacher clean_ Maria and Her Teacher Level B"
+    },
+    {
+      "page": 10,
+      "text": "Maria and her teacher play: 10"
+    },
+    {
+      "page": 11,
+      "text": "Maria and Her Teacher Level B Leveled Book 0 Learning A-Z Correlation Written by Elizabeth Strauss LEVEL B Illustrated by Angela Kamstra-Jacobson Fountas & Pinnell B All rights reserved: Reading Recovery 2 DRA 2 wwwreadinga-zcom"
+    }
+  ]
+}

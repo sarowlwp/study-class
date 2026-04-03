@@ -1,0 +1,54 @@
+{
+  "id": "level-a/these-shoes",
+  "title": "These Shoes",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A These Shoes: Written by Bev Osborn Illustrated by Shirley Ng-Benitez wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "These Shoes Written by Bev Osborn Illustrated by Shirley Ng-Benitez wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "These shoes are blue: These Shoes LevelA 3 7"
+    },
+    {
+      "page": 4,
+      "text": "These shoes are red:"
+    },
+    {
+      "page": 5,
+      "text": "These shoes are wet. These Shoes LevelA 5"
+    },
+    {
+      "page": 6,
+      "text": "These shoes are old."
+    },
+    {
+      "page": 7,
+      "text": "These shoes are big: These Shoes Level A"
+    },
+    {
+      "page": 8,
+      "text": "These shoes are 8 shiny:"
+    },
+    {
+      "page": 9,
+      "text": "These shoes are tall: These Shoes LevelA"
+    },
+    {
+      "page": 10,
+      "text": "These shoes are funnyl 10"
+    },
+    {
+      "page": 11,
+      "text": "These Shoes Level A Leveled Book Learning A-Z Correlation Written by Bev Osborn LEVEL A Illustrated by Shirley Ng-Benitez Fountas & Pinnell A All rights reserved: Reading_ Recovery 1 DRA A-1 wwwreadinga-z.com"
+    }
+  ]
+}

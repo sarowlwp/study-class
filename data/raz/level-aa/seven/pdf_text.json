@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/seven",
+  "title": "Seven",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book 6 00 Seven series Numbers Written by Mary Ann Marazzi Illustrated by Rebecca Stuhff wwwreadinga-z.com 5"
+    },
+    {
+      "page": 2,
+      "text": "Seven Written by Mary Ann Marazzi Illustrated by Rebecca Stuhff wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "Seven worms. Seven Level aa 3"
+    },
+    {
+      "page": 4,
+      "text": "Seven ladybugs"
+    },
+    {
+      "page": 5,
+      "text": "Seven spiders: Seven Level aa 5"
+    },
+    {
+      "page": 6,
+      "text": "Seven frogs."
+    },
+    {
+      "page": 7,
+      "text": "44 2 Wy 7 Seven lizards. Seven Level aa"
+    },
+    {
+      "page": 8,
+      "text": "> 5S Seven snakes. 8"
+    },
+    {
+      "page": 9,
+      "text": "2 z Seven snails. Seven Level aa 1"
+    },
+    {
+      "page": 10,
+      "text": "J J Seven turtles. 10"
+    },
+    {
+      "page": 11,
+      "text": "Seven Level aa Leveled Book 0 Learning A-Z Correlation Written by Ann Marazzi LEVEL aa Illustrated by Rebecca Stuhff Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com Mary"
+    }
+  ]
+}

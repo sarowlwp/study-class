@@ -1,0 +1,131 @@
+{
+  "version": "1.0",
+  "total_words": 25,
+  "timings": [
+    {
+      "word": "the",
+      "start": 0.0,
+      "end": 0.44
+    },
+    {
+      "word": "school",
+      "start": 0.44,
+      "end": 1.1
+    },
+    {
+      "word": "written",
+      "start": 1.82,
+      "end": 2.32
+    },
+    {
+      "word": "by",
+      "start": 2.32,
+      "end": 2.94
+    },
+    {
+      "word": "katie",
+      "start": 2.94,
+      "end": 3.38
+    },
+    {
+      "word": "knight",
+      "start": 3.38,
+      "end": 4.52
+    },
+    {
+      "word": "the",
+      "start": 6.94,
+      "end": 7.06
+    },
+    {
+      "word": "classroom",
+      "start": 7.06,
+      "end": 7.8
+    },
+    {
+      "word": "the",
+      "start": 10.52,
+      "end": 10.7
+    },
+    {
+      "word": "music",
+      "start": 10.7,
+      "end": 11.28
+    },
+    {
+      "word": "room",
+      "start": 11.28,
+      "end": 12.08
+    },
+    {
+      "word": "the",
+      "start": 14.88,
+      "end": 15.1
+    },
+    {
+      "word": "art",
+      "start": 15.1,
+      "end": 15.5
+    },
+    {
+      "word": "room",
+      "start": 15.5,
+      "end": 16.32
+    },
+    {
+      "word": "the",
+      "start": 18.9,
+      "end": 19.18
+    },
+    {
+      "word": "lunch",
+      "start": 19.18,
+      "end": 19.52
+    },
+    {
+      "word": "room",
+      "start": 19.52,
+      "end": 20.46
+    },
+    {
+      "word": "the",
+      "start": 23.04,
+      "end": 23.26
+    },
+    {
+      "word": "library",
+      "start": 23.26,
+      "end": 23.94
+    },
+    {
+      "word": "the",
+      "start": 26.5,
+      "end": 27.08
+    },
+    {
+      "word": "gym",
+      "start": 27.08,
+      "end": 27.64
+    },
+    {
+      "word": "the",
+      "start": 30.0,
+      "end": 30.48
+    },
+    {
+      "word": "playground",
+      "start": 30.48,
+      "end": 31.58
+    },
+    {
+      "word": "the",
+      "start": 34.16,
+      "end": 34.44
+    },
+    {
+      "word": "school",
+      "start": 34.44,
+      "end": 34.96
+    }
+  ]
+}

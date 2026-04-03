@@ -1,0 +1,656 @@
+{
+  "version": "1.0",
+  "total_words": 130,
+  "timings": [
+    {
+      "word": "more",
+      "start": 0.0,
+      "end": 0.76
+    },
+    {
+      "word": "baby",
+      "start": 0.76,
+      "end": 1.46
+    },
+    {
+      "word": "animals",
+      "start": 1.46,
+      "end": 2.42
+    },
+    {
+      "word": "written",
+      "start": 3.34,
+      "end": 3.62
+    },
+    {
+      "word": "by",
+      "start": 3.62,
+      "end": 4.2
+    },
+    {
+      "word": "lauren",
+      "start": 4.2,
+      "end": 4.74
+    },
+    {
+      "word": "simmons",
+      "start": 4.74,
+      "end": 5.76
+    },
+    {
+      "word": "focus",
+      "start": 6.88,
+      "end": 7.1
+    },
+    {
+      "word": "question",
+      "start": 7.1,
+      "end": 7.92
+    },
+    {
+      "word": "how",
+      "start": 9.0,
+      "end": 9.1
+    },
+    {
+      "word": "are",
+      "start": 9.1,
+      "end": 9.58
+    },
+    {
+      "word": "baby",
+      "start": 9.58,
+      "end": 9.98
+    },
+    {
+      "word": "animals",
+      "start": 9.98,
+      "end": 10.78
+    },
+    {
+      "word": "different",
+      "start": 10.78,
+      "end": 11.5
+    },
+    {
+      "word": "from",
+      "start": 11.5,
+      "end": 12.18
+    },
+    {
+      "word": "adult",
+      "start": 12.18,
+      "end": 12.72
+    },
+    {
+      "word": "animals",
+      "start": 12.72,
+      "end": 13.56
+    },
+    {
+      "word": "do",
+      "start": 14.26,
+      "end": 14.44
+    },
+    {
+      "word": "you",
+      "start": 14.44,
+      "end": 14.72
+    },
+    {
+      "word": "know",
+      "start": 14.72,
+      "end": 15.2
+    },
+    {
+      "word": "what",
+      "start": 15.2,
+      "end": 15.48
+    },
+    {
+      "word": "baby",
+      "start": 15.48,
+      "end": 16.0
+    },
+    {
+      "word": "animals",
+      "start": 16.0,
+      "end": 16.76
+    },
+    {
+      "word": "are",
+      "start": 16.76,
+      "end": 17.34
+    },
+    {
+      "word": "called",
+      "start": 17.34,
+      "end": 17.9
+    },
+    {
+      "word": "a",
+      "start": 18.16,
+      "end": 18.48
+    },
+    {
+      "word": "baby",
+      "start": 18.48,
+      "end": 18.82
+    },
+    {
+      "word": "deer",
+      "start": 18.82,
+      "end": 19.48
+    },
+    {
+      "word": "is",
+      "start": 19.48,
+      "end": 20.06
+    },
+    {
+      "word": "called",
+      "start": 20.06,
+      "end": 20.52
+    },
+    {
+      "word": "a",
+      "start": 20.52,
+      "end": 20.9
+    },
+    {
+      "word": "fawn",
+      "start": 20.9,
+      "end": 21.4
+    },
+    {
+      "word": "a",
+      "start": 21.92,
+      "end": 22.0
+    },
+    {
+      "word": "baby",
+      "start": 22.0,
+      "end": 22.58
+    },
+    {
+      "word": "donkey",
+      "start": 22.58,
+      "end": 23.08
+    },
+    {
+      "word": "is",
+      "start": 23.08,
+      "end": 23.82
+    },
+    {
+      "word": "called",
+      "start": 23.82,
+      "end": 24.38
+    },
+    {
+      "word": "a",
+      "start": 24.38,
+      "end": 24.88
+    },
+    {
+      "word": "fawn",
+      "start": 24.88,
+      "end": 25.44
+    },
+    {
+      "word": "a",
+      "start": 25.44,
+      "end": 25.98
+    },
+    {
+      "word": "baby",
+      "start": 25.98,
+      "end": 26.42
+    },
+    {
+      "word": "gorilla",
+      "start": 26.42,
+      "end": 27.32
+    },
+    {
+      "word": "is",
+      "start": 27.32,
+      "end": 28.12
+    },
+    {
+      "word": "called",
+      "start": 28.12,
+      "end": 28.6
+    },
+    {
+      "word": "an",
+      "start": 28.6,
+      "end": 29.06
+    },
+    {
+      "word": "infant",
+      "start": 29.06,
+      "end": 29.72
+    },
+    {
+      "word": "a",
+      "start": 30.42,
+      "end": 30.52
+    },
+    {
+      "word": "baby",
+      "start": 30.52,
+      "end": 30.96
+    },
+    {
+      "word": "pig",
+      "start": 30.96,
+      "end": 31.78
+    },
+    {
+      "word": "is",
+      "start": 31.78,
+      "end": 32.36
+    },
+    {
+      "word": "called",
+      "start": 32.36,
+      "end": 32.84
+    },
+    {
+      "word": "a",
+      "start": 32.84,
+      "end": 33.24
+    },
+    {
+      "word": "piglet",
+      "start": 33.24,
+      "end": 33.88
+    },
+    {
+      "word": "a",
+      "start": 34.56,
+      "end": 34.64
+    },
+    {
+      "word": "baby",
+      "start": 34.64,
+      "end": 35.14
+    },
+    {
+      "word": "koala",
+      "start": 35.14,
+      "end": 35.88
+    },
+    {
+      "word": "is",
+      "start": 35.88,
+      "end": 36.5
+    },
+    {
+      "word": "called",
+      "start": 36.5,
+      "end": 36.92
+    },
+    {
+      "word": "a",
+      "start": 36.92,
+      "end": 37.4
+    },
+    {
+      "word": "joe",
+      "start": 37.4,
+      "end": 37.86
+    },
+    {
+      "word": "a",
+      "start": 38.38,
+      "end": 38.44
+    },
+    {
+      "word": "baby",
+      "start": 38.44,
+      "end": 38.96
+    },
+    {
+      "word": "owl",
+      "start": 38.96,
+      "end": 39.54
+    },
+    {
+      "word": "is",
+      "start": 39.54,
+      "end": 40.14
+    },
+    {
+      "word": "called",
+      "start": 40.14,
+      "end": 40.54
+    },
+    {
+      "word": "an",
+      "start": 40.54,
+      "end": 40.9
+    },
+    {
+      "word": "owllet",
+      "start": 40.9,
+      "end": 41.5
+    },
+    {
+      "word": "which",
+      "start": 41.82,
+      "end": 42.04
+    },
+    {
+      "word": "other",
+      "start": 42.04,
+      "end": 42.64
+    },
+    {
+      "word": "baby",
+      "start": 42.64,
+      "end": 43.24
+    },
+    {
+      "word": "animals",
+      "start": 43.24,
+      "end": 43.82
+    },
+    {
+      "word": "do",
+      "start": 43.82,
+      "end": 44.42
+    },
+    {
+      "word": "you",
+      "start": 44.42,
+      "end": 44.74
+    },
+    {
+      "word": "know",
+      "start": 44.74,
+      "end": 45.32
+    },
+    {
+      "word": "connections",
+      "start": 45.32,
+      "end": 46.56
+    },
+    {
+      "word": "writing",
+      "start": 47.48,
+      "end": 47.82
+    },
+    {
+      "word": "and",
+      "start": 47.82,
+      "end": 48.66
+    },
+    {
+      "word": "art",
+      "start": 48.66,
+      "end": 49.64
+    },
+    {
+      "word": "draw",
+      "start": 50.6,
+      "end": 50.84
+    },
+    {
+      "word": "a",
+      "start": 50.84,
+      "end": 51.28
+    },
+    {
+      "word": "picture",
+      "start": 51.28,
+      "end": 51.82
+    },
+    {
+      "word": "of",
+      "start": 51.82,
+      "end": 52.32
+    },
+    {
+      "word": "a",
+      "start": 52.32,
+      "end": 52.64
+    },
+    {
+      "word": "baby",
+      "start": 52.64,
+      "end": 53.18
+    },
+    {
+      "word": "animal",
+      "start": 53.18,
+      "end": 53.8
+    },
+    {
+      "word": "not",
+      "start": 53.8,
+      "end": 54.54
+    },
+    {
+      "word": "in",
+      "start": 54.54,
+      "end": 54.98
+    },
+    {
+      "word": "this",
+      "start": 54.98,
+      "end": 55.38
+    },
+    {
+      "word": "book",
+      "start": 55.38,
+      "end": 55.98
+    },
+    {
+      "word": "and",
+      "start": 56.4,
+      "end": 56.68
+    },
+    {
+      "word": "write",
+      "start": 56.68,
+      "end": 57.06
+    },
+    {
+      "word": "this",
+      "start": 57.06,
+      "end": 57.64
+    },
+    {
+      "word": "sentence",
+      "start": 57.64,
+      "end": 58.32
+    },
+    {
+      "word": "a",
+      "start": 58.96,
+      "end": 59.3
+    },
+    {
+      "word": "baby",
+      "start": 59.3,
+      "end": 60.04
+    },
+    {
+      "word": "is",
+      "start": 60.04,
+      "end": 61.36
+    },
+    {
+      "word": "called",
+      "start": 61.36,
+      "end": 61.78
+    },
+    {
+      "word": "a",
+      "start": 61.78,
+      "end": 63.44
+    },
+    {
+      "word": "science",
+      "start": 63.44,
+      "end": 64.7
+    },
+    {
+      "word": "label",
+      "start": 64.7,
+      "end": 65.96
+    },
+    {
+      "word": "one",
+      "start": 65.96,
+      "end": 66.64
+    },
+    {
+      "word": "side",
+      "start": 66.64,
+      "end": 67.06
+    },
+    {
+      "word": "of",
+      "start": 67.06,
+      "end": 67.48
+    },
+    {
+      "word": "a",
+      "start": 67.48,
+      "end": 67.72
+    },
+    {
+      "word": "piece",
+      "start": 67.72,
+      "end": 68.0
+    },
+    {
+      "word": "of",
+      "start": 68.0,
+      "end": 68.34
+    },
+    {
+      "word": "paper",
+      "start": 68.34,
+      "end": 68.92
+    },
+    {
+      "word": "adult",
+      "start": 68.92,
+      "end": 69.62
+    },
+    {
+      "word": "animals",
+      "start": 69.62,
+      "end": 70.58
+    },
+    {
+      "word": "and",
+      "start": 70.58,
+      "end": 71.6
+    },
+    {
+      "word": "the",
+      "start": 71.6,
+      "end": 71.9
+    },
+    {
+      "word": "other",
+      "start": 71.9,
+      "end": 72.32
+    },
+    {
+      "word": "side",
+      "start": 72.32,
+      "end": 72.88
+    },
+    {
+      "word": "baby",
+      "start": 72.88,
+      "end": 73.54
+    },
+    {
+      "word": "animals",
+      "start": 73.54,
+      "end": 74.54
+    },
+    {
+      "word": "cut",
+      "start": 74.54,
+      "end": 75.7
+    },
+    {
+      "word": "out",
+      "start": 75.7,
+      "end": 76.3
+    },
+    {
+      "word": "pictures",
+      "start": 76.3,
+      "end": 76.72
+    },
+    {
+      "word": "of",
+      "start": 76.72,
+      "end": 77.4
+    },
+    {
+      "word": "animals",
+      "start": 77.4,
+      "end": 78.12
+    },
+    {
+      "word": "and",
+      "start": 78.12,
+      "end": 78.96
+    },
+    {
+      "word": "paste",
+      "start": 78.96,
+      "end": 79.34
+    },
+    {
+      "word": "them",
+      "start": 79.34,
+      "end": 79.76
+    },
+    {
+      "word": "to",
+      "start": 79.76,
+      "end": 80.04
+    },
+    {
+      "word": "the",
+      "start": 80.04,
+      "end": 80.32
+    },
+    {
+      "word": "correct",
+      "start": 80.32,
+      "end": 80.84
+    },
+    {
+      "word": "side",
+      "start": 80.84,
+      "end": 81.54
+    },
+    {
+      "word": "of",
+      "start": 81.54,
+      "end": 82.12
+    },
+    {
+      "word": "your",
+      "start": 82.12,
+      "end": 82.46
+    },
+    {
+      "word": "paper",
+      "start": 82.46,
+      "end": 82.96
+    }
+  ]
+}

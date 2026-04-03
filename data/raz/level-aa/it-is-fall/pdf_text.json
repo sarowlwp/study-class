@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/it-is-fall",
+  "title": "It Is Fall",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , Aa It Is Fall Written by Ty Allison Illustrated by Signe Nordin WWWreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "It Is Fall Written by Ty Allison Illustrated by Signe Nordin www.readinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "The leaf. It Is Fall Level aa 3"
+    },
+    {
+      "page": 4,
+      "text": "The apple."
+    },
+    {
+      "page": 5,
+      "text": "The acorn_ It Is Fall Level aa 5"
+    },
+    {
+      "page": 6,
+      "text": "The corn-"
+    },
+    {
+      "page": 7,
+      "text": "The pumpkin. It Is Fall Level aa"
+    },
+    {
+      "page": 8,
+      "text": "The rake. 8"
+    },
+    {
+      "page": 9,
+      "text": "The moon_ 0 It Is Fall Level aa 9"
+    },
+    {
+      "page": 10,
+      "text": "The   jacket. 10"
+    },
+    {
+      "page": 11,
+      "text": "It Is Fall Level aa Leveled Book Learning A-Z Correlation Written by Ty Allison LEVEL aa Illustrated by Nordin Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 WWW.R readinga-z.com Signe"
+    }
+  ]
+}

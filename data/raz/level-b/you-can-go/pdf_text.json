@@ -1,0 +1,54 @@
+{
+  "id": "level-b/you-can-go",
+  "title": "You Can Go",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B You Can Go 1 Written by Elizabeth Strauss Illustrated by Nora Voutas wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "You Can Go Written by Elizabeth Strauss Illustrated by Nora Voutas wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "K ( You can go over. You Can Go Level B 3"
+    },
+    {
+      "page": 4,
+      "text": "77 7 You can go under:"
+    },
+    {
+      "page": 5,
+      "text": "You can go around: You Can Go Level B 5 Y ^"
+    },
+    {
+      "page": 6,
+      "text": "You can go through A) S <"
+    },
+    {
+      "page": 7,
+      "text": "4 4 4 You can go forward_ You Can Go Level B"
+    },
+    {
+      "page": 8,
+      "text": "You can go backward_ 8 M 4 #_"
+    },
+    {
+      "page": 9,
+      "text": "You can go across. You Can Go Level B Vla"
+    },
+    {
+      "page": 10,
+      "text": "58 I can go with you: 10"
+    },
+    {
+      "page": 11,
+      "text": "You Can Go Level B Leveled Book Learning A-Z Correlation Written by Elizabeth Strauss LEVEL B Illustrated by Nora Voutas Fountas & Pinnell B All rights reserved: Reading Recovery 2 DRA 2 wwwreadinga-zcom"
+    }
+  ]
+}

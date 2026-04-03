@@ -1,0 +1,58 @@
+{
+  "id": "level-aa/red",
+  "title": "Red",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A0 Red series Colors Written by Racheal Rice wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Red Written Racheal Rice wwwreadinga-z.com Focus Question What kinds of food are red? by"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know apple radish beet red cherry strawberry pepper tomato potato Photo Credits: Front cover; back cover; page 5: @ Valengilda/iStock/Thinkstock; title page: kazoka3O/iStock/Thinkstock; page 3: @ bergamont/iStock/Thinkstock; page 4: dionisvero/iStock/Thinkstock; pages 6. 7: @ Mariusz Blach/iStock/Thinkstock; page 8: @ The_Pixel/iStock/Thinkstock; page 9: @ Stockbyte/Thinkstock; page 10: bajinda/iStock /Thinkstock Red Level aa Leveled Book Correlation Learning A-Z LEVEL aa Written by Racheal Rice Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "The red tomato. Red * Level aa 3"
+    },
+    {
+      "page": 5,
+      "text": "The red beet:"
+    },
+    {
+      "page": 6,
+      "text": "The red cherry: Red * Level aa 5"
+    },
+    {
+      "page": 7,
+      "text": "The red strawberry: 6"
+    },
+    {
+      "page": 8,
+      "text": "The red apple. Red * Level aa"
+    },
+    {
+      "page": 9,
+      "text": "The red pepper: 8"
+    },
+    {
+      "page": 10,
+      "text": "The red potato. Red * Level aa"
+    },
+    {
+      "page": 11,
+      "text": "The red radish: 10"
+    },
+    {
+      "page": 12,
+      "text": "Red A Reading A-Z Level aa Leveled Book Word Count: 24 Connections Writing and Art Which food from the book is your favorite? Why? Draw a picture and write about it is your favorite: Science Sort the foods from the book into fruits and vegetables; Reading A-z Visit wwwreadinga-z.com for thousands of books and materialso why"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "level-aa/lunch-at-school",
+  "title": "Lunch At School",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 9,
+  "pages": [
+    {
+      "page": 1,
+      "text": "Lunch at School Written by Bev Osborn Illustrated Andrea Zuill wwwreadinga-z.com by"
+    },
+    {
+      "page": 2,
+      "text": "friends. Lunch at Schnol + Level aa 3 My"
+    },
+    {
+      "page": 3,
+      "text": "My bag:"
+    },
+    {
+      "page": 4,
+      "text": "milk Lunch at School * Level aa 5 My"
+    },
+    {
+      "page": 5,
+      "text": "V noodles_ 0 My"
+    },
+    {
+      "page": 6,
+      "text": "carrots. Lunch at Schnol + Level aa My"
+    },
+    {
+      "page": 7,
+      "text": "cookie: 8 My"
+    },
+    {
+      "page": 8,
+      "text": "napkin 0 Lunch at Schnol + Level aa My"
+    },
+    {
+      "page": 9,
+      "text": "lunchl 10 My"
+    }
+  ]
+}

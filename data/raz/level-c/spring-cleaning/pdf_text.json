@@ -1,0 +1,58 @@
+{
+  "id": "level-c/spring-cleaning",
+  "title": "Spring Cleaning",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C Spring-Cleaningl Written by Rus Buyok Illustrated by Andy Elkerton wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Spring-Cleaning! Written Rus Buyok Illustrated by Elkerton Focus Question What does the family clean in the spring? 4 7 by Andy"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know basement room clean porch kitchen spring Spring-Cleaningl Level €C Leveled Book Learning A-Z Correlation Written by Rus Buyok LEVEL C Illustrated by Andy Elkerton Fountas & Pinnell C AIl rights reserved. Reading Recovery_ 3-4 DRA 3-4 wwwreadinga-z.com living"
+    },
+    {
+      "page": 4,
+      "text": "It waS spring: It was time to clean the housel Spring-Cleaningl Level C 3"
+    },
+    {
+      "page": 5,
+      "text": "{ Mom cleaned the kitchen: 3"
+    },
+    {
+      "page": 6,
+      "text": "3 Dad cleaned the living room. Spring-Cleaningl Level C 5"
+    },
+    {
+      "page": 7,
+      "text": "Sasha cleaned the bedrooms."
+    },
+    {
+      "page": 8,
+      "text": "Mom cleaned the bathroom. Spring-Cleaningl Level C"
+    },
+    {
+      "page": 9,
+      "text": "Dad cleaned the basement: 8"
+    },
+    {
+      "page": 10,
+      "text": "Sasha cleaned the porch: Spring-Cleaningl Level C"
+    },
+    {
+      "page": 11,
+      "text": "Sasha left the front door open: Now they have to clean everything againl 10"
+    },
+    {
+      "page": 12,
+      "text": "Spring-Cleaningl A Reading A-Z Level C Leveled Book Word Count: 48 Connections Writing and Art What do you clean at home? Draw a picture and write about it. Science What are the four seasons? Which one comes before spring? Share your ideas with a partner: Reading A-Z Visit wwwreadinga-z.com for thousands of books and materials."
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "version": "1.0",
+  "total_words": 90,
+  "timings": [
+    {
+      "word": "going",
+      "start": 0.0,
+      "end": 0.42
+    },
+    {
+      "word": "away",
+      "start": 0.42,
+      "end": 1.6
+    },
+    {
+      "word": "written",
+      "start": 2.32,
+      "end": 2.54
+    },
+    {
+      "word": "by",
+      "start": 2.54,
+      "end": 3.32
+    },
+    {
+      "word": "ned",
+      "start": 3.32,
+      "end": 3.94
+    },
+    {
+      "word": "jensen",
+      "start": 3.94,
+      "end": 5.22
+    },
+    {
+      "word": "illustrated",
+      "start": 5.98,
+      "end": 7.06
+    },
+    {
+      "word": "by",
+      "start": 7.06,
+      "end": 8.18
+    },
+    {
+      "word": "joe",
+      "start": 8.18,
+      "end": 9.0
+    },
+    {
+      "word": "bowdy",
+      "start": 9.0,
+      "end": 9.98
+    },
+    {
+      "word": "we",
+      "start": 10.74,
+      "end": 10.74
+    },
+    {
+      "word": "can",
+      "start": 10.74,
+      "end": 11.56
+    },
+    {
+      "word": "get",
+      "start": 11.56,
+      "end": 12.2
+    },
+    {
+      "word": "in",
+      "start": 12.2,
+      "end": 12.92
+    },
+    {
+      "word": "a",
+      "start": 12.92,
+      "end": 13.52
+    },
+    {
+      "word": "car",
+      "start": 13.52,
+      "end": 14.08
+    },
+    {
+      "word": "we",
+      "start": 15.12,
+      "end": 15.34
+    },
+    {
+      "word": "can",
+      "start": 15.34,
+      "end": 16.34
+    },
+    {
+      "word": "drive",
+      "start": 16.34,
+      "end": 17.2
+    },
+    {
+      "word": "away",
+      "start": 17.2,
+      "end": 18.04
+    },
+    {
+      "word": "we",
+      "start": 18.58,
+      "end": 19.08
+    },
+    {
+      "word": "can",
+      "start": 19.08,
+      "end": 19.8
+    },
+    {
+      "word": "get",
+      "start": 19.8,
+      "end": 20.42
+    },
+    {
+      "word": "in",
+      "start": 20.42,
+      "end": 21.16
+    },
+    {
+      "word": "a",
+      "start": 21.16,
+      "end": 21.62
+    },
+    {
+      "word": "boat",
+      "start": 21.62,
+      "end": 22.06
+    },
+    {
+      "word": "we",
+      "start": 23.28,
+      "end": 23.34
+    },
+    {
+      "word": "can",
+      "start": 23.34,
+      "end": 24.2
+    },
+    {
+      "word": "sail",
+      "start": 24.2,
+      "end": 24.94
+    },
+    {
+      "word": "away",
+      "start": 24.94,
+      "end": 25.66
+    },
+    {
+      "word": "we",
+      "start": 25.66,
+      "end": 26.56
+    },
+    {
+      "word": "can",
+      "start": 26.56,
+      "end": 27.46
+    },
+    {
+      "word": "get",
+      "start": 27.46,
+      "end": 28.16
+    },
+    {
+      "word": "on",
+      "start": 28.16,
+      "end": 28.8
+    },
+    {
+      "word": "a",
+      "start": 28.8,
+      "end": 29.36
+    },
+    {
+      "word": "plane",
+      "start": 29.36,
+      "end": 29.78
+    },
+    {
+      "word": "we",
+      "start": 30.62,
+      "end": 31.06
+    },
+    {
+      "word": "can",
+      "start": 31.06,
+      "end": 31.98
+    },
+    {
+      "word": "fly",
+      "start": 31.98,
+      "end": 32.88
+    },
+    {
+      "word": "away",
+      "start": 32.88,
+      "end": 33.72
+    },
+    {
+      "word": "we",
+      "start": 34.28,
+      "end": 34.6
+    },
+    {
+      "word": "can",
+      "start": 34.6,
+      "end": 35.46
+    },
+    {
+      "word": "get",
+      "start": 35.46,
+      "end": 36.22
+    },
+    {
+      "word": "on",
+      "start": 36.22,
+      "end": 36.86
+    },
+    {
+      "word": "a",
+      "start": 36.86,
+      "end": 37.54
+    },
+    {
+      "word": "bike",
+      "start": 37.54,
+      "end": 37.94
+    },
+    {
+      "word": "we",
+      "start": 39.4,
+      "end": 39.4
+    },
+    {
+      "word": "can",
+      "start": 39.4,
+      "end": 40.2
+    },
+    {
+      "word": "pedal",
+      "start": 40.2,
+      "end": 41.0
+    },
+    {
+      "word": "away",
+      "start": 41.0,
+      "end": 41.7
+    },
+    {
+      "word": "we",
+      "start": 42.2,
+      "end": 42.6
+    },
+    {
+      "word": "can",
+      "start": 42.6,
+      "end": 43.26
+    },
+    {
+      "word": "get",
+      "start": 43.26,
+      "end": 44.02
+    },
+    {
+      "word": "in",
+      "start": 44.02,
+      "end": 44.54
+    },
+    {
+      "word": "a",
+      "start": 44.54,
+      "end": 45.04
+    },
+    {
+      "word": "balloon",
+      "start": 45.04,
+      "end": 45.64
+    },
+    {
+      "word": "we",
+      "start": 46.86,
+      "end": 47.2
+    },
+    {
+      "word": "can",
+      "start": 47.2,
+      "end": 47.94
+    },
+    {
+      "word": "float",
+      "start": 47.94,
+      "end": 48.66
+    },
+    {
+      "word": "away",
+      "start": 48.66,
+      "end": 49.48
+    },
+    {
+      "word": "we",
+      "start": 49.88,
+      "end": 50.26
+    },
+    {
+      "word": "can",
+      "start": 50.26,
+      "end": 50.88
+    },
+    {
+      "word": "get",
+      "start": 50.88,
+      "end": 51.6
+    },
+    {
+      "word": "on",
+      "start": 51.6,
+      "end": 52.02
+    },
+    {
+      "word": "a",
+      "start": 52.02,
+      "end": 52.48
+    },
+    {
+      "word": "train",
+      "start": 52.48,
+      "end": 52.9
+    },
+    {
+      "word": "we",
+      "start": 52.9,
+      "end": 54.28
+    },
+    {
+      "word": "can",
+      "start": 54.28,
+      "end": 55.3
+    },
+    {
+      "word": "chug",
+      "start": 55.3,
+      "end": 56.32
+    },
+    {
+      "word": "away",
+      "start": 56.32,
+      "end": 56.88
+    },
+    {
+      "word": "we",
+      "start": 57.7,
+      "end": 57.7
+    },
+    {
+      "word": "can",
+      "start": 57.7,
+      "end": 58.36
+    },
+    {
+      "word": "get",
+      "start": 58.36,
+      "end": 59.02
+    },
+    {
+      "word": "in",
+      "start": 59.02,
+      "end": 59.58
+    },
+    {
+      "word": "a",
+      "start": 59.58,
+      "end": 60.1
+    },
+    {
+      "word": "rocket",
+      "start": 60.1,
+      "end": 60.6
+    },
+    {
+      "word": "we",
+      "start": 61.46,
+      "end": 61.82
+    },
+    {
+      "word": "can",
+      "start": 61.82,
+      "end": 62.44
+    },
+    {
+      "word": "zoom",
+      "start": 62.44,
+      "end": 63.28
+    },
+    {
+      "word": "away",
+      "start": 63.28,
+      "end": 64.18
+    },
+    {
+      "word": "we",
+      "start": 65.14,
+      "end": 65.14
+    },
+    {
+      "word": "can",
+      "start": 65.14,
+      "end": 65.7
+    },
+    {
+      "word": "put",
+      "start": 65.7,
+      "end": 65.98
+    },
+    {
+      "word": "on",
+      "start": 65.98,
+      "end": 66.48
+    },
+    {
+      "word": "our",
+      "start": 66.48,
+      "end": 66.96
+    },
+    {
+      "word": "shoes",
+      "start": 66.96,
+      "end": 67.58
+    },
+    {
+      "word": "we",
+      "start": 67.58,
+      "end": 69.18
+    },
+    {
+      "word": "can",
+      "start": 69.18,
+      "end": 69.7
+    },
+    {
+      "word": "run",
+      "start": 69.7,
+      "end": 70.38
+    },
+    {
+      "word": "away",
+      "start": 70.38,
+      "end": 71.06
+    }
+  ]
+}

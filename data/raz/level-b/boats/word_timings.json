@@ -1,0 +1,461 @@
+{
+  "version": "1.0",
+  "total_words": 91,
+  "timings": [
+    {
+      "word": "boats",
+      "start": 0.0,
+      "end": 1.2
+    },
+    {
+      "word": "written",
+      "start": 2.0,
+      "end": 2.22
+    },
+    {
+      "word": "by",
+      "start": 2.22,
+      "end": 2.82
+    },
+    {
+      "word": "eugene",
+      "start": 2.82,
+      "end": 3.68
+    },
+    {
+      "word": "stanley",
+      "start": 3.68,
+      "end": 5.26
+    },
+    {
+      "word": "focus",
+      "start": 6.72,
+      "end": 6.9
+    },
+    {
+      "word": "question",
+      "start": 6.9,
+      "end": 7.7
+    },
+    {
+      "word": "what",
+      "start": 8.68,
+      "end": 8.88
+    },
+    {
+      "word": "do",
+      "start": 8.88,
+      "end": 9.74
+    },
+    {
+      "word": "boats",
+      "start": 9.74,
+      "end": 10.3
+    },
+    {
+      "word": "carry",
+      "start": 10.3,
+      "end": 11.22
+    },
+    {
+      "word": "this",
+      "start": 12.1,
+      "end": 12.32
+    },
+    {
+      "word": "boat",
+      "start": 12.32,
+      "end": 13.14
+    },
+    {
+      "word": "carries",
+      "start": 13.14,
+      "end": 14.3
+    },
+    {
+      "word": "people",
+      "start": 14.3,
+      "end": 15.4
+    },
+    {
+      "word": "this",
+      "start": 16.18,
+      "end": 16.54
+    },
+    {
+      "word": "boat",
+      "start": 16.54,
+      "end": 17.54
+    },
+    {
+      "word": "carries",
+      "start": 17.54,
+      "end": 18.5
+    },
+    {
+      "word": "police",
+      "start": 18.5,
+      "end": 19.44
+    },
+    {
+      "word": "this",
+      "start": 19.44,
+      "end": 20.68
+    },
+    {
+      "word": "boat",
+      "start": 20.68,
+      "end": 21.78
+    },
+    {
+      "word": "carries",
+      "start": 21.78,
+      "end": 22.72
+    },
+    {
+      "word": "food",
+      "start": 22.72,
+      "end": 23.76
+    },
+    {
+      "word": "this",
+      "start": 24.84,
+      "end": 24.92
+    },
+    {
+      "word": "boat",
+      "start": 24.92,
+      "end": 25.98
+    },
+    {
+      "word": "carries",
+      "start": 25.98,
+      "end": 26.88
+    },
+    {
+      "word": "logs",
+      "start": 26.88,
+      "end": 27.92
+    },
+    {
+      "word": "this",
+      "start": 29.22,
+      "end": 29.22
+    },
+    {
+      "word": "boat",
+      "start": 29.22,
+      "end": 30.38
+    },
+    {
+      "word": "carries",
+      "start": 30.38,
+      "end": 31.2
+    },
+    {
+      "word": "trash",
+      "start": 31.2,
+      "end": 32.22
+    },
+    {
+      "word": "this",
+      "start": 33.16,
+      "end": 33.26
+    },
+    {
+      "word": "boat",
+      "start": 33.26,
+      "end": 34.28
+    },
+    {
+      "word": "carries",
+      "start": 34.28,
+      "end": 35.1
+    },
+    {
+      "word": "cars",
+      "start": 35.1,
+      "end": 36.12
+    },
+    {
+      "word": "this",
+      "start": 37.04,
+      "end": 37.44
+    },
+    {
+      "word": "boat",
+      "start": 37.44,
+      "end": 38.38
+    },
+    {
+      "word": "carries",
+      "start": 38.38,
+      "end": 39.48
+    },
+    {
+      "word": "planes",
+      "start": 39.48,
+      "end": 40.76
+    },
+    {
+      "word": "this",
+      "start": 41.72,
+      "end": 41.96
+    },
+    {
+      "word": "boat",
+      "start": 41.96,
+      "end": 42.88
+    },
+    {
+      "word": "carries",
+      "start": 42.88,
+      "end": 43.9
+    },
+    {
+      "word": "boats",
+      "start": 43.9,
+      "end": 45.22
+    },
+    {
+      "word": "connections",
+      "start": 46.6,
+      "end": 46.6
+    },
+    {
+      "word": "writing",
+      "start": 47.94,
+      "end": 48.18
+    },
+    {
+      "word": "and",
+      "start": 48.66,
+      "end": 48.82
+    },
+    {
+      "word": "art",
+      "start": 48.82,
+      "end": 49.98
+    },
+    {
+      "word": "which",
+      "start": 51.04,
+      "end": 51.1
+    },
+    {
+      "word": "boat",
+      "start": 51.1,
+      "end": 51.74
+    },
+    {
+      "word": "do",
+      "start": 51.74,
+      "end": 52.5
+    },
+    {
+      "word": "you",
+      "start": 52.5,
+      "end": 52.86
+    },
+    {
+      "word": "think",
+      "start": 52.86,
+      "end": 53.24
+    },
+    {
+      "word": "is",
+      "start": 53.24,
+      "end": 53.74
+    },
+    {
+      "word": "the",
+      "start": 53.74,
+      "end": 54.02
+    },
+    {
+      "word": "most",
+      "start": 54.02,
+      "end": 54.44
+    },
+    {
+      "word": "interesting",
+      "start": 54.44,
+      "end": 55.2
+    },
+    {
+      "word": "why",
+      "start": 56.54,
+      "end": 56.98
+    },
+    {
+      "word": "draw",
+      "start": 58.12,
+      "end": 58.38
+    },
+    {
+      "word": "a",
+      "start": 58.38,
+      "end": 58.64
+    },
+    {
+      "word": "picture",
+      "start": 58.64,
+      "end": 59.08
+    },
+    {
+      "word": "and",
+      "start": 59.08,
+      "end": 59.9
+    },
+    {
+      "word": "write",
+      "start": 59.9,
+      "end": 60.24
+    },
+    {
+      "word": "about",
+      "start": 60.24,
+      "end": 60.62
+    },
+    {
+      "word": "it",
+      "start": 60.62,
+      "end": 61.8
+    },
+    {
+      "word": "social",
+      "start": 61.8,
+      "end": 62.78
+    },
+    {
+      "word": "studies",
+      "start": 62.78,
+      "end": 63.52
+    },
+    {
+      "word": "boats",
+      "start": 65.02,
+      "end": 65.26
+    },
+    {
+      "word": "are",
+      "start": 65.26,
+      "end": 65.76
+    },
+    {
+      "word": "used",
+      "start": 65.76,
+      "end": 66.38
+    },
+    {
+      "word": "to",
+      "start": 66.38,
+      "end": 66.94
+    },
+    {
+      "word": "carry",
+      "start": 66.94,
+      "end": 67.26
+    },
+    {
+      "word": "things",
+      "start": 67.26,
+      "end": 67.88
+    },
+    {
+      "word": "on",
+      "start": 67.88,
+      "end": 68.36
+    },
+    {
+      "word": "the",
+      "start": 68.36,
+      "end": 68.6
+    },
+    {
+      "word": "water",
+      "start": 68.6,
+      "end": 69.12
+    },
+    {
+      "word": "how",
+      "start": 70.22,
+      "end": 70.44
+    },
+    {
+      "word": "are",
+      "start": 70.44,
+      "end": 70.82
+    },
+    {
+      "word": "things",
+      "start": 70.82,
+      "end": 71.22
+    },
+    {
+      "word": "carried",
+      "start": 71.22,
+      "end": 71.82
+    },
+    {
+      "word": "on",
+      "start": 71.82,
+      "end": 72.5
+    },
+    {
+      "word": "land",
+      "start": 72.5,
+      "end": 72.96
+    },
+    {
+      "word": "or",
+      "start": 72.96,
+      "end": 73.54
+    },
+    {
+      "word": "in",
+      "start": 73.54,
+      "end": 74.06
+    },
+    {
+      "word": "the",
+      "start": 74.06,
+      "end": 74.34
+    },
+    {
+      "word": "air",
+      "start": 74.34,
+      "end": 74.84
+    },
+    {
+      "word": "discuss",
+      "start": 75.76,
+      "end": 76.02
+    },
+    {
+      "word": "your",
+      "start": 76.02,
+      "end": 76.38
+    },
+    {
+      "word": "ideas",
+      "start": 76.38,
+      "end": 76.9
+    },
+    {
+      "word": "with",
+      "start": 76.9,
+      "end": 77.28
+    },
+    {
+      "word": "a",
+      "start": 77.28,
+      "end": 77.42
+    },
+    {
+      "word": "partner",
+      "start": 77.42,
+      "end": 77.78
+    }
+  ]
+}

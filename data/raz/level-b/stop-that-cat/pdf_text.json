@@ -1,0 +1,58 @@
+{
+  "id": "level-b/stop-that-cat",
+  "title": "Stop That Cat",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Stop That Catl Written Edie Evans Illustrated by Martin Fagan wwwreadinga-z.com by"
+    },
+    {
+      "page": 2,
+      "text": "Stop That Catl Written by Edie Evans Illustrated by Martin Fagan wwwreadinga-z.com Focus Question Where does Cat zoom?"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know door past fence nap zooms Stop That Catl Level B Leveled Book Learning A-Z Correlation Written by Edie Evans LEVEL B Illustrated by Martin Fagan Fountas & Pinnell B AIl rights reserved. Reading Recovery 2 DRA 2 wwwreadinga-z.com yard"
+    },
+    {
+      "page": 4,
+      "text": "C Cat zooms past the door: Stop That Catl Level B 3"
+    },
+    {
+      "page": 5,
+      "text": "Cat zooms past the car Qe"
+    },
+    {
+      "page": 6,
+      "text": "Cat zooms past the Stop That Catl Level B 5 yard,"
+    },
+    {
+      "page": 7,
+      "text": "Cat zooms past the fence:"
+    },
+    {
+      "page": 8,
+      "text": "Cat zooms past the tree: Stop That Catl Level B "
+    },
+    {
+      "page": 9,
+      "text": "Cat zooms past the 8 dog-"
+    },
+    {
+      "page": 10,
+      "text": "0 Cat zooms past the Stop That Catl Level B boy:"
+    },
+    {
+      "page": 11,
+      "text": "Cat needs a long napl 10"
+    },
+    {
+      "page": 12,
+      "text": "That Catl A Reading A-Z Level B Leveled Book Word Count: 40 Connections Writing and Art does Cat need a long nap? Draw a picture and write a sentence. Use details from the book to support your answer: Math Count how many times Cat zooms in the book: Share your answer with a friend. Reading A-Z Visit wwwreadinga-z.com for thousands of books and materials. Stop Why"
+    }
+  ]
+}

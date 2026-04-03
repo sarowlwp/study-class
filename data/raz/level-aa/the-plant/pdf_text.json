@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/the-plant",
+  "title": "The Plant",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , Aa 35 The Plant Written Katalina 3 Illustrated by Nora Voutas wwwreadinga-z.com by Page"
+    },
+    {
+      "page": 2,
+      "text": "The Plant Written by Katalina Page Illustrated by Nora Voutas wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "S The dirt _ The Plant Level aa 3"
+    },
+    {
+      "page": 4,
+      "text": "0 The shovel_"
+    },
+    {
+      "page": 5,
+      "text": "4 4 The hole. The Plant Level aa 5"
+    },
+    {
+      "page": 6,
+      "text": "9 (( 3 The seed _ 6"
+    },
+    {
+      "page": 7,
+      "text": "The rain_ The Plant Level aa"
+    },
+    {
+      "page": 8,
+      "text": "30 The sunshine. 8"
+    },
+    {
+      "page": 9,
+      "text": "U3 The The Plant Level aa 9 baby plant_"
+    },
+    {
+      "page": 10,
+      "text": "The plant: 10"
+    },
+    {
+      "page": 11,
+      "text": "The Plant Level aa Leveled Book Learning A-Z Correlation Wrilten by Katalina LEVEL aa Illustrated by Nora Voutas Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 WWW . readinga-z.C com Page"
+    }
+  ]
+}

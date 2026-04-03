@@ -1,0 +1,266 @@
+{
+  "version": "1.0",
+  "total_words": 52,
+  "timings": [
+    {
+      "word": "i",
+      "start": 0.0,
+      "end": 0.38
+    },
+    {
+      "word": "read",
+      "start": 0.38,
+      "end": 0.7
+    },
+    {
+      "word": "a",
+      "start": 0.7,
+      "end": 1.14
+    },
+    {
+      "word": "book",
+      "start": 1.14,
+      "end": 1.8
+    },
+    {
+      "word": "written",
+      "start": 2.32,
+      "end": 2.54
+    },
+    {
+      "word": "by",
+      "start": 2.54,
+      "end": 3.02
+    },
+    {
+      "word": "ned",
+      "start": 3.02,
+      "end": 3.48
+    },
+    {
+      "word": "jensen",
+      "start": 3.48,
+      "end": 4.26
+    },
+    {
+      "word": "illustrated",
+      "start": 4.82,
+      "end": 5.22
+    },
+    {
+      "word": "by",
+      "start": 5.22,
+      "end": 6.04
+    },
+    {
+      "word": "john",
+      "start": 6.04,
+      "end": 6.46
+    },
+    {
+      "word": "castner",
+      "start": 6.46,
+      "end": 7.3
+    },
+    {
+      "word": "i",
+      "start": 8.18,
+      "end": 8.34
+    },
+    {
+      "word": "read",
+      "start": 8.34,
+      "end": 8.76
+    },
+    {
+      "word": "with",
+      "start": 8.76,
+      "end": 9.16
+    },
+    {
+      "word": "my",
+      "start": 9.16,
+      "end": 9.38
+    },
+    {
+      "word": "mom",
+      "start": 9.38,
+      "end": 9.86
+    },
+    {
+      "word": "i",
+      "start": 10.52,
+      "end": 10.7
+    },
+    {
+      "word": "read",
+      "start": 10.7,
+      "end": 11.06
+    },
+    {
+      "word": "with",
+      "start": 11.06,
+      "end": 11.36
+    },
+    {
+      "word": "my",
+      "start": 11.36,
+      "end": 11.66
+    },
+    {
+      "word": "dad",
+      "start": 11.66,
+      "end": 12.14
+    },
+    {
+      "word": "i",
+      "start": 12.62,
+      "end": 12.82
+    },
+    {
+      "word": "read",
+      "start": 12.82,
+      "end": 13.02
+    },
+    {
+      "word": "with",
+      "start": 13.02,
+      "end": 13.32
+    },
+    {
+      "word": "my",
+      "start": 13.32,
+      "end": 13.54
+    },
+    {
+      "word": "grandma",
+      "start": 13.54,
+      "end": 14.0
+    },
+    {
+      "word": "i",
+      "start": 14.82,
+      "end": 15.0
+    },
+    {
+      "word": "read",
+      "start": 15.0,
+      "end": 15.24
+    },
+    {
+      "word": "with",
+      "start": 15.24,
+      "end": 15.58
+    },
+    {
+      "word": "my",
+      "start": 15.58,
+      "end": 15.82
+    },
+    {
+      "word": "grandpa",
+      "start": 15.82,
+      "end": 16.28
+    },
+    {
+      "word": "i",
+      "start": 17.12,
+      "end": 17.34
+    },
+    {
+      "word": "read",
+      "start": 17.34,
+      "end": 17.54
+    },
+    {
+      "word": "with",
+      "start": 17.54,
+      "end": 17.88
+    },
+    {
+      "word": "my",
+      "start": 17.88,
+      "end": 18.22
+    },
+    {
+      "word": "aunt",
+      "start": 18.22,
+      "end": 18.64
+    },
+    {
+      "word": "i",
+      "start": 19.28,
+      "end": 19.48
+    },
+    {
+      "word": "read",
+      "start": 19.48,
+      "end": 19.74
+    },
+    {
+      "word": "with",
+      "start": 19.74,
+      "end": 20.0
+    },
+    {
+      "word": "my",
+      "start": 20.0,
+      "end": 20.22
+    },
+    {
+      "word": "sister",
+      "start": 20.22,
+      "end": 20.66
+    },
+    {
+      "word": "i",
+      "start": 21.32,
+      "end": 21.58
+    },
+    {
+      "word": "read",
+      "start": 21.58,
+      "end": 21.82
+    },
+    {
+      "word": "with",
+      "start": 21.82,
+      "end": 22.1
+    },
+    {
+      "word": "my",
+      "start": 22.1,
+      "end": 22.3
+    },
+    {
+      "word": "brother",
+      "start": 22.3,
+      "end": 22.68
+    },
+    {
+      "word": "i",
+      "start": 23.36,
+      "end": 23.52
+    },
+    {
+      "word": "read",
+      "start": 23.52,
+      "end": 23.8
+    },
+    {
+      "word": "to",
+      "start": 23.8,
+      "end": 24.02
+    },
+    {
+      "word": "my",
+      "start": 24.02,
+      "end": 24.3
+    },
+    {
+      "word": "dog",
+      "start": 24.3,
+      "end": 24.64
+    }
+  ]
+}

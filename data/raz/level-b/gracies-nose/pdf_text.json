@@ -1,0 +1,54 @@
+{
+  "id": "level-b/gracies-nose",
+  "title": "Gracies Nose",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Gracie's Nose Written by Beverly Osborn Illustrated by Leighanne Dees wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Gracie's Nose Written by Beverly Osborn Illustrated Leighanne Dees wwwreadinga-z.com by"
+    },
+    {
+      "page": 3,
+      "text": "Gracie' s nose is very Gracie's Nose Level B 3 busy"
+    },
+    {
+      "page": 4,
+      "text": "Gracie' s nose sniffs everything-"
+    },
+    {
+      "page": 5,
+      "text": "\" Gracie sniffs roses_ Gracie's Nose Level B 5"
+    },
+    {
+      "page": 6,
+      "text": "Gracie sniffs bugs."
+    },
+    {
+      "page": 7,
+      "text": "16 Gracie sniffs birds . Gracie's Nose Level B"
+    },
+    {
+      "page": 8,
+      "text": "Gracie sniffs my lunch_ 8"
+    },
+    {
+      "page": 9,
+      "text": "Gracie sniffs my ear. Gracie's Nose Level B"
+    },
+    {
+      "page": 10,
+      "text": "Gracie sniffs my toes! 10"
+    },
+    {
+      "page": 11,
+      "text": "Gracie's Nose Level B Leveled Book Learning A-Z Correlation Written by Beverly Osborn LEVEL B Illustrated by Leighanne Dees Fountas & Pinnell B All rights reserved. Reading Recovery 2 DRA 2 WWW.  readinga-z.com"
+    }
+  ]
+}

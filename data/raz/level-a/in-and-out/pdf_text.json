@@ -1,0 +1,54 @@
+{
+  "id": "level-a/in-and-out",
+  "title": "In And Out",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A In and Out X S_ Written by Ned Jensen Illustrated by Nora Voutas wwwreadinga-z.com M ?"
+    },
+    {
+      "page": 2,
+      "text": "In and Out Written by Ned Jensen Illustrated Nora Voutas WWWreadinga-z.com by"
+    },
+    {
+      "page": 3,
+      "text": ")) X 0, The go in_ In and Out Level A 3 dogs"
+    },
+    {
+      "page": 4,
+      "text": "The dogs go out_ N"
+    },
+    {
+      "page": 5,
+      "text": "^S X X S_ The cats go in_ In and Out Level A 5 3 (> 2"
+    },
+    {
+      "page": 6,
+      "text": "KN TvL The cats go out_"
+    },
+    {
+      "page": 7,
+      "text": "^ TiN 2 C_ The COWS go in_ In and Out Level A"
+    },
+    {
+      "page": 8,
+      "text": "(NJ The COWS go out_ 8"
+    },
+    {
+      "page": 9,
+      "text": "^ 2 The pigs go in_ In and Out Level A"
+    },
+    {
+      "page": 10,
+      "text": "T11 Oh 1 mud_ 10 boy_"
+    },
+    {
+      "page": 11,
+      "text": "In and Out Level A Leveled Book Learning A-Z Correlation Written by Ned Jensen LEVEL A Illustrated by Nora Voutas Fountas & Pinnell A All rights reserved. Reading_Recovery 1 DRA A-1 WWW. readinga-Z.com"
+    }
+  ]
+}

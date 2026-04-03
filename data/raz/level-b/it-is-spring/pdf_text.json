@@ -1,0 +1,54 @@
+{
+  "id": "level-b/it-is-spring",
+  "title": "It Is Spring",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B It Is Spring (U Writtlen by CherylRyan Illustrated by A Spencer wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "It Is Spring 1 3 Written Cheryl Ryan Illustrated by A Spencer wwwreadinga-z.com by"
+    },
+    {
+      "page": 3,
+      "text": "The sun pops up_ It Is Spring Level B 3"
+    },
+    {
+      "page": 4,
+      "text": "\"7 NV The flowers pop out. NN"
+    },
+    {
+      "page": 5,
+      "text": "7 L7 The worms pop up. It Is Spring Level B 5 MLUE ~"
+    },
+    {
+      "page": 6,
+      "text": "The plants pop up."
+    },
+    {
+      "page": 7,
+      "text": "n 0 The leaves pop out. It Is Spring Level B"
+    },
+    {
+      "page": 8,
+      "text": "(V   Z The birds pop out. 8 JUJT)"
+    },
+    {
+      "page": 9,
+      "text": "7 U WJJ A The animals pop out. It Is Spring Level B 3ia 7"
+    },
+    {
+      "page": 10,
+      "text": "C U U Us Yy @ Spring pops out everywhere: pop, pop. 10 S6( € JL $ Pop;"
+    },
+    {
+      "page": 11,
+      "text": "It Is Spring Level B Leveled Book Learning A-Z Correlation Written by Cheryl Ryan LEVEL B Illustrated by A; Spencer Fountas & Pinnell B All rights reserved: Reading Recovery 2 DRA 2 wwwreadinga-zcom"
+    }
+  ]
+}

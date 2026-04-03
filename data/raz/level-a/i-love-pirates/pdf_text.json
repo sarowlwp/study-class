@@ -1,0 +1,58 @@
+{
+  "id": "level-a/i-love-pirates",
+  "title": "I Love Pirates",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A 1 Love Pirates | Written Edie Evans Tllusiated by Remy Simard wwwreadinga-z.com by"
+    },
+    {
+      "page": 2,
+      "text": "I Love Pirates Written Edie Evans Illustrated Remy Simard www.readinga-z.com Focus Question Where does this story take place? by by"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know ropes love sails parrots ships I Love Pirates Level A Leveled Book Learning A-Z Correlation Written by Edie Evans LEVEL A Illustrated by Remy Simard Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 wwwreadinga-z.com gold"
+    },
+    {
+      "page": 4,
+      "text": "L JAX I love the ships Love Pirates Level A 3 #"
+    },
+    {
+      "page": 5,
+      "text": "M I love the sails. 4"
+    },
+    {
+      "page": 6,
+      "text": "I love the parrots Love Pirates Level A 5"
+    },
+    {
+      "page": 7,
+      "text": "I love the songs."
+    },
+    {
+      "page": 8,
+      "text": "I love the Love Pirates Level A gold:"
+    },
+    {
+      "page": 9,
+      "text": "I love the 8 3 flags."
+    },
+    {
+      "page": 10,
+      "text": "I love the ropes: Love Pirates Level A"
+    },
+    {
+      "page": 11,
+      "text": "0 2a ~ L A I love the sea. 10"
+    },
+    {
+      "page": 12,
+      "text": "I Love Pirates A Reading A-Z Level A Leveled Book Word Count: 32 Connections Writing and Art Draw a picture of a pirate: Then, write a sentence about your picture: Social Studies Pirates sail on the ocean: What do you know about the ocean? Share your ideas with a partner: Reddlingaa-Z Visit wwWreadinga-z.com for thousands of books and materials:"
+    }
+  ]
+}

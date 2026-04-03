@@ -1,0 +1,276 @@
+{
+  "version": "1.0",
+  "total_words": 54,
+  "timings": [
+    {
+      "word": "going",
+      "start": 0.0,
+      "end": 0.42
+    },
+    {
+      "word": "places",
+      "start": 0.42,
+      "end": 1.42
+    },
+    {
+      "word": "written",
+      "start": 2.04,
+      "end": 2.28
+    },
+    {
+      "word": "by",
+      "start": 2.28,
+      "end": 2.92
+    },
+    {
+      "word": "chuck",
+      "start": 2.92,
+      "end": 3.74
+    },
+    {
+      "word": "girivano",
+      "start": 3.74,
+      "end": 4.98
+    },
+    {
+      "word": "you",
+      "start": 5.7,
+      "end": 5.82
+    },
+    {
+      "word": "can",
+      "start": 5.82,
+      "end": 6.06
+    },
+    {
+      "word": "go",
+      "start": 6.06,
+      "end": 6.44
+    },
+    {
+      "word": "on",
+      "start": 6.44,
+      "end": 6.76
+    },
+    {
+      "word": "a",
+      "start": 6.76,
+      "end": 6.92
+    },
+    {
+      "word": "plane",
+      "start": 6.92,
+      "end": 7.56
+    },
+    {
+      "word": "you",
+      "start": 8.18,
+      "end": 8.26
+    },
+    {
+      "word": "can",
+      "start": 8.26,
+      "end": 8.54
+    },
+    {
+      "word": "go",
+      "start": 8.54,
+      "end": 8.98
+    },
+    {
+      "word": "on",
+      "start": 8.98,
+      "end": 9.38
+    },
+    {
+      "word": "a",
+      "start": 9.38,
+      "end": 9.48
+    },
+    {
+      "word": "train",
+      "start": 9.48,
+      "end": 10.14
+    },
+    {
+      "word": "you",
+      "start": 10.84,
+      "end": 10.92
+    },
+    {
+      "word": "can",
+      "start": 10.92,
+      "end": 11.16
+    },
+    {
+      "word": "go",
+      "start": 11.16,
+      "end": 11.52
+    },
+    {
+      "word": "on",
+      "start": 11.52,
+      "end": 11.74
+    },
+    {
+      "word": "a",
+      "start": 11.74,
+      "end": 12.08
+    },
+    {
+      "word": "boat",
+      "start": 12.08,
+      "end": 12.4
+    },
+    {
+      "word": "you",
+      "start": 12.96,
+      "end": 13.02
+    },
+    {
+      "word": "can",
+      "start": 13.02,
+      "end": 13.32
+    },
+    {
+      "word": "go",
+      "start": 13.32,
+      "end": 13.74
+    },
+    {
+      "word": "in",
+      "start": 13.74,
+      "end": 14.1
+    },
+    {
+      "word": "a",
+      "start": 14.1,
+      "end": 14.44
+    },
+    {
+      "word": "car",
+      "start": 14.44,
+      "end": 14.8
+    },
+    {
+      "word": "you",
+      "start": 15.3,
+      "end": 15.34
+    },
+    {
+      "word": "can",
+      "start": 15.34,
+      "end": 15.66
+    },
+    {
+      "word": "go",
+      "start": 15.66,
+      "end": 16.06
+    },
+    {
+      "word": "in",
+      "start": 16.06,
+      "end": 16.42
+    },
+    {
+      "word": "a",
+      "start": 16.42,
+      "end": 16.68
+    },
+    {
+      "word": "bus",
+      "start": 16.68,
+      "end": 17.24
+    },
+    {
+      "word": "you",
+      "start": 17.74,
+      "end": 17.8
+    },
+    {
+      "word": "can",
+      "start": 17.8,
+      "end": 18.1
+    },
+    {
+      "word": "go",
+      "start": 18.1,
+      "end": 18.48
+    },
+    {
+      "word": "on",
+      "start": 18.48,
+      "end": 18.82
+    },
+    {
+      "word": "a",
+      "start": 18.82,
+      "end": 19.02
+    },
+    {
+      "word": "bike",
+      "start": 19.02,
+      "end": 19.38
+    },
+    {
+      "word": "you",
+      "start": 20.0,
+      "end": 20.1
+    },
+    {
+      "word": "can",
+      "start": 20.1,
+      "end": 20.42
+    },
+    {
+      "word": "go",
+      "start": 20.42,
+      "end": 20.84
+    },
+    {
+      "word": "on",
+      "start": 20.84,
+      "end": 21.26
+    },
+    {
+      "word": "a",
+      "start": 21.26,
+      "end": 21.36
+    },
+    {
+      "word": "skateboard",
+      "start": 21.36,
+      "end": 21.82
+    },
+    {
+      "word": "you",
+      "start": 23.04,
+      "end": 23.1
+    },
+    {
+      "word": "can",
+      "start": 23.1,
+      "end": 23.44
+    },
+    {
+      "word": "go",
+      "start": 23.44,
+      "end": 23.88
+    },
+    {
+      "word": "on",
+      "start": 23.88,
+      "end": 24.1
+    },
+    {
+      "word": "a",
+      "start": 24.1,
+      "end": 24.42
+    },
+    {
+      "word": "horse",
+      "start": 24.42,
+      "end": 24.52
+    }
+  ]
+}

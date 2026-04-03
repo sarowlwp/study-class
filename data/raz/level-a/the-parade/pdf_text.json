@@ -1,0 +1,54 @@
+{
+  "id": "level-a/the-parade",
+  "title": "The Parade",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A The Parade Written by Torran Anderson Illustreted by Erin Bellingham wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "The Parade \" Written by Torran Anderson Illustrated Erin Bellingham wwwreadinga-z.com by"
+    },
+    {
+      "page": 3,
+      "text": "I see The Parade Level A 3 flags."
+    },
+    {
+      "page": 4,
+      "text": "I see balloons. 4"
+    },
+    {
+      "page": 5,
+      "text": "I see hats. The Parade Level A 5"
+    },
+    {
+      "page": 6,
+      "text": "6 I see clowns."
+    },
+    {
+      "page": 7,
+      "text": "I see drums: The Parade Level A"
+    },
+    {
+      "page": 8,
+      "text": "I see horses: 8"
+    },
+    {
+      "page": 9,
+      "text": "404! V I see floats. The Parade Level A XAPP> L Uct & (ll"
+    },
+    {
+      "page": 10,
+      "text": "0 1 I see the parade 10"
+    },
+    {
+      "page": 11,
+      "text": "The Parade Level A Leveled Book 0 Learning A-Z Correlation Written by Torran Anderson LEVEL A Illustrated by Erin Bellingham Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com"
+    }
+  ]
+}

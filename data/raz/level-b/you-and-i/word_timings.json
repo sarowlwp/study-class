@@ -1,0 +1,236 @@
+{
+  "version": "1.0",
+  "total_words": 46,
+  "timings": [
+    {
+      "word": "you",
+      "start": 0.0,
+      "end": 0.38
+    },
+    {
+      "word": "and",
+      "start": 0.38,
+      "end": 0.74
+    },
+    {
+      "word": "i",
+      "start": 0.74,
+      "end": 1.52
+    },
+    {
+      "word": "written",
+      "start": 2.12,
+      "end": 2.46
+    },
+    {
+      "word": "by",
+      "start": 2.46,
+      "end": 3.32
+    },
+    {
+      "word": "elizabeth",
+      "start": 3.32,
+      "end": 3.9
+    },
+    {
+      "word": "strauss",
+      "start": 3.9,
+      "end": 5.48
+    },
+    {
+      "word": "illustrated",
+      "start": 5.78,
+      "end": 6.3
+    },
+    {
+      "word": "by",
+      "start": 6.3,
+      "end": 7.24
+    },
+    {
+      "word": "john",
+      "start": 7.24,
+      "end": 7.66
+    },
+    {
+      "word": "castner",
+      "start": 7.66,
+      "end": 8.7
+    },
+    {
+      "word": "you",
+      "start": 9.46,
+      "end": 9.88
+    },
+    {
+      "word": "and",
+      "start": 9.88,
+      "end": 10.5
+    },
+    {
+      "word": "i",
+      "start": 10.5,
+      "end": 11.26
+    },
+    {
+      "word": "swing",
+      "start": 11.38,
+      "end": 11.92
+    },
+    {
+      "word": "you",
+      "start": 11.92,
+      "end": 12.54
+    },
+    {
+      "word": "and",
+      "start": 12.54,
+      "end": 13.34
+    },
+    {
+      "word": "i",
+      "start": 13.34,
+      "end": 14.38
+    },
+    {
+      "word": "slide",
+      "start": 14.38,
+      "end": 14.94
+    },
+    {
+      "word": "you",
+      "start": 14.94,
+      "end": 15.64
+    },
+    {
+      "word": "and",
+      "start": 15.64,
+      "end": 16.34
+    },
+    {
+      "word": "i",
+      "start": 16.34,
+      "end": 17.02
+    },
+    {
+      "word": "ride",
+      "start": 17.02,
+      "end": 18.02
+    },
+    {
+      "word": "you",
+      "start": 18.02,
+      "end": 18.8
+    },
+    {
+      "word": "and",
+      "start": 18.8,
+      "end": 19.52
+    },
+    {
+      "word": "i",
+      "start": 19.52,
+      "end": 20.16
+    },
+    {
+      "word": "hike",
+      "start": 20.16,
+      "end": 21.02
+    },
+    {
+      "word": "you",
+      "start": 21.02,
+      "end": 22.06
+    },
+    {
+      "word": "and",
+      "start": 22.06,
+      "end": 22.82
+    },
+    {
+      "word": "i",
+      "start": 22.82,
+      "end": 23.52
+    },
+    {
+      "word": "bike",
+      "start": 23.52,
+      "end": 24.46
+    },
+    {
+      "word": "you",
+      "start": 24.46,
+      "end": 25.22
+    },
+    {
+      "word": "and",
+      "start": 25.22,
+      "end": 25.92
+    },
+    {
+      "word": "i",
+      "start": 25.92,
+      "end": 26.68
+    },
+    {
+      "word": "run",
+      "start": 26.68,
+      "end": 27.58
+    },
+    {
+      "word": "you",
+      "start": 27.58,
+      "end": 28.36
+    },
+    {
+      "word": "and",
+      "start": 28.36,
+      "end": 29.26
+    },
+    {
+      "word": "i",
+      "start": 29.26,
+      "end": 29.96
+    },
+    {
+      "word": "dance",
+      "start": 29.96,
+      "end": 30.94
+    },
+    {
+      "word": "you",
+      "start": 30.94,
+      "end": 31.92
+    },
+    {
+      "word": "and",
+      "start": 31.92,
+      "end": 32.82
+    },
+    {
+      "word": "i",
+      "start": 32.82,
+      "end": 33.38
+    },
+    {
+      "word": "have",
+      "start": 33.38,
+      "end": 34.44
+    },
+    {
+      "word": "lots",
+      "start": 34.44,
+      "end": 34.9
+    },
+    {
+      "word": "of",
+      "start": 34.9,
+      "end": 35.4
+    },
+    {
+      "word": "fun",
+      "start": 35.4,
+      "end": 35.68
+    }
+  ]
+}

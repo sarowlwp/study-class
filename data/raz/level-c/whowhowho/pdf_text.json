@@ -1,0 +1,54 @@
+{
+  "id": "level-c/whowhowho",
+  "title": "Whowhowho",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C Who, Who, Who? 0 3 Written by Cheryl Ryan Illustrated by Joe Boddy wwwreadinga-z.com 2"
+    },
+    {
+      "page": 2,
+      "text": "Who? Written by Cheryl Illustrated Joe Boddy wwwreadinga-z.com Who, Who, Ryan by"
+    },
+    {
+      "page": 3,
+      "text": "6 7 U \"Who?\" said the little Who, Who, Who? Level € 3 0 8 owl."
+    },
+    {
+      "page": 4,
+      "text": "787 I | Who wants to fly with me?\" YL"
+    },
+    {
+      "page": 5,
+      "text": "p Who wants to hunt with me?\" Who, Who, Who? # Level € 5  Vl"
+    },
+    {
+      "page": 6,
+      "text": "k \"Who wants to play with me?\" 2"
+    },
+    {
+      "page": 7,
+      "text": "Who wants to read with me?\" Who, Who, Who? # Level €"
+    },
+    {
+      "page": 8,
+      "text": "I | Who wants to sing with me?\" 8"
+    },
+    {
+      "page": 9,
+      "text": "N 1 I | Who wants to eat with me?\" Who, Who, Who? # Level € 3 AKF z"
+    },
+    {
+      "page": 10,
+      "text": "A \"[ 1 said the big alligator. 'No waY , said the little owl. 10 7 do_"
+    },
+    {
+      "page": 11,
+      "text": "Who, Who, Who? Level €C Leveled Book Learning A-Z Correlation Written by Cheryl Ryan LEVEL € Illustrated by Joe Fountas & Pinnell C All rights reserved. Reading Recovery 3-4 DRA 3-4 WWW.  readinga-z.com Boddy"
+    }
+  ]
+}

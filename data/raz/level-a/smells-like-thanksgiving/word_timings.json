@@ -1,0 +1,406 @@
+{
+  "version": "1.0",
+  "total_words": 80,
+  "timings": [
+    {
+      "word": "smells",
+      "start": 0.0,
+      "end": 0.86
+    },
+    {
+      "word": "like",
+      "start": 0.86,
+      "end": 1.86
+    },
+    {
+      "word": "thanksgiving",
+      "start": 1.86,
+      "end": 3.22
+    },
+    {
+      "word": "written",
+      "start": 4.68,
+      "end": 5.06
+    },
+    {
+      "word": "by",
+      "start": 5.06,
+      "end": 6.1
+    },
+    {
+      "word": "sarah",
+      "start": 6.1,
+      "end": 6.7
+    },
+    {
+      "word": "gusson",
+      "start": 6.7,
+      "end": 8.36
+    },
+    {
+      "word": "illustrated",
+      "start": 9.2,
+      "end": 9.98
+    },
+    {
+      "word": "by",
+      "start": 9.98,
+      "end": 11.04
+    },
+    {
+      "word": "tracy",
+      "start": 11.04,
+      "end": 11.72
+    },
+    {
+      "word": "bishop",
+      "start": 11.72,
+      "end": 12.66
+    },
+    {
+      "word": "focus",
+      "start": 14.18,
+      "end": 14.42
+    },
+    {
+      "word": "question",
+      "start": 14.42,
+      "end": 15.54
+    },
+    {
+      "word": "what",
+      "start": 16.68,
+      "end": 16.94
+    },
+    {
+      "word": "foods",
+      "start": 16.94,
+      "end": 17.9
+    },
+    {
+      "word": "can",
+      "start": 17.9,
+      "end": 18.72
+    },
+    {
+      "word": "people",
+      "start": 18.72,
+      "end": 19.4
+    },
+    {
+      "word": "smell",
+      "start": 19.4,
+      "end": 20.3
+    },
+    {
+      "word": "on",
+      "start": 20.3,
+      "end": 21.24
+    },
+    {
+      "word": "thanksgiving",
+      "start": 21.24,
+      "end": 22.34
+    },
+    {
+      "word": "i",
+      "start": 23.1,
+      "end": 23.26
+    },
+    {
+      "word": "smell",
+      "start": 23.26,
+      "end": 24.42
+    },
+    {
+      "word": "turkey",
+      "start": 24.42,
+      "end": 25.5
+    },
+    {
+      "word": "i",
+      "start": 26.6,
+      "end": 26.6
+    },
+    {
+      "word": "smell",
+      "start": 26.6,
+      "end": 28.18
+    },
+    {
+      "word": "stuffing",
+      "start": 28.18,
+      "end": 30.16
+    },
+    {
+      "word": "i",
+      "start": 30.66,
+      "end": 30.78
+    },
+    {
+      "word": "smell",
+      "start": 30.78,
+      "end": 32.02
+    },
+    {
+      "word": "rolls",
+      "start": 32.68,
+      "end": 33.32
+    },
+    {
+      "word": "i",
+      "start": 34.12,
+      "end": 34.6
+    },
+    {
+      "word": "smell",
+      "start": 34.6,
+      "end": 35.78
+    },
+    {
+      "word": "yams",
+      "start": 36.56,
+      "end": 37.36
+    },
+    {
+      "word": "i",
+      "start": 37.78,
+      "end": 38.62
+    },
+    {
+      "word": "smell",
+      "start": 38.62,
+      "end": 39.64
+    },
+    {
+      "word": "potatoes",
+      "start": 40.36,
+      "end": 41.0
+    },
+    {
+      "word": "i",
+      "start": 42.06,
+      "end": 42.9
+    },
+    {
+      "word": "smell",
+      "start": 42.9,
+      "end": 43.84
+    },
+    {
+      "word": "gravy",
+      "start": 44.2,
+      "end": 45.06
+    },
+    {
+      "word": "i",
+      "start": 45.6,
+      "end": 46.36
+    },
+    {
+      "word": "smell",
+      "start": 46.36,
+      "end": 47.32
+    },
+    {
+      "word": "pie",
+      "start": 47.32,
+      "end": 48.36
+    },
+    {
+      "word": "i",
+      "start": 49.44,
+      "end": 49.48
+    },
+    {
+      "word": "smell",
+      "start": 49.84,
+      "end": 50.8
+    },
+    {
+      "word": "thanksgiving",
+      "start": 51.94,
+      "end": 53.2
+    },
+    {
+      "word": "connections",
+      "start": 54.58,
+      "end": 54.58
+    },
+    {
+      "word": "writing",
+      "start": 55.82,
+      "end": 56.14
+    },
+    {
+      "word": "and",
+      "start": 56.14,
+      "end": 57.1
+    },
+    {
+      "word": "art",
+      "start": 57.1,
+      "end": 58.3
+    },
+    {
+      "word": "which",
+      "start": 59.5,
+      "end": 59.64
+    },
+    {
+      "word": "food",
+      "start": 59.64,
+      "end": 60.36
+    },
+    {
+      "word": "in",
+      "start": 60.36,
+      "end": 61.02
+    },
+    {
+      "word": "this",
+      "start": 61.02,
+      "end": 61.34
+    },
+    {
+      "word": "book",
+      "start": 61.34,
+      "end": 62.12
+    },
+    {
+      "word": "would",
+      "start": 62.12,
+      "end": 62.82
+    },
+    {
+      "word": "you",
+      "start": 62.82,
+      "end": 63.32
+    },
+    {
+      "word": "most",
+      "start": 63.32,
+      "end": 63.98
+    },
+    {
+      "word": "like",
+      "start": 63.98,
+      "end": 64.52
+    },
+    {
+      "word": "to",
+      "start": 64.52,
+      "end": 64.96
+    },
+    {
+      "word": "eat",
+      "start": 64.96,
+      "end": 65.78
+    },
+    {
+      "word": "draw",
+      "start": 66.52,
+      "end": 66.9
+    },
+    {
+      "word": "a",
+      "start": 66.9,
+      "end": 67.48
+    },
+    {
+      "word": "picture",
+      "start": 67.48,
+      "end": 68.02
+    },
+    {
+      "word": "and",
+      "start": 68.02,
+      "end": 69.12
+    },
+    {
+      "word": "write",
+      "start": 69.12,
+      "end": 69.48
+    },
+    {
+      "word": "about",
+      "start": 69.48,
+      "end": 70.1
+    },
+    {
+      "word": "it",
+      "start": 70.1,
+      "end": 71.28
+    },
+    {
+      "word": "social",
+      "start": 71.88,
+      "end": 72.24
+    },
+    {
+      "word": "studies",
+      "start": 72.24,
+      "end": 73.12
+    },
+    {
+      "word": "when",
+      "start": 74.54,
+      "end": 74.76
+    },
+    {
+      "word": "is",
+      "start": 74.76,
+      "end": 75.44
+    },
+    {
+      "word": "thanksgiving",
+      "start": 75.44,
+      "end": 76.82
+    },
+    {
+      "word": "this",
+      "start": 76.82,
+      "end": 77.68
+    },
+    {
+      "word": "year",
+      "start": 77.68,
+      "end": 78.5
+    },
+    {
+      "word": "point",
+      "start": 79.32,
+      "end": 79.7
+    },
+    {
+      "word": "to",
+      "start": 79.7,
+      "end": 80.5
+    },
+    {
+      "word": "the",
+      "start": 80.5,
+      "end": 80.78
+    },
+    {
+      "word": "date",
+      "start": 80.78,
+      "end": 81.2
+    },
+    {
+      "word": "on",
+      "start": 81.2,
+      "end": 82.32
+    },
+    {
+      "word": "the",
+      "start": 82.32,
+      "end": 82.72
+    },
+    {
+      "word": "calendar",
+      "start": 82.72,
+      "end": 83.22
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "level-aa/the-subway",
+  "title": "The Subway",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , aa The Subway Written by Sarah Ghusson Illustrated by Juan Manuel Moreno wwWreadinga-Z.com"
+    },
+    {
+      "page": 2,
+      "text": "The Subweyy Written by Sarah Ghusson Illustrated by Juan Manuel Moreno WWWreadinga-Z.com Focus Question What steps do you take to ride the subway?"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know doors subway ticket stairs tunnel The Subway Level aa Leveled Book 0 Learning A-Z Correlation Written by Sarah Ghusson LEVEL aa Illustrated by Juan Manuel Moreno Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com gate"
+    },
+    {
+      "page": 4,
+      "text": "The stairs. The Subway Level aa 3"
+    },
+    {
+      "page": 5,
+      "text": "m The ticket:"
+    },
+    {
+      "page": 6,
+      "text": "The gate: The Subway Level aa 5"
+    },
+    {
+      "page": 7,
+      "text": "6 The people: 6"
+    },
+    {
+      "page": 8,
+      "text": "The time: The Subway Level aa 1.30"
+    },
+    {
+      "page": 9,
+      "text": "The tunnel: 8"
+    },
+    {
+      "page": 10,
+      "text": "M 1 The doors. The Subway Level aa"
+    },
+    {
+      "page": 11,
+      "text": "0 3 The subway: 10"
+    },
+    {
+      "page": 12,
+      "text": "The Subway A Reading A-Z Level aa Leveled Book Word Count: 16 Connections Writing and Art People ride the subway to from place to place in a Where do you think the girl is going? Draw a picture and write about it. Social Studies What are some other ways to from one place to another? Share your ideas with a partner: Reading A-z Visit www.readinga-z.com for thousands of books and materials. get city: get"
+    }
+  ]
+}

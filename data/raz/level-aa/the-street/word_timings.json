@@ -1,0 +1,136 @@
+{
+  "version": "1.0",
+  "total_words": 26,
+  "timings": [
+    {
+      "word": "the",
+      "start": 0.0,
+      "end": 0.46
+    },
+    {
+      "word": "street",
+      "start": 0.46,
+      "end": 1.22
+    },
+    {
+      "word": "written",
+      "start": 1.92,
+      "end": 2.34
+    },
+    {
+      "word": "by",
+      "start": 2.34,
+      "end": 2.88
+    },
+    {
+      "word": "harriet",
+      "start": 2.88,
+      "end": 3.38
+    },
+    {
+      "word": "rosenblum",
+      "start": 3.38,
+      "end": 5.06
+    },
+    {
+      "word": "illustrated",
+      "start": 5.8,
+      "end": 6.5
+    },
+    {
+      "word": "by",
+      "start": 6.5,
+      "end": 7.08
+    },
+    {
+      "word": "kale",
+      "start": 7.08,
+      "end": 7.66
+    },
+    {
+      "word": "edkinson",
+      "start": 7.66,
+      "end": 9.22
+    },
+    {
+      "word": "the",
+      "start": 9.42,
+      "end": 9.66
+    },
+    {
+      "word": "gate",
+      "start": 9.66,
+      "end": 10.66
+    },
+    {
+      "word": "the",
+      "start": 11.2,
+      "end": 11.4
+    },
+    {
+      "word": "mailbox",
+      "start": 11.4,
+      "end": 12.34
+    },
+    {
+      "word": "the",
+      "start": 13.18,
+      "end": 13.36
+    },
+    {
+      "word": "sidewalk",
+      "start": 13.36,
+      "end": 14.48
+    },
+    {
+      "word": "the",
+      "start": 15.38,
+      "end": 15.5
+    },
+    {
+      "word": "fence",
+      "start": 15.5,
+      "end": 16.5
+    },
+    {
+      "word": "the",
+      "start": 17.16,
+      "end": 17.34
+    },
+    {
+      "word": "flowers",
+      "start": 17.34,
+      "end": 18.16
+    },
+    {
+      "word": "the",
+      "start": 19.0,
+      "end": 19.34
+    },
+    {
+      "word": "bike",
+      "start": 19.34,
+      "end": 20.28
+    },
+    {
+      "word": "the",
+      "start": 20.72,
+      "end": 21.04
+    },
+    {
+      "word": "friend",
+      "start": 21.04,
+      "end": 22.0
+    },
+    {
+      "word": "the",
+      "start": 22.58,
+      "end": 23.0
+    },
+    {
+      "word": "street",
+      "start": 23.0,
+      "end": 23.62
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "version": "1.0",
+  "total_words": 59,
+  "timings": [
+    {
+      "word": "machines",
+      "start": 0.0,
+      "end": 0.78
+    },
+    {
+      "word": "at",
+      "start": 0.78,
+      "end": 1.32
+    },
+    {
+      "word": "home",
+      "start": 1.32,
+      "end": 2.14
+    },
+    {
+      "word": "written",
+      "start": 2.6,
+      "end": 2.84
+    },
+    {
+      "word": "by",
+      "start": 2.84,
+      "end": 3.28
+    },
+    {
+      "word": "keith",
+      "start": 3.28,
+      "end": 3.64
+    },
+    {
+      "word": "and",
+      "start": 3.64,
+      "end": 4.0
+    },
+    {
+      "word": "sarah",
+      "start": 4.0,
+      "end": 4.32
+    },
+    {
+      "word": "cordermarten",
+      "start": 4.32,
+      "end": 5.22
+    },
+    {
+      "word": "we",
+      "start": 5.9,
+      "end": 5.9
+    },
+    {
+      "word": "use",
+      "start": 5.9,
+      "end": 6.38
+    },
+    {
+      "word": "machines",
+      "start": 6.38,
+      "end": 7.04
+    },
+    {
+      "word": "at",
+      "start": 7.04,
+      "end": 7.54
+    },
+    {
+      "word": "home",
+      "start": 7.54,
+      "end": 7.92
+    },
+    {
+      "word": "every",
+      "start": 7.92,
+      "end": 8.58
+    },
+    {
+      "word": "day",
+      "start": 8.58,
+      "end": 9.14
+    },
+    {
+      "word": "we",
+      "start": 9.58,
+      "end": 9.58
+    },
+    {
+      "word": "wash",
+      "start": 9.58,
+      "end": 10.04
+    },
+    {
+      "word": "clothes",
+      "start": 10.04,
+      "end": 10.62
+    },
+    {
+      "word": "with",
+      "start": 10.62,
+      "end": 11.5
+    },
+    {
+      "word": "a",
+      "start": 11.5,
+      "end": 11.72
+    },
+    {
+      "word": "washer",
+      "start": 11.72,
+      "end": 12.16
+    },
+    {
+      "word": "we",
+      "start": 12.62,
+      "end": 12.66
+    },
+    {
+      "word": "dry",
+      "start": 12.66,
+      "end": 13.1
+    },
+    {
+      "word": "things",
+      "start": 13.1,
+      "end": 13.62
+    },
+    {
+      "word": "with",
+      "start": 13.62,
+      "end": 14.12
+    },
+    {
+      "word": "a",
+      "start": 14.12,
+      "end": 14.38
+    },
+    {
+      "word": "dryer",
+      "start": 14.38,
+      "end": 14.78
+    },
+    {
+      "word": "we",
+      "start": 15.2,
+      "end": 15.22
+    },
+    {
+      "word": "freeze",
+      "start": 15.22,
+      "end": 15.76
+    },
+    {
+      "word": "food",
+      "start": 15.76,
+      "end": 16.36
+    },
+    {
+      "word": "with",
+      "start": 16.36,
+      "end": 17.0
+    },
+    {
+      "word": "a",
+      "start": 17.0,
+      "end": 17.34
+    },
+    {
+      "word": "freezer",
+      "start": 17.34,
+      "end": 17.68
+    },
+    {
+      "word": "we",
+      "start": 18.02,
+      "end": 18.24
+    },
+    {
+      "word": "make",
+      "start": 18.24,
+      "end": 18.68
+    },
+    {
+      "word": "dinner",
+      "start": 18.68,
+      "end": 19.18
+    },
+    {
+      "word": "with",
+      "start": 19.18,
+      "end": 20.02
+    },
+    {
+      "word": "a",
+      "start": 20.02,
+      "end": 20.34
+    },
+    {
+      "word": "stove",
+      "start": 20.34,
+      "end": 20.86
+    },
+    {
+      "word": "we",
+      "start": 21.36,
+      "end": 21.4
+    },
+    {
+      "word": "make",
+      "start": 21.4,
+      "end": 21.82
+    },
+    {
+      "word": "cake",
+      "start": 21.82,
+      "end": 22.42
+    },
+    {
+      "word": "with",
+      "start": 22.42,
+      "end": 23.24
+    },
+    {
+      "word": "a",
+      "start": 23.24,
+      "end": 23.6
+    },
+    {
+      "word": "mixer",
+      "start": 23.6,
+      "end": 23.92
+    },
+    {
+      "word": "we",
+      "start": 24.4,
+      "end": 24.48
+    },
+    {
+      "word": "make",
+      "start": 24.48,
+      "end": 24.92
+    },
+    {
+      "word": "milkshakes",
+      "start": 24.92,
+      "end": 25.62
+    },
+    {
+      "word": "with",
+      "start": 25.62,
+      "end": 26.48
+    },
+    {
+      "word": "a",
+      "start": 26.48,
+      "end": 26.72
+    },
+    {
+      "word": "blender",
+      "start": 26.72,
+      "end": 27.12
+    },
+    {
+      "word": "what",
+      "start": 27.12,
+      "end": 27.84
+    },
+    {
+      "word": "machines",
+      "start": 27.84,
+      "end": 28.5
+    },
+    {
+      "word": "do",
+      "start": 28.5,
+      "end": 28.92
+    },
+    {
+      "word": "you",
+      "start": 28.92,
+      "end": 29.18
+    },
+    {
+      "word": "use",
+      "start": 29.18,
+      "end": 29.64
+    },
+    {
+      "word": "every",
+      "start": 29.64,
+      "end": 30.24
+    },
+    {
+      "word": "day",
+      "start": 30.24,
+      "end": 30.66
+    }
+  ]
+}

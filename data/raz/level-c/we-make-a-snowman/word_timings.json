@@ -1,0 +1,331 @@
+{
+  "version": "1.0",
+  "total_words": 65,
+  "timings": [
+    {
+      "word": "we",
+      "start": 0.0,
+      "end": 0.3
+    },
+    {
+      "word": "make",
+      "start": 0.3,
+      "end": 0.84
+    },
+    {
+      "word": "a",
+      "start": 0.84,
+      "end": 1.28
+    },
+    {
+      "word": "snowman",
+      "start": 1.28,
+      "end": 2.14
+    },
+    {
+      "word": "written",
+      "start": 2.14,
+      "end": 2.72
+    },
+    {
+      "word": "by",
+      "start": 2.72,
+      "end": 3.28
+    },
+    {
+      "word": "cheryl",
+      "start": 3.28,
+      "end": 3.64
+    },
+    {
+      "word": "ryan",
+      "start": 3.64,
+      "end": 4.54
+    },
+    {
+      "word": "illustrated",
+      "start": 4.54,
+      "end": 5.64
+    },
+    {
+      "word": "by",
+      "start": 5.64,
+      "end": 6.28
+    },
+    {
+      "word": "john",
+      "start": 6.28,
+      "end": 6.64
+    },
+    {
+      "word": "cassner",
+      "start": 6.64,
+      "end": 7.48
+    },
+    {
+      "word": "i",
+      "start": 7.48,
+      "end": 8.22
+    },
+    {
+      "word": "go",
+      "start": 8.22,
+      "end": 8.44
+    },
+    {
+      "word": "out",
+      "start": 8.44,
+      "end": 8.74
+    },
+    {
+      "word": "to",
+      "start": 8.74,
+      "end": 8.96
+    },
+    {
+      "word": "play",
+      "start": 8.96,
+      "end": 9.46
+    },
+    {
+      "word": "my",
+      "start": 9.46,
+      "end": 10.0
+    },
+    {
+      "word": "friends",
+      "start": 10.0,
+      "end": 10.52
+    },
+    {
+      "word": "go",
+      "start": 10.52,
+      "end": 10.78
+    },
+    {
+      "word": "out",
+      "start": 10.78,
+      "end": 11.04
+    },
+    {
+      "word": "to",
+      "start": 11.04,
+      "end": 11.28
+    },
+    {
+      "word": "play",
+      "start": 11.28,
+      "end": 11.98
+    },
+    {
+      "word": "we",
+      "start": 11.98,
+      "end": 12.66
+    },
+    {
+      "word": "play",
+      "start": 12.66,
+      "end": 13.1
+    },
+    {
+      "word": "in",
+      "start": 13.1,
+      "end": 13.5
+    },
+    {
+      "word": "the",
+      "start": 13.5,
+      "end": 13.56
+    },
+    {
+      "word": "snow",
+      "start": 13.56,
+      "end": 14.08
+    },
+    {
+      "word": "we",
+      "start": 14.08,
+      "end": 14.86
+    },
+    {
+      "word": "make",
+      "start": 14.86,
+      "end": 15.32
+    },
+    {
+      "word": "a",
+      "start": 15.32,
+      "end": 15.66
+    },
+    {
+      "word": "snowman",
+      "start": 15.66,
+      "end": 16.68
+    },
+    {
+      "word": "we",
+      "start": 16.68,
+      "end": 17.16
+    },
+    {
+      "word": "make",
+      "start": 17.16,
+      "end": 17.62
+    },
+    {
+      "word": "arms",
+      "start": 17.62,
+      "end": 18.06
+    },
+    {
+      "word": "for",
+      "start": 18.06,
+      "end": 18.58
+    },
+    {
+      "word": "the",
+      "start": 18.58,
+      "end": 18.7
+    },
+    {
+      "word": "snowman",
+      "start": 18.7,
+      "end": 19.84
+    },
+    {
+      "word": "we",
+      "start": 19.84,
+      "end": 20.5
+    },
+    {
+      "word": "make",
+      "start": 20.5,
+      "end": 20.96
+    },
+    {
+      "word": "eyes",
+      "start": 20.96,
+      "end": 21.44
+    },
+    {
+      "word": "for",
+      "start": 21.44,
+      "end": 21.8
+    },
+    {
+      "word": "snowman",
+      "start": 21.8,
+      "end": 22.9
+    },
+    {
+      "word": "we",
+      "start": 23.58,
+      "end": 23.9
+    },
+    {
+      "word": "make",
+      "start": 23.9,
+      "end": 24.24
+    },
+    {
+      "word": "a",
+      "start": 24.24,
+      "end": 24.62
+    },
+    {
+      "word": "nose",
+      "start": 24.62,
+      "end": 24.98
+    },
+    {
+      "word": "and",
+      "start": 24.98,
+      "end": 25.46
+    },
+    {
+      "word": "a",
+      "start": 25.46,
+      "end": 25.8
+    },
+    {
+      "word": "mouth",
+      "start": 25.8,
+      "end": 26.28
+    },
+    {
+      "word": "we",
+      "start": 26.9,
+      "end": 27.24
+    },
+    {
+      "word": "play",
+      "start": 27.24,
+      "end": 27.82
+    },
+    {
+      "word": "with",
+      "start": 27.82,
+      "end": 28.2
+    },
+    {
+      "word": "the",
+      "start": 28.2,
+      "end": 28.44
+    },
+    {
+      "word": "snowman",
+      "start": 28.44,
+      "end": 29.26
+    },
+    {
+      "word": "we",
+      "start": 29.92,
+      "end": 30.14
+    },
+    {
+      "word": "go",
+      "start": 30.14,
+      "end": 30.52
+    },
+    {
+      "word": "in",
+      "start": 30.52,
+      "end": 30.98
+    },
+    {
+      "word": "the",
+      "start": 30.98,
+      "end": 31.1
+    },
+    {
+      "word": "house",
+      "start": 31.1,
+      "end": 31.76
+    },
+    {
+      "word": "dad",
+      "start": 32.56,
+      "end": 32.86
+    },
+    {
+      "word": "makes",
+      "start": 32.86,
+      "end": 33.24
+    },
+    {
+      "word": "heart",
+      "start": 33.24,
+      "end": 33.94
+    },
+    {
+      "word": "soup",
+      "start": 33.94,
+      "end": 34.42
+    },
+    {
+      "word": "yum",
+      "start": 35.16,
+      "end": 35.52
+    }
+  ]
+}

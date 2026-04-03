@@ -1,0 +1,54 @@
+{
+  "id": "level-b/games-we-play",
+  "title": "Games We Play",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Games We Mm s Written by Saetia Illustrated by Signe Nordin wwwreadinga-z.com Play 0 Noy"
+    },
+    {
+      "page": 2,
+      "text": "Games We Written by Saetia Illustrated by Signe Nordin wwwreadinga-z.com Play Noy"
+    },
+    {
+      "page": 3,
+      "text": "A~ A~ We like to play tag: Games We 0 Level B 3 Play"
+    },
+    {
+      "page": 4,
+      "text": "ri 6m We like to play baseball:"
+    },
+    {
+      "page": 5,
+      "text": "S We like to play soccer. Games We 0 Level B 5 M ~ Play"
+    },
+    {
+      "page": 6,
+      "text": "We like to play dress-up. My"
+    },
+    {
+      "page": 7,
+      "text": "We like to play house: Games We 0 Level B Play"
+    },
+    {
+      "page": 8,
+      "text": "S1L-WMAAMWAuoMwJ We like to play hide and seek 8 A~~"
+    },
+    {
+      "page": 9,
+      "text": "We like to play video games: Games We 0 Level B Play"
+    },
+    {
+      "page": 10,
+      "text": "Ee p1AMHJoYA But we do not play with fire: 10"
+    },
+    {
+      "page": 11,
+      "text": "Games We Level B Leveled Book 0 Learning A-Z Correlation Written by Saetia LEVEL B Illustrated by Signe Nordin Fountas & Pinnell B All rights reserved: Reading Recovery 2 DRA 2 wwwreadinga-zcom Play Noy"
+    }
+  ]
+}

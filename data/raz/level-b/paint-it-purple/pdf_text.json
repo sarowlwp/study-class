@@ -1,0 +1,54 @@
+{
+  "id": "level-b/paint-it-purple",
+  "title": "Paint It Purple",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Paint It Purple M Written by Katherine Follett Illustrated by Signe Nordin www.readinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Paint It Purple HhhhHhhh #Hhhihll Written by Katherine Follett Illustrated by Signe Nordin wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "1 like purple Paint It Purple * Level B 3 paint_"
+    },
+    {
+      "page": 4,
+      "text": "L paint my swing M purple."
+    },
+    {
+      "page": 5,
+      "text": "3 1 paint the fence purple. Paint It Purple * Level B 5"
+    },
+    {
+      "page": 6,
+      "text": "I paint the hose purple. 2"
+    },
+    {
+      "page": 7,
+      "text": "<L Llb M 1 paint my shoes purple. Paint It Purple * Level B"
+    },
+    {
+      "page": 8,
+      "text": "M M 1 paint the grass 8 purple."
+    },
+    {
+      "page": 9,
+      "text": "udp 1 paint the door purple. Paint It Purple * Level B"
+    },
+    {
+      "page": 10,
+      "text": "1 my mom Mom does not like purple 10 painf purple. paint ."
+    },
+    {
+      "page": 11,
+      "text": "Paint It Purple Loadingl Wrilten by Kotherine Fc el Eustroted By Sigra Ncrdin Paint It Purple Level B Leveled Book Learning A-Z Correlation Written by Katherine Follett LEVEL B Illustrated by Nordin Fountas & Pinnell B All rights reserved. Reading Recovery 2 DRA 2 WWW.  readinga-z.com Signe"
+    }
+  ]
+}

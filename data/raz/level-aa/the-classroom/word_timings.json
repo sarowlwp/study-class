@@ -1,0 +1,116 @@
+{
+  "version": "1.0",
+  "total_words": 22,
+  "timings": [
+    {
+      "word": "the",
+      "start": 0.0,
+      "end": 0.34
+    },
+    {
+      "word": "classroom",
+      "start": 0.34,
+      "end": 1.14
+    },
+    {
+      "word": "written",
+      "start": 1.86,
+      "end": 2.3
+    },
+    {
+      "word": "by",
+      "start": 2.3,
+      "end": 2.82
+    },
+    {
+      "word": "nanette",
+      "start": 2.82,
+      "end": 3.84
+    },
+    {
+      "word": "routure",
+      "start": 3.84,
+      "end": 5.52
+    },
+    {
+      "word": "the",
+      "start": 6.9,
+      "end": 7.6
+    },
+    {
+      "word": "chair",
+      "start": 7.6,
+      "end": 8.58
+    },
+    {
+      "word": "the",
+      "start": 10.0,
+      "end": 11.0
+    },
+    {
+      "word": "desk",
+      "start": 11.0,
+      "end": 12.18
+    },
+    {
+      "word": "the",
+      "start": 13.84,
+      "end": 14.54
+    },
+    {
+      "word": "book",
+      "start": 14.54,
+      "end": 15.82
+    },
+    {
+      "word": "the",
+      "start": 17.0,
+      "end": 17.92
+    },
+    {
+      "word": "paper",
+      "start": 17.92,
+      "end": 19.36
+    },
+    {
+      "word": "the",
+      "start": 20.84,
+      "end": 21.54
+    },
+    {
+      "word": "pencil",
+      "start": 21.54,
+      "end": 22.76
+    },
+    {
+      "word": "the",
+      "start": 24.0,
+      "end": 25.26
+    },
+    {
+      "word": "eraser",
+      "start": 25.26,
+      "end": 26.12
+    },
+    {
+      "word": "the",
+      "start": 26.12,
+      "end": 28.84
+    },
+    {
+      "word": "backpack",
+      "start": 28.84,
+      "end": 30.26
+    },
+    {
+      "word": "the",
+      "start": 31.12,
+      "end": 32.52
+    },
+    {
+      "word": "classroom",
+      "start": 32.52,
+      "end": 33.54
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "level-b/beach-fun",
+  "title": "Beach Fun",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Beach Fun Written by Marvin D Bodner wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Beach Fun Written by Marvin D. Bodner wwwreadinga-z.com Focus Question What can you do at the beach?"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know beach kites castles shells dig swim Photo Credits: Front cover: @ Travel Pictures/Alamy Stock Photo; title page: @ Michael Newman/PhotoEdit; page 3: @ Yuriy Brykaylo/Alamy Stock Photo; page 4: @ Agencja Fotograficzna Caro/Alamy Stock Photo; page 5: Pegaz/Alamy Stock Photo; page 6: Juice Images/Alamy Stock Photo; page 7: @ Science Photo Library/Alamy Stock Photo; page 8: @ Tamara Kulikova/123RF; page 9: @ Mirek Weischel/First Light/Corbis; page 10: @ Purestock/Alamy Stock Photo Beach Fun Level B Leveled Book Correlation Learning A-Z LEVEL B Written by Marvin D. Bodner Fountas & Pinnell B All rights reserved: Reading Recovery_ 2 DRA 2 wwwreadinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "We swim at the beach: Beach Fun Level B 3"
+    },
+    {
+      "page": 5,
+      "text": "We dig at the beach_"
+    },
+    {
+      "page": 6,
+      "text": "We run at the beach: Beach Fun Level B 5"
+    },
+    {
+      "page": 7,
+      "text": "Shn We eat at the beach:"
+    },
+    {
+      "page": 8,
+      "text": "We play at the beach: Beach Fun Level B"
+    },
+    {
+      "page": 9,
+      "text": "0 We kites at the beach: 8 1 fly"
+    },
+    {
+      "page": 10,
+      "text": "We find shells at the beach: Beach Fun Level B"
+    },
+    {
+      "page": 11,
+      "text": "We build castles at the beach: 10"
+    },
+    {
+      "page": 12,
+      "text": "Beach Fun A Reading A-Z Level B Leveled Book Word Count: 43 Connections Writing and Art What would you like to do at the beach? Draw a picture and write about it. Science What types of animals could you see at the beach? Share your ideas with a partner: Reading A-z Visit wwwreadinga-z.com for thousands of books and materials."
+    }
+  ]
+}

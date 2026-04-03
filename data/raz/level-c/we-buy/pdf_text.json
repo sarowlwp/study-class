@@ -1,0 +1,58 @@
+{
+  "id": "level-c/we-buy",
+  "title": "We Buy",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C We Written by Sarah Ghusson Illustrated by Wolek wwwreadinga-z.com Buy Guy"
+    },
+    {
+      "page": 2,
+      "text": "We Ieayions_ Written by Sarah Ghusson Illustrated by Wolek www.readinga-z.com Focus Question What can you at a store? Buy Guy buy"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know bank crayons buys furniture clothes tools We Level Leveled Book 0 Learning A-Z Correlation Written by Sarah Ghusson LEVEL C Illustrated by Wolek Fountas & Pinnell All rights reserved. Reading Recovery 3-4 DRA 3-4 wwwreadinga-z.com Buy Guy"
+    },
+    {
+      "page": 4,
+      "text": "We go to a store. Mom buys food_ We 0 Level C 3 TMh 814 Buy -"
+    },
+    {
+      "page": 5,
+      "text": "We go to a store. I candy: 4 buy"
+    },
+    {
+      "page": 6,
+      "text": "ILE We go to a store. Dad buys clothes: We 0 Level C 5 Buy"
+    },
+    {
+      "page": 7,
+      "text": "We go to a store: I toys. buy"
+    },
+    {
+      "page": 8,
+      "text": "6 We go to a store. Mom buys tools. We 0 Level C Buy -"
+    },
+    {
+      "page": 9,
+      "text": "Ierayons We go to a store. I crayons: 8 buy"
+    },
+    {
+      "page": 10,
+      "text": "We go to a store. Dad buys furniture: We 0 Level C Buy"
+    },
+    {
+      "page": 11,
+      "text": "We need more moneyl We go to the bank 10"
+    },
+    {
+      "page": 12,
+      "text": "We A Reading A-Z Level C Leveled Book Word Count: 65 Connections Writing and Art What would you at a store? Draw & picture and write about it. Social Studies People buy things they want and things they need. Which of the things in this book do people need? Which things do people want? Share your ideas with the class. Reading A-Z Visit wwwreadinga-z.com for thousands of books and materials. Buy buy"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "level-c/a-place-called-home",
+  "title": "A Place Called Home",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C A Place Called Home Written by Torran Anderson Illustrated by Kiersten Eagan wwwreadinga-z.com 0^5"
+    },
+    {
+      "page": 2,
+      "text": "A Place Called Home Written by Torran Anderson Illustrated Kiersten Eagan wwwreadinga-z.com by"
+    },
+    {
+      "page": 3,
+      "text": "This is a room: Place Called Home Level C 3"
+    },
+    {
+      "page": 4,
+      "text": "\" The room is in a house: 4"
+    },
+    {
+      "page": 5,
+      "text": "The house is on a street. Place Called Home Level € 5"
+    },
+    {
+      "page": 6,
+      "text": "The street is in a city:"
+    },
+    {
+      "page": 7,
+      "text": "The is in a state. Place Called Home Level € city"
+    },
+    {
+      "page": 8,
+      "text": "The state is in a country: 8"
+    },
+    {
+      "page": 9,
+      "text": "The country is in the world: Place Called Home Level €"
+    },
+    {
+      "page": 10,
+      "text": "The world is the place we home. 10 call"
+    },
+    {
+      "page": 11,
+      "text": "A Place Called Home Level C Leveled Book Learning A-Z Correlation Written by Torran Anderson LEVEL € Illustrated by Kiersten Eagan Fountas & Pinnell C AIl rights reserved: Reading Recovery_ 3-4 DRA 3-4 wwwreadinga-z.com"
+    }
+  ]
+}

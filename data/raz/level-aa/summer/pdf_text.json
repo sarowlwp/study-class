@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/summer",
+  "title": "Summer",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , Aa Summer Written by Vic Moors Illustrated by Darcy Tom WWw.readinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Summer Written by Vic Moors Illustrated by Darcy Tom wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "The sunshine. Summer Level aa 3"
+    },
+    {
+      "page": 4,
+      "text": "4d4 The rain_ 7"
+    },
+    {
+      "page": 5,
+      "text": "The beach Summer Level aa 5"
+    },
+    {
+      "page": 6,
+      "text": "The swimsuit _"
+    },
+    {
+      "page": 7,
+      "text": "The ball: Summer Level aa"
+    },
+    {
+      "page": 8,
+      "text": "The flowers. 8"
+    },
+    {
+      "page": 9,
+      "text": "The  garden Summer Level aa"
+    },
+    {
+      "page": 10,
+      "text": "The summer_ 10 GucXr"
+    },
+    {
+      "page": 11,
+      "text": "Summer Level aa Leveled Book Learning A-Z Correlation Written by Vic Moors LEVEL aa Illustrated by Darcy Tom Fountas & Pinnell A All rights reserved. Reading_Recovery DRA A-| WWW.R readinga-z.com"
+    }
+  ]
+}

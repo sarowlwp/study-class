@@ -1,0 +1,776 @@
+{
+  "version": "1.0",
+  "total_words": 154,
+  "timings": [
+    {
+      "word": "then",
+      "start": 0.0,
+      "end": 0.8
+    },
+    {
+      "word": "and",
+      "start": 1.38,
+      "end": 1.8
+    },
+    {
+      "word": "now",
+      "start": 1.8,
+      "end": 3.06
+    },
+    {
+      "word": "written",
+      "start": 4.4,
+      "end": 4.72
+    },
+    {
+      "word": "by",
+      "start": 4.72,
+      "end": 5.68
+    },
+    {
+      "word": "craig",
+      "start": 5.68,
+      "end": 6.28
+    },
+    {
+      "word": "frederick",
+      "start": 6.28,
+      "end": 7.48
+    },
+    {
+      "word": "focus",
+      "start": 9.7,
+      "end": 9.98
+    },
+    {
+      "word": "question",
+      "start": 9.98,
+      "end": 11.0
+    },
+    {
+      "word": "how",
+      "start": 12.38,
+      "end": 12.72
+    },
+    {
+      "word": "have",
+      "start": 12.72,
+      "end": 13.54
+    },
+    {
+      "word": "things",
+      "start": 13.54,
+      "end": 14.14
+    },
+    {
+      "word": "changed",
+      "start": 14.14,
+      "end": 15.32
+    },
+    {
+      "word": "over",
+      "start": 15.32,
+      "end": 16.08
+    },
+    {
+      "word": "time",
+      "start": 16.08,
+      "end": 16.92
+    },
+    {
+      "word": "this",
+      "start": 17.28,
+      "end": 17.94
+    },
+    {
+      "word": "is",
+      "start": 17.94,
+      "end": 19.16
+    },
+    {
+      "word": "an",
+      "start": 19.16,
+      "end": 19.4
+    },
+    {
+      "word": "old",
+      "start": 19.4,
+      "end": 20.16
+    },
+    {
+      "word": "light",
+      "start": 20.16,
+      "end": 20.88
+    },
+    {
+      "word": "bulb",
+      "start": 20.88,
+      "end": 21.4
+    },
+    {
+      "word": "this",
+      "start": 21.4,
+      "end": 23.5
+    },
+    {
+      "word": "is",
+      "start": 23.5,
+      "end": 25.02
+    },
+    {
+      "word": "a",
+      "start": 25.02,
+      "end": 25.42
+    },
+    {
+      "word": "new",
+      "start": 25.42,
+      "end": 25.9
+    },
+    {
+      "word": "light",
+      "start": 25.9,
+      "end": 26.54
+    },
+    {
+      "word": "bulb",
+      "start": 26.54,
+      "end": 27.1
+    },
+    {
+      "word": "this",
+      "start": 28.32,
+      "end": 28.4
+    },
+    {
+      "word": "is",
+      "start": 28.4,
+      "end": 29.56
+    },
+    {
+      "word": "an",
+      "start": 29.56,
+      "end": 29.88
+    },
+    {
+      "word": "old",
+      "start": 29.88,
+      "end": 30.4
+    },
+    {
+      "word": "camera",
+      "start": 30.4,
+      "end": 31.2
+    },
+    {
+      "word": "this",
+      "start": 32.58,
+      "end": 33.58
+    },
+    {
+      "word": "is",
+      "start": 33.58,
+      "end": 35.04
+    },
+    {
+      "word": "a",
+      "start": 35.04,
+      "end": 35.04
+    },
+    {
+      "word": "new",
+      "start": 35.04,
+      "end": 35.52
+    },
+    {
+      "word": "camera",
+      "start": 35.52,
+      "end": 36.28
+    },
+    {
+      "word": "this",
+      "start": 36.82,
+      "end": 37.52
+    },
+    {
+      "word": "is",
+      "start": 37.52,
+      "end": 38.76
+    },
+    {
+      "word": "an",
+      "start": 38.76,
+      "end": 38.88
+    },
+    {
+      "word": "old",
+      "start": 38.88,
+      "end": 39.66
+    },
+    {
+      "word": "cell",
+      "start": 39.66,
+      "end": 40.42
+    },
+    {
+      "word": "phone",
+      "start": 40.42,
+      "end": 41.2
+    },
+    {
+      "word": "this",
+      "start": 41.2,
+      "end": 43.1
+    },
+    {
+      "word": "is",
+      "start": 43.1,
+      "end": 44.38
+    },
+    {
+      "word": "a",
+      "start": 44.38,
+      "end": 44.7
+    },
+    {
+      "word": "new",
+      "start": 44.7,
+      "end": 45.24
+    },
+    {
+      "word": "cell",
+      "start": 45.24,
+      "end": 45.98
+    },
+    {
+      "word": "phone",
+      "start": 45.98,
+      "end": 46.56
+    },
+    {
+      "word": "this",
+      "start": 47.28,
+      "end": 47.62
+    },
+    {
+      "word": "is",
+      "start": 47.62,
+      "end": 48.66
+    },
+    {
+      "word": "an",
+      "start": 48.66,
+      "end": 49.0
+    },
+    {
+      "word": "old",
+      "start": 49.0,
+      "end": 49.56
+    },
+    {
+      "word": "television",
+      "start": 49.56,
+      "end": 50.58
+    },
+    {
+      "word": "this",
+      "start": 51.82,
+      "end": 53.2
+    },
+    {
+      "word": "is",
+      "start": 53.2,
+      "end": 54.42
+    },
+    {
+      "word": "a",
+      "start": 54.42,
+      "end": 54.68
+    },
+    {
+      "word": "new",
+      "start": 54.68,
+      "end": 55.24
+    },
+    {
+      "word": "television",
+      "start": 55.24,
+      "end": 56.18
+    },
+    {
+      "word": "this",
+      "start": 57.06,
+      "end": 57.52
+    },
+    {
+      "word": "is",
+      "start": 57.52,
+      "end": 58.68
+    },
+    {
+      "word": "an",
+      "start": 58.68,
+      "end": 59.02
+    },
+    {
+      "word": "old",
+      "start": 59.02,
+      "end": 59.7
+    },
+    {
+      "word": "computer",
+      "start": 59.7,
+      "end": 60.8
+    },
+    {
+      "word": "this",
+      "start": 60.8,
+      "end": 62.88
+    },
+    {
+      "word": "is",
+      "start": 62.88,
+      "end": 64.02
+    },
+    {
+      "word": "a",
+      "start": 64.02,
+      "end": 64.3
+    },
+    {
+      "word": "new",
+      "start": 64.3,
+      "end": 64.82
+    },
+    {
+      "word": "computer",
+      "start": 64.82,
+      "end": 65.7
+    },
+    {
+      "word": "this",
+      "start": 66.52,
+      "end": 66.86
+    },
+    {
+      "word": "is",
+      "start": 66.86,
+      "end": 68.06
+    },
+    {
+      "word": "an",
+      "start": 68.06,
+      "end": 68.46
+    },
+    {
+      "word": "old",
+      "start": 68.46,
+      "end": 69.06
+    },
+    {
+      "word": "car",
+      "start": 69.06,
+      "end": 70.1
+    },
+    {
+      "word": "this",
+      "start": 71.98,
+      "end": 72.12
+    },
+    {
+      "word": "is",
+      "start": 72.12,
+      "end": 73.72
+    },
+    {
+      "word": "a",
+      "start": 73.72,
+      "end": 73.74
+    },
+    {
+      "word": "new",
+      "start": 73.74,
+      "end": 74.26
+    },
+    {
+      "word": "car",
+      "start": 74.26,
+      "end": 75.22
+    },
+    {
+      "word": "this",
+      "start": 76.14,
+      "end": 76.36
+    },
+    {
+      "word": "is",
+      "start": 76.36,
+      "end": 77.52
+    },
+    {
+      "word": "an",
+      "start": 77.52,
+      "end": 77.84
+    },
+    {
+      "word": "old",
+      "start": 77.84,
+      "end": 78.36
+    },
+    {
+      "word": "train",
+      "start": 78.36,
+      "end": 79.34
+    },
+    {
+      "word": "this",
+      "start": 79.34,
+      "end": 81.12
+    },
+    {
+      "word": "is",
+      "start": 81.12,
+      "end": 82.44
+    },
+    {
+      "word": "a",
+      "start": 82.44,
+      "end": 82.74
+    },
+    {
+      "word": "new",
+      "start": 82.74,
+      "end": 83.12
+    },
+    {
+      "word": "train",
+      "start": 83.12,
+      "end": 84.0
+    },
+    {
+      "word": "this",
+      "start": 84.8,
+      "end": 85.3
+    },
+    {
+      "word": "is",
+      "start": 85.3,
+      "end": 86.08
+    },
+    {
+      "word": "an",
+      "start": 86.08,
+      "end": 86.8
+    },
+    {
+      "word": "old",
+      "start": 86.8,
+      "end": 87.36
+    },
+    {
+      "word": "plane",
+      "start": 87.36,
+      "end": 88.34
+    },
+    {
+      "word": "this",
+      "start": 90.12,
+      "end": 90.44
+    },
+    {
+      "word": "is",
+      "start": 90.44,
+      "end": 91.2
+    },
+    {
+      "word": "a",
+      "start": 91.2,
+      "end": 91.88
+    },
+    {
+      "word": "new",
+      "start": 91.88,
+      "end": 92.3
+    },
+    {
+      "word": "plane",
+      "start": 92.3,
+      "end": 93.26
+    },
+    {
+      "word": "connections",
+      "start": 93.84,
+      "end": 95.08
+    },
+    {
+      "word": "writing",
+      "start": 96.18,
+      "end": 96.34
+    },
+    {
+      "word": "and",
+      "start": 96.34,
+      "end": 97.32
+    },
+    {
+      "word": "art",
+      "start": 97.32,
+      "end": 98.7
+    },
+    {
+      "word": "pick",
+      "start": 98.7,
+      "end": 100.44
+    },
+    {
+      "word": "one",
+      "start": 100.44,
+      "end": 101.22
+    },
+    {
+      "word": "old",
+      "start": 101.22,
+      "end": 101.9
+    },
+    {
+      "word": "and",
+      "start": 101.9,
+      "end": 102.86
+    },
+    {
+      "word": "one",
+      "start": 102.86,
+      "end": 103.32
+    },
+    {
+      "word": "new",
+      "start": 103.32,
+      "end": 104.02
+    },
+    {
+      "word": "item",
+      "start": 104.02,
+      "end": 104.8
+    },
+    {
+      "word": "from",
+      "start": 104.8,
+      "end": 105.62
+    },
+    {
+      "word": "the",
+      "start": 105.62,
+      "end": 105.98
+    },
+    {
+      "word": "book",
+      "start": 105.98,
+      "end": 106.78
+    },
+    {
+      "word": "draw",
+      "start": 107.76,
+      "end": 108.02
+    },
+    {
+      "word": "a",
+      "start": 108.02,
+      "end": 108.54
+    },
+    {
+      "word": "picture",
+      "start": 108.54,
+      "end": 109.08
+    },
+    {
+      "word": "and",
+      "start": 109.08,
+      "end": 110.06
+    },
+    {
+      "word": "write",
+      "start": 110.06,
+      "end": 110.4
+    },
+    {
+      "word": "about",
+      "start": 110.4,
+      "end": 111.1
+    },
+    {
+      "word": "one",
+      "start": 111.1,
+      "end": 111.74
+    },
+    {
+      "word": "way",
+      "start": 111.74,
+      "end": 112.2
+    },
+    {
+      "word": "they",
+      "start": 112.2,
+      "end": 112.74
+    },
+    {
+      "word": "are",
+      "start": 112.74,
+      "end": 112.98
+    },
+    {
+      "word": "alike",
+      "start": 112.98,
+      "end": 113.58
+    },
+    {
+      "word": "and",
+      "start": 113.58,
+      "end": 114.52
+    },
+    {
+      "word": "one",
+      "start": 114.52,
+      "end": 114.82
+    },
+    {
+      "word": "way",
+      "start": 114.82,
+      "end": 115.44
+    },
+    {
+      "word": "they",
+      "start": 115.44,
+      "end": 116.1
+    },
+    {
+      "word": "are",
+      "start": 116.1,
+      "end": 116.46
+    },
+    {
+      "word": "different",
+      "start": 116.46,
+      "end": 117.36
+    },
+    {
+      "word": "social",
+      "start": 117.36,
+      "end": 119.44
+    },
+    {
+      "word": "studies",
+      "start": 119.44,
+      "end": 120.22
+    },
+    {
+      "word": "why",
+      "start": 122.04,
+      "end": 122.32
+    },
+    {
+      "word": "is",
+      "start": 122.32,
+      "end": 122.88
+    },
+    {
+      "word": "it",
+      "start": 122.88,
+      "end": 123.48
+    },
+    {
+      "word": "important",
+      "start": 123.48,
+      "end": 123.96
+    },
+    {
+      "word": "for",
+      "start": 123.96,
+      "end": 125.04
+    },
+    {
+      "word": "things",
+      "start": 125.04,
+      "end": 125.7
+    },
+    {
+      "word": "to",
+      "start": 125.7,
+      "end": 126.2
+    },
+    {
+      "word": "change",
+      "start": 126.2,
+      "end": 126.82
+    },
+    {
+      "word": "over",
+      "start": 126.82,
+      "end": 127.6
+    },
+    {
+      "word": "time",
+      "start": 127.6,
+      "end": 128.48
+    },
+    {
+      "word": "what",
+      "start": 129.78,
+      "end": 130.02
+    },
+    {
+      "word": "would",
+      "start": 130.02,
+      "end": 130.86
+    },
+    {
+      "word": "happen",
+      "start": 130.86,
+      "end": 131.5
+    },
+    {
+      "word": "if",
+      "start": 131.5,
+      "end": 132.42
+    },
+    {
+      "word": "nothing",
+      "start": 132.42,
+      "end": 132.88
+    },
+    {
+      "word": "changed",
+      "start": 132.88,
+      "end": 133.84
+    },
+    {
+      "word": "share",
+      "start": 135.16,
+      "end": 135.48
+    },
+    {
+      "word": "your",
+      "start": 135.48,
+      "end": 136.22
+    },
+    {
+      "word": "ideas",
+      "start": 136.22,
+      "end": 136.92
+    },
+    {
+      "word": "with",
+      "start": 136.92,
+      "end": 137.7
+    },
+    {
+      "word": "a",
+      "start": 137.7,
+      "end": 137.94
+    },
+    {
+      "word": "partner",
+      "start": 137.94,
+      "end": 138.28
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "version": "1.0",
+  "total_words": 76,
+  "timings": [
+    {
+      "word": "eleven",
+      "start": 0.0,
+      "end": 1.0
+    },
+    {
+      "word": "written",
+      "start": 2.16,
+      "end": 2.58
+    },
+    {
+      "word": "by",
+      "start": 2.58,
+      "end": 3.22
+    },
+    {
+      "word": "rachel",
+      "start": 3.22,
+      "end": 3.74
+    },
+    {
+      "word": "rice",
+      "start": 3.74,
+      "end": 4.78
+    },
+    {
+      "word": "illustrated",
+      "start": 5.64,
+      "end": 6.32
+    },
+    {
+      "word": "by",
+      "start": 6.32,
+      "end": 7.06
+    },
+    {
+      "word": "hector",
+      "start": 7.06,
+      "end": 7.78
+    },
+    {
+      "word": "borleska",
+      "start": 7.78,
+      "end": 9.02
+    },
+    {
+      "word": "focus",
+      "start": 10.08,
+      "end": 10.22
+    },
+    {
+      "word": "question",
+      "start": 10.22,
+      "end": 11.2
+    },
+    {
+      "word": "what",
+      "start": 12.36,
+      "end": 12.46
+    },
+    {
+      "word": "could",
+      "start": 12.46,
+      "end": 12.9
+    },
+    {
+      "word": "you",
+      "start": 12.9,
+      "end": 13.18
+    },
+    {
+      "word": "see",
+      "start": 13.18,
+      "end": 13.7
+    },
+    {
+      "word": "at",
+      "start": 13.7,
+      "end": 14.04
+    },
+    {
+      "word": "a",
+      "start": 14.04,
+      "end": 14.18
+    },
+    {
+      "word": "birthday",
+      "start": 14.18,
+      "end": 14.56
+    },
+    {
+      "word": "party",
+      "start": 14.56,
+      "end": 15.4
+    },
+    {
+      "word": "11",
+      "start": 16.38,
+      "end": 16.38
+    },
+    {
+      "word": "cards",
+      "start": 16.38,
+      "end": 17.14
+    },
+    {
+      "word": "11",
+      "start": 18.22,
+      "end": 18.68
+    },
+    {
+      "word": "balloons",
+      "start": 18.68,
+      "end": 19.8
+    },
+    {
+      "word": "11",
+      "start": 20.9,
+      "end": 21.3
+    },
+    {
+      "word": "hats",
+      "start": 21.3,
+      "end": 22.3
+    },
+    {
+      "word": "11",
+      "start": 23.18,
+      "end": 23.66
+    },
+    {
+      "word": "pizzas",
+      "start": 23.66,
+      "end": 24.62
+    },
+    {
+      "word": "11",
+      "start": 25.6,
+      "end": 26.14
+    },
+    {
+      "word": "cupcakes",
+      "start": 26.14,
+      "end": 27.38
+    },
+    {
+      "word": "11",
+      "start": 28.18,
+      "end": 28.7
+    },
+    {
+      "word": "presents",
+      "start": 28.7,
+      "end": 29.98
+    },
+    {
+      "word": "this",
+      "start": 29.98,
+      "end": 30.14
+    },
+    {
+      "word": "11",
+      "start": 30.8,
+      "end": 31.26
+    },
+    {
+      "word": "candy",
+      "start": 31.94,
+      "end": 32.24
+    },
+    {
+      "word": "bars",
+      "start": 32.24,
+      "end": 32.86
+    },
+    {
+      "word": "11",
+      "start": 33.68,
+      "end": 34.24
+    },
+    {
+      "word": "friends",
+      "start": 34.82,
+      "end": 35.24
+    },
+    {
+      "word": "connections",
+      "start": 35.96,
+      "end": 36.68
+    },
+    {
+      "word": "writing",
+      "start": 37.88,
+      "end": 38.08
+    },
+    {
+      "word": "and",
+      "start": 38.08,
+      "end": 38.66
+    },
+    {
+      "word": "art",
+      "start": 38.66,
+      "end": 39.5
+    },
+    {
+      "word": "what",
+      "start": 40.72,
+      "end": 40.76
+    },
+    {
+      "word": "do",
+      "start": 40.76,
+      "end": 41.28
+    },
+    {
+      "word": "you",
+      "start": 41.28,
+      "end": 41.54
+    },
+    {
+      "word": "like",
+      "start": 41.54,
+      "end": 41.88
+    },
+    {
+      "word": "to",
+      "start": 41.88,
+      "end": 42.14
+    },
+    {
+      "word": "do",
+      "start": 42.14,
+      "end": 42.58
+    },
+    {
+      "word": "on",
+      "start": 42.58,
+      "end": 42.98
+    },
+    {
+      "word": "your",
+      "start": 42.98,
+      "end": 43.3
+    },
+    {
+      "word": "birthday",
+      "start": 43.3,
+      "end": 43.92
+    },
+    {
+      "word": "draw",
+      "start": 44.7,
+      "end": 45.0
+    },
+    {
+      "word": "a",
+      "start": 45.0,
+      "end": 45.4
+    },
+    {
+      "word": "picture",
+      "start": 45.4,
+      "end": 45.76
+    },
+    {
+      "word": "and",
+      "start": 45.76,
+      "end": 46.46
+    },
+    {
+      "word": "write",
+      "start": 46.46,
+      "end": 46.76
+    },
+    {
+      "word": "about",
+      "start": 46.76,
+      "end": 47.14
+    },
+    {
+      "word": "it",
+      "start": 47.14,
+      "end": 48.08
+    },
+    {
+      "word": "math",
+      "start": 48.56,
+      "end": 49.0
+    },
+    {
+      "word": "create",
+      "start": 50.04,
+      "end": 50.54
+    },
+    {
+      "word": "a",
+      "start": 50.54,
+      "end": 51.04
+    },
+    {
+      "word": "new",
+      "start": 51.04,
+      "end": 51.3
+    },
+    {
+      "word": "page",
+      "start": 51.3,
+      "end": 51.8
+    },
+    {
+      "word": "for",
+      "start": 51.8,
+      "end": 52.28
+    },
+    {
+      "word": "the",
+      "start": 52.28,
+      "end": 52.5
+    },
+    {
+      "word": "book",
+      "start": 52.5,
+      "end": 53.1
+    },
+    {
+      "word": "draw",
+      "start": 53.8,
+      "end": 54.16
+    },
+    {
+      "word": "11",
+      "start": 54.16,
+      "end": 55.04
+    },
+    {
+      "word": "party",
+      "start": 55.04,
+      "end": 55.62
+    },
+    {
+      "word": "items",
+      "start": 55.62,
+      "end": 56.06
+    },
+    {
+      "word": "and",
+      "start": 56.06,
+      "end": 56.76
+    },
+    {
+      "word": "count",
+      "start": 56.76,
+      "end": 57.08
+    },
+    {
+      "word": "them",
+      "start": 57.08,
+      "end": 57.76
+    },
+    {
+      "word": "write",
+      "start": 57.76,
+      "end": 58.88
+    },
+    {
+      "word": "the",
+      "start": 58.88,
+      "end": 59.18
+    },
+    {
+      "word": "sentence",
+      "start": 59.18,
+      "end": 59.78
+    },
+    {
+      "word": "11",
+      "start": 60.6,
+      "end": 61.14
+    }
+  ]
+}

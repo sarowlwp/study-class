@@ -1,0 +1,551 @@
+{
+  "version": "1.0",
+  "total_words": 109,
+  "timings": [
+    {
+      "word": "you",
+      "start": 0.0,
+      "end": 0.54
+    },
+    {
+      "word": "like",
+      "start": 0.54,
+      "end": 1.26
+    },
+    {
+      "word": "what",
+      "start": 1.26,
+      "end": 2.5
+    },
+    {
+      "word": "written",
+      "start": 3.64,
+      "end": 3.78
+    },
+    {
+      "word": "by",
+      "start": 3.78,
+      "end": 4.46
+    },
+    {
+      "word": "nigel",
+      "start": 4.46,
+      "end": 5.42
+    },
+    {
+      "word": "pepper",
+      "start": 5.42,
+      "end": 6.1
+    },
+    {
+      "word": "house",
+      "start": 6.1,
+      "end": 6.86
+    },
+    {
+      "word": "focus",
+      "start": 7.84,
+      "end": 8.08
+    },
+    {
+      "word": "question",
+      "start": 8.08,
+      "end": 9.08
+    },
+    {
+      "word": "what",
+      "start": 10.34,
+      "end": 10.52
+    },
+    {
+      "word": "are",
+      "start": 10.52,
+      "end": 11.3
+    },
+    {
+      "word": "some",
+      "start": 11.3,
+      "end": 11.94
+    },
+    {
+      "word": "surprising",
+      "start": 11.94,
+      "end": 12.94
+    },
+    {
+      "word": "foods",
+      "start": 12.94,
+      "end": 13.74
+    },
+    {
+      "word": "that",
+      "start": 13.74,
+      "end": 14.48
+    },
+    {
+      "word": "children",
+      "start": 14.48,
+      "end": 15.14
+    },
+    {
+      "word": "like",
+      "start": 15.14,
+      "end": 15.92
+    },
+    {
+      "word": "to",
+      "start": 15.92,
+      "end": 16.52
+    },
+    {
+      "word": "eat",
+      "start": 16.52,
+      "end": 17.08
+    },
+    {
+      "word": "some",
+      "start": 17.84,
+      "end": 17.92
+    },
+    {
+      "word": "children",
+      "start": 17.92,
+      "end": 18.7
+    },
+    {
+      "word": "eat",
+      "start": 18.7,
+      "end": 19.58
+    },
+    {
+      "word": "surprising",
+      "start": 19.58,
+      "end": 20.72
+    },
+    {
+      "word": "foods",
+      "start": 20.72,
+      "end": 21.54
+    },
+    {
+      "word": "this",
+      "start": 22.32,
+      "end": 22.54
+    },
+    {
+      "word": "girl",
+      "start": 22.54,
+      "end": 23.2
+    },
+    {
+      "word": "likes",
+      "start": 23.2,
+      "end": 24.1
+    },
+    {
+      "word": "crickets",
+      "start": 24.1,
+      "end": 25.02
+    },
+    {
+      "word": "do",
+      "start": 26.1,
+      "end": 26.1
+    },
+    {
+      "word": "you",
+      "start": 26.1,
+      "end": 26.76
+    },
+    {
+      "word": "this",
+      "start": 27.48,
+      "end": 27.72
+    },
+    {
+      "word": "girl",
+      "start": 27.72,
+      "end": 28.38
+    },
+    {
+      "word": "likes",
+      "start": 28.38,
+      "end": 29.32
+    },
+    {
+      "word": "fish",
+      "start": 29.32,
+      "end": 29.96
+    },
+    {
+      "word": "eggs",
+      "start": 29.96,
+      "end": 30.72
+    },
+    {
+      "word": "do",
+      "start": 31.56,
+      "end": 31.56
+    },
+    {
+      "word": "you",
+      "start": 31.56,
+      "end": 32.18
+    },
+    {
+      "word": "this",
+      "start": 32.68,
+      "end": 32.96
+    },
+    {
+      "word": "boy",
+      "start": 32.96,
+      "end": 33.62
+    },
+    {
+      "word": "likes",
+      "start": 33.62,
+      "end": 34.44
+    },
+    {
+      "word": "water",
+      "start": 34.44,
+      "end": 35.16
+    },
+    {
+      "word": "bugs",
+      "start": 35.16,
+      "end": 35.64
+    },
+    {
+      "word": "do",
+      "start": 36.28,
+      "end": 36.68
+    },
+    {
+      "word": "you",
+      "start": 36.68,
+      "end": 37.24
+    },
+    {
+      "word": "this",
+      "start": 37.24,
+      "end": 38.16
+    },
+    {
+      "word": "boy",
+      "start": 38.16,
+      "end": 38.82
+    },
+    {
+      "word": "likes",
+      "start": 38.82,
+      "end": 39.64
+    },
+    {
+      "word": "meal",
+      "start": 39.64,
+      "end": 40.22
+    },
+    {
+      "word": "worms",
+      "start": 40.22,
+      "end": 40.74
+    },
+    {
+      "word": "do",
+      "start": 41.52,
+      "end": 41.6
+    },
+    {
+      "word": "you",
+      "start": 41.6,
+      "end": 42.34
+    },
+    {
+      "word": "this",
+      "start": 42.96,
+      "end": 43.16
+    },
+    {
+      "word": "girl",
+      "start": 43.16,
+      "end": 43.7
+    },
+    {
+      "word": "likes",
+      "start": 43.7,
+      "end": 44.48
+    },
+    {
+      "word": "flowers",
+      "start": 44.48,
+      "end": 45.22
+    },
+    {
+      "word": "do",
+      "start": 46.02,
+      "end": 46.34
+    },
+    {
+      "word": "you",
+      "start": 46.34,
+      "end": 46.94
+    },
+    {
+      "word": "this",
+      "start": 47.4,
+      "end": 47.66
+    },
+    {
+      "word": "boy",
+      "start": 47.66,
+      "end": 48.26
+    },
+    {
+      "word": "likes",
+      "start": 48.26,
+      "end": 49.24
+    },
+    {
+      "word": "spiders",
+      "start": 49.24,
+      "end": 49.86
+    },
+    {
+      "word": "do",
+      "start": 50.68,
+      "end": 51.0
+    },
+    {
+      "word": "you",
+      "start": 51.0,
+      "end": 51.66
+    },
+    {
+      "word": "this",
+      "start": 52.08,
+      "end": 52.32
+    },
+    {
+      "word": "girl",
+      "start": 52.32,
+      "end": 52.88
+    },
+    {
+      "word": "likes",
+      "start": 52.88,
+      "end": 53.76
+    },
+    {
+      "word": "squid",
+      "start": 53.76,
+      "end": 54.5
+    },
+    {
+      "word": "well",
+      "start": 55.48,
+      "end": 55.58
+    },
+    {
+      "word": "maybe",
+      "start": 56.16,
+      "end": 56.7
+    },
+    {
+      "word": "not",
+      "start": 56.7,
+      "end": 57.44
+    },
+    {
+      "word": "connections",
+      "start": 57.9,
+      "end": 58.62
+    },
+    {
+      "word": "writing",
+      "start": 59.34,
+      "end": 59.64
+    },
+    {
+      "word": "and",
+      "start": 59.64,
+      "end": 60.38
+    },
+    {
+      "word": "art",
+      "start": 60.38,
+      "end": 61.14
+    },
+    {
+      "word": "which",
+      "start": 62.38,
+      "end": 62.52
+    },
+    {
+      "word": "of",
+      "start": 62.52,
+      "end": 63.3
+    },
+    {
+      "word": "the",
+      "start": 63.3,
+      "end": 63.56
+    },
+    {
+      "word": "foods",
+      "start": 63.56,
+      "end": 64.04
+    },
+    {
+      "word": "in",
+      "start": 64.04,
+      "end": 64.6
+    },
+    {
+      "word": "the",
+      "start": 64.6,
+      "end": 64.8
+    },
+    {
+      "word": "book",
+      "start": 64.8,
+      "end": 65.22
+    },
+    {
+      "word": "would",
+      "start": 65.22,
+      "end": 65.86
+    },
+    {
+      "word": "you",
+      "start": 65.86,
+      "end": 66.28
+    },
+    {
+      "word": "try",
+      "start": 66.28,
+      "end": 66.8
+    },
+    {
+      "word": "why",
+      "start": 66.8,
+      "end": 67.72
+    },
+    {
+      "word": "draw",
+      "start": 68.66,
+      "end": 69.1
+    },
+    {
+      "word": "a",
+      "start": 69.1,
+      "end": 69.6
+    },
+    {
+      "word": "picture",
+      "start": 69.6,
+      "end": 69.98
+    },
+    {
+      "word": "and",
+      "start": 69.98,
+      "end": 70.98
+    },
+    {
+      "word": "write",
+      "start": 70.98,
+      "end": 71.34
+    },
+    {
+      "word": "about",
+      "start": 71.34,
+      "end": 72.06
+    },
+    {
+      "word": "it",
+      "start": 72.06,
+      "end": 73.06
+    },
+    {
+      "word": "science",
+      "start": 73.7,
+      "end": 74.14
+    },
+    {
+      "word": "sort",
+      "start": 75.52,
+      "end": 75.74
+    },
+    {
+      "word": "the",
+      "start": 75.74,
+      "end": 76.26
+    },
+    {
+      "word": "foods",
+      "start": 76.26,
+      "end": 76.78
+    },
+    {
+      "word": "from",
+      "start": 76.78,
+      "end": 77.48
+    },
+    {
+      "word": "the",
+      "start": 77.48,
+      "end": 77.7
+    },
+    {
+      "word": "book",
+      "start": 77.7,
+      "end": 78.22
+    },
+    {
+      "word": "into",
+      "start": 78.22,
+      "end": 78.9
+    },
+    {
+      "word": "different",
+      "start": 78.9,
+      "end": 79.62
+    },
+    {
+      "word": "groups",
+      "start": 79.62,
+      "end": 80.56
+    },
+    {
+      "word": "share",
+      "start": 81.52,
+      "end": 81.62
+    },
+    {
+      "word": "your",
+      "start": 81.62,
+      "end": 82.24
+    },
+    {
+      "word": "groups",
+      "start": 82.24,
+      "end": 82.74
+    },
+    {
+      "word": "with",
+      "start": 82.74,
+      "end": 83.46
+    },
+    {
+      "word": "a",
+      "start": 83.46,
+      "end": 83.7
+    },
+    {
+      "word": "partner",
+      "start": 83.7,
+      "end": 84.12
+    }
+  ]
+}

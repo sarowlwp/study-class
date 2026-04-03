@@ -1,0 +1,58 @@
+{
+  "id": "level-b/under-my-bed",
+  "title": "Under My Bed",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Under Bed Written by Anthony Curran Illustrated by Keith Frawley wwwreadinga-z.com My"
+    },
+    {
+      "page": 2,
+      "text": "Under Bed C (@ @) Written by Anthony Curran Illustrated by Keith Frawley wwwreadinga-z.com Focus Question What does under mean? My"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know bat book bed sock block under Under My Bed Level B Leveled Book 0 Learning A-Z Correlation Written by Anthony Curran LEVEL B Illustrated by Keith Frawley Fountas & Pinnell B All rights reserved: Reading Recovery 2 DRA 2 wwwreadinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "A sock is under my bed_ Under My Bed * Level B 3"
+    },
+    {
+      "page": 5,
+      "text": "A block is under my bed_"
+    },
+    {
+      "page": 6,
+      "text": "27z7 A book is under my bed. Under My Bed * Level B 5"
+    },
+    {
+      "page": 7,
+      "text": "A0O A toy is under my bed."
+    },
+    {
+      "page": 8,
+      "text": "C A hat is under my bed. Under My Bed * Level B (@ @"
+    },
+    {
+      "page": 9,
+      "text": "A bat is under my bed 8"
+    },
+    {
+      "page": 10,
+      "text": "5 2 A cat is under my bed: Under My Bed * Level B"
+    },
+    {
+      "page": 11,
+      "text": "t888 I am under my bedl 10 ( )"
+    },
+    {
+      "page": 12,
+      "text": "Under Bed A Reading A-Z Level B Leveled Book Word Count: 47 Connections Writing Draw a picture and write this sentence: A is under my Science List the things the girl finds under her bed: Sort the things into two groups Share your groups with a partner: Reading A-Z Visit wwwreadinga-z.com for thousands of books and materials: My"
+    }
+  ]
+}

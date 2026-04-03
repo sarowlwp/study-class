@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/water",
+  "title": "Water",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , Aa Water Written by Katherine Page wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Water Written by Katherine Page wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "Water: Level aa 3 Water"
+    },
+    {
+      "page": 4,
+      "text": "The ocean"
+    },
+    {
+      "page": 5,
+      "text": "The lake: Level aa 5 Water"
+    },
+    {
+      "page": 6,
+      "text": "The river."
+    },
+    {
+      "page": 7,
+      "text": "The rain: Level aa Water"
+    },
+    {
+      "page": 8,
+      "text": "The snow: 8"
+    },
+    {
+      "page": 9,
+      "text": "The ice: Level aa Water"
+    },
+    {
+      "page": 10,
+      "text": "Water. 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover: @ iStockphoto.com/Skip ODonnell; back cover: @ iStockphoto.com/ Fanny Oldfield; title page: @ Dreamstime.com; page 3: @ Tatyana Chernyak/ Dreamstime.com; page 4: @ Jason P Ross/Dreamstimecom; page 5: Jenifoto4Ob/Dreamstime.com; page 6: @ LostArts/Dreamstimecom; page 7: iStockphotocom/Andrey Artykov; page 8: @ Supertock/age fotostock; page 9: Pgaborphotos/Dreamstime.com; page IO: @ Pavel Losevsky/Dreamstimecom Water Level aa Leveled Book Correlation Learning A-Z LEVEL aa Written by Katherine Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-zcom Page"
+    }
+  ]
+}

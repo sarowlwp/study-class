@@ -1,0 +1,556 @@
+{
+  "version": "1.0",
+  "total_words": 110,
+  "timings": [
+    {
+      "word": "take",
+      "start": 0.0,
+      "end": 0.46
+    },
+    {
+      "word": "a",
+      "start": 0.46,
+      "end": 0.76
+    },
+    {
+      "word": "bite",
+      "start": 0.76,
+      "end": 1.26
+    },
+    {
+      "word": "written",
+      "start": 1.9,
+      "end": 2.08
+    },
+    {
+      "word": "by",
+      "start": 2.08,
+      "end": 2.62
+    },
+    {
+      "word": "harriet",
+      "start": 2.62,
+      "end": 3.32
+    },
+    {
+      "word": "rosenblum",
+      "start": 3.32,
+      "end": 4.6
+    },
+    {
+      "word": "illustrated",
+      "start": 5.2,
+      "end": 5.72
+    },
+    {
+      "word": "by",
+      "start": 5.72,
+      "end": 6.24
+    },
+    {
+      "word": "chad",
+      "start": 6.24,
+      "end": 7.04
+    },
+    {
+      "word": "libby",
+      "start": 7.04,
+      "end": 7.92
+    },
+    {
+      "word": "focus",
+      "start": 8.64,
+      "end": 8.78
+    },
+    {
+      "word": "question",
+      "start": 8.78,
+      "end": 9.52
+    },
+    {
+      "word": "what",
+      "start": 10.16,
+      "end": 10.3
+    },
+    {
+      "word": "lesson",
+      "start": 10.3,
+      "end": 10.84
+    },
+    {
+      "word": "does",
+      "start": 10.84,
+      "end": 11.34
+    },
+    {
+      "word": "mani",
+      "start": 11.34,
+      "end": 11.74
+    },
+    {
+      "word": "learn",
+      "start": 11.74,
+      "end": 12.12
+    },
+    {
+      "word": "in",
+      "start": 12.12,
+      "end": 12.54
+    },
+    {
+      "word": "this",
+      "start": 12.54,
+      "end": 12.82
+    },
+    {
+      "word": "story",
+      "start": 12.82,
+      "end": 13.42
+    },
+    {
+      "word": "mani",
+      "start": 13.8,
+      "end": 14.08
+    },
+    {
+      "word": "hated",
+      "start": 14.08,
+      "end": 14.48
+    },
+    {
+      "word": "all",
+      "start": 14.48,
+      "end": 15.04
+    },
+    {
+      "word": "the",
+      "start": 15.04,
+      "end": 15.28
+    },
+    {
+      "word": "food",
+      "start": 15.28,
+      "end": 15.66
+    },
+    {
+      "word": "on",
+      "start": 15.66,
+      "end": 16.04
+    },
+    {
+      "word": "his",
+      "start": 16.04,
+      "end": 16.3
+    },
+    {
+      "word": "plate",
+      "start": 16.3,
+      "end": 16.64
+    },
+    {
+      "word": "take",
+      "start": 17.06,
+      "end": 17.24
+    },
+    {
+      "word": "a",
+      "start": 17.24,
+      "end": 17.62
+    },
+    {
+      "word": "bite",
+      "start": 17.62,
+      "end": 17.94
+    },
+    {
+      "word": "his",
+      "start": 18.42,
+      "end": 18.54
+    },
+    {
+      "word": "parents",
+      "start": 18.54,
+      "end": 18.98
+    },
+    {
+      "word": "said",
+      "start": 18.98,
+      "end": 19.74
+    },
+    {
+      "word": "mani",
+      "start": 20.04,
+      "end": 20.44
+    },
+    {
+      "word": "took",
+      "start": 20.44,
+      "end": 21.02
+    },
+    {
+      "word": "one",
+      "start": 21.02,
+      "end": 21.62
+    },
+    {
+      "word": "bite",
+      "start": 21.62,
+      "end": 22.02
+    },
+    {
+      "word": "of",
+      "start": 22.02,
+      "end": 22.42
+    },
+    {
+      "word": "chicken",
+      "start": 22.42,
+      "end": 22.76
+    },
+    {
+      "word": "take",
+      "start": 23.24,
+      "end": 23.46
+    },
+    {
+      "word": "a",
+      "start": 23.46,
+      "end": 23.82
+    },
+    {
+      "word": "bite",
+      "start": 23.82,
+      "end": 24.18
+    },
+    {
+      "word": "his",
+      "start": 24.68,
+      "end": 24.86
+    },
+    {
+      "word": "parents",
+      "start": 24.86,
+      "end": 25.3
+    },
+    {
+      "word": "said",
+      "start": 25.3,
+      "end": 25.94
+    },
+    {
+      "word": "mani",
+      "start": 25.94,
+      "end": 26.7
+    },
+    {
+      "word": "took",
+      "start": 26.7,
+      "end": 27.02
+    },
+    {
+      "word": "one",
+      "start": 27.02,
+      "end": 27.56
+    },
+    {
+      "word": "bite",
+      "start": 27.56,
+      "end": 28.0
+    },
+    {
+      "word": "of",
+      "start": 28.0,
+      "end": 28.56
+    },
+    {
+      "word": "peas",
+      "start": 28.56,
+      "end": 29.06
+    },
+    {
+      "word": "take",
+      "start": 29.4,
+      "end": 29.66
+    },
+    {
+      "word": "a",
+      "start": 29.66,
+      "end": 30.06
+    },
+    {
+      "word": "bite",
+      "start": 30.06,
+      "end": 30.36
+    },
+    {
+      "word": "his",
+      "start": 30.74,
+      "end": 30.9
+    },
+    {
+      "word": "parents",
+      "start": 30.9,
+      "end": 31.26
+    },
+    {
+      "word": "said",
+      "start": 31.26,
+      "end": 31.96
+    },
+    {
+      "word": "mani",
+      "start": 32.52,
+      "end": 32.56
+    },
+    {
+      "word": "took",
+      "start": 32.56,
+      "end": 33.02
+    },
+    {
+      "word": "one",
+      "start": 33.02,
+      "end": 33.48
+    },
+    {
+      "word": "bite",
+      "start": 33.48,
+      "end": 33.82
+    },
+    {
+      "word": "of",
+      "start": 33.82,
+      "end": 34.26
+    },
+    {
+      "word": "salad",
+      "start": 34.26,
+      "end": 34.58
+    },
+    {
+      "word": "the",
+      "start": 35.0,
+      "end": 35.14
+    },
+    {
+      "word": "family",
+      "start": 35.14,
+      "end": 35.62
+    },
+    {
+      "word": "had",
+      "start": 35.62,
+      "end": 36.12
+    },
+    {
+      "word": "cake",
+      "start": 36.12,
+      "end": 36.48
+    },
+    {
+      "word": "for",
+      "start": 36.48,
+      "end": 36.74
+    },
+    {
+      "word": "dessert",
+      "start": 36.74,
+      "end": 37.34
+    },
+    {
+      "word": "mani",
+      "start": 38.32,
+      "end": 38.56
+    },
+    {
+      "word": "got",
+      "start": 38.56,
+      "end": 39.04
+    },
+    {
+      "word": "one",
+      "start": 39.04,
+      "end": 39.5
+    },
+    {
+      "word": "bite",
+      "start": 39.5,
+      "end": 40.1
+    },
+    {
+      "word": "connections",
+      "start": 40.54,
+      "end": 40.94
+    },
+    {
+      "word": "writing",
+      "start": 42.06,
+      "end": 42.3
+    },
+    {
+      "word": "and",
+      "start": 42.3,
+      "end": 42.88
+    },
+    {
+      "word": "art",
+      "start": 42.88,
+      "end": 43.6
+    },
+    {
+      "word": "what",
+      "start": 44.34,
+      "end": 44.38
+    },
+    {
+      "word": "is",
+      "start": 44.38,
+      "end": 44.76
+    },
+    {
+      "word": "your",
+      "start": 44.76,
+      "end": 45.08
+    },
+    {
+      "word": "least",
+      "start": 45.08,
+      "end": 45.58
+    },
+    {
+      "word": "favorite",
+      "start": 45.58,
+      "end": 46.1
+    },
+    {
+      "word": "food",
+      "start": 46.1,
+      "end": 46.94
+    },
+    {
+      "word": "draw",
+      "start": 47.42,
+      "end": 47.74
+    },
+    {
+      "word": "a",
+      "start": 47.74,
+      "end": 48.16
+    },
+    {
+      "word": "picture",
+      "start": 48.16,
+      "end": 48.56
+    },
+    {
+      "word": "and",
+      "start": 48.56,
+      "end": 49.28
+    },
+    {
+      "word": "tell",
+      "start": 49.28,
+      "end": 49.56
+    },
+    {
+      "word": "why",
+      "start": 49.56,
+      "end": 49.98
+    },
+    {
+      "word": "you",
+      "start": 49.98,
+      "end": 50.22
+    },
+    {
+      "word": "dislike",
+      "start": 50.22,
+      "end": 50.62
+    },
+    {
+      "word": "it",
+      "start": 50.62,
+      "end": 51.4
+    },
+    {
+      "word": "social",
+      "start": 52.0,
+      "end": 52.32
+    },
+    {
+      "word": "studies",
+      "start": 52.32,
+      "end": 52.9
+    },
+    {
+      "word": "is",
+      "start": 52.9,
+      "end": 54.02
+    },
+    {
+      "word": "having",
+      "start": 54.02,
+      "end": 54.38
+    },
+    {
+      "word": "dessert",
+      "start": 54.38,
+      "end": 54.92
+    },
+    {
+      "word": "a",
+      "start": 55.38,
+      "end": 55.4
+    },
+    {
+      "word": "want",
+      "start": 55.4,
+      "end": 55.62
+    },
+    {
+      "word": "or",
+      "start": 55.62,
+      "end": 56.02
+    },
+    {
+      "word": "a",
+      "start": 56.02,
+      "end": 56.2
+    },
+    {
+      "word": "need",
+      "start": 56.2,
+      "end": 56.62
+    },
+    {
+      "word": "share",
+      "start": 57.34,
+      "end": 57.48
+    },
+    {
+      "word": "your",
+      "start": 57.48,
+      "end": 57.94
+    },
+    {
+      "word": "ideas",
+      "start": 57.94,
+      "end": 58.4
+    },
+    {
+      "word": "with",
+      "start": 58.4,
+      "end": 59.04
+    },
+    {
+      "word": "a",
+      "start": 59.04,
+      "end": 59.18
+    },
+    {
+      "word": "partner",
+      "start": 59.18,
+      "end": 59.46
+    }
+  ]
+}

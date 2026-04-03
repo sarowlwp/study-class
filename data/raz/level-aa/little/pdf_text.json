@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/little",
+  "title": "Little",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book 0 Aa Little Written by Cheryl Ryan Illustrated by Joe WWW.readinga-z.com Boddy"
+    },
+    {
+      "page": 2,
+      "text": "Little 3 Written by Cheryl Ryan Illustrated Joe wwwreadinga-z.com Boddy by"
+    },
+    {
+      "page": 3,
+      "text": "A little house. Little Level aa 3"
+    },
+    {
+      "page": 4,
+      "text": "A little dog:"
+    },
+    {
+      "page": 5,
+      "text": "3' A little car_ Little Level aa 5"
+    },
+    {
+      "page": 6,
+      "text": "A little plane."
+    },
+    {
+      "page": 7,
+      "text": "A little tree . Little Level aa"
+    },
+    {
+      "page": 8,
+      "text": "A little bug: 8"
+    },
+    {
+      "page": 9,
+      "text": "6 A little mouse Little Level aa"
+    },
+    {
+      "page": 10,
+      "text": " @ 4 A little 10 6' @ baby"
+    },
+    {
+      "page": 11,
+      "text": "Little Level aa Leveled Book Learning A-Z Correlation Written by Cheryl Ryan LEVEL aa Illustrated by Joe Boddy Fountas & Pinnell A All rights reserved. Reading_Recovery DRA A-| WWW.R readinga-z.com"
+    }
+  ]
+}

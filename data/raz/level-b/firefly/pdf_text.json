@@ -1,0 +1,54 @@
+{
+  "id": "level-b/firefly",
+  "title": "Firefly",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Firefly Written by Harriet Rosenbloom Illustrated by Kiersten Eagan WWWreadinga-Z.com"
+    },
+    {
+      "page": 2,
+      "text": "Firefly WM 0} M 0) (@ Written by Harriet Rosenbloom Illustrated Kiersten Eagan wwwreadinga-z.com J + MM by"
+    },
+    {
+      "page": 3,
+      "text": "cn 7\" 0; I tried catching one Monday: Firefly Level B 3 0"
+    },
+    {
+      "page": 4,
+      "text": "I tried catching one Tuesday:"
+    },
+    {
+      "page": 5,
+      "text": "I tried catching one Wednesday: Firefly Level B 5"
+    },
+    {
+      "page": 6,
+      "text": "I tried catching one Thursday: 6 ALL"
+    },
+    {
+      "page": 7,
+      "text": "0yo 0 6 40 I tried catching one Firefly Level B 064 Friday:"
+    },
+    {
+      "page": 8,
+      "text": "Fa ' 4/ () 0) 0 Xv I (X I tried catching one Saturday: 8 N6 8 4X MMM"
+    },
+    {
+      "page": 9,
+      "text": "I tried catching one Sunday: Firefly Level B"
+    },
+    {
+      "page": 10,
+      "text": "0 Ft > VIV Li ` Vi M M Kelr Ja 3  4 I caught one and let it go_ 10"
+    },
+    {
+      "page": 11,
+      "text": "4 Fireflies are also known as lightning bugsl Firefly Level B Leveled Book 0 Learning A-Z Correlation Written by Harriet Rosenbloom LEVEL B Illustrated by Kiersten Eagan Fountas & Pinnell B All rights reserved. Reading_Recovery 2 DRA 2 www.readinga-z.com"
+    }
+  ]
+}

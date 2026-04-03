@@ -1,0 +1,136 @@
+{
+  "version": "1.0",
+  "total_words": 26,
+  "timings": [
+    {
+      "word": "the",
+      "start": 0.0,
+      "end": 0.42
+    },
+    {
+      "word": "garden",
+      "start": 0.42,
+      "end": 1.08
+    },
+    {
+      "word": "written",
+      "start": 1.46,
+      "end": 2.16
+    },
+    {
+      "word": "by",
+      "start": 2.16,
+      "end": 2.6
+    },
+    {
+      "word": "ned",
+      "start": 2.6,
+      "end": 3.16
+    },
+    {
+      "word": "jinsson",
+      "start": 3.16,
+      "end": 4.32
+    },
+    {
+      "word": "illustrated",
+      "start": 4.82,
+      "end": 5.42
+    },
+    {
+      "word": "by",
+      "start": 5.42,
+      "end": 6.28
+    },
+    {
+      "word": "cindy",
+      "start": 6.28,
+      "end": 6.9
+    },
+    {
+      "word": "hill",
+      "start": 6.9,
+      "end": 7.96
+    },
+    {
+      "word": "the",
+      "start": 10.28,
+      "end": 10.44
+    },
+    {
+      "word": "peas",
+      "start": 10.44,
+      "end": 11.92
+    },
+    {
+      "word": "the",
+      "start": 13.96,
+      "end": 14.22
+    },
+    {
+      "word": "beans",
+      "start": 14.22,
+      "end": 15.16
+    },
+    {
+      "word": "the",
+      "start": 17.58,
+      "end": 17.98
+    },
+    {
+      "word": "mellons",
+      "start": 17.98,
+      "end": 18.9
+    },
+    {
+      "word": "the",
+      "start": 18.9,
+      "end": 21.38
+    },
+    {
+      "word": "onions",
+      "start": 21.38,
+      "end": 22.36
+    },
+    {
+      "word": "the",
+      "start": 23.9,
+      "end": 25.0
+    },
+    {
+      "word": "potatoes",
+      "start": 25.0,
+      "end": 26.12
+    },
+    {
+      "word": "the",
+      "start": 26.9,
+      "end": 28.84
+    },
+    {
+      "word": "tomatoes",
+      "start": 28.84,
+      "end": 29.7
+    },
+    {
+      "word": "the",
+      "start": 31.1,
+      "end": 32.5
+    },
+    {
+      "word": "corn",
+      "start": 32.5,
+      "end": 33.44
+    },
+    {
+      "word": "the",
+      "start": 33.44,
+      "end": 35.76
+    },
+    {
+      "word": "garden",
+      "start": 35.76,
+      "end": 36.4
+    }
+  ]
+}

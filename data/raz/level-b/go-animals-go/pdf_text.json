@@ -1,0 +1,54 @@
+{
+  "id": "level-b/go-animals-go",
+  "title": "Go Animals Go",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B 6 Animals 6o 3 Written by Brian Roberts Illustrated by Nora Voutas wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Go Animals Go Written by Brian Roberts Illustrated by Nora Voutas wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "= o 0 ) ) C= The COW is in a car_ Go Animals Go Level B 3"
+    },
+    {
+      "page": 4,
+      "text": "8 The pig is on 4 bike."
+    },
+    {
+      "page": 5,
+      "text": "I The is in a boat_ Go Animals Go Level B 5 CC W goat"
+    },
+    {
+      "page": 6,
+      "text": "0 ))  G3t 774Z/ The is on a train dog"
+    },
+    {
+      "page": 7,
+      "text": ")) O)e O)= The bird is on skates. Go Animals Go Level B ((7a20 (333 ((80 @"
+    },
+    {
+      "page": 8,
+      "text": "S S 7 The duck is in a plane. 8 C"
+    },
+    {
+      "page": 9,
+      "text": "U The cat is on a horse . Go Animals Go Level B"
+    },
+    {
+      "page": 10,
+      "text": "Go animals go. 10"
+    },
+    {
+      "page": 11,
+      "text": "Loading W! Go Animals Go Level B Leveled Book Learning A-Z Correlation Written by Brian Roberts LEVEL B Illustrated by Nora Voutas Fountas & Pinnell B All rights reserved. Reading_Recovery 2 DRA 2 WWW.  readinga-z.com"
+    }
+  ]
+}

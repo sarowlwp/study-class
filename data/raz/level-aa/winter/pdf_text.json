@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/winter",
+  "title": "Winter",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , aa Winter (_ Written by Vic Moors Illustrated by Darcy Tom wwwreadinga-z.com LLLLLL"
+    },
+    {
+      "page": 2,
+      "text": "Winter Written by Vic Moors Illustrated by Darcy Tom wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "The snow: Winter Level aa 3 345"
+    },
+    {
+      "page": 4,
+      "text": "D 7R The ice skates. 2"
+    },
+    {
+      "page": 5,
+      "text": "The sled: Winter Level aa 5"
+    },
+    {
+      "page": 6,
+      "text": "The snowman LLl"
+    },
+    {
+      "page": 7,
+      "text": "The mittens. Winter Level aa 2"
+    },
+    {
+      "page": 8,
+      "text": "The coat. 8"
+    },
+    {
+      "page": 9,
+      "text": "VA The fire: Winter Level aa"
+    },
+    {
+      "page": 10,
+      "text": "The winter: 10"
+    },
+    {
+      "page": 11,
+      "text": "Winter Level aa Leveled Book @ Learning A-Z Correlation Written by Vic Moors LEVEL aa Illustrated by Darcy Tom Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-zcom"
+    }
+  ]
+}

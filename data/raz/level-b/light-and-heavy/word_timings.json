@@ -1,0 +1,351 @@
+{
+  "version": "1.0",
+  "total_words": 69,
+  "timings": [
+    {
+      "word": "light",
+      "start": 0.0,
+      "end": 0.62
+    },
+    {
+      "word": "and",
+      "start": 0.62,
+      "end": 1.68
+    },
+    {
+      "word": "heavy",
+      "start": 1.68,
+      "end": 2.74
+    },
+    {
+      "word": "written",
+      "start": 3.62,
+      "end": 3.92
+    },
+    {
+      "word": "by",
+      "start": 3.92,
+      "end": 4.76
+    },
+    {
+      "word": "russ",
+      "start": 4.76,
+      "end": 5.92
+    },
+    {
+      "word": "buyak",
+      "start": 5.92,
+      "end": 7.04
+    },
+    {
+      "word": "this",
+      "start": 7.54,
+      "end": 7.8
+    },
+    {
+      "word": "dog",
+      "start": 7.8,
+      "end": 8.56
+    },
+    {
+      "word": "is",
+      "start": 8.56,
+      "end": 9.38
+    },
+    {
+      "word": "heavy",
+      "start": 9.38,
+      "end": 10.02
+    },
+    {
+      "word": "i",
+      "start": 11.02,
+      "end": 11.22
+    },
+    {
+      "word": "cannot",
+      "start": 11.22,
+      "end": 11.88
+    },
+    {
+      "word": "lift",
+      "start": 11.88,
+      "end": 12.46
+    },
+    {
+      "word": "it",
+      "start": 12.46,
+      "end": 12.98
+    },
+    {
+      "word": "this",
+      "start": 13.48,
+      "end": 13.48
+    },
+    {
+      "word": "dog",
+      "start": 13.48,
+      "end": 14.02
+    },
+    {
+      "word": "is",
+      "start": 14.02,
+      "end": 14.54
+    },
+    {
+      "word": "light",
+      "start": 14.54,
+      "end": 15.28
+    },
+    {
+      "word": "i",
+      "start": 16.18,
+      "end": 16.5
+    },
+    {
+      "word": "can",
+      "start": 16.5,
+      "end": 17.26
+    },
+    {
+      "word": "lift",
+      "start": 17.26,
+      "end": 17.6
+    },
+    {
+      "word": "it",
+      "start": 17.6,
+      "end": 18.2
+    },
+    {
+      "word": "this",
+      "start": 18.24,
+      "end": 18.58
+    },
+    {
+      "word": "rock",
+      "start": 18.58,
+      "end": 19.2
+    },
+    {
+      "word": "is",
+      "start": 19.2,
+      "end": 19.82
+    },
+    {
+      "word": "heavy",
+      "start": 19.82,
+      "end": 20.46
+    },
+    {
+      "word": "i",
+      "start": 21.14,
+      "end": 21.56
+    },
+    {
+      "word": "cannot",
+      "start": 21.56,
+      "end": 22.22
+    },
+    {
+      "word": "lift",
+      "start": 22.22,
+      "end": 22.72
+    },
+    {
+      "word": "it",
+      "start": 22.72,
+      "end": 23.36
+    },
+    {
+      "word": "this",
+      "start": 23.4,
+      "end": 23.72
+    },
+    {
+      "word": "rock",
+      "start": 23.72,
+      "end": 24.36
+    },
+    {
+      "word": "is",
+      "start": 24.36,
+      "end": 24.88
+    },
+    {
+      "word": "light",
+      "start": 24.88,
+      "end": 25.62
+    },
+    {
+      "word": "i",
+      "start": 25.62,
+      "end": 26.58
+    },
+    {
+      "word": "can",
+      "start": 26.58,
+      "end": 27.16
+    },
+    {
+      "word": "lift",
+      "start": 27.16,
+      "end": 27.5
+    },
+    {
+      "word": "it",
+      "start": 27.5,
+      "end": 27.88
+    },
+    {
+      "word": "this",
+      "start": 28.02,
+      "end": 28.46
+    },
+    {
+      "word": "log",
+      "start": 28.46,
+      "end": 28.96
+    },
+    {
+      "word": "is",
+      "start": 28.96,
+      "end": 29.62
+    },
+    {
+      "word": "heavy",
+      "start": 29.62,
+      "end": 30.08
+    },
+    {
+      "word": "i",
+      "start": 30.78,
+      "end": 31.04
+    },
+    {
+      "word": "cannot",
+      "start": 31.04,
+      "end": 31.66
+    },
+    {
+      "word": "lift",
+      "start": 31.66,
+      "end": 32.16
+    },
+    {
+      "word": "it",
+      "start": 32.16,
+      "end": 32.72
+    },
+    {
+      "word": "this",
+      "start": 32.76,
+      "end": 32.98
+    },
+    {
+      "word": "stick",
+      "start": 32.98,
+      "end": 33.62
+    },
+    {
+      "word": "is",
+      "start": 33.62,
+      "end": 34.36
+    },
+    {
+      "word": "light",
+      "start": 34.36,
+      "end": 34.74
+    },
+    {
+      "word": "i",
+      "start": 35.6,
+      "end": 35.68
+    },
+    {
+      "word": "can",
+      "start": 35.68,
+      "end": 36.24
+    },
+    {
+      "word": "lift",
+      "start": 36.24,
+      "end": 36.58
+    },
+    {
+      "word": "it",
+      "start": 36.58,
+      "end": 37.08
+    },
+    {
+      "word": "dad",
+      "start": 37.18,
+      "end": 37.6
+    },
+    {
+      "word": "is",
+      "start": 37.6,
+      "end": 38.12
+    },
+    {
+      "word": "heavy",
+      "start": 38.12,
+      "end": 38.76
+    },
+    {
+      "word": "i",
+      "start": 39.38,
+      "end": 39.68
+    },
+    {
+      "word": "cannot",
+      "start": 39.68,
+      "end": 40.26
+    },
+    {
+      "word": "lift",
+      "start": 40.26,
+      "end": 40.7
+    },
+    {
+      "word": "him",
+      "start": 40.7,
+      "end": 41.32
+    },
+    {
+      "word": "i",
+      "start": 41.74,
+      "end": 41.76
+    },
+    {
+      "word": "am",
+      "start": 41.76,
+      "end": 42.48
+    },
+    {
+      "word": "light",
+      "start": 42.48,
+      "end": 43.02
+    },
+    {
+      "word": "dad",
+      "start": 43.82,
+      "end": 44.22
+    },
+    {
+      "word": "can",
+      "start": 44.22,
+      "end": 44.66
+    },
+    {
+      "word": "lift",
+      "start": 44.66,
+      "end": 45.0
+    },
+    {
+      "word": "me",
+      "start": 45.0,
+      "end": 45.5
+    }
+  ]
+}

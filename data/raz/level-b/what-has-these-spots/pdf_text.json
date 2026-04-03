@@ -1,0 +1,54 @@
+{
+  "id": "level-b/what-has-these-spots",
+  "title": "What Has These Spots",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED READER , B What Has These Spots? Writlen by Kira Freed wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "What Has These Spots? Written by Kira Freed wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "What kind of animal has these 3 spofs?"
+    },
+    {
+      "page": 4,
+      "text": "A cheetah has these black 3 spots_"
+    },
+    {
+      "page": 5,
+      "text": "What kind of animal has these 5 spofs?"
+    },
+    {
+      "page": 6,
+      "text": "A fawn has these white 6 spots"
+    },
+    {
+      "page": 7,
+      "text": "What kind of animal has these Ip spofs?"
+    },
+    {
+      "page": 8,
+      "text": "A bug has these 8 tiny spots_"
+    },
+    {
+      "page": 9,
+      "text": "What kind of animal has no 6 spots?"
+    },
+    {
+      "page": 10,
+      "text": "A lemur has no 10 spots_"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover; back cover, title page (snake, butterfly, fish, leopard gecko) , pages 3, 4, 5, 6,7 , 8: Jupiterimages Corporation; title page (cow): Henk Bentiage/iStockphoto; title page (horse): @ Eric Isselee/ iStockphoto; page 9, 10: iStockphoto What Has These Spots? Level B Leveled Reader Correlation Learning A-Z, Inc. LEVEL B Written by Kira Freed Fountas & Pinnell B All rights reserved. Reading Recovery 2 DRA 2 WWW.R readinga-z.com"
+    }
+  ]
+}

@@ -1,0 +1,486 @@
+{
+  "version": "1.0",
+  "total_words": 96,
+  "timings": [
+    {
+      "word": "spring",
+      "start": 0.0,
+      "end": 0.66
+    },
+    {
+      "word": "and",
+      "start": 0.66,
+      "end": 1.64
+    },
+    {
+      "word": "fall",
+      "start": 1.64,
+      "end": 2.64
+    },
+    {
+      "word": "written",
+      "start": 3.58,
+      "end": 3.84
+    },
+    {
+      "word": "by",
+      "start": 3.84,
+      "end": 4.62
+    },
+    {
+      "word": "gabriel",
+      "start": 4.62,
+      "end": 5.32
+    },
+    {
+      "word": "harper",
+      "start": 5.32,
+      "end": 6.28
+    },
+    {
+      "word": "focus",
+      "start": 7.74,
+      "end": 7.96
+    },
+    {
+      "word": "question",
+      "start": 7.96,
+      "end": 9.02
+    },
+    {
+      "word": "how",
+      "start": 10.36,
+      "end": 10.42
+    },
+    {
+      "word": "are",
+      "start": 10.42,
+      "end": 11.3
+    },
+    {
+      "word": "spring",
+      "start": 11.3,
+      "end": 11.86
+    },
+    {
+      "word": "and",
+      "start": 11.86,
+      "end": 12.66
+    },
+    {
+      "word": "fall",
+      "start": 12.66,
+      "end": 13.54
+    },
+    {
+      "word": "the",
+      "start": 13.54,
+      "end": 14.26
+    },
+    {
+      "word": "same",
+      "start": 14.26,
+      "end": 15.02
+    },
+    {
+      "word": "and",
+      "start": 15.02,
+      "end": 15.94
+    },
+    {
+      "word": "different",
+      "start": 15.94,
+      "end": 16.94
+    },
+    {
+      "word": "see",
+      "start": 17.92,
+      "end": 17.92
+    },
+    {
+      "word": "leaves",
+      "start": 17.92,
+      "end": 18.88
+    },
+    {
+      "word": "in",
+      "start": 18.88,
+      "end": 19.96
+    },
+    {
+      "word": "spring",
+      "start": 19.96,
+      "end": 20.4
+    },
+    {
+      "word": "see",
+      "start": 21.42,
+      "end": 21.42
+    },
+    {
+      "word": "leaves",
+      "start": 21.42,
+      "end": 22.42
+    },
+    {
+      "word": "in",
+      "start": 22.42,
+      "end": 23.28
+    },
+    {
+      "word": "fall",
+      "start": 23.28,
+      "end": 23.92
+    },
+    {
+      "word": "see",
+      "start": 24.82,
+      "end": 24.84
+    },
+    {
+      "word": "birds",
+      "start": 24.84,
+      "end": 25.58
+    },
+    {
+      "word": "in",
+      "start": 25.58,
+      "end": 26.48
+    },
+    {
+      "word": "spring",
+      "start": 26.48,
+      "end": 27.02
+    },
+    {
+      "word": "see",
+      "start": 28.06,
+      "end": 28.06
+    },
+    {
+      "word": "birds",
+      "start": 28.06,
+      "end": 28.8
+    },
+    {
+      "word": "in",
+      "start": 28.8,
+      "end": 29.66
+    },
+    {
+      "word": "fall",
+      "start": 29.66,
+      "end": 30.44
+    },
+    {
+      "word": "see",
+      "start": 31.0,
+      "end": 31.32
+    },
+    {
+      "word": "corn",
+      "start": 31.32,
+      "end": 32.1
+    },
+    {
+      "word": "in",
+      "start": 32.1,
+      "end": 33.12
+    },
+    {
+      "word": "spring",
+      "start": 33.12,
+      "end": 33.62
+    },
+    {
+      "word": "see",
+      "start": 34.52,
+      "end": 34.54
+    },
+    {
+      "word": "corn",
+      "start": 34.54,
+      "end": 35.32
+    },
+    {
+      "word": "in",
+      "start": 35.32,
+      "end": 36.3
+    },
+    {
+      "word": "fall",
+      "start": 36.3,
+      "end": 37.04
+    },
+    {
+      "word": "see",
+      "start": 37.52,
+      "end": 38.02
+    },
+    {
+      "word": "me",
+      "start": 38.02,
+      "end": 38.96
+    },
+    {
+      "word": "in",
+      "start": 38.96,
+      "end": 40.14
+    },
+    {
+      "word": "spring",
+      "start": 40.14,
+      "end": 40.64
+    },
+    {
+      "word": "see",
+      "start": 41.26,
+      "end": 41.58
+    },
+    {
+      "word": "me",
+      "start": 41.58,
+      "end": 42.38
+    },
+    {
+      "word": "in",
+      "start": 42.38,
+      "end": 43.38
+    },
+    {
+      "word": "spring",
+      "start": 43.38,
+      "end": 43.44
+    },
+    {
+      "word": "ball",
+      "start": 43.44,
+      "end": 44.06
+    },
+    {
+      "word": "connections",
+      "start": 44.54,
+      "end": 45.24
+    },
+    {
+      "word": "writing",
+      "start": 46.58,
+      "end": 46.78
+    },
+    {
+      "word": "and",
+      "start": 46.78,
+      "end": 47.72
+    },
+    {
+      "word": "art",
+      "start": 47.72,
+      "end": 48.52
+    },
+    {
+      "word": "what",
+      "start": 49.8,
+      "end": 50.04
+    },
+    {
+      "word": "else",
+      "start": 50.04,
+      "end": 50.88
+    },
+    {
+      "word": "can",
+      "start": 50.88,
+      "end": 51.86
+    },
+    {
+      "word": "you",
+      "start": 51.86,
+      "end": 52.4
+    },
+    {
+      "word": "see",
+      "start": 52.4,
+      "end": 53.26
+    },
+    {
+      "word": "in",
+      "start": 53.26,
+      "end": 54.04
+    },
+    {
+      "word": "spring",
+      "start": 54.04,
+      "end": 54.52
+    },
+    {
+      "word": "and",
+      "start": 54.52,
+      "end": 55.48
+    },
+    {
+      "word": "all",
+      "start": 55.48,
+      "end": 56.28
+    },
+    {
+      "word": "draw",
+      "start": 57.4,
+      "end": 57.64
+    },
+    {
+      "word": "two",
+      "start": 57.64,
+      "end": 58.5
+    },
+    {
+      "word": "pictures",
+      "start": 58.5,
+      "end": 59.14
+    },
+    {
+      "word": "and",
+      "start": 59.14,
+      "end": 60.14
+    },
+    {
+      "word": "finish",
+      "start": 60.14,
+      "end": 60.88
+    },
+    {
+      "word": "these",
+      "start": 60.88,
+      "end": 61.78
+    },
+    {
+      "word": "sentences",
+      "start": 61.78,
+      "end": 62.66
+    },
+    {
+      "word": "see",
+      "start": 64.0,
+      "end": 64.38
+    },
+    {
+      "word": "in",
+      "start": 65.88,
+      "end": 66.08
+    },
+    {
+      "word": "spring",
+      "start": 66.08,
+      "end": 66.78
+    },
+    {
+      "word": "see",
+      "start": 67.96,
+      "end": 68.96
+    },
+    {
+      "word": "in",
+      "start": 70.08,
+      "end": 70.12
+    },
+    {
+      "word": "fall",
+      "start": 70.12,
+      "end": 70.96
+    },
+    {
+      "word": "science",
+      "start": 72.06,
+      "end": 72.6
+    },
+    {
+      "word": "what",
+      "start": 74.0,
+      "end": 74.02
+    },
+    {
+      "word": "are",
+      "start": 74.02,
+      "end": 74.88
+    },
+    {
+      "word": "the",
+      "start": 74.88,
+      "end": 75.42
+    },
+    {
+      "word": "other",
+      "start": 75.42,
+      "end": 76.16
+    },
+    {
+      "word": "two",
+      "start": 76.16,
+      "end": 77.06
+    },
+    {
+      "word": "seasons",
+      "start": 77.06,
+      "end": 77.74
+    },
+    {
+      "word": "of",
+      "start": 77.74,
+      "end": 78.54
+    },
+    {
+      "word": "the",
+      "start": 78.54,
+      "end": 79.08
+    },
+    {
+      "word": "year",
+      "start": 79.08,
+      "end": 79.72
+    },
+    {
+      "word": "share",
+      "start": 80.64,
+      "end": 80.88
+    },
+    {
+      "word": "what",
+      "start": 80.88,
+      "end": 81.52
+    },
+    {
+      "word": "you",
+      "start": 81.52,
+      "end": 82.08
+    },
+    {
+      "word": "know",
+      "start": 82.08,
+      "end": 82.66
+    },
+    {
+      "word": "about",
+      "start": 82.66,
+      "end": 83.28
+    },
+    {
+      "word": "them",
+      "start": 83.28,
+      "end": 83.98
+    },
+    {
+      "word": "with",
+      "start": 83.98,
+      "end": 84.56
+    },
+    {
+      "word": "a",
+      "start": 84.56,
+      "end": 84.92
+    },
+    {
+      "word": "partner",
+      "start": 84.92,
+      "end": 85.26
+    }
+  ]
+}

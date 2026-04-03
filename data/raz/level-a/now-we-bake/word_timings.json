@@ -1,0 +1,416 @@
+{
+  "version": "1.0",
+  "total_words": 82,
+  "timings": [
+    {
+      "word": "now",
+      "start": 0.0,
+      "end": 0.72
+    },
+    {
+      "word": "we",
+      "start": 0.72,
+      "end": 1.5
+    },
+    {
+      "word": "bake",
+      "start": 1.5,
+      "end": 2.3
+    },
+    {
+      "word": "written",
+      "start": 3.22,
+      "end": 3.5
+    },
+    {
+      "word": "by",
+      "start": 3.5,
+      "end": 4.34
+    },
+    {
+      "word": "harriet",
+      "start": 4.34,
+      "end": 5.12
+    },
+    {
+      "word": "rosenblum",
+      "start": 5.12,
+      "end": 6.94
+    },
+    {
+      "word": "illustrated",
+      "start": 7.9,
+      "end": 8.18
+    },
+    {
+      "word": "by",
+      "start": 8.18,
+      "end": 9.24
+    },
+    {
+      "word": "olivier",
+      "start": 9.24,
+      "end": 10.2
+    },
+    {
+      "word": "peltier",
+      "start": 10.2,
+      "end": 11.62
+    },
+    {
+      "word": "focus",
+      "start": 12.66,
+      "end": 12.9
+    },
+    {
+      "word": "question",
+      "start": 12.9,
+      "end": 13.72
+    },
+    {
+      "word": "what",
+      "start": 14.74,
+      "end": 15.02
+    },
+    {
+      "word": "do",
+      "start": 15.02,
+      "end": 15.8
+    },
+    {
+      "word": "you",
+      "start": 15.8,
+      "end": 16.12
+    },
+    {
+      "word": "need",
+      "start": 16.12,
+      "end": 16.58
+    },
+    {
+      "word": "to",
+      "start": 16.58,
+      "end": 17.1
+    },
+    {
+      "word": "do",
+      "start": 17.1,
+      "end": 17.6
+    },
+    {
+      "word": "to",
+      "start": 17.6,
+      "end": 18.26
+    },
+    {
+      "word": "make",
+      "start": 18.26,
+      "end": 18.7
+    },
+    {
+      "word": "a",
+      "start": 18.7,
+      "end": 19.24
+    },
+    {
+      "word": "cake",
+      "start": 19.24,
+      "end": 19.72
+    },
+    {
+      "word": "now",
+      "start": 20.26,
+      "end": 20.64
+    },
+    {
+      "word": "we",
+      "start": 20.64,
+      "end": 21.26
+    },
+    {
+      "word": "shop",
+      "start": 21.26,
+      "end": 21.96
+    },
+    {
+      "word": "now",
+      "start": 22.52,
+      "end": 23.06
+    },
+    {
+      "word": "we",
+      "start": 23.06,
+      "end": 23.82
+    },
+    {
+      "word": "mix",
+      "start": 23.82,
+      "end": 24.38
+    },
+    {
+      "word": "now",
+      "start": 25.08,
+      "end": 25.6
+    },
+    {
+      "word": "we",
+      "start": 25.6,
+      "end": 26.4
+    },
+    {
+      "word": "pour",
+      "start": 26.4,
+      "end": 27.04
+    },
+    {
+      "word": "now",
+      "start": 27.74,
+      "end": 28.22
+    },
+    {
+      "word": "we",
+      "start": 28.22,
+      "end": 29.18
+    },
+    {
+      "word": "bake",
+      "start": 29.18,
+      "end": 29.6
+    },
+    {
+      "word": "now",
+      "start": 30.0,
+      "end": 30.76
+    },
+    {
+      "word": "we",
+      "start": 30.76,
+      "end": 31.68
+    },
+    {
+      "word": "wait",
+      "start": 31.68,
+      "end": 32.34
+    },
+    {
+      "word": "now",
+      "start": 33.18,
+      "end": 33.44
+    },
+    {
+      "word": "we",
+      "start": 33.44,
+      "end": 34.2
+    },
+    {
+      "word": "frost",
+      "start": 34.2,
+      "end": 35.1
+    },
+    {
+      "word": "now",
+      "start": 35.96,
+      "end": 36.18
+    },
+    {
+      "word": "we",
+      "start": 36.18,
+      "end": 37.0
+    },
+    {
+      "word": "serve",
+      "start": 37.0,
+      "end": 37.94
+    },
+    {
+      "word": "now",
+      "start": 39.06,
+      "end": 39.06
+    },
+    {
+      "word": "we",
+      "start": 39.06,
+      "end": 40.0
+    },
+    {
+      "word": "eat",
+      "start": 40.0,
+      "end": 40.92
+    },
+    {
+      "word": "connections",
+      "start": 41.44,
+      "end": 42.18
+    },
+    {
+      "word": "writing",
+      "start": 43.22,
+      "end": 43.3
+    },
+    {
+      "word": "and",
+      "start": 43.3,
+      "end": 44.12
+    },
+    {
+      "word": "art",
+      "start": 44.12,
+      "end": 44.9
+    },
+    {
+      "word": "what",
+      "start": 46.02,
+      "end": 46.04
+    },
+    {
+      "word": "is",
+      "start": 46.04,
+      "end": 46.6
+    },
+    {
+      "word": "your",
+      "start": 46.6,
+      "end": 47.12
+    },
+    {
+      "word": "favorite",
+      "start": 47.12,
+      "end": 47.64
+    },
+    {
+      "word": "part",
+      "start": 47.64,
+      "end": 48.52
+    },
+    {
+      "word": "of",
+      "start": 48.52,
+      "end": 49.04
+    },
+    {
+      "word": "baking",
+      "start": 49.04,
+      "end": 49.46
+    },
+    {
+      "word": "a",
+      "start": 49.46,
+      "end": 49.96
+    },
+    {
+      "word": "cake",
+      "start": 49.96,
+      "end": 50.38
+    },
+    {
+      "word": "draw",
+      "start": 51.56,
+      "end": 51.92
+    },
+    {
+      "word": "a",
+      "start": 51.92,
+      "end": 52.48
+    },
+    {
+      "word": "picture",
+      "start": 52.48,
+      "end": 52.88
+    },
+    {
+      "word": "and",
+      "start": 52.88,
+      "end": 53.86
+    },
+    {
+      "word": "label",
+      "start": 53.86,
+      "end": 54.62
+    },
+    {
+      "word": "it",
+      "start": 54.62,
+      "end": 55.12
+    },
+    {
+      "word": "social",
+      "start": 55.12,
+      "end": 56.84
+    },
+    {
+      "word": "studies",
+      "start": 56.84,
+      "end": 57.72
+    },
+    {
+      "word": "which",
+      "start": 58.82,
+      "end": 58.98
+    },
+    {
+      "word": "holidays",
+      "start": 58.98,
+      "end": 59.82
+    },
+    {
+      "word": "or",
+      "start": 59.82,
+      "end": 61.1
+    },
+    {
+      "word": "special",
+      "start": 61.1,
+      "end": 61.74
+    },
+    {
+      "word": "celebrations",
+      "start": 61.74,
+      "end": 62.68
+    },
+    {
+      "word": "usually",
+      "start": 62.68,
+      "end": 64.2
+    },
+    {
+      "word": "include",
+      "start": 64.2,
+      "end": 65.24
+    },
+    {
+      "word": "cake",
+      "start": 65.24,
+      "end": 66.3
+    },
+    {
+      "word": "share",
+      "start": 67.26,
+      "end": 67.54
+    },
+    {
+      "word": "your",
+      "start": 67.54,
+      "end": 68.4
+    },
+    {
+      "word": "ideas",
+      "start": 68.4,
+      "end": 69.28
+    },
+    {
+      "word": "with",
+      "start": 69.28,
+      "end": 70.06
+    },
+    {
+      "word": "a",
+      "start": 70.06,
+      "end": 70.66
+    },
+    {
+      "word": "partner",
+      "start": 70.66,
+      "end": 71.16
+    }
+  ]
+}

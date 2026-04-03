@@ -1,0 +1,58 @@
+{
+  "id": "level-a/oh-raccoon",
+  "title": "Oh Raccoon",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Oh_ Raccoon Written by Karen Mockler Illustrated by Hugh Jamieson www.readinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Oh, Raccoon Written by Karen Mockler Illustrated by Hugh Jamieson wwwreadinga-z.com Focus Question What do you learn about Raccoon?"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know awake raccoon hungry smart messy sneaky Oh, Raccoon Level A Leveled Book 0 Learning A-Z Correlation Written by Karen Mockler LEVEL A Illustrated by Hugh Jamieson Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 wwwreadinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "Raccoon is awake: Oh, Raccoon Level A 3"
+    },
+    {
+      "page": 5,
+      "text": "Raccoon is hungry:"
+    },
+    {
+      "page": 6,
+      "text": "Raccoon is smart. Oh, Raccoon Level A 5"
+    },
+    {
+      "page": 7,
+      "text": "Raccoon is messy:"
+    },
+    {
+      "page": 8,
+      "text": "Raccoon is sneaky: Oh, Raccoon Level A"
+    },
+    {
+      "page": 9,
+      "text": "Raccoon is full: 8"
+    },
+    {
+      "page": 10,
+      "text": "Raccoon is Oh, Raccoon Level A sleepy:"
+    },
+    {
+      "page": 11,
+      "text": "Raccoon is cute. 10"
+    },
+    {
+      "page": 12,
+      "text": "Oh, Raccoon A Reading A-Z Level A Leveled Book Word Count: 24 Connections Writing and Art Raccoon has a busy night: If you were awake all night, what would you do? Draw a picture, label it; and share your answer with a partner: Science and Art Draw a diagram of a raccoon and label five body parts. Reading A-Z Visit wwwreadinga-z.com for thousands of books and materials."
+    }
+  ]
+}

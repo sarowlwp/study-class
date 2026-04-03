@@ -1,0 +1,311 @@
+{
+  "version": "1.0",
+  "total_words": 61,
+  "timings": [
+    {
+      "word": "jack",
+      "start": 0.0,
+      "end": 0.42
+    },
+    {
+      "word": "and",
+      "start": 0.42,
+      "end": 0.64
+    },
+    {
+      "word": "lily's",
+      "start": 0.64,
+      "end": 1.2
+    },
+    {
+      "word": "favorite",
+      "start": 1.2,
+      "end": 1.58
+    },
+    {
+      "word": "food",
+      "start": 1.58,
+      "end": 2.2
+    },
+    {
+      "word": "written",
+      "start": 2.6,
+      "end": 2.74
+    },
+    {
+      "word": "by",
+      "start": 2.74,
+      "end": 3.1
+    },
+    {
+      "word": "catherine",
+      "start": 3.1,
+      "end": 3.48
+    },
+    {
+      "word": "page",
+      "start": 3.48,
+      "end": 4.28
+    },
+    {
+      "word": "illustrated",
+      "start": 4.68,
+      "end": 5.24
+    },
+    {
+      "word": "by",
+      "start": 5.24,
+      "end": 5.76
+    },
+    {
+      "word": "kayori",
+      "start": 5.76,
+      "end": 6.34
+    },
+    {
+      "word": "tajima",
+      "start": 6.34,
+      "end": 6.96
+    },
+    {
+      "word": "in",
+      "start": 7.32,
+      "end": 7.38
+    },
+    {
+      "word": "some",
+      "start": 7.38,
+      "end": 7.68
+    },
+    {
+      "word": "ways",
+      "start": 7.68,
+      "end": 8.2
+    },
+    {
+      "word": "jack",
+      "start": 8.54,
+      "end": 8.56
+    },
+    {
+      "word": "and",
+      "start": 8.56,
+      "end": 8.88
+    },
+    {
+      "word": "lily",
+      "start": 8.88,
+      "end": 9.04
+    },
+    {
+      "word": "are",
+      "start": 9.04,
+      "end": 9.3
+    },
+    {
+      "word": "different",
+      "start": 9.3,
+      "end": 9.82
+    },
+    {
+      "word": "jack",
+      "start": 10.34,
+      "end": 10.34
+    },
+    {
+      "word": "likes",
+      "start": 10.34,
+      "end": 10.68
+    },
+    {
+      "word": "chicken",
+      "start": 10.68,
+      "end": 11.24
+    },
+    {
+      "word": "lily",
+      "start": 11.96,
+      "end": 12.04
+    },
+    {
+      "word": "doesn't",
+      "start": 12.04,
+      "end": 12.82
+    },
+    {
+      "word": "jack",
+      "start": 13.14,
+      "end": 13.32
+    },
+    {
+      "word": "likes",
+      "start": 13.32,
+      "end": 13.76
+    },
+    {
+      "word": "beef",
+      "start": 13.76,
+      "end": 14.12
+    },
+    {
+      "word": "lily",
+      "start": 14.92,
+      "end": 15.06
+    },
+    {
+      "word": "doesn't",
+      "start": 15.06,
+      "end": 15.94
+    },
+    {
+      "word": "jack",
+      "start": 16.14,
+      "end": 16.28
+    },
+    {
+      "word": "likes",
+      "start": 16.28,
+      "end": 16.7
+    },
+    {
+      "word": "tuna",
+      "start": 16.7,
+      "end": 17.1
+    },
+    {
+      "word": "lily",
+      "start": 18.16,
+      "end": 18.36
+    },
+    {
+      "word": "doesn't",
+      "start": 18.36,
+      "end": 19.18
+    },
+    {
+      "word": "jack",
+      "start": 19.5,
+      "end": 19.68
+    },
+    {
+      "word": "likes",
+      "start": 19.68,
+      "end": 20.04
+    },
+    {
+      "word": "pork",
+      "start": 20.04,
+      "end": 20.48
+    },
+    {
+      "word": "lily",
+      "start": 21.54,
+      "end": 21.74
+    },
+    {
+      "word": "doesn't",
+      "start": 21.74,
+      "end": 22.54
+    },
+    {
+      "word": "jack",
+      "start": 22.88,
+      "end": 23.04
+    },
+    {
+      "word": "likes",
+      "start": 23.04,
+      "end": 23.46
+    },
+    {
+      "word": "turkey",
+      "start": 23.46,
+      "end": 23.84
+    },
+    {
+      "word": "lily",
+      "start": 24.94,
+      "end": 25.24
+    },
+    {
+      "word": "doesn't",
+      "start": 25.24,
+      "end": 26.2
+    },
+    {
+      "word": "jack",
+      "start": 26.44,
+      "end": 26.78
+    },
+    {
+      "word": "loves",
+      "start": 26.78,
+      "end": 27.18
+    },
+    {
+      "word": "salmon",
+      "start": 27.18,
+      "end": 27.74
+    },
+    {
+      "word": "lily",
+      "start": 27.74,
+      "end": 29.0
+    },
+    {
+      "word": "does",
+      "start": 29.0,
+      "end": 29.58
+    },
+    {
+      "word": "too",
+      "start": 29.58,
+      "end": 30.2
+    },
+    {
+      "word": "in",
+      "start": 30.52,
+      "end": 30.56
+    },
+    {
+      "word": "this",
+      "start": 30.56,
+      "end": 30.84
+    },
+    {
+      "word": "way",
+      "start": 30.84,
+      "end": 31.4
+    },
+    {
+      "word": "jack",
+      "start": 31.68,
+      "end": 31.86
+    },
+    {
+      "word": "and",
+      "start": 31.86,
+      "end": 32.2
+    },
+    {
+      "word": "lily",
+      "start": 32.2,
+      "end": 32.56
+    },
+    {
+      "word": "are",
+      "start": 32.56,
+      "end": 32.96
+    },
+    {
+      "word": "the",
+      "start": 32.96,
+      "end": 33.28
+    },
+    {
+      "word": "same",
+      "start": 33.28,
+      "end": 33.6
+    }
+  ]
+}

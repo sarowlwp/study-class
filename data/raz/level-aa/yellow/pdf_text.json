@@ -1,0 +1,58 @@
+{
+  "id": "level-aa/yellow",
+  "title": "Yellow",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , aa Yellow series Colors Wriften by Racheal Rice wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Yellow Written Racheal Rice wwwreadinga-zcom Focus Question Where do you see the color yellow? by"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know bus signs cab truck hat vest light yellow lines Photo Credits: Front cover: @ Hemera Technologies/AbleStock com/Thinkstock; back cover: Shutterbas/Dreamstime.com; title page: @ Ryzhov Sergey/Dreamstime.com; page 3: @ Images-USA/Alamy; page 4: @ Eugene Llacuna/iStock/Thinkstock; page 5: @ tupungato/123RF; page 6: @ fotoluminate/123RF; page 7: @ Baloncici/ Dreamstime.com; page &: Steve Skjold/Alamy; page 9: @ daizuoxin/iStock/ Thinkstock; page I0: @ Purestock/Thinkstock Yellow Level aa Leveled Book Correlation Learning A-Z LEVEL aa Written by Racheal Rice Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "SCHOOL BUS  5216 IH4PiEE The yellow bus. Yellow Level aa 3"
+    },
+    {
+      "page": 5,
+      "text": "The yellow light: 0"
+    },
+    {
+      "page": 6,
+      "text": "#t 4H14 The yellow cab: Yellow Level aa 5 \"UTAc"
+    },
+    {
+      "page": 7,
+      "text": "CROSSWALKI The yellow signs: 6"
+    },
+    {
+      "page": 8,
+      "text": "The yellow truck Yellow Level aa"
+    },
+    {
+      "page": 9,
+      "text": "6 The yellow vest: 8"
+    },
+    {
+      "page": 10,
+      "text": "The yellow lines. Yellow Level aa"
+    },
+    {
+      "page": 11,
+      "text": "The yellow hat. 10"
+    },
+    {
+      "page": 12,
+      "text": "Yellow A Reading A-Z Level &a Leveled Book Word Count: 24 Connections Writing and Art Think of something that is yellow: Draw a picture of it, and write the following under your picture: The yellow Math Ask each student in class which color is their favorite. Create a class graph showing how many students like each color: Reading A2 Visit wwwreadinga-z.com for thousands of books and materials."
+    }
+  ]
+}

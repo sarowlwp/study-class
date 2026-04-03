@@ -1,0 +1,54 @@
+{
+  "id": "level-c/what-do-i-wear",
+  "title": "What Do I Wear",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C What Do I Wear? Written by Katalina Page wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "What Do I Wear? Written by Katalina Page wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "A foot wears a shoe: What Do Wear? Level C 3"
+    },
+    {
+      "page": 4,
+      "text": "A chest wears a shirt. 4"
+    },
+    {
+      "page": 5,
+      "text": "A waist wears a belt. What Do Wear? Level C 5"
+    },
+    {
+      "page": 6,
+      "text": "A finger wears a 6 ring;"
+    },
+    {
+      "page": 7,
+      "text": "A wrist wears a watch: What Do Wear? Level C"
+    },
+    {
+      "page": 8,
+      "text": "A head wears a hat. 8"
+    },
+    {
+      "page": 9,
+      "text": "A face wears a smile: What Do Wear? Level C"
+    },
+    {
+      "page": 10,
+      "text": "A heart wears lovel 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: All photos: Craig Frederick/@ Learning A-Z What Do I Wear? Level C Leveled Book Correlation Learning A-Z LEVEL € Written by Katalina Fountas & Pinnell C All rights reserved: Reading Recovery 3-4 DRA 3-4 wwwreadinga-zcom Page"
+    }
+  ]
+}

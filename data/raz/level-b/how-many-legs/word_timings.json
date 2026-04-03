@@ -1,0 +1,246 @@
+{
+  "version": "1.0",
+  "total_words": 48,
+  "timings": [
+    {
+      "word": "how",
+      "start": 0.0,
+      "end": 0.38
+    },
+    {
+      "word": "many",
+      "start": 0.38,
+      "end": 0.72
+    },
+    {
+      "word": "legs",
+      "start": 0.72,
+      "end": 1.36
+    },
+    {
+      "word": "written",
+      "start": 2.26,
+      "end": 2.54
+    },
+    {
+      "word": "by",
+      "start": 2.54,
+      "end": 3.08
+    },
+    {
+      "word": "ned",
+      "start": 3.08,
+      "end": 3.84
+    },
+    {
+      "word": "jensen",
+      "start": 3.84,
+      "end": 4.8
+    },
+    {
+      "word": "many",
+      "start": 5.52,
+      "end": 5.62
+    },
+    {
+      "word": "animals",
+      "start": 5.62,
+      "end": 6.32
+    },
+    {
+      "word": "have",
+      "start": 6.32,
+      "end": 7.12
+    },
+    {
+      "word": "legs",
+      "start": 7.12,
+      "end": 7.66
+    },
+    {
+      "word": "these",
+      "start": 8.28,
+      "end": 8.64
+    },
+    {
+      "word": "animals",
+      "start": 8.64,
+      "end": 9.3
+    },
+    {
+      "word": "have",
+      "start": 9.3,
+      "end": 10.02
+    },
+    {
+      "word": "two",
+      "start": 10.02,
+      "end": 10.42
+    },
+    {
+      "word": "legs",
+      "start": 10.42,
+      "end": 11.0
+    },
+    {
+      "word": "these",
+      "start": 11.76,
+      "end": 12.02
+    },
+    {
+      "word": "animals",
+      "start": 12.02,
+      "end": 12.68
+    },
+    {
+      "word": "have",
+      "start": 12.68,
+      "end": 13.54
+    },
+    {
+      "word": "four",
+      "start": 13.54,
+      "end": 13.88
+    },
+    {
+      "word": "legs",
+      "start": 13.88,
+      "end": 14.56
+    },
+    {
+      "word": "these",
+      "start": 15.26,
+      "end": 15.6
+    },
+    {
+      "word": "animals",
+      "start": 15.6,
+      "end": 16.32
+    },
+    {
+      "word": "have",
+      "start": 16.32,
+      "end": 17.04
+    },
+    {
+      "word": "six",
+      "start": 17.04,
+      "end": 17.58
+    },
+    {
+      "word": "legs",
+      "start": 17.58,
+      "end": 18.28
+    },
+    {
+      "word": "these",
+      "start": 18.88,
+      "end": 19.18
+    },
+    {
+      "word": "animals",
+      "start": 19.18,
+      "end": 19.96
+    },
+    {
+      "word": "have",
+      "start": 19.96,
+      "end": 20.64
+    },
+    {
+      "word": "eight",
+      "start": 20.64,
+      "end": 21.08
+    },
+    {
+      "word": "legs",
+      "start": 21.08,
+      "end": 21.86
+    },
+    {
+      "word": "these",
+      "start": 22.32,
+      "end": 22.66
+    },
+    {
+      "word": "animals",
+      "start": 22.66,
+      "end": 23.4
+    },
+    {
+      "word": "have",
+      "start": 23.4,
+      "end": 24.06
+    },
+    {
+      "word": "ten",
+      "start": 24.06,
+      "end": 24.44
+    },
+    {
+      "word": "legs",
+      "start": 24.44,
+      "end": 25.14
+    },
+    {
+      "word": "these",
+      "start": 25.68,
+      "end": 26.1
+    },
+    {
+      "word": "animals",
+      "start": 26.1,
+      "end": 26.88
+    },
+    {
+      "word": "have",
+      "start": 26.88,
+      "end": 27.5
+    },
+    {
+      "word": "many",
+      "start": 27.5,
+      "end": 28.0
+    },
+    {
+      "word": "legs",
+      "start": 28.0,
+      "end": 28.66
+    },
+    {
+      "word": "how",
+      "start": 28.66,
+      "end": 29.5
+    },
+    {
+      "word": "many",
+      "start": 29.5,
+      "end": 29.8
+    },
+    {
+      "word": "legs",
+      "start": 29.8,
+      "end": 30.32
+    },
+    {
+      "word": "do",
+      "start": 30.32,
+      "end": 30.88
+    },
+    {
+      "word": "these",
+      "start": 30.88,
+      "end": 31.3
+    },
+    {
+      "word": "animals",
+      "start": 31.3,
+      "end": 31.82
+    },
+    {
+      "word": "have",
+      "start": 31.82,
+      "end": 32.36
+    }
+  ]
+}

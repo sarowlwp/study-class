@@ -1,0 +1,54 @@
+{
+  "id": "level-a/carlos-counts-kittens",
+  "title": "Carlos Counts Kittens",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Carlos Counts Kittens series Carlos Written by Lorena F Di Bello Illustrated by Angela Kamstra-Jacobson www.readinga-z.com 416"
+    },
+    {
+      "page": 2,
+      "text": "Carlos Counts Kittens Written by Lorena F Di Bello Illustrated by Angela Kamstra-Jacobson wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "Carlos has one kitten_ Carlos Counts Kittens Level A 3"
+    },
+    {
+      "page": 4,
+      "text": "1 Carlos has two kittens."
+    },
+    {
+      "page": 5,
+      "text": "Carlos has three kittens. Carlos Counts Kittens Level A 5"
+    },
+    {
+      "page": 6,
+      "text": "Carlos has four kittens. 1 kbi"
+    },
+    {
+      "page": 7,
+      "text": "Carlos has five kittens. Carlos Counts Kittens Level A"
+    },
+    {
+      "page": 8,
+      "text": "Carlos has six kittens. 8"
+    },
+    {
+      "page": 9,
+      "text": "Carlos has seven kittens. Carlos Counts Kittens Level A"
+    },
+    {
+      "page": 10,
+      "text": "3 % Carlos has too many kittensl 10 6,"
+    },
+    {
+      "page": 11,
+      "text": "Carlos Counts Kittens Level A Leveled Book Learning A-Z Correlation Written by Lorena F Di Bello LEVEL A Illustrated by Angela Kamstra-Jacobson Fountas & Pinnell A All rights reserved. Reading_Recovery DRA A-1 wwwreadinga-z = com"
+    }
+  ]
+}

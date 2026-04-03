@@ -1,0 +1,211 @@
+{
+  "version": "1.0",
+  "total_words": 41,
+  "timings": [
+    {
+      "word": "what",
+      "start": 0.0,
+      "end": 0.36
+    },
+    {
+      "word": "i",
+      "start": 0.36,
+      "end": 0.78
+    },
+    {
+      "word": "like",
+      "start": 0.78,
+      "end": 1.26
+    },
+    {
+      "word": "written",
+      "start": 1.96,
+      "end": 2.14
+    },
+    {
+      "word": "by",
+      "start": 2.14,
+      "end": 2.84
+    },
+    {
+      "word": "w",
+      "start": 2.84,
+      "end": 3.4
+    },
+    {
+      "word": "e",
+      "start": 3.4,
+      "end": 3.9
+    },
+    {
+      "word": "strauss",
+      "start": 3.94,
+      "end": 4.6
+    },
+    {
+      "word": "illustrated",
+      "start": 5.38,
+      "end": 5.9
+    },
+    {
+      "word": "by",
+      "start": 5.9,
+      "end": 6.74
+    },
+    {
+      "word": "rebecca",
+      "start": 6.74,
+      "end": 7.22
+    },
+    {
+      "word": "thormburg",
+      "start": 7.22,
+      "end": 8.16
+    },
+    {
+      "word": "i",
+      "start": 8.64,
+      "end": 8.8
+    },
+    {
+      "word": "like",
+      "start": 8.8,
+      "end": 9.44
+    },
+    {
+      "word": "flowers",
+      "start": 9.44,
+      "end": 10.02
+    },
+    {
+      "word": "i",
+      "start": 10.56,
+      "end": 10.8
+    },
+    {
+      "word": "like",
+      "start": 10.8,
+      "end": 11.54
+    },
+    {
+      "word": "trees",
+      "start": 11.54,
+      "end": 12.08
+    },
+    {
+      "word": "i",
+      "start": 12.54,
+      "end": 12.74
+    },
+    {
+      "word": "like",
+      "start": 12.74,
+      "end": 13.36
+    },
+    {
+      "word": "birds",
+      "start": 13.36,
+      "end": 14.12
+    },
+    {
+      "word": "i",
+      "start": 14.7,
+      "end": 14.86
+    },
+    {
+      "word": "like",
+      "start": 14.86,
+      "end": 15.38
+    },
+    {
+      "word": "bees",
+      "start": 15.38,
+      "end": 16.1
+    },
+    {
+      "word": "i",
+      "start": 16.54,
+      "end": 16.72
+    },
+    {
+      "word": "like",
+      "start": 16.72,
+      "end": 17.4
+    },
+    {
+      "word": "to",
+      "start": 17.4,
+      "end": 17.96
+    },
+    {
+      "word": "swing",
+      "start": 17.96,
+      "end": 18.46
+    },
+    {
+      "word": "i",
+      "start": 19.0,
+      "end": 19.06
+    },
+    {
+      "word": "like",
+      "start": 19.06,
+      "end": 19.58
+    },
+    {
+      "word": "to",
+      "start": 19.58,
+      "end": 20.18
+    },
+    {
+      "word": "slide",
+      "start": 20.18,
+      "end": 20.64
+    },
+    {
+      "word": "i",
+      "start": 21.1,
+      "end": 21.26
+    },
+    {
+      "word": "like",
+      "start": 21.26,
+      "end": 21.74
+    },
+    {
+      "word": "to",
+      "start": 21.74,
+      "end": 22.42
+    },
+    {
+      "word": "dig",
+      "start": 22.42,
+      "end": 22.86
+    },
+    {
+      "word": "i",
+      "start": 23.28,
+      "end": 23.44
+    },
+    {
+      "word": "like",
+      "start": 23.44,
+      "end": 24.12
+    },
+    {
+      "word": "to",
+      "start": 24.12,
+      "end": 24.54
+    },
+    {
+      "word": "play",
+      "start": 24.54,
+      "end": 24.86
+    },
+    {
+      "word": "outside",
+      "start": 24.86,
+      "end": 25.52
+    }
+  ]
+}

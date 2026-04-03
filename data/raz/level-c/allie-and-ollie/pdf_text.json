@@ -1,0 +1,54 @@
+{
+  "id": "level-c/allie-and-ollie",
+  "title": "Allie And Ollie",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C Allie and Ollie Written by Katherine Page Illustrated by Kaori Taijima wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Allie and Ollie Written by Katherine Page Illustrated by Kaori Tajima wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "Vm Allie and Ollie are Allie and Ollie * Level € 3 dogs."
+    },
+    {
+      "page": 4,
+      "text": "n Allie and Ollie are sisters."
+    },
+    {
+      "page": 5,
+      "text": "Rat lE Allie and Ollie think are people: Allie and Ollie 0 Level C 5 they"
+    },
+    {
+      "page": 6,
+      "text": " Allie and Ollie sit Iike people:"
+    },
+    {
+      "page": 7,
+      "text": "488 Allie and Ollie eat like people: Allie and Ollie 0 Level C"
+    },
+    {
+      "page": 8,
+      "text": "I Allie and Ollie run like people: 8"
+    },
+    {
+      "page": 9,
+      "text": "Allie and Ollie like people: Allie and Ollie 0 Level C sleep"
+    },
+    {
+      "page": 10,
+      "text": "But Allie and Ollie chase cats just like dogsl 10 Ha"
+    },
+    {
+      "page": 11,
+      "text": "Allie and Ollie Level C Leveled Book Learning A-Z Correlation Written by Katherine LEVEL € Illustrated by Kaori Tajima Fountas & Pinnell C All rights reserved: Reading Recovery 3-4 DRA 3-4 wwwreadinga-zcom Page"
+    }
+  ]
+}

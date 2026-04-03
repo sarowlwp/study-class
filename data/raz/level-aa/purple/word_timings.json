@@ -1,0 +1,461 @@
+{
+  "version": "1.0",
+  "total_words": 91,
+  "timings": [
+    {
+      "word": "purple",
+      "start": 0.0,
+      "end": 0.78
+    },
+    {
+      "word": "written",
+      "start": 1.48,
+      "end": 1.98
+    },
+    {
+      "word": "by",
+      "start": 1.98,
+      "end": 2.34
+    },
+    {
+      "word": "rachel",
+      "start": 2.34,
+      "end": 2.74
+    },
+    {
+      "word": "rice",
+      "start": 2.74,
+      "end": 3.54
+    },
+    {
+      "word": "focus",
+      "start": 4.56,
+      "end": 4.68
+    },
+    {
+      "word": "question",
+      "start": 4.68,
+      "end": 5.54
+    },
+    {
+      "word": "where",
+      "start": 6.52,
+      "end": 6.74
+    },
+    {
+      "word": "do",
+      "start": 6.74,
+      "end": 7.04
+    },
+    {
+      "word": "you",
+      "start": 7.04,
+      "end": 7.3
+    },
+    {
+      "word": "see",
+      "start": 7.3,
+      "end": 7.52
+    },
+    {
+      "word": "purple",
+      "start": 7.52,
+      "end": 7.94
+    },
+    {
+      "word": "at",
+      "start": 7.94,
+      "end": 8.76
+    },
+    {
+      "word": "the",
+      "start": 8.76,
+      "end": 9.04
+    },
+    {
+      "word": "beach",
+      "start": 9.04,
+      "end": 9.52
+    },
+    {
+      "word": "a",
+      "start": 10.28,
+      "end": 10.3
+    },
+    {
+      "word": "purple",
+      "start": 10.3,
+      "end": 10.86
+    },
+    {
+      "word": "shirt",
+      "start": 10.86,
+      "end": 11.38
+    },
+    {
+      "word": "a",
+      "start": 12.22,
+      "end": 12.36
+    },
+    {
+      "word": "purple",
+      "start": 12.36,
+      "end": 12.98
+    },
+    {
+      "word": "hat",
+      "start": 12.98,
+      "end": 13.64
+    },
+    {
+      "word": "a",
+      "start": 14.2,
+      "end": 14.32
+    },
+    {
+      "word": "purple",
+      "start": 14.32,
+      "end": 14.92
+    },
+    {
+      "word": "flip",
+      "start": 14.92,
+      "end": 15.44
+    },
+    {
+      "word": "-slop",
+      "start": 15.44,
+      "end": 15.96
+    },
+    {
+      "word": "a",
+      "start": 16.54,
+      "end": 16.72
+    },
+    {
+      "word": "purple",
+      "start": 16.72,
+      "end": 17.26
+    },
+    {
+      "word": "ball",
+      "start": 17.26,
+      "end": 18.08
+    },
+    {
+      "word": "a",
+      "start": 18.62,
+      "end": 18.76
+    },
+    {
+      "word": "purple",
+      "start": 18.76,
+      "end": 19.3
+    },
+    {
+      "word": "towel",
+      "start": 19.3,
+      "end": 19.96
+    },
+    {
+      "word": "a",
+      "start": 20.76,
+      "end": 21.2
+    },
+    {
+      "word": "purple",
+      "start": 21.2,
+      "end": 21.64
+    },
+    {
+      "word": "backpack",
+      "start": 21.64,
+      "end": 22.46
+    },
+    {
+      "word": "a",
+      "start": 22.46,
+      "end": 23.32
+    },
+    {
+      "word": "purple",
+      "start": 23.32,
+      "end": 23.86
+    },
+    {
+      "word": "bucket",
+      "start": 23.86,
+      "end": 24.7
+    },
+    {
+      "word": "a",
+      "start": 25.22,
+      "end": 25.3
+    },
+    {
+      "word": "purple",
+      "start": 25.3,
+      "end": 26.06
+    },
+    {
+      "word": "ice",
+      "start": 26.06,
+      "end": 26.64
+    },
+    {
+      "word": "pot",
+      "start": 26.64,
+      "end": 27.24
+    },
+    {
+      "word": "connections",
+      "start": 27.6,
+      "end": 28.3
+    },
+    {
+      "word": "writing",
+      "start": 29.52,
+      "end": 29.82
+    },
+    {
+      "word": "and",
+      "start": 29.82,
+      "end": 30.5
+    },
+    {
+      "word": "art",
+      "start": 30.5,
+      "end": 31.24
+    },
+    {
+      "word": "would",
+      "start": 31.94,
+      "end": 31.96
+    },
+    {
+      "word": "you",
+      "start": 31.96,
+      "end": 32.32
+    },
+    {
+      "word": "rather",
+      "start": 32.32,
+      "end": 32.8
+    },
+    {
+      "word": "take",
+      "start": 32.8,
+      "end": 33.3
+    },
+    {
+      "word": "a",
+      "start": 33.3,
+      "end": 33.56
+    },
+    {
+      "word": "trip",
+      "start": 33.56,
+      "end": 33.9
+    },
+    {
+      "word": "to",
+      "start": 33.9,
+      "end": 34.3
+    },
+    {
+      "word": "the",
+      "start": 34.3,
+      "end": 34.52
+    },
+    {
+      "word": "beach",
+      "start": 34.52,
+      "end": 35.02
+    },
+    {
+      "word": "or",
+      "start": 35.02,
+      "end": 35.68
+    },
+    {
+      "word": "the",
+      "start": 35.68,
+      "end": 35.96
+    },
+    {
+      "word": "mountains",
+      "start": 35.96,
+      "end": 36.72
+    },
+    {
+      "word": "why",
+      "start": 37.76,
+      "end": 37.96
+    },
+    {
+      "word": "draw",
+      "start": 39.04,
+      "end": 39.28
+    },
+    {
+      "word": "a",
+      "start": 39.28,
+      "end": 39.54
+    },
+    {
+      "word": "picture",
+      "start": 39.54,
+      "end": 39.94
+    },
+    {
+      "word": "and",
+      "start": 39.94,
+      "end": 40.6
+    },
+    {
+      "word": "write",
+      "start": 40.6,
+      "end": 40.88
+    },
+    {
+      "word": "about",
+      "start": 40.88,
+      "end": 41.28
+    },
+    {
+      "word": "your",
+      "start": 41.28,
+      "end": 41.54
+    },
+    {
+      "word": "choice",
+      "start": 41.54,
+      "end": 42.32
+    },
+    {
+      "word": "science",
+      "start": 43.8,
+      "end": 43.88
+    },
+    {
+      "word": "pretend",
+      "start": 44.66,
+      "end": 45.32
+    },
+    {
+      "word": "you",
+      "start": 45.32,
+      "end": 45.58
+    },
+    {
+      "word": "are",
+      "start": 45.58,
+      "end": 45.84
+    },
+    {
+      "word": "at",
+      "start": 45.84,
+      "end": 46.06
+    },
+    {
+      "word": "the",
+      "start": 46.06,
+      "end": 46.22
+    },
+    {
+      "word": "beach",
+      "start": 46.22,
+      "end": 46.68
+    },
+    {
+      "word": "use",
+      "start": 47.4,
+      "end": 47.64
+    },
+    {
+      "word": "your",
+      "start": 47.64,
+      "end": 48.02
+    },
+    {
+      "word": "five",
+      "start": 48.02,
+      "end": 48.3
+    },
+    {
+      "word": "senses",
+      "start": 48.3,
+      "end": 48.96
+    },
+    {
+      "word": "to",
+      "start": 48.96,
+      "end": 49.5
+    },
+    {
+      "word": "describe",
+      "start": 49.5,
+      "end": 50.06
+    },
+    {
+      "word": "to",
+      "start": 50.06,
+      "end": 50.48
+    },
+    {
+      "word": "a",
+      "start": 50.48,
+      "end": 50.6
+    },
+    {
+      "word": "partner",
+      "start": 50.6,
+      "end": 51.14
+    },
+    {
+      "word": "and",
+      "start": 51.14,
+      "end": 51.28
+    },
+    {
+      "word": "what",
+      "start": 51.28,
+      "end": 51.78
+    },
+    {
+      "word": "you",
+      "start": 51.78,
+      "end": 52.12
+    },
+    {
+      "word": "see",
+      "start": 52.12,
+      "end": 52.74
+    },
+    {
+      "word": "here",
+      "start": 52.74,
+      "end": 53.86
+    },
+    {
+      "word": "smell",
+      "start": 54.92,
+      "end": 55.34
+    },
+    {
+      "word": "taste",
+      "start": 56.38,
+      "end": 56.92
+    },
+    {
+      "word": "and",
+      "start": 57.74,
+      "end": 58.02
+    },
+    {
+      "word": "feel",
+      "start": 58.02,
+      "end": 58.42
+    }
+  ]
+}

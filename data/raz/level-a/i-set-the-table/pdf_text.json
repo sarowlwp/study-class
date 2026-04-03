@@ -1,0 +1,54 @@
+{
+  "id": "level-a/i-set-the-table",
+  "title": "I Set The Table",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A udp TSet the Table Written by Beverly Osborn wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "I Set the Table Written Beverly Osborn wwwreadinga-z.com by"
+    },
+    {
+      "page": 3,
+      "text": "I put the cloth here: Set the Table 0 Level A 3"
+    },
+    {
+      "page": 4,
+      "text": "I put the here: plate"
+    },
+    {
+      "page": 5,
+      "text": "I put the  napkin here: Set the Table 0 Level A 5"
+    },
+    {
+      "page": 6,
+      "text": "I put the fork here:"
+    },
+    {
+      "page": 7,
+      "text": "I put the knife here: Set the Table 0 Level A"
+    },
+    {
+      "page": 8,
+      "text": "Ip I put the spoon here: 8"
+    },
+    {
+      "page": 9,
+      "text": "dle I put the here; Set the Table 0 Level A glass"
+    },
+    {
+      "page": 10,
+      "text": "I put the flowers here: 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: All photos by Craig Frederick/Gawain Douglas/@ Learning A-Z I Set the Table Level A Leveled Book Correlation @ Learning A-Z LEVEL A Written by Beverly Osborn Fountas & Pinnell A All rights reserved: Reading Recovery DRA A-I wwwreadinga-zcom"
+    }
+  ]
+}

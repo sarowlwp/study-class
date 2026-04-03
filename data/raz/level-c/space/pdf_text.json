@@ -1,0 +1,54 @@
+{
+  "id": "level-c/space",
+  "title": "Space",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C SPACE Written Katherine wwwreadinga-z.com by Page"
+    },
+    {
+      "page": 2,
+      "text": "SPACE Written by Katherine Page wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "In the you see the SPACE Level C 3 day; sky:"
+    },
+    {
+      "page": 4,
+      "text": "In the night, you can see space:"
+    },
+    {
+      "page": 5,
+      "text": "The stars are in space: SPACE Level C 5"
+    },
+    {
+      "page": 6,
+      "text": "The Moon is in space:"
+    },
+    {
+      "page": 7,
+      "text": "Planets are in space_ SPACE Level C"
+    },
+    {
+      "page": 8,
+      "text": "Comets are in space: 8"
+    },
+    {
+      "page": 9,
+      "text": "Satellites are in space\" SPACE Level C"
+    },
+    {
+      "page": 10,
+      "text": "What do you see in space? 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover: courtesy of NASA/JPL-Caltech/UCLA; back cover: @ NASA/Roger Ressmeyer/Corbis; title page: courtesy of NASA; page 3: @ iStockphoto.com; page 4: @ iStockphotocom/Steven Gullen; page 5: Babak Tafreshi/Photo Researchers; Inc;; page 6: @ Carolina K Smith MD /Dreamstime.com; page 7: @0 iStockphotocom/Michael Grindley: page 8: @ Boris Starosta/Photo Researchers; Inc:; page 9: 0 iStockphoto.com/Cristian Andrei Matei; page 10: courtesy of NASA/ESA and A Schaller (for STScI) SPACE Level C Leveled Book Correlation Learning A-Z LEVEL € Written by Katherine Fountas & Pinnell C All rights reserved: Reading Recovery 3-4 DRA 3-4 wwwreadinga-zcom Page"
+    }
+  ]
+}

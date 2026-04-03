@@ -1,0 +1,58 @@
+{
+  "id": "level-aa/the-playground",
+  "title": "The Playground",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , aa The Playground Written by Elizabeth Jane Pustilnik wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "The Playground Written Elizabeth Jane Pustilnik wwWreadinga-z,com Focus Question What can you do at the playground? by"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know bridge slide gate swing ladder wheel Photo Credits: Front cover: @ National Geographic Image Collection/Alamy; back cover: @ Radius Images/Corbis; title page: @ Brand X Pictures/Stockbyte/Thinkstock; page 3: @ out west photography/Alamy; page 4: @ Katarzyna Bialasiewicz/ Dreamstime.com; page 5: @ Emde/Dreamstime.com; page b: @ Olle Robin/ page 7: @ moodboard/Corbis; page 8: @ Design Pics/Design Pics/ Superstock; page 9: @ PATSTOCK/age fotostock/Superstock; page 10: Mykhaylo Palinchak/123RF The Playground Level aa Leveled Book Correlation Learning A-Z LEVEL aa Written by Elizabeth Jane Pustilnik Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com way Alamy;"
+    },
+    {
+      "page": 4,
+      "text": "K The gate: The Playground 0 Level aa 3"
+    },
+    {
+      "page": 5,
+      "text": "1 The L swing:"
+    },
+    {
+      "page": 6,
+      "text": "K The slide: The Playground 0 Level aa 5"
+    },
+    {
+      "page": 7,
+      "text": "The sandbox 6"
+    },
+    {
+      "page": 8,
+      "text": "The ladder: The Playground 0 Level aa"
+    },
+    {
+      "page": 9,
+      "text": "The bridge: 8"
+    },
+    {
+      "page": 10,
+      "text": "The wheel: The Playground 0 Level aa"
+    },
+    {
+      "page": 11,
+      "text": "The playground: 10"
+    },
+    {
+      "page": 12,
+      "text": "The Playground A Reading A-Z Level aa Leveled Book Word Count: 16 Connections Writing and Art What is your favorite thing to do at the playground? Draw a picture and write about it, Social Studies is it important to follow the rules when youre at the playground? Share your ideas with a partner: Reading A-Z Visit wwwreadinga-z.com for thousands of books and materials Why"
+    }
+  ]
+}

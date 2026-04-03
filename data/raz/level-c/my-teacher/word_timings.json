@@ -1,0 +1,521 @@
+{
+  "version": "1.0",
+  "total_words": 103,
+  "timings": [
+    {
+      "word": "my",
+      "start": 0.0,
+      "end": 0.64
+    },
+    {
+      "word": "teacher",
+      "start": 0.64,
+      "end": 1.56
+    },
+    {
+      "word": "written",
+      "start": 2.58,
+      "end": 3.02
+    },
+    {
+      "word": "by",
+      "start": 3.02,
+      "end": 4.0
+    },
+    {
+      "word": "e",
+      "start": 4.0,
+      "end": 4.58
+    },
+    {
+      "word": "d",
+      "start": 4.58,
+      "end": 4.94
+    },
+    {
+      "word": "evans",
+      "start": 5.26,
+      "end": 5.78
+    },
+    {
+      "word": "illustrated",
+      "start": 7.02,
+      "end": 7.52
+    },
+    {
+      "word": "by",
+      "start": 7.52,
+      "end": 8.58
+    },
+    {
+      "word": "juliano",
+      "start": 8.58,
+      "end": 9.36
+    },
+    {
+      "word": "aloesi",
+      "start": 9.36,
+      "end": 10.76
+    },
+    {
+      "word": "focus",
+      "start": 12.2,
+      "end": 12.46
+    },
+    {
+      "word": "question",
+      "start": 12.46,
+      "end": 13.7
+    },
+    {
+      "word": "what",
+      "start": 15.08,
+      "end": 15.32
+    },
+    {
+      "word": "makes",
+      "start": 15.32,
+      "end": 16.24
+    },
+    {
+      "word": "a",
+      "start": 16.24,
+      "end": 17.24
+    },
+    {
+      "word": "good",
+      "start": 17.24,
+      "end": 17.84
+    },
+    {
+      "word": "teacher",
+      "start": 17.84,
+      "end": 18.74
+    },
+    {
+      "word": "my",
+      "start": 19.14,
+      "end": 19.38
+    },
+    {
+      "word": "teacher",
+      "start": 19.38,
+      "end": 20.26
+    },
+    {
+      "word": "is",
+      "start": 20.26,
+      "end": 20.9
+    },
+    {
+      "word": "the",
+      "start": 20.9,
+      "end": 21.42
+    },
+    {
+      "word": "best",
+      "start": 21.42,
+      "end": 22.16
+    },
+    {
+      "word": "my",
+      "start": 23.28,
+      "end": 23.7
+    },
+    {
+      "word": "teacher",
+      "start": 23.7,
+      "end": 24.64
+    },
+    {
+      "word": "is",
+      "start": 24.64,
+      "end": 25.54
+    },
+    {
+      "word": "helpful",
+      "start": 25.54,
+      "end": 26.54
+    },
+    {
+      "word": "my",
+      "start": 27.06,
+      "end": 27.52
+    },
+    {
+      "word": "teacher",
+      "start": 27.52,
+      "end": 28.44
+    },
+    {
+      "word": "is",
+      "start": 28.44,
+      "end": 29.44
+    },
+    {
+      "word": "caring",
+      "start": 29.44,
+      "end": 30.32
+    },
+    {
+      "word": "my",
+      "start": 30.98,
+      "end": 31.12
+    },
+    {
+      "word": "teacher",
+      "start": 31.12,
+      "end": 31.92
+    },
+    {
+      "word": "is",
+      "start": 31.92,
+      "end": 32.92
+    },
+    {
+      "word": "creative",
+      "start": 32.92,
+      "end": 33.92
+    },
+    {
+      "word": "my",
+      "start": 34.38,
+      "end": 34.76
+    },
+    {
+      "word": "teacher",
+      "start": 34.76,
+      "end": 35.68
+    },
+    {
+      "word": "is",
+      "start": 35.68,
+      "end": 36.62
+    },
+    {
+      "word": "funny",
+      "start": 36.62,
+      "end": 37.5
+    },
+    {
+      "word": "my",
+      "start": 37.92,
+      "end": 38.32
+    },
+    {
+      "word": "teacher",
+      "start": 38.32,
+      "end": 39.26
+    },
+    {
+      "word": "is",
+      "start": 39.26,
+      "end": 40.08
+    },
+    {
+      "word": "smart",
+      "start": 40.08,
+      "end": 40.74
+    },
+    {
+      "word": "my",
+      "start": 41.3,
+      "end": 41.74
+    },
+    {
+      "word": "teacher",
+      "start": 41.74,
+      "end": 42.84
+    },
+    {
+      "word": "is",
+      "start": 42.84,
+      "end": 43.48
+    },
+    {
+      "word": "talented",
+      "start": 43.48,
+      "end": 44.38
+    },
+    {
+      "word": "my",
+      "start": 45.0,
+      "end": 45.4
+    },
+    {
+      "word": "teacher",
+      "start": 45.4,
+      "end": 46.26
+    },
+    {
+      "word": "is",
+      "start": 46.26,
+      "end": 47.22
+    },
+    {
+      "word": "interesting",
+      "start": 47.22,
+      "end": 48.3
+    },
+    {
+      "word": "i",
+      "start": 48.86,
+      "end": 49.18
+    },
+    {
+      "word": "learn",
+      "start": 49.18,
+      "end": 49.82
+    },
+    {
+      "word": "so",
+      "start": 49.82,
+      "end": 50.54
+    },
+    {
+      "word": "much",
+      "start": 50.54,
+      "end": 51.06
+    },
+    {
+      "word": "from",
+      "start": 51.06,
+      "end": 51.62
+    },
+    {
+      "word": "my",
+      "start": 51.62,
+      "end": 52.14
+    },
+    {
+      "word": "teacher",
+      "start": 52.14,
+      "end": 52.7
+    },
+    {
+      "word": "my",
+      "start": 53.84,
+      "end": 54.2
+    },
+    {
+      "word": "teacher",
+      "start": 54.2,
+      "end": 54.82
+    },
+    {
+      "word": "is",
+      "start": 54.82,
+      "end": 55.42
+    },
+    {
+      "word": "the",
+      "start": 55.42,
+      "end": 55.96
+    },
+    {
+      "word": "best",
+      "start": 55.96,
+      "end": 56.6
+    },
+    {
+      "word": "connections",
+      "start": 56.6,
+      "end": 57.82
+    },
+    {
+      "word": "writing",
+      "start": 59.02,
+      "end": 59.34
+    },
+    {
+      "word": "and",
+      "start": 59.34,
+      "end": 60.36
+    },
+    {
+      "word": "art",
+      "start": 60.36,
+      "end": 61.28
+    },
+    {
+      "word": "draw",
+      "start": 62.18,
+      "end": 62.34
+    },
+    {
+      "word": "a",
+      "start": 62.34,
+      "end": 62.88
+    },
+    {
+      "word": "picture",
+      "start": 62.88,
+      "end": 63.34
+    },
+    {
+      "word": "of",
+      "start": 63.34,
+      "end": 64.14
+    },
+    {
+      "word": "your",
+      "start": 64.14,
+      "end": 64.44
+    },
+    {
+      "word": "teacher",
+      "start": 64.44,
+      "end": 65.1
+    },
+    {
+      "word": "write",
+      "start": 66.06,
+      "end": 66.34
+    },
+    {
+      "word": "five",
+      "start": 66.34,
+      "end": 67.18
+    },
+    {
+      "word": "words",
+      "start": 67.18,
+      "end": 67.68
+    },
+    {
+      "word": "to",
+      "start": 67.68,
+      "end": 68.3
+    },
+    {
+      "word": "describe",
+      "start": 68.3,
+      "end": 68.92
+    },
+    {
+      "word": "him",
+      "start": 68.92,
+      "end": 69.68
+    },
+    {
+      "word": "or",
+      "start": 69.68,
+      "end": 70.04
+    },
+    {
+      "word": "her",
+      "start": 70.04,
+      "end": 70.9
+    },
+    {
+      "word": "social",
+      "start": 71.96,
+      "end": 72.16
+    },
+    {
+      "word": "studies",
+      "start": 72.16,
+      "end": 72.98
+    },
+    {
+      "word": "teachers",
+      "start": 74.02,
+      "end": 74.56
+    },
+    {
+      "word": "are",
+      "start": 74.56,
+      "end": 75.26
+    },
+    {
+      "word": "helpful",
+      "start": 75.26,
+      "end": 75.86
+    },
+    {
+      "word": "who",
+      "start": 76.78,
+      "end": 77.12
+    },
+    {
+      "word": "else",
+      "start": 77.12,
+      "end": 77.8
+    },
+    {
+      "word": "in",
+      "start": 77.8,
+      "end": 78.14
+    },
+    {
+      "word": "your",
+      "start": 78.14,
+      "end": 78.42
+    },
+    {
+      "word": "community",
+      "start": 78.42,
+      "end": 78.98
+    },
+    {
+      "word": "is",
+      "start": 78.98,
+      "end": 79.58
+    },
+    {
+      "word": "helpful",
+      "start": 79.58,
+      "end": 80.26
+    },
+    {
+      "word": "how",
+      "start": 81.38,
+      "end": 81.56
+    },
+    {
+      "word": "do",
+      "start": 81.56,
+      "end": 82.0
+    },
+    {
+      "word": "they",
+      "start": 82.0,
+      "end": 82.34
+    },
+    {
+      "word": "help",
+      "start": 82.34,
+      "end": 82.84
+    },
+    {
+      "word": "share",
+      "start": 84.02,
+      "end": 84.36
+    },
+    {
+      "word": "your",
+      "start": 84.36,
+      "end": 84.96
+    },
+    {
+      "word": "ideas",
+      "start": 84.96,
+      "end": 85.56
+    },
+    {
+      "word": "with",
+      "start": 85.56,
+      "end": 86.3
+    },
+    {
+      "word": "your",
+      "start": 86.3,
+      "end": 86.62
+    },
+    {
+      "word": "class",
+      "start": 86.62,
+      "end": 87.04
+    }
+  ]
+}

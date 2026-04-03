@@ -1,0 +1,241 @@
+{
+  "version": "1.0",
+  "total_words": 47,
+  "timings": [
+    {
+      "word": "what",
+      "start": 0.0,
+      "end": 0.36
+    },
+    {
+      "word": "do",
+      "start": 0.36,
+      "end": 0.64
+    },
+    {
+      "word": "i",
+      "start": 0.64,
+      "end": 0.9
+    },
+    {
+      "word": "wear",
+      "start": 0.9,
+      "end": 1.62
+    },
+    {
+      "word": "written",
+      "start": 2.12,
+      "end": 2.5
+    },
+    {
+      "word": "by",
+      "start": 2.5,
+      "end": 2.82
+    },
+    {
+      "word": "catalina",
+      "start": 2.82,
+      "end": 3.54
+    },
+    {
+      "word": "page",
+      "start": 3.54,
+      "end": 4.18
+    },
+    {
+      "word": "a",
+      "start": 4.4,
+      "end": 4.68
+    },
+    {
+      "word": "foot",
+      "start": 4.68,
+      "end": 5.08
+    },
+    {
+      "word": "wears",
+      "start": 5.48,
+      "end": 5.76
+    },
+    {
+      "word": "a",
+      "start": 5.76,
+      "end": 6.32
+    },
+    {
+      "word": "shoe",
+      "start": 6.32,
+      "end": 6.7
+    },
+    {
+      "word": "a",
+      "start": 7.22,
+      "end": 7.26
+    },
+    {
+      "word": "chest",
+      "start": 7.26,
+      "end": 7.74
+    },
+    {
+      "word": "wears",
+      "start": 8.1,
+      "end": 8.38
+    },
+    {
+      "word": "a",
+      "start": 8.38,
+      "end": 9.06
+    },
+    {
+      "word": "shirt",
+      "start": 9.06,
+      "end": 9.46
+    },
+    {
+      "word": "a",
+      "start": 9.94,
+      "end": 9.96
+    },
+    {
+      "word": "waist",
+      "start": 9.96,
+      "end": 10.42
+    },
+    {
+      "word": "wears",
+      "start": 10.82,
+      "end": 11.16
+    },
+    {
+      "word": "a",
+      "start": 11.16,
+      "end": 11.64
+    },
+    {
+      "word": "belt",
+      "start": 11.64,
+      "end": 12.0
+    },
+    {
+      "word": "a",
+      "start": 12.44,
+      "end": 12.52
+    },
+    {
+      "word": "finger",
+      "start": 12.52,
+      "end": 12.92
+    },
+    {
+      "word": "wears",
+      "start": 13.4,
+      "end": 13.78
+    },
+    {
+      "word": "a",
+      "start": 13.78,
+      "end": 14.28
+    },
+    {
+      "word": "ring",
+      "start": 14.28,
+      "end": 14.7
+    },
+    {
+      "word": "a",
+      "start": 15.14,
+      "end": 15.14
+    },
+    {
+      "word": "wrist",
+      "start": 15.14,
+      "end": 15.66
+    },
+    {
+      "word": "wears",
+      "start": 16.12,
+      "end": 16.4
+    },
+    {
+      "word": "a",
+      "start": 16.4,
+      "end": 16.84
+    },
+    {
+      "word": "watch",
+      "start": 16.84,
+      "end": 17.32
+    },
+    {
+      "word": "a",
+      "start": 17.76,
+      "end": 17.88
+    },
+    {
+      "word": "head",
+      "start": 17.88,
+      "end": 18.48
+    },
+    {
+      "word": "wears",
+      "start": 18.56,
+      "end": 18.88
+    },
+    {
+      "word": "a",
+      "start": 18.88,
+      "end": 19.34
+    },
+    {
+      "word": "hat",
+      "start": 19.34,
+      "end": 19.72
+    },
+    {
+      "word": "a",
+      "start": 20.18,
+      "end": 20.18
+    },
+    {
+      "word": "face",
+      "start": 20.18,
+      "end": 20.68
+    },
+    {
+      "word": "wears",
+      "start": 21.04,
+      "end": 21.3
+    },
+    {
+      "word": "a",
+      "start": 21.3,
+      "end": 21.94
+    },
+    {
+      "word": "smile",
+      "start": 21.94,
+      "end": 22.24
+    },
+    {
+      "word": "a",
+      "start": 22.76,
+      "end": 22.94
+    },
+    {
+      "word": "heart",
+      "start": 22.94,
+      "end": 23.34
+    },
+    {
+      "word": "wears",
+      "start": 23.8,
+      "end": 24.1
+    },
+    {
+      "word": "love",
+      "start": 24.1,
+      "end": 24.8
+    }
+  ]
+}

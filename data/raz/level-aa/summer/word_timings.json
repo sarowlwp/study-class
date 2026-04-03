@@ -1,0 +1,141 @@
+{
+  "version": "1.0",
+  "total_words": 27,
+  "timings": [
+    {
+      "word": "summer",
+      "start": 0.0,
+      "end": 0.54
+    },
+    {
+      "word": "written",
+      "start": 1.26,
+      "end": 1.52
+    },
+    {
+      "word": "by",
+      "start": 1.52,
+      "end": 2.18
+    },
+    {
+      "word": "vick",
+      "start": 2.18,
+      "end": 2.9
+    },
+    {
+      "word": "moore's",
+      "start": 2.9,
+      "end": 4.02
+    },
+    {
+      "word": "illustrated",
+      "start": 4.14,
+      "end": 4.5
+    },
+    {
+      "word": "by",
+      "start": 4.5,
+      "end": 5.38
+    },
+    {
+      "word": "darcy",
+      "start": 5.38,
+      "end": 5.86
+    },
+    {
+      "word": "thong",
+      "start": 5.86,
+      "end": 7.0
+    },
+    {
+      "word": "the",
+      "start": 8.96,
+      "end": 9.08
+    },
+    {
+      "word": "sun",
+      "start": 9.08,
+      "end": 9.42
+    },
+    {
+      "word": "shine",
+      "start": 9.42,
+      "end": 10.44
+    },
+    {
+      "word": "the",
+      "start": 12.54,
+      "end": 12.72
+    },
+    {
+      "word": "rain",
+      "start": 12.72,
+      "end": 13.16
+    },
+    {
+      "word": "the",
+      "start": 15.88,
+      "end": 16.04
+    },
+    {
+      "word": "beach",
+      "start": 16.04,
+      "end": 16.72
+    },
+    {
+      "word": "the",
+      "start": 19.32,
+      "end": 19.46
+    },
+    {
+      "word": "swim",
+      "start": 19.46,
+      "end": 19.96
+    },
+    {
+      "word": "suit",
+      "start": 19.96,
+      "end": 20.36
+    },
+    {
+      "word": "the",
+      "start": 22.98,
+      "end": 23.14
+    },
+    {
+      "word": "ball",
+      "start": 23.14,
+      "end": 23.6
+    },
+    {
+      "word": "the",
+      "start": 26.14,
+      "end": 26.32
+    },
+    {
+      "word": "flowers",
+      "start": 26.32,
+      "end": 26.98
+    },
+    {
+      "word": "the",
+      "start": 26.98,
+      "end": 29.64
+    },
+    {
+      "word": "garden",
+      "start": 29.64,
+      "end": 30.72
+    },
+    {
+      "word": "the",
+      "start": 32.64,
+      "end": 32.8
+    },
+    {
+      "word": "sermon",
+      "start": 32.8,
+      "end": 33.24
+    }
+  ]
+}

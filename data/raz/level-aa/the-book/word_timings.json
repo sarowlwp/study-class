@@ -1,0 +1,171 @@
+{
+  "version": "1.0",
+  "total_words": 33,
+  "timings": [
+    {
+      "word": "the",
+      "start": 0.0,
+      "end": 0.4
+    },
+    {
+      "word": "book",
+      "start": 0.4,
+      "end": 1.0
+    },
+    {
+      "word": "written",
+      "start": 1.4,
+      "end": 2.06
+    },
+    {
+      "word": "by",
+      "start": 2.06,
+      "end": 2.62
+    },
+    {
+      "word": "keith",
+      "start": 2.62,
+      "end": 3.04
+    },
+    {
+      "word": "and",
+      "start": 3.04,
+      "end": 3.68
+    },
+    {
+      "word": "sarah",
+      "start": 3.68,
+      "end": 4.18
+    },
+    {
+      "word": "courta",
+      "start": 4.18,
+      "end": 4.92
+    },
+    {
+      "word": "-martin",
+      "start": 4.92,
+      "end": 5.98
+    },
+    {
+      "word": "illustrated",
+      "start": 6.5,
+      "end": 6.94
+    },
+    {
+      "word": "by",
+      "start": 6.94,
+      "end": 7.76
+    },
+    {
+      "word": "reginald",
+      "start": 7.76,
+      "end": 8.64
+    },
+    {
+      "word": "w",
+      "start": 8.64,
+      "end": 9.26
+    },
+    {
+      "word": "butler",
+      "start": 10.06,
+      "end": 10.12
+    },
+    {
+      "word": "the",
+      "start": 12.58,
+      "end": 12.6
+    },
+    {
+      "word": "front",
+      "start": 12.6,
+      "end": 13.16
+    },
+    {
+      "word": "cover",
+      "start": 13.16,
+      "end": 14.56
+    },
+    {
+      "word": "the",
+      "start": 16.68,
+      "end": 16.84
+    },
+    {
+      "word": "back",
+      "start": 16.84,
+      "end": 17.5
+    },
+    {
+      "word": "cover",
+      "start": 17.5,
+      "end": 18.94
+    },
+    {
+      "word": "the",
+      "start": 20.84,
+      "end": 21.02
+    },
+    {
+      "word": "title",
+      "start": 21.02,
+      "end": 21.5
+    },
+    {
+      "word": "the",
+      "start": 23.88,
+      "end": 24.18
+    },
+    {
+      "word": "pages",
+      "start": 24.18,
+      "end": 24.76
+    },
+    {
+      "word": "the",
+      "start": 24.76,
+      "end": 27.52
+    },
+    {
+      "word": "words",
+      "start": 27.52,
+      "end": 28.4
+    },
+    {
+      "word": "the",
+      "start": 30.7,
+      "end": 30.94
+    },
+    {
+      "word": "letters",
+      "start": 30.94,
+      "end": 31.54
+    },
+    {
+      "word": "the",
+      "start": 34.24,
+      "end": 34.3
+    },
+    {
+      "word": "page",
+      "start": 34.3,
+      "end": 34.78
+    },
+    {
+      "word": "number",
+      "start": 34.78,
+      "end": 35.74
+    },
+    {
+      "word": "the",
+      "start": 37.74,
+      "end": 38.08
+    },
+    {
+      "word": "book",
+      "start": 38.08,
+      "end": 38.48
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "level-c/how-many",
+  "title": "How Many",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C How Many? Written by Katie Knight Illustrated by Signe Nordin wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "How Many? 0 Written by Katie Knight Illustrated by Signe Nordin wwwreadinga-z.com Co"
+    },
+    {
+      "page": 3,
+      "text": "MMMMN How many eyes do you see? I see two. How Many? 0 Level C 3 \"In d \""
+    },
+    {
+      "page": 4,
+      "text": "How many wheels do you see? I see three."
+    },
+    {
+      "page": 5,
+      "text": "How many wings do you see? 1 see four_ How Many? 0 Level C 5"
+    },
+    {
+      "page": 6,
+      "text": "How many candles do you see? I see five."
+    },
+    {
+      "page": 7,
+      "text": "How many kites do yoU see? 1 see six. How Many? 0 Level C"
+    },
+    {
+      "page": 8,
+      "text": "~uuuujul- buunuuuuutut_ How many windows do you see? I see seven. 8"
+    },
+    {
+      "page": 9,
+      "text": "0 How many arms do yoU see? 1 see eight. How Many? 0 Level C Co"
+    },
+    {
+      "page": 10,
+      "text": "How many smiles do you see? I see nine. 10"
+    },
+    {
+      "page": 11,
+      "text": "A LOADING How Many? Level C Leveled Book Learning A-Z Correlation Written by Katie Knight LEVEL C Illustrated by Signe Nordin Fountas & Pinnell C All rights reserved. Reading Recovery 3-4 DRA 3-4 WWW.  readinga-z.com"
+    }
+  ]
+}

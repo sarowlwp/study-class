@@ -1,0 +1,196 @@
+{
+  "version": "1.0",
+  "total_words": 38,
+  "timings": [
+    {
+      "word": "we",
+      "start": 0.0,
+      "end": 0.32
+    },
+    {
+      "word": "pack",
+      "start": 0.32,
+      "end": 0.72
+    },
+    {
+      "word": "a",
+      "start": 0.72,
+      "end": 1.06
+    },
+    {
+      "word": "picnic",
+      "start": 1.06,
+      "end": 1.58
+    },
+    {
+      "word": "written",
+      "start": 2.44,
+      "end": 2.64
+    },
+    {
+      "word": "by",
+      "start": 2.64,
+      "end": 3.1
+    },
+    {
+      "word": "alise",
+      "start": 3.1,
+      "end": 3.84
+    },
+    {
+      "word": "sweeney",
+      "start": 3.84,
+      "end": 4.6
+    },
+    {
+      "word": "illustrated",
+      "start": 4.6,
+      "end": 5.44
+    },
+    {
+      "word": "by",
+      "start": 5.44,
+      "end": 5.88
+    },
+    {
+      "word": "angela",
+      "start": 5.88,
+      "end": 6.3
+    },
+    {
+      "word": "camster",
+      "start": 6.3,
+      "end": 6.92
+    },
+    {
+      "word": "jacobson",
+      "start": 6.92,
+      "end": 7.86
+    },
+    {
+      "word": "we",
+      "start": 8.44,
+      "end": 8.5
+    },
+    {
+      "word": "pack",
+      "start": 8.5,
+      "end": 8.84
+    },
+    {
+      "word": "grapes",
+      "start": 8.84,
+      "end": 9.78
+    },
+    {
+      "word": "we",
+      "start": 10.42,
+      "end": 10.6
+    },
+    {
+      "word": "pack",
+      "start": 10.6,
+      "end": 11.04
+    },
+    {
+      "word": "sandwiches",
+      "start": 11.04,
+      "end": 11.4
+    },
+    {
+      "word": "we",
+      "start": 12.32,
+      "end": 12.5
+    },
+    {
+      "word": "pack",
+      "start": 12.5,
+      "end": 12.86
+    },
+    {
+      "word": "drinks",
+      "start": 12.86,
+      "end": 13.3
+    },
+    {
+      "word": "we",
+      "start": 13.82,
+      "end": 14.08
+    },
+    {
+      "word": "pack",
+      "start": 14.08,
+      "end": 14.48
+    },
+    {
+      "word": "apples",
+      "start": 14.48,
+      "end": 15.08
+    },
+    {
+      "word": "we",
+      "start": 15.62,
+      "end": 15.88
+    },
+    {
+      "word": "pack",
+      "start": 15.88,
+      "end": 16.28
+    },
+    {
+      "word": "cheese",
+      "start": 16.28,
+      "end": 16.92
+    },
+    {
+      "word": "we",
+      "start": 17.4,
+      "end": 17.7
+    },
+    {
+      "word": "pack",
+      "start": 17.7,
+      "end": 18.16
+    },
+    {
+      "word": "carrots",
+      "start": 18.16,
+      "end": 18.74
+    },
+    {
+      "word": "we",
+      "start": 19.3,
+      "end": 19.52
+    },
+    {
+      "word": "pack",
+      "start": 19.52,
+      "end": 19.96
+    },
+    {
+      "word": "crackers",
+      "start": 19.96,
+      "end": 20.5
+    },
+    {
+      "word": "we",
+      "start": 21.1,
+      "end": 21.38
+    },
+    {
+      "word": "pack",
+      "start": 21.38,
+      "end": 21.8
+    },
+    {
+      "word": "a",
+      "start": 21.8,
+      "end": 22.2
+    },
+    {
+      "word": "picnic",
+      "start": 22.2,
+      "end": 22.48
+    }
+  ]
+}

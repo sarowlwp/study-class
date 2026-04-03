@@ -1,0 +1,401 @@
+{
+  "version": "1.0",
+  "total_words": 79,
+  "timings": [
+    {
+      "word": "go",
+      "start": 0.0,
+      "end": 0.42
+    },
+    {
+      "word": "away",
+      "start": 0.42,
+      "end": 0.96
+    },
+    {
+      "word": "lily",
+      "start": 1.42,
+      "end": 1.56
+    },
+    {
+      "word": "written",
+      "start": 2.18,
+      "end": 2.48
+    },
+    {
+      "word": "by",
+      "start": 2.48,
+      "end": 2.84
+    },
+    {
+      "word": "catherine",
+      "start": 2.84,
+      "end": 3.26
+    },
+    {
+      "word": "page",
+      "start": 3.26,
+      "end": 3.88
+    },
+    {
+      "word": "illustrated",
+      "start": 4.4,
+      "end": 5.02
+    },
+    {
+      "word": "by",
+      "start": 5.02,
+      "end": 5.42
+    },
+    {
+      "word": "keori",
+      "start": 5.42,
+      "end": 5.88
+    },
+    {
+      "word": "tajima",
+      "start": 5.88,
+      "end": 6.6
+    },
+    {
+      "word": "lily",
+      "start": 7.44,
+      "end": 7.44
+    },
+    {
+      "word": "upset",
+      "start": 7.44,
+      "end": 8.36
+    },
+    {
+      "word": "jack",
+      "start": 8.36,
+      "end": 9.0
+    },
+    {
+      "word": "when",
+      "start": 9.0,
+      "end": 9.38
+    },
+    {
+      "word": "jack",
+      "start": 9.38,
+      "end": 9.84
+    },
+    {
+      "word": "sat",
+      "start": 9.84,
+      "end": 10.18
+    },
+    {
+      "word": "down",
+      "start": 10.18,
+      "end": 10.88
+    },
+    {
+      "word": "lily",
+      "start": 11.3,
+      "end": 11.46
+    },
+    {
+      "word": "sat",
+      "start": 11.46,
+      "end": 11.9
+    },
+    {
+      "word": "down",
+      "start": 11.9,
+      "end": 12.68
+    },
+    {
+      "word": "go",
+      "start": 13.06,
+      "end": 13.26
+    },
+    {
+      "word": "away",
+      "start": 13.26,
+      "end": 13.88
+    },
+    {
+      "word": "lily",
+      "start": 14.08,
+      "end": 14.36
+    },
+    {
+      "word": "go",
+      "start": 14.92,
+      "end": 15.08
+    },
+    {
+      "word": "away",
+      "start": 15.08,
+      "end": 15.6
+    },
+    {
+      "word": "when",
+      "start": 15.96,
+      "end": 16.0
+    },
+    {
+      "word": "jack",
+      "start": 16.0,
+      "end": 16.42
+    },
+    {
+      "word": "read",
+      "start": 16.42,
+      "end": 16.86
+    },
+    {
+      "word": "lily",
+      "start": 17.5,
+      "end": 17.78
+    },
+    {
+      "word": "read",
+      "start": 17.78,
+      "end": 18.46
+    },
+    {
+      "word": "go",
+      "start": 18.98,
+      "end": 19.26
+    },
+    {
+      "word": "away",
+      "start": 19.26,
+      "end": 19.78
+    },
+    {
+      "word": "lily",
+      "start": 20.02,
+      "end": 20.4
+    },
+    {
+      "word": "go",
+      "start": 21.04,
+      "end": 21.18
+    },
+    {
+      "word": "away",
+      "start": 21.18,
+      "end": 21.64
+    },
+    {
+      "word": "lily",
+      "start": 22.04,
+      "end": 22.16
+    },
+    {
+      "word": "go",
+      "start": 22.16,
+      "end": 22.16
+    },
+    {
+      "word": "away",
+      "start": 22.16,
+      "end": 22.16
+    },
+    {
+      "word": "when",
+      "start": 22.16,
+      "end": 22.16
+    },
+    {
+      "word": "jack",
+      "start": 22.16,
+      "end": 22.5
+    },
+    {
+      "word": "played",
+      "start": 22.5,
+      "end": 22.88
+    },
+    {
+      "word": "lily",
+      "start": 23.56,
+      "end": 23.86
+    },
+    {
+      "word": "played",
+      "start": 23.86,
+      "end": 24.48
+    },
+    {
+      "word": "go",
+      "start": 24.48,
+      "end": 25.46
+    },
+    {
+      "word": "away",
+      "start": 25.46,
+      "end": 26.04
+    },
+    {
+      "word": "lily",
+      "start": 26.36,
+      "end": 26.58
+    },
+    {
+      "word": "go",
+      "start": 27.24,
+      "end": 27.26
+    },
+    {
+      "word": "away",
+      "start": 27.26,
+      "end": 27.76
+    },
+    {
+      "word": "when",
+      "start": 28.02,
+      "end": 28.2
+    },
+    {
+      "word": "jack",
+      "start": 28.2,
+      "end": 28.5
+    },
+    {
+      "word": "ate",
+      "start": 28.5,
+      "end": 29.26
+    },
+    {
+      "word": "lily",
+      "start": 29.7,
+      "end": 29.9
+    },
+    {
+      "word": "ate",
+      "start": 29.9,
+      "end": 30.46
+    },
+    {
+      "word": "go",
+      "start": 30.86,
+      "end": 31.14
+    },
+    {
+      "word": "away",
+      "start": 31.14,
+      "end": 31.64
+    },
+    {
+      "word": "lily",
+      "start": 31.9,
+      "end": 32.22
+    },
+    {
+      "word": "go",
+      "start": 32.74,
+      "end": 32.98
+    },
+    {
+      "word": "away",
+      "start": 32.98,
+      "end": 33.44
+    },
+    {
+      "word": "when",
+      "start": 33.64,
+      "end": 33.9
+    },
+    {
+      "word": "jack",
+      "start": 33.9,
+      "end": 34.26
+    },
+    {
+      "word": "ran",
+      "start": 34.26,
+      "end": 34.72
+    },
+    {
+      "word": "lily",
+      "start": 35.14,
+      "end": 35.46
+    },
+    {
+      "word": "ran",
+      "start": 35.46,
+      "end": 35.92
+    },
+    {
+      "word": "go",
+      "start": 36.56,
+      "end": 36.86
+    },
+    {
+      "word": "away",
+      "start": 36.86,
+      "end": 37.38
+    },
+    {
+      "word": "lily",
+      "start": 37.6,
+      "end": 37.86
+    },
+    {
+      "word": "go",
+      "start": 38.5,
+      "end": 38.78
+    },
+    {
+      "word": "away",
+      "start": 38.78,
+      "end": 39.34
+    },
+    {
+      "word": "when",
+      "start": 39.6,
+      "end": 39.78
+    },
+    {
+      "word": "jack",
+      "start": 39.78,
+      "end": 40.16
+    },
+    {
+      "word": "slept",
+      "start": 40.16,
+      "end": 40.6
+    },
+    {
+      "word": "lily",
+      "start": 41.2,
+      "end": 41.4
+    },
+    {
+      "word": "slept",
+      "start": 41.4,
+      "end": 41.9
+    },
+    {
+      "word": "too",
+      "start": 41.9,
+      "end": 42.54
+    },
+    {
+      "word": "shhh",
+      "start": 42.54,
+      "end": 43.86
+    },
+    {
+      "word": "stay",
+      "start": 44.2,
+      "end": 44.56
+    },
+    {
+      "word": "lily",
+      "start": 44.9,
+      "end": 45.1
+    },
+    {
+      "word": "stay",
+      "start": 45.82,
+      "end": 46.18
+    }
+  ]
+}

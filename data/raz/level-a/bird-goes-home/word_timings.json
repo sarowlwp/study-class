@@ -1,0 +1,296 @@
+{
+  "version": "1.0",
+  "total_words": 58,
+  "timings": [
+    {
+      "word": "the",
+      "start": 0.0,
+      "end": 0.46
+    },
+    {
+      "word": "bird",
+      "start": 0.46,
+      "end": 0.46
+    },
+    {
+      "word": "goes",
+      "start": 0.46,
+      "end": 0.76
+    },
+    {
+      "word": "home",
+      "start": 0.76,
+      "end": 1.4
+    },
+    {
+      "word": "written",
+      "start": 1.76,
+      "end": 2.0
+    },
+    {
+      "word": "by",
+      "start": 2.0,
+      "end": 2.44
+    },
+    {
+      "word": "cheryl",
+      "start": 2.44,
+      "end": 2.78
+    },
+    {
+      "word": "ryan",
+      "start": 2.78,
+      "end": 3.42
+    },
+    {
+      "word": "illustrated",
+      "start": 3.98,
+      "end": 4.4
+    },
+    {
+      "word": "by",
+      "start": 4.4,
+      "end": 4.98
+    },
+    {
+      "word": "signey",
+      "start": 4.98,
+      "end": 5.46
+    },
+    {
+      "word": "norden",
+      "start": 5.46,
+      "end": 6.18
+    },
+    {
+      "word": "the",
+      "start": 6.84,
+      "end": 7.0
+    },
+    {
+      "word": "bird",
+      "start": 7.0,
+      "end": 7.38
+    },
+    {
+      "word": "goes",
+      "start": 7.38,
+      "end": 7.7
+    },
+    {
+      "word": "over",
+      "start": 7.7,
+      "end": 8.24
+    },
+    {
+      "word": "the",
+      "start": 8.24,
+      "end": 8.52
+    },
+    {
+      "word": "tree",
+      "start": 8.52,
+      "end": 8.98
+    },
+    {
+      "word": "the",
+      "start": 9.8,
+      "end": 9.94
+    },
+    {
+      "word": "bird",
+      "start": 9.94,
+      "end": 10.34
+    },
+    {
+      "word": "goes",
+      "start": 10.34,
+      "end": 10.74
+    },
+    {
+      "word": "over",
+      "start": 10.74,
+      "end": 11.14
+    },
+    {
+      "word": "the",
+      "start": 11.14,
+      "end": 11.48
+    },
+    {
+      "word": "farm",
+      "start": 11.48,
+      "end": 11.92
+    },
+    {
+      "word": "the",
+      "start": 12.7,
+      "end": 12.84
+    },
+    {
+      "word": "bird",
+      "start": 12.84,
+      "end": 13.24
+    },
+    {
+      "word": "goes",
+      "start": 13.24,
+      "end": 13.6
+    },
+    {
+      "word": "over",
+      "start": 13.6,
+      "end": 14.14
+    },
+    {
+      "word": "the",
+      "start": 14.14,
+      "end": 14.52
+    },
+    {
+      "word": "city",
+      "start": 14.52,
+      "end": 14.88
+    },
+    {
+      "word": "the",
+      "start": 15.74,
+      "end": 15.92
+    },
+    {
+      "word": "bird",
+      "start": 15.92,
+      "end": 16.34
+    },
+    {
+      "word": "goes",
+      "start": 16.34,
+      "end": 16.8
+    },
+    {
+      "word": "over",
+      "start": 16.8,
+      "end": 17.18
+    },
+    {
+      "word": "the",
+      "start": 17.18,
+      "end": 17.54
+    },
+    {
+      "word": "street",
+      "start": 17.54,
+      "end": 17.96
+    },
+    {
+      "word": "the",
+      "start": 18.62,
+      "end": 18.9
+    },
+    {
+      "word": "bird",
+      "start": 18.9,
+      "end": 19.3
+    },
+    {
+      "word": "goes",
+      "start": 19.3,
+      "end": 19.64
+    },
+    {
+      "word": "over",
+      "start": 19.64,
+      "end": 20.08
+    },
+    {
+      "word": "the",
+      "start": 20.08,
+      "end": 20.4
+    },
+    {
+      "word": "tables",
+      "start": 20.4,
+      "end": 21.02
+    },
+    {
+      "word": "the",
+      "start": 21.82,
+      "end": 22.04
+    },
+    {
+      "word": "bird",
+      "start": 22.04,
+      "end": 22.46
+    },
+    {
+      "word": "goes",
+      "start": 22.46,
+      "end": 22.86
+    },
+    {
+      "word": "over",
+      "start": 22.86,
+      "end": 23.26
+    },
+    {
+      "word": "the",
+      "start": 23.26,
+      "end": 23.6
+    },
+    {
+      "word": "cars",
+      "start": 23.6,
+      "end": 24.08
+    },
+    {
+      "word": "the",
+      "start": 24.62,
+      "end": 24.98
+    },
+    {
+      "word": "bird",
+      "start": 24.98,
+      "end": 25.36
+    },
+    {
+      "word": "goes",
+      "start": 25.36,
+      "end": 25.74
+    },
+    {
+      "word": "over",
+      "start": 25.74,
+      "end": 26.22
+    },
+    {
+      "word": "the",
+      "start": 26.22,
+      "end": 26.46
+    },
+    {
+      "word": "mountains",
+      "start": 26.46,
+      "end": 27.02
+    },
+    {
+      "word": "the",
+      "start": 27.02,
+      "end": 28.24
+    },
+    {
+      "word": "bird",
+      "start": 28.24,
+      "end": 28.74
+    },
+    {
+      "word": "goes",
+      "start": 28.74,
+      "end": 29.24
+    },
+    {
+      "word": "home",
+      "start": 29.24,
+      "end": 29.74
+    }
+  ]
+}

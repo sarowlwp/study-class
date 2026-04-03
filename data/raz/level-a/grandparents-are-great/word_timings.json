@@ -1,0 +1,381 @@
+{
+  "version": "1.0",
+  "total_words": 75,
+  "timings": [
+    {
+      "word": "grandparents",
+      "start": 0.0,
+      "end": 1.52
+    },
+    {
+      "word": "are",
+      "start": 1.52,
+      "end": 2.32
+    },
+    {
+      "word": "great",
+      "start": 2.32,
+      "end": 3.44
+    },
+    {
+      "word": "written",
+      "start": 4.76,
+      "end": 5.08
+    },
+    {
+      "word": "by",
+      "start": 5.08,
+      "end": 6.08
+    },
+    {
+      "word": "elizabeth",
+      "start": 6.08,
+      "end": 6.8
+    },
+    {
+      "word": "jane",
+      "start": 6.8,
+      "end": 7.8
+    },
+    {
+      "word": "pustilnik",
+      "start": 7.8,
+      "end": 9.28
+    },
+    {
+      "word": "focus",
+      "start": 10.88,
+      "end": 11.12
+    },
+    {
+      "word": "question",
+      "start": 11.12,
+      "end": 12.16
+    },
+    {
+      "word": "what",
+      "start": 13.32,
+      "end": 13.56
+    },
+    {
+      "word": "makes",
+      "start": 13.56,
+      "end": 14.48
+    },
+    {
+      "word": "grandparents",
+      "start": 14.48,
+      "end": 15.92
+    },
+    {
+      "word": "great",
+      "start": 15.92,
+      "end": 16.96
+    },
+    {
+      "word": "some",
+      "start": 17.64,
+      "end": 18.06
+    },
+    {
+      "word": "grandparents",
+      "start": 18.06,
+      "end": 19.46
+    },
+    {
+      "word": "cook",
+      "start": 19.46,
+      "end": 20.28
+    },
+    {
+      "word": "some",
+      "start": 20.28,
+      "end": 21.4
+    },
+    {
+      "word": "grandparents",
+      "start": 21.4,
+      "end": 23.12
+    },
+    {
+      "word": "swim",
+      "start": 23.12,
+      "end": 24.04
+    },
+    {
+      "word": "some",
+      "start": 24.04,
+      "end": 25.18
+    },
+    {
+      "word": "grandparents",
+      "start": 25.18,
+      "end": 26.96
+    },
+    {
+      "word": "hike",
+      "start": 26.96,
+      "end": 27.66
+    },
+    {
+      "word": "some",
+      "start": 27.66,
+      "end": 28.64
+    },
+    {
+      "word": "grand",
+      "start": 28.64,
+      "end": 29.48
+    },
+    {
+      "word": "parents",
+      "start": 29.48,
+      "end": 30.24
+    },
+    {
+      "word": "golf",
+      "start": 30.78,
+      "end": 31.16
+    },
+    {
+      "word": "some",
+      "start": 31.96,
+      "end": 32.26
+    },
+    {
+      "word": "grand",
+      "start": 32.26,
+      "end": 32.92
+    },
+    {
+      "word": "parents",
+      "start": 32.92,
+      "end": 33.68
+    },
+    {
+      "word": "so",
+      "start": 34.24,
+      "end": 34.7
+    },
+    {
+      "word": "some",
+      "start": 35.16,
+      "end": 35.78
+    },
+    {
+      "word": "grand",
+      "start": 35.78,
+      "end": 36.46
+    },
+    {
+      "word": "parents",
+      "start": 36.46,
+      "end": 37.42
+    },
+    {
+      "word": "garden",
+      "start": 37.92,
+      "end": 38.28
+    },
+    {
+      "word": "some",
+      "start": 39.12,
+      "end": 39.44
+    },
+    {
+      "word": "grand",
+      "start": 39.44,
+      "end": 40.2
+    },
+    {
+      "word": "parents",
+      "start": 40.2,
+      "end": 41.18
+    },
+    {
+      "word": "paint",
+      "start": 41.58,
+      "end": 41.96
+    },
+    {
+      "word": "some",
+      "start": 42.66,
+      "end": 43.0
+    },
+    {
+      "word": "grand",
+      "start": 43.0,
+      "end": 43.64
+    },
+    {
+      "word": "parents",
+      "start": 43.64,
+      "end": 44.6
+    },
+    {
+      "word": "read",
+      "start": 45.34,
+      "end": 45.6
+    },
+    {
+      "word": "connections",
+      "start": 46.2,
+      "end": 46.7
+    },
+    {
+      "word": "writing",
+      "start": 47.96,
+      "end": 48.28
+    },
+    {
+      "word": "and",
+      "start": 48.28,
+      "end": 48.98
+    },
+    {
+      "word": "art",
+      "start": 48.98,
+      "end": 49.92
+    },
+    {
+      "word": "what",
+      "start": 51.24,
+      "end": 51.46
+    },
+    {
+      "word": "can",
+      "start": 51.46,
+      "end": 52.26
+    },
+    {
+      "word": "kids",
+      "start": 52.26,
+      "end": 52.56
+    },
+    {
+      "word": "do",
+      "start": 52.56,
+      "end": 53.24
+    },
+    {
+      "word": "with",
+      "start": 53.24,
+      "end": 53.9
+    },
+    {
+      "word": "their",
+      "start": 53.9,
+      "end": 54.4
+    },
+    {
+      "word": "grand",
+      "start": 54.4,
+      "end": 54.88
+    },
+    {
+      "word": "parents",
+      "start": 54.88,
+      "end": 55.66
+    },
+    {
+      "word": "make",
+      "start": 55.66,
+      "end": 57.48
+    },
+    {
+      "word": "another",
+      "start": 57.48,
+      "end": 58.0
+    },
+    {
+      "word": "page",
+      "start": 58.0,
+      "end": 58.68
+    },
+    {
+      "word": "for",
+      "start": 58.68,
+      "end": 59.32
+    },
+    {
+      "word": "the",
+      "start": 59.32,
+      "end": 59.52
+    },
+    {
+      "word": "book",
+      "start": 59.52,
+      "end": 60.3
+    },
+    {
+      "word": "social",
+      "start": 61.72,
+      "end": 62.08
+    },
+    {
+      "word": "studies",
+      "start": 62.08,
+      "end": 62.96
+    },
+    {
+      "word": "what",
+      "start": 64.3,
+      "end": 64.56
+    },
+    {
+      "word": "can",
+      "start": 64.56,
+      "end": 65.36
+    },
+    {
+      "word": "kids",
+      "start": 65.36,
+      "end": 65.82
+    },
+    {
+      "word": "learn",
+      "start": 65.82,
+      "end": 66.68
+    },
+    {
+      "word": "from",
+      "start": 66.68,
+      "end": 67.22
+    },
+    {
+      "word": "grandparents",
+      "start": 67.22,
+      "end": 68.4
+    },
+    {
+      "word": "share",
+      "start": 70.08,
+      "end": 70.4
+    },
+    {
+      "word": "your",
+      "start": 70.4,
+      "end": 71.08
+    },
+    {
+      "word": "ideas",
+      "start": 71.08,
+      "end": 71.72
+    },
+    {
+      "word": "with",
+      "start": 71.72,
+      "end": 72.56
+    },
+    {
+      "word": "a",
+      "start": 72.56,
+      "end": 72.78
+    },
+    {
+      "word": "partner",
+      "start": 72.78,
+      "end": 73.2
+    }
+  ]
+}

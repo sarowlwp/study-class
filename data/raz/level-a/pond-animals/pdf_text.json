@@ -1,0 +1,54 @@
+{
+  "id": "level-a/pond-animals",
+  "title": "Pond Animals",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Pond Animals ayu Written by Ned Jensen Illustrated by Angela Kamstra-Jacobson wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Pond Animals cuT (( Written by Ned Jensen Illustrated by Angela Kamstra-Jacobson wwwreadinga-z.com UJ"
+    },
+    {
+      "page": 3,
+      "text": "DL I see eight bugs. Pond Animals Level A 3"
+    },
+    {
+      "page": 4,
+      "text": "iquWWI YQQV I see seven ducks. UW"
+    },
+    {
+      "page": 5,
+      "text": "I see six frogs. Pond Animals Level A 5"
+    },
+    {
+      "page": 6,
+      "text": "I see five turtles; 44"
+    },
+    {
+      "page": 7,
+      "text": "I see four fish: Pond Animals Level A JV"
+    },
+    {
+      "page": 8,
+      "text": "[IVV I see three worms. 8"
+    },
+    {
+      "page": 9,
+      "text": "I\"/ 'k3 { , I see two swans. Pond Animals Level A QixS"
+    },
+    {
+      "page": 10,
+      "text": "D udp I see one pond 10  44kyy)"
+    },
+    {
+      "page": 11,
+      "text": "Pond Animals Level A Leveled Book Learning A-Z Correlation Written by Ned Jensen LEVEL A Illustrated by Angela Kamstra-Jacobson Fountas & Pinnell A All rights reserved: Reading Recovery DRA A-1 wwwreadinga-zcom"
+    }
+  ]
+}

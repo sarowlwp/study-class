@@ -1,0 +1,58 @@
+{
+  "id": "level-b/henry-s-hike",
+  "title": "Henry S Hike",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Henrys Hike Written by Marilyn Edna Sllevin Illustrated by Penny Weber"
+    },
+    {
+      "page": 2,
+      "text": "Henrys Hike Written by Marilyn Edna Slevin Illustrated by Penny Weber Wwwreadinga-z.com Focus Question Where does Henry hike?"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know deer past hikes mud trail Henry's Hike Level B Leveled Book Learning A-Z Correlation Written by Marilyn Edna Slevin LEVEL B Illustrated by Penny Weber Fountas & Pinnell B AIl rights reserved. Reading Recovery 2 DRA 2 wwwreadinga-z.com pond"
+    },
+    {
+      "page": 4,
+      "text": "PARK Henry hikes into the park Henry's Hike * Level B 3"
+    },
+    {
+      "page": 5,
+      "text": "Henry hikes on the trail:"
+    },
+    {
+      "page": 6,
+      "text": "Henry hikes around the pond: Henry's Hike * Level B 5"
+    },
+    {
+      "page": 7,
+      "text": "Henry hikes in the mud:"
+    },
+    {
+      "page": 8,
+      "text": "Henry hikes up the hill: Henry's Hike * Level B"
+    },
+    {
+      "page": 9,
+      "text": "Henry hikes past the deer: 8"
+    },
+    {
+      "page": 10,
+      "text": "WAl JF Henry hikes down the hill: Henry's Hike * Level B"
+    },
+    {
+      "page": 11,
+      "text": "Henry hikes to the car 10"
+    },
+    {
+      "page": 12,
+      "text": "Henry's Hike A Reading A-Z Level B Leveled Book Word Count: 40 Connections Writing and Art What other animals could Henry see on his hike? Draw a picture and write about them: Science Which season do you think would be the best for hiking where you live? Why? Share your ideas with a partner: Reading A-Z Visit wwwreadinga-z.com for thousands of books and materials."
+    }
+  ]
+}

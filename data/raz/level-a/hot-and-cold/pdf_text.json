@@ -1,0 +1,54 @@
+{
+  "id": "level-a/hot-and-cold",
+  "title": "Hot And Cold",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Hot and Cold Written by Annette Carruthers WWW.readinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Hot and Cold Written by Annette Carruthers wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "Things can be hot or cold_ Hot and Cold 0 Level A 3"
+    },
+    {
+      "page": 4,
+      "text": "A place can be hot_"
+    },
+    {
+      "page": 5,
+      "text": "A place can be cold_ Hot and Cold 0 Level A 5"
+    },
+    {
+      "page": 6,
+      "text": "Food can be hot."
+    },
+    {
+      "page": 7,
+      "text": "Food can be cold. Hot and Cold Level A"
+    },
+    {
+      "page": 8,
+      "text": "People can be hot_ 8"
+    },
+    {
+      "page": 9,
+      "text": "People can be cold_ Hot and Cold Level A"
+    },
+    {
+      "page": 10,
+      "text": "hot cold Things can be hot or cold. 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover, back cover, title page, pages 3 (top right and left, bottom leftl , 4, 5 , 8 9 10 header, right and left, bottom right and left): Jupiterimages Corporation; pages 3 (center leftl , 7 , 10 (center Reed Kaestner /Corbis; pages 3 (bottom right) , 6, 10 (center left): @ SW Productions/Photodisc/ Images Hot and Cold Level A Leveled Book Correlation Learning A-Z LEVEL A Written by Annette Carruthers Fountas & Pinnell A AIl rights reserved. Reading Recovery 1 DRA A-1 WWW.R readinga-z.com (top top right): Getty"
+    }
+  ]
+}

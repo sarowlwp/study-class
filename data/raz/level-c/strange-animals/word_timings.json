@@ -1,0 +1,506 @@
+{
+  "version": "1.0",
+  "total_words": 100,
+  "timings": [
+    {
+      "word": "strange",
+      "start": 0.0,
+      "end": 0.92
+    },
+    {
+      "word": "animals",
+      "start": 0.92,
+      "end": 2.58
+    },
+    {
+      "word": "written",
+      "start": 2.58,
+      "end": 3.94
+    },
+    {
+      "word": "by",
+      "start": 3.94,
+      "end": 4.34
+    },
+    {
+      "word": "ed",
+      "start": 4.34,
+      "end": 4.82
+    },
+    {
+      "word": "evans",
+      "start": 4.82,
+      "end": 5.84
+    },
+    {
+      "word": "focus",
+      "start": 6.68,
+      "end": 7.38
+    },
+    {
+      "word": "question",
+      "start": 7.38,
+      "end": 8.78
+    },
+    {
+      "word": "what",
+      "start": 8.78,
+      "end": 9.68
+    },
+    {
+      "word": "makes",
+      "start": 9.68,
+      "end": 10.24
+    },
+    {
+      "word": "some",
+      "start": 10.24,
+      "end": 10.84
+    },
+    {
+      "word": "animals",
+      "start": 10.84,
+      "end": 11.36
+    },
+    {
+      "word": "strange",
+      "start": 11.36,
+      "end": 11.98
+    },
+    {
+      "word": "animals",
+      "start": 11.98,
+      "end": 13.04
+    },
+    {
+      "word": "are",
+      "start": 13.04,
+      "end": 13.9
+    },
+    {
+      "word": "living",
+      "start": 13.9,
+      "end": 14.46
+    },
+    {
+      "word": "things",
+      "start": 14.46,
+      "end": 15.66
+    },
+    {
+      "word": "some",
+      "start": 16.72,
+      "end": 16.74
+    },
+    {
+      "word": "animals",
+      "start": 16.74,
+      "end": 17.64
+    },
+    {
+      "word": "look",
+      "start": 17.64,
+      "end": 18.52
+    },
+    {
+      "word": "strange",
+      "start": 18.52,
+      "end": 19.68
+    },
+    {
+      "word": "a",
+      "start": 20.02,
+      "end": 20.4
+    },
+    {
+      "word": "panda",
+      "start": 20.4,
+      "end": 20.86
+    },
+    {
+      "word": "and",
+      "start": 20.86,
+      "end": 21.86
+    },
+    {
+      "word": "looks",
+      "start": 21.86,
+      "end": 22.76
+    },
+    {
+      "word": "strange",
+      "start": 22.76,
+      "end": 24.22
+    },
+    {
+      "word": "a",
+      "start": 24.24,
+      "end": 24.72
+    },
+    {
+      "word": "blue",
+      "start": 24.72,
+      "end": 25.4
+    },
+    {
+      "word": "dragon",
+      "start": 25.4,
+      "end": 26.34
+    },
+    {
+      "word": "looks",
+      "start": 26.34,
+      "end": 27.46
+    },
+    {
+      "word": "strange",
+      "start": 27.46,
+      "end": 28.62
+    },
+    {
+      "word": "a",
+      "start": 28.8,
+      "end": 29.14
+    },
+    {
+      "word": "star",
+      "start": 29.14,
+      "end": 29.92
+    },
+    {
+      "word": "spider",
+      "start": 29.92,
+      "end": 30.76
+    },
+    {
+      "word": "looks",
+      "start": 30.76,
+      "end": 32.06
+    },
+    {
+      "word": "strange",
+      "start": 32.06,
+      "end": 33.26
+    },
+    {
+      "word": "a",
+      "start": 34.2,
+      "end": 34.2
+    },
+    {
+      "word": "turtle",
+      "start": 34.2,
+      "end": 34.9
+    },
+    {
+      "word": "frog",
+      "start": 34.9,
+      "end": 35.68
+    },
+    {
+      "word": "looks",
+      "start": 35.68,
+      "end": 36.5
+    },
+    {
+      "word": "strange",
+      "start": 36.5,
+      "end": 37.72
+    },
+    {
+      "word": "a",
+      "start": 38.32,
+      "end": 38.32
+    },
+    {
+      "word": "rosy",
+      "start": 38.32,
+      "end": 39.62
+    },
+    {
+      "word": "moth",
+      "start": 39.62,
+      "end": 40.36
+    },
+    {
+      "word": "looks",
+      "start": 40.36,
+      "end": 41.16
+    },
+    {
+      "word": "strange",
+      "start": 41.16,
+      "end": 42.5
+    },
+    {
+      "word": "a",
+      "start": 42.76,
+      "end": 43.3
+    },
+    {
+      "word": "water",
+      "start": 43.3,
+      "end": 44.02
+    },
+    {
+      "word": "bear",
+      "start": 44.02,
+      "end": 44.92
+    },
+    {
+      "word": "looks",
+      "start": 44.92,
+      "end": 45.74
+    },
+    {
+      "word": "strange",
+      "start": 45.74,
+      "end": 46.8
+    },
+    {
+      "word": "do",
+      "start": 47.28,
+      "end": 47.62
+    },
+    {
+      "word": "these",
+      "start": 47.62,
+      "end": 48.82
+    },
+    {
+      "word": "animals",
+      "start": 48.82,
+      "end": 49.74
+    },
+    {
+      "word": "look",
+      "start": 49.74,
+      "end": 50.98
+    },
+    {
+      "word": "strange",
+      "start": 50.98,
+      "end": 52.12
+    },
+    {
+      "word": "connections",
+      "start": 52.12,
+      "end": 53.34
+    },
+    {
+      "word": "writing",
+      "start": 54.5,
+      "end": 54.8
+    },
+    {
+      "word": "and",
+      "start": 54.8,
+      "end": 55.32
+    },
+    {
+      "word": "art",
+      "start": 55.32,
+      "end": 56.02
+    },
+    {
+      "word": "which",
+      "start": 56.02,
+      "end": 57.5
+    },
+    {
+      "word": "animal",
+      "start": 57.5,
+      "end": 58.34
+    },
+    {
+      "word": "in",
+      "start": 58.34,
+      "end": 58.96
+    },
+    {
+      "word": "the",
+      "start": 58.96,
+      "end": 59.24
+    },
+    {
+      "word": "book",
+      "start": 59.24,
+      "end": 59.62
+    },
+    {
+      "word": "looks",
+      "start": 59.62,
+      "end": 60.32
+    },
+    {
+      "word": "the",
+      "start": 60.32,
+      "end": 60.72
+    },
+    {
+      "word": "strangest",
+      "start": 60.72,
+      "end": 61.24
+    },
+    {
+      "word": "to",
+      "start": 61.24,
+      "end": 61.56
+    },
+    {
+      "word": "you",
+      "start": 61.56,
+      "end": 62.22
+    },
+    {
+      "word": "draw",
+      "start": 62.98,
+      "end": 63.28
+    },
+    {
+      "word": "a",
+      "start": 63.28,
+      "end": 63.72
+    },
+    {
+      "word": "picture",
+      "start": 63.72,
+      "end": 64.1
+    },
+    {
+      "word": "and",
+      "start": 64.1,
+      "end": 64.88
+    },
+    {
+      "word": "write",
+      "start": 64.88,
+      "end": 65.2
+    },
+    {
+      "word": "about",
+      "start": 65.2,
+      "end": 65.62
+    },
+    {
+      "word": "it",
+      "start": 65.62,
+      "end": 66.9
+    },
+    {
+      "word": "math",
+      "start": 67.46,
+      "end": 67.8
+    },
+    {
+      "word": "which",
+      "start": 69.1,
+      "end": 69.62
+    },
+    {
+      "word": "animals",
+      "start": 69.62,
+      "end": 70.18
+    },
+    {
+      "word": "in",
+      "start": 70.18,
+      "end": 70.9
+    },
+    {
+      "word": "the",
+      "start": 70.9,
+      "end": 71.2
+    },
+    {
+      "word": "book",
+      "start": 71.2,
+      "end": 71.76
+    },
+    {
+      "word": "look",
+      "start": 71.76,
+      "end": 72.24
+    },
+    {
+      "word": "the",
+      "start": 72.24,
+      "end": 72.62
+    },
+    {
+      "word": "strangest",
+      "start": 72.62,
+      "end": 73.26
+    },
+    {
+      "word": "to",
+      "start": 73.26,
+      "end": 73.72
+    },
+    {
+      "word": "the",
+      "start": 73.72,
+      "end": 73.92
+    },
+    {
+      "word": "students",
+      "start": 73.92,
+      "end": 74.38
+    },
+    {
+      "word": "in",
+      "start": 74.38,
+      "end": 74.8
+    },
+    {
+      "word": "your",
+      "start": 74.8,
+      "end": 75.08
+    },
+    {
+      "word": "class",
+      "start": 75.08,
+      "end": 75.78
+    },
+    {
+      "word": "make",
+      "start": 76.72,
+      "end": 77.0
+    },
+    {
+      "word": "a",
+      "start": 77.0,
+      "end": 77.52
+    },
+    {
+      "word": "class",
+      "start": 77.52,
+      "end": 77.82
+    },
+    {
+      "word": "graph",
+      "start": 77.82,
+      "end": 78.38
+    },
+    {
+      "word": "to",
+      "start": 78.38,
+      "end": 79.08
+    },
+    {
+      "word": "show",
+      "start": 79.08,
+      "end": 79.74
+    },
+    {
+      "word": "the",
+      "start": 79.74,
+      "end": 80.2
+    },
+    {
+      "word": "information",
+      "start": 80.2,
+      "end": 80.82
+    }
+  ]
+}

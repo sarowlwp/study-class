@@ -1,0 +1,181 @@
+{
+  "version": "1.0",
+  "total_words": 35,
+  "timings": [
+    {
+      "word": "the",
+      "start": 0.0,
+      "end": 0.56
+    },
+    {
+      "word": "parade",
+      "start": 0.56,
+      "end": 1.6
+    },
+    {
+      "word": "written",
+      "start": 2.54,
+      "end": 2.8
+    },
+    {
+      "word": "by",
+      "start": 2.8,
+      "end": 3.34
+    },
+    {
+      "word": "torin",
+      "start": 3.34,
+      "end": 3.9
+    },
+    {
+      "word": "anderson",
+      "start": 3.9,
+      "end": 4.78
+    },
+    {
+      "word": "illustrated",
+      "start": 5.6,
+      "end": 6.6
+    },
+    {
+      "word": "by",
+      "start": 6.6,
+      "end": 7.12
+    },
+    {
+      "word": "aaron",
+      "start": 7.12,
+      "end": 7.6
+    },
+    {
+      "word": "bellingham",
+      "start": 7.6,
+      "end": 8.74
+    },
+    {
+      "word": "i",
+      "start": 9.62,
+      "end": 9.62
+    },
+    {
+      "word": "see",
+      "start": 9.62,
+      "end": 10.52
+    },
+    {
+      "word": "flags",
+      "start": 10.52,
+      "end": 11.06
+    },
+    {
+      "word": "i",
+      "start": 12.12,
+      "end": 12.14
+    },
+    {
+      "word": "see",
+      "start": 12.14,
+      "end": 12.96
+    },
+    {
+      "word": "balloons",
+      "start": 12.96,
+      "end": 13.84
+    },
+    {
+      "word": "i",
+      "start": 13.84,
+      "end": 15.08
+    },
+    {
+      "word": "see",
+      "start": 15.08,
+      "end": 16.06
+    },
+    {
+      "word": "hats",
+      "start": 16.06,
+      "end": 16.72
+    },
+    {
+      "word": "i",
+      "start": 17.28,
+      "end": 17.54
+    },
+    {
+      "word": "see",
+      "start": 17.54,
+      "end": 18.38
+    },
+    {
+      "word": "clowns",
+      "start": 18.38,
+      "end": 19.66
+    },
+    {
+      "word": "i",
+      "start": 20.04,
+      "end": 20.22
+    },
+    {
+      "word": "see",
+      "start": 20.22,
+      "end": 21.12
+    },
+    {
+      "word": "drums",
+      "start": 21.12,
+      "end": 22.0
+    },
+    {
+      "word": "i",
+      "start": 22.9,
+      "end": 23.12
+    },
+    {
+      "word": "see",
+      "start": 23.12,
+      "end": 23.98
+    },
+    {
+      "word": "horses",
+      "start": 23.98,
+      "end": 24.66
+    },
+    {
+      "word": "i",
+      "start": 25.74,
+      "end": 25.9
+    },
+    {
+      "word": "see",
+      "start": 25.9,
+      "end": 26.6
+    },
+    {
+      "word": "floats",
+      "start": 26.6,
+      "end": 27.34
+    },
+    {
+      "word": "i",
+      "start": 28.22,
+      "end": 28.62
+    },
+    {
+      "word": "see",
+      "start": 28.62,
+      "end": 29.18
+    },
+    {
+      "word": "the",
+      "start": 29.18,
+      "end": 29.76
+    },
+    {
+      "word": "parade",
+      "start": 29.76,
+      "end": 30.3
+    }
+  ]
+}

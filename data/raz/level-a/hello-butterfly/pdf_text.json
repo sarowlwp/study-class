@@ -1,0 +1,54 @@
+{
+  "id": "level-a/hello-butterfly",
+  "title": "Hello Butterfly",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Hello, Butterfly Written by Harriet Rosenbloom WWW readinga-Zcom"
+    },
+    {
+      "page": 2,
+      "text": "Hello, Butterfly Written by Harriet Rosenbloom wwwreadinga-z.com { 0"
+    },
+    {
+      "page": 3,
+      "text": "Hello_ big butterfly: Hello, Butterfly Level A 3"
+    },
+    {
+      "page": 4,
+      "text": "Hello_ small butterfly:"
+    },
+    {
+      "page": 5,
+      "text": "Hello_ red butterfly: Hello, Butterfly Level A 5"
+    },
+    {
+      "page": 6,
+      "text": "Hello, green butterfly:"
+    },
+    {
+      "page": 7,
+      "text": "Hello_ striped butterfly: Hello, Butterfly Level A"
+    },
+    {
+      "page": 8,
+      "text": "Hello, spotted butterfly: 8"
+    },
+    {
+      "page": 9,
+      "text": "Hello_ new butterfly: Hello, Butterfly Level A"
+    },
+    {
+      "page": 10,
+      "text": "Hello_ butterflyl 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover; back cover: @ Jon Feingersh/Blend Images/Corbis; title page (top left): @ Magdalena Ruseva/Dreamstime.com; title page right): Silvia Reiche/Minden Pictures; title page (bottom left): @ Viktoriia Kulish/ Dreamstime.com; title page (bottom right): @ yongkiet/iStock/Thinkstock; page 3: @ Islandstock/Alamy: page 4: @ Tim Gainey/Alamy: page 5: @ Gay/Alamy; page 6: @ Kim Taylor/npl/Minden Pictures; page 7: @ Henry Georgi/ Design Pics/Corbis; page 8: @ Millard H. Sharp/Science Source; page 9: Stephen J. Krasemann/AII Canada Photos/Corbis; page 10: @ REX USA/Geoff Pugh/Rex Hello, Butterfly Level A Leveled Book Correlation Learning A-Z LEVEL A Written by Harriet Rosenbloom Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com (top Garry"
+    }
+  ]
+}

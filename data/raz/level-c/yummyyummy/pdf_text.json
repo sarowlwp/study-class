@@ -1,0 +1,54 @@
+{
+  "id": "level-c/yummyyummy",
+  "title": "Yummyyummy",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C Yummy, Yummy Q4H Written by Brian Roberts Illustrated by Beth Buffington wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Yummy; Yummy Written by Brian Roberts Illustrated by Beth Buffington wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "38 I like popcorn _ yummy_ Yummy Yummy = Level C 3 3N Yummy,"
+    },
+    {
+      "page": 4,
+      "text": "[ like pizza. Yummy, yummy"
+    },
+    {
+      "page": 5,
+      "text": "(YE [ like bread and jam_ yummy_ Yummy Yummy = Level C 5 Yummy,"
+    },
+    {
+      "page": 6,
+      "text": "I like apples and bananas. yummy_ Yummy,"
+    },
+    {
+      "page": 7,
+      "text": "I like corn on the cob_ yummy_ Yummy Yummy = Level C Yummy,"
+    },
+    {
+      "page": 8,
+      "text": "[ like carrots and peas. yummy_ 8 Yummy,"
+    },
+    {
+      "page": 9,
+      "text": "Idp L like cookies and milk. yummy_ Yummy Yummy = Level C Yummy,"
+    },
+    {
+      "page": 10,
+      "text": "0 2 I don't like lima beans. yucky_ 10 Yucky,"
+    },
+    {
+      "page": 11,
+      "text": "LOADING Yummy Level C Leveled Book Learning A-Z Correlation Written by Brian Roberts LEVEL € Illustrated by Beth Buffington Fountas & Pinnell C All rights reserved. Reading Recovery 3-4 DRA 3-4 WWW.  readinga-z.com Yummy;"
+    }
+  ]
+}

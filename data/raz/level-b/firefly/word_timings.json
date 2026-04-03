@@ -1,0 +1,261 @@
+{
+  "version": "1.0",
+  "total_words": 51,
+  "timings": [
+    {
+      "word": "firefly",
+      "start": 0.0,
+      "end": 1.56
+    },
+    {
+      "word": "written",
+      "start": 1.9,
+      "end": 2.56
+    },
+    {
+      "word": "by",
+      "start": 2.56,
+      "end": 3.0
+    },
+    {
+      "word": "harriet",
+      "start": 3.0,
+      "end": 3.46
+    },
+    {
+      "word": "rosenblum",
+      "start": 3.46,
+      "end": 4.72
+    },
+    {
+      "word": "illustrated",
+      "start": 5.48,
+      "end": 6.28
+    },
+    {
+      "word": "by",
+      "start": 6.28,
+      "end": 6.88
+    },
+    {
+      "word": "kirsten",
+      "start": 6.88,
+      "end": 7.46
+    },
+    {
+      "word": "egan",
+      "start": 7.46,
+      "end": 8.2
+    },
+    {
+      "word": "i",
+      "start": 9.12,
+      "end": 9.12
+    },
+    {
+      "word": "tried",
+      "start": 9.12,
+      "end": 10.04
+    },
+    {
+      "word": "catching",
+      "start": 10.04,
+      "end": 10.98
+    },
+    {
+      "word": "one",
+      "start": 10.98,
+      "end": 11.88
+    },
+    {
+      "word": "monday",
+      "start": 11.88,
+      "end": 12.9
+    },
+    {
+      "word": "i",
+      "start": 13.9,
+      "end": 13.9
+    },
+    {
+      "word": "tried",
+      "start": 13.9,
+      "end": 14.96
+    },
+    {
+      "word": "catching",
+      "start": 14.96,
+      "end": 15.66
+    },
+    {
+      "word": "one",
+      "start": 15.66,
+      "end": 16.6
+    },
+    {
+      "word": "tuesday",
+      "start": 16.6,
+      "end": 17.62
+    },
+    {
+      "word": "i",
+      "start": 18.92,
+      "end": 18.92
+    },
+    {
+      "word": "tried",
+      "start": 18.92,
+      "end": 19.54
+    },
+    {
+      "word": "catching",
+      "start": 19.54,
+      "end": 20.28
+    },
+    {
+      "word": "one",
+      "start": 20.28,
+      "end": 21.2
+    },
+    {
+      "word": "wednesday",
+      "start": 21.2,
+      "end": 22.26
+    },
+    {
+      "word": "i",
+      "start": 22.26,
+      "end": 23.14
+    },
+    {
+      "word": "tried",
+      "start": 23.14,
+      "end": 23.98
+    },
+    {
+      "word": "catching",
+      "start": 23.98,
+      "end": 24.78
+    },
+    {
+      "word": "one",
+      "start": 24.78,
+      "end": 25.54
+    },
+    {
+      "word": "thursday",
+      "start": 25.54,
+      "end": 26.68
+    },
+    {
+      "word": "i",
+      "start": 27.56,
+      "end": 27.74
+    },
+    {
+      "word": "tried",
+      "start": 27.74,
+      "end": 28.72
+    },
+    {
+      "word": "catching",
+      "start": 28.72,
+      "end": 29.54
+    },
+    {
+      "word": "one",
+      "start": 29.54,
+      "end": 30.66
+    },
+    {
+      "word": "friday",
+      "start": 30.66,
+      "end": 31.58
+    },
+    {
+      "word": "i",
+      "start": 32.52,
+      "end": 32.52
+    },
+    {
+      "word": "tried",
+      "start": 32.52,
+      "end": 33.54
+    },
+    {
+      "word": "catching",
+      "start": 33.54,
+      "end": 34.3
+    },
+    {
+      "word": "one",
+      "start": 34.3,
+      "end": 35.24
+    },
+    {
+      "word": "saturday",
+      "start": 35.24,
+      "end": 36.32
+    },
+    {
+      "word": "i",
+      "start": 37.3,
+      "end": 37.3
+    },
+    {
+      "word": "tried",
+      "start": 37.3,
+      "end": 38.1
+    },
+    {
+      "word": "catching",
+      "start": 38.1,
+      "end": 38.88
+    },
+    {
+      "word": "one",
+      "start": 38.88,
+      "end": 39.68
+    },
+    {
+      "word": "sunday",
+      "start": 39.68,
+      "end": 40.74
+    },
+    {
+      "word": "i",
+      "start": 41.2,
+      "end": 41.58
+    },
+    {
+      "word": "caught",
+      "start": 41.58,
+      "end": 42.12
+    },
+    {
+      "word": "one",
+      "start": 42.12,
+      "end": 42.86
+    },
+    {
+      "word": "and",
+      "start": 42.86,
+      "end": 43.5
+    },
+    {
+      "word": "let",
+      "start": 43.5,
+      "end": 44.0
+    },
+    {
+      "word": "it",
+      "start": 44.0,
+      "end": 44.52
+    },
+    {
+      "word": "go",
+      "start": 44.52,
+      "end": 44.88
+    }
+  ]
+}

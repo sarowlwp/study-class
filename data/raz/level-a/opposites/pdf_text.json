@@ -1,0 +1,62 @@
+{
+  "id": "level-a/opposites",
+  "title": "Opposites",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 13,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Opposites Written by Katie Knight wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Opposites Written by Katie Knight wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "sad Opposites Level A 3 happy"
+    },
+    {
+      "page": 4,
+      "text": "This is up_"
+    },
+    {
+      "page": 5,
+      "text": "This is down_ Opposites Level A 5"
+    },
+    {
+      "page": 6,
+      "text": "This is on"
+    },
+    {
+      "page": 7,
+      "text": "This is off_ Opposites Level A"
+    },
+    {
+      "page": 8,
+      "text": "This is open_ 8"
+    },
+    {
+      "page": 9,
+      "text": "This is closed_ Opposites Level A"
+    },
+    {
+      "page": 10,
+      "text": "This is fast_ 10"
+    },
+    {
+      "page": 11,
+      "text": "This is slow . Opposites Level A 11 Vogos"
+    },
+    {
+      "page": 12,
+      "text": "This is This is 12"
+    },
+    {
+      "page": 13,
+      "text": "Photo Credits: Front cover: @ moodboard/Corbis; back cover: @ iStockphoto.com/Jami Garrison; title page: @ iStockphotocom/Eric Isselee; page 3: @ iStockphoto com/Karl Byrne; pages 4, 5: @ Larry Williams/Corbis; pages 6. 7 (main): iStockphoto.com/ Schowe; pages 6, 7 (inset): @ iStockphoto com/David pages 8, 9: @ iStockphotocom/Ken Shorley: pages 10. Il: @ iStockphoto com/Isabelle page 12: @ iStockphotocom/Joze Pojbic Opposites Level A Leveled Book Correlation Learning A-Z LEVEL A Written by Katie Knight Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-zcom Mary Phillips; Mory:"
+    }
+  ]
+}

@@ -1,0 +1,366 @@
+{
+  "version": "1.0",
+  "total_words": 72,
+  "timings": [
+    {
+      "word": "i",
+      "start": 0.0,
+      "end": 0.2
+    },
+    {
+      "word": "looked",
+      "start": 0.2,
+      "end": 0.54
+    },
+    {
+      "word": "everywhere",
+      "start": 0.54,
+      "end": 1.2
+    },
+    {
+      "word": "written",
+      "start": 1.9,
+      "end": 2.12
+    },
+    {
+      "word": "by",
+      "start": 2.12,
+      "end": 2.4
+    },
+    {
+      "word": "elizabeth",
+      "start": 2.4,
+      "end": 2.82
+    },
+    {
+      "word": "strauss",
+      "start": 2.82,
+      "end": 3.82
+    },
+    {
+      "word": "illustrated",
+      "start": 4.2,
+      "end": 4.58
+    },
+    {
+      "word": "by",
+      "start": 4.58,
+      "end": 5.04
+    },
+    {
+      "word": "john",
+      "start": 5.04,
+      "end": 5.38
+    },
+    {
+      "word": "castner",
+      "start": 5.38,
+      "end": 6.1
+    },
+    {
+      "word": "did",
+      "start": 6.9,
+      "end": 6.98
+    },
+    {
+      "word": "you",
+      "start": 6.98,
+      "end": 7.22
+    },
+    {
+      "word": "look",
+      "start": 7.22,
+      "end": 7.44
+    },
+    {
+      "word": "for",
+      "start": 7.44,
+      "end": 7.66
+    },
+    {
+      "word": "your",
+      "start": 7.66,
+      "end": 7.98
+    },
+    {
+      "word": "shoe",
+      "start": 7.98,
+      "end": 8.28
+    },
+    {
+      "word": "i",
+      "start": 8.94,
+      "end": 9.0
+    },
+    {
+      "word": "looked",
+      "start": 9.0,
+      "end": 9.3
+    },
+    {
+      "word": "everywhere",
+      "start": 9.3,
+      "end": 9.88
+    },
+    {
+      "word": "my",
+      "start": 10.64,
+      "end": 10.82
+    },
+    {
+      "word": "shoe",
+      "start": 10.82,
+      "end": 11.08
+    },
+    {
+      "word": "is",
+      "start": 11.08,
+      "end": 11.32
+    },
+    {
+      "word": "not",
+      "start": 11.32,
+      "end": 11.52
+    },
+    {
+      "word": "there",
+      "start": 11.52,
+      "end": 11.98
+    },
+    {
+      "word": "did",
+      "start": 12.64,
+      "end": 12.8
+    },
+    {
+      "word": "you",
+      "start": 12.8,
+      "end": 13.04
+    },
+    {
+      "word": "look",
+      "start": 13.04,
+      "end": 13.32
+    },
+    {
+      "word": "under",
+      "start": 13.32,
+      "end": 13.7
+    },
+    {
+      "word": "the",
+      "start": 13.7,
+      "end": 13.98
+    },
+    {
+      "word": "bed",
+      "start": 13.98,
+      "end": 14.3
+    },
+    {
+      "word": "i",
+      "start": 14.86,
+      "end": 15.04
+    },
+    {
+      "word": "looked",
+      "start": 15.04,
+      "end": 15.32
+    },
+    {
+      "word": "everywhere",
+      "start": 15.32,
+      "end": 15.98
+    },
+    {
+      "word": "my",
+      "start": 16.82,
+      "end": 17.04
+    },
+    {
+      "word": "shoe",
+      "start": 17.04,
+      "end": 17.28
+    },
+    {
+      "word": "is",
+      "start": 17.28,
+      "end": 17.56
+    },
+    {
+      "word": "not",
+      "start": 17.56,
+      "end": 17.66
+    },
+    {
+      "word": "there",
+      "start": 17.66,
+      "end": 18.18
+    },
+    {
+      "word": "did",
+      "start": 18.9,
+      "end": 19.18
+    },
+    {
+      "word": "you",
+      "start": 19.18,
+      "end": 19.32
+    },
+    {
+      "word": "look",
+      "start": 19.32,
+      "end": 20.04
+    },
+    {
+      "word": "in",
+      "start": 20.04,
+      "end": 20.04
+    },
+    {
+      "word": "your",
+      "start": 20.04,
+      "end": 20.04
+    },
+    {
+      "word": "toy",
+      "start": 20.04,
+      "end": 20.26
+    },
+    {
+      "word": "box",
+      "start": 20.26,
+      "end": 20.96
+    },
+    {
+      "word": "i",
+      "start": 21.6,
+      "end": 21.68
+    },
+    {
+      "word": "looked",
+      "start": 21.68,
+      "end": 21.94
+    },
+    {
+      "word": "everywhere",
+      "start": 21.94,
+      "end": 22.7
+    },
+    {
+      "word": "my",
+      "start": 23.42,
+      "end": 23.68
+    },
+    {
+      "word": "shoe",
+      "start": 23.68,
+      "end": 23.94
+    },
+    {
+      "word": "is",
+      "start": 23.94,
+      "end": 24.26
+    },
+    {
+      "word": "not",
+      "start": 24.26,
+      "end": 24.44
+    },
+    {
+      "word": "there",
+      "start": 24.44,
+      "end": 25.0
+    },
+    {
+      "word": "did",
+      "start": 25.38,
+      "end": 25.78
+    },
+    {
+      "word": "you",
+      "start": 25.78,
+      "end": 26.0
+    },
+    {
+      "word": "look",
+      "start": 26.0,
+      "end": 26.32
+    },
+    {
+      "word": "in",
+      "start": 26.32,
+      "end": 26.58
+    },
+    {
+      "word": "your",
+      "start": 26.58,
+      "end": 26.78
+    },
+    {
+      "word": "closet",
+      "start": 26.78,
+      "end": 27.18
+    },
+    {
+      "word": "oh",
+      "start": 27.84,
+      "end": 28.3
+    },
+    {
+      "word": "no",
+      "start": 28.3,
+      "end": 28.64
+    },
+    {
+      "word": "i",
+      "start": 29.14,
+      "end": 29.62
+    },
+    {
+      "word": "did",
+      "start": 29.62,
+      "end": 29.86
+    },
+    {
+      "word": "not",
+      "start": 29.86,
+      "end": 30.1
+    },
+    {
+      "word": "look",
+      "start": 30.1,
+      "end": 30.3
+    },
+    {
+      "word": "everywhere",
+      "start": 30.3,
+      "end": 30.78
+    },
+    {
+      "word": "i",
+      "start": 31.5,
+      "end": 31.68
+    },
+    {
+      "word": "did",
+      "start": 31.68,
+      "end": 31.86
+    },
+    {
+      "word": "not",
+      "start": 31.86,
+      "end": 32.1
+    },
+    {
+      "word": "look",
+      "start": 32.1,
+      "end": 32.36
+    },
+    {
+      "word": "there",
+      "start": 32.36,
+      "end": 32.72
+    }
+  ]
+}

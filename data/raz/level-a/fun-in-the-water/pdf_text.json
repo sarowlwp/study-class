@@ -1,0 +1,54 @@
+{
+  "id": "level-a/fun-in-the-water",
+  "title": "Fun In The Water",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Fun in the Water Written by Edie Evans wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Fun in the Water Written by Edie Evans wwwreadinga-Z.com"
+    },
+    {
+      "page": 3,
+      "text": "You float on the water: Fun in the Water Level A 3"
+    },
+    {
+      "page": 4,
+      "text": "You sail on the water:"
+    },
+    {
+      "page": 5,
+      "text": "You paddle on the water: Fun in the Water Level A 5"
+    },
+    {
+      "page": 6,
+      "text": "You fish in the water:"
+    },
+    {
+      "page": 7,
+      "text": "You dive in the water: Fun in the Water Level A"
+    },
+    {
+      "page": 8,
+      "text": "~4 You swim in the water: 8"
+    },
+    {
+      "page": 9,
+      "text": "You in the water: Fun in the Water Level A splash"
+    },
+    {
+      "page": 10,
+      "text": "You play in the water 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover: @ Miroslav Ferkuniak/iStock/Thinkstock; back cover: @ John Warburton-Lee Photography/Alamy; title page: @ Gennadiy Poznyakov/123RF; page 3: @ Laurie Johnson/Hemera/Thinkstock; page 4: @ Celia Peterson/arabianEye/Corbis; page 5: @ Marzanna Syncerz/ iStock/Thinkstock; page 6: @ Yobrolo/iStock/Thinkstock; page 7: @ Jupiterimages/Photos com/Thinkstock; page 8: @ Herman Lumanog/123RF; page 9: @ Tatiana Kostareva/123RF; page IO: @ Jupiterimages/Stockbyte/Thinkstock Fun in the Water Level A Leveled Book Correlation Learning A-Z LEVEL A Written by Edie Evans Fountas & Pinnell A AIl rights reserved. Reading Recovery DRA A-1 wwwreadinga-z.com"
+    }
+  ]
+}

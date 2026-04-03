@@ -1,0 +1,54 @@
+{
+  "id": "level-b/what-has-this-tail",
+  "title": "What Has This Tail",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B What Has This Tail? Wrilten by Kira Freed wwwreadinga-z.com 4r"
+    },
+    {
+      "page": 2,
+      "text": "What Has This Tail? Written by Kira Freed wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "What animal has this tail? What Has This Tail? Level B 3"
+    },
+    {
+      "page": 4,
+      "text": "A pig has this tail: curly"
+    },
+    {
+      "page": 5,
+      "text": "What animal has this tail? What Has This Tail? Level B 5"
+    },
+    {
+      "page": 6,
+      "text": "A horse has this long tail. 6"
+    },
+    {
+      "page": 7,
+      "text": "What animal has this tail? What Has This Tail? Level B"
+    },
+    {
+      "page": 8,
+      "text": "A rabbit has this short tail: 8"
+    },
+    {
+      "page": 9,
+      "text": "What animal has no tail? What Has This Tail? Level B La"
+    },
+    {
+      "page": 10,
+      "text": "A person has no tail: 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover: iStockphoto com /Roberto A. Sanchez; back cover: @ Aleksandr Labetskiy / 123RF; title page: Mhaimour /Dreamstime.com; pages 3, 4: @ iStockphoto com/Igor Ivanov; pages 5 , 6: @ Jeffrey Van Daele / Dreamstime.com; pages 7, 8: @ Drimi/ 123RF; pages 9, 10: @ iStockphoto.com/Jennifer What Has This Tail? Level B Leveled Book Learning A-Z Correlation ISBN |-59827-989-0 LEVEL B Written by Kira Freed Fountas & Pinnell B All rights reserved. Reading Recovery 2 DRA 2 WWW . readinga-z.C com Daley"
+    }
+  ]
+}

@@ -1,0 +1,376 @@
+{
+  "version": "1.0",
+  "total_words": 74,
+  "timings": [
+    {
+      "word": "when",
+      "start": 0.0,
+      "end": 0.3
+    },
+    {
+      "word": "is",
+      "start": 0.3,
+      "end": 0.66
+    },
+    {
+      "word": "night",
+      "start": 0.66,
+      "end": 0.96
+    },
+    {
+      "word": "time",
+      "start": 0.96,
+      "end": 1.64
+    },
+    {
+      "word": "written",
+      "start": 1.64,
+      "end": 2.28
+    },
+    {
+      "word": "by",
+      "start": 2.28,
+      "end": 2.66
+    },
+    {
+      "word": "cheryl",
+      "start": 2.66,
+      "end": 3.02
+    },
+    {
+      "word": "ryan",
+      "start": 3.02,
+      "end": 3.56
+    },
+    {
+      "word": "illustrated",
+      "start": 3.56,
+      "end": 4.64
+    },
+    {
+      "word": "by",
+      "start": 4.64,
+      "end": 5.14
+    },
+    {
+      "word": "nora",
+      "start": 5.14,
+      "end": 5.46
+    },
+    {
+      "word": "vuitton",
+      "start": 5.46,
+      "end": 6.04
+    },
+    {
+      "word": "night",
+      "start": 6.48,
+      "end": 6.7
+    },
+    {
+      "word": "time",
+      "start": 6.7,
+      "end": 7.12
+    },
+    {
+      "word": "is",
+      "start": 7.12,
+      "end": 7.46
+    },
+    {
+      "word": "when",
+      "start": 7.46,
+      "end": 7.7
+    },
+    {
+      "word": "the",
+      "start": 7.7,
+      "end": 7.98
+    },
+    {
+      "word": "sun",
+      "start": 7.98,
+      "end": 8.22
+    },
+    {
+      "word": "sets",
+      "start": 8.22,
+      "end": 8.76
+    },
+    {
+      "word": "night",
+      "start": 9.06,
+      "end": 9.26
+    },
+    {
+      "word": "time",
+      "start": 9.26,
+      "end": 9.76
+    },
+    {
+      "word": "is",
+      "start": 9.76,
+      "end": 10.14
+    },
+    {
+      "word": "when",
+      "start": 10.14,
+      "end": 10.3
+    },
+    {
+      "word": "the",
+      "start": 10.3,
+      "end": 10.48
+    },
+    {
+      "word": "moon",
+      "start": 10.48,
+      "end": 10.84
+    },
+    {
+      "word": "rises",
+      "start": 10.84,
+      "end": 11.44
+    },
+    {
+      "word": "when",
+      "start": 11.84,
+      "end": 11.94
+    },
+    {
+      "word": "the",
+      "start": 11.94,
+      "end": 12.32
+    },
+    {
+      "word": "stars",
+      "start": 12.32,
+      "end": 12.56
+    },
+    {
+      "word": "shine",
+      "start": 12.56,
+      "end": 13.18
+    },
+    {
+      "word": "it",
+      "start": 13.48,
+      "end": 13.7
+    },
+    {
+      "word": "is",
+      "start": 13.7,
+      "end": 14.08
+    },
+    {
+      "word": "night",
+      "start": 14.08,
+      "end": 14.32
+    },
+    {
+      "word": "time",
+      "start": 14.32,
+      "end": 14.72
+    },
+    {
+      "word": "night",
+      "start": 14.9,
+      "end": 15.1
+    },
+    {
+      "word": "time",
+      "start": 15.1,
+      "end": 15.5
+    },
+    {
+      "word": "is",
+      "start": 15.5,
+      "end": 15.82
+    },
+    {
+      "word": "when",
+      "start": 15.82,
+      "end": 15.96
+    },
+    {
+      "word": "the",
+      "start": 15.96,
+      "end": 16.26
+    },
+    {
+      "word": "fire",
+      "start": 16.26,
+      "end": 16.62
+    },
+    {
+      "word": "flies",
+      "start": 16.62,
+      "end": 17.04
+    },
+    {
+      "word": "blink",
+      "start": 17.04,
+      "end": 17.58
+    },
+    {
+      "word": "it",
+      "start": 17.74,
+      "end": 17.88
+    },
+    {
+      "word": "is",
+      "start": 17.88,
+      "end": 18.24
+    },
+    {
+      "word": "night",
+      "start": 18.24,
+      "end": 18.5
+    },
+    {
+      "word": "time",
+      "start": 18.5,
+      "end": 18.84
+    },
+    {
+      "word": "when",
+      "start": 18.84,
+      "end": 19.12
+    },
+    {
+      "word": "the",
+      "start": 19.12,
+      "end": 19.4
+    },
+    {
+      "word": "bats",
+      "start": 19.4,
+      "end": 19.8
+    },
+    {
+      "word": "fly",
+      "start": 19.8,
+      "end": 20.36
+    },
+    {
+      "word": "night",
+      "start": 20.7,
+      "end": 20.88
+    },
+    {
+      "word": "time",
+      "start": 20.88,
+      "end": 21.32
+    },
+    {
+      "word": "is",
+      "start": 21.32,
+      "end": 21.62
+    },
+    {
+      "word": "when",
+      "start": 21.62,
+      "end": 21.86
+    },
+    {
+      "word": "dad",
+      "start": 21.86,
+      "end": 22.18
+    },
+    {
+      "word": "reads",
+      "start": 22.18,
+      "end": 22.5
+    },
+    {
+      "word": "to",
+      "start": 22.5,
+      "end": 22.84
+    },
+    {
+      "word": "me",
+      "start": 22.84,
+      "end": 23.16
+    },
+    {
+      "word": "the",
+      "start": 23.32,
+      "end": 23.54
+    },
+    {
+      "word": "lights",
+      "start": 23.54,
+      "end": 23.86
+    },
+    {
+      "word": "go",
+      "start": 23.86,
+      "end": 24.14
+    },
+    {
+      "word": "out",
+      "start": 24.14,
+      "end": 24.56
+    },
+    {
+      "word": "when",
+      "start": 24.56,
+      "end": 24.78
+    },
+    {
+      "word": "it",
+      "start": 24.78,
+      "end": 25.04
+    },
+    {
+      "word": "is",
+      "start": 25.04,
+      "end": 25.22
+    },
+    {
+      "word": "bedtime",
+      "start": 25.22,
+      "end": 25.7
+    },
+    {
+      "word": "night",
+      "start": 26.1,
+      "end": 26.4
+    },
+    {
+      "word": "time",
+      "start": 26.4,
+      "end": 26.78
+    },
+    {
+      "word": "is",
+      "start": 26.78,
+      "end": 27.04
+    },
+    {
+      "word": "when",
+      "start": 27.04,
+      "end": 27.24
+    },
+    {
+      "word": "i",
+      "start": 27.24,
+      "end": 27.58
+    },
+    {
+      "word": "go",
+      "start": 27.58,
+      "end": 27.84
+    },
+    {
+      "word": "to",
+      "start": 27.84,
+      "end": 28.18
+    },
+    {
+      "word": "sleep",
+      "start": 28.18,
+      "end": 28.44
+    }
+  ]
+}

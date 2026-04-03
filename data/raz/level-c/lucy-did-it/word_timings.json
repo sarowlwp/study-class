@@ -1,0 +1,296 @@
+{
+  "version": "1.0",
+  "total_words": 58,
+  "timings": [
+    {
+      "word": "lucy",
+      "start": 0.0,
+      "end": 0.58
+    },
+    {
+      "word": "did",
+      "start": 0.58,
+      "end": 0.98
+    },
+    {
+      "word": "it",
+      "start": 0.98,
+      "end": 1.54
+    },
+    {
+      "word": "written",
+      "start": 1.88,
+      "end": 2.24
+    },
+    {
+      "word": "by",
+      "start": 2.24,
+      "end": 2.72
+    },
+    {
+      "word": "katherine",
+      "start": 2.72,
+      "end": 3.18
+    },
+    {
+      "word": "verdeck",
+      "start": 3.18,
+      "end": 4.24
+    },
+    {
+      "word": "illustrated",
+      "start": 4.62,
+      "end": 5.3
+    },
+    {
+      "word": "by",
+      "start": 5.3,
+      "end": 5.84
+    },
+    {
+      "word": "roberta",
+      "start": 5.84,
+      "end": 6.56
+    },
+    {
+      "word": "collier",
+      "start": 6.56,
+      "end": 7.26
+    },
+    {
+      "word": "morales",
+      "start": 7.26,
+      "end": 8.1
+    },
+    {
+      "word": "rip",
+      "start": 8.9,
+      "end": 8.9
+    },
+    {
+      "word": "winther",
+      "start": 9.34,
+      "end": 9.6
+    },
+    {
+      "word": "bag",
+      "start": 9.6,
+      "end": 10.1
+    },
+    {
+      "word": "lucy",
+      "start": 10.9,
+      "end": 11.24
+    },
+    {
+      "word": "did",
+      "start": 11.24,
+      "end": 11.62
+    },
+    {
+      "word": "it",
+      "start": 11.62,
+      "end": 11.94
+    },
+    {
+      "word": "crash",
+      "start": 12.2,
+      "end": 12.58
+    },
+    {
+      "word": "winther",
+      "start": 12.96,
+      "end": 13.28
+    },
+    {
+      "word": "book",
+      "start": 13.28,
+      "end": 13.78
+    },
+    {
+      "word": "lucy",
+      "start": 14.7,
+      "end": 14.98
+    },
+    {
+      "word": "did",
+      "start": 14.98,
+      "end": 15.4
+    },
+    {
+      "word": "it",
+      "start": 15.4,
+      "end": 15.68
+    },
+    {
+      "word": "plop",
+      "start": 15.92,
+      "end": 16.26
+    },
+    {
+      "word": "winther",
+      "start": 16.58,
+      "end": 16.94
+    },
+    {
+      "word": "paint",
+      "start": 16.94,
+      "end": 17.4
+    },
+    {
+      "word": "lucy",
+      "start": 18.26,
+      "end": 18.6
+    },
+    {
+      "word": "did",
+      "start": 18.6,
+      "end": 18.94
+    },
+    {
+      "word": "it",
+      "start": 18.94,
+      "end": 19.2
+    },
+    {
+      "word": "clang",
+      "start": 19.46,
+      "end": 19.74
+    },
+    {
+      "word": "winther",
+      "start": 20.06,
+      "end": 20.42
+    },
+    {
+      "word": "pan",
+      "start": 20.42,
+      "end": 20.94
+    },
+    {
+      "word": "lucy",
+      "start": 21.82,
+      "end": 22.14
+    },
+    {
+      "word": "did",
+      "start": 22.14,
+      "end": 22.5
+    },
+    {
+      "word": "it",
+      "start": 22.5,
+      "end": 22.74
+    },
+    {
+      "word": "ding",
+      "start": 22.8,
+      "end": 23.14
+    },
+    {
+      "word": "winther",
+      "start": 23.46,
+      "end": 23.84
+    },
+    {
+      "word": "bell",
+      "start": 23.84,
+      "end": 24.32
+    },
+    {
+      "word": "lucy",
+      "start": 25.14,
+      "end": 25.4
+    },
+    {
+      "word": "did",
+      "start": 25.4,
+      "end": 25.78
+    },
+    {
+      "word": "it",
+      "start": 25.78,
+      "end": 26.24
+    },
+    {
+      "word": "wolf",
+      "start": 26.46,
+      "end": 26.62
+    },
+    {
+      "word": "winther",
+      "start": 27.02,
+      "end": 27.4
+    },
+    {
+      "word": "dog",
+      "start": 27.4,
+      "end": 27.96
+    },
+    {
+      "word": "lucy",
+      "start": 28.82,
+      "end": 29.16
+    },
+    {
+      "word": "did",
+      "start": 29.16,
+      "end": 29.66
+    },
+    {
+      "word": "it",
+      "start": 29.66,
+      "end": 29.9
+    },
+    {
+      "word": "wish",
+      "start": 29.9,
+      "end": 30.48
+    },
+    {
+      "word": "went",
+      "start": 30.48,
+      "end": 30.92
+    },
+    {
+      "word": "the",
+      "start": 30.92,
+      "end": 31.2
+    },
+    {
+      "word": "cat",
+      "start": 31.2,
+      "end": 31.8
+    },
+    {
+      "word": "lucy",
+      "start": 32.36,
+      "end": 32.66
+    },
+    {
+      "word": "did",
+      "start": 32.66,
+      "end": 33.0
+    },
+    {
+      "word": "it",
+      "start": 33.0,
+      "end": 33.36
+    },
+    {
+      "word": "or",
+      "start": 33.46,
+      "end": 33.74
+    },
+    {
+      "word": "did",
+      "start": 33.74,
+      "end": 34.04
+    },
+    {
+      "word": "she",
+      "start": 34.04,
+      "end": 34.5
+    }
+  ]
+}

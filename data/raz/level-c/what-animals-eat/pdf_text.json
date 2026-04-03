@@ -1,0 +1,54 @@
+{
+  "id": "level-c/what-animals-eat",
+  "title": "What Animals Eat",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C What Animals Eat Written by Ned Jensen Illustrated by Joe Boddy wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "What Animals Eat Jm Written by Ned Jensen Illustrated by Joe Boddy wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "Cows like to eat grass. Munch, 1 munch What Animals Eat 0 Level C 3"
+    },
+    {
+      "page": 4,
+      "text": " 53 Birds like to eat seeds _ Crunch, crunch. 737"
+    },
+    {
+      "page": 5,
+      "text": "0 W Pandas like to eat leaves. Munch, munch. What Animals Eat 0 Level C 5"
+    },
+    {
+      "page": 6,
+      "text": "0 8 like to eat bugs. zap. Frogs Zap,"
+    },
+    {
+      "page": 7,
+      "text": "Monkeys like to eat fruit_ slurp. What Animals Eat 0 Level C Slurp,"
+    },
+    {
+      "page": 8,
+      "text": "Seals like to eat fish_ gulp. 8 Gulp,"
+    },
+    {
+      "page": 9,
+      "text": "Goats like to eat everything _ stopl That' s my sock. What Animals Eat 0 Level C Hey,"
+    },
+    {
+      "page": 10,
+      "text": "2 stopl That' s my shoe. stopl Thal' s my book_ 10 Hey, Hey,"
+    },
+    {
+      "page": 11,
+      "text": "What Animals Eat Level C Leveled Book Learning A-Z Correlation Written by Ned Jensen LEVEL € Illustrated by Joe Fountas & Pinnell C All rights reserved. Reading Recovery 3-4 DRA 3-4 WWW.  readinga-z.com Boddy"
+    }
+  ]
+}

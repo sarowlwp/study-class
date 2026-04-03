@@ -1,0 +1,46 @@
+{
+  "id": "level-aa/my-school-bus",
+  "title": "My School Bus",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 9,
+  "pages": [
+    {
+      "page": 1,
+      "text": "School Bus SCHOOL BUS Written by Bev Osborn Illustrated Laura Freeman wwwreadinga-z.com My by"
+    },
+    {
+      "page": 2,
+      "text": "The walk. My Schopl Bus Level 32 3"
+    },
+    {
+      "page": 3,
+      "text": "3 The bench: 4"
+    },
+    {
+      "page": 4,
+      "text": "SCHOOL BUS The bus. My Schopl Bus Level 32 5"
+    },
+    {
+      "page": 5,
+      "text": "The door: 6"
+    },
+    {
+      "page": 6,
+      "text": "The steps. 0 My Schopl Bus Level 32"
+    },
+    {
+      "page": 7,
+      "text": "The seat: 8"
+    },
+    {
+      "page": 8,
+      "text": "The window: My Schopl Bus Level 32"
+    },
+    {
+      "page": 9,
+      "text": "The school: 0 10 SCHO"
+    }
+  ]
+}

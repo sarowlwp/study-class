@@ -1,0 +1,181 @@
+{
+  "version": "1.0",
+  "total_words": 35,
+  "timings": [
+    {
+      "word": "colorful",
+      "start": 0.0,
+      "end": 2.3
+    },
+    {
+      "word": "eggs",
+      "start": 2.3,
+      "end": 3.34
+    },
+    {
+      "word": "written",
+      "start": 3.34,
+      "end": 4.28
+    },
+    {
+      "word": "by",
+      "start": 4.28,
+      "end": 4.92
+    },
+    {
+      "word": "katie",
+      "start": 4.92,
+      "end": 5.52
+    },
+    {
+      "word": "anderson",
+      "start": 5.52,
+      "end": 6.34
+    },
+    {
+      "word": "illustrated",
+      "start": 6.34,
+      "end": 7.62
+    },
+    {
+      "word": "by",
+      "start": 7.62,
+      "end": 8.7
+    },
+    {
+      "word": "luciana",
+      "start": 8.7,
+      "end": 9.5
+    },
+    {
+      "word": "navarro",
+      "start": 9.5,
+      "end": 10.3
+    },
+    {
+      "word": "powell",
+      "start": 10.3,
+      "end": 11.38
+    },
+    {
+      "word": "a",
+      "start": 11.38,
+      "end": 11.38
+    },
+    {
+      "word": "red",
+      "start": 11.38,
+      "end": 16.58
+    },
+    {
+      "word": "egg",
+      "start": 16.58,
+      "end": 18.86
+    },
+    {
+      "word": "a",
+      "start": 18.86,
+      "end": 23.04
+    },
+    {
+      "word": "yellow",
+      "start": 23.04,
+      "end": 23.68
+    },
+    {
+      "word": "egg",
+      "start": 23.68,
+      "end": 24.7
+    },
+    {
+      "word": "uh",
+      "start": 29.56,
+      "end": 30.88
+    },
+    {
+      "word": "pink",
+      "start": 30.88,
+      "end": 31.18
+    },
+    {
+      "word": "egg",
+      "start": 31.82,
+      "end": 32.52
+    },
+    {
+      "word": "uh",
+      "start": 33.56,
+      "end": 37.76
+    },
+    {
+      "word": "purple",
+      "start": 37.96,
+      "end": 38.14
+    },
+    {
+      "word": "egg",
+      "start": 38.86,
+      "end": 40.4
+    },
+    {
+      "word": "and",
+      "start": 45.06,
+      "end": 45.28
+    },
+    {
+      "word": "orange",
+      "start": 45.28,
+      "end": 45.86
+    },
+    {
+      "word": "egg",
+      "start": 46.24,
+      "end": 47.92
+    },
+    {
+      "word": "a",
+      "start": 52.34,
+      "end": 52.62
+    },
+    {
+      "word": "green",
+      "start": 52.62,
+      "end": 53.0
+    },
+    {
+      "word": "egg",
+      "start": 53.66,
+      "end": 54.32
+    },
+    {
+      "word": "a",
+      "start": 58.64,
+      "end": 60.04
+    },
+    {
+      "word": "blue",
+      "start": 60.04,
+      "end": 60.34
+    },
+    {
+      "word": "egg",
+      "start": 60.34,
+      "end": 61.7
+    },
+    {
+      "word": "a",
+      "start": 61.7,
+      "end": 67.28
+    },
+    {
+      "word": "colorful",
+      "start": 67.28,
+      "end": 67.68
+    },
+    {
+      "word": "egg",
+      "start": 67.68,
+      "end": 68.6
+    }
+  ]
+}

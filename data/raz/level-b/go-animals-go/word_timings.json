@@ -1,0 +1,281 @@
+{
+  "version": "1.0",
+  "total_words": 55,
+  "timings": [
+    {
+      "word": "go",
+      "start": 0.0,
+      "end": 0.52
+    },
+    {
+      "word": "animals",
+      "start": 0.52,
+      "end": 1.46
+    },
+    {
+      "word": "go",
+      "start": 1.46,
+      "end": 2.42
+    },
+    {
+      "word": "written",
+      "start": 3.48,
+      "end": 3.76
+    },
+    {
+      "word": "by",
+      "start": 3.76,
+      "end": 4.3
+    },
+    {
+      "word": "brian",
+      "start": 4.3,
+      "end": 5.16
+    },
+    {
+      "word": "roberts",
+      "start": 5.16,
+      "end": 6.04
+    },
+    {
+      "word": "illustrated",
+      "start": 6.88,
+      "end": 7.76
+    },
+    {
+      "word": "by",
+      "start": 7.76,
+      "end": 8.6
+    },
+    {
+      "word": "nora",
+      "start": 8.6,
+      "end": 9.62
+    },
+    {
+      "word": "vutus",
+      "start": 9.62,
+      "end": 10.68
+    },
+    {
+      "word": "the",
+      "start": 11.48,
+      "end": 11.72
+    },
+    {
+      "word": "cow",
+      "start": 11.72,
+      "end": 12.24
+    },
+    {
+      "word": "is",
+      "start": 12.24,
+      "end": 12.74
+    },
+    {
+      "word": "in",
+      "start": 12.74,
+      "end": 13.0
+    },
+    {
+      "word": "a",
+      "start": 13.0,
+      "end": 13.38
+    },
+    {
+      "word": "car",
+      "start": 13.38,
+      "end": 14.02
+    },
+    {
+      "word": "the",
+      "start": 14.62,
+      "end": 14.88
+    },
+    {
+      "word": "pig",
+      "start": 14.88,
+      "end": 15.44
+    },
+    {
+      "word": "is",
+      "start": 15.44,
+      "end": 15.94
+    },
+    {
+      "word": "on",
+      "start": 15.94,
+      "end": 16.32
+    },
+    {
+      "word": "a",
+      "start": 16.32,
+      "end": 16.76
+    },
+    {
+      "word": "bike",
+      "start": 16.76,
+      "end": 17.1
+    },
+    {
+      "word": "the",
+      "start": 17.72,
+      "end": 18.0
+    },
+    {
+      "word": "goat",
+      "start": 18.0,
+      "end": 18.52
+    },
+    {
+      "word": "is",
+      "start": 18.52,
+      "end": 19.02
+    },
+    {
+      "word": "in",
+      "start": 19.02,
+      "end": 19.28
+    },
+    {
+      "word": "a",
+      "start": 19.28,
+      "end": 19.58
+    },
+    {
+      "word": "boat",
+      "start": 19.58,
+      "end": 20.1
+    },
+    {
+      "word": "the",
+      "start": 20.62,
+      "end": 20.94
+    },
+    {
+      "word": "dog",
+      "start": 20.94,
+      "end": 21.52
+    },
+    {
+      "word": "is",
+      "start": 21.52,
+      "end": 22.02
+    },
+    {
+      "word": "on",
+      "start": 22.02,
+      "end": 22.28
+    },
+    {
+      "word": "a",
+      "start": 22.28,
+      "end": 22.62
+    },
+    {
+      "word": "train",
+      "start": 22.62,
+      "end": 23.12
+    },
+    {
+      "word": "the",
+      "start": 23.72,
+      "end": 24.08
+    },
+    {
+      "word": "bird",
+      "start": 24.08,
+      "end": 24.62
+    },
+    {
+      "word": "is",
+      "start": 24.62,
+      "end": 25.26
+    },
+    {
+      "word": "on",
+      "start": 25.26,
+      "end": 26.08
+    },
+    {
+      "word": "skates",
+      "start": 26.08,
+      "end": 26.6
+    },
+    {
+      "word": "the",
+      "start": 26.6,
+      "end": 27.54
+    },
+    {
+      "word": "duck",
+      "start": 27.54,
+      "end": 28.12
+    },
+    {
+      "word": "is",
+      "start": 28.12,
+      "end": 28.68
+    },
+    {
+      "word": "in",
+      "start": 28.68,
+      "end": 28.88
+    },
+    {
+      "word": "a",
+      "start": 28.88,
+      "end": 29.24
+    },
+    {
+      "word": "plane",
+      "start": 29.24,
+      "end": 29.92
+    },
+    {
+      "word": "the",
+      "start": 30.62,
+      "end": 30.88
+    },
+    {
+      "word": "cat",
+      "start": 30.88,
+      "end": 31.48
+    },
+    {
+      "word": "is",
+      "start": 31.48,
+      "end": 31.92
+    },
+    {
+      "word": "on",
+      "start": 31.92,
+      "end": 32.52
+    },
+    {
+      "word": "a",
+      "start": 32.52,
+      "end": 32.84
+    },
+    {
+      "word": "horse",
+      "start": 32.84,
+      "end": 33.36
+    },
+    {
+      "word": "go",
+      "start": 34.0,
+      "end": 34.36
+    },
+    {
+      "word": "animals",
+      "start": 34.82,
+      "end": 35.18
+    },
+    {
+      "word": "go",
+      "start": 35.6,
+      "end": 36.0
+    }
+  ]
+}

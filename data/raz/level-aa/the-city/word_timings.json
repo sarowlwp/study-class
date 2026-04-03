@@ -1,0 +1,141 @@
+{
+  "version": "1.0",
+  "total_words": 27,
+  "timings": [
+    {
+      "word": "the",
+      "start": 0.0,
+      "end": 0.28
+    },
+    {
+      "word": "city",
+      "start": 0.28,
+      "end": 0.62
+    },
+    {
+      "word": "written",
+      "start": 1.1,
+      "end": 1.32
+    },
+    {
+      "word": "by",
+      "start": 1.32,
+      "end": 1.62
+    },
+    {
+      "word": "veronica",
+      "start": 1.62,
+      "end": 2.04
+    },
+    {
+      "word": "angel",
+      "start": 2.04,
+      "end": 2.72
+    },
+    {
+      "word": "illustrated",
+      "start": 3.12,
+      "end": 3.54
+    },
+    {
+      "word": "by",
+      "start": 3.54,
+      "end": 4.04
+    },
+    {
+      "word": "jack",
+      "start": 4.04,
+      "end": 4.4
+    },
+    {
+      "word": "vores",
+      "start": 4.4,
+      "end": 5.0
+    },
+    {
+      "word": "the",
+      "start": 7.32,
+      "end": 7.5
+    },
+    {
+      "word": "streets",
+      "start": 7.5,
+      "end": 8.06
+    },
+    {
+      "word": "the",
+      "start": 10.36,
+      "end": 10.56
+    },
+    {
+      "word": "cars",
+      "start": 10.56,
+      "end": 11.14
+    },
+    {
+      "word": "the",
+      "start": 13.52,
+      "end": 13.68
+    },
+    {
+      "word": "buses",
+      "start": 13.68,
+      "end": 14.26
+    },
+    {
+      "word": "the",
+      "start": 16.6,
+      "end": 16.9
+    },
+    {
+      "word": "stores",
+      "start": 16.9,
+      "end": 17.48
+    },
+    {
+      "word": "the",
+      "start": 19.7,
+      "end": 20.0
+    },
+    {
+      "word": "park",
+      "start": 20.0,
+      "end": 20.46
+    },
+    {
+      "word": "the",
+      "start": 22.52,
+      "end": 22.98
+    },
+    {
+      "word": "big",
+      "start": 22.98,
+      "end": 23.4
+    },
+    {
+      "word": "buildings",
+      "start": 23.4,
+      "end": 24.08
+    },
+    {
+      "word": "the",
+      "start": 26.38,
+      "end": 26.68
+    },
+    {
+      "word": "people",
+      "start": 26.68,
+      "end": 27.16
+    },
+    {
+      "word": "then",
+      "start": 28.58,
+      "end": 29.86
+    },
+    {
+      "word": "noise",
+      "start": 29.86,
+      "end": 30.5
+    }
+  ]
+}

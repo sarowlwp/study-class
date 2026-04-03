@@ -1,0 +1,381 @@
+{
+  "version": "1.0",
+  "total_words": 75,
+  "timings": [
+    {
+      "word": "this",
+      "start": 0.0,
+      "end": 0.5
+    },
+    {
+      "word": "insect",
+      "start": 0.5,
+      "end": 1.58
+    },
+    {
+      "word": "written",
+      "start": 2.74,
+      "end": 2.96
+    },
+    {
+      "word": "by",
+      "start": 2.96,
+      "end": 3.5
+    },
+    {
+      "word": "nigel",
+      "start": 3.5,
+      "end": 4.0
+    },
+    {
+      "word": "pepper",
+      "start": 4.0,
+      "end": 4.66
+    },
+    {
+      "word": "house",
+      "start": 4.66,
+      "end": 5.48
+    },
+    {
+      "word": "focus",
+      "start": 6.82,
+      "end": 7.02
+    },
+    {
+      "word": "question",
+      "start": 7.02,
+      "end": 7.82
+    },
+    {
+      "word": "how",
+      "start": 9.88,
+      "end": 10.08
+    },
+    {
+      "word": "can",
+      "start": 10.08,
+      "end": 10.66
+    },
+    {
+      "word": "you",
+      "start": 10.66,
+      "end": 11.26
+    },
+    {
+      "word": "describe",
+      "start": 11.26,
+      "end": 12.14
+    },
+    {
+      "word": "insects",
+      "start": 12.14,
+      "end": 13.12
+    },
+    {
+      "word": "this",
+      "start": 13.88,
+      "end": 14.18
+    },
+    {
+      "word": "insect",
+      "start": 14.18,
+      "end": 15.4
+    },
+    {
+      "word": "is",
+      "start": 15.4,
+      "end": 16.26
+    },
+    {
+      "word": "strong",
+      "start": 16.26,
+      "end": 17.3
+    },
+    {
+      "word": "this",
+      "start": 17.9,
+      "end": 18.24
+    },
+    {
+      "word": "insect",
+      "start": 18.24,
+      "end": 19.4
+    },
+    {
+      "word": "is",
+      "start": 19.4,
+      "end": 20.22
+    },
+    {
+      "word": "fast",
+      "start": 20.22,
+      "end": 21.26
+    },
+    {
+      "word": "this",
+      "start": 21.9,
+      "end": 22.24
+    },
+    {
+      "word": "insect",
+      "start": 22.24,
+      "end": 23.5
+    },
+    {
+      "word": "is",
+      "start": 23.5,
+      "end": 24.28
+    },
+    {
+      "word": "furry",
+      "start": 24.28,
+      "end": 25.3
+    },
+    {
+      "word": "this",
+      "start": 25.3,
+      "end": 26.16
+    },
+    {
+      "word": "insect",
+      "start": 26.16,
+      "end": 27.44
+    },
+    {
+      "word": "is",
+      "start": 27.44,
+      "end": 28.3
+    },
+    {
+      "word": "skinny",
+      "start": 28.3,
+      "end": 29.24
+    },
+    {
+      "word": "this",
+      "start": 29.98,
+      "end": 30.32
+    },
+    {
+      "word": "insect",
+      "start": 30.32,
+      "end": 31.44
+    },
+    {
+      "word": "is",
+      "start": 31.44,
+      "end": 32.24
+    },
+    {
+      "word": "shiny",
+      "start": 32.24,
+      "end": 33.24
+    },
+    {
+      "word": "this",
+      "start": 34.02,
+      "end": 34.24
+    },
+    {
+      "word": "insect",
+      "start": 34.24,
+      "end": 35.56
+    },
+    {
+      "word": "is",
+      "start": 35.56,
+      "end": 36.3
+    },
+    {
+      "word": "spotted",
+      "start": 36.3,
+      "end": 37.44
+    },
+    {
+      "word": "this",
+      "start": 37.98,
+      "end": 38.28
+    },
+    {
+      "word": "insect",
+      "start": 38.28,
+      "end": 39.7
+    },
+    {
+      "word": "is",
+      "start": 39.7,
+      "end": 40.28
+    },
+    {
+      "word": "striped",
+      "start": 40.28,
+      "end": 41.48
+    },
+    {
+      "word": "this",
+      "start": 41.88,
+      "end": 42.22
+    },
+    {
+      "word": "insect",
+      "start": 42.22,
+      "end": 43.24
+    },
+    {
+      "word": "is",
+      "start": 43.24,
+      "end": 44.14
+    },
+    {
+      "word": "beautiful",
+      "start": 44.14,
+      "end": 45.42
+    },
+    {
+      "word": "connections",
+      "start": 45.84,
+      "end": 46.5
+    },
+    {
+      "word": "writing",
+      "start": 47.84,
+      "end": 48.04
+    },
+    {
+      "word": "and",
+      "start": 48.04,
+      "end": 48.68
+    },
+    {
+      "word": "art",
+      "start": 48.68,
+      "end": 49.8
+    },
+    {
+      "word": "which",
+      "start": 49.8,
+      "end": 51.58
+    },
+    {
+      "word": "insect",
+      "start": 51.58,
+      "end": 52.22
+    },
+    {
+      "word": "is",
+      "start": 52.22,
+      "end": 52.76
+    },
+    {
+      "word": "the",
+      "start": 52.76,
+      "end": 53.04
+    },
+    {
+      "word": "most",
+      "start": 53.04,
+      "end": 53.38
+    },
+    {
+      "word": "interesting",
+      "start": 53.38,
+      "end": 53.98
+    },
+    {
+      "word": "to",
+      "start": 53.98,
+      "end": 54.6
+    },
+    {
+      "word": "you",
+      "start": 54.6,
+      "end": 55.12
+    },
+    {
+      "word": "draw",
+      "start": 55.98,
+      "end": 56.24
+    },
+    {
+      "word": "a",
+      "start": 56.24,
+      "end": 56.54
+    },
+    {
+      "word": "picture",
+      "start": 56.54,
+      "end": 56.92
+    },
+    {
+      "word": "and",
+      "start": 56.92,
+      "end": 57.66
+    },
+    {
+      "word": "write",
+      "start": 57.66,
+      "end": 57.98
+    },
+    {
+      "word": "about",
+      "start": 57.98,
+      "end": 58.38
+    },
+    {
+      "word": "it",
+      "start": 58.38,
+      "end": 60.08
+    },
+    {
+      "word": "science",
+      "start": 60.6,
+      "end": 60.98
+    },
+    {
+      "word": "draw",
+      "start": 62.84,
+      "end": 63.1
+    },
+    {
+      "word": "an",
+      "start": 63.1,
+      "end": 63.6
+    },
+    {
+      "word": "insect",
+      "start": 63.6,
+      "end": 64.28
+    },
+    {
+      "word": "label",
+      "start": 65.38,
+      "end": 65.8
+    },
+    {
+      "word": "2",
+      "start": 65.8,
+      "end": 66.4
+    },
+    {
+      "word": "or",
+      "start": 66.4,
+      "end": 66.92
+    },
+    {
+      "word": "more",
+      "start": 66.92,
+      "end": 67.44
+    },
+    {
+      "word": "body",
+      "start": 67.44,
+      "end": 67.98
+    },
+    {
+      "word": "parts",
+      "start": 67.98,
+      "end": 68.46
+    }
+  ]
+}

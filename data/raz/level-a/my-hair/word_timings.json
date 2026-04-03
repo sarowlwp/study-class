@@ -1,0 +1,221 @@
+{
+  "version": "1.0",
+  "total_words": 43,
+  "timings": [
+    {
+      "word": "my",
+      "start": 0.0,
+      "end": 0.54
+    },
+    {
+      "word": "hair",
+      "start": 0.54,
+      "end": 1.26
+    },
+    {
+      "word": "written",
+      "start": 1.48,
+      "end": 2.14
+    },
+    {
+      "word": "by",
+      "start": 2.14,
+      "end": 2.92
+    },
+    {
+      "word": "julie",
+      "start": 2.92,
+      "end": 3.38
+    },
+    {
+      "word": "harding",
+      "start": 3.38,
+      "end": 4.62
+    },
+    {
+      "word": "illustrated",
+      "start": 5.12,
+      "end": 5.74
+    },
+    {
+      "word": "by",
+      "start": 5.74,
+      "end": 6.64
+    },
+    {
+      "word": "angela",
+      "start": 6.64,
+      "end": 7.26
+    },
+    {
+      "word": "campstra",
+      "start": 7.26,
+      "end": 8.3
+    },
+    {
+      "word": "my",
+      "start": 10.3,
+      "end": 10.48
+    },
+    {
+      "word": "hair",
+      "start": 10.48,
+      "end": 11.0
+    },
+    {
+      "word": "is",
+      "start": 11.0,
+      "end": 11.46
+    },
+    {
+      "word": "curly",
+      "start": 11.46,
+      "end": 11.94
+    },
+    {
+      "word": "my",
+      "start": 14.04,
+      "end": 14.26
+    },
+    {
+      "word": "hair",
+      "start": 14.26,
+      "end": 14.76
+    },
+    {
+      "word": "is",
+      "start": 14.76,
+      "end": 15.5
+    },
+    {
+      "word": "straight",
+      "start": 15.5,
+      "end": 16.02
+    },
+    {
+      "word": "my",
+      "start": 17.9,
+      "end": 18.16
+    },
+    {
+      "word": "hair",
+      "start": 18.16,
+      "end": 18.6
+    },
+    {
+      "word": "is",
+      "start": 18.6,
+      "end": 19.14
+    },
+    {
+      "word": "black",
+      "start": 19.14,
+      "end": 19.7
+    },
+    {
+      "word": "my",
+      "start": 21.86,
+      "end": 22.04
+    },
+    {
+      "word": "hair",
+      "start": 22.04,
+      "end": 22.56
+    },
+    {
+      "word": "is",
+      "start": 22.56,
+      "end": 23.2
+    },
+    {
+      "word": "blonde",
+      "start": 23.2,
+      "end": 23.78
+    },
+    {
+      "word": "my",
+      "start": 25.86,
+      "end": 26.16
+    },
+    {
+      "word": "hair",
+      "start": 26.16,
+      "end": 26.62
+    },
+    {
+      "word": "is",
+      "start": 26.62,
+      "end": 27.24
+    },
+    {
+      "word": "braided",
+      "start": 27.24,
+      "end": 27.88
+    },
+    {
+      "word": "my",
+      "start": 27.88,
+      "end": 30.12
+    },
+    {
+      "word": "hair",
+      "start": 30.12,
+      "end": 30.64
+    },
+    {
+      "word": "is",
+      "start": 30.64,
+      "end": 31.22
+    },
+    {
+      "word": "short",
+      "start": 31.22,
+      "end": 32.0
+    },
+    {
+      "word": "my",
+      "start": 34.0,
+      "end": 34.22
+    },
+    {
+      "word": "hair",
+      "start": 34.22,
+      "end": 34.78
+    },
+    {
+      "word": "is",
+      "start": 34.78,
+      "end": 35.36
+    },
+    {
+      "word": "long",
+      "start": 35.36,
+      "end": 36.24
+    },
+    {
+      "word": "what",
+      "start": 38.22,
+      "end": 38.46
+    },
+    {
+      "word": "is",
+      "start": 38.46,
+      "end": 38.96
+    },
+    {
+      "word": "your",
+      "start": 38.96,
+      "end": 39.54
+    },
+    {
+      "word": "hair",
+      "start": 39.54,
+      "end": 39.94
+    },
+    {
+      "word": "light",
+      "start": 39.94,
+      "end": 40.26
+    }
+  ]
+}

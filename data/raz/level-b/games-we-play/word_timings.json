@@ -1,0 +1,291 @@
+{
+  "version": "1.0",
+  "total_words": 57,
+  "timings": [
+    {
+      "word": "games",
+      "start": 0.0,
+      "end": 0.52
+    },
+    {
+      "word": "we",
+      "start": 0.52,
+      "end": 1.02
+    },
+    {
+      "word": "play",
+      "start": 1.02,
+      "end": 1.8
+    },
+    {
+      "word": "written",
+      "start": 1.84,
+      "end": 2.56
+    },
+    {
+      "word": "by",
+      "start": 2.56,
+      "end": 3.0
+    },
+    {
+      "word": "noi",
+      "start": 3.0,
+      "end": 3.56
+    },
+    {
+      "word": "sasia",
+      "start": 3.56,
+      "end": 4.52
+    },
+    {
+      "word": "illustrated",
+      "start": 4.96,
+      "end": 5.44
+    },
+    {
+      "word": "by",
+      "start": 5.44,
+      "end": 6.04
+    },
+    {
+      "word": "sydney",
+      "start": 6.04,
+      "end": 6.58
+    },
+    {
+      "word": "norden",
+      "start": 6.58,
+      "end": 7.8
+    },
+    {
+      "word": "we",
+      "start": 8.38,
+      "end": 8.38
+    },
+    {
+      "word": "like",
+      "start": 8.38,
+      "end": 8.72
+    },
+    {
+      "word": "to",
+      "start": 8.72,
+      "end": 9.0
+    },
+    {
+      "word": "play",
+      "start": 9.0,
+      "end": 9.3
+    },
+    {
+      "word": "tag",
+      "start": 9.3,
+      "end": 9.8
+    },
+    {
+      "word": "we",
+      "start": 10.12,
+      "end": 10.26
+    },
+    {
+      "word": "like",
+      "start": 10.26,
+      "end": 10.66
+    },
+    {
+      "word": "to",
+      "start": 10.66,
+      "end": 10.9
+    },
+    {
+      "word": "play",
+      "start": 10.9,
+      "end": 11.22
+    },
+    {
+      "word": "baseball",
+      "start": 11.22,
+      "end": 11.88
+    },
+    {
+      "word": "we",
+      "start": 12.4,
+      "end": 12.54
+    },
+    {
+      "word": "like",
+      "start": 12.54,
+      "end": 12.98
+    },
+    {
+      "word": "to",
+      "start": 12.98,
+      "end": 13.22
+    },
+    {
+      "word": "play",
+      "start": 13.22,
+      "end": 13.6
+    },
+    {
+      "word": "soccer",
+      "start": 13.6,
+      "end": 14.08
+    },
+    {
+      "word": "we",
+      "start": 14.6,
+      "end": 14.78
+    },
+    {
+      "word": "like",
+      "start": 14.78,
+      "end": 15.22
+    },
+    {
+      "word": "to",
+      "start": 15.22,
+      "end": 15.48
+    },
+    {
+      "word": "play",
+      "start": 15.48,
+      "end": 15.84
+    },
+    {
+      "word": "dress",
+      "start": 15.84,
+      "end": 16.44
+    },
+    {
+      "word": "up",
+      "start": 16.44,
+      "end": 16.88
+    },
+    {
+      "word": "we",
+      "start": 17.06,
+      "end": 17.22
+    },
+    {
+      "word": "like",
+      "start": 17.22,
+      "end": 17.68
+    },
+    {
+      "word": "to",
+      "start": 17.68,
+      "end": 17.98
+    },
+    {
+      "word": "play",
+      "start": 17.98,
+      "end": 18.32
+    },
+    {
+      "word": "house",
+      "start": 18.32,
+      "end": 18.94
+    },
+    {
+      "word": "we",
+      "start": 19.18,
+      "end": 19.42
+    },
+    {
+      "word": "like",
+      "start": 19.42,
+      "end": 19.82
+    },
+    {
+      "word": "to",
+      "start": 19.82,
+      "end": 20.06
+    },
+    {
+      "word": "play",
+      "start": 20.06,
+      "end": 20.44
+    },
+    {
+      "word": "hide",
+      "start": 20.44,
+      "end": 20.8
+    },
+    {
+      "word": "and",
+      "start": 20.8,
+      "end": 21.34
+    },
+    {
+      "word": "seek",
+      "start": 21.34,
+      "end": 21.76
+    },
+    {
+      "word": "we",
+      "start": 22.12,
+      "end": 22.28
+    },
+    {
+      "word": "like",
+      "start": 22.28,
+      "end": 22.66
+    },
+    {
+      "word": "to",
+      "start": 22.66,
+      "end": 22.9
+    },
+    {
+      "word": "play",
+      "start": 22.9,
+      "end": 23.32
+    },
+    {
+      "word": "video",
+      "start": 23.32,
+      "end": 23.68
+    },
+    {
+      "word": "games",
+      "start": 23.68,
+      "end": 24.42
+    },
+    {
+      "word": "but",
+      "start": 24.64,
+      "end": 24.9
+    },
+    {
+      "word": "we",
+      "start": 24.9,
+      "end": 25.18
+    },
+    {
+      "word": "do",
+      "start": 25.18,
+      "end": 25.48
+    },
+    {
+      "word": "not",
+      "start": 25.48,
+      "end": 25.9
+    },
+    {
+      "word": "play",
+      "start": 25.9,
+      "end": 26.26
+    },
+    {
+      "word": "with",
+      "start": 26.26,
+      "end": 26.58
+    },
+    {
+      "word": "fire",
+      "start": 26.58,
+      "end": 27.0
+    }
+  ]
+}

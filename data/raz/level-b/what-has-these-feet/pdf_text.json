@@ -1,0 +1,54 @@
+{
+  "id": "level-b/what-has-these-feet",
+  "title": "What Has These Feet",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B What Has These Feet? Written by Kira Freed wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "What Has These Feet? Written Kira Freed wwwreadinga-z.com by"
+    },
+    {
+      "page": 3,
+      "text": "What kind Of animal has these feet? What Has These Feet? Level B 3"
+    },
+    {
+      "page": 4,
+      "text": "A duck has these little feet."
+    },
+    {
+      "page": 5,
+      "text": "What kind of animal has these feet? What Has These Feet? Level B 5"
+    },
+    {
+      "page": 6,
+      "text": "An elephant has these big feet."
+    },
+    {
+      "page": 7,
+      "text": "What kind of animal has these feet? What Has These Feet? Level B"
+    },
+    {
+      "page": 8,
+      "text": "A tiger has these soft feet. 8"
+    },
+    {
+      "page": 9,
+      "text": "What kind of animal has no feet? What Has These Feet? Level B"
+    },
+    {
+      "page": 10,
+      "text": "A shark has no feet: 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover, back cover; page 5: 0 ArtToday: title page: @ Glen Gaffney/Dreamstime.com; page 3: @ Dreamstime.com; page 6: @ Jupiterimages Corporation; page 4: @ iStockphotocom/Ray Hems; page 7: @ Juniors Bildarchiv/Alamy: page &: @ Callan Chesser/Dreamstime.com; page 9: @ iStockphotocom/Chris Dascher; page 10: @ iStockphotocom/Ian Scott Title page: Polar bear feet L0ADTNG What Has These Feet? Level B Leveled Book Correlation @ Learning A-Z LEVEL B Written by Kira Freed Fountas & Pinnell B All rights reserved: Reading Recovery 2 DRA 2 wwwreadinga-zcom"
+    }
+  ]
+}

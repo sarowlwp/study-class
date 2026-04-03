@@ -1,0 +1,62 @@
+{
+  "id": "level-c/we-count",
+  "title": "We Count",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 13,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C We Count f Ya1 Written by Shaun Stanberry Illustrated by Chris Baldwin wwwreadinga-z.com te"
+    },
+    {
+      "page": 2,
+      "text": "We Count Written by Shaun Stanberry Illustrated Chris Baldwin wwwreadinga-z.com by"
+    },
+    {
+      "page": 3,
+      "text": "L can count ten ants. We Count Level C 3"
+    },
+    {
+      "page": 4,
+      "text": "You can counf ten butterflies_ M"
+    },
+    {
+      "page": 5,
+      "text": "L can counf ten flies. We Count Level C 5"
+    },
+    {
+      "page": 6,
+      "text": "You can count ten fleas."
+    },
+    {
+      "page": 7,
+      "text": "L can count ten We Count Level C grubs_"
+    },
+    {
+      "page": 8,
+      "text": "You can count ten ladybugs. 8"
+    },
+    {
+      "page": 9,
+      "text": "L can counf ten beetles. We Count Level C"
+    },
+    {
+      "page": 10,
+      "text": "You can count ten crickets. 10"
+    },
+    {
+      "page": 11,
+      "text": "I can count ten slugs. We Count Level C"
+    },
+    {
+      "page": 12,
+      "text": "M We can count ten hungry   spiders. 12"
+    },
+    {
+      "page": 13,
+      "text": "LOADING We Count Level C Leveled Book Learning A-Z Correlation Written by Shaun Stanberry LEVEL € Illustrated by Chris Baldwin Fountas & Pinnell C All rights reserved. Reading Recovery 3-4 DRA 3-4 WWW.  readinga-z.com"
+    }
+  ]
+}

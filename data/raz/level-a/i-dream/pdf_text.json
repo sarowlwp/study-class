@@ -1,0 +1,58 @@
+{
+  "id": "level-a/i-dream",
+  "title": "I Dream",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A I Dream 8 , Written by Anthony Curran Illustrated by Marcus Cutler wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "I Dream Written by Anthony Curran Illustrated by Marcus Cutler wwwreadinga-z.com Focus Question What is a dream?"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know dream space monsters sports robots super powers I Dream Level A Leveled Book 0 Learning A-Z Correlation Written by Anthony Curran LEVEL A Illustrated by Marcus Cutler Fountas & Pinnell A All rights reserved: Reading Recovery DRA A-1 wwwreadinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "I dream about space: Dream Level A 3"
+    },
+    {
+      "page": 5,
+      "text": "I dream about monkeys:"
+    },
+    {
+      "page": 6,
+      "text": "I dream about robots. Dream Level A 5"
+    },
+    {
+      "page": 7,
+      "text": "Hmi M I dream about super powers. 82"
+    },
+    {
+      "page": 8,
+      "text": "I dream about food_ Dream Level A"
+    },
+    {
+      "page": 9,
+      "text": "I dream about sports. 8"
+    },
+    {
+      "page": 10,
+      "text": "I dream about monsters. Dream Level A"
+    },
+    {
+      "page": 11,
+      "text": "4 83 482 I dream about 10 good sleep"
+    },
+    {
+      "page": 12,
+      "text": "I Dream A Reading A-Z Level A Leveled Book Word Count: 34 Connections Writing and Art What do you dream about? Draw a picture and write this sentence: I dream about Science do you sleep? Share your ideas with a partner: Reading A-Z Visit wwwreadinga-z.com for thousands of books and materials: Why"
+    }
+  ]
+}

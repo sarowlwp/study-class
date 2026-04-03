@@ -1,0 +1,46 @@
+{
+  "id": "level-aa/my-gift-for-mom",
+  "title": "My Gift For Mom",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 9,
+  "pages": [
+    {
+      "page": 1,
+      "text": "Gift for Mom Written by Bev Osborn Illustrated Liza Woodruff wwwreadinga-z.com My 2 by"
+    },
+    {
+      "page": 2,
+      "text": "chlyy The My Gift fgr Mcm Levcl a3 3 day:"
+    },
+    {
+      "page": 3,
+      "text": "The bowl: 4"
+    },
+    {
+      "page": 4,
+      "text": "The box: My Gift fgr Mcm Levcl a3 5"
+    },
+    {
+      "page": 5,
+      "text": "M The paper: @ 3"
+    },
+    {
+      "page": 6,
+      "text": "A The bow: My Gift fgr Mcm Levcl a3"
+    },
+    {
+      "page": 7,
+      "text": "The 8 gift."
+    },
+    {
+      "page": 8,
+      "text": "The smile_ My Gift fgr Mcm Levcl a3"
+    },
+    {
+      "page": 9,
+      "text": "The 10 hug;"
+    }
+  ]
+}

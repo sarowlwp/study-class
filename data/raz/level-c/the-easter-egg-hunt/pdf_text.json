@@ -1,0 +1,54 @@
+{
+  "id": "level-c/the-easter-egg-hunt",
+  "title": "The Easter Egg Hunt",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C UJ 3 The Easiter Huni Written by Keith and Sarah Kortemartin 44 Illustrated by Erin Bellingham www.readinga-z.com XA A NANU 4 UA A Egg"
+    },
+    {
+      "page": 2,
+      "text": "The Easter Hunt 8 At,' Written by Keith and Sarah Kortemartin Illustrated by Erin Bellingham wwwreadinga-z.com Egg 8"
+    },
+    {
+      "page": 3,
+      "text": "J' J 44 is Easterl Can we find seven Easter eggs? The Easter Egg Hunt Level C 3 Kv WL 4 W AAU ut A M Ml Today all"
+    },
+    {
+      "page": 4,
+      "text": "G 885 8.& 44kJ_ The first egg is in the tree"
+    },
+    {
+      "page": 5,
+      "text": "Vu M M The second egg is in the grass The Easter Egg Hunt Level C 5 Kc ( ( ; k / A / / ^ ^ Ad 0 N /"
+    },
+    {
+      "page": 6,
+      "text": "V 4 ( ( The third egg is on the truck 42Z"
+    },
+    {
+      "page": 7,
+      "text": "Mg The fourth egg is in the The Easter Egg Hunt Level C 4t M swing:"
+    },
+    {
+      "page": 8,
+      "text": "VL ^ (w K }tv The fifth egg is in the pot: 8 M vl"
+    },
+    {
+      "page": 9,
+      "text": "Ma Vltl An , Ar M/ A6 ~ Vv The sixth egg is by the rake: The Easter Egg Hunt Level C HicW ~A"
+    },
+    {
+      "page": 10,
+      "text": "Ac 0 ~lcl S W 1^,. The seventh egg is under the dogl 10 LJ V ((t MA ("
+    },
+    {
+      "page": 11,
+      "text": "The Easter Egg Hunt Level C Leveled Book Learning A-Z Correlation Written by Keith and Sarah Kortemartin LEVEL C Illustrated by Erin Bellingham Fountas & Pinnell All rights reserved: Reading Recovery 3-4 DRA 3-4 wwwreadinga-z.com"
+    }
+  ]
+}

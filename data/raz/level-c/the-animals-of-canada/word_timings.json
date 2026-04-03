@@ -1,0 +1,351 @@
+{
+  "version": "1.0",
+  "total_words": 69,
+  "timings": [
+    {
+      "word": "the",
+      "start": 0.0,
+      "end": 0.4
+    },
+    {
+      "word": "animals",
+      "start": 0.4,
+      "end": 1.0
+    },
+    {
+      "word": "of",
+      "start": 1.0,
+      "end": 1.58
+    },
+    {
+      "word": "canada",
+      "start": 1.58,
+      "end": 2.12
+    },
+    {
+      "word": "written",
+      "start": 2.12,
+      "end": 3.06
+    },
+    {
+      "word": "by",
+      "start": 3.06,
+      "end": 3.56
+    },
+    {
+      "word": "chuck",
+      "start": 3.56,
+      "end": 4.04
+    },
+    {
+      "word": "gerophano",
+      "start": 4.04,
+      "end": 5.08
+    },
+    {
+      "word": "this",
+      "start": 6.06,
+      "end": 6.08
+    },
+    {
+      "word": "is",
+      "start": 6.08,
+      "end": 6.56
+    },
+    {
+      "word": "a",
+      "start": 6.56,
+      "end": 6.82
+    },
+    {
+      "word": "moose",
+      "start": 6.82,
+      "end": 7.52
+    },
+    {
+      "word": "it",
+      "start": 7.9,
+      "end": 7.98
+    },
+    {
+      "word": "lives",
+      "start": 7.98,
+      "end": 8.46
+    },
+    {
+      "word": "in",
+      "start": 8.46,
+      "end": 9.08
+    },
+    {
+      "word": "canada",
+      "start": 9.08,
+      "end": 9.54
+    },
+    {
+      "word": "this",
+      "start": 10.0,
+      "end": 10.4
+    },
+    {
+      "word": "is",
+      "start": 10.4,
+      "end": 10.98
+    },
+    {
+      "word": "a",
+      "start": 10.98,
+      "end": 11.1
+    },
+    {
+      "word": "goose",
+      "start": 11.1,
+      "end": 11.52
+    },
+    {
+      "word": "it",
+      "start": 12.1,
+      "end": 12.1
+    },
+    {
+      "word": "lives",
+      "start": 12.1,
+      "end": 12.66
+    },
+    {
+      "word": "in",
+      "start": 12.66,
+      "end": 13.36
+    },
+    {
+      "word": "canada",
+      "start": 13.36,
+      "end": 13.86
+    },
+    {
+      "word": "this",
+      "start": 14.42,
+      "end": 14.8
+    },
+    {
+      "word": "is",
+      "start": 14.8,
+      "end": 15.34
+    },
+    {
+      "word": "a",
+      "start": 15.34,
+      "end": 15.54
+    },
+    {
+      "word": "bear",
+      "start": 15.54,
+      "end": 15.82
+    },
+    {
+      "word": "it",
+      "start": 16.44,
+      "end": 16.6
+    },
+    {
+      "word": "lives",
+      "start": 16.6,
+      "end": 17.16
+    },
+    {
+      "word": "in",
+      "start": 17.16,
+      "end": 17.7
+    },
+    {
+      "word": "canada",
+      "start": 17.7,
+      "end": 18.18
+    },
+    {
+      "word": "this",
+      "start": 18.54,
+      "end": 19.08
+    },
+    {
+      "word": "is",
+      "start": 19.08,
+      "end": 19.6
+    },
+    {
+      "word": "a",
+      "start": 19.6,
+      "end": 19.78
+    },
+    {
+      "word": "beaver",
+      "start": 19.78,
+      "end": 20.44
+    },
+    {
+      "word": "it",
+      "start": 20.76,
+      "end": 21.02
+    },
+    {
+      "word": "lives",
+      "start": 21.02,
+      "end": 21.54
+    },
+    {
+      "word": "in",
+      "start": 21.54,
+      "end": 22.04
+    },
+    {
+      "word": "canada",
+      "start": 22.04,
+      "end": 22.58
+    },
+    {
+      "word": "this",
+      "start": 22.58,
+      "end": 23.5
+    },
+    {
+      "word": "is",
+      "start": 23.5,
+      "end": 24.1
+    },
+    {
+      "word": "an",
+      "start": 24.1,
+      "end": 24.44
+    },
+    {
+      "word": "eagle",
+      "start": 24.44,
+      "end": 24.9
+    },
+    {
+      "word": "it",
+      "start": 25.4,
+      "end": 25.52
+    },
+    {
+      "word": "lives",
+      "start": 25.52,
+      "end": 25.94
+    },
+    {
+      "word": "in",
+      "start": 25.94,
+      "end": 26.56
+    },
+    {
+      "word": "canada",
+      "start": 26.56,
+      "end": 27.02
+    },
+    {
+      "word": "this",
+      "start": 27.56,
+      "end": 27.98
+    },
+    {
+      "word": "is",
+      "start": 27.98,
+      "end": 28.72
+    },
+    {
+      "word": "a",
+      "start": 28.72,
+      "end": 28.9
+    },
+    {
+      "word": "wolf",
+      "start": 28.9,
+      "end": 29.24
+    },
+    {
+      "word": "it",
+      "start": 29.92,
+      "end": 30.0
+    },
+    {
+      "word": "lives",
+      "start": 30.0,
+      "end": 30.52
+    },
+    {
+      "word": "in",
+      "start": 30.52,
+      "end": 31.2
+    },
+    {
+      "word": "canada",
+      "start": 31.2,
+      "end": 31.66
+    },
+    {
+      "word": "this",
+      "start": 32.08,
+      "end": 32.5
+    },
+    {
+      "word": "is",
+      "start": 32.5,
+      "end": 33.16
+    },
+    {
+      "word": "a",
+      "start": 33.16,
+      "end": 33.32
+    },
+    {
+      "word": "loon",
+      "start": 33.32,
+      "end": 33.74
+    },
+    {
+      "word": "it",
+      "start": 34.42,
+      "end": 34.48
+    },
+    {
+      "word": "lives",
+      "start": 34.48,
+      "end": 35.1
+    },
+    {
+      "word": "in",
+      "start": 35.1,
+      "end": 35.74
+    },
+    {
+      "word": "canada",
+      "start": 35.74,
+      "end": 36.26
+    },
+    {
+      "word": "many",
+      "start": 36.84,
+      "end": 37.14
+    },
+    {
+      "word": "animals",
+      "start": 37.14,
+      "end": 37.8
+    },
+    {
+      "word": "live",
+      "start": 37.8,
+      "end": 38.82
+    },
+    {
+      "word": "in",
+      "start": 38.82,
+      "end": 39.28
+    },
+    {
+      "word": "canada",
+      "start": 39.28,
+      "end": 39.68
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "version": "1.0",
+  "total_words": 90,
+  "timings": [
+    {
+      "word": "this",
+      "start": 0.0,
+      "end": 0.6
+    },
+    {
+      "word": "tastes",
+      "start": 0.6,
+      "end": 1.62
+    },
+    {
+      "word": "written",
+      "start": 1.62,
+      "end": 2.82
+    },
+    {
+      "word": "by",
+      "start": 2.82,
+      "end": 3.38
+    },
+    {
+      "word": "gabriel",
+      "start": 3.38,
+      "end": 4.0
+    },
+    {
+      "word": "harper",
+      "start": 4.0,
+      "end": 5.14
+    },
+    {
+      "word": "illustrated",
+      "start": 5.14,
+      "end": 6.5
+    },
+    {
+      "word": "by",
+      "start": 6.5,
+      "end": 7.22
+    },
+    {
+      "word": "andy",
+      "start": 7.22,
+      "end": 7.84
+    },
+    {
+      "word": "elkerton",
+      "start": 7.84,
+      "end": 8.98
+    },
+    {
+      "word": "focus",
+      "start": 10.54,
+      "end": 11.16
+    },
+    {
+      "word": "question",
+      "start": 11.16,
+      "end": 12.16
+    },
+    {
+      "word": "how",
+      "start": 13.38,
+      "end": 13.66
+    },
+    {
+      "word": "can",
+      "start": 13.66,
+      "end": 14.32
+    },
+    {
+      "word": "you",
+      "start": 14.32,
+      "end": 15.06
+    },
+    {
+      "word": "describe",
+      "start": 15.06,
+      "end": 15.76
+    },
+    {
+      "word": "the",
+      "start": 15.76,
+      "end": 16.44
+    },
+    {
+      "word": "way",
+      "start": 16.44,
+      "end": 16.96
+    },
+    {
+      "word": "something",
+      "start": 16.96,
+      "end": 17.86
+    },
+    {
+      "word": "tastes",
+      "start": 17.86,
+      "end": 18.58
+    },
+    {
+      "word": "this",
+      "start": 18.58,
+      "end": 19.84
+    },
+    {
+      "word": "tastes",
+      "start": 19.84,
+      "end": 21.0
+    },
+    {
+      "word": "so",
+      "start": 21.0,
+      "end": 22.16
+    },
+    {
+      "word": "old",
+      "start": 22.16,
+      "end": 23.58
+    },
+    {
+      "word": "this",
+      "start": 23.58,
+      "end": 24.58
+    },
+    {
+      "word": "tastes",
+      "start": 24.58,
+      "end": 25.7
+    },
+    {
+      "word": "so",
+      "start": 25.7,
+      "end": 26.62
+    },
+    {
+      "word": "juicy",
+      "start": 26.62,
+      "end": 27.74
+    },
+    {
+      "word": "this",
+      "start": 27.74,
+      "end": 28.66
+    },
+    {
+      "word": "tastes",
+      "start": 28.66,
+      "end": 29.7
+    },
+    {
+      "word": "so",
+      "start": 29.7,
+      "end": 30.88
+    },
+    {
+      "word": "sour",
+      "start": 30.88,
+      "end": 32.16
+    },
+    {
+      "word": "this",
+      "start": 32.96,
+      "end": 32.98
+    },
+    {
+      "word": "tastes",
+      "start": 32.98,
+      "end": 34.2
+    },
+    {
+      "word": "so",
+      "start": 34.2,
+      "end": 35.34
+    },
+    {
+      "word": "sweet",
+      "start": 35.34,
+      "end": 36.26
+    },
+    {
+      "word": "this",
+      "start": 37.18,
+      "end": 37.18
+    },
+    {
+      "word": "tastes",
+      "start": 37.18,
+      "end": 38.38
+    },
+    {
+      "word": "so",
+      "start": 38.38,
+      "end": 39.4
+    },
+    {
+      "word": "bland",
+      "start": 39.4,
+      "end": 40.58
+    },
+    {
+      "word": "and",
+      "start": 40.58,
+      "end": 40.76
+    },
+    {
+      "word": "this",
+      "start": 40.76,
+      "end": 41.58
+    },
+    {
+      "word": "tastes",
+      "start": 41.58,
+      "end": 42.64
+    },
+    {
+      "word": "so",
+      "start": 42.64,
+      "end": 43.78
+    },
+    {
+      "word": "spicy",
+      "start": 43.78,
+      "end": 45.02
+    },
+    {
+      "word": "this",
+      "start": 45.68,
+      "end": 46.1
+    },
+    {
+      "word": "tastes",
+      "start": 46.1,
+      "end": 47.1
+    },
+    {
+      "word": "so",
+      "start": 47.1,
+      "end": 48.16
+    },
+    {
+      "word": "bitter",
+      "start": 48.16,
+      "end": 49.26
+    },
+    {
+      "word": "this",
+      "start": 49.82,
+      "end": 50.2
+    },
+    {
+      "word": "tastes",
+      "start": 50.2,
+      "end": 51.14
+    },
+    {
+      "word": "so",
+      "start": 51.14,
+      "end": 52.38
+    },
+    {
+      "word": "yummy",
+      "start": 52.38,
+      "end": 53.36
+    },
+    {
+      "word": "connections",
+      "start": 53.94,
+      "end": 54.54
+    },
+    {
+      "word": "writing",
+      "start": 55.5,
+      "end": 55.92
+    },
+    {
+      "word": "and",
+      "start": 55.92,
+      "end": 56.66
+    },
+    {
+      "word": "art",
+      "start": 56.66,
+      "end": 57.9
+    },
+    {
+      "word": "draw",
+      "start": 58.98,
+      "end": 59.12
+    },
+    {
+      "word": "a",
+      "start": 59.12,
+      "end": 59.64
+    },
+    {
+      "word": "picture",
+      "start": 59.64,
+      "end": 60.2
+    },
+    {
+      "word": "of",
+      "start": 60.2,
+      "end": 61.24
+    },
+    {
+      "word": "your",
+      "start": 61.24,
+      "end": 61.84
+    },
+    {
+      "word": "favorite",
+      "start": 61.84,
+      "end": 62.44
+    },
+    {
+      "word": "food",
+      "start": 62.44,
+      "end": 63.62
+    },
+    {
+      "word": "right",
+      "start": 64.2,
+      "end": 64.48
+    },
+    {
+      "word": "words",
+      "start": 64.48,
+      "end": 65.34
+    },
+    {
+      "word": "to",
+      "start": 65.34,
+      "end": 65.94
+    },
+    {
+      "word": "describe",
+      "start": 65.94,
+      "end": 66.66
+    },
+    {
+      "word": "how",
+      "start": 66.66,
+      "end": 67.42
+    },
+    {
+      "word": "it",
+      "start": 67.42,
+      "end": 68.12
+    },
+    {
+      "word": "tastes",
+      "start": 68.12,
+      "end": 68.66
+    },
+    {
+      "word": "science",
+      "start": 68.66,
+      "end": 70.84
+    },
+    {
+      "word": "what",
+      "start": 72.58,
+      "end": 72.8
+    },
+    {
+      "word": "are",
+      "start": 72.8,
+      "end": 73.54
+    },
+    {
+      "word": "your",
+      "start": 73.54,
+      "end": 74.02
+    },
+    {
+      "word": "five",
+      "start": 74.02,
+      "end": 74.5
+    },
+    {
+      "word": "senses",
+      "start": 74.5,
+      "end": 75.28
+    },
+    {
+      "word": "use",
+      "start": 76.92,
+      "end": 77.28
+    },
+    {
+      "word": "them",
+      "start": 77.28,
+      "end": 77.96
+    },
+    {
+      "word": "to",
+      "start": 77.96,
+      "end": 78.94
+    },
+    {
+      "word": "describe",
+      "start": 78.94,
+      "end": 79.64
+    },
+    {
+      "word": "your",
+      "start": 79.64,
+      "end": 80.64
+    },
+    {
+      "word": "favorite",
+      "start": 80.64,
+      "end": 81.2
+    },
+    {
+      "word": "food",
+      "start": 81.2,
+      "end": 82.48
+    },
+    {
+      "word": "share",
+      "start": 83.54,
+      "end": 83.76
+    },
+    {
+      "word": "your",
+      "start": 83.76,
+      "end": 84.62
+    },
+    {
+      "word": "ideas",
+      "start": 84.62,
+      "end": 85.34
+    },
+    {
+      "word": "with",
+      "start": 85.34,
+      "end": 86.44
+    },
+    {
+      "word": "a",
+      "start": 86.44,
+      "end": 86.72
+    },
+    {
+      "word": "partner",
+      "start": 86.72,
+      "end": 87.12
+    }
+  ]
+}

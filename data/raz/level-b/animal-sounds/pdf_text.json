@@ -1,0 +1,62 @@
+{
+  "id": "level-b/animal-sounds",
+  "title": "Animal Sounds",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 13,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Animal Sounds moo Written by Ned Jensen WWw.readinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Animal Sounds Written Ned Jensen wwwreadinga-z.com by"
+    },
+    {
+      "page": 3,
+      "text": "bark bark. Animal Sounds Level B 3 Dogs"
+    },
+    {
+      "page": 4,
+      "text": "meow Cats meow_"
+    },
+    {
+      "page": 5,
+      "text": "moo Cows moo. Animal Sounds Level B 5"
+    },
+    {
+      "page": 6,
+      "text": "oink oink. Pigs"
+    },
+    {
+      "page": 7,
+      "text": "chirp Birds Animal Sounds Level B chirp."
+    },
+    {
+      "page": 8,
+      "text": "Ducks quack. 8 quack"
+    },
+    {
+      "page": 9,
+      "text": "hiss F Snakes hiss. Animal Sounds Level B"
+    },
+    {
+      "page": 10,
+      "text": "buzz Bees buzz. 10"
+    },
+    {
+      "page": 11,
+      "text": "roar Lions roar  Animal Sounds Level B"
+    },
+    {
+      "page": 12,
+      "text": "Lzzzzz Dads snore. 12"
+    },
+    {
+      "page": 13,
+      "text": "Photo Credits: Front cover, back cover; title page, pages 3, 4, 5, 6,7, 8, 9, 10, 11: Jupiterimages Corporation; page 12: @ Image Source/Corbis Animal Sounds Level B Leveled Book Correlation Learning A-Z LEVEL B Written by Ned Jensen Fountas & Pinnell B All rights reserved. Reading_Recovery 2 DRA 2 WWW.R readinga-z.com"
+    }
+  ]
+}

@@ -1,0 +1,421 @@
+{
+  "version": "1.0",
+  "total_words": 83,
+  "timings": [
+    {
+      "word": "where",
+      "start": 0.0,
+      "end": 0.6
+    },
+    {
+      "word": "they",
+      "start": 0.6,
+      "end": 1.6
+    },
+    {
+      "word": "hid",
+      "start": 1.6,
+      "end": 2.7
+    },
+    {
+      "word": "written",
+      "start": 4.3,
+      "end": 4.66
+    },
+    {
+      "word": "by",
+      "start": 4.66,
+      "end": 5.88
+    },
+    {
+      "word": "anthony",
+      "start": 5.88,
+      "end": 6.7
+    },
+    {
+      "word": "kurin",
+      "start": 6.7,
+      "end": 8.76
+    },
+    {
+      "word": "illustrated",
+      "start": 10.16,
+      "end": 10.74
+    },
+    {
+      "word": "by",
+      "start": 10.74,
+      "end": 11.92
+    },
+    {
+      "word": "brian",
+      "start": 11.92,
+      "end": 12.72
+    },
+    {
+      "word": "dumm",
+      "start": 12.72,
+      "end": 15.82
+    },
+    {
+      "word": "focus",
+      "start": 16.1,
+      "end": 16.26
+    },
+    {
+      "word": "question",
+      "start": 16.26,
+      "end": 17.2
+    },
+    {
+      "word": "where",
+      "start": 18.82,
+      "end": 20.22
+    },
+    {
+      "word": "do",
+      "start": 20.22,
+      "end": 21.32
+    },
+    {
+      "word": "the",
+      "start": 21.32,
+      "end": 22.28
+    },
+    {
+      "word": "children",
+      "start": 22.28,
+      "end": 23.1
+    },
+    {
+      "word": "hide",
+      "start": 23.1,
+      "end": 24.06
+    },
+    {
+      "word": "he",
+      "start": 25.02,
+      "end": 25.02
+    },
+    {
+      "word": "hid",
+      "start": 25.02,
+      "end": 25.88
+    },
+    {
+      "word": "inside",
+      "start": 25.88,
+      "end": 26.96
+    },
+    {
+      "word": "she",
+      "start": 27.88,
+      "end": 28.22
+    },
+    {
+      "word": "hid",
+      "start": 28.22,
+      "end": 29.42
+    },
+    {
+      "word": "outside",
+      "start": 29.42,
+      "end": 30.46
+    },
+    {
+      "word": "he",
+      "start": 31.06,
+      "end": 31.34
+    },
+    {
+      "word": "hid",
+      "start": 31.34,
+      "end": 32.42
+    },
+    {
+      "word": "below",
+      "start": 32.42,
+      "end": 33.38
+    },
+    {
+      "word": "she",
+      "start": 34.16,
+      "end": 34.52
+    },
+    {
+      "word": "hid",
+      "start": 34.52,
+      "end": 35.64
+    },
+    {
+      "word": "above",
+      "start": 35.64,
+      "end": 36.6
+    },
+    {
+      "word": "he",
+      "start": 37.3,
+      "end": 37.44
+    },
+    {
+      "word": "hid",
+      "start": 37.44,
+      "end": 38.4
+    },
+    {
+      "word": "between",
+      "start": 38.4,
+      "end": 39.32
+    },
+    {
+      "word": "she",
+      "start": 40.22,
+      "end": 40.46
+    },
+    {
+      "word": "hid",
+      "start": 40.46,
+      "end": 41.46
+    },
+    {
+      "word": "behind",
+      "start": 41.46,
+      "end": 42.24
+    },
+    {
+      "word": "he",
+      "start": 43.08,
+      "end": 43.38
+    },
+    {
+      "word": "hid",
+      "start": 43.38,
+      "end": 44.28
+    },
+    {
+      "word": "far",
+      "start": 44.28,
+      "end": 45.12
+    },
+    {
+      "word": "she",
+      "start": 45.72,
+      "end": 46.1
+    },
+    {
+      "word": "hid",
+      "start": 46.1,
+      "end": 47.12
+    },
+    {
+      "word": "near",
+      "start": 47.12,
+      "end": 48.04
+    },
+    {
+      "word": "connections",
+      "start": 49.3,
+      "end": 49.3
+    },
+    {
+      "word": "writing",
+      "start": 50.68,
+      "end": 50.96
+    },
+    {
+      "word": "and",
+      "start": 50.96,
+      "end": 51.7
+    },
+    {
+      "word": "art",
+      "start": 51.7,
+      "end": 52.78
+    },
+    {
+      "word": "where",
+      "start": 54.38,
+      "end": 54.54
+    },
+    {
+      "word": "would",
+      "start": 54.54,
+      "end": 55.34
+    },
+    {
+      "word": "you",
+      "start": 55.34,
+      "end": 55.94
+    },
+    {
+      "word": "hide",
+      "start": 55.94,
+      "end": 56.48
+    },
+    {
+      "word": "draw",
+      "start": 58.0,
+      "end": 58.4
+    },
+    {
+      "word": "a",
+      "start": 58.4,
+      "end": 59.14
+    },
+    {
+      "word": "picture",
+      "start": 59.14,
+      "end": 59.6
+    },
+    {
+      "word": "and",
+      "start": 59.6,
+      "end": 60.46
+    },
+    {
+      "word": "label",
+      "start": 60.46,
+      "end": 61.16
+    },
+    {
+      "word": "it",
+      "start": 61.16,
+      "end": 62.06
+    },
+    {
+      "word": "math",
+      "start": 63.44,
+      "end": 64.56
+    },
+    {
+      "word": "count",
+      "start": 65.92,
+      "end": 66.2
+    },
+    {
+      "word": "the",
+      "start": 66.2,
+      "end": 66.82
+    },
+    {
+      "word": "number",
+      "start": 66.82,
+      "end": 67.32
+    },
+    {
+      "word": "of",
+      "start": 67.32,
+      "end": 67.96
+    },
+    {
+      "word": "children",
+      "start": 67.96,
+      "end": 68.42
+    },
+    {
+      "word": "in",
+      "start": 68.42,
+      "end": 69.3
+    },
+    {
+      "word": "the",
+      "start": 69.3,
+      "end": 69.84
+    },
+    {
+      "word": "story",
+      "start": 69.84,
+      "end": 70.64
+    },
+    {
+      "word": "how",
+      "start": 72.1,
+      "end": 72.38
+    },
+    {
+      "word": "many",
+      "start": 72.38,
+      "end": 72.84
+    },
+    {
+      "word": "boys",
+      "start": 72.84,
+      "end": 73.4
+    },
+    {
+      "word": "do",
+      "start": 73.4,
+      "end": 74.02
+    },
+    {
+      "word": "you",
+      "start": 74.02,
+      "end": 74.34
+    },
+    {
+      "word": "see",
+      "start": 74.34,
+      "end": 75.1
+    },
+    {
+      "word": "how",
+      "start": 76.52,
+      "end": 76.82
+    },
+    {
+      "word": "many",
+      "start": 76.82,
+      "end": 77.46
+    },
+    {
+      "word": "girls",
+      "start": 77.46,
+      "end": 77.94
+    },
+    {
+      "word": "do",
+      "start": 77.94,
+      "end": 78.64
+    },
+    {
+      "word": "you",
+      "start": 78.64,
+      "end": 78.98
+    },
+    {
+      "word": "see",
+      "start": 78.98,
+      "end": 79.76
+    },
+    {
+      "word": "share",
+      "start": 80.98,
+      "end": 81.28
+    },
+    {
+      "word": "your",
+      "start": 81.28,
+      "end": 81.84
+    },
+    {
+      "word": "answers",
+      "start": 81.84,
+      "end": 82.38
+    },
+    {
+      "word": "with",
+      "start": 82.38,
+      "end": 83.48
+    },
+    {
+      "word": "a",
+      "start": 83.48,
+      "end": 83.92
+    },
+    {
+      "word": "partner",
+      "start": 83.92,
+      "end": 84.34
+    }
+  ]
+}

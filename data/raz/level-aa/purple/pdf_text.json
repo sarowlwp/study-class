@@ -1,0 +1,58 @@
+{
+  "id": "level-aa/purple",
+  "title": "Purple",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book 0 aa Purple 0 series Colors Written by Racheal Rice www readinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Purple Written Racheal Rice wwwreadinga-z.com Focus Question Where do you see purple at the beach? by"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know backpack ice pop ball purple bucket shirt flip-flop towel hat Photo Credits: Front cover; back cover: @ LOOK Die Bildagentur der Fotografen GmbH/Alamy; title page: @ 2/Andrew Geiger/Ocean/Corbis; page 3: @ Al Franklin/Corbis; page 4: @ Myriadreflections/Dreamstime.com; page 5: @ tvirbickis/iStock/ Thinkstock; page 6: @ REX USA/David Hurrell; page 7: @ yellowdog/Corbis; page 8: @ Ben Welsh/age fotostock/Superstock; page 9: @ Tryphosa Ho/Alamy: page 10: @ Larissa Veronesi/Westendbi/Corbis Purple Level aa Leveled Book Correlation Learning A-Z LEVEL aa Written by Racheal Rice Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "A purple shirt: Purple 0 Level aa 3"
+    },
+    {
+      "page": 5,
+      "text": "A purple hat. 4"
+    },
+    {
+      "page": 6,
+      "text": "A purple   flip-flop: Purple 0 Level aa 5"
+    },
+    {
+      "page": 7,
+      "text": "A purple ball: 6"
+    },
+    {
+      "page": 8,
+      "text": "3 A purple towel: Purple 0 Level aa"
+    },
+    {
+      "page": 9,
+      "text": "A purple backpack: 8"
+    },
+    {
+      "page": 10,
+      "text": "A purple bucket Purple 0 Level aa"
+    },
+    {
+      "page": 11,
+      "text": "A purple ice pop. 10"
+    },
+    {
+      "page": 12,
+      "text": "Purple A Reading A-Z Level aa Leveled Book Word Count: 25 Connections Writing and Art Would you rather take a trip to the beach or the mountains? Why? Draw a picture and write about your choice: Science Pretend you are at the beach: Use your five senses to describe to a partner what you see, hear; smell, taste, and feel: Redding A-Z Visit wwwreadinga-Z com for thousands of books and materials"
+    }
+  ]
+}

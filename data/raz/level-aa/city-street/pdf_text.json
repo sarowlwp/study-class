@@ -1,0 +1,58 @@
+{
+  "id": "level-aa/city-street",
+  "title": "City Street",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book 0 Aa Ciiy Street Writien by Harriet Rosenbloom Illusirated by Merrill Rainey  wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Street Written by Harriet Rosenbloom Illustrated by Merrill wwwreadinga-z.com Focus Question What do you see in a city? City Rainey"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know buildings sidewalk bus steps city street food taxi people Street Level aa Leveled Book 0 Learning A-Z Correlation Written by Harriet Rosenbloom LEVEL aa Illustrated by Merrill Rainey Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com City"
+    },
+    {
+      "page": 4,
+      "text": "3 The steps: City Street Level aa 3"
+    },
+    {
+      "page": 5,
+      "text": "c @ 0 C 0 0 9 0 0 6 C 0 L 4, C& U 0 G@ Y 73 The sidewalk c C c 775"
+    },
+    {
+      "page": 6,
+      "text": "The food_ City Street Level aa 5"
+    },
+    {
+      "page": 7,
+      "text": "The buildings: 6"
+    },
+    {
+      "page": 8,
+      "text": "c c c L 3 C : TaXI The taxi: City Street Level aa Jodod"
+    },
+    {
+      "page": 9,
+      "text": "2 0 The bus. 8"
+    },
+    {
+      "page": 10,
+      "text": "The people: City Street Level aa LI}"
+    },
+    {
+      "page": 11,
+      "text": "Mp The street; 10"
+    },
+    {
+      "page": 12,
+      "text": "City Street A Reading A-Z Level aa Leveled Book Word Count: 16 Connections Writing and Art Draw a picture of a you know: Write the name of the on your picture: Social Studies What is the difference between a and a farm? Share your ideas with a partner: Reading A-z Visit www.readinga-z.com for thousands of books and materials. city city city"
+    }
+  ]
+}

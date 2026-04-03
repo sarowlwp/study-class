@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/toys",
+  "title": "Toys",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED READER aa Written by Anthony Curran Wwwreadinga-z.com Toys"
+    },
+    {
+      "page": 2,
+      "text": "Written by Anthony Curran wwwreadinga-z.com Toys"
+    },
+    {
+      "page": 3,
+      "text": "The blocks_ Toys Level aa 3"
+    },
+    {
+      "page": 4,
+      "text": "The bear_"
+    },
+    {
+      "page": 5,
+      "text": "The Toys Level aa 5 paint"
+    },
+    {
+      "page": 6,
+      "text": "The drum_ 6"
+    },
+    {
+      "page": 7,
+      "text": "The  plane. Toys Level aa"
+    },
+    {
+      "page": 8,
+      "text": "The wagon_ 8"
+    },
+    {
+      "page": 9,
+      "text": "The kite. Toys Level aa 9"
+    },
+    {
+      "page": 10,
+      "text": "The robot_ 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover, page IO: @ iStockphoto.com/AIf Ertsland; back cover: iStockphoto.com/ Katrin Solansky; tille page, pages 3,4,5, 9: iStockphoto.com; page 7: @ Andrej Kudrin/123RF; page &: iStockphoto.com_ Mark Evans Level aa Leveled Reader Correlation Learning A-Z LEVEL aa Written by Anthony Curran Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 WWW . readinga-z.C com Toys"
+    }
+  ]
+}

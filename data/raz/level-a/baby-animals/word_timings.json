@@ -1,0 +1,196 @@
+{
+  "version": "1.0",
+  "total_words": 38,
+  "timings": [
+    {
+      "word": "baby",
+      "start": 0.0,
+      "end": 0.5
+    },
+    {
+      "word": "animals",
+      "start": 0.5,
+      "end": 1.26
+    },
+    {
+      "word": "written",
+      "start": 1.82,
+      "end": 2.2
+    },
+    {
+      "word": "by",
+      "start": 2.2,
+      "end": 2.7
+    },
+    {
+      "word": "cheryl",
+      "start": 2.7,
+      "end": 3.06
+    },
+    {
+      "word": "ryan",
+      "start": 3.06,
+      "end": 3.54
+    },
+    {
+      "word": "this",
+      "start": 4.24,
+      "end": 4.3
+    },
+    {
+      "word": "is",
+      "start": 4.3,
+      "end": 5.04
+    },
+    {
+      "word": "a",
+      "start": 5.04,
+      "end": 5.44
+    },
+    {
+      "word": "kitten",
+      "start": 5.44,
+      "end": 5.74
+    },
+    {
+      "word": "this",
+      "start": 6.6,
+      "end": 6.72
+    },
+    {
+      "word": "is",
+      "start": 6.72,
+      "end": 7.6
+    },
+    {
+      "word": "a",
+      "start": 7.6,
+      "end": 7.8
+    },
+    {
+      "word": "puppy",
+      "start": 7.8,
+      "end": 8.14
+    },
+    {
+      "word": "this",
+      "start": 8.64,
+      "end": 8.92
+    },
+    {
+      "word": "is",
+      "start": 8.92,
+      "end": 9.72
+    },
+    {
+      "word": "a",
+      "start": 9.72,
+      "end": 10.02
+    },
+    {
+      "word": "chick",
+      "start": 10.02,
+      "end": 10.3
+    },
+    {
+      "word": "this",
+      "start": 11.22,
+      "end": 11.48
+    },
+    {
+      "word": "is",
+      "start": 11.48,
+      "end": 12.34
+    },
+    {
+      "word": "a",
+      "start": 12.34,
+      "end": 12.58
+    },
+    {
+      "word": "cub",
+      "start": 12.58,
+      "end": 12.9
+    },
+    {
+      "word": "this",
+      "start": 13.8,
+      "end": 14.12
+    },
+    {
+      "word": "is",
+      "start": 14.12,
+      "end": 14.6
+    },
+    {
+      "word": "a",
+      "start": 14.6,
+      "end": 15.28
+    },
+    {
+      "word": "calf",
+      "start": 15.28,
+      "end": 15.74
+    },
+    {
+      "word": "this",
+      "start": 16.54,
+      "end": 16.9
+    },
+    {
+      "word": "is",
+      "start": 16.9,
+      "end": 17.46
+    },
+    {
+      "word": "a",
+      "start": 17.46,
+      "end": 18.08
+    },
+    {
+      "word": "kid",
+      "start": 18.08,
+      "end": 18.4
+    },
+    {
+      "word": "this",
+      "start": 19.04,
+      "end": 19.6
+    },
+    {
+      "word": "is",
+      "start": 19.6,
+      "end": 20.04
+    },
+    {
+      "word": "a",
+      "start": 20.04,
+      "end": 20.78
+    },
+    {
+      "word": "lamb",
+      "start": 20.78,
+      "end": 21.22
+    },
+    {
+      "word": "this",
+      "start": 21.94,
+      "end": 22.48
+    },
+    {
+      "word": "is",
+      "start": 22.48,
+      "end": 23.02
+    },
+    {
+      "word": "a",
+      "start": 23.02,
+      "end": 23.64
+    },
+    {
+      "word": "fall",
+      "start": 23.64,
+      "end": 23.96
+    }
+  ]
+}

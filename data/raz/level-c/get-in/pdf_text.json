@@ -1,0 +1,54 @@
+{
+  "id": "level-c/get-in",
+  "title": "Get In",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C Get In *0 Written by Vic Moors Illustrated by Maria Voris WWw.readinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Get In Written by Vic Moors Illustrated by Maria Voris wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "Can the in? he can_ Get In Level C 3 get boy Yes ,"
+    },
+    {
+      "page": 4,
+      "text": "Can the in? she can_ get girl Yes ,"
+    },
+    {
+      "page": 5,
+      "text": "Can the man in? he can Get In Level C 5 get Yes ,"
+    },
+    {
+      "page": 6,
+      "text": "Can the woman in? she can_ get Yes ,"
+    },
+    {
+      "page": 7,
+      "text": "Can the duck in? it can_ Get In Level C get Yes ,"
+    },
+    {
+      "page": 8,
+      "text": "C Can the in? it can_ 8 Jor dog get Yes ,"
+    },
+    {
+      "page": 9,
+      "text": "C Can the pig in? it can_ Get In Level C get Yes,"
+    },
+    {
+      "page": 10,
+      "text": "Can the elephant in? it cannot_ 0 10 get No,"
+    },
+    {
+      "page": 11,
+      "text": "q d 4 Get In Level C Leveled Book Learning A-Z Correlation Written by Vic Moors LEVEL C Illustrated by Maria Voris Fountas & Pinnell All rights reserved. Reading Recovery 3-4 DRA 3-4 WWW.R readinga-z.com"
+    }
+  ]
+}

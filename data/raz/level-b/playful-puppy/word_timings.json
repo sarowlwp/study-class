@@ -1,0 +1,236 @@
+{
+  "version": "1.0",
+  "total_words": 46,
+  "timings": [
+    {
+      "word": "playful",
+      "start": 0.0,
+      "end": 0.66
+    },
+    {
+      "word": "puppy",
+      "start": 0.66,
+      "end": 1.4
+    },
+    {
+      "word": "written",
+      "start": 1.88,
+      "end": 2.04
+    },
+    {
+      "word": "by",
+      "start": 2.04,
+      "end": 2.52
+    },
+    {
+      "word": "joe",
+      "start": 2.52,
+      "end": 2.9
+    },
+    {
+      "word": "slade",
+      "start": 2.9,
+      "end": 3.82
+    },
+    {
+      "word": "illustrated",
+      "start": 4.3,
+      "end": 4.68
+    },
+    {
+      "word": "by",
+      "start": 4.68,
+      "end": 5.6
+    },
+    {
+      "word": "catalina",
+      "start": 5.6,
+      "end": 6.54
+    },
+    {
+      "word": "rankin",
+      "start": 6.54,
+      "end": 7.5
+    },
+    {
+      "word": "puppy",
+      "start": 8.04,
+      "end": 8.4
+    },
+    {
+      "word": "seas",
+      "start": 8.4,
+      "end": 8.94
+    },
+    {
+      "word": "a",
+      "start": 9.06,
+      "end": 9.22
+    },
+    {
+      "word": "little",
+      "start": 9.22,
+      "end": 9.5
+    },
+    {
+      "word": "mouse",
+      "start": 9.5,
+      "end": 10.24
+    },
+    {
+      "word": "let",
+      "start": 10.78,
+      "end": 10.82
+    },
+    {
+      "word": "it",
+      "start": 10.82,
+      "end": 11.16
+    },
+    {
+      "word": "be",
+      "start": 11.16,
+      "end": 11.52
+    },
+    {
+      "word": "puppy",
+      "start": 11.52,
+      "end": 12.36
+    },
+    {
+      "word": "puppy",
+      "start": 12.36,
+      "end": 12.96
+    },
+    {
+      "word": "seas",
+      "start": 12.96,
+      "end": 13.48
+    },
+    {
+      "word": "a",
+      "start": 13.76,
+      "end": 13.76
+    },
+    {
+      "word": "little",
+      "start": 13.76,
+      "end": 14.12
+    },
+    {
+      "word": "frog",
+      "start": 14.12,
+      "end": 14.68
+    },
+    {
+      "word": "let",
+      "start": 15.14,
+      "end": 15.2
+    },
+    {
+      "word": "it",
+      "start": 15.2,
+      "end": 15.56
+    },
+    {
+      "word": "be",
+      "start": 15.56,
+      "end": 16.0
+    },
+    {
+      "word": "puppy",
+      "start": 16.0,
+      "end": 17.0
+    },
+    {
+      "word": "puppy",
+      "start": 17.0,
+      "end": 17.68
+    },
+    {
+      "word": "seas",
+      "start": 17.68,
+      "end": 18.28
+    },
+    {
+      "word": "a",
+      "start": 18.54,
+      "end": 18.54
+    },
+    {
+      "word": "little",
+      "start": 18.54,
+      "end": 18.96
+    },
+    {
+      "word": "turtle",
+      "start": 18.96,
+      "end": 19.52
+    },
+    {
+      "word": "let",
+      "start": 20.34,
+      "end": 20.44
+    },
+    {
+      "word": "it",
+      "start": 20.44,
+      "end": 20.74
+    },
+    {
+      "word": "be",
+      "start": 20.74,
+      "end": 21.14
+    },
+    {
+      "word": "puppy",
+      "start": 21.14,
+      "end": 22.06
+    },
+    {
+      "word": "puppy",
+      "start": 22.06,
+      "end": 22.74
+    },
+    {
+      "word": "seas",
+      "start": 22.74,
+      "end": 23.28
+    },
+    {
+      "word": "a",
+      "start": 23.54,
+      "end": 23.54
+    },
+    {
+      "word": "little",
+      "start": 23.54,
+      "end": 23.9
+    },
+    {
+      "word": "ball",
+      "start": 23.9,
+      "end": 24.38
+    },
+    {
+      "word": "get",
+      "start": 24.38,
+      "end": 25.24
+    },
+    {
+      "word": "the",
+      "start": 25.24,
+      "end": 25.54
+    },
+    {
+      "word": "ball",
+      "start": 25.54,
+      "end": 26.1
+    },
+    {
+      "word": "puppy",
+      "start": 26.36,
+      "end": 26.54
+    }
+  ]
+}

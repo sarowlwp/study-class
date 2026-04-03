@@ -1,0 +1,271 @@
+{
+  "version": "1.0",
+  "total_words": 53,
+  "timings": [
+    {
+      "word": "mash",
+      "start": 0.0,
+      "end": 0.66
+    },
+    {
+      "word": "the",
+      "start": 0.66,
+      "end": 1.06
+    },
+    {
+      "word": "potatoes",
+      "start": 1.06,
+      "end": 1.86
+    },
+    {
+      "word": "written",
+      "start": 2.88,
+      "end": 3.14
+    },
+    {
+      "word": "by",
+      "start": 3.14,
+      "end": 3.52
+    },
+    {
+      "word": "karen",
+      "start": 3.52,
+      "end": 3.92
+    },
+    {
+      "word": "mochler",
+      "start": 3.92,
+      "end": 4.64
+    },
+    {
+      "word": "illustrated",
+      "start": 5.24,
+      "end": 6.28
+    },
+    {
+      "word": "by",
+      "start": 6.28,
+      "end": 6.78
+    },
+    {
+      "word": "shirley",
+      "start": 6.78,
+      "end": 7.3
+    },
+    {
+      "word": "ying",
+      "start": 7.3,
+      "end": 7.92
+    },
+    {
+      "word": "benitez",
+      "start": 7.92,
+      "end": 8.66
+    },
+    {
+      "word": "dad",
+      "start": 9.42,
+      "end": 9.44
+    },
+    {
+      "word": "loves",
+      "start": 9.44,
+      "end": 10.28
+    },
+    {
+      "word": "the",
+      "start": 10.28,
+      "end": 10.64
+    },
+    {
+      "word": "turkey",
+      "start": 10.64,
+      "end": 11.1
+    },
+    {
+      "word": "mom",
+      "start": 11.88,
+      "end": 11.98
+    },
+    {
+      "word": "loves",
+      "start": 11.98,
+      "end": 12.88
+    },
+    {
+      "word": "the",
+      "start": 12.88,
+      "end": 13.3
+    },
+    {
+      "word": "pie",
+      "start": 13.3,
+      "end": 13.9
+    },
+    {
+      "word": "i",
+      "start": 14.38,
+      "end": 14.7
+    },
+    {
+      "word": "love",
+      "start": 14.7,
+      "end": 15.52
+    },
+    {
+      "word": "the",
+      "start": 15.52,
+      "end": 16.14
+    },
+    {
+      "word": "potatoes",
+      "start": 16.14,
+      "end": 16.74
+    },
+    {
+      "word": "i",
+      "start": 17.46,
+      "end": 17.7
+    },
+    {
+      "word": "count",
+      "start": 17.7,
+      "end": 18.08
+    },
+    {
+      "word": "out",
+      "start": 18.08,
+      "end": 18.56
+    },
+    {
+      "word": "the",
+      "start": 18.56,
+      "end": 18.74
+    },
+    {
+      "word": "potatoes",
+      "start": 18.74,
+      "end": 19.32
+    },
+    {
+      "word": "dad",
+      "start": 20.14,
+      "end": 20.6
+    },
+    {
+      "word": "peels",
+      "start": 20.6,
+      "end": 21.34
+    },
+    {
+      "word": "the",
+      "start": 21.34,
+      "end": 21.6
+    },
+    {
+      "word": "potatoes",
+      "start": 21.6,
+      "end": 22.18
+    },
+    {
+      "word": "in",
+      "start": 22.18,
+      "end": 22.72
+    },
+    {
+      "word": "the",
+      "start": 22.72,
+      "end": 22.98
+    },
+    {
+      "word": "sink",
+      "start": 22.98,
+      "end": 23.4
+    },
+    {
+      "word": "we",
+      "start": 23.84,
+      "end": 24.16
+    },
+    {
+      "word": "boil",
+      "start": 24.16,
+      "end": 24.58
+    },
+    {
+      "word": "the",
+      "start": 24.58,
+      "end": 24.96
+    },
+    {
+      "word": "potatoes",
+      "start": 24.96,
+      "end": 25.52
+    },
+    {
+      "word": "to",
+      "start": 25.52,
+      "end": 26.26
+    },
+    {
+      "word": "make",
+      "start": 26.26,
+      "end": 26.56
+    },
+    {
+      "word": "them",
+      "start": 26.56,
+      "end": 27.1
+    },
+    {
+      "word": "soft",
+      "start": 27.1,
+      "end": 27.64
+    },
+    {
+      "word": "we",
+      "start": 27.64,
+      "end": 28.46
+    },
+    {
+      "word": "mash",
+      "start": 28.46,
+      "end": 29.06
+    },
+    {
+      "word": "the",
+      "start": 29.06,
+      "end": 29.44
+    },
+    {
+      "word": "potatoes",
+      "start": 29.44,
+      "end": 30.08
+    },
+    {
+      "word": "we",
+      "start": 30.9,
+      "end": 31.14
+    },
+    {
+      "word": "eat",
+      "start": 31.14,
+      "end": 31.92
+    },
+    {
+      "word": "the",
+      "start": 31.92,
+      "end": 32.92
+    },
+    {
+      "word": "mashed",
+      "start": 32.92,
+      "end": 33.32
+    },
+    {
+      "word": "potatoes",
+      "start": 33.32,
+      "end": 34.0
+    }
+  ]
+}

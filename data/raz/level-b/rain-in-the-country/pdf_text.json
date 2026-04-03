@@ -1,0 +1,58 @@
+{
+  "id": "level-b/rain-in-the-country",
+  "title": "Rain In The Country",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Rain in the Couniry Written Anthony Curran wwwreadinga-z.com by"
+    },
+    {
+      "page": 2,
+      "text": "Rain in the Country Written Anthony Curran wwwreadinga-z.com Focus Question What can you see when it rains in the country? by"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know clouds puddle lightning rainbow mud Sun Photo Credits: Front cover; back cover: @ Tom Bean/Alamy Stock Photo; title page: Bushpilot/Alamy Stock Photo; page 3: @ Pklimenko/Dreamstime.com; page 4: Andreiuc88/Dreamstime.com; page 5: @ Nataliia Melnychuk/123RF; page 6: Havanba TpeyxoBa/123RF; page 7: @ PavelRodimov/iStock/Thinkstock; page 8: Sutichak Yachiangkham/123RF; page 9: @ imantsu/iStock/Thinkstock; page 10: Sean PavonelDreamstime.com Rain in the Country Level B Leveled Book Correlation Learning A-Z LEVEL B Written by Anthony Curran Fountas & Pinnell B AIl rights reserved. Reading Recovery 2 DRA 2 www.readinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "I see the clouds. Rain in the Country = O Level B 3 2 4"
+    },
+    {
+      "page": 5,
+      "text": "I see the rain: 4"
+    },
+    {
+      "page": 6,
+      "text": "I see the lightning: Rain in the Country = O Level B 5"
+    },
+    {
+      "page": 7,
+      "text": "I see the horse."
+    },
+    {
+      "page": 8,
+      "text": "I see the puddle: Rain in the Country = O Level B"
+    },
+    {
+      "page": 9,
+      "text": "I see the mud: 8"
+    },
+    {
+      "page": 10,
+      "text": "I see the rainbow: Rain in the Country = O Level B"
+    },
+    {
+      "page": 11,
+      "text": "I see the Sun: 10"
+    },
+    {
+      "page": 12,
+      "text": "Rain in the Country A Reading A-Z Level B Leveled Book Word Count: 32 Connections Writing and Art How is the country the same or different from where you live? Draw a picture and write about it; Science is rain important for plants, animals, and people? Share your ideas with a partner: Reading A-Z Visit wwwreadinga-z.com for thousands of books and materials_ Why"
+    }
+  ]
+}

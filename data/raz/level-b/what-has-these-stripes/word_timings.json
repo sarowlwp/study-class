@@ -1,0 +1,331 @@
+{
+  "version": "1.0",
+  "total_words": 65,
+  "timings": [
+    {
+      "word": "what",
+      "start": 0.0,
+      "end": 0.4
+    },
+    {
+      "word": "has",
+      "start": 0.4,
+      "end": 1.32
+    },
+    {
+      "word": "these",
+      "start": 1.32,
+      "end": 2.22
+    },
+    {
+      "word": "stripes",
+      "start": 2.22,
+      "end": 3.18
+    },
+    {
+      "word": "written",
+      "start": 3.18,
+      "end": 5.06
+    },
+    {
+      "word": "by",
+      "start": 5.06,
+      "end": 5.9
+    },
+    {
+      "word": "kira",
+      "start": 5.9,
+      "end": 6.34
+    },
+    {
+      "word": "fried",
+      "start": 6.34,
+      "end": 7.24
+    },
+    {
+      "word": "what",
+      "start": 7.68,
+      "end": 7.68
+    },
+    {
+      "word": "kind",
+      "start": 7.68,
+      "end": 8.4
+    },
+    {
+      "word": "of",
+      "start": 8.4,
+      "end": 8.84
+    },
+    {
+      "word": "animal",
+      "start": 8.84,
+      "end": 9.38
+    },
+    {
+      "word": "has",
+      "start": 9.38,
+      "end": 10.38
+    },
+    {
+      "word": "these",
+      "start": 10.38,
+      "end": 10.98
+    },
+    {
+      "word": "stripes",
+      "start": 10.98,
+      "end": 11.76
+    },
+    {
+      "word": "a",
+      "start": 12.5,
+      "end": 12.78
+    },
+    {
+      "word": "zebra",
+      "start": 12.78,
+      "end": 13.22
+    },
+    {
+      "word": "has",
+      "start": 13.22,
+      "end": 14.22
+    },
+    {
+      "word": "these",
+      "start": 14.22,
+      "end": 14.86
+    },
+    {
+      "word": "smooth",
+      "start": 14.86,
+      "end": 15.74
+    },
+    {
+      "word": "stripes",
+      "start": 15.74,
+      "end": 16.58
+    },
+    {
+      "word": "what",
+      "start": 17.4,
+      "end": 17.6
+    },
+    {
+      "word": "kind",
+      "start": 17.6,
+      "end": 18.18
+    },
+    {
+      "word": "of",
+      "start": 18.18,
+      "end": 18.66
+    },
+    {
+      "word": "animal",
+      "start": 18.66,
+      "end": 19.06
+    },
+    {
+      "word": "has",
+      "start": 19.06,
+      "end": 20.04
+    },
+    {
+      "word": "these",
+      "start": 20.04,
+      "end": 20.92
+    },
+    {
+      "word": "stripes",
+      "start": 20.92,
+      "end": 21.78
+    },
+    {
+      "word": "a",
+      "start": 22.5,
+      "end": 22.88
+    },
+    {
+      "word": "fish",
+      "start": 22.88,
+      "end": 23.32
+    },
+    {
+      "word": "has",
+      "start": 23.32,
+      "end": 24.32
+    },
+    {
+      "word": "these",
+      "start": 24.32,
+      "end": 25.1
+    },
+    {
+      "word": "thin",
+      "start": 25.1,
+      "end": 25.92
+    },
+    {
+      "word": "stripes",
+      "start": 25.92,
+      "end": 27.14
+    },
+    {
+      "word": "what",
+      "start": 27.14,
+      "end": 27.8
+    },
+    {
+      "word": "kind",
+      "start": 27.8,
+      "end": 28.4
+    },
+    {
+      "word": "of",
+      "start": 28.4,
+      "end": 28.74
+    },
+    {
+      "word": "animal",
+      "start": 28.74,
+      "end": 29.24
+    },
+    {
+      "word": "has",
+      "start": 29.24,
+      "end": 30.2
+    },
+    {
+      "word": "these",
+      "start": 30.2,
+      "end": 31.04
+    },
+    {
+      "word": "stripes",
+      "start": 31.04,
+      "end": 31.88
+    },
+    {
+      "word": "a",
+      "start": 32.44,
+      "end": 32.9
+    },
+    {
+      "word": "snake",
+      "start": 32.9,
+      "end": 33.54
+    },
+    {
+      "word": "has",
+      "start": 34.12,
+      "end": 34.54
+    },
+    {
+      "word": "these",
+      "start": 34.54,
+      "end": 35.04
+    },
+    {
+      "word": "long",
+      "start": 35.04,
+      "end": 36.04
+    },
+    {
+      "word": "stripes",
+      "start": 36.04,
+      "end": 37.06
+    },
+    {
+      "word": "what",
+      "start": 37.86,
+      "end": 38.1
+    },
+    {
+      "word": "kinds",
+      "start": 38.1,
+      "end": 38.7
+    },
+    {
+      "word": "of",
+      "start": 38.7,
+      "end": 39.24
+    },
+    {
+      "word": "animals",
+      "start": 39.24,
+      "end": 39.68
+    },
+    {
+      "word": "have",
+      "start": 39.68,
+      "end": 40.74
+    },
+    {
+      "word": "no",
+      "start": 40.74,
+      "end": 41.64
+    },
+    {
+      "word": "stripes",
+      "start": 41.64,
+      "end": 42.22
+    },
+    {
+      "word": "these",
+      "start": 42.78,
+      "end": 43.22
+    },
+    {
+      "word": "animals",
+      "start": 43.22,
+      "end": 43.84
+    },
+    {
+      "word": "have",
+      "start": 43.84,
+      "end": 44.7
+    },
+    {
+      "word": "no",
+      "start": 44.7,
+      "end": 45.3
+    },
+    {
+      "word": "stripes",
+      "start": 45.3,
+      "end": 46.3
+    },
+    {
+      "word": "what",
+      "start": 47.52,
+      "end": 47.88
+    },
+    {
+      "word": "other",
+      "start": 47.88,
+      "end": 48.3
+    },
+    {
+      "word": "animals",
+      "start": 48.3,
+      "end": 48.8
+    },
+    {
+      "word": "have",
+      "start": 48.8,
+      "end": 49.48
+    },
+    {
+      "word": "no",
+      "start": 49.48,
+      "end": 50.06
+    },
+    {
+      "word": "stripes",
+      "start": 50.06,
+      "end": 50.78
+    }
+  ]
+}

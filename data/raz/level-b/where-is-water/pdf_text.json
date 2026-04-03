@@ -1,0 +1,54 @@
+{
+  "id": "level-b/where-is-water",
+  "title": "Where Is Water",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Where Is Water? Written by Felicia Brown wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Where Is Water? Written Felicia Brown wwwreadinga-z.com by"
+    },
+    {
+      "page": 3,
+      "text": "Water is around US_ Where Is Water? Level B 3 all"
+    },
+    {
+      "page": 4,
+      "text": "Water is in rivers."
+    },
+    {
+      "page": 5,
+      "text": "Water is in lakes: Where Is Water? Level B 5"
+    },
+    {
+      "page": 6,
+      "text": "Water is in the ocean."
+    },
+    {
+      "page": 7,
+      "text": "Water is in the Where Is Water? Level B sky:"
+    },
+    {
+      "page": 8,
+      "text": "Water is in the pool: 8"
+    },
+    {
+      "page": 9,
+      "text": "Water is under the ground: Where Is Water? Level B"
+    },
+    {
+      "page": 10,
+      "text": "Where do yoU see water? 10 5"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: All photos @ clipart.com Where Is Water? Level B Leveled Book Correlation @ Learning A-Z LEVEL B Written by Felicia Brown Fountas & Pinnell B All rights reserved: Reading Recovery 2 DRA 2 wwwreadinga-zcom"
+    }
+  ]
+}

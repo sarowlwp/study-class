@@ -1,0 +1,371 @@
+{
+  "version": "1.0",
+  "total_words": 73,
+  "timings": [
+    {
+      "word": "12",
+      "start": 0.0,
+      "end": 1.04
+    },
+    {
+      "word": "written",
+      "start": 2.18,
+      "end": 2.64
+    },
+    {
+      "word": "by",
+      "start": 2.64,
+      "end": 3.18
+    },
+    {
+      "word": "rachel",
+      "start": 3.18,
+      "end": 3.88
+    },
+    {
+      "word": "rice",
+      "start": 3.88,
+      "end": 5.1
+    },
+    {
+      "word": "illustrated",
+      "start": 5.88,
+      "end": 6.6
+    },
+    {
+      "word": "by",
+      "start": 6.6,
+      "end": 7.28
+    },
+    {
+      "word": "david",
+      "start": 7.28,
+      "end": 8.12
+    },
+    {
+      "word": "arumi",
+      "start": 8.12,
+      "end": 9.74
+    },
+    {
+      "word": "focus",
+      "start": 10.8,
+      "end": 10.9
+    },
+    {
+      "word": "question",
+      "start": 10.9,
+      "end": 12.0
+    },
+    {
+      "word": "what",
+      "start": 12.92,
+      "end": 13.12
+    },
+    {
+      "word": "do",
+      "start": 13.12,
+      "end": 13.92
+    },
+    {
+      "word": "bakers",
+      "start": 13.92,
+      "end": 14.5
+    },
+    {
+      "word": "use",
+      "start": 14.5,
+      "end": 15.3
+    },
+    {
+      "word": "12",
+      "start": 16.0,
+      "end": 16.48
+    },
+    {
+      "word": "abrams",
+      "start": 17.4,
+      "end": 17.8
+    },
+    {
+      "word": "12",
+      "start": 18.3,
+      "end": 18.96
+    },
+    {
+      "word": "hats",
+      "start": 19.76,
+      "end": 20.22
+    },
+    {
+      "word": "12",
+      "start": 20.76,
+      "end": 21.44
+    },
+    {
+      "word": "cups",
+      "start": 22.3,
+      "end": 22.66
+    },
+    {
+      "word": "12",
+      "start": 23.32,
+      "end": 23.94
+    },
+    {
+      "word": "bowls",
+      "start": 24.76,
+      "end": 25.36
+    },
+    {
+      "word": "12",
+      "start": 25.8,
+      "end": 26.46
+    },
+    {
+      "word": "spoon",
+      "start": 27.02,
+      "end": 27.48
+    },
+    {
+      "word": "12",
+      "start": 28.16,
+      "end": 28.76
+    },
+    {
+      "word": "pan",
+      "start": 29.4,
+      "end": 29.92
+    },
+    {
+      "word": "12",
+      "start": 29.92,
+      "end": 30.84
+    },
+    {
+      "word": "cookies",
+      "start": 30.84,
+      "end": 32.26
+    },
+    {
+      "word": "12",
+      "start": 33.02,
+      "end": 33.52
+    },
+    {
+      "word": "plates",
+      "start": 33.52,
+      "end": 34.44
+    },
+    {
+      "word": "connections",
+      "start": 35.26,
+      "end": 35.86
+    },
+    {
+      "word": "writing",
+      "start": 36.98,
+      "end": 37.3
+    },
+    {
+      "word": "and",
+      "start": 37.94,
+      "end": 38.26
+    },
+    {
+      "word": "art",
+      "start": 38.26,
+      "end": 39.18
+    },
+    {
+      "word": "draw",
+      "start": 40.48,
+      "end": 40.5
+    },
+    {
+      "word": "a",
+      "start": 40.5,
+      "end": 40.88
+    },
+    {
+      "word": "picture",
+      "start": 40.88,
+      "end": 41.28
+    },
+    {
+      "word": "of",
+      "start": 41.28,
+      "end": 41.68
+    },
+    {
+      "word": "your",
+      "start": 41.68,
+      "end": 41.98
+    },
+    {
+      "word": "favorite",
+      "start": 41.98,
+      "end": 42.4
+    },
+    {
+      "word": "type",
+      "start": 42.4,
+      "end": 43.08
+    },
+    {
+      "word": "of",
+      "start": 43.08,
+      "end": 43.38
+    },
+    {
+      "word": "cookie",
+      "start": 43.38,
+      "end": 43.84
+    },
+    {
+      "word": "then",
+      "start": 44.96,
+      "end": 45.06
+    },
+    {
+      "word": "write",
+      "start": 45.06,
+      "end": 45.74
+    },
+    {
+      "word": "words",
+      "start": 45.74,
+      "end": 46.3
+    },
+    {
+      "word": "that",
+      "start": 46.3,
+      "end": 46.86
+    },
+    {
+      "word": "describe",
+      "start": 46.86,
+      "end": 47.52
+    },
+    {
+      "word": "the",
+      "start": 47.52,
+      "end": 47.9
+    },
+    {
+      "word": "cookie",
+      "start": 47.9,
+      "end": 48.56
+    },
+    {
+      "word": "math",
+      "start": 48.56,
+      "end": 50.38
+    },
+    {
+      "word": "find",
+      "start": 51.52,
+      "end": 51.88
+    },
+    {
+      "word": "12",
+      "start": 51.88,
+      "end": 52.88
+    },
+    {
+      "word": "items",
+      "start": 52.88,
+      "end": 53.84
+    },
+    {
+      "word": "with",
+      "start": 54.92,
+      "end": 55.04
+    },
+    {
+      "word": "a",
+      "start": 55.04,
+      "end": 55.34
+    },
+    {
+      "word": "partner",
+      "start": 55.34,
+      "end": 55.74
+    },
+    {
+      "word": "draw",
+      "start": 55.74,
+      "end": 56.72
+    },
+    {
+      "word": "each",
+      "start": 56.72,
+      "end": 57.2
+    },
+    {
+      "word": "item",
+      "start": 57.2,
+      "end": 57.84
+    },
+    {
+      "word": "and",
+      "start": 57.84,
+      "end": 58.44
+    },
+    {
+      "word": "label",
+      "start": 58.44,
+      "end": 58.82
+    },
+    {
+      "word": "the",
+      "start": 58.82,
+      "end": 59.2
+    },
+    {
+      "word": "items",
+      "start": 59.2,
+      "end": 59.58
+    },
+    {
+      "word": "1",
+      "start": 59.58,
+      "end": 60.26
+    },
+    {
+      "word": "to",
+      "start": 60.26,
+      "end": 60.84
+    },
+    {
+      "word": "12",
+      "start": 60.84,
+      "end": 61.54
+    },
+    {
+      "word": "then",
+      "start": 62.54,
+      "end": 62.86
+    },
+    {
+      "word": "practice",
+      "start": 62.86,
+      "end": 63.72
+    },
+    {
+      "word": "counting",
+      "start": 63.72,
+      "end": 64.28
+    },
+    {
+      "word": "to",
+      "start": 64.28,
+      "end": 64.92
+    },
+    {
+      "word": "12",
+      "start": 64.92,
+      "end": 65.44
+    }
+  ]
+}

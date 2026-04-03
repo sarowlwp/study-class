@@ -1,0 +1,54 @@
+{
+  "id": "level-c/what-s-for-breakfast",
+  "title": "What S For Breakfast",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C What's for Breakfast? Written by Harriet Rosenbloom wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "What's for Breakfast? Written by Harriet Rosenbloom wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "Some kids eat cereal for breakfast. What's for Breakfast? Level C 3"
+    },
+    {
+      "page": 4,
+      "text": "Some kids eat eggs for breakfast."
+    },
+    {
+      "page": 5,
+      "text": "Some kids eat toast for breakfast. What's for Breakfast? Level C 5"
+    },
+    {
+      "page": 6,
+      "text": "Some kids eat  yogurt for breakfast. 6"
+    },
+    {
+      "page": 7,
+      "text": "Some kids eat muffins for breakfast. What's for Breakfast? Level C"
+    },
+    {
+      "page": 8,
+      "text": "Some kids eat bacon for breakfast. 8"
+    },
+    {
+      "page": 9,
+      "text": "Some kids eat fruit for breakfast. What's for Breakfast? Level C"
+    },
+    {
+      "page": 10,
+      "text": "What do you eat for breakfast? 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover; page 10: @ Ocean/Corbis; back cover: Duskbabe/Dreamstime: com; title page: @ Cultura Creative/Alamy; page 3: @ Fancy Collection/ SuperStock; page 4: @ DonSmith/Alamy: page 5: @ Granger Wootz/Blend Images/Getty Images; page 6: @ Gio Barto/Tips Images/age fotostock; page 7: @ Cameron/Corbis/Getty Images; page 8: Craig Frederick/@ Learning A-Z; page 9: @ iStockphoto.com/Kim Gunkel What's for Breakfast? Level C Leveled Book Correlation Learning A-Z LEVEL C Written by Harriet Rosenbloom Fountas & Pinnell All rights reserved. Reading Recovery 3-4 DRA 3-4 www.readinga-z.com"
+    }
+  ]
+}

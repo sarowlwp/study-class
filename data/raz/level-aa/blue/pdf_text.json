@@ -1,0 +1,58 @@
+{
+  "id": "level-aa/blue",
+  "title": "Blue",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , aa Blue 4 series Colors Written by Racheal Rice wwWreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Blue Susic Written Racheal Rice wwwreadinga-z.com Focus Question Where do you see the color blue outside? by"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know bench playground bike blue slide bottle helmet Photo Credits: Front cover; back cover: @ Nuttakit Sukjaroensuk/Dreamstime.com; title page: Lon C. Diehl/PhotoEdit; page 3: @ Barry Mead Ii/Dreamstime.com; page 4: Bob Daemmrich/PhotoEdit; page 5: @ Juice Images/Alamy: page 6: @ blyjak/ iStock/Thinkstock; page 7: @ Verena Matthew/Dreamstime.com; page &: @ Paul Vinten/123RF: page 9: @ Huiping Zhu/Hemera/Thinkstock; page 10: @ Richard J Thompson/Dreamstime.com Blue Level aa Leveled Book Correlation Learning A-Z LEVEL aa Written by Racheal Rice Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com sky swing"
+    },
+    {
+      "page": 4,
+      "text": "The blue Blue Level aa 3 sky:"
+    },
+    {
+      "page": 5,
+      "text": "SPFLWAIED The blue helmet;"
+    },
+    {
+      "page": 6,
+      "text": "The blue bike: Blue Level aa 5"
+    },
+    {
+      "page": 7,
+      "text": "The blue bottle: 6"
+    },
+    {
+      "page": 8,
+      "text": "The blue bench_ Blue Level aa"
+    },
+    {
+      "page": 9,
+      "text": "The blue 8 swing:"
+    },
+    {
+      "page": 10,
+      "text": "The blue slide: Blue Level aa"
+    },
+    {
+      "page": 11,
+      "text": "The blue playground: 10"
+    },
+    {
+      "page": 12,
+      "text": "Blue A Reading A-Z Level aa Leveled Book Word Count: 24 Connections Writing and Art Think of something you see outside that is blue: Draw a picture and label it: Science How do you use your five senses when playing outside? Share your ideas with a partner: Reading A-Z Visit  wwwreadinga-z.com for thousands of books and materials:"
+    }
+  ]
+}

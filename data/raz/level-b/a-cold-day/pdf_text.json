@@ -1,0 +1,54 @@
+{
+  "id": "level-b/a-cold-day",
+  "title": "A Cold Day",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B A Cold Written by Anthony Curran Illustrated by Arthur Lin wwwreadinga-z.com Day"
+    },
+    {
+      "page": 2,
+      "text": "A Cold Written Anthony Curran Illustrated Arthur Lin wwwreadinga-Z.com Day by by"
+    },
+    {
+      "page": 3,
+      "text": "44 The air feels cold A Cold Level B 3 today: Day -"
+    },
+    {
+      "page": 4,
+      "text": "The car feels cold today:"
+    },
+    {
+      "page": 5,
+      "text": "The tree feels cold A Cold Level B 5 today Day -"
+    },
+    {
+      "page": 6,
+      "text": "The fence feels cold today:"
+    },
+    {
+      "page": 7,
+      "text": "The mailbox feels cold today: A Cold Level B Day -"
+    },
+    {
+      "page": 8,
+      "text": "The mail feels cold 8 today_"
+    },
+    {
+      "page": 9,
+      "text": "The door handle feels cold A Cold Level B today Day -"
+    },
+    {
+      "page": 10,
+      "text": "The hot chocolate feels todayl 10 good"
+    },
+    {
+      "page": 11,
+      "text": "A Cold Level B Leveled Book 0 Learning A-Z Correlation Written by Anthony Curran LEVEL B Illustrated by Arthur Lin Fountas & Pinnell B AIl rights reserved: Reading Recovery 2 DRA 2 wwwreadinga-z.com Day"
+    }
+  ]
+}

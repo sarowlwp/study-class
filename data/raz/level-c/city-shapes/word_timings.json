@@ -1,0 +1,486 @@
+{
+  "version": "1.0",
+  "total_words": 96,
+  "timings": [
+    {
+      "word": "city",
+      "start": 0.0,
+      "end": 0.68
+    },
+    {
+      "word": "shapes",
+      "start": 0.68,
+      "end": 2.06
+    },
+    {
+      "word": "written",
+      "start": 2.48,
+      "end": 2.6
+    },
+    {
+      "word": "by",
+      "start": 2.6,
+      "end": 3.34
+    },
+    {
+      "word": "rachel",
+      "start": 3.34,
+      "end": 4.02
+    },
+    {
+      "word": "rice",
+      "start": 4.02,
+      "end": 5.08
+    },
+    {
+      "word": "focus",
+      "start": 6.08,
+      "end": 6.4
+    },
+    {
+      "word": "question",
+      "start": 6.4,
+      "end": 7.3
+    },
+    {
+      "word": "what",
+      "start": 8.32,
+      "end": 8.64
+    },
+    {
+      "word": "shapes",
+      "start": 8.64,
+      "end": 9.16
+    },
+    {
+      "word": "do",
+      "start": 9.16,
+      "end": 9.74
+    },
+    {
+      "word": "you",
+      "start": 9.74,
+      "end": 10.26
+    },
+    {
+      "word": "see",
+      "start": 10.26,
+      "end": 10.74
+    },
+    {
+      "word": "in",
+      "start": 10.74,
+      "end": 11.08
+    },
+    {
+      "word": "the",
+      "start": 11.08,
+      "end": 11.34
+    },
+    {
+      "word": "city",
+      "start": 11.34,
+      "end": 11.9
+    },
+    {
+      "word": "look",
+      "start": 12.4,
+      "end": 12.66
+    },
+    {
+      "word": "around",
+      "start": 12.66,
+      "end": 13.52
+    },
+    {
+      "word": "the",
+      "start": 13.52,
+      "end": 13.8
+    },
+    {
+      "word": "city",
+      "start": 13.8,
+      "end": 14.3
+    },
+    {
+      "word": "what",
+      "start": 14.98,
+      "end": 15.34
+    },
+    {
+      "word": "shapes",
+      "start": 15.34,
+      "end": 15.9
+    },
+    {
+      "word": "do",
+      "start": 15.9,
+      "end": 16.36
+    },
+    {
+      "word": "you",
+      "start": 16.36,
+      "end": 16.64
+    },
+    {
+      "word": "see",
+      "start": 16.64,
+      "end": 17.2
+    },
+    {
+      "word": "here",
+      "start": 17.74,
+      "end": 18.16
+    },
+    {
+      "word": "you",
+      "start": 18.52,
+      "end": 18.8
+    },
+    {
+      "word": "see",
+      "start": 18.8,
+      "end": 19.16
+    },
+    {
+      "word": "an",
+      "start": 19.16,
+      "end": 19.7
+    },
+    {
+      "word": "oval",
+      "start": 19.7,
+      "end": 20.26
+    },
+    {
+      "word": "here",
+      "start": 20.86,
+      "end": 21.2
+    },
+    {
+      "word": "you",
+      "start": 21.66,
+      "end": 21.9
+    },
+    {
+      "word": "see",
+      "start": 21.9,
+      "end": 22.3
+    },
+    {
+      "word": "triangles",
+      "start": 22.3,
+      "end": 22.94
+    },
+    {
+      "word": "here",
+      "start": 24.0,
+      "end": 24.32
+    },
+    {
+      "word": "you",
+      "start": 24.72,
+      "end": 25.04
+    },
+    {
+      "word": "see",
+      "start": 25.04,
+      "end": 25.46
+    },
+    {
+      "word": "a",
+      "start": 25.46,
+      "end": 25.94
+    },
+    {
+      "word": "circle",
+      "start": 25.94,
+      "end": 26.48
+    },
+    {
+      "word": "here",
+      "start": 27.14,
+      "end": 27.56
+    },
+    {
+      "word": "you",
+      "start": 28.06,
+      "end": 28.26
+    },
+    {
+      "word": "see",
+      "start": 28.26,
+      "end": 28.72
+    },
+    {
+      "word": "squares",
+      "start": 28.72,
+      "end": 29.3
+    },
+    {
+      "word": "here",
+      "start": 29.3,
+      "end": 30.32
+    },
+    {
+      "word": "you",
+      "start": 30.32,
+      "end": 31.2
+    },
+    {
+      "word": "see",
+      "start": 31.2,
+      "end": 31.56
+    },
+    {
+      "word": "rectangles",
+      "start": 31.56,
+      "end": 33.02
+    },
+    {
+      "word": "here",
+      "start": 33.68,
+      "end": 33.8
+    },
+    {
+      "word": "you",
+      "start": 33.8,
+      "end": 34.56
+    },
+    {
+      "word": "see",
+      "start": 34.56,
+      "end": 35.0
+    },
+    {
+      "word": "hexagons",
+      "start": 35.0,
+      "end": 36.16
+    },
+    {
+      "word": "here",
+      "start": 36.8,
+      "end": 36.98
+    },
+    {
+      "word": "you",
+      "start": 36.98,
+      "end": 37.68
+    },
+    {
+      "word": "see",
+      "start": 37.68,
+      "end": 38.14
+    },
+    {
+      "word": "many",
+      "start": 38.14,
+      "end": 38.82
+    },
+    {
+      "word": "shapes",
+      "start": 38.82,
+      "end": 39.44
+    },
+    {
+      "word": "what",
+      "start": 40.18,
+      "end": 40.36
+    },
+    {
+      "word": "shapes",
+      "start": 40.36,
+      "end": 40.8
+    },
+    {
+      "word": "do",
+      "start": 40.8,
+      "end": 41.22
+    },
+    {
+      "word": "you",
+      "start": 41.22,
+      "end": 41.52
+    },
+    {
+      "word": "see",
+      "start": 41.52,
+      "end": 42.16
+    },
+    {
+      "word": "connections",
+      "start": 42.56,
+      "end": 43.32
+    },
+    {
+      "word": "writing",
+      "start": 44.16,
+      "end": 44.36
+    },
+    {
+      "word": "and",
+      "start": 44.36,
+      "end": 44.96
+    },
+    {
+      "word": "art",
+      "start": 44.96,
+      "end": 45.62
+    },
+    {
+      "word": "draw",
+      "start": 46.92,
+      "end": 46.94
+    },
+    {
+      "word": "a",
+      "start": 46.94,
+      "end": 47.62
+    },
+    {
+      "word": "city",
+      "start": 47.62,
+      "end": 48.2
+    },
+    {
+      "word": "use",
+      "start": 48.8,
+      "end": 48.9
+    },
+    {
+      "word": "only",
+      "start": 48.9,
+      "end": 49.5
+    },
+    {
+      "word": "the",
+      "start": 49.5,
+      "end": 50.0
+    },
+    {
+      "word": "shapes",
+      "start": 50.0,
+      "end": 50.4
+    },
+    {
+      "word": "in",
+      "start": 50.4,
+      "end": 51.02
+    },
+    {
+      "word": "the",
+      "start": 51.02,
+      "end": 51.38
+    },
+    {
+      "word": "book",
+      "start": 51.38,
+      "end": 51.86
+    },
+    {
+      "word": "write",
+      "start": 52.88,
+      "end": 52.96
+    },
+    {
+      "word": "about",
+      "start": 52.96,
+      "end": 53.6
+    },
+    {
+      "word": "your",
+      "start": 53.6,
+      "end": 53.94
+    },
+    {
+      "word": "picture",
+      "start": 53.94,
+      "end": 54.52
+    },
+    {
+      "word": "math",
+      "start": 54.52,
+      "end": 56.3
+    },
+    {
+      "word": "sort",
+      "start": 56.98,
+      "end": 57.3
+    },
+    {
+      "word": "the",
+      "start": 57.3,
+      "end": 57.82
+    },
+    {
+      "word": "shapes",
+      "start": 57.82,
+      "end": 58.34
+    },
+    {
+      "word": "use",
+      "start": 59.16,
+      "end": 59.5
+    },
+    {
+      "word": "the",
+      "start": 59.5,
+      "end": 59.9
+    },
+    {
+      "word": "number",
+      "start": 59.9,
+      "end": 60.3
+    },
+    {
+      "word": "of",
+      "start": 60.3,
+      "end": 60.72
+    },
+    {
+      "word": "sides",
+      "start": 60.72,
+      "end": 61.22
+    },
+    {
+      "word": "to",
+      "start": 61.22,
+      "end": 61.74
+    },
+    {
+      "word": "sort",
+      "start": 61.74,
+      "end": 62.4
+    },
+    {
+      "word": "share",
+      "start": 63.32,
+      "end": 63.62
+    },
+    {
+      "word": "your",
+      "start": 63.62,
+      "end": 64.16
+    },
+    {
+      "word": "answer",
+      "start": 64.16,
+      "end": 64.74
+    },
+    {
+      "word": "with",
+      "start": 64.74,
+      "end": 65.46
+    },
+    {
+      "word": "a",
+      "start": 65.46,
+      "end": 65.7
+    },
+    {
+      "word": "partner",
+      "start": 65.7,
+      "end": 66.18
+    }
+  ]
+}

@@ -1,0 +1,421 @@
+{
+  "version": "1.0",
+  "total_words": 83,
+  "timings": [
+    {
+      "word": "the",
+      "start": 0.0,
+      "end": 0.46
+    },
+    {
+      "word": "aquarium",
+      "start": 0.46,
+      "end": 1.98
+    },
+    {
+      "word": "written",
+      "start": 3.4,
+      "end": 3.82
+    },
+    {
+      "word": "by",
+      "start": 3.82,
+      "end": 4.42
+    },
+    {
+      "word": "sarah",
+      "start": 4.42,
+      "end": 5.14
+    },
+    {
+      "word": "guson",
+      "start": 5.14,
+      "end": 6.8
+    },
+    {
+      "word": "focus",
+      "start": 8.16,
+      "end": 8.34
+    },
+    {
+      "word": "question",
+      "start": 8.34,
+      "end": 9.42
+    },
+    {
+      "word": "what",
+      "start": 10.66,
+      "end": 10.96
+    },
+    {
+      "word": "is",
+      "start": 10.96,
+      "end": 11.72
+    },
+    {
+      "word": "an",
+      "start": 11.72,
+      "end": 12.56
+    },
+    {
+      "word": "aquarium",
+      "start": 12.56,
+      "end": 13.5
+    },
+    {
+      "word": "fish",
+      "start": 13.5,
+      "end": 14.22
+    },
+    {
+      "word": "swim",
+      "start": 14.22,
+      "end": 15.16
+    },
+    {
+      "word": "in",
+      "start": 15.16,
+      "end": 16.04
+    },
+    {
+      "word": "this",
+      "start": 16.04,
+      "end": 16.82
+    },
+    {
+      "word": "tank",
+      "start": 16.82,
+      "end": 17.36
+    },
+    {
+      "word": "raise",
+      "start": 17.36,
+      "end": 18.02
+    },
+    {
+      "word": "glide",
+      "start": 18.42,
+      "end": 19.02
+    },
+    {
+      "word": "in",
+      "start": 19.02,
+      "end": 19.92
+    },
+    {
+      "word": "this",
+      "start": 19.92,
+      "end": 20.66
+    },
+    {
+      "word": "tank",
+      "start": 20.66,
+      "end": 21.16
+    },
+    {
+      "word": "otters",
+      "start": 21.54,
+      "end": 22.1
+    },
+    {
+      "word": "turn",
+      "start": 22.1,
+      "end": 23.04
+    },
+    {
+      "word": "in",
+      "start": 23.04,
+      "end": 24.28
+    },
+    {
+      "word": "this",
+      "start": 24.28,
+      "end": 24.7
+    },
+    {
+      "word": "tank",
+      "start": 24.7,
+      "end": 25.44
+    },
+    {
+      "word": "jellyfish",
+      "start": 25.74,
+      "end": 26.76
+    },
+    {
+      "word": "float",
+      "start": 26.76,
+      "end": 27.8
+    },
+    {
+      "word": "in",
+      "start": 27.8,
+      "end": 28.9
+    },
+    {
+      "word": "this",
+      "start": 28.9,
+      "end": 29.58
+    },
+    {
+      "word": "tank",
+      "start": 29.58,
+      "end": 30.32
+    },
+    {
+      "word": "turtles",
+      "start": 30.64,
+      "end": 31.3
+    },
+    {
+      "word": "eat",
+      "start": 31.3,
+      "end": 32.44
+    },
+    {
+      "word": "in",
+      "start": 32.44,
+      "end": 33.6
+    },
+    {
+      "word": "this",
+      "start": 33.6,
+      "end": 34.34
+    },
+    {
+      "word": "tank",
+      "start": 34.34,
+      "end": 35.18
+    },
+    {
+      "word": "seals",
+      "start": 35.44,
+      "end": 36.2
+    },
+    {
+      "word": "flip",
+      "start": 36.2,
+      "end": 37.14
+    },
+    {
+      "word": "in",
+      "start": 37.14,
+      "end": 38.66
+    },
+    {
+      "word": "this",
+      "start": 38.66,
+      "end": 39.22
+    },
+    {
+      "word": "tank",
+      "start": 39.22,
+      "end": 40.08
+    },
+    {
+      "word": "dolphins",
+      "start": 40.38,
+      "end": 41.16
+    },
+    {
+      "word": "play",
+      "start": 41.16,
+      "end": 42.26
+    },
+    {
+      "word": "in",
+      "start": 42.26,
+      "end": 43.38
+    },
+    {
+      "word": "this",
+      "start": 43.38,
+      "end": 44.08
+    },
+    {
+      "word": "tank",
+      "start": 44.08,
+      "end": 45.24
+    },
+    {
+      "word": "wale's",
+      "start": 45.24,
+      "end": 46.66
+    },
+    {
+      "word": "dive",
+      "start": 46.66,
+      "end": 47.72
+    },
+    {
+      "word": "in",
+      "start": 47.72,
+      "end": 48.54
+    },
+    {
+      "word": "this",
+      "start": 48.54,
+      "end": 49.26
+    },
+    {
+      "word": "tank",
+      "start": 49.26,
+      "end": 50.04
+    },
+    {
+      "word": "connections",
+      "start": 50.04,
+      "end": 51.32
+    },
+    {
+      "word": "writing",
+      "start": 52.94,
+      "end": 53.1
+    },
+    {
+      "word": "list",
+      "start": 54.62,
+      "end": 55.28
+    },
+    {
+      "word": "all",
+      "start": 55.28,
+      "end": 56.16
+    },
+    {
+      "word": "the",
+      "start": 56.16,
+      "end": 56.7
+    },
+    {
+      "word": "animals",
+      "start": 56.7,
+      "end": 57.2
+    },
+    {
+      "word": "from",
+      "start": 57.2,
+      "end": 58.18
+    },
+    {
+      "word": "the",
+      "start": 58.18,
+      "end": 58.58
+    },
+    {
+      "word": "book",
+      "start": 58.58,
+      "end": 59.16
+    },
+    {
+      "word": "then",
+      "start": 60.36,
+      "end": 60.58
+    },
+    {
+      "word": "write",
+      "start": 60.58,
+      "end": 61.58
+    },
+    {
+      "word": "them",
+      "start": 61.58,
+      "end": 62.32
+    },
+    {
+      "word": "in",
+      "start": 62.32,
+      "end": 62.76
+    },
+    {
+      "word": "a",
+      "start": 62.76,
+      "end": 63.3
+    },
+    {
+      "word": "b",
+      "start": 63.32,
+      "end": 63.64
+    },
+    {
+      "word": "c",
+      "start": 63.88,
+      "end": 64.26
+    },
+    {
+      "word": "order",
+      "start": 65.0,
+      "end": 65.0
+    },
+    {
+      "word": "science",
+      "start": 66.54,
+      "end": 67.04
+    },
+    {
+      "word": "what",
+      "start": 68.68,
+      "end": 68.82
+    },
+    {
+      "word": "do",
+      "start": 68.82,
+      "end": 69.34
+    },
+    {
+      "word": "you",
+      "start": 69.34,
+      "end": 69.62
+    },
+    {
+      "word": "know",
+      "start": 69.62,
+      "end": 70.22
+    },
+    {
+      "word": "about",
+      "start": 70.22,
+      "end": 70.84
+    },
+    {
+      "word": "ocean",
+      "start": 70.84,
+      "end": 71.72
+    },
+    {
+      "word": "animals",
+      "start": 71.72,
+      "end": 72.76
+    },
+    {
+      "word": "share",
+      "start": 72.76,
+      "end": 74.18
+    },
+    {
+      "word": "your",
+      "start": 74.18,
+      "end": 74.7
+    },
+    {
+      "word": "ideas",
+      "start": 74.7,
+      "end": 75.38
+    },
+    {
+      "word": "with",
+      "start": 75.38,
+      "end": 76.2
+    },
+    {
+      "word": "a",
+      "start": 76.2,
+      "end": 76.46
+    },
+    {
+      "word": "partner",
+      "start": 76.46,
+      "end": 76.96
+    }
+  ]
+}

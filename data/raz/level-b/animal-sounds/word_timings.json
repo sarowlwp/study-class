@@ -1,0 +1,136 @@
+{
+  "version": "1.0",
+  "total_words": 26,
+  "timings": [
+    {
+      "word": "animal",
+      "start": 0.0,
+      "end": 0.44
+    },
+    {
+      "word": "sounds",
+      "start": 0.44,
+      "end": 1.2
+    },
+    {
+      "word": "written",
+      "start": 1.82,
+      "end": 2.08
+    },
+    {
+      "word": "by",
+      "start": 2.08,
+      "end": 2.6
+    },
+    {
+      "word": "ned",
+      "start": 2.6,
+      "end": 3.34
+    },
+    {
+      "word": "jensen",
+      "start": 3.34,
+      "end": 4.02
+    },
+    {
+      "word": "dogs",
+      "start": 4.68,
+      "end": 5.16
+    },
+    {
+      "word": "bark",
+      "start": 5.16,
+      "end": 5.98
+    },
+    {
+      "word": "cats",
+      "start": 6.36,
+      "end": 6.76
+    },
+    {
+      "word": "meow",
+      "start": 6.76,
+      "end": 7.68
+    },
+    {
+      "word": "cows",
+      "start": 8.24,
+      "end": 8.72
+    },
+    {
+      "word": "move",
+      "start": 8.72,
+      "end": 9.74
+    },
+    {
+      "word": "pigs",
+      "start": 10.16,
+      "end": 10.64
+    },
+    {
+      "word": "oink",
+      "start": 10.64,
+      "end": 11.34
+    },
+    {
+      "word": "birds",
+      "start": 11.62,
+      "end": 11.96
+    },
+    {
+      "word": "chirp",
+      "start": 11.96,
+      "end": 12.96
+    },
+    {
+      "word": "ducks",
+      "start": 13.06,
+      "end": 13.48
+    },
+    {
+      "word": "quack",
+      "start": 14.02,
+      "end": 14.38
+    },
+    {
+      "word": "snakes",
+      "start": 14.9,
+      "end": 15.22
+    },
+    {
+      "word": "hiss",
+      "start": 15.7,
+      "end": 16.22
+    },
+    {
+      "word": "bees",
+      "start": 16.82,
+      "end": 17.26
+    },
+    {
+      "word": "buzz",
+      "start": 17.26,
+      "end": 18.04
+    },
+    {
+      "word": "lion's",
+      "start": 18.76,
+      "end": 19.6
+    },
+    {
+      "word": "roar",
+      "start": 19.6,
+      "end": 20.34
+    },
+    {
+      "word": "dad's",
+      "start": 20.86,
+      "end": 21.8
+    },
+    {
+      "word": "noir",
+      "start": 21.8,
+      "end": 22.32
+    }
+  ]
+}

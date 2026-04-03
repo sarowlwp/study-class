@@ -1,0 +1,58 @@
+{
+  "id": "level-aa/at-the-lake",
+  "title": "At The Lake",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , aa At the Lake Written by Sarah Ghusson Illustrated by Nina de Polonia wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "At the Lake Written by Sarah Ghusson Illustrated by Nina de Polonia wwwreadinga-z.com Focus Question What can you see at the lake?"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know boat lake dock rock fish swimsuit At the Lake Level aa Leveled Book 0 Learning A-Z Correlation Written by Sarah Ghusson LEVEL aa Illustrated by Nina de Polonia Fountas & Pinnell A All rights reserved: Reading Recovery DRA A-1 wwwreadinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "01 This swimsuit. At the Lake * Level aa 3"
+    },
+    {
+      "page": 5,
+      "text": "This dock"
+    },
+    {
+      "page": 6,
+      "text": "This boat: At the Lake * Level aa 5"
+    },
+    {
+      "page": 7,
+      "text": "l This tree: Uij\""
+    },
+    {
+      "page": 8,
+      "text": "5 This fish: At the Lake * Level aa"
+    },
+    {
+      "page": 9,
+      "text": "This rock 8"
+    },
+    {
+      "page": 10,
+      "text": "E3 57 This At the Lake * Level aa 883 2 frog:"
+    },
+    {
+      "page": 11,
+      "text": "This lake: 10 Mi"
+    },
+    {
+      "page": 12,
+      "text": "At the Lake A Reading A-Z Level aa Leveled Book Word Count: 16 Connections Writing and Art What else could you see at the lake? Draw a picture and write this sentence This Science What plants and animals live at the lake? Share your ideas with a partner: Reading A-z Visit wwwreadinga-z.com for thousands of books and materials."
+    }
+  ]
+}

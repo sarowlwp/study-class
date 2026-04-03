@@ -1,0 +1,181 @@
+{
+  "version": "1.0",
+  "total_words": 35,
+  "timings": [
+    {
+      "word": "we",
+      "start": 0.0,
+      "end": 0.4
+    },
+    {
+      "word": "can",
+      "start": 0.4,
+      "end": 0.94
+    },
+    {
+      "word": "make",
+      "start": 0.94,
+      "end": 1.44
+    },
+    {
+      "word": "sounds",
+      "start": 1.44,
+      "end": 2.42
+    },
+    {
+      "word": "written",
+      "start": 3.08,
+      "end": 3.26
+    },
+    {
+      "word": "by",
+      "start": 3.26,
+      "end": 3.74
+    },
+    {
+      "word": "a",
+      "start": 3.74,
+      "end": 3.92
+    },
+    {
+      "word": "net",
+      "start": 3.92,
+      "end": 4.16
+    },
+    {
+      "word": "co",
+      "start": 4.16,
+      "end": 4.48
+    },
+    {
+      "word": "-revers",
+      "start": 4.48,
+      "end": 5.0
+    },
+    {
+      "word": "we",
+      "start": 6.06,
+      "end": 6.08
+    },
+    {
+      "word": "can",
+      "start": 6.08,
+      "end": 6.48
+    },
+    {
+      "word": "clap",
+      "start": 6.48,
+      "end": 6.98
+    },
+    {
+      "word": "we",
+      "start": 7.5,
+      "end": 7.62
+    },
+    {
+      "word": "can",
+      "start": 7.62,
+      "end": 8.2
+    },
+    {
+      "word": "snap",
+      "start": 8.2,
+      "end": 8.78
+    },
+    {
+      "word": "we",
+      "start": 9.32,
+      "end": 9.64
+    },
+    {
+      "word": "can",
+      "start": 9.64,
+      "end": 10.0
+    },
+    {
+      "word": "pop",
+      "start": 10.0,
+      "end": 10.42
+    },
+    {
+      "word": "we",
+      "start": 10.88,
+      "end": 11.1
+    },
+    {
+      "word": "can",
+      "start": 11.1,
+      "end": 11.8
+    },
+    {
+      "word": "tap",
+      "start": 11.8,
+      "end": 12.26
+    },
+    {
+      "word": "we",
+      "start": 12.54,
+      "end": 12.92
+    },
+    {
+      "word": "can",
+      "start": 12.92,
+      "end": 13.36
+    },
+    {
+      "word": "wrap",
+      "start": 13.36,
+      "end": 13.82
+    },
+    {
+      "word": "we",
+      "start": 14.3,
+      "end": 14.52
+    },
+    {
+      "word": "can",
+      "start": 14.52,
+      "end": 14.96
+    },
+    {
+      "word": "slap",
+      "start": 14.96,
+      "end": 15.52
+    },
+    {
+      "word": "we",
+      "start": 15.88,
+      "end": 16.14
+    },
+    {
+      "word": "can",
+      "start": 16.14,
+      "end": 16.78
+    },
+    {
+      "word": "stop",
+      "start": 16.78,
+      "end": 17.2
+    },
+    {
+      "word": "we",
+      "start": 17.66,
+      "end": 18.0
+    },
+    {
+      "word": "can",
+      "start": 18.0,
+      "end": 18.3
+    },
+    {
+      "word": "make",
+      "start": 18.3,
+      "end": 18.92
+    },
+    {
+      "word": "sounds",
+      "start": 18.92,
+      "end": 19.48
+    }
+  ]
+}

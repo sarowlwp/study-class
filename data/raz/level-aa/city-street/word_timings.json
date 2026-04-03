@@ -1,0 +1,376 @@
+{
+  "version": "1.0",
+  "total_words": 74,
+  "timings": [
+    {
+      "word": "city",
+      "start": 0.0,
+      "end": 0.6
+    },
+    {
+      "word": "street",
+      "start": 0.6,
+      "end": 1.88
+    },
+    {
+      "word": "written",
+      "start": 2.42,
+      "end": 2.62
+    },
+    {
+      "word": "by",
+      "start": 2.62,
+      "end": 3.32
+    },
+    {
+      "word": "harriet",
+      "start": 3.32,
+      "end": 3.8
+    },
+    {
+      "word": "rosenblum",
+      "start": 3.8,
+      "end": 5.16
+    },
+    {
+      "word": "illustrated",
+      "start": 5.9,
+      "end": 6.64
+    },
+    {
+      "word": "by",
+      "start": 6.64,
+      "end": 7.04
+    },
+    {
+      "word": "merrill",
+      "start": 7.04,
+      "end": 7.6
+    },
+    {
+      "word": "rainy",
+      "start": 7.6,
+      "end": 8.17
+    },
+    {
+      "word": "focus",
+      "start": 9.32,
+      "end": 9.52
+    },
+    {
+      "word": "question",
+      "start": 9.52,
+      "end": 10.26
+    },
+    {
+      "word": "what",
+      "start": 11.34,
+      "end": 11.54
+    },
+    {
+      "word": "do",
+      "start": 11.54,
+      "end": 12.12
+    },
+    {
+      "word": "you",
+      "start": 12.12,
+      "end": 12.2
+    },
+    {
+      "word": "see",
+      "start": 12.2,
+      "end": 12.56
+    },
+    {
+      "word": "in",
+      "start": 12.56,
+      "end": 12.8
+    },
+    {
+      "word": "a",
+      "start": 12.8,
+      "end": 13.04
+    },
+    {
+      "word": "city",
+      "start": 13.04,
+      "end": 13.48
+    },
+    {
+      "word": "the",
+      "start": 13.94,
+      "end": 14.22
+    },
+    {
+      "word": "steps",
+      "start": 14.22,
+      "end": 14.84
+    },
+    {
+      "word": "the",
+      "start": 15.46,
+      "end": 15.62
+    },
+    {
+      "word": "sidewalk",
+      "start": 15.62,
+      "end": 16.52
+    },
+    {
+      "word": "the",
+      "start": 17.32,
+      "end": 17.72
+    },
+    {
+      "word": "food",
+      "start": 17.72,
+      "end": 18.3
+    },
+    {
+      "word": "the",
+      "start": 18.78,
+      "end": 19.04
+    },
+    {
+      "word": "buildings",
+      "start": 19.04,
+      "end": 19.88
+    },
+    {
+      "word": "the",
+      "start": 19.88,
+      "end": 20.88
+    },
+    {
+      "word": "taxi",
+      "start": 20.88,
+      "end": 21.86
+    },
+    {
+      "word": "the",
+      "start": 22.52,
+      "end": 22.6
+    },
+    {
+      "word": "bus",
+      "start": 22.6,
+      "end": 23.46
+    },
+    {
+      "word": "the",
+      "start": 23.96,
+      "end": 24.18
+    },
+    {
+      "word": "people",
+      "start": 24.18,
+      "end": 24.96
+    },
+    {
+      "word": "the",
+      "start": 25.6,
+      "end": 26.02
+    },
+    {
+      "word": "street",
+      "start": 26.02,
+      "end": 26.56
+    },
+    {
+      "word": "connections",
+      "start": 26.98,
+      "end": 27.72
+    },
+    {
+      "word": "writing",
+      "start": 28.76,
+      "end": 29.02
+    },
+    {
+      "word": "and",
+      "start": 29.02,
+      "end": 29.58
+    },
+    {
+      "word": "art",
+      "start": 29.58,
+      "end": 30.48
+    },
+    {
+      "word": "draw",
+      "start": 31.1,
+      "end": 31.1
+    },
+    {
+      "word": "a",
+      "start": 31.1,
+      "end": 31.42
+    },
+    {
+      "word": "picture",
+      "start": 31.42,
+      "end": 31.78
+    },
+    {
+      "word": "of",
+      "start": 31.78,
+      "end": 32.24
+    },
+    {
+      "word": "a",
+      "start": 32.24,
+      "end": 32.42
+    },
+    {
+      "word": "city",
+      "start": 32.42,
+      "end": 32.64
+    },
+    {
+      "word": "you",
+      "start": 32.64,
+      "end": 33.04
+    },
+    {
+      "word": "know",
+      "start": 33.04,
+      "end": 33.66
+    },
+    {
+      "word": "write",
+      "start": 34.32,
+      "end": 34.5
+    },
+    {
+      "word": "the",
+      "start": 34.5,
+      "end": 34.84
+    },
+    {
+      "word": "name",
+      "start": 34.84,
+      "end": 35.18
+    },
+    {
+      "word": "of",
+      "start": 35.18,
+      "end": 35.54
+    },
+    {
+      "word": "the",
+      "start": 35.54,
+      "end": 35.78
+    },
+    {
+      "word": "city",
+      "start": 35.78,
+      "end": 36.08
+    },
+    {
+      "word": "on",
+      "start": 36.08,
+      "end": 36.44
+    },
+    {
+      "word": "your",
+      "start": 36.44,
+      "end": 36.7
+    },
+    {
+      "word": "picture",
+      "start": 36.7,
+      "end": 37.18
+    },
+    {
+      "word": "social",
+      "start": 38.22,
+      "end": 38.44
+    },
+    {
+      "word": "studies",
+      "start": 38.44,
+      "end": 39.12
+    },
+    {
+      "word": "what",
+      "start": 40.04,
+      "end": 40.2
+    },
+    {
+      "word": "is",
+      "start": 40.2,
+      "end": 40.44
+    },
+    {
+      "word": "the",
+      "start": 40.44,
+      "end": 40.66
+    },
+    {
+      "word": "difference",
+      "start": 40.66,
+      "end": 41.14
+    },
+    {
+      "word": "between",
+      "start": 41.14,
+      "end": 41.72
+    },
+    {
+      "word": "a",
+      "start": 41.72,
+      "end": 42.16
+    },
+    {
+      "word": "city",
+      "start": 42.16,
+      "end": 42.48
+    },
+    {
+      "word": "and",
+      "start": 42.48,
+      "end": 42.98
+    },
+    {
+      "word": "a",
+      "start": 42.98,
+      "end": 43.16
+    },
+    {
+      "word": "farm",
+      "start": 43.16,
+      "end": 43.72
+    },
+    {
+      "word": "share",
+      "start": 44.58,
+      "end": 44.74
+    },
+    {
+      "word": "your",
+      "start": 44.74,
+      "end": 45.12
+    },
+    {
+      "word": "ideas",
+      "start": 45.12,
+      "end": 45.64
+    },
+    {
+      "word": "with",
+      "start": 45.64,
+      "end": 46.02
+    },
+    {
+      "word": "a",
+      "start": 46.02,
+      "end": 46.18
+    },
+    {
+      "word": "partner",
+      "start": 46.18,
+      "end": 46.46
+    }
+  ]
+}

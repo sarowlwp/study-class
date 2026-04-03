@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/the-classroom",
+  "title": "The Classroom",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book 0 Aa V M Gud # WNa The Ma THe Classroom Written by Nanette Rautscher 8 wwwreadinga-z.com They] WME"
+    },
+    {
+      "page": 2,
+      "text": "The Classroom 0l Written by Nanette Rautscher wwwreadinga-z.com N"
+    },
+    {
+      "page": 3,
+      "text": "The chair. The Classroom Level aa 3"
+    },
+    {
+      "page": 4,
+      "text": "The desk Dethr"
+    },
+    {
+      "page": 5,
+      "text": "LEVELED READER 'aa Fido Gets Dressed Written by S.R. Richenson Illustrated by Angela Kamstra wwwreadinga-z.C com The book: The Classroom Level aa 5"
+    },
+    {
+      "page": 6,
+      "text": "The paper: 6"
+    },
+    {
+      "page": 7,
+      "text": "The pencil The Classroom Level aa"
+    },
+    {
+      "page": 8,
+      "text": "The eraser; 8"
+    },
+    {
+      "page": 9,
+      "text": "The backpack: The Classroom Level aa"
+    },
+    {
+      "page": 10,
+      "text": "The classroom: 10 Suuit I>"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Cover; title page; 5, 8, 10: Craig Frederick/@ Learning Inc; back cover; pages 3, 4,6, 8 9: @0 Hemera Technologies The Classroom Level aa Leveled Book Correlation Learning A-Z LEVEL aa Written by Nanette Rautscher Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-zcom Page;"
+    }
+  ]
+}

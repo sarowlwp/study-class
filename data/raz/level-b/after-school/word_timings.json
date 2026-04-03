@@ -1,0 +1,571 @@
+{
+  "version": "1.0",
+  "total_words": 113,
+  "timings": [
+    {
+      "word": "after",
+      "start": 0.0,
+      "end": 0.48
+    },
+    {
+      "word": "school",
+      "start": 0.48,
+      "end": 1.76
+    },
+    {
+      "word": "written",
+      "start": 2.64,
+      "end": 2.94
+    },
+    {
+      "word": "by",
+      "start": 2.94,
+      "end": 3.88
+    },
+    {
+      "word": "elizabeth",
+      "start": 3.88,
+      "end": 4.8
+    },
+    {
+      "word": "jane",
+      "start": 4.8,
+      "end": 5.76
+    },
+    {
+      "word": "pistilmic",
+      "start": 5.76,
+      "end": 7.26
+    },
+    {
+      "word": "illustrated",
+      "start": 8.3,
+      "end": 8.86
+    },
+    {
+      "word": "by",
+      "start": 8.86,
+      "end": 9.96
+    },
+    {
+      "word": "tracy",
+      "start": 9.96,
+      "end": 10.84
+    },
+    {
+      "word": "bishop",
+      "start": 10.84,
+      "end": 12.02
+    },
+    {
+      "word": "focus",
+      "start": 13.4,
+      "end": 13.68
+    },
+    {
+      "word": "question",
+      "start": 13.68,
+      "end": 15.16
+    },
+    {
+      "word": "what",
+      "start": 15.16,
+      "end": 16.26
+    },
+    {
+      "word": "are",
+      "start": 16.26,
+      "end": 17.14
+    },
+    {
+      "word": "some",
+      "start": 17.14,
+      "end": 17.72
+    },
+    {
+      "word": "ways",
+      "start": 17.72,
+      "end": 18.58
+    },
+    {
+      "word": "to",
+      "start": 18.58,
+      "end": 19.46
+    },
+    {
+      "word": "have",
+      "start": 19.46,
+      "end": 20.0
+    },
+    {
+      "word": "fun",
+      "start": 20.0,
+      "end": 20.82
+    },
+    {
+      "word": "after",
+      "start": 20.82,
+      "end": 21.7
+    },
+    {
+      "word": "school",
+      "start": 21.7,
+      "end": 22.6
+    },
+    {
+      "word": "i",
+      "start": 23.38,
+      "end": 23.42
+    },
+    {
+      "word": "like",
+      "start": 23.42,
+      "end": 24.34
+    },
+    {
+      "word": "to",
+      "start": 24.34,
+      "end": 25.34
+    },
+    {
+      "word": "study",
+      "start": 25.34,
+      "end": 25.76
+    },
+    {
+      "word": "after",
+      "start": 25.76,
+      "end": 26.84
+    },
+    {
+      "word": "school",
+      "start": 26.84,
+      "end": 27.96
+    },
+    {
+      "word": "i",
+      "start": 28.38,
+      "end": 28.54
+    },
+    {
+      "word": "like",
+      "start": 28.54,
+      "end": 29.46
+    },
+    {
+      "word": "to",
+      "start": 29.46,
+      "end": 30.14
+    },
+    {
+      "word": "play",
+      "start": 30.14,
+      "end": 30.82
+    },
+    {
+      "word": "after",
+      "start": 30.82,
+      "end": 31.86
+    },
+    {
+      "word": "school",
+      "start": 31.86,
+      "end": 32.94
+    },
+    {
+      "word": "i",
+      "start": 33.16,
+      "end": 33.62
+    },
+    {
+      "word": "like",
+      "start": 33.62,
+      "end": 34.56
+    },
+    {
+      "word": "to",
+      "start": 34.56,
+      "end": 35.28
+    },
+    {
+      "word": "dance",
+      "start": 35.28,
+      "end": 36.3
+    },
+    {
+      "word": "after",
+      "start": 36.3,
+      "end": 37.26
+    },
+    {
+      "word": "school",
+      "start": 37.26,
+      "end": 38.36
+    },
+    {
+      "word": "i",
+      "start": 38.36,
+      "end": 38.84
+    },
+    {
+      "word": "like",
+      "start": 38.84,
+      "end": 39.52
+    },
+    {
+      "word": "to",
+      "start": 39.52,
+      "end": 40.06
+    },
+    {
+      "word": "act",
+      "start": 40.06,
+      "end": 40.76
+    },
+    {
+      "word": "after",
+      "start": 40.76,
+      "end": 41.78
+    },
+    {
+      "word": "school",
+      "start": 41.78,
+      "end": 42.78
+    },
+    {
+      "word": "i",
+      "start": 42.78,
+      "end": 43.4
+    },
+    {
+      "word": "like",
+      "start": 43.4,
+      "end": 44.02
+    },
+    {
+      "word": "to",
+      "start": 44.02,
+      "end": 44.68
+    },
+    {
+      "word": "read",
+      "start": 44.68,
+      "end": 45.38
+    },
+    {
+      "word": "after",
+      "start": 45.38,
+      "end": 46.22
+    },
+    {
+      "word": "school",
+      "start": 46.22,
+      "end": 47.26
+    },
+    {
+      "word": "i",
+      "start": 47.74,
+      "end": 47.98
+    },
+    {
+      "word": "like",
+      "start": 47.98,
+      "end": 48.82
+    },
+    {
+      "word": "to",
+      "start": 48.82,
+      "end": 49.38
+    },
+    {
+      "word": "sing",
+      "start": 49.38,
+      "end": 50.04
+    },
+    {
+      "word": "after",
+      "start": 50.04,
+      "end": 50.92
+    },
+    {
+      "word": "school",
+      "start": 50.92,
+      "end": 51.92
+    },
+    {
+      "word": "i",
+      "start": 52.5,
+      "end": 52.5
+    },
+    {
+      "word": "like",
+      "start": 52.5,
+      "end": 53.18
+    },
+    {
+      "word": "to",
+      "start": 53.18,
+      "end": 53.8
+    },
+    {
+      "word": "bike",
+      "start": 53.8,
+      "end": 54.5
+    },
+    {
+      "word": "after",
+      "start": 54.5,
+      "end": 55.44
+    },
+    {
+      "word": "school",
+      "start": 55.44,
+      "end": 56.4
+    },
+    {
+      "word": "we",
+      "start": 56.9,
+      "end": 57.1
+    },
+    {
+      "word": "like",
+      "start": 57.1,
+      "end": 57.94
+    },
+    {
+      "word": "to",
+      "start": 57.94,
+      "end": 58.5
+    },
+    {
+      "word": "have",
+      "start": 58.5,
+      "end": 59.04
+    },
+    {
+      "word": "fun",
+      "start": 59.04,
+      "end": 59.82
+    },
+    {
+      "word": "after",
+      "start": 59.82,
+      "end": 60.58
+    },
+    {
+      "word": "school",
+      "start": 60.58,
+      "end": 61.72
+    },
+    {
+      "word": "connections",
+      "start": 61.72,
+      "end": 62.78
+    },
+    {
+      "word": "writing",
+      "start": 64.06,
+      "end": 64.22
+    },
+    {
+      "word": "and",
+      "start": 64.22,
+      "end": 65.18
+    },
+    {
+      "word": "art",
+      "start": 65.18,
+      "end": 66.18
+    },
+    {
+      "word": "make",
+      "start": 66.18,
+      "end": 67.52
+    },
+    {
+      "word": "a",
+      "start": 67.52,
+      "end": 68.32
+    },
+    {
+      "word": "new",
+      "start": 68.32,
+      "end": 68.74
+    },
+    {
+      "word": "page",
+      "start": 68.74,
+      "end": 69.58
+    },
+    {
+      "word": "for",
+      "start": 69.58,
+      "end": 70.46
+    },
+    {
+      "word": "this",
+      "start": 70.46,
+      "end": 71.1
+    },
+    {
+      "word": "book",
+      "start": 71.1,
+      "end": 72.04
+    },
+    {
+      "word": "draw",
+      "start": 73.02,
+      "end": 73.26
+    },
+    {
+      "word": "a",
+      "start": 73.26,
+      "end": 73.9
+    },
+    {
+      "word": "picture",
+      "start": 73.9,
+      "end": 74.66
+    },
+    {
+      "word": "and",
+      "start": 74.66,
+      "end": 75.54
+    },
+    {
+      "word": "write",
+      "start": 75.54,
+      "end": 76.24
+    },
+    {
+      "word": "this",
+      "start": 76.24,
+      "end": 76.96
+    },
+    {
+      "word": "sentence",
+      "start": 76.96,
+      "end": 78.0
+    },
+    {
+      "word": "i",
+      "start": 79.34,
+      "end": 79.38
+    },
+    {
+      "word": "like",
+      "start": 79.38,
+      "end": 80.32
+    },
+    {
+      "word": "to",
+      "start": 80.32,
+      "end": 81.38
+    },
+    {
+      "word": "after",
+      "start": 81.38,
+      "end": 82.62
+    },
+    {
+      "word": "school",
+      "start": 82.62,
+      "end": 83.74
+    },
+    {
+      "word": "math",
+      "start": 83.74,
+      "end": 85.1
+    },
+    {
+      "word": "what",
+      "start": 86.3,
+      "end": 86.58
+    },
+    {
+      "word": "do",
+      "start": 86.58,
+      "end": 87.36
+    },
+    {
+      "word": "your",
+      "start": 87.36,
+      "end": 87.9
+    },
+    {
+      "word": "classmates",
+      "start": 87.9,
+      "end": 88.72
+    },
+    {
+      "word": "do",
+      "start": 88.72,
+      "end": 89.74
+    },
+    {
+      "word": "after",
+      "start": 89.74,
+      "end": 90.46
+    },
+    {
+      "word": "school",
+      "start": 90.46,
+      "end": 91.34
+    },
+    {
+      "word": "make",
+      "start": 92.34,
+      "end": 92.74
+    },
+    {
+      "word": "a",
+      "start": 92.74,
+      "end": 93.38
+    },
+    {
+      "word": "bar",
+      "start": 93.38,
+      "end": 93.76
+    },
+    {
+      "word": "graph",
+      "start": 93.76,
+      "end": 94.6
+    },
+    {
+      "word": "as",
+      "start": 94.6,
+      "end": 95.34
+    },
+    {
+      "word": "a",
+      "start": 95.34,
+      "end": 95.84
+    },
+    {
+      "word": "class",
+      "start": 95.84,
+      "end": 96.42
+    },
+    {
+      "word": "to",
+      "start": 96.42,
+      "end": 97.3
+    },
+    {
+      "word": "show",
+      "start": 97.3,
+      "end": 98.12
+    },
+    {
+      "word": "this",
+      "start": 98.12,
+      "end": 98.86
+    },
+    {
+      "word": "information",
+      "start": 98.86,
+      "end": 99.46
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "version": "1.0",
+  "total_words": 55,
+  "timings": [
+    {
+      "word": "carlos",
+      "start": 0.0,
+      "end": 0.86
+    },
+    {
+      "word": "and",
+      "start": 0.86,
+      "end": 2.08
+    },
+    {
+      "word": "his",
+      "start": 2.08,
+      "end": 3.06
+    },
+    {
+      "word": "teacher",
+      "start": 3.06,
+      "end": 4.28
+    },
+    {
+      "word": "written",
+      "start": 5.3,
+      "end": 5.78
+    },
+    {
+      "word": "by",
+      "start": 5.78,
+      "end": 6.9
+    },
+    {
+      "word": "lorena",
+      "start": 6.9,
+      "end": 8.18
+    },
+    {
+      "word": "f",
+      "start": 8.18,
+      "end": 9.52
+    },
+    {
+      "word": "d",
+      "start": 9.94,
+      "end": 10.24
+    },
+    {
+      "word": "bello",
+      "start": 10.3,
+      "end": 11.12
+    },
+    {
+      "word": "illustrated",
+      "start": 12.06,
+      "end": 12.8
+    },
+    {
+      "word": "by",
+      "start": 12.8,
+      "end": 14.18
+    },
+    {
+      "word": "angela",
+      "start": 14.18,
+      "end": 14.9
+    },
+    {
+      "word": "camstra",
+      "start": 14.9,
+      "end": 16.7
+    },
+    {
+      "word": "jacobson",
+      "start": 16.7,
+      "end": 18.1
+    },
+    {
+      "word": "carlos",
+      "start": 18.26,
+      "end": 18.96
+    },
+    {
+      "word": "and",
+      "start": 20.0,
+      "end": 20.1
+    },
+    {
+      "word": "his",
+      "start": 20.1,
+      "end": 21.12
+    },
+    {
+      "word": "teacher",
+      "start": 21.12,
+      "end": 22.1
+    },
+    {
+      "word": "talk",
+      "start": 22.86,
+      "end": 23.36
+    },
+    {
+      "word": "carlos",
+      "start": 23.9,
+      "end": 24.4
+    },
+    {
+      "word": "and",
+      "start": 25.44,
+      "end": 25.84
+    },
+    {
+      "word": "his",
+      "start": 25.84,
+      "end": 26.48
+    },
+    {
+      "word": "teacher",
+      "start": 26.48,
+      "end": 27.4
+    },
+    {
+      "word": "right",
+      "start": 28.4,
+      "end": 28.7
+    },
+    {
+      "word": "carlos",
+      "start": 29.96,
+      "end": 29.96
+    },
+    {
+      "word": "and",
+      "start": 31.32,
+      "end": 31.32
+    },
+    {
+      "word": "his",
+      "start": 31.32,
+      "end": 31.88
+    },
+    {
+      "word": "teacher",
+      "start": 31.88,
+      "end": 32.88
+    },
+    {
+      "word": "read",
+      "start": 32.88,
+      "end": 34.12
+    },
+    {
+      "word": "carlos",
+      "start": 34.12,
+      "end": 35.16
+    },
+    {
+      "word": "and",
+      "start": 35.16,
+      "end": 36.44
+    },
+    {
+      "word": "his",
+      "start": 36.44,
+      "end": 37.28
+    },
+    {
+      "word": "teacher",
+      "start": 37.28,
+      "end": 38.42
+    },
+    {
+      "word": "add",
+      "start": 39.1,
+      "end": 39.78
+    },
+    {
+      "word": "carlos",
+      "start": 39.78,
+      "end": 40.66
+    },
+    {
+      "word": "and",
+      "start": 40.66,
+      "end": 42.08
+    },
+    {
+      "word": "his",
+      "start": 42.08,
+      "end": 43.02
+    },
+    {
+      "word": "teacher",
+      "start": 43.02,
+      "end": 44.18
+    },
+    {
+      "word": "share",
+      "start": 45.2,
+      "end": 45.58
+    },
+    {
+      "word": "carlos",
+      "start": 45.58,
+      "end": 46.78
+    },
+    {
+      "word": "and",
+      "start": 46.78,
+      "end": 48.04
+    },
+    {
+      "word": "his",
+      "start": 48.04,
+      "end": 48.82
+    },
+    {
+      "word": "teacher",
+      "start": 48.82,
+      "end": 49.86
+    },
+    {
+      "word": "paint",
+      "start": 50.84,
+      "end": 51.18
+    },
+    {
+      "word": "carlos",
+      "start": 51.18,
+      "end": 52.18
+    },
+    {
+      "word": "and",
+      "start": 53.42,
+      "end": 53.46
+    },
+    {
+      "word": "his",
+      "start": 53.46,
+      "end": 54.34
+    },
+    {
+      "word": "teacher",
+      "start": 54.34,
+      "end": 55.66
+    },
+    {
+      "word": "glean",
+      "start": 56.52,
+      "end": 57.06
+    },
+    {
+      "word": "carlos",
+      "start": 57.3,
+      "end": 58.16
+    },
+    {
+      "word": "and",
+      "start": 59.02,
+      "end": 59.34
+    },
+    {
+      "word": "his",
+      "start": 59.34,
+      "end": 60.14
+    },
+    {
+      "word": "teacher",
+      "start": 60.14,
+      "end": 61.32
+    },
+    {
+      "word": "play",
+      "start": 61.32,
+      "end": 62.46
+    }
+  ]
+}

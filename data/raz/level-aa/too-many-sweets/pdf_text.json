@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/too-many-sweets",
+  "title": "Too Many Sweets",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , Aa Too Sweets Written Rus Buyok Illusirated by Damian Ward wwwreadinga-z.com Many by"
+    },
+    {
+      "page": 2,
+      "text": "Too Sweets Written by Rus Buyok Illustrated by Damian Ward wwwreadinga-z.com Many"
+    },
+    {
+      "page": 3,
+      "text": "cake: Too Sweets Level aa 3 My Many"
+    },
+    {
+      "page": 4,
+      "text": "2 cookie: My"
+    },
+    {
+      "page": 5,
+      "text": "cupcake: Too Sweets Level aa 5 My Many"
+    },
+    {
+      "page": 6,
+      "text": "ice cream My"
+    },
+    {
+      "page": 7,
+      "text": "Too Many Sweets Level aa My pie"
+    },
+    {
+      "page": 8,
+      "text": "brownie: 8 My"
+    },
+    {
+      "page": 9,
+      "text": "2 candy: Too Sweets Level aa My Many"
+    },
+    {
+      "page": 10,
+      "text": "belly: 10 My"
+    },
+    {
+      "page": 11,
+      "text": "Too Sweets Level aa Leveled Book @ Learning A-Z Correlation Written by Rus Buyok LEVEL aa Illustrated by Damian Ward Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-zcom Many"
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "version": "1.0",
+  "total_words": 65,
+  "timings": [
+    {
+      "word": "what's",
+      "start": 0.0,
+      "end": 0.62
+    },
+    {
+      "word": "my",
+      "start": 0.62,
+      "end": 1.06
+    },
+    {
+      "word": "job",
+      "start": 1.06,
+      "end": 1.64
+    },
+    {
+      "word": "written",
+      "start": 2.44,
+      "end": 2.78
+    },
+    {
+      "word": "by",
+      "start": 2.78,
+      "end": 3.36
+    },
+    {
+      "word": "maribeth",
+      "start": 3.36,
+      "end": 4.44
+    },
+    {
+      "word": "bolts",
+      "start": 4.44,
+      "end": 5.62
+    },
+    {
+      "word": "illustrated",
+      "start": 5.94,
+      "end": 6.56
+    },
+    {
+      "word": "by",
+      "start": 6.56,
+      "end": 7.18
+    },
+    {
+      "word": "bert",
+      "start": 7.18,
+      "end": 7.76
+    },
+    {
+      "word": "dodson",
+      "start": 7.76,
+      "end": 8.6
+    },
+    {
+      "word": "women",
+      "start": 9.36,
+      "end": 9.36
+    },
+    {
+      "word": "i",
+      "start": 9.36,
+      "end": 9.92
+    },
+    {
+      "word": "know",
+      "start": 9.92,
+      "end": 10.44
+    },
+    {
+      "word": "do",
+      "start": 10.44,
+      "end": 11.06
+    },
+    {
+      "word": "many",
+      "start": 11.06,
+      "end": 11.68
+    },
+    {
+      "word": "jobs",
+      "start": 11.68,
+      "end": 12.44
+    },
+    {
+      "word": "a",
+      "start": 13.04,
+      "end": 13.04
+    },
+    {
+      "word": "woman",
+      "start": 13.04,
+      "end": 13.38
+    },
+    {
+      "word": "i",
+      "start": 13.38,
+      "end": 13.88
+    },
+    {
+      "word": "know",
+      "start": 13.88,
+      "end": 14.34
+    },
+    {
+      "word": "makes",
+      "start": 14.34,
+      "end": 15.04
+    },
+    {
+      "word": "art",
+      "start": 15.04,
+      "end": 15.7
+    },
+    {
+      "word": "a",
+      "start": 16.02,
+      "end": 16.24
+    },
+    {
+      "word": "woman",
+      "start": 16.24,
+      "end": 16.62
+    },
+    {
+      "word": "i",
+      "start": 16.62,
+      "end": 17.16
+    },
+    {
+      "word": "know",
+      "start": 17.16,
+      "end": 17.52
+    },
+    {
+      "word": "is",
+      "start": 17.52,
+      "end": 18.24
+    },
+    {
+      "word": "a",
+      "start": 18.24,
+      "end": 18.56
+    },
+    {
+      "word": "boss",
+      "start": 18.56,
+      "end": 19.02
+    },
+    {
+      "word": "a",
+      "start": 19.52,
+      "end": 19.56
+    },
+    {
+      "word": "woman",
+      "start": 19.56,
+      "end": 20.0
+    },
+    {
+      "word": "i",
+      "start": 20.0,
+      "end": 20.34
+    },
+    {
+      "word": "know",
+      "start": 20.34,
+      "end": 20.78
+    },
+    {
+      "word": "drives",
+      "start": 20.78,
+      "end": 21.52
+    },
+    {
+      "word": "a",
+      "start": 21.52,
+      "end": 22.06
+    },
+    {
+      "word": "truck",
+      "start": 22.06,
+      "end": 22.42
+    },
+    {
+      "word": "a",
+      "start": 22.9,
+      "end": 22.98
+    },
+    {
+      "word": "woman",
+      "start": 22.98,
+      "end": 23.38
+    },
+    {
+      "word": "i",
+      "start": 23.38,
+      "end": 23.92
+    },
+    {
+      "word": "know",
+      "start": 23.92,
+      "end": 24.32
+    },
+    {
+      "word": "is",
+      "start": 24.32,
+      "end": 24.88
+    },
+    {
+      "word": "a",
+      "start": 24.88,
+      "end": 25.4
+    },
+    {
+      "word": "teacher",
+      "start": 25.4,
+      "end": 25.84
+    },
+    {
+      "word": "a",
+      "start": 25.84,
+      "end": 26.46
+    },
+    {
+      "word": "woman",
+      "start": 26.46,
+      "end": 26.82
+    },
+    {
+      "word": "i",
+      "start": 26.82,
+      "end": 27.3
+    },
+    {
+      "word": "know",
+      "start": 27.3,
+      "end": 27.78
+    },
+    {
+      "word": "works",
+      "start": 27.78,
+      "end": 28.5
+    },
+    {
+      "word": "in",
+      "start": 28.5,
+      "end": 29.0
+    },
+    {
+      "word": "a",
+      "start": 29.0,
+      "end": 29.14
+    },
+    {
+      "word": "zoo",
+      "start": 29.14,
+      "end": 29.66
+    },
+    {
+      "word": "i",
+      "start": 30.06,
+      "end": 30.34
+    },
+    {
+      "word": "will",
+      "start": 30.34,
+      "end": 30.62
+    },
+    {
+      "word": "do",
+      "start": 30.62,
+      "end": 31.0
+    },
+    {
+      "word": "a",
+      "start": 31.0,
+      "end": 31.12
+    },
+    {
+      "word": "job",
+      "start": 31.12,
+      "end": 31.56
+    },
+    {
+      "word": "one",
+      "start": 31.56,
+      "end": 31.96
+    },
+    {
+      "word": "day",
+      "start": 31.96,
+      "end": 32.38
+    },
+    {
+      "word": "now",
+      "start": 32.92,
+      "end": 33.16
+    },
+    {
+      "word": "my",
+      "start": 33.16,
+      "end": 33.82
+    },
+    {
+      "word": "job",
+      "start": 33.82,
+      "end": 34.26
+    },
+    {
+      "word": "is",
+      "start": 34.26,
+      "end": 34.74
+    },
+    {
+      "word": "to",
+      "start": 34.74,
+      "end": 35.26
+    },
+    {
+      "word": "play",
+      "start": 35.26,
+      "end": 35.7
+    }
+  ]
+}

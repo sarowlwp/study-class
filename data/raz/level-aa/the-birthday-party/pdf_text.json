@@ -1,0 +1,58 @@
+{
+  "id": "level-aa/the-birthday-party",
+  "title": "The Birthday Party",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , Aa The Birthday Written by Anthony Curran Illustrated by Nina Mata wwwreadinga-z.com Party"
+    },
+    {
+      "page": 2,
+      "text": "The Birthday Written by Anthony Curran Illustrated by Nina Mata wwwreadinga-z.com Focus Question What can you see at a birthday party? Party"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know birthday balloons guests candles singing The Birthday Party Level aa Leveled Book Learning A-Z Correlation Written by Anthony Curran LEVEL aa Illustrated by Nina Mata Fountas & Pinnell A AIl rights reserved. Reading Recovery_ DRA A-1 wwwreadinga-z.com gifts"
+    },
+    {
+      "page": 4,
+      "text": "The guests. The Birthday Party Level aa 3"
+    },
+    {
+      "page": 5,
+      "text": "The balloons."
+    },
+    {
+      "page": 6,
+      "text": "The hats. The Birthday Party Level aa 5"
+    },
+    {
+      "page": 7,
+      "text": "The gifts."
+    },
+    {
+      "page": 8,
+      "text": "The cake: The Birthday Party Level aa"
+    },
+    {
+      "page": 9,
+      "text": "The singing: 8"
+    },
+    {
+      "page": 10,
+      "text": "The candles: The Birthday Party Level aa"
+    },
+    {
+      "page": 11,
+      "text": "The birthday party: 10"
+    },
+    {
+      "page": 12,
+      "text": "The Birthday A Reading A-Z Level aa Leveled Book Word Count: 17 Connections Writing and Art What is your favorite part of a birthday party? Draw a picture and label it: Social Studies How would you like to celebrate your birthday? Why? Share your answer with a friend: Reading A-Z Visit wwwreadinga-z.com for thousands of books and materials. Party"
+    }
+  ]
+}

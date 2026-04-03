@@ -1,0 +1,111 @@
+{
+  "version": "1.0",
+  "total_words": 21,
+  "timings": [
+    {
+      "word": "summer",
+      "start": 0.0,
+      "end": 0.54
+    },
+    {
+      "word": "picnics",
+      "start": 0.54,
+      "end": 1.6
+    },
+    {
+      "word": "written",
+      "start": 2.18,
+      "end": 2.4
+    },
+    {
+      "word": "by",
+      "start": 2.4,
+      "end": 3.12
+    },
+    {
+      "word": "elizabeth",
+      "start": 3.12,
+      "end": 3.68
+    },
+    {
+      "word": "strauss",
+      "start": 3.68,
+      "end": 4.8
+    },
+    {
+      "word": "summer",
+      "start": 7.12,
+      "end": 7.36
+    },
+    {
+      "word": "hats",
+      "start": 7.36,
+      "end": 8.56
+    },
+    {
+      "word": "summer",
+      "start": 10.84,
+      "end": 11.14
+    },
+    {
+      "word": "shoes",
+      "start": 11.14,
+      "end": 12.18
+    },
+    {
+      "word": "summer",
+      "start": 14.7,
+      "end": 15.02
+    },
+    {
+      "word": "cups",
+      "start": 15.02,
+      "end": 16.16
+    },
+    {
+      "word": "summer",
+      "start": 18.8,
+      "end": 19.5
+    },
+    {
+      "word": "summer",
+      "start": 21.28,
+      "end": 22.68
+    },
+    {
+      "word": "foods",
+      "start": 22.68,
+      "end": 24.04
+    },
+    {
+      "word": "summer",
+      "start": 24.04,
+      "end": 26.46
+    },
+    {
+      "word": "sign",
+      "start": 26.46,
+      "end": 27.44
+    },
+    {
+      "word": "summer",
+      "start": 27.44,
+      "end": 30.04
+    },
+    {
+      "word": "picnics",
+      "start": 30.04,
+      "end": 31.56
+    },
+    {
+      "word": "summer",
+      "start": 31.56,
+      "end": 33.78
+    },
+    {
+      "word": "fun",
+      "start": 33.78,
+      "end": 34.46
+    }
+  ]
+}

@@ -1,0 +1,496 @@
+{
+  "version": "1.0",
+  "total_words": 98,
+  "timings": [
+    {
+      "word": "under",
+      "start": 0.0,
+      "end": 0.64
+    },
+    {
+      "word": "my",
+      "start": 0.64,
+      "end": 1.62
+    },
+    {
+      "word": "bed",
+      "start": 1.62,
+      "end": 2.88
+    },
+    {
+      "word": "written",
+      "start": 3.74,
+      "end": 4.02
+    },
+    {
+      "word": "by",
+      "start": 4.02,
+      "end": 5.26
+    },
+    {
+      "word": "anthony",
+      "start": 5.26,
+      "end": 6.42
+    },
+    {
+      "word": "keren",
+      "start": 6.42,
+      "end": 7.76
+    },
+    {
+      "word": "illustrated",
+      "start": 8.88,
+      "end": 9.52
+    },
+    {
+      "word": "by",
+      "start": 9.52,
+      "end": 11.0
+    },
+    {
+      "word": "keith",
+      "start": 11.0,
+      "end": 12.02
+    },
+    {
+      "word": "frawley",
+      "start": 12.02,
+      "end": 13.76
+    },
+    {
+      "word": "focus",
+      "start": 14.88,
+      "end": 15.12
+    },
+    {
+      "word": "question",
+      "start": 15.12,
+      "end": 16.1
+    },
+    {
+      "word": "what",
+      "start": 16.1,
+      "end": 17.34
+    },
+    {
+      "word": "does",
+      "start": 17.34,
+      "end": 18.58
+    },
+    {
+      "word": "under",
+      "start": 18.58,
+      "end": 19.36
+    },
+    {
+      "word": "mean",
+      "start": 19.36,
+      "end": 20.5
+    },
+    {
+      "word": "a",
+      "start": 20.5,
+      "end": 21.3
+    },
+    {
+      "word": "sock",
+      "start": 21.3,
+      "end": 21.86
+    },
+    {
+      "word": "is",
+      "start": 21.86,
+      "end": 22.82
+    },
+    {
+      "word": "under",
+      "start": 22.82,
+      "end": 23.64
+    },
+    {
+      "word": "my",
+      "start": 23.64,
+      "end": 24.62
+    },
+    {
+      "word": "bed",
+      "start": 24.62,
+      "end": 25.6
+    },
+    {
+      "word": "a",
+      "start": 26.56,
+      "end": 26.58
+    },
+    {
+      "word": "block",
+      "start": 26.58,
+      "end": 27.24
+    },
+    {
+      "word": "is",
+      "start": 27.24,
+      "end": 28.02
+    },
+    {
+      "word": "under",
+      "start": 28.02,
+      "end": 29.0
+    },
+    {
+      "word": "my",
+      "start": 29.0,
+      "end": 30.14
+    },
+    {
+      "word": "bed",
+      "start": 30.14,
+      "end": 31.0
+    },
+    {
+      "word": "a",
+      "start": 31.86,
+      "end": 31.86
+    },
+    {
+      "word": "book",
+      "start": 31.86,
+      "end": 32.54
+    },
+    {
+      "word": "is",
+      "start": 32.54,
+      "end": 33.38
+    },
+    {
+      "word": "under",
+      "start": 33.38,
+      "end": 34.3
+    },
+    {
+      "word": "my",
+      "start": 34.3,
+      "end": 35.16
+    },
+    {
+      "word": "bed",
+      "start": 35.16,
+      "end": 36.0
+    },
+    {
+      "word": "a",
+      "start": 36.0,
+      "end": 36.5
+    },
+    {
+      "word": "toy",
+      "start": 36.5,
+      "end": 37.48
+    },
+    {
+      "word": "is",
+      "start": 37.48,
+      "end": 38.48
+    },
+    {
+      "word": "under",
+      "start": 38.48,
+      "end": 39.46
+    },
+    {
+      "word": "my",
+      "start": 39.46,
+      "end": 40.22
+    },
+    {
+      "word": "bed",
+      "start": 40.22,
+      "end": 41.14
+    },
+    {
+      "word": "a",
+      "start": 41.14,
+      "end": 41.68
+    },
+    {
+      "word": "hat",
+      "start": 41.68,
+      "end": 42.74
+    },
+    {
+      "word": "is",
+      "start": 42.74,
+      "end": 43.6
+    },
+    {
+      "word": "under",
+      "start": 43.6,
+      "end": 44.68
+    },
+    {
+      "word": "my",
+      "start": 44.68,
+      "end": 45.56
+    },
+    {
+      "word": "bed",
+      "start": 45.56,
+      "end": 46.58
+    },
+    {
+      "word": "a",
+      "start": 46.58,
+      "end": 47.38
+    },
+    {
+      "word": "bat",
+      "start": 47.38,
+      "end": 48.18
+    },
+    {
+      "word": "is",
+      "start": 48.18,
+      "end": 49.1
+    },
+    {
+      "word": "under",
+      "start": 49.1,
+      "end": 50.22
+    },
+    {
+      "word": "my",
+      "start": 50.22,
+      "end": 51.08
+    },
+    {
+      "word": "bed",
+      "start": 51.08,
+      "end": 51.9
+    },
+    {
+      "word": "a",
+      "start": 51.9,
+      "end": 52.52
+    },
+    {
+      "word": "cat",
+      "start": 52.52,
+      "end": 53.46
+    },
+    {
+      "word": "is",
+      "start": 53.46,
+      "end": 54.36
+    },
+    {
+      "word": "under",
+      "start": 54.36,
+      "end": 55.38
+    },
+    {
+      "word": "my",
+      "start": 55.38,
+      "end": 56.16
+    },
+    {
+      "word": "bed",
+      "start": 56.16,
+      "end": 56.82
+    },
+    {
+      "word": "i",
+      "start": 56.82,
+      "end": 57.58
+    },
+    {
+      "word": "am",
+      "start": 57.58,
+      "end": 58.58
+    },
+    {
+      "word": "under",
+      "start": 58.58,
+      "end": 59.26
+    },
+    {
+      "word": "my",
+      "start": 59.26,
+      "end": 60.0
+    },
+    {
+      "word": "bed",
+      "start": 60.0,
+      "end": 60.82
+    },
+    {
+      "word": "connections",
+      "start": 60.82,
+      "end": 61.9
+    },
+    {
+      "word": "writing",
+      "start": 63.12,
+      "end": 63.44
+    },
+    {
+      "word": "draw",
+      "start": 64.08,
+      "end": 65.24
+    },
+    {
+      "word": "a",
+      "start": 65.24,
+      "end": 66.2
+    },
+    {
+      "word": "picture",
+      "start": 66.2,
+      "end": 66.76
+    },
+    {
+      "word": "and",
+      "start": 66.76,
+      "end": 67.82
+    },
+    {
+      "word": "write",
+      "start": 67.82,
+      "end": 68.7
+    },
+    {
+      "word": "this",
+      "start": 68.7,
+      "end": 69.44
+    },
+    {
+      "word": "sentence",
+      "start": 69.44,
+      "end": 71.34
+    },
+    {
+      "word": "is",
+      "start": 73.74,
+      "end": 73.74
+    },
+    {
+      "word": "under",
+      "start": 73.74,
+      "end": 74.52
+    },
+    {
+      "word": "my",
+      "start": 74.52,
+      "end": 76.18
+    },
+    {
+      "word": "science",
+      "start": 77.48,
+      "end": 77.88
+    },
+    {
+      "word": "list",
+      "start": 79.02,
+      "end": 79.4
+    },
+    {
+      "word": "the",
+      "start": 79.4,
+      "end": 80.04
+    },
+    {
+      "word": "things",
+      "start": 80.04,
+      "end": 80.82
+    },
+    {
+      "word": "the",
+      "start": 80.82,
+      "end": 81.54
+    },
+    {
+      "word": "girl",
+      "start": 81.54,
+      "end": 82.12
+    },
+    {
+      "word": "finds",
+      "start": 82.12,
+      "end": 83.14
+    },
+    {
+      "word": "under",
+      "start": 83.14,
+      "end": 84.02
+    },
+    {
+      "word": "her",
+      "start": 84.02,
+      "end": 84.72
+    },
+    {
+      "word": "bed",
+      "start": 84.72,
+      "end": 85.56
+    },
+    {
+      "word": "sort",
+      "start": 85.56,
+      "end": 86.98
+    },
+    {
+      "word": "the",
+      "start": 86.98,
+      "end": 87.62
+    },
+    {
+      "word": "things",
+      "start": 87.62,
+      "end": 88.52
+    },
+    {
+      "word": "into",
+      "start": 88.52,
+      "end": 89.54
+    },
+    {
+      "word": "two",
+      "start": 89.54,
+      "end": 90.66
+    },
+    {
+      "word": "groups",
+      "start": 90.66,
+      "end": 91.44
+    },
+    {
+      "word": "share",
+      "start": 92.7,
+      "end": 92.96
+    },
+    {
+      "word": "your",
+      "start": 92.96,
+      "end": 93.64
+    },
+    {
+      "word": "groups",
+      "start": 93.64,
+      "end": 94.46
+    },
+    {
+      "word": "with",
+      "start": 94.46,
+      "end": 95.68
+    },
+    {
+      "word": "a",
+      "start": 95.68,
+      "end": 96.34
+    },
+    {
+      "word": "partner",
+      "start": 96.34,
+      "end": 96.7
+    }
+  ]
+}

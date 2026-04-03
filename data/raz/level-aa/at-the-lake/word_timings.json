@@ -1,0 +1,366 @@
+{
+  "version": "1.0",
+  "total_words": 72,
+  "timings": [
+    {
+      "word": "at",
+      "start": 0.0,
+      "end": 0.56
+    },
+    {
+      "word": "the",
+      "start": 0.56,
+      "end": 1.18
+    },
+    {
+      "word": "lake",
+      "start": 1.18,
+      "end": 2.12
+    },
+    {
+      "word": "written",
+      "start": 3.18,
+      "end": 3.44
+    },
+    {
+      "word": "by",
+      "start": 3.44,
+      "end": 4.2
+    },
+    {
+      "word": "sarah",
+      "start": 4.2,
+      "end": 4.88
+    },
+    {
+      "word": "gusan",
+      "start": 4.88,
+      "end": 5.66
+    },
+    {
+      "word": "illustrated",
+      "start": 6.96,
+      "end": 7.62
+    },
+    {
+      "word": "by",
+      "start": 7.62,
+      "end": 8.56
+    },
+    {
+      "word": "nina",
+      "start": 8.56,
+      "end": 9.02
+    },
+    {
+      "word": "de",
+      "start": 9.02,
+      "end": 10.0
+    },
+    {
+      "word": "polonia",
+      "start": 10.0,
+      "end": 10.98
+    },
+    {
+      "word": "focus",
+      "start": 12.64,
+      "end": 12.88
+    },
+    {
+      "word": "question",
+      "start": 12.88,
+      "end": 13.8
+    },
+    {
+      "word": "what",
+      "start": 15.18,
+      "end": 15.44
+    },
+    {
+      "word": "can",
+      "start": 15.44,
+      "end": 16.16
+    },
+    {
+      "word": "you",
+      "start": 16.16,
+      "end": 16.6
+    },
+    {
+      "word": "see",
+      "start": 16.6,
+      "end": 17.1
+    },
+    {
+      "word": "at",
+      "start": 17.1,
+      "end": 17.86
+    },
+    {
+      "word": "the",
+      "start": 17.86,
+      "end": 18.22
+    },
+    {
+      "word": "lake",
+      "start": 18.22,
+      "end": 18.68
+    },
+    {
+      "word": "this",
+      "start": 19.1,
+      "end": 19.5
+    },
+    {
+      "word": "swimsuit",
+      "start": 19.5,
+      "end": 20.7
+    },
+    {
+      "word": "this",
+      "start": 21.46,
+      "end": 21.68
+    },
+    {
+      "word": "dog",
+      "start": 21.68,
+      "end": 22.74
+    },
+    {
+      "word": "this",
+      "start": 23.46,
+      "end": 23.82
+    },
+    {
+      "word": "boat",
+      "start": 23.82,
+      "end": 24.86
+    },
+    {
+      "word": "this",
+      "start": 25.74,
+      "end": 25.9
+    },
+    {
+      "word": "tree",
+      "start": 25.9,
+      "end": 27.04
+    },
+    {
+      "word": "this",
+      "start": 27.04,
+      "end": 28.06
+    },
+    {
+      "word": "fish",
+      "start": 28.06,
+      "end": 29.46
+    },
+    {
+      "word": "this",
+      "start": 30.22,
+      "end": 30.54
+    },
+    {
+      "word": "rock",
+      "start": 30.54,
+      "end": 31.54
+    },
+    {
+      "word": "this",
+      "start": 32.32,
+      "end": 32.66
+    },
+    {
+      "word": "frog",
+      "start": 32.66,
+      "end": 33.74
+    },
+    {
+      "word": "this",
+      "start": 34.5,
+      "end": 34.94
+    },
+    {
+      "word": "lake",
+      "start": 34.94,
+      "end": 35.98
+    },
+    {
+      "word": "connections",
+      "start": 36.52,
+      "end": 37.02
+    },
+    {
+      "word": "writing",
+      "start": 38.22,
+      "end": 38.56
+    },
+    {
+      "word": "and",
+      "start": 38.56,
+      "end": 39.72
+    },
+    {
+      "word": "art",
+      "start": 39.72,
+      "end": 40.8
+    },
+    {
+      "word": "what",
+      "start": 42.3,
+      "end": 42.38
+    },
+    {
+      "word": "else",
+      "start": 42.38,
+      "end": 43.4
+    },
+    {
+      "word": "could",
+      "start": 43.4,
+      "end": 44.06
+    },
+    {
+      "word": "you",
+      "start": 44.06,
+      "end": 44.48
+    },
+    {
+      "word": "see",
+      "start": 44.48,
+      "end": 44.92
+    },
+    {
+      "word": "at",
+      "start": 44.92,
+      "end": 45.62
+    },
+    {
+      "word": "the",
+      "start": 45.62,
+      "end": 45.9
+    },
+    {
+      "word": "lake",
+      "start": 45.9,
+      "end": 46.44
+    },
+    {
+      "word": "draw",
+      "start": 47.4,
+      "end": 47.76
+    },
+    {
+      "word": "a",
+      "start": 47.76,
+      "end": 48.28
+    },
+    {
+      "word": "picture",
+      "start": 48.28,
+      "end": 48.64
+    },
+    {
+      "word": "and",
+      "start": 48.64,
+      "end": 49.48
+    },
+    {
+      "word": "write",
+      "start": 49.48,
+      "end": 49.88
+    },
+    {
+      "word": "this",
+      "start": 49.88,
+      "end": 50.54
+    },
+    {
+      "word": "sentence",
+      "start": 50.54,
+      "end": 51.24
+    },
+    {
+      "word": "this",
+      "start": 51.24,
+      "end": 53.2
+    },
+    {
+      "word": "science",
+      "start": 56.2,
+      "end": 56.76
+    },
+    {
+      "word": "what",
+      "start": 58.3,
+      "end": 58.52
+    },
+    {
+      "word": "plants",
+      "start": 58.52,
+      "end": 59.38
+    },
+    {
+      "word": "and",
+      "start": 59.38,
+      "end": 60.34
+    },
+    {
+      "word": "animals",
+      "start": 60.34,
+      "end": 60.98
+    },
+    {
+      "word": "live",
+      "start": 60.98,
+      "end": 61.96
+    },
+    {
+      "word": "at",
+      "start": 61.96,
+      "end": 62.84
+    },
+    {
+      "word": "the",
+      "start": 62.84,
+      "end": 63.14
+    },
+    {
+      "word": "lake",
+      "start": 63.14,
+      "end": 63.72
+    },
+    {
+      "word": "share",
+      "start": 65.28,
+      "end": 65.54
+    },
+    {
+      "word": "your",
+      "start": 65.54,
+      "end": 66.32
+    },
+    {
+      "word": "ideas",
+      "start": 66.32,
+      "end": 67.0
+    },
+    {
+      "word": "with",
+      "start": 67.0,
+      "end": 67.76
+    },
+    {
+      "word": "a",
+      "start": 67.76,
+      "end": 67.96
+    },
+    {
+      "word": "partner",
+      "start": 67.96,
+      "end": 68.38
+    }
+  ]
+}

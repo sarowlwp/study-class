@@ -1,0 +1,58 @@
+{
+  "id": "level-b/too-high",
+  "title": "Too High",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Too High Written by Gabriel Harper Illustrated by Laura Zarrin wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Too High Written by Gabriel Harper Illustrated by Laura Zarrin wwwreadinga-z.com Focus Question What is too high for the boy?"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know chair roof hook shelf hoop sink Too High Level B Leveled Book 0 Learning A-Z Correlation Written by Gabriel Harper LEVEL B Illustrated by Laura Zarrin Fountas & Pinnell B All rights reserved. Reading Recovery 2 DRA 2 www.readinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "This chair is too high: Too High 0 Level B 3"
+    },
+    {
+      "page": 5,
+      "text": "This hook is too high:"
+    },
+    {
+      "page": 6,
+      "text": "This shelf is too high: Too High 0 Level B 5"
+    },
+    {
+      "page": 7,
+      "text": "This sink is too high:"
+    },
+    {
+      "page": 8,
+      "text": "9 E 2 This tree is too high Too High 0 Level B 4 c"
+    },
+    {
+      "page": 9,
+      "text": "1/ Vl V: > Ty) y, I/ This roof is too high: 8 W"
+    },
+    {
+      "page": 10,
+      "text": "0 0 This is too high: Too High 0 Level B hoop"
+    },
+    {
+      "page": 11,
+      "text": "This head is just  rightl 10"
+    },
+    {
+      "page": 12,
+      "text": "Too High A Reading A-Z Level B Leveled Book Word Count: 40 Connections Writing and Art What is something that is too high for Draw a picture and label it: Social Studies How would you help the boy? Share your ideas with a partner: Reading A-z Visit www.readinga-z.com for thousands of books and materials. you?"
+    }
+  ]
+}

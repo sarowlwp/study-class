@@ -1,0 +1,54 @@
+{
+  "id": "level-b/what-flies-in-the-sky",
+  "title": "What Flies In The Sky",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B What Flies in the Sky? 2f? Written by Edie Evans Illustrated by Jenny Kincade wwwreadinga-z.com 3"
+    },
+    {
+      "page": 2,
+      "text": "What Flies in the Sky? Written by Edie Evans Illustrated by Jenny Kincade wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "2 2 2 2 2 ) What flies in the sky? What Flies in the Sky? Level B 3 2"
+    },
+    {
+      "page": 4,
+      "text": "A kite flies in the 4 sky:"
+    },
+    {
+      "page": 5,
+      "text": "A bird flies in the What Flies in the Sky? Level B 5 sky:"
+    },
+    {
+      "page": 6,
+      "text": "A balloon flies in the sky: 6"
+    },
+    {
+      "page": 7,
+      "text": "4 A bee flies in the What Flies in the Sky? Level B sky:"
+    },
+    {
+      "page": 8,
+      "text": "A rocket flies in the 8 sky:"
+    },
+    {
+      "page": 9,
+      "text": "L A bat flies in the What Flies in the Sky? Level B 4 sky:"
+    },
+    {
+      "page": 10,
+      "text": "I wish I could in the skyl 10 fly"
+    },
+    {
+      "page": 11,
+      "text": "What Flies in the Sky? Level B Leveled Book 0 Learning A-Z Correlation Written by Edie Evans LEVEL B Illustrated by Jenny Kincade Fountas & Pinnell B All rights reserved. Reading Recovery 2 DRA 2 www.readinga-z.com"
+    }
+  ]
+}

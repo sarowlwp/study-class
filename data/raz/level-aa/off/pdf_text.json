@@ -1,0 +1,58 @@
+{
+  "id": "level-aa/off",
+  "title": "Off",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , aa Off Written by Marilym Edna Slevin Illustrated by Nora Voutas wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Off Written Marilyn Edna Slevin Illustrated by Nora Voutas wwwreadinga-z.com Focus Question What is the cat doing in the book? by"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know chair off computer step couch towel Off Level aa Leveled Book 0 Learning A-Z Correlation Written by Marilyn Edna Slevin LEVEL aa Illustrated by Nora Voutas Fountas & Pinnell A All rights reserved. Reading Recovery DRA A-1 wwwreadinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "0 C Off the bed. Off * Level aa 3"
+    },
+    {
+      "page": 5,
+      "text": ")) ( Off the couch:"
+    },
+    {
+      "page": 6,
+      "text": "Off the table: Off * Level aa 5"
+    },
+    {
+      "page": 7,
+      "text": "( Off the chair:"
+    },
+    {
+      "page": 8,
+      "text": "Off the computer: Off * Level aa"
+    },
+    {
+      "page": 9,
+      "text": "Off the towel: 8"
+    },
+    {
+      "page": 10,
+      "text": "Off the step. Off * Level aa"
+    },
+    {
+      "page": 11,
+      "text": "Oe Off the car: 10 02"
+    },
+    {
+      "page": 12,
+      "text": "Off A Reading A-Z Level aa Leveled Book Word Count: 24 Connections Writing and Art Draw a picture of the cat jumping off something new: Label your picture Off the Math What kinds of pets do your classmates have at home? Make a graph with your class Reading A-Z Visit wwwreadinga-z.com for thousands of books and materials:"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "version": "1.0",
+  "total_words": 48,
+  "timings": [
+    {
+      "word": "i",
+      "start": 0.0,
+      "end": 0.36
+    },
+    {
+      "word": "set",
+      "start": 0.36,
+      "end": 0.92
+    },
+    {
+      "word": "the",
+      "start": 0.92,
+      "end": 1.22
+    },
+    {
+      "word": "table",
+      "start": 1.22,
+      "end": 1.8
+    },
+    {
+      "word": "written",
+      "start": 2.26,
+      "end": 2.5
+    },
+    {
+      "word": "by",
+      "start": 2.5,
+      "end": 2.94
+    },
+    {
+      "word": "beverly",
+      "start": 2.94,
+      "end": 3.32
+    },
+    {
+      "word": "osborne",
+      "start": 3.32,
+      "end": 4.02
+    },
+    {
+      "word": "i",
+      "start": 4.6,
+      "end": 4.84
+    },
+    {
+      "word": "put",
+      "start": 4.84,
+      "end": 5.16
+    },
+    {
+      "word": "the",
+      "start": 5.16,
+      "end": 5.48
+    },
+    {
+      "word": "cloth",
+      "start": 5.48,
+      "end": 5.88
+    },
+    {
+      "word": "here",
+      "start": 5.88,
+      "end": 6.54
+    },
+    {
+      "word": "i",
+      "start": 6.88,
+      "end": 7.14
+    },
+    {
+      "word": "put",
+      "start": 7.14,
+      "end": 7.4
+    },
+    {
+      "word": "the",
+      "start": 7.4,
+      "end": 7.74
+    },
+    {
+      "word": "plate",
+      "start": 7.74,
+      "end": 8.04
+    },
+    {
+      "word": "here",
+      "start": 8.04,
+      "end": 8.74
+    },
+    {
+      "word": "i",
+      "start": 9.34,
+      "end": 9.72
+    },
+    {
+      "word": "put",
+      "start": 9.72,
+      "end": 10.12
+    },
+    {
+      "word": "the",
+      "start": 10.12,
+      "end": 10.4
+    },
+    {
+      "word": "napkin",
+      "start": 10.4,
+      "end": 10.92
+    },
+    {
+      "word": "here",
+      "start": 10.92,
+      "end": 11.62
+    },
+    {
+      "word": "i",
+      "start": 11.82,
+      "end": 12.02
+    },
+    {
+      "word": "put",
+      "start": 12.02,
+      "end": 12.2
+    },
+    {
+      "word": "the",
+      "start": 12.2,
+      "end": 12.48
+    },
+    {
+      "word": "fork",
+      "start": 12.48,
+      "end": 12.92
+    },
+    {
+      "word": "here",
+      "start": 12.92,
+      "end": 13.76
+    },
+    {
+      "word": "i",
+      "start": 13.94,
+      "end": 14.26
+    },
+    {
+      "word": "put",
+      "start": 14.26,
+      "end": 14.42
+    },
+    {
+      "word": "the",
+      "start": 14.42,
+      "end": 14.72
+    },
+    {
+      "word": "knife",
+      "start": 14.72,
+      "end": 15.18
+    },
+    {
+      "word": "here",
+      "start": 15.18,
+      "end": 16.1
+    },
+    {
+      "word": "i",
+      "start": 16.24,
+      "end": 16.6
+    },
+    {
+      "word": "put",
+      "start": 16.6,
+      "end": 16.84
+    },
+    {
+      "word": "the",
+      "start": 16.84,
+      "end": 17.14
+    },
+    {
+      "word": "spoon",
+      "start": 17.14,
+      "end": 17.52
+    },
+    {
+      "word": "here",
+      "start": 17.52,
+      "end": 18.34
+    },
+    {
+      "word": "i",
+      "start": 18.52,
+      "end": 18.84
+    },
+    {
+      "word": "put",
+      "start": 18.84,
+      "end": 19.08
+    },
+    {
+      "word": "the",
+      "start": 19.08,
+      "end": 19.34
+    },
+    {
+      "word": "glass",
+      "start": 19.34,
+      "end": 19.8
+    },
+    {
+      "word": "here",
+      "start": 19.8,
+      "end": 20.8
+    },
+    {
+      "word": "i",
+      "start": 20.98,
+      "end": 21.38
+    },
+    {
+      "word": "put",
+      "start": 21.38,
+      "end": 21.6
+    },
+    {
+      "word": "the",
+      "start": 21.6,
+      "end": 21.84
+    },
+    {
+      "word": "flowers",
+      "start": 21.84,
+      "end": 22.26
+    },
+    {
+      "word": "here",
+      "start": 22.26,
+      "end": 23.04
+    }
+  ]
+}

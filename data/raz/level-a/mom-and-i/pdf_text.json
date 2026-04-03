@@ -1,0 +1,54 @@
+{
+  "id": "level-a/mom-and-i",
+  "title": "Mom And I",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Mom I 0 H Written by Ava Gz Kalisch wwwreadinga-z.com and"
+    },
+    {
+      "page": 2,
+      "text": "Mom and I Written by Ava G. Kalisch wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "Fl4 Upp Mom and I are lions Mom and | + Level A 3"
+    },
+    {
+      "page": 4,
+      "text": "Mom and I are elephants"
+    },
+    {
+      "page": 5,
+      "text": "Mom and I are giraffes Mom and | ' Level A 5"
+    },
+    {
+      "page": 6,
+      "text": "Mom and I are zebras:"
+    },
+    {
+      "page": 7,
+      "text": "Mom and I are bears: Mom and | ' Level A"
+    },
+    {
+      "page": 8,
+      "text": "Mom and I are apes: 8"
+    },
+    {
+      "page": 9,
+      "text": "Mom and I are kangaroos: Mom and | ' Level A"
+    },
+    {
+      "page": 10,
+      "text": "Mom and I are dolphins 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: 9: @ Royalty-Free/Natphotos/Digital Vision/Getty Images; page 10: @ Universal Images Group/SuperStock; All other photos: @ ArtToday Mom and I Level A Leveled Book Correlation @ Learning A-Z LEVEL A Written by Ava G. Kalisch Fountas & Pinnell A All rights reserved: Reading Recovery DRA A-1 wwwreadinga-zcom Page"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/the-city",
+  "title": "The City",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A0 The Mt Written by Veronica Angel Illustrated by Jack Voris wwwreadinga-z.com City"
+    },
+    {
+      "page": 2,
+      "text": "The Written by Veronica Angel Illustrated by Jack Voris wwwreadinga-z.com City"
+    },
+    {
+      "page": 3,
+      "text": "W74 The streets. The City Level aa 3"
+    },
+    {
+      "page": 4,
+      "text": "88 The cars "
+    },
+    {
+      "page": 5,
+      "text": "The buses: The City Level aa 5"
+    },
+    {
+      "page": 6,
+      "text": "Iogko M The stores: H 6 p SALEL"
+    },
+    {
+      "page": 7,
+      "text": "LX_ 100 Lltd\" The park: The City Level aa > |="
+    },
+    {
+      "page": 8,
+      "text": "The big buildings. 8"
+    },
+    {
+      "page": 9,
+      "text": "seel JNE 1 The people: The City Level aa 9"
+    },
+    {
+      "page": 10,
+      "text": "{k z The noise. 10"
+    },
+    {
+      "page": 11,
+      "text": "The Level aa Leveled Book @ Learning A-Z Correlation Written by Veronica Angel LEVEL aa Illustrated by Jack Voris Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-zcom City"
+    }
+  ]
+}

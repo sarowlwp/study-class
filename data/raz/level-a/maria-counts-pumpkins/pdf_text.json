@@ -1,0 +1,54 @@
+{
+  "id": "level-a/maria-counts-pumpkins",
+  "title": "Maria Counts Pumpkins",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Maria Counts Pumpkins Written by Higgins Illustrated by Angela Kamstra wwwreadinga-z.com Kitty"
+    },
+    {
+      "page": 2,
+      "text": "Maria Counts Pumpkins Written by Kitty Higgins Illustrated by Angela Kamstra wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "/ / Maria has one pumpkin. Maria Counts Pumpkins LevelA 3"
+    },
+    {
+      "page": 4,
+      "text": "~ ~ Maria has two pumpkins. 111\""
+    },
+    {
+      "page": 5,
+      "text": "Maria has three pumpkins. Maria Counts Pumpkins LevelA 5"
+    },
+    {
+      "page": 6,
+      "text": "86 (1 ( ( Maria has four pumpkins. 111v\""
+    },
+    {
+      "page": 7,
+      "text": "4 Maria has five pumpkins. Maria Counts Pumpkins LevelA ',"
+    },
+    {
+      "page": 8,
+      "text": "Maria has six pumpkins. 8 7)"
+    },
+    {
+      "page": 9,
+      "text": "Maria has seven pumpkins Maria Counts Pumpkins LevelA"
+    },
+    {
+      "page": 10,
+      "text": "S ( (( ( Maria has too many pumpkinsl 10  "
+    },
+    {
+      "page": 11,
+      "text": "LOADNG Maria Counts Pumpkins Level A Leveled Book Learning A-Z Correlation Written by Higgins LEVEL A Illustrated by Angela Kamstra Fountas & Pinnell A All reserved. Reading_Recovery DRA A-1 WWW.   readinga-z.( com Kitty rights"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "level-c/my-clothes-are-too-small",
+  "title": "My Clothes Are Too Small",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C Clothes Are-Too Small Written by Anthony Curran Illustrated by Janet McDonnell WWWreadinga-Z.com t My"
+    },
+    {
+      "page": 2,
+      "text": "Clothes Are Too Small C Ju I 56 Written by Anthony Curran Illustrated by Janet McDonnell wwwreadinga-z.com Focus Question How does the know he has grown? My boy"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know brother summer grown sweatshirt small too My Clothes Are Too Small Level € Leveled Book 0 Learning A-Z Correlation Written by Anthony Curran LEVEL C Illustrated by Janet McDonnell Fountas & Pinnell All rights reserved. Reading Recovery 3-4 DRA 3-4 www.readinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "Feb  Dtc2, 24 Jurlvw- Stp+io, n1 0   V 1o I must have grown over the summer My Clothes Are Too Small + Level € 3 _MM"
+    },
+    {
+      "page": 5,
+      "text": "1 DE old shirt is too small: 4 Wst My"
+    },
+    {
+      "page": 6,
+      "text": "old sweatshirt is too small: My Clothes Are Too Small + Level € 5 My"
+    },
+    {
+      "page": 7,
+      "text": "2lu 10 7777 3 old pants are too small: 6 My"
+    },
+    {
+      "page": 8,
+      "text": "C Jun 5 ( old hat is too small: My Clothes Are Too Small + Level € My"
+    },
+    {
+      "page": 9,
+      "text": "old socks are too small: 8 My"
+    },
+    {
+      "page": 10,
+      "text": "old shoes are too small: My Clothes Are Too Small + Level € My"
+    },
+    {
+      "page": 11,
+      "text": "10 It is I have a little brotherl 10 good"
+    },
+    {
+      "page": 12,
+      "text": "Clothes Are Too Small A Reading A-Z Level C Leveled Book Word Count: 51 Connections Writing and Art What do you do when you grow out of your clothes? Draw a picture and write about it. Social Studies How is the story in the book related to reducing; reusing; and recycling? Share your ideas with a partner: Reading A-z Visit www.readinga-z.com for thousands of books and materials. My"
+    }
+  ]
+}

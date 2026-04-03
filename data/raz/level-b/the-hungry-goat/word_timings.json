@@ -1,0 +1,306 @@
+{
+  "version": "1.0",
+  "total_words": 60,
+  "timings": [
+    {
+      "word": "the",
+      "start": 0.0,
+      "end": 0.44
+    },
+    {
+      "word": "hungry",
+      "start": 0.44,
+      "end": 0.9
+    },
+    {
+      "word": "goat",
+      "start": 0.9,
+      "end": 1.6
+    },
+    {
+      "word": "written",
+      "start": 2.18,
+      "end": 2.46
+    },
+    {
+      "word": "by",
+      "start": 2.46,
+      "end": 3.04
+    },
+    {
+      "word": "toren",
+      "start": 3.04,
+      "end": 3.44
+    },
+    {
+      "word": "anderson",
+      "start": 3.44,
+      "end": 4.24
+    },
+    {
+      "word": "illustrated",
+      "start": 4.94,
+      "end": 5.46
+    },
+    {
+      "word": "by",
+      "start": 5.46,
+      "end": 6.08
+    },
+    {
+      "word": "linda",
+      "start": 6.08,
+      "end": 6.46
+    },
+    {
+      "word": "sylvestery",
+      "start": 6.46,
+      "end": 7.66
+    },
+    {
+      "word": "my",
+      "start": 8.02,
+      "end": 8.26
+    },
+    {
+      "word": "goat",
+      "start": 8.26,
+      "end": 8.66
+    },
+    {
+      "word": "ate",
+      "start": 8.66,
+      "end": 9.38
+    },
+    {
+      "word": "the",
+      "start": 9.38,
+      "end": 9.96
+    },
+    {
+      "word": "pretty",
+      "start": 9.96,
+      "end": 10.32
+    },
+    {
+      "word": "flowers",
+      "start": 10.32,
+      "end": 11.02
+    },
+    {
+      "word": "my",
+      "start": 11.66,
+      "end": 11.86
+    },
+    {
+      "word": "goat",
+      "start": 11.86,
+      "end": 12.28
+    },
+    {
+      "word": "ate",
+      "start": 12.28,
+      "end": 13.02
+    },
+    {
+      "word": "the",
+      "start": 13.02,
+      "end": 13.62
+    },
+    {
+      "word": "stinky",
+      "start": 13.62,
+      "end": 14.02
+    },
+    {
+      "word": "trash",
+      "start": 14.02,
+      "end": 14.78
+    },
+    {
+      "word": "my",
+      "start": 15.28,
+      "end": 15.42
+    },
+    {
+      "word": "goat",
+      "start": 15.42,
+      "end": 16.0
+    },
+    {
+      "word": "ate",
+      "start": 16.0,
+      "end": 16.74
+    },
+    {
+      "word": "the",
+      "start": 16.74,
+      "end": 17.3
+    },
+    {
+      "word": "clean",
+      "start": 17.3,
+      "end": 17.66
+    },
+    {
+      "word": "clothes",
+      "start": 17.66,
+      "end": 18.46
+    },
+    {
+      "word": "my",
+      "start": 19.08,
+      "end": 19.48
+    },
+    {
+      "word": "goat",
+      "start": 19.48,
+      "end": 19.96
+    },
+    {
+      "word": "ate",
+      "start": 19.96,
+      "end": 20.52
+    },
+    {
+      "word": "the",
+      "start": 20.52,
+      "end": 21.2
+    },
+    {
+      "word": "old",
+      "start": 21.2,
+      "end": 21.48
+    },
+    {
+      "word": "shoes",
+      "start": 21.48,
+      "end": 22.18
+    },
+    {
+      "word": "my",
+      "start": 22.74,
+      "end": 22.96
+    },
+    {
+      "word": "goat",
+      "start": 22.96,
+      "end": 23.52
+    },
+    {
+      "word": "ate",
+      "start": 23.52,
+      "end": 24.14
+    },
+    {
+      "word": "the",
+      "start": 24.14,
+      "end": 24.84
+    },
+    {
+      "word": "new",
+      "start": 24.84,
+      "end": 25.22
+    },
+    {
+      "word": "ball",
+      "start": 25.22,
+      "end": 25.74
+    },
+    {
+      "word": "my",
+      "start": 26.26,
+      "end": 26.66
+    },
+    {
+      "word": "goat",
+      "start": 26.66,
+      "end": 27.16
+    },
+    {
+      "word": "ate",
+      "start": 27.16,
+      "end": 27.88
+    },
+    {
+      "word": "the",
+      "start": 27.88,
+      "end": 28.46
+    },
+    {
+      "word": "math",
+      "start": 28.46,
+      "end": 28.82
+    },
+    {
+      "word": "problems",
+      "start": 28.82,
+      "end": 29.52
+    },
+    {
+      "word": "my",
+      "start": 30.0,
+      "end": 30.56
+    },
+    {
+      "word": "goat",
+      "start": 30.56,
+      "end": 31.14
+    },
+    {
+      "word": "ate",
+      "start": 31.14,
+      "end": 31.72
+    },
+    {
+      "word": "the",
+      "start": 31.72,
+      "end": 32.32
+    },
+    {
+      "word": "big",
+      "start": 32.32,
+      "end": 32.66
+    },
+    {
+      "word": "book",
+      "start": 32.66,
+      "end": 33.48
+    },
+    {
+      "word": "my",
+      "start": 33.92,
+      "end": 34.24
+    },
+    {
+      "word": "goat",
+      "start": 34.24,
+      "end": 34.86
+    },
+    {
+      "word": "will",
+      "start": 34.86,
+      "end": 35.34
+    },
+    {
+      "word": "not",
+      "start": 35.34,
+      "end": 35.8
+    },
+    {
+      "word": "eat",
+      "start": 35.8,
+      "end": 36.34
+    },
+    {
+      "word": "its",
+      "start": 36.34,
+      "end": 36.82
+    },
+    {
+      "word": "lunch",
+      "start": 36.82,
+      "end": 37.18
+    }
+  ]
+}

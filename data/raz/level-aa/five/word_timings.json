@@ -1,0 +1,141 @@
+{
+  "version": "1.0",
+  "total_words": 27,
+  "timings": [
+    {
+      "word": "5",
+      "start": 0.0,
+      "end": 0.98
+    },
+    {
+      "word": "written",
+      "start": 1.74,
+      "end": 2.26
+    },
+    {
+      "word": "by",
+      "start": 2.26,
+      "end": 2.68
+    },
+    {
+      "word": "mary",
+      "start": 2.68,
+      "end": 3.18
+    },
+    {
+      "word": "ann",
+      "start": 3.18,
+      "end": 3.94
+    },
+    {
+      "word": "morazzi",
+      "start": 3.94,
+      "end": 4.76
+    },
+    {
+      "word": "illustrated",
+      "start": 5.6,
+      "end": 6.64
+    },
+    {
+      "word": "by",
+      "start": 6.64,
+      "end": 7.2
+    },
+    {
+      "word": "reginald",
+      "start": 7.2,
+      "end": 8.0
+    },
+    {
+      "word": "w",
+      "start": 8.0,
+      "end": 8.6
+    },
+    {
+      "word": "butler",
+      "start": 8.6,
+      "end": 9.3
+    },
+    {
+      "word": "5",
+      "start": 9.3,
+      "end": 10.24
+    },
+    {
+      "word": "cups",
+      "start": 11.04,
+      "end": 11.46
+    },
+    {
+      "word": "five",
+      "start": 12.02,
+      "end": 12.54
+    },
+    {
+      "word": "plates",
+      "start": 13.5,
+      "end": 13.86
+    },
+    {
+      "word": "five",
+      "start": 14.54,
+      "end": 14.94
+    },
+    {
+      "word": "bowls",
+      "start": 15.8,
+      "end": 16.48
+    },
+    {
+      "word": "five",
+      "start": 16.94,
+      "end": 17.48
+    },
+    {
+      "word": "forks",
+      "start": 18.06,
+      "end": 18.64
+    },
+    {
+      "word": "five",
+      "start": 19.06,
+      "end": 19.7
+    },
+    {
+      "word": "spoons",
+      "start": 20.66,
+      "end": 21.14
+    },
+    {
+      "word": "five",
+      "start": 21.96,
+      "end": 22.4
+    },
+    {
+      "word": "pans",
+      "start": 23.06,
+      "end": 23.6
+    },
+    {
+      "word": "five",
+      "start": 24.14,
+      "end": 24.62
+    },
+    {
+      "word": "chairs",
+      "start": 25.26,
+      "end": 25.7
+    },
+    {
+      "word": "five",
+      "start": 26.32,
+      "end": 27.28
+    },
+    {
+      "word": "lunches",
+      "start": 27.7,
+      "end": 28.42
+    }
+  ]
+}

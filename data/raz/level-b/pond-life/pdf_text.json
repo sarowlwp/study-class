@@ -1,0 +1,54 @@
+{
+  "id": "level-b/pond-life",
+  "title": "Pond Life",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Pond Life Written by Susan Hartley wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Pond Life Written by Susan Hartley wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "There are plants in the pond. Pond Life Level B 3"
+    },
+    {
+      "page": 4,
+      "text": "There are fish in the pond:"
+    },
+    {
+      "page": 5,
+      "text": "There are snails in the pond: Pond Life Level B 5"
+    },
+    {
+      "page": 6,
+      "text": "There are bugs in the pond."
+    },
+    {
+      "page": 7,
+      "text": "There are ducks in the pond: Pond Life Level B"
+    },
+    {
+      "page": 8,
+      "text": "There are turtles in the pond: 8"
+    },
+    {
+      "page": 9,
+      "text": "There are beavers in the pond: Pond Life Level B"
+    },
+    {
+      "page": 10,
+      "text": "There are boys in the pond: 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: All photos except for pages I0, 6 (right): @ ArtToday: page 6 (right): @ Ivanov Arkady/123RF: page I0: @ Alibi Productions/Alamy Pond Life Level B Leveled Book Correlation @ Learning A-Z LEVEL B Written by Susan Hartley Fountas & Pinnell B All rights reserved: Reading Recovery 2 DRA 2 wwwreadinga-zcom"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "level-b/near-and-far-away",
+  "title": "Near And Far Away",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Near and Far Away Written by Cheryl Ryan wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Near and Far 86 Written Cheryl Ryan wwwreadinga-z.com Away by"
+    },
+    {
+      "page": 3,
+      "text": "This lion is near; and Far Level B 3 Near Away"
+    },
+    {
+      "page": 4,
+      "text": "That lion is far away."
+    },
+    {
+      "page": 5,
+      "text": "This owl is near: and Far Level B 5 Near Away"
+    },
+    {
+      "page": 6,
+      "text": "That owl is far awaY:"
+    },
+    {
+      "page": 7,
+      "text": "This wolf is near; and Far Level B Near Away"
+    },
+    {
+      "page": 8,
+      "text": "That wolf is far away: 8"
+    },
+    {
+      "page": 9,
+      "text": "This deer is near; and Far Level B Near Away"
+    },
+    {
+      "page": 10,
+      "text": "That deer is far awaY: 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover; back cover; title page, pages 3,4_ 5,7 @ Jupiterimages Corporation; page 6: @ Radius/SuperStock; page 8: @ Radius Images/Alamy: pages 9, 10: @ Exactostock/SuperStock Near and Far Level B Leveled Book Correlation Learning A-Z LEVEL B Written by Cheryl Ryan Fountas & Pinnell B All rights reserved: Reading Recovery 2 DRA 2 wwwreadinga-zcom Away"
+    }
+  ]
+}

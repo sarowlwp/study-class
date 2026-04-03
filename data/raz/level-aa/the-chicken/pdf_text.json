@@ -1,0 +1,58 @@
+{
+  "id": "level-aa/the-chicken",
+  "title": "The Chicken",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , Aa The Chicken Written by Racheal Rice wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "The Chicken Written by Racheal Rice wwwreadinga-z.com Focus Question What are the different parts of a chicken?"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know beak feet chicken legs egg tail feathers wings Photo Credits: Front cover; back cover: @ elilena/iStock/Thinkstock; title page: Eric Guilloret/Biosphotolardea.com; page 3: @ pudiq/iStock/Thinkstock; page 4: 0 Adam Edwards/123RF; page 5: @ MarkPiovesan/iStock/Thinkstock; page 6: 0 digifuture/123RF; page 7: @ gsagi/iStock/Thinkstock; page &: @ Ukhov/123RF; page 9: @ Waranuch Chimsang/123RF; page 10: @ Cooperl Corbis The Chicken Level aa Leveled Book Correlation Learning A-Z LEVEL aa Written by Racheal Rice Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com Alexey Ashley"
+    },
+    {
+      "page": 4,
+      "text": "The chicken: The Chicken Level aa 3"
+    },
+    {
+      "page": 5,
+      "text": "The beak."
+    },
+    {
+      "page": 6,
+      "text": "The feathers: The Chicken Level aa 5"
+    },
+    {
+      "page": 7,
+      "text": "The 6 wings."
+    },
+    {
+      "page": 8,
+      "text": "The tail. The Chicken Level aa"
+    },
+    {
+      "page": 9,
+      "text": "The 8 legs."
+    },
+    {
+      "page": 10,
+      "text": "The feet: The Chicken Level aa"
+    },
+    {
+      "page": 11,
+      "text": "The eggs. 10"
+    },
+    {
+      "page": 12,
+      "text": "The Chicken A Reading A-Z Level aa Leveled Book Word Count: 16 Connections Writing and Art Chickens and other animals live on farms. Draw a picture of a farm with many animals: Write the names of the animals. Science Draw a picture of a chicken and label the different parts of its Visit wwwreadinga-z.com for thousands of books and materials. body:"
+    }
+  ]
+}

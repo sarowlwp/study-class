@@ -1,0 +1,141 @@
+{
+  "version": "1.0",
+  "total_words": 27,
+  "timings": [
+    {
+      "word": "spring",
+      "start": 0.0,
+      "end": 0.58
+    },
+    {
+      "word": "written",
+      "start": 1.34,
+      "end": 1.56
+    },
+    {
+      "word": "by",
+      "start": 1.56,
+      "end": 2.18
+    },
+    {
+      "word": "eva",
+      "start": 2.18,
+      "end": 2.62
+    },
+    {
+      "word": "g",
+      "start": 2.62,
+      "end": 3.26
+    },
+    {
+      "word": "k",
+      "start": 3.4,
+      "end": 3.56
+    },
+    {
+      "word": "lish",
+      "start": 3.6,
+      "end": 4.32
+    },
+    {
+      "word": "illustrated",
+      "start": 4.7,
+      "end": 5.1
+    },
+    {
+      "word": "by",
+      "start": 5.1,
+      "end": 6.0
+    },
+    {
+      "word": "signe",
+      "start": 6.0,
+      "end": 6.6
+    },
+    {
+      "word": "norton",
+      "start": 6.6,
+      "end": 7.54
+    },
+    {
+      "word": "the",
+      "start": 8.82,
+      "end": 10.06
+    },
+    {
+      "word": "ball",
+      "start": 10.06,
+      "end": 10.98
+    },
+    {
+      "word": "the",
+      "start": 13.06,
+      "end": 13.26
+    },
+    {
+      "word": "bikes",
+      "start": 13.26,
+      "end": 14.04
+    },
+    {
+      "word": "the",
+      "start": 16.74,
+      "end": 16.76
+    },
+    {
+      "word": "birds",
+      "start": 16.76,
+      "end": 17.42
+    },
+    {
+      "word": "the",
+      "start": 20.08,
+      "end": 20.22
+    },
+    {
+      "word": "flowers",
+      "start": 20.22,
+      "end": 20.8
+    },
+    {
+      "word": "the",
+      "start": 23.54,
+      "end": 23.74
+    },
+    {
+      "word": "rain",
+      "start": 23.74,
+      "end": 24.38
+    },
+    {
+      "word": "the",
+      "start": 24.38,
+      "end": 27.08
+    },
+    {
+      "word": "rainbow",
+      "start": 27.08,
+      "end": 28.12
+    },
+    {
+      "word": "the",
+      "start": 29.38,
+      "end": 30.34
+    },
+    {
+      "word": "bunny",
+      "start": 30.34,
+      "end": 30.96
+    },
+    {
+      "word": "the",
+      "start": 32.38,
+      "end": 33.42
+    },
+    {
+      "word": "spring",
+      "start": 33.42,
+      "end": 33.82
+    }
+  ]
+}

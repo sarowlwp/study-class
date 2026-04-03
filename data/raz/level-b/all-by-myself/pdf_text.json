@@ -1,0 +1,58 @@
+{
+  "id": "level-b/all-by-myself",
+  "title": "All By Myself",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B AII Myself Written Gabriel Harper Illustrated by Nadia Ronquillo WWWreadinga-Z.com By by"
+    },
+    {
+      "page": 2,
+      "text": "AII Myself Written by Gabriel Harper Illustrated by Nadia Ronquillo wwwreadinga-z.com Focus Question What does the girl do all by herself? By"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know build listen color myself dress think AIl By Myself Level B Leveled Book 0 Learning A-Z Correlation Written by Gabriel Harper LEVEL B Illustrated by Nadia Ronquillo Fountas & Pinnell B All rights reserved. Reading Recovery 2 DRA 2 www.readinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "I read all by myself: All By Myself Level B 3"
+    },
+    {
+      "page": 5,
+      "text": "IF I color all by myself: 4"
+    },
+    {
+      "page": 6,
+      "text": "I sing all by myself: All By Myself Level B 5"
+    },
+    {
+      "page": 7,
+      "text": "I play all myself: by"
+    },
+    {
+      "page": 8,
+      "text": "I build all by myself; All By Myself Level B"
+    },
+    {
+      "page": 9,
+      "text": "I listen myself: 8 all by"
+    },
+    {
+      "page": 10,
+      "text": "I dress all by myself: All By Myself Level B"
+    },
+    {
+      "page": 11,
+      "text": "I think all by myself: 10"
+    },
+    {
+      "page": 12,
+      "text": "AlI Myself A Reading A-Z Level B Leveled Book Word Count: 40 Connections Writing and Art What do you like to do all by yourself? Draw a picture and write about it. Social Studies What is something that you can't do all by yourself? Share your ideas with a partner: Reading A-z Visit www.readinga-z.com for thousands of books and materials. By"
+    }
+  ]
+}

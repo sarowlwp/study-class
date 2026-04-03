@@ -1,0 +1,58 @@
+{
+  "id": "level-a/safe-not-safe",
+  "title": "Safe Not Safe",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Safe, Not Safe 6 0 Written Edie Evans Illustrated by Neesha Hudson wwwreadinga-z.com by"
+    },
+    {
+      "page": 2,
+      "text": "Safe, Not Safe Written by Edie Evans Illustrated Neesha Hudson wwwreadinga-z.com Focus Question is it important to be safe? by Why"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know fire safe ice street not water Safe, Not Safe Level A Leveled Book 0 Learning A-Z Correlation Written by Edie Evans LEVEL A Illustrated by Neesha Hudson Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "This street is safe: Safe; Not Safe Level A 3"
+    },
+    {
+      "page": 5,
+      "text": "0 0 0 0 M: 6 This street is not safe."
+    },
+    {
+      "page": 6,
+      "text": "TH This ice is safe. Safe; Not Safe Level A 5"
+    },
+    {
+      "page": 7,
+      "text": "2 This ice is not safe. Mum"
+    },
+    {
+      "page": 8,
+      "text": "es This water is safe. Safe; Not Safe Level A"
+    },
+    {
+      "page": 9,
+      "text": "{g~48  M This water is not safe. 8"
+    },
+    {
+      "page": 10,
+      "text": "This fire is safe. Safe; Not Safe Level A 4 M"
+    },
+    {
+      "page": 11,
+      "text": "This fire is not safe. 10"
+    },
+    {
+      "page": 12,
+      "text": "Safe, Not Safe A Reading A-Z Level A Leveled Book Word Count: 36 Connections Writing and Art Choose something else that can be both safe and not safe: Draw a picture and write about it. Social Studies Make a poster reminding your classmates to be safe. Hang your poster up in your classroom: Reading A-z Visit www.readinga-z.com for thousands of books and materials."
+    }
+  ]
+}

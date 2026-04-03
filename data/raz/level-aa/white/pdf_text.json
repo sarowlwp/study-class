@@ -1,0 +1,58 @@
+{
+  "id": "level-aa/white",
+  "title": "White",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , aa White series Colors Written by Nigel Pepperhouse wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "White Written by Nigel Pepperhouse WWWreadinga-Z.com Focus Question Where can you see the color white in nature?"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know fox seal igloo snow owl whale Photo Credits: Front cover; back cover: @ Erectus/Dreamstime.com; title page: @ John E Marriott/AII Canada Photos/age fotostock; page 3: @ Krzysztof Grabiec/123RF; page 4: @ Hemera Technologies/AbleStock com/Thinkstock; page 5: @ Kennan Ward/Corbis; page 6: @ Tom McHugh/Science Source; page 7: @ Jurgen & Christine Sohns/imageBROKER/Corbis; page &: Steven Kazlowski/Science Faction/Corbis; page 9: @ David & Micha Sheldon/Thinkstock; page 10: @ Radius Images/Alamy White Level aa Leveled Book Correlation Learning A-Z LEVEL aa Written by Nigel Pepperhouse Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "The white snow White Level aa 3"
+    },
+    {
+      "page": 5,
+      "text": "The white flowers."
+    },
+    {
+      "page": 6,
+      "text": "The white fox White Level aa 5"
+    },
+    {
+      "page": 7,
+      "text": "The white whale: 6"
+    },
+    {
+      "page": 8,
+      "text": "The white seal: White Level aa"
+    },
+    {
+      "page": 9,
+      "text": "The white eggs. 8"
+    },
+    {
+      "page": 10,
+      "text": "The white owl: White Level aa"
+    },
+    {
+      "page": 11,
+      "text": "The white   igloo. 10"
+    },
+    {
+      "page": 12,
+      "text": "White A Reading A-Z Level aa Leveled Book Word Count: 24 Connections Writing and Art Think of something else that is white. Draw a picture and write about it. Science Many animals that live in the snow are white: do you think this is? How does being white help these animals? Reading A-z Visit www.readinga-z.com for thousands of books and materials. Why"
+    }
+  ]
+}

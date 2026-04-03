@@ -1,0 +1,54 @@
+{
+  "id": "level-b/too-many-leaves",
+  "title": "Too Many Leaves",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Ioo Many[lecves 021 222 Written by Bev Osborn Illustrated by Nora Voutas wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Too Many Leaves Written by Bev Osborn Illustrated by Nora Voutas wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "I rake the leaves for Grandma: Too Many Leaves 0 Level B 3"
+    },
+    {
+      "page": 4,
+      "text": "0z ( M I rake the orange leaves. 47 3"
+    },
+    {
+      "page": 5,
+      "text": "072 222 2 I rake the brown leaves: Too Many Leaves 0 Level B 5 ( 0 ~OGO"
+    },
+    {
+      "page": 6,
+      "text": "I rake the leaves: gold"
+    },
+    {
+      "page": 7,
+      "text": "399 I rake the red leaves: Too Many Leaves 0 Level B"
+    },
+    {
+      "page": 8,
+      "text": "I rake the big leaves: 8"
+    },
+    {
+      "page": 9,
+      "text": "I rake the small leaves: Too Many Leaves 0 Level B"
+    },
+    {
+      "page": 10,
+      "text": "5 22 M There are too many leavesl 10"
+    },
+    {
+      "page": 11,
+      "text": "Too Leaves Level B Leveled Book Learning A-Z Correlation Written by Bev Osborn LEVEL B Illustrated by Nora Voutas Fountas & Pinnell B AIl rights reserved: Reading Recovery_ 2 DRA 2 wwwreadinga-z.com Many"
+    }
+  ]
+}

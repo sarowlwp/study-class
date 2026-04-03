@@ -1,0 +1,281 @@
+{
+  "version": "1.0",
+  "total_words": 55,
+  "timings": [
+    {
+      "word": "what's",
+      "start": 0.0,
+      "end": 0.82
+    },
+    {
+      "word": "for",
+      "start": 0.82,
+      "end": 1.26
+    },
+    {
+      "word": "breakfast",
+      "start": 1.26,
+      "end": 1.94
+    },
+    {
+      "word": "written",
+      "start": 2.96,
+      "end": 3.32
+    },
+    {
+      "word": "by",
+      "start": 3.32,
+      "end": 3.9
+    },
+    {
+      "word": "harriet",
+      "start": 3.9,
+      "end": 4.52
+    },
+    {
+      "word": "rosenblum",
+      "start": 4.52,
+      "end": 5.62
+    },
+    {
+      "word": "some",
+      "start": 6.18,
+      "end": 6.38
+    },
+    {
+      "word": "kids",
+      "start": 6.38,
+      "end": 7.04
+    },
+    {
+      "word": "eat",
+      "start": 7.04,
+      "end": 7.76
+    },
+    {
+      "word": "cereal",
+      "start": 7.76,
+      "end": 8.4
+    },
+    {
+      "word": "for",
+      "start": 8.4,
+      "end": 9.06
+    },
+    {
+      "word": "breakfast",
+      "start": 9.06,
+      "end": 9.66
+    },
+    {
+      "word": "some",
+      "start": 10.52,
+      "end": 10.52
+    },
+    {
+      "word": "kids",
+      "start": 10.52,
+      "end": 11.32
+    },
+    {
+      "word": "eat",
+      "start": 11.32,
+      "end": 11.9
+    },
+    {
+      "word": "eggs",
+      "start": 11.9,
+      "end": 12.66
+    },
+    {
+      "word": "for",
+      "start": 12.66,
+      "end": 13.2
+    },
+    {
+      "word": "breakfast",
+      "start": 13.2,
+      "end": 13.9
+    },
+    {
+      "word": "some",
+      "start": 14.48,
+      "end": 14.74
+    },
+    {
+      "word": "kids",
+      "start": 14.74,
+      "end": 15.52
+    },
+    {
+      "word": "eat",
+      "start": 15.52,
+      "end": 16.2
+    },
+    {
+      "word": "toast",
+      "start": 16.2,
+      "end": 17.0
+    },
+    {
+      "word": "for",
+      "start": 17.0,
+      "end": 17.72
+    },
+    {
+      "word": "breakfast",
+      "start": 17.72,
+      "end": 18.4
+    },
+    {
+      "word": "some",
+      "start": 18.96,
+      "end": 19.24
+    },
+    {
+      "word": "kids",
+      "start": 19.24,
+      "end": 20.1
+    },
+    {
+      "word": "eat",
+      "start": 20.1,
+      "end": 20.86
+    },
+    {
+      "word": "yogurt",
+      "start": 20.86,
+      "end": 21.52
+    },
+    {
+      "word": "for",
+      "start": 21.52,
+      "end": 22.24
+    },
+    {
+      "word": "breakfast",
+      "start": 22.24,
+      "end": 23.04
+    },
+    {
+      "word": "some",
+      "start": 23.56,
+      "end": 23.9
+    },
+    {
+      "word": "kids",
+      "start": 23.9,
+      "end": 24.72
+    },
+    {
+      "word": "eat",
+      "start": 24.72,
+      "end": 25.56
+    },
+    {
+      "word": "muffins",
+      "start": 25.56,
+      "end": 26.3
+    },
+    {
+      "word": "for",
+      "start": 26.3,
+      "end": 26.86
+    },
+    {
+      "word": "breakfast",
+      "start": 26.86,
+      "end": 27.56
+    },
+    {
+      "word": "some",
+      "start": 27.56,
+      "end": 28.36
+    },
+    {
+      "word": "kids",
+      "start": 28.36,
+      "end": 28.96
+    },
+    {
+      "word": "eat",
+      "start": 28.96,
+      "end": 29.54
+    },
+    {
+      "word": "bacon",
+      "start": 29.54,
+      "end": 30.28
+    },
+    {
+      "word": "for",
+      "start": 30.28,
+      "end": 30.92
+    },
+    {
+      "word": "breakfast",
+      "start": 30.92,
+      "end": 31.44
+    },
+    {
+      "word": "some",
+      "start": 32.36,
+      "end": 32.6
+    },
+    {
+      "word": "kids",
+      "start": 32.6,
+      "end": 33.3
+    },
+    {
+      "word": "eat",
+      "start": 33.3,
+      "end": 34.02
+    },
+    {
+      "word": "fruit",
+      "start": 34.02,
+      "end": 34.7
+    },
+    {
+      "word": "for",
+      "start": 34.7,
+      "end": 35.36
+    },
+    {
+      "word": "breakfast",
+      "start": 35.36,
+      "end": 36.02
+    },
+    {
+      "word": "what",
+      "start": 36.58,
+      "end": 36.74
+    },
+    {
+      "word": "do",
+      "start": 36.74,
+      "end": 37.08
+    },
+    {
+      "word": "you",
+      "start": 37.08,
+      "end": 37.7
+    },
+    {
+      "word": "eat",
+      "start": 37.7,
+      "end": 38.14
+    },
+    {
+      "word": "for",
+      "start": 38.14,
+      "end": 38.62
+    },
+    {
+      "word": "breakfast",
+      "start": 38.62,
+      "end": 38.94
+    }
+  ]
+}

@@ -1,0 +1,321 @@
+{
+  "version": "1.0",
+  "total_words": 63,
+  "timings": [
+    {
+      "word": "yami",
+      "start": 0.0,
+      "end": 0.52
+    },
+    {
+      "word": "yami",
+      "start": 0.52,
+      "end": 1.6
+    },
+    {
+      "word": "written",
+      "start": 2.06,
+      "end": 2.28
+    },
+    {
+      "word": "by",
+      "start": 2.28,
+      "end": 2.88
+    },
+    {
+      "word": "brian",
+      "start": 2.88,
+      "end": 3.6
+    },
+    {
+      "word": "roberts",
+      "start": 3.6,
+      "end": 4.52
+    },
+    {
+      "word": "illustrated",
+      "start": 5.44,
+      "end": 5.98
+    },
+    {
+      "word": "by",
+      "start": 5.98,
+      "end": 6.72
+    },
+    {
+      "word": "beth",
+      "start": 6.72,
+      "end": 7.38
+    },
+    {
+      "word": "buffington",
+      "start": 7.38,
+      "end": 8.2
+    },
+    {
+      "word": "i",
+      "start": 11.04,
+      "end": 11.06
+    },
+    {
+      "word": "like",
+      "start": 11.06,
+      "end": 11.46
+    },
+    {
+      "word": "popcorn",
+      "start": 11.46,
+      "end": 12.18
+    },
+    {
+      "word": "yami",
+      "start": 13.26,
+      "end": 13.64
+    },
+    {
+      "word": "yami",
+      "start": 13.64,
+      "end": 15.56
+    },
+    {
+      "word": "i",
+      "start": 17.16,
+      "end": 17.34
+    },
+    {
+      "word": "like",
+      "start": 17.34,
+      "end": 17.7
+    },
+    {
+      "word": "pizza",
+      "start": 17.7,
+      "end": 18.34
+    },
+    {
+      "word": "yami",
+      "start": 19.14,
+      "end": 19.64
+    },
+    {
+      "word": "yami",
+      "start": 19.64,
+      "end": 20.18
+    },
+    {
+      "word": "i",
+      "start": 22.74,
+      "end": 23.16
+    },
+    {
+      "word": "like",
+      "start": 23.16,
+      "end": 23.52
+    },
+    {
+      "word": "bread",
+      "start": 23.52,
+      "end": 24.0
+    },
+    {
+      "word": "and",
+      "start": 24.0,
+      "end": 24.54
+    },
+    {
+      "word": "jam",
+      "start": 24.54,
+      "end": 25.28
+    },
+    {
+      "word": "yami",
+      "start": 25.92,
+      "end": 26.6
+    },
+    {
+      "word": "yami",
+      "start": 26.6,
+      "end": 27.32
+    },
+    {
+      "word": "i",
+      "start": 29.1,
+      "end": 30.04
+    },
+    {
+      "word": "like",
+      "start": 30.04,
+      "end": 30.4
+    },
+    {
+      "word": "apples",
+      "start": 30.4,
+      "end": 30.96
+    },
+    {
+      "word": "and",
+      "start": 30.96,
+      "end": 31.56
+    },
+    {
+      "word": "bananas",
+      "start": 31.56,
+      "end": 32.3
+    },
+    {
+      "word": "yummy",
+      "start": 33.6,
+      "end": 33.6
+    },
+    {
+      "word": "yummy",
+      "start": 34.08,
+      "end": 34.46
+    },
+    {
+      "word": "i",
+      "start": 37.24,
+      "end": 37.38
+    },
+    {
+      "word": "like",
+      "start": 37.38,
+      "end": 37.82
+    },
+    {
+      "word": "corn",
+      "start": 37.82,
+      "end": 38.28
+    },
+    {
+      "word": "on",
+      "start": 38.28,
+      "end": 38.76
+    },
+    {
+      "word": "the",
+      "start": 38.76,
+      "end": 39.1
+    },
+    {
+      "word": "cob",
+      "start": 39.1,
+      "end": 39.32
+    },
+    {
+      "word": "yummy",
+      "start": 40.32,
+      "end": 40.56
+    },
+    {
+      "word": "yummy",
+      "start": 41.82,
+      "end": 41.82
+    },
+    {
+      "word": "i",
+      "start": 44.06,
+      "end": 44.22
+    },
+    {
+      "word": "like",
+      "start": 44.22,
+      "end": 44.58
+    },
+    {
+      "word": "carrots",
+      "start": 44.58,
+      "end": 44.96
+    },
+    {
+      "word": "and",
+      "start": 44.96,
+      "end": 45.62
+    },
+    {
+      "word": "peas",
+      "start": 45.62,
+      "end": 46.34
+    },
+    {
+      "word": "yummy",
+      "start": 47.4,
+      "end": 47.4
+    },
+    {
+      "word": "yummy",
+      "start": 47.7,
+      "end": 48.06
+    },
+    {
+      "word": "i",
+      "start": 50.6,
+      "end": 50.76
+    },
+    {
+      "word": "like",
+      "start": 50.76,
+      "end": 51.16
+    },
+    {
+      "word": "cookies",
+      "start": 51.16,
+      "end": 51.46
+    },
+    {
+      "word": "and",
+      "start": 51.46,
+      "end": 52.1
+    },
+    {
+      "word": "milk",
+      "start": 52.1,
+      "end": 52.58
+    },
+    {
+      "word": "yummy",
+      "start": 53.54,
+      "end": 53.88
+    },
+    {
+      "word": "yummy",
+      "start": 54.34,
+      "end": 54.6
+    },
+    {
+      "word": "i",
+      "start": 56.34,
+      "end": 57.46
+    },
+    {
+      "word": "don't",
+      "start": 57.46,
+      "end": 57.84
+    },
+    {
+      "word": "like",
+      "start": 57.84,
+      "end": 58.28
+    },
+    {
+      "word": "lima",
+      "start": 58.28,
+      "end": 58.98
+    },
+    {
+      "word": "beans",
+      "start": 58.98,
+      "end": 59.64
+    },
+    {
+      "word": "yucky",
+      "start": 60.56,
+      "end": 60.8
+    },
+    {
+      "word": "yucky",
+      "start": 60.8,
+      "end": 61.36
+    }
+  ]
+}

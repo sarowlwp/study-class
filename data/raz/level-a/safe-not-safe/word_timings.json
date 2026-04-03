@@ -1,0 +1,486 @@
+{
+  "version": "1.0",
+  "total_words": 96,
+  "timings": [
+    {
+      "word": "safe",
+      "start": 0.0,
+      "end": 0.92
+    },
+    {
+      "word": "not",
+      "start": 1.68,
+      "end": 1.86
+    },
+    {
+      "word": "safe",
+      "start": 1.86,
+      "end": 2.88
+    },
+    {
+      "word": "written",
+      "start": 3.84,
+      "end": 4.14
+    },
+    {
+      "word": "by",
+      "start": 4.14,
+      "end": 5.06
+    },
+    {
+      "word": "ed",
+      "start": 5.06,
+      "end": 6.02
+    },
+    {
+      "word": "evans",
+      "start": 6.02,
+      "end": 7.28
+    },
+    {
+      "word": "illustrated",
+      "start": 8.42,
+      "end": 9.26
+    },
+    {
+      "word": "by",
+      "start": 9.26,
+      "end": 10.2
+    },
+    {
+      "word": "nisha",
+      "start": 10.2,
+      "end": 11.28
+    },
+    {
+      "word": "hudson",
+      "start": 11.28,
+      "end": 12.66
+    },
+    {
+      "word": "focus",
+      "start": 13.96,
+      "end": 14.28
+    },
+    {
+      "word": "question",
+      "start": 14.28,
+      "end": 15.52
+    },
+    {
+      "word": "why",
+      "start": 15.52,
+      "end": 17.04
+    },
+    {
+      "word": "is",
+      "start": 17.04,
+      "end": 17.74
+    },
+    {
+      "word": "it",
+      "start": 17.74,
+      "end": 18.34
+    },
+    {
+      "word": "important",
+      "start": 18.34,
+      "end": 19.2
+    },
+    {
+      "word": "to",
+      "start": 19.2,
+      "end": 20.4
+    },
+    {
+      "word": "be",
+      "start": 20.4,
+      "end": 21.32
+    },
+    {
+      "word": "safe",
+      "start": 21.32,
+      "end": 21.72
+    },
+    {
+      "word": "this",
+      "start": 22.38,
+      "end": 22.66
+    },
+    {
+      "word": "street",
+      "start": 22.66,
+      "end": 23.5
+    },
+    {
+      "word": "is",
+      "start": 23.5,
+      "end": 24.42
+    },
+    {
+      "word": "safe",
+      "start": 24.42,
+      "end": 25.3
+    },
+    {
+      "word": "this",
+      "start": 26.12,
+      "end": 26.42
+    },
+    {
+      "word": "street",
+      "start": 26.42,
+      "end": 27.38
+    },
+    {
+      "word": "is",
+      "start": 27.38,
+      "end": 28.32
+    },
+    {
+      "word": "not",
+      "start": 28.32,
+      "end": 29.26
+    },
+    {
+      "word": "safe",
+      "start": 29.26,
+      "end": 30.16
+    },
+    {
+      "word": "this",
+      "start": 31.0,
+      "end": 31.44
+    },
+    {
+      "word": "ice",
+      "start": 31.44,
+      "end": 32.2
+    },
+    {
+      "word": "is",
+      "start": 32.2,
+      "end": 33.12
+    },
+    {
+      "word": "safe",
+      "start": 33.12,
+      "end": 34.1
+    },
+    {
+      "word": "this",
+      "start": 34.64,
+      "end": 35.2
+    },
+    {
+      "word": "ice",
+      "start": 35.2,
+      "end": 35.96
+    },
+    {
+      "word": "is",
+      "start": 35.96,
+      "end": 36.78
+    },
+    {
+      "word": "not",
+      "start": 36.78,
+      "end": 37.52
+    },
+    {
+      "word": "safe",
+      "start": 37.52,
+      "end": 38.42
+    },
+    {
+      "word": "this",
+      "start": 39.04,
+      "end": 39.54
+    },
+    {
+      "word": "water",
+      "start": 39.54,
+      "end": 40.4
+    },
+    {
+      "word": "is",
+      "start": 40.4,
+      "end": 41.28
+    },
+    {
+      "word": "safe",
+      "start": 41.28,
+      "end": 42.26
+    },
+    {
+      "word": "this",
+      "start": 42.26,
+      "end": 43.32
+    },
+    {
+      "word": "water",
+      "start": 43.32,
+      "end": 44.22
+    },
+    {
+      "word": "is",
+      "start": 44.22,
+      "end": 45.18
+    },
+    {
+      "word": "not",
+      "start": 45.18,
+      "end": 45.98
+    },
+    {
+      "word": "safe",
+      "start": 45.98,
+      "end": 46.84
+    },
+    {
+      "word": "this",
+      "start": 47.58,
+      "end": 47.88
+    },
+    {
+      "word": "fire",
+      "start": 47.88,
+      "end": 48.72
+    },
+    {
+      "word": "is",
+      "start": 48.72,
+      "end": 49.64
+    },
+    {
+      "word": "safe",
+      "start": 49.64,
+      "end": 50.64
+    },
+    {
+      "word": "this",
+      "start": 51.46,
+      "end": 51.86
+    },
+    {
+      "word": "fire",
+      "start": 51.86,
+      "end": 52.78
+    },
+    {
+      "word": "is",
+      "start": 52.78,
+      "end": 53.74
+    },
+    {
+      "word": "not",
+      "start": 53.74,
+      "end": 54.62
+    },
+    {
+      "word": "safe",
+      "start": 54.62,
+      "end": 55.66
+    },
+    {
+      "word": "connections",
+      "start": 56.22,
+      "end": 57.16
+    },
+    {
+      "word": "writing",
+      "start": 58.34,
+      "end": 58.42
+    },
+    {
+      "word": "and",
+      "start": 58.42,
+      "end": 59.34
+    },
+    {
+      "word": "art",
+      "start": 59.34,
+      "end": 60.44
+    },
+    {
+      "word": "choose",
+      "start": 61.82,
+      "end": 61.92
+    },
+    {
+      "word": "something",
+      "start": 61.92,
+      "end": 62.84
+    },
+    {
+      "word": "else",
+      "start": 62.84,
+      "end": 63.68
+    },
+    {
+      "word": "that",
+      "start": 63.68,
+      "end": 64.6
+    },
+    {
+      "word": "can",
+      "start": 64.6,
+      "end": 65.14
+    },
+    {
+      "word": "be",
+      "start": 65.14,
+      "end": 65.68
+    },
+    {
+      "word": "both",
+      "start": 65.68,
+      "end": 66.52
+    },
+    {
+      "word": "safe",
+      "start": 66.52,
+      "end": 67.52
+    },
+    {
+      "word": "and",
+      "start": 67.52,
+      "end": 68.5
+    },
+    {
+      "word": "not",
+      "start": 68.5,
+      "end": 69.44
+    },
+    {
+      "word": "safe",
+      "start": 69.44,
+      "end": 70.0
+    },
+    {
+      "word": "draw",
+      "start": 70.0,
+      "end": 72.06
+    },
+    {
+      "word": "a",
+      "start": 72.06,
+      "end": 72.74
+    },
+    {
+      "word": "picture",
+      "start": 72.74,
+      "end": 73.2
+    },
+    {
+      "word": "and",
+      "start": 73.2,
+      "end": 74.36
+    },
+    {
+      "word": "write",
+      "start": 74.36,
+      "end": 75.14
+    },
+    {
+      "word": "about",
+      "start": 75.14,
+      "end": 75.9
+    },
+    {
+      "word": "it",
+      "start": 75.9,
+      "end": 76.86
+    },
+    {
+      "word": "social",
+      "start": 77.6,
+      "end": 78.02
+    },
+    {
+      "word": "studies",
+      "start": 78.02,
+      "end": 79.02
+    },
+    {
+      "word": "make",
+      "start": 80.62,
+      "end": 80.84
+    },
+    {
+      "word": "a",
+      "start": 80.84,
+      "end": 81.8
+    },
+    {
+      "word": "poster",
+      "start": 81.8,
+      "end": 82.52
+    },
+    {
+      "word": "reminding",
+      "start": 82.52,
+      "end": 84.12
+    },
+    {
+      "word": "your",
+      "start": 84.12,
+      "end": 85.22
+    },
+    {
+      "word": "classmates",
+      "start": 85.22,
+      "end": 86.18
+    },
+    {
+      "word": "to",
+      "start": 86.18,
+      "end": 87.34
+    },
+    {
+      "word": "be",
+      "start": 87.34,
+      "end": 88.44
+    },
+    {
+      "word": "safe",
+      "start": 88.44,
+      "end": 89.1
+    },
+    {
+      "word": "hang",
+      "start": 90.34,
+      "end": 90.52
+    },
+    {
+      "word": "your",
+      "start": 90.52,
+      "end": 91.2
+    },
+    {
+      "word": "poster",
+      "start": 91.2,
+      "end": 92.08
+    },
+    {
+      "word": "up",
+      "start": 92.08,
+      "end": 93.04
+    },
+    {
+      "word": "in",
+      "start": 93.04,
+      "end": 94.2
+    },
+    {
+      "word": "your",
+      "start": 94.2,
+      "end": 94.58
+    },
+    {
+      "word": "classroom",
+      "start": 94.58,
+      "end": 95.4
+    }
+  ]
+}

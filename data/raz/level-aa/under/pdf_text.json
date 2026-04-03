@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/under",
+  "title": "Under",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , aa Under Written by Cheryl Ryan Illustrated by Nora Voutas WWw.readinga-z.com 0"
+    },
+    {
+      "page": 2,
+      "text": "Under Written by Cheryl Ryan Illustrated Nora Voutas wwwreadinga-z.com by"
+    },
+    {
+      "page": 3,
+      "text": "Under the chair_ Under Level aa 3"
+    },
+    {
+      "page": 4,
+      "text": "(( Under the desk_"
+    },
+    {
+      "page": 5,
+      "text": "Under the table. Under Level aa 5 0"
+    },
+    {
+      "page": 6,
+      "text": "8 Under the bed . #4"
+    },
+    {
+      "page": 7,
+      "text": "UJ)) Under the pillow Under Level aa"
+    },
+    {
+      "page": 8,
+      "text": "Under the umbrella. 8"
+    },
+    {
+      "page": 9,
+      "text": "M Under the swing_ Under Level aa"
+    },
+    {
+      "page": 10,
+      "text": "& 05 C 7 Under the tree . 10 ~^ Mulu)"
+    },
+    {
+      "page": 11,
+      "text": "Under Level aa Leveled Book Learning A-Z Correlation Written by Cheryl Ryan LEVEL aa Illustrated by Nora Voutas Fountas & Pinnell A All rights reserved. Reading_Recovery DRA A-| WWW.R readinga-z.com"
+    }
+  ]
+}

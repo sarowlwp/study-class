@@ -1,0 +1,54 @@
+{
+  "id": "level-a/the-rainstorm",
+  "title": "The Rainstorm",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A The Rainstorm S Written by Laura Zwickl wwwreadinga-z.com Tully"
+    },
+    {
+      "page": 2,
+      "text": "The Rainstorm Written by Laura Tully Zwickl wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "I see the Sun: The Rainstorm Level A 3"
+    },
+    {
+      "page": 4,
+      "text": "I see the sky:"
+    },
+    {
+      "page": 5,
+      "text": "I see the clouds. The Rainstorm Level A 5"
+    },
+    {
+      "page": 6,
+      "text": "I see the rain;"
+    },
+    {
+      "page": 7,
+      "text": "I see the lightning: The Rainstorm Level A"
+    },
+    {
+      "page": 8,
+      "text": "I see the puddle: 8"
+    },
+    {
+      "page": 9,
+      "text": "I see the rainbow. The Rainstorm Level A"
+    },
+    {
+      "page": 10,
+      "text": "I see the Sun: 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover: @ Steven Heap/123RF; back cover, page 6: Nataliyaostl Dreamstime.com; title page: @ Robert Blanda/Dreamstime.com; page 3: @ Vitaly Maksimchuk/Dreamstimecom; page 4 (background): @ iStockphoto.com/ Marcus Lindstrom; pages 4 (foreground) ; 5: @ iStockphoto.com/Marek Mnich; page 7: @ Paul Lampard/Dreamstime.com; page 8: SuperStock/age footstock; page 9: @ Andriy Solovyov/Dreamstimecom; page 10: @ iStockphoto.com/ imagedepotpro The Rainstorm Level A Leveled Book Correlation Learning A-Z LEVEL A Written by Laura Tully Zwickl Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-zcom"
+    }
+  ]
+}

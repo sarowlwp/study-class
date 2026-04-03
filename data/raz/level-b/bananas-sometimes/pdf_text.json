@@ -1,0 +1,54 @@
+{
+  "id": "level-b/bananas-sometimes",
+  "title": "Bananas Sometimes",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Bananas Sometimes Written by Elizabeth Strauss WWW.readinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Bananas Sometimes Written by Elizabeth Strauss wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "Bananas sometimes look like hands. Bananas Sometimes Level B 3"
+    },
+    {
+      "page": 4,
+      "text": "Bananas sometimes look like boats ."
+    },
+    {
+      "page": 5,
+      "text": "Bananas sometimes look like pencils. Bananas Sometimes Level B 5"
+    },
+    {
+      "page": 6,
+      "text": "Bananas sometimes look like   spiders."
+    },
+    {
+      "page": 7,
+      "text": "Bananas sometimes look like telephones. Bananas Sometimes Level B"
+    },
+    {
+      "page": 8,
+      "text": "Bananas sometimes look like smiles. 8"
+    },
+    {
+      "page": 9,
+      "text": "Bananas sometimes look like frowns. Bananas Sometimes Level B"
+    },
+    {
+      "page": 10,
+      "text": "Bananas always look to eat. 10 good"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover, back cover, page 4 (bananal: Jupiterimages Corporation; title pagepages 3, 4 (boyL 5,6, 7, 8, 9, 10: Learning A-Z Bananas Sometimes Level B Leveled Book Correlation Learning A-Z LEVEL B Written by Elizabeth Strauss Fountas & Pinnell B All rights reserved. Reading_Recovery 2 DRA 2 WWW.  readinga-z.com"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "level-a/he-runs",
+  "title": "He Runs",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A He Runs SCHOOL Written by Ned Jensen Illustrated by Darcy Tom wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "He Runs Written by Ned Jensen Illustrated by Darcy Tom wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "He runs to the bus: He Runs Level A 3"
+    },
+    {
+      "page": 4,
+      "text": "He runs to the train"
+    },
+    {
+      "page": 5,
+      "text": "He runs to the boat. He Runs Level A 5"
+    },
+    {
+      "page": 6,
+      "text": "3 5 = He runs to the plane"
+    },
+    {
+      "page": 7,
+      "text": "SCHOOL 83 He runs to the school He Runs Level A"
+    },
+    {
+      "page": 8,
+      "text": "BOOKS He runs to the store 8 Guwv"
+    },
+    {
+      "page": 9,
+      "text": "0 He runs to the pool: He Runs Level A"
+    },
+    {
+      "page": 10,
+      "text": "He runs home: 10"
+    },
+    {
+      "page": 11,
+      "text": "He Runs Level A Leveled Book @ Learning A-Z Correlation Written by Ned Jensen LEVEL A Illustrated by Darcy Tom Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-zcom"
+    }
+  ]
+}

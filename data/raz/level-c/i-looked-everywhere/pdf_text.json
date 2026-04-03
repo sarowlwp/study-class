@@ -1,0 +1,54 @@
+{
+  "id": "level-c/i-looked-everywhere",
+  "title": "I Looked Everywhere",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C I Looked Everywhere Written by Elizabeth Strauss Illustrated by John Kastner wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "I Looked Everywhere Written by Elizabeth Strauss Illustrated by John Kastner wwwreadinga-z.com %"
+    },
+    {
+      "page": 3,
+      "text": "Ia Did youU look for your shoe? Looked Everywhere Level C 3 LAd"
+    },
+    {
+      "page": 4,
+      "text": "I looked everywhere: shoe is not there: 3 My"
+    },
+    {
+      "page": 5,
+      "text": "501 73 3 Did yoU look under the bed? Looked Everywhere Level C 5"
+    },
+    {
+      "page": 6,
+      "text": "I looked everywhere: shoe is not there: My"
+    },
+    {
+      "page": 7,
+      "text": "Did you look in your box? Looked Everywhere Level C toy"
+    },
+    {
+      "page": 8,
+      "text": "I looked everywhere: shoe is not there: 8 My"
+    },
+    {
+      "page": 9,
+      "text": "Did yoU look in your closet? Looked Everywhere Level C"
+    },
+    {
+      "page": 10,
+      "text": "Oh, nol I did not look everywhere: I did not look there: 10"
+    },
+    {
+      "page": 11,
+      "text": "I Looked Everywhere Level C Leveled Book Learning A-Z Correlation Written by Elizabeth Strauss LEVEL € Illustrated by John Kastner Fountas & Pinnell C All rights reserved: Reading Recovery 3-4 DRA 3-4 wwwreadinga-zcom"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "level-a/my-room",
+  "title": "My Room",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Room Written by Cheryl Illustrated by Darcy Tom wwwreadinga-z.com My Ryan"
+    },
+    {
+      "page": 2,
+      "text": "Room Toys Written by Cheryl Ryan Illustrated by Tom wwwreadinga-z.com My Darcy"
+    },
+    {
+      "page": 3,
+      "text": "STAR; Here is my room_ My Room Level A 3"
+    },
+    {
+      "page": 4,
+      "text": "Here is my bed."
+    },
+    {
+      "page": 5,
+      "text": "L IWu Mtu 9 Here is my desk. My Room Level A 5 Lllll4"
+    },
+    {
+      "page": 6,
+      "text": "608 0o Here is my fish."
+    },
+    {
+      "page": 7,
+      "text": "BENS LOOSE Here are my books_ My Room Level A StARS + ABc TooTH ANMALS BUGS Millie  Mousel tree Apple Apple"
+    },
+    {
+      "page": 8,
+      "text": "ToYs Here are my 8 toys."
+    },
+    {
+      "page": 9,
+      "text": "Here are my shoes. My Room Level A 9 JI 2"
+    },
+    {
+      "page": 10,
+      "text": "Here are my clothes_ 10"
+    },
+    {
+      "page": 11,
+      "text": "LOADING My Room Level A Leveled Book Learning A-Z Correlation Written by Cheryl Ryan LEVEL A Illustrated by Darcy Tom Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 WWW.R readinga-z.com"
+    }
+  ]
+}

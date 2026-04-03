@@ -1,0 +1,54 @@
+{
+  "id": "level-a/bedtime-counting",
+  "title": "Bedtime Counting",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Bedtime Counting Written by Melissa Benner Illustrated by Linda Silvestri WWWreadinga-Z.com"
+    },
+    {
+      "page": 2,
+      "text": "Bedtime Counting Written by Melissa Benner Illustrated by Linda Silvestri wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "I count one Bedtime Counting 0 Level A 3 sheep:"
+    },
+    {
+      "page": 4,
+      "text": "I count two 4 sheep_"
+    },
+    {
+      "page": 5,
+      "text": "I count three Bedtime Counting 0 Level A 5 sheep_"
+    },
+    {
+      "page": 6,
+      "text": "I count four 6 W sheep:"
+    },
+    {
+      "page": 7,
+      "text": "I count five Bedtime Counting 0 Level A sheep_"
+    },
+    {
+      "page": 8,
+      "text": "I count six 8 sheep_"
+    },
+    {
+      "page": 9,
+      "text": "7 5 MM {4 I count seven Bedtime Counting 0 Level A sheep-"
+    },
+    {
+      "page": 10,
+      "text": "I count many sheepl 10"
+    },
+    {
+      "page": 11,
+      "text": "Bedtime Counting Level A Leveled Book 0 Learning A-Z Correlation Written by Melissa Benner LEVEL A Illustrated by Linda Silvestri Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com"
+    }
+  ]
+}

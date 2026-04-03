@@ -1,0 +1,436 @@
+{
+  "version": "1.0",
+  "total_words": 86,
+  "timings": [
+    {
+      "word": "this",
+      "start": 0.0,
+      "end": 0.6
+    },
+    {
+      "word": "feels",
+      "start": 0.6,
+      "end": 1.78
+    },
+    {
+      "word": "written",
+      "start": 1.78,
+      "end": 3.04
+    },
+    {
+      "word": "by",
+      "start": 3.04,
+      "end": 4.02
+    },
+    {
+      "word": "gabriel",
+      "start": 4.02,
+      "end": 4.8
+    },
+    {
+      "word": "harper",
+      "start": 4.8,
+      "end": 5.78
+    },
+    {
+      "word": "illustrated",
+      "start": 5.78,
+      "end": 7.16
+    },
+    {
+      "word": "by",
+      "start": 7.16,
+      "end": 8.14
+    },
+    {
+      "word": "matt",
+      "start": 8.14,
+      "end": 9.34
+    },
+    {
+      "word": "loverich",
+      "start": 9.34,
+      "end": 10.94
+    },
+    {
+      "word": "focus",
+      "start": 12.32,
+      "end": 12.32
+    },
+    {
+      "word": "question",
+      "start": 12.32,
+      "end": 13.16
+    },
+    {
+      "word": "how",
+      "start": 14.2,
+      "end": 14.4
+    },
+    {
+      "word": "can",
+      "start": 14.4,
+      "end": 15.02
+    },
+    {
+      "word": "things",
+      "start": 15.02,
+      "end": 15.78
+    },
+    {
+      "word": "feel",
+      "start": 15.78,
+      "end": 16.48
+    },
+    {
+      "word": "this",
+      "start": 16.48,
+      "end": 17.52
+    },
+    {
+      "word": "feels",
+      "start": 17.52,
+      "end": 18.6
+    },
+    {
+      "word": "so",
+      "start": 18.6,
+      "end": 19.68
+    },
+    {
+      "word": "hard",
+      "start": 19.68,
+      "end": 20.8
+    },
+    {
+      "word": "this",
+      "start": 21.46,
+      "end": 21.84
+    },
+    {
+      "word": "feels",
+      "start": 21.84,
+      "end": 22.8
+    },
+    {
+      "word": "so",
+      "start": 22.8,
+      "end": 23.7
+    },
+    {
+      "word": "soft",
+      "start": 23.7,
+      "end": 24.8
+    },
+    {
+      "word": "this",
+      "start": 24.8,
+      "end": 25.68
+    },
+    {
+      "word": "feels",
+      "start": 25.68,
+      "end": 26.72
+    },
+    {
+      "word": "so",
+      "start": 26.72,
+      "end": 27.76
+    },
+    {
+      "word": "dry",
+      "start": 27.76,
+      "end": 28.86
+    },
+    {
+      "word": "this",
+      "start": 29.36,
+      "end": 29.68
+    },
+    {
+      "word": "feels",
+      "start": 29.68,
+      "end": 30.98
+    },
+    {
+      "word": "so",
+      "start": 30.98,
+      "end": 31.98
+    },
+    {
+      "word": "wet",
+      "start": 31.98,
+      "end": 33.1
+    },
+    {
+      "word": "this",
+      "start": 33.52,
+      "end": 33.84
+    },
+    {
+      "word": "feels",
+      "start": 33.84,
+      "end": 35.08
+    },
+    {
+      "word": "so",
+      "start": 35.08,
+      "end": 36.1
+    },
+    {
+      "word": "rough",
+      "start": 36.1,
+      "end": 37.16
+    },
+    {
+      "word": "this",
+      "start": 37.68,
+      "end": 38.24
+    },
+    {
+      "word": "feels",
+      "start": 38.24,
+      "end": 39.1
+    },
+    {
+      "word": "so",
+      "start": 39.1,
+      "end": 40.04
+    },
+    {
+      "word": "smooth",
+      "start": 40.04,
+      "end": 41.18
+    },
+    {
+      "word": "this",
+      "start": 41.92,
+      "end": 42.68
+    },
+    {
+      "word": "feels",
+      "start": 42.68,
+      "end": 43.4
+    },
+    {
+      "word": "so",
+      "start": 43.4,
+      "end": 44.24
+    },
+    {
+      "word": "cold",
+      "start": 44.24,
+      "end": 45.4
+    },
+    {
+      "word": "this",
+      "start": 45.76,
+      "end": 46.08
+    },
+    {
+      "word": "feels",
+      "start": 46.08,
+      "end": 47.06
+    },
+    {
+      "word": "so",
+      "start": 47.06,
+      "end": 48.02
+    },
+    {
+      "word": "warm",
+      "start": 48.02,
+      "end": 49.3
+    },
+    {
+      "word": "connections",
+      "start": 50.16,
+      "end": 50.16
+    },
+    {
+      "word": "writing",
+      "start": 51.3,
+      "end": 51.64
+    },
+    {
+      "word": "and",
+      "start": 51.64,
+      "end": 52.78
+    },
+    {
+      "word": "art",
+      "start": 52.78,
+      "end": 53.8
+    },
+    {
+      "word": "make",
+      "start": 54.8,
+      "end": 55.66
+    },
+    {
+      "word": "a",
+      "start": 55.66,
+      "end": 56.32
+    },
+    {
+      "word": "new",
+      "start": 56.32,
+      "end": 56.62
+    },
+    {
+      "word": "sentence",
+      "start": 56.62,
+      "end": 57.26
+    },
+    {
+      "word": "for",
+      "start": 57.26,
+      "end": 57.94
+    },
+    {
+      "word": "the",
+      "start": 57.94,
+      "end": 58.34
+    },
+    {
+      "word": "book",
+      "start": 58.34,
+      "end": 59.0
+    },
+    {
+      "word": "draw",
+      "start": 59.9,
+      "end": 60.26
+    },
+    {
+      "word": "a",
+      "start": 60.26,
+      "end": 61.38
+    },
+    {
+      "word": "picture",
+      "start": 61.38,
+      "end": 61.78
+    },
+    {
+      "word": "and",
+      "start": 62.66,
+      "end": 62.96
+    },
+    {
+      "word": "write",
+      "start": 62.96,
+      "end": 63.68
+    },
+    {
+      "word": "this",
+      "start": 63.68,
+      "end": 64.36
+    },
+    {
+      "word": "sentence",
+      "start": 64.36,
+      "end": 65.12
+    },
+    {
+      "word": "this",
+      "start": 66.18,
+      "end": 66.56
+    },
+    {
+      "word": "feels",
+      "start": 66.56,
+      "end": 67.22
+    },
+    {
+      "word": "so",
+      "start": 67.22,
+      "end": 69.3
+    },
+    {
+      "word": "science",
+      "start": 69.3,
+      "end": 70.9
+    },
+    {
+      "word": "which",
+      "start": 72.26,
+      "end": 72.54
+    },
+    {
+      "word": "of",
+      "start": 72.54,
+      "end": 73.54
+    },
+    {
+      "word": "the",
+      "start": 73.54,
+      "end": 73.94
+    },
+    {
+      "word": "four",
+      "start": 73.94,
+      "end": 74.34
+    },
+    {
+      "word": "seasons",
+      "start": 74.34,
+      "end": 75.28
+    },
+    {
+      "word": "are",
+      "start": 75.28,
+      "end": 76.42
+    },
+    {
+      "word": "shown",
+      "start": 76.42,
+      "end": 76.82
+    },
+    {
+      "word": "in",
+      "start": 76.82,
+      "end": 77.4
+    },
+    {
+      "word": "this",
+      "start": 77.4,
+      "end": 77.76
+    },
+    {
+      "word": "book",
+      "start": 77.76,
+      "end": 78.52
+    },
+    {
+      "word": "share",
+      "start": 79.28,
+      "end": 79.52
+    },
+    {
+      "word": "your",
+      "start": 79.52,
+      "end": 80.28
+    },
+    {
+      "word": "ideas",
+      "start": 80.28,
+      "end": 80.96
+    },
+    {
+      "word": "with",
+      "start": 80.96,
+      "end": 81.88
+    },
+    {
+      "word": "a",
+      "start": 81.88,
+      "end": 82.3
+    },
+    {
+      "word": "partner",
+      "start": 82.3,
+      "end": 82.64
+    }
+  ]
+}

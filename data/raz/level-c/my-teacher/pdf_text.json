@@ -1,0 +1,58 @@
+{
+  "id": "level-c/my-teacher",
+  "title": "My Teacher",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C Teacher Written Edie Evans Illustrated by Giuliano Aloisi wwwreadinga_zcom My by"
+    },
+    {
+      "page": 2,
+      "text": "Teacher Written by Edie Evans Illustrated by Giuliano Aloisi wwwreadinga-z.com Focus Question What makes a good teacher? My"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know caring interesting creative smart helpful talented My Teacher Level C Leveled Book 0 Learning A-Z Correlation Written by Edie Evans LEVEL C Illustrated by Giuliano Aloisi Fountas & Pinnell All rights reserved. Reading Recovery 3-4 DRA 3-4 www.readinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "teacher is the best: teacher is helpful: Teacher Level C 3 My My My"
+    },
+    {
+      "page": 5,
+      "text": "teacher is caring: My"
+    },
+    {
+      "page": 6,
+      "text": "teacher is creative. Teacher Level C 5 My My"
+    },
+    {
+      "page": 7,
+      "text": "teacher is My funny:"
+    },
+    {
+      "page": 8,
+      "text": "1 V/ / 3 AXtt 8 3 2 (1+3x teacher is smart. Teacher Level C +z X+3 2(xn) My My"
+    },
+    {
+      "page": 9,
+      "text": "teacher is talented: 8 My"
+    },
+    {
+      "page": 10,
+      "text": "Hz 0 teacher is interesting: Teacher Level C 9 E My My"
+    },
+    {
+      "page": 11,
+      "text": "I learn SO much from my teacher: teacher is the best. 10 My"
+    },
+    {
+      "page": 12,
+      "text": "Teacher A Reading A-Z Level C Leveled Book Word Count: 45 Connections Writing and Art Draw a picture of your teacher: Write five words to describe him or her: Social Studies Teachers are helpful: Who else in your community is helpful? How do they help? Share your ideas with your class Reading A-z Visit www.readinga-z.com for thousands of books and materials. My"
+    }
+  ]
+}

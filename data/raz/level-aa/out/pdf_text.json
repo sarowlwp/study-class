@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/out",
+  "title": "Out",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , aa Out (( )) Written by Cheryl Ryan Illustrated by Nora Voutas www.readinga-z.com (6 M"
+    },
+    {
+      "page": 2,
+      "text": "Out 23)) LSM Written by Cheryl Illustrated by Nora Voutas www.readinga-z.com Ryan"
+    },
+    {
+      "page": 3,
+      "text": "CL @) 2 M (0~ 5 2 Out Of the car. Out Level aa 3"
+    },
+    {
+      "page": 4,
+      "text": "0 OF Out of the wagon_"
+    },
+    {
+      "page": 5,
+      "text": "S Out Of the boat_ Out Level aa 5"
+    },
+    {
+      "page": 6,
+      "text": "Q Out Of the house. 4 . 2"
+    },
+    {
+      "page": 7,
+      "text": "y 33 Out Of the water . Out Level aa"
+    },
+    {
+      "page": 8,
+      "text": "== (( Out of the grass. 8"
+    },
+    {
+      "page": 9,
+      "text": "QX M Out of the mud_ Out Level aa ((3 6 1!"
+    },
+    {
+      "page": 10,
+      "text": "8 L Out of the bathtub. 10 L 2.&"
+    },
+    {
+      "page": 11,
+      "text": "Out Level aa Leveled Book Learning A-Z Correlation Written by Cheryl Ryan LEVEL aa Illustrated by Nora Voutas Fountas & Pinnell A All rights reserved. Reading Recovery DRA A-1 wwW.  readinga-z.0 com"
+    }
+  ]
+}

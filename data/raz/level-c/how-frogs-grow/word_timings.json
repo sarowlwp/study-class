@@ -1,0 +1,296 @@
+{
+  "version": "1.0",
+  "total_words": 58,
+  "timings": [
+    {
+      "word": "how",
+      "start": 0.0,
+      "end": 0.36
+    },
+    {
+      "word": "frogs",
+      "start": 0.36,
+      "end": 1.12
+    },
+    {
+      "word": "grow",
+      "start": 1.12,
+      "end": 2.14
+    },
+    {
+      "word": "written",
+      "start": 2.74,
+      "end": 3.08
+    },
+    {
+      "word": "by",
+      "start": 3.08,
+      "end": 3.9
+    },
+    {
+      "word": "russ",
+      "start": 3.9,
+      "end": 4.42
+    },
+    {
+      "word": "buyak",
+      "start": 4.42,
+      "end": 5.82
+    },
+    {
+      "word": "illustrated",
+      "start": 6.48,
+      "end": 7.12
+    },
+    {
+      "word": "by",
+      "start": 7.12,
+      "end": 7.94
+    },
+    {
+      "word": "lian",
+      "start": 7.94,
+      "end": 8.52
+    },
+    {
+      "word": "schneider",
+      "start": 8.52,
+      "end": 9.8
+    },
+    {
+      "word": "a",
+      "start": 11.86,
+      "end": 12.22
+    },
+    {
+      "word": "frog",
+      "start": 12.22,
+      "end": 12.76
+    },
+    {
+      "word": "lays",
+      "start": 12.76,
+      "end": 13.46
+    },
+    {
+      "word": "eggs",
+      "start": 13.46,
+      "end": 14.02
+    },
+    {
+      "word": "in",
+      "start": 14.02,
+      "end": 14.54
+    },
+    {
+      "word": "water",
+      "start": 14.54,
+      "end": 15.22
+    },
+    {
+      "word": "tadpoles",
+      "start": 17.44,
+      "end": 18.24
+    },
+    {
+      "word": "come",
+      "start": 18.24,
+      "end": 19.02
+    },
+    {
+      "word": "out",
+      "start": 19.02,
+      "end": 19.66
+    },
+    {
+      "word": "of",
+      "start": 19.66,
+      "end": 20.06
+    },
+    {
+      "word": "the",
+      "start": 20.06,
+      "end": 20.4
+    },
+    {
+      "word": "eggs",
+      "start": 20.4,
+      "end": 20.98
+    },
+    {
+      "word": "the",
+      "start": 23.56,
+      "end": 23.6
+    },
+    {
+      "word": "tadpoles",
+      "start": 23.6,
+      "end": 24.38
+    },
+    {
+      "word": "have",
+      "start": 24.38,
+      "end": 25.0
+    },
+    {
+      "word": "long",
+      "start": 25.0,
+      "end": 25.58
+    },
+    {
+      "word": "tails",
+      "start": 25.58,
+      "end": 26.24
+    },
+    {
+      "word": "the",
+      "start": 26.24,
+      "end": 28.74
+    },
+    {
+      "word": "tadpoles",
+      "start": 28.74,
+      "end": 29.86
+    },
+    {
+      "word": "grow",
+      "start": 29.86,
+      "end": 30.7
+    },
+    {
+      "word": "back",
+      "start": 30.7,
+      "end": 31.26
+    },
+    {
+      "word": "legs",
+      "start": 31.26,
+      "end": 32.18
+    },
+    {
+      "word": "the",
+      "start": 34.72,
+      "end": 34.72
+    },
+    {
+      "word": "tadpoles",
+      "start": 34.72,
+      "end": 35.76
+    },
+    {
+      "word": "grow",
+      "start": 35.76,
+      "end": 36.6
+    },
+    {
+      "word": "front",
+      "start": 36.6,
+      "end": 37.06
+    },
+    {
+      "word": "legs",
+      "start": 37.06,
+      "end": 37.96
+    },
+    {
+      "word": "the",
+      "start": 40.5,
+      "end": 40.52
+    },
+    {
+      "word": "tadpoles",
+      "start": 40.52,
+      "end": 41.42
+    },
+    {
+      "word": "are",
+      "start": 41.42,
+      "end": 42.26
+    },
+    {
+      "word": "now",
+      "start": 42.26,
+      "end": 42.96
+    },
+    {
+      "word": "the",
+      "start": 45.02,
+      "end": 46.3
+    },
+    {
+      "word": "froglets",
+      "start": 46.3,
+      "end": 47.3
+    },
+    {
+      "word": "grow",
+      "start": 47.3,
+      "end": 47.94
+    },
+    {
+      "word": "and",
+      "start": 47.94,
+      "end": 48.58
+    },
+    {
+      "word": "grow",
+      "start": 48.58,
+      "end": 49.22
+    },
+    {
+      "word": "their",
+      "start": 49.8,
+      "end": 50.08
+    },
+    {
+      "word": "tails",
+      "start": 50.08,
+      "end": 50.52
+    },
+    {
+      "word": "get",
+      "start": 50.52,
+      "end": 51.24
+    },
+    {
+      "word": "smaller",
+      "start": 51.24,
+      "end": 51.78
+    },
+    {
+      "word": "and",
+      "start": 51.78,
+      "end": 52.48
+    },
+    {
+      "word": "smaller",
+      "start": 52.48,
+      "end": 53.14
+    },
+    {
+      "word": "the",
+      "start": 55.4,
+      "end": 55.7
+    },
+    {
+      "word": "froglets",
+      "start": 55.7,
+      "end": 56.52
+    },
+    {
+      "word": "are",
+      "start": 56.52,
+      "end": 57.18
+    },
+    {
+      "word": "now",
+      "start": 57.18,
+      "end": 57.74
+    },
+    {
+      "word": "frogs",
+      "start": 57.74,
+      "end": 58.5
+    }
+  ]
+}

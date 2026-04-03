@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/pasta",
+  "title": "Pasta",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book 0 Aa Pastal Wriitten by Keith Mariin wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Pastal 3 36 4 4 7 Written Keith Martin wwwreadinga-z.com 0 by"
+    },
+    {
+      "page": 3,
+      "text": "Long pasta: Pastal Level aa 3"
+    },
+    {
+      "page": 4,
+      "text": "Short pasta:"
+    },
+    {
+      "page": 5,
+      "text": "Red pasta. Pastal Level aa 5"
+    },
+    {
+      "page": 6,
+      "text": "Green pasta:"
+    },
+    {
+      "page": 7,
+      "text": "Wide pasta: Pastal Level aa"
+    },
+    {
+      "page": 8,
+      "text": "Thin pasta. 8"
+    },
+    {
+      "page": 9,
+      "text": "pasta: Pastal Level aa Curly"
+    },
+    {
+      "page": 10,
+      "text": "Yummy pastal 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover: @ George Tsartsianidis/i23RF; back cover: @ iStockphoto.com/Bojan Kontrec; title page: @ Irina Nartova/Dreamstimecom; page 3: @ Westendb1 GmbHJAlamy: page 4: @ Ninette Luz/123RF: page 5: @ Lepas/Dreamstimecom; page 6: @ iStockphotocom/FotografiaBasica; page 7: @ Nastiakru/Dreamstime.com; page 8: iStockphoto com/Floortje; page 9: @ Stephanie Frey/123RF; page I0: @ Hughstoneian/Dreamstimecom Pastal Level aa Leveled Book Correlation Learning A-Z LEVEL aa Written by Keith Martin Fountas & Pinnell aa All rights reserved: Reading_Recovery 1 DRA A-1 wwwreadinga-zcom"
+    }
+  ]
+}

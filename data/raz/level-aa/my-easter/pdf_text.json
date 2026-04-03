@@ -1,0 +1,58 @@
+{
+  "id": "level-aa/my-easter",
+  "title": "My Easter",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , a My Eqstet  Written by Elizabeth Jane Pustilnik Illustrated by Violet Lemay WWWreadinga-Z.com L Sss"
+    },
+    {
+      "page": 2,
+      "text": "Easter Written by Elizabeth Jane Pustilnik Illustrated by Violet Lemay wwwreadinga-z.com Focus Question What does the girl do on Easter? My"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know basket Easter candy eggs dress family My Easter Level aa Leveled Book 0 Learning A-Z Correlation Written by Elizabeth Jane Pustilnik LEVEL aa Illustrated by Violet Lemay Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "dress. My Easter Level aa 3 LMD s My"
+    },
+    {
+      "page": 5,
+      "text": "hat. My"
+    },
+    {
+      "page": 6,
+      "text": "~ basket. My Easter Level aa 5 My"
+    },
+    {
+      "page": 7,
+      "text": "eggs. My"
+    },
+    {
+      "page": 8,
+      "text": "LTp candy: My Easter Level aa J @ My"
+    },
+    {
+      "page": 9,
+      "text": "flowers: 8 My"
+    },
+    {
+      "page": 10,
+      "text": "My Easter Level aa family: My"
+    },
+    {
+      "page": 11,
+      "text": "Easter: 10 My"
+    },
+    {
+      "page": 12,
+      "text": "Easter A Reading A-Z Level aa Leveled Book Word Count: 16 Connections Writing Easter is & holiday: What are other holidays? Make a list with a partner: Social Studies and Art Pick two holidays Draw one way they are the same and one way are different; Reading A-z Visit www.readinga-z.com for thousands of books and materials. My they"
+    }
+  ]
+}

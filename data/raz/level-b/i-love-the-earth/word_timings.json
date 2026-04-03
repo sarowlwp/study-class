@@ -1,0 +1,286 @@
+{
+  "version": "1.0",
+  "total_words": 56,
+  "timings": [
+    {
+      "word": "i",
+      "start": 0.0,
+      "end": 0.62
+    },
+    {
+      "word": "love",
+      "start": 0.62,
+      "end": 1.26
+    },
+    {
+      "word": "the",
+      "start": 1.26,
+      "end": 1.74
+    },
+    {
+      "word": "earth",
+      "start": 1.74,
+      "end": 2.52
+    },
+    {
+      "word": "written",
+      "start": 3.44,
+      "end": 3.68
+    },
+    {
+      "word": "by",
+      "start": 3.68,
+      "end": 4.56
+    },
+    {
+      "word": "beverly",
+      "start": 4.56,
+      "end": 5.1
+    },
+    {
+      "word": "osborn",
+      "start": 5.1,
+      "end": 6.02
+    },
+    {
+      "word": "i",
+      "start": 6.64,
+      "end": 6.68
+    },
+    {
+      "word": "love",
+      "start": 6.68,
+      "end": 7.56
+    },
+    {
+      "word": "the",
+      "start": 7.56,
+      "end": 8.2
+    },
+    {
+      "word": "earth",
+      "start": 8.2,
+      "end": 8.74
+    },
+    {
+      "word": "i",
+      "start": 9.06,
+      "end": 9.28
+    },
+    {
+      "word": "love",
+      "start": 9.28,
+      "end": 10.02
+    },
+    {
+      "word": "the",
+      "start": 10.02,
+      "end": 10.46
+    },
+    {
+      "word": "tall",
+      "start": 10.46,
+      "end": 11.02
+    },
+    {
+      "word": "trees",
+      "start": 11.02,
+      "end": 11.88
+    },
+    {
+      "word": "i",
+      "start": 12.44,
+      "end": 12.48
+    },
+    {
+      "word": "love",
+      "start": 12.48,
+      "end": 13.32
+    },
+    {
+      "word": "the",
+      "start": 13.32,
+      "end": 13.84
+    },
+    {
+      "word": "bright",
+      "start": 13.84,
+      "end": 14.26
+    },
+    {
+      "word": "flowers",
+      "start": 14.26,
+      "end": 14.9
+    },
+    {
+      "word": "i",
+      "start": 15.5,
+      "end": 15.68
+    },
+    {
+      "word": "love",
+      "start": 15.68,
+      "end": 16.44
+    },
+    {
+      "word": "the",
+      "start": 16.44,
+      "end": 16.92
+    },
+    {
+      "word": "green",
+      "start": 16.92,
+      "end": 17.36
+    },
+    {
+      "word": "hills",
+      "start": 17.36,
+      "end": 18.02
+    },
+    {
+      "word": "i",
+      "start": 18.44,
+      "end": 18.74
+    },
+    {
+      "word": "love",
+      "start": 18.74,
+      "end": 19.16
+    },
+    {
+      "word": "the",
+      "start": 19.16,
+      "end": 19.62
+    },
+    {
+      "word": "high",
+      "start": 19.62,
+      "end": 20.18
+    },
+    {
+      "word": "mountains",
+      "start": 20.18,
+      "end": 20.86
+    },
+    {
+      "word": "i",
+      "start": 21.48,
+      "end": 21.66
+    },
+    {
+      "word": "love",
+      "start": 21.66,
+      "end": 22.46
+    },
+    {
+      "word": "the",
+      "start": 22.46,
+      "end": 22.86
+    },
+    {
+      "word": "long",
+      "start": 22.86,
+      "end": 23.48
+    },
+    {
+      "word": "rivers",
+      "start": 23.48,
+      "end": 24.04
+    },
+    {
+      "word": "i",
+      "start": 24.76,
+      "end": 25.04
+    },
+    {
+      "word": "love",
+      "start": 25.04,
+      "end": 25.74
+    },
+    {
+      "word": "the",
+      "start": 25.74,
+      "end": 26.26
+    },
+    {
+      "word": "deep",
+      "start": 26.26,
+      "end": 26.76
+    },
+    {
+      "word": "lakes",
+      "start": 26.76,
+      "end": 27.68
+    },
+    {
+      "word": "i",
+      "start": 27.68,
+      "end": 28.42
+    },
+    {
+      "word": "love",
+      "start": 28.42,
+      "end": 29.1
+    },
+    {
+      "word": "the",
+      "start": 29.1,
+      "end": 29.68
+    },
+    {
+      "word": "big",
+      "start": 29.68,
+      "end": 30.16
+    },
+    {
+      "word": "oceans",
+      "start": 30.16,
+      "end": 31.12
+    },
+    {
+      "word": "i",
+      "start": 31.98,
+      "end": 32.02
+    },
+    {
+      "word": "love",
+      "start": 32.02,
+      "end": 32.48
+    },
+    {
+      "word": "the",
+      "start": 32.48,
+      "end": 33.02
+    },
+    {
+      "word": "dry",
+      "start": 33.02,
+      "end": 33.48
+    },
+    {
+      "word": "deserts",
+      "start": 33.48,
+      "end": 35.16
+    },
+    {
+      "word": "i",
+      "start": 35.18,
+      "end": 35.4
+    },
+    {
+      "word": "love",
+      "start": 35.4,
+      "end": 36.14
+    },
+    {
+      "word": "the",
+      "start": 36.14,
+      "end": 36.7
+    },
+    {
+      "word": "earth",
+      "start": 36.7,
+      "end": 36.94
+    }
+  ]
+}

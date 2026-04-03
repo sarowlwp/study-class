@@ -1,0 +1,54 @@
+{
+  "id": "level-c/what-is-at-the-zoo",
+  "title": "What Is At The Zoo",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C What Is at the Zoo? Written by Katie Knight Illustrated by Paula Schricker wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "What Is at the Zoo? Written by Katie Knight Illustrated Paula Schricker wwwreadinga-z.com by"
+    },
+    {
+      "page": 3,
+      "text": "Are there bears at the ZOO? Idb) Yes , 1 there are. What Is at the Zoo? * Level € 3"
+    },
+    {
+      "page": 4,
+      "text": "Are there monkeys at the zoo? there are. Yes ,"
+    },
+    {
+      "page": 5,
+      "text": "' Are there elephants at the zoO? Yes , 1 there are. Idp What Is at the Zoo? * Level € 5"
+    },
+    {
+      "page": 6,
+      "text": "Are there   giraffes at the zoo? there are: Yes,"
+    },
+    {
+      "page": 7,
+      "text": "V, Are there lions and tigers at the ZOO? there are. What Is at the Zoo? * Level € Yes ,"
+    },
+    {
+      "page": 8,
+      "text": "Are there hippos at the Zoo? there are. 8 Yes ,"
+    },
+    {
+      "page": 9,
+      "text": "Are there sea lions at the zoo? Yes , there are. What Is at the Zoo? * Level € \"m Ijf"
+    },
+    {
+      "page": 10,
+      "text": "0 20*1'0 Are there dinosaurs at the zoo? there are not_ 10 No,"
+    },
+    {
+      "page": 11,
+      "text": "[OADING What Is at the Zoo? Level C Leveled Book Learning A-Z Correlation Written by Katie Knight LEVEL C Illustrated by Paula Schricker Fountas & Pinnell All rights reserved. Reading Recovery 3-4 DRA 3-4 wwW.  readinga-z.com"
+    }
+  ]
+}

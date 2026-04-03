@@ -1,0 +1,201 @@
+{
+  "version": "1.0",
+  "total_words": 39,
+  "timings": [
+    {
+      "word": "gracie's",
+      "start": 0.0,
+      "end": 0.94
+    },
+    {
+      "word": "nose",
+      "start": 0.94,
+      "end": 1.48
+    },
+    {
+      "word": "written",
+      "start": 2.16,
+      "end": 2.4
+    },
+    {
+      "word": "by",
+      "start": 2.4,
+      "end": 2.92
+    },
+    {
+      "word": "beverly",
+      "start": 2.92,
+      "end": 3.4
+    },
+    {
+      "word": "osborne",
+      "start": 3.4,
+      "end": 4.32
+    },
+    {
+      "word": "illustrated",
+      "start": 4.82,
+      "end": 5.26
+    },
+    {
+      "word": "by",
+      "start": 5.26,
+      "end": 6.08
+    },
+    {
+      "word": "leandee's",
+      "start": 6.08,
+      "end": 7.52
+    },
+    {
+      "word": "gracie's",
+      "start": 7.9,
+      "end": 8.58
+    },
+    {
+      "word": "nose",
+      "start": 8.58,
+      "end": 8.98
+    },
+    {
+      "word": "is",
+      "start": 8.98,
+      "end": 9.38
+    },
+    {
+      "word": "very",
+      "start": 9.38,
+      "end": 10.1
+    },
+    {
+      "word": "busy",
+      "start": 10.1,
+      "end": 10.6
+    },
+    {
+      "word": "gracie's",
+      "start": 11.4,
+      "end": 12.02
+    },
+    {
+      "word": "nose",
+      "start": 12.02,
+      "end": 12.4
+    },
+    {
+      "word": "sniffs",
+      "start": 12.4,
+      "end": 13.08
+    },
+    {
+      "word": "everything",
+      "start": 13.08,
+      "end": 13.9
+    },
+    {
+      "word": "gracie's",
+      "start": 14.88,
+      "end": 15.54
+    },
+    {
+      "word": "sniffs",
+      "start": 15.54,
+      "end": 15.82
+    },
+    {
+      "word": "roses",
+      "start": 15.82,
+      "end": 16.48
+    },
+    {
+      "word": "gracie's",
+      "start": 17.4,
+      "end": 18.02
+    },
+    {
+      "word": "sniffs",
+      "start": 18.02,
+      "end": 18.38
+    },
+    {
+      "word": "bugs",
+      "start": 18.38,
+      "end": 19.08
+    },
+    {
+      "word": "gracie's",
+      "start": 20.02,
+      "end": 20.66
+    },
+    {
+      "word": "sniffs",
+      "start": 20.66,
+      "end": 21.06
+    },
+    {
+      "word": "birds",
+      "start": 21.06,
+      "end": 21.78
+    },
+    {
+      "word": "gracie's",
+      "start": 22.6,
+      "end": 23.38
+    },
+    {
+      "word": "sniffs",
+      "start": 23.38,
+      "end": 23.76
+    },
+    {
+      "word": "my",
+      "start": 23.76,
+      "end": 24.22
+    },
+    {
+      "word": "lunch",
+      "start": 24.22,
+      "end": 24.7
+    },
+    {
+      "word": "gracie",
+      "start": 25.56,
+      "end": 25.96
+    },
+    {
+      "word": "sniffs",
+      "start": 25.96,
+      "end": 26.38
+    },
+    {
+      "word": "my",
+      "start": 26.38,
+      "end": 26.84
+    },
+    {
+      "word": "ear",
+      "start": 26.84,
+      "end": 27.18
+    },
+    {
+      "word": "gracie",
+      "start": 27.18,
+      "end": 28.4
+    },
+    {
+      "word": "sniffs",
+      "start": 28.4,
+      "end": 28.84
+    },
+    {
+      "word": "my",
+      "start": 28.84,
+      "end": 29.22
+    },
+    {
+      "word": "toes",
+      "start": 29.22,
+      "end": 29.78
+    }
+  ]
+}

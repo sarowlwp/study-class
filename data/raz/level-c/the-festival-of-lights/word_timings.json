@@ -1,0 +1,581 @@
+{
+  "version": "1.0",
+  "total_words": 115,
+  "timings": [
+    {
+      "word": "the",
+      "start": 0.0,
+      "end": 0.58
+    },
+    {
+      "word": "festival",
+      "start": 0.58,
+      "end": 1.28
+    },
+    {
+      "word": "of",
+      "start": 1.28,
+      "end": 2.24
+    },
+    {
+      "word": "lights",
+      "start": 2.24,
+      "end": 2.92
+    },
+    {
+      "word": "written",
+      "start": 4.0,
+      "end": 4.32
+    },
+    {
+      "word": "by",
+      "start": 4.32,
+      "end": 5.4
+    },
+    {
+      "word": "sasha",
+      "start": 5.4,
+      "end": 6.08
+    },
+    {
+      "word": "levy",
+      "start": 6.08,
+      "end": 7.58
+    },
+    {
+      "word": "focus",
+      "start": 8.76,
+      "end": 8.92
+    },
+    {
+      "word": "question",
+      "start": 8.92,
+      "end": 10.3
+    },
+    {
+      "word": "why",
+      "start": 11.84,
+      "end": 12.1
+    },
+    {
+      "word": "do",
+      "start": 12.1,
+      "end": 13.04
+    },
+    {
+      "word": "you",
+      "start": 13.04,
+      "end": 13.7
+    },
+    {
+      "word": "think",
+      "start": 13.7,
+      "end": 14.22
+    },
+    {
+      "word": "hanukkah",
+      "start": 14.22,
+      "end": 15.02
+    },
+    {
+      "word": "is",
+      "start": 15.02,
+      "end": 15.98
+    },
+    {
+      "word": "called",
+      "start": 15.98,
+      "end": 16.62
+    },
+    {
+      "word": "the",
+      "start": 16.62,
+      "end": 17.84
+    },
+    {
+      "word": "festival",
+      "start": 17.84,
+      "end": 18.46
+    },
+    {
+      "word": "of",
+      "start": 18.46,
+      "end": 19.68
+    },
+    {
+      "word": "lights",
+      "start": 19.68,
+      "end": 20.26
+    },
+    {
+      "word": "a",
+      "start": 20.88,
+      "end": 20.9
+    },
+    {
+      "word": "middle",
+      "start": 20.9,
+      "end": 21.9
+    },
+    {
+      "word": "candle",
+      "start": 21.9,
+      "end": 23.16
+    },
+    {
+      "word": "lights",
+      "start": 23.16,
+      "end": 23.9
+    },
+    {
+      "word": "the",
+      "start": 24.44,
+      "end": 24.58
+    },
+    {
+      "word": "others",
+      "start": 24.58,
+      "end": 25.44
+    },
+    {
+      "word": "on",
+      "start": 25.44,
+      "end": 26.48
+    },
+    {
+      "word": "hanukkah",
+      "start": 26.48,
+      "end": 27.92
+    },
+    {
+      "word": "light",
+      "start": 28.72,
+      "end": 28.76
+    },
+    {
+      "word": "one",
+      "start": 28.76,
+      "end": 29.66
+    },
+    {
+      "word": "camel",
+      "start": 29.66,
+      "end": 30.5
+    },
+    {
+      "word": "on",
+      "start": 31.3,
+      "end": 31.58
+    },
+    {
+      "word": "night",
+      "start": 31.58,
+      "end": 32.28
+    },
+    {
+      "word": "one",
+      "start": 32.28,
+      "end": 33.14
+    },
+    {
+      "word": "light",
+      "start": 33.54,
+      "end": 33.62
+    },
+    {
+      "word": "two",
+      "start": 33.62,
+      "end": 34.8
+    },
+    {
+      "word": "candles",
+      "start": 34.8,
+      "end": 35.5
+    },
+    {
+      "word": "on",
+      "start": 36.38,
+      "end": 36.66
+    },
+    {
+      "word": "night",
+      "start": 36.66,
+      "end": 37.36
+    },
+    {
+      "word": "two",
+      "start": 37.36,
+      "end": 38.14
+    },
+    {
+      "word": "light",
+      "start": 38.14,
+      "end": 38.74
+    },
+    {
+      "word": "three",
+      "start": 38.74,
+      "end": 39.86
+    },
+    {
+      "word": "candles",
+      "start": 39.86,
+      "end": 40.74
+    },
+    {
+      "word": "on",
+      "start": 41.66,
+      "end": 41.94
+    },
+    {
+      "word": "night",
+      "start": 41.94,
+      "end": 42.56
+    },
+    {
+      "word": "three",
+      "start": 42.56,
+      "end": 43.36
+    },
+    {
+      "word": "light",
+      "start": 43.36,
+      "end": 43.88
+    },
+    {
+      "word": "four",
+      "start": 43.88,
+      "end": 44.64
+    },
+    {
+      "word": "candles",
+      "start": 44.64,
+      "end": 45.5
+    },
+    {
+      "word": "on",
+      "start": 45.5,
+      "end": 46.52
+    },
+    {
+      "word": "night",
+      "start": 46.52,
+      "end": 47.18
+    },
+    {
+      "word": "four",
+      "start": 47.18,
+      "end": 47.92
+    },
+    {
+      "word": "light",
+      "start": 48.56,
+      "end": 48.66
+    },
+    {
+      "word": "five",
+      "start": 48.66,
+      "end": 50.0
+    },
+    {
+      "word": "candles",
+      "start": 50.0,
+      "end": 50.88
+    },
+    {
+      "word": "on",
+      "start": 51.88,
+      "end": 52.22
+    },
+    {
+      "word": "night",
+      "start": 52.22,
+      "end": 53.14
+    },
+    {
+      "word": "five",
+      "start": 53.14,
+      "end": 54.14
+    },
+    {
+      "word": "light",
+      "start": 54.72,
+      "end": 54.92
+    },
+    {
+      "word": "six",
+      "start": 54.92,
+      "end": 55.88
+    },
+    {
+      "word": "candles",
+      "start": 55.88,
+      "end": 56.88
+    },
+    {
+      "word": "on",
+      "start": 57.72,
+      "end": 57.98
+    },
+    {
+      "word": "night",
+      "start": 57.98,
+      "end": 58.92
+    },
+    {
+      "word": "six",
+      "start": 58.92,
+      "end": 59.9
+    },
+    {
+      "word": "light",
+      "start": 60.42,
+      "end": 60.7
+    },
+    {
+      "word": "seven",
+      "start": 60.7,
+      "end": 61.92
+    },
+    {
+      "word": "candles",
+      "start": 61.92,
+      "end": 63.04
+    },
+    {
+      "word": "on",
+      "start": 63.9,
+      "end": 64.28
+    },
+    {
+      "word": "night",
+      "start": 64.28,
+      "end": 65.3
+    },
+    {
+      "word": "seven",
+      "start": 65.3,
+      "end": 66.32
+    },
+    {
+      "word": "light",
+      "start": 66.84,
+      "end": 67.18
+    },
+    {
+      "word": "eight",
+      "start": 67.18,
+      "end": 67.9
+    },
+    {
+      "word": "candles",
+      "start": 67.9,
+      "end": 68.8
+    },
+    {
+      "word": "on",
+      "start": 69.54,
+      "end": 69.8
+    },
+    {
+      "word": "night",
+      "start": 69.8,
+      "end": 70.68
+    },
+    {
+      "word": "eight",
+      "start": 70.68,
+      "end": 71.6
+    },
+    {
+      "word": "hanaka",
+      "start": 71.6,
+      "end": 73.76
+    },
+    {
+      "word": "is",
+      "start": 73.76,
+      "end": 75.22
+    },
+    {
+      "word": "the",
+      "start": 75.22,
+      "end": 75.94
+    },
+    {
+      "word": "festival",
+      "start": 75.94,
+      "end": 76.56
+    },
+    {
+      "word": "of",
+      "start": 76.56,
+      "end": 77.96
+    },
+    {
+      "word": "lights",
+      "start": 77.96,
+      "end": 78.96
+    },
+    {
+      "word": "connections",
+      "start": 80.04,
+      "end": 80.04
+    },
+    {
+      "word": "writing",
+      "start": 81.42,
+      "end": 81.7
+    },
+    {
+      "word": "and",
+      "start": 81.7,
+      "end": 82.8
+    },
+    {
+      "word": "art",
+      "start": 82.8,
+      "end": 83.94
+    },
+    {
+      "word": "why",
+      "start": 85.5,
+      "end": 85.76
+    },
+    {
+      "word": "is",
+      "start": 85.76,
+      "end": 86.46
+    },
+    {
+      "word": "the",
+      "start": 86.46,
+      "end": 86.76
+    },
+    {
+      "word": "middle",
+      "start": 86.76,
+      "end": 87.28
+    },
+    {
+      "word": "candle",
+      "start": 87.28,
+      "end": 87.86
+    },
+    {
+      "word": "important",
+      "start": 87.86,
+      "end": 89.0
+    },
+    {
+      "word": "draw",
+      "start": 90.54,
+      "end": 90.86
+    },
+    {
+      "word": "a",
+      "start": 90.86,
+      "end": 91.42
+    },
+    {
+      "word": "picture",
+      "start": 91.42,
+      "end": 91.84
+    },
+    {
+      "word": "and",
+      "start": 91.84,
+      "end": 93.04
+    },
+    {
+      "word": "write",
+      "start": 93.04,
+      "end": 93.42
+    },
+    {
+      "word": "about",
+      "start": 93.42,
+      "end": 94.02
+    },
+    {
+      "word": "it",
+      "start": 94.02,
+      "end": 94.72
+    },
+    {
+      "word": "math",
+      "start": 94.72,
+      "end": 96.54
+    },
+    {
+      "word": "how",
+      "start": 97.82,
+      "end": 98.14
+    },
+    {
+      "word": "many",
+      "start": 98.14,
+      "end": 98.94
+    },
+    {
+      "word": "candles",
+      "start": 98.94,
+      "end": 99.74
+    },
+    {
+      "word": "are",
+      "start": 99.74,
+      "end": 100.78
+    },
+    {
+      "word": "lit",
+      "start": 100.78,
+      "end": 101.2
+    },
+    {
+      "word": "on",
+      "start": 101.2,
+      "end": 102.06
+    },
+    {
+      "word": "night",
+      "start": 102.06,
+      "end": 102.44
+    },
+    {
+      "word": "eight",
+      "start": 102.44,
+      "end": 103.5
+    },
+    {
+      "word": "share",
+      "start": 104.66,
+      "end": 104.92
+    },
+    {
+      "word": "your",
+      "start": 104.92,
+      "end": 105.64
+    },
+    {
+      "word": "ideas",
+      "start": 105.64,
+      "end": 106.4
+    },
+    {
+      "word": "with",
+      "start": 106.4,
+      "end": 107.88
+    },
+    {
+      "word": "a",
+      "start": 107.88,
+      "end": 108.18
+    },
+    {
+      "word": "partner",
+      "start": 108.18,
+      "end": 108.62
+    }
+  ]
+}

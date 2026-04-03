@@ -1,0 +1,54 @@
+{
+  "id": "level-b/yours-or-mine",
+  "title": "Yours Or Mine",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Yours or Mine? Written by Edie Evans Illustratedby Violet Lemay wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Yours or Mine? p Pa Written by Edie Evans Illustrated Violet Lemay wwwreadinga-Z.com JeDLA by"
+    },
+    {
+      "page": 3,
+      "text": "ct 3 2 This bed is my bed: Yours or Mine? ' Level B 3 8s 3o ("
+    },
+    {
+      "page": 4,
+      "text": "8 = 05  '883 ~ 4 5 \" F w ; ue 4 F 26   $ 0 ~ 24' 4 3 3  2 F  6 This bed is your bed_ 8 $ :^ 3"
+    },
+    {
+      "page": 5,
+      "text": "V This food is my food_ Yours or Mine? ' Level B 5"
+    },
+    {
+      "page": 6,
+      "text": "Da V4 This food is your food_"
+    },
+    {
+      "page": 7,
+      "text": "This tail is my tail; Yours or Mine? ' Level B 2"
+    },
+    {
+      "page": 8,
+      "text": "M V This tail is your tail. 8 I 2 5"
+    },
+    {
+      "page": 9,
+      "text": "9 55 25 ~1 2 #*  ^ 2 F This room is my room. Yours or Mine? ' Level B e"
+    },
+    {
+      "page": 10,
+      "text": "515 X^ 4 6  F v\" 847' 2S This room is your room ) tool 10"
+    },
+    {
+      "page": 11,
+      "text": "Yours or Mine? Level B Leveled Book 0 Learning A-Z Correlation Written by Edie Evans LEVEL B Illustrated by Violet Lemay Fountas & Pinnell B All rights reserved: Reading Recovery 2 DRA 2 wwwreadinga-z.com"
+    }
+  ]
+}

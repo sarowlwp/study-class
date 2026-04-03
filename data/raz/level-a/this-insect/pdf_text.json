@@ -1,0 +1,58 @@
+{
+  "id": "level-a/this-insect",
+  "title": "This Insect",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A This Insect Written by Nigel Pepperhouse wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "This Insect Written by Nigel Pepperhouse wwwreadinga-z.com Focus Question How can you describe insects?"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know beautiful spotted insect striped Photo Credits: Front cover; back cover: @ blickwinkel/Alamy Stock Photo; title page: Maria Wachala/Hemera/Thinkstock; page 3: @ RooM the Agency/Alamy Stock Photo; page 4: @ imageBROKER/Alamy Stock Photo; page 5: @ Karin Rothman/natureinstock colardea.com; page 6: @ Andres M. Dominguez/NPL/ Minden Pictures; page 7: @ Naturepix/Alamy Stock Photo; page 8: @ Chepkol iStock/Thinkstock; page 9: @ Arndt/Minden Pictures; page 10: @ Arik Siegellnatureinstock com/ardea.com This Insect Level A Leveled Book Correlation Learning A-Z LEVEL A Written by Nigel Pepperhouse Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com shiny furry Ingo"
+    },
+    {
+      "page": 4,
+      "text": "This insect is This Insect Level A 3 strong:"
+    },
+    {
+      "page": 5,
+      "text": "This insect is fast."
+    },
+    {
+      "page": 6,
+      "text": "This insect is This Insect Level A 5 furry:"
+    },
+    {
+      "page": 7,
+      "text": "This insect is skinny:"
+    },
+    {
+      "page": 8,
+      "text": "This insect is This Insect Level A shiny:"
+    },
+    {
+      "page": 9,
+      "text": "This insect is spotted. 8"
+    },
+    {
+      "page": 10,
+      "text": "This insect is striped: This Insect Level A 0"
+    },
+    {
+      "page": 11,
+      "text": "This insect is beautiful: 10"
+    },
+    {
+      "page": 12,
+      "text": "This Insect A Reading A-Z Level A Leveled Book Word Count: 32 Connections Writing and Art Which insect is the most interesting to Draw & picture and write about it: Science Draw an insect. Label two or more body parts. Reading A-z Visit wwwreadinga-z.com for thousands of books and materials. you?"
+    }
+  ]
+}

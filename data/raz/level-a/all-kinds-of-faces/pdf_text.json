@@ -1,0 +1,54 @@
+{
+  "id": "level-a/all-kinds-of-faces",
+  "title": "All Kinds Of Faces",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A AII Kinds of Faces Written by Annette Carruthers wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "AIl Kinds of Faces Written Annette Carruthers wwwreadinga-z.com by"
+    },
+    {
+      "page": 3,
+      "text": "This face is happy. AIl Kinds of Faces Level A 3"
+    },
+    {
+      "page": 4,
+      "text": "This face is sad."
+    },
+    {
+      "page": 5,
+      "text": "This face is sorry: AIl Kinds of Faces Level A 5"
+    },
+    {
+      "page": 6,
+      "text": "This face is excited:"
+    },
+    {
+      "page": 7,
+      "text": "This face is scared: AIl Kinds of Faces Level A"
+    },
+    {
+      "page": 8,
+      "text": "This face is 8 shy:"
+    },
+    {
+      "page": 9,
+      "text": "This face is mad: AIl Kinds of Faces Level A"
+    },
+    {
+      "page": 10,
+      "text": "0 0 This face is 10 sleepy:"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover (top left) , page 6: @ Swell Media/UpperCut Images/Getty Images; front cover (top right)  page 5: @ Mindset PhotographylAlamy; front cover (bottom left), page %: Tanya Constantine/Blend Images/Getty Images; front cover (bottom right) . page 8: @ Tim Gainey/Alamy: back cover: @ Rick Gomez/ Corbis; title page: @ Baerbel Schmidt/Getty RF; page 3: @ Dylan Ellis/Corbis; page 4: @ Chris Jones/Corbis; page 7: @ REUTERS/Molly page 10: @ Wilfredo Lee/AP Images AIl Kinds of Faces Level A Leveled Book Correlation Learning A-Z LEVEL A Written by Annette Carruthers Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-zcom Riley;"
+    }
+  ]
+}

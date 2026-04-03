@@ -1,0 +1,521 @@
+{
+  "version": "1.0",
+  "total_words": 103,
+  "timings": [
+    {
+      "word": "apple",
+      "start": 0.0,
+      "end": 0.54
+    },
+    {
+      "word": "tree",
+      "start": 0.54,
+      "end": 1.74
+    },
+    {
+      "word": "written",
+      "start": 1.82,
+      "end": 2.58
+    },
+    {
+      "word": "by",
+      "start": 2.58,
+      "end": 3.32
+    },
+    {
+      "word": "karen",
+      "start": 3.32,
+      "end": 3.88
+    },
+    {
+      "word": "mochler",
+      "start": 3.88,
+      "end": 5.14
+    },
+    {
+      "word": "illustrated",
+      "start": 6.02,
+      "end": 6.62
+    },
+    {
+      "word": "by",
+      "start": 6.62,
+      "end": 7.72
+    },
+    {
+      "word": "violet",
+      "start": 7.72,
+      "end": 8.46
+    },
+    {
+      "word": "kim",
+      "start": 8.46,
+      "end": 9.3
+    },
+    {
+      "word": "focus",
+      "start": 10.28,
+      "end": 10.44
+    },
+    {
+      "word": "question",
+      "start": 10.44,
+      "end": 11.42
+    },
+    {
+      "word": "what",
+      "start": 12.48,
+      "end": 12.56
+    },
+    {
+      "word": "is",
+      "start": 12.56,
+      "end": 13.28
+    },
+    {
+      "word": "the",
+      "start": 13.28,
+      "end": 13.62
+    },
+    {
+      "word": "life",
+      "start": 13.62,
+      "end": 13.9
+    },
+    {
+      "word": "cycle",
+      "start": 13.9,
+      "end": 14.44
+    },
+    {
+      "word": "of",
+      "start": 14.44,
+      "end": 15.1
+    },
+    {
+      "word": "an",
+      "start": 15.1,
+      "end": 15.52
+    },
+    {
+      "word": "apple",
+      "start": 15.52,
+      "end": 16.0
+    },
+    {
+      "word": "an",
+      "start": 16.46,
+      "end": 16.72
+    },
+    {
+      "word": "apple",
+      "start": 16.72,
+      "end": 17.18
+    },
+    {
+      "word": "grows",
+      "start": 17.18,
+      "end": 17.84
+    },
+    {
+      "word": "in",
+      "start": 17.84,
+      "end": 18.4
+    },
+    {
+      "word": "a",
+      "start": 18.4,
+      "end": 18.68
+    },
+    {
+      "word": "cycle",
+      "start": 18.68,
+      "end": 19.38
+    },
+    {
+      "word": "how",
+      "start": 20.0,
+      "end": 20.32
+    },
+    {
+      "word": "does",
+      "start": 20.32,
+      "end": 20.78
+    },
+    {
+      "word": "the",
+      "start": 20.78,
+      "end": 21.12
+    },
+    {
+      "word": "cycle",
+      "start": 21.12,
+      "end": 21.52
+    },
+    {
+      "word": "go",
+      "start": 21.52,
+      "end": 22.26
+    },
+    {
+      "word": "first",
+      "start": 22.66,
+      "end": 23.12
+    },
+    {
+      "word": "comes",
+      "start": 23.12,
+      "end": 23.76
+    },
+    {
+      "word": "the",
+      "start": 23.76,
+      "end": 24.24
+    },
+    {
+      "word": "seed",
+      "start": 24.24,
+      "end": 24.7
+    },
+    {
+      "word": "then",
+      "start": 24.7,
+      "end": 25.66
+    },
+    {
+      "word": "comes",
+      "start": 25.66,
+      "end": 26.6
+    },
+    {
+      "word": "the",
+      "start": 26.6,
+      "end": 27.14
+    },
+    {
+      "word": "sprout",
+      "start": 27.14,
+      "end": 27.82
+    },
+    {
+      "word": "next",
+      "start": 28.28,
+      "end": 28.72
+    },
+    {
+      "word": "come",
+      "start": 29.14,
+      "end": 29.48
+    },
+    {
+      "word": "the",
+      "start": 29.48,
+      "end": 30.02
+    },
+    {
+      "word": "years",
+      "start": 30.02,
+      "end": 30.64
+    },
+    {
+      "word": "then",
+      "start": 31.04,
+      "end": 31.46
+    },
+    {
+      "word": "comes",
+      "start": 31.46,
+      "end": 32.3
+    },
+    {
+      "word": "the",
+      "start": 32.3,
+      "end": 32.74
+    },
+    {
+      "word": "tree",
+      "start": 32.74,
+      "end": 33.36
+    },
+    {
+      "word": "next",
+      "start": 33.88,
+      "end": 34.3
+    },
+    {
+      "word": "come",
+      "start": 34.74,
+      "end": 35.0
+    },
+    {
+      "word": "the",
+      "start": 35.0,
+      "end": 35.54
+    },
+    {
+      "word": "blooms",
+      "start": 35.54,
+      "end": 36.2
+    },
+    {
+      "word": "then",
+      "start": 37.16,
+      "end": 37.16
+    },
+    {
+      "word": "come",
+      "start": 37.16,
+      "end": 37.9
+    },
+    {
+      "word": "the",
+      "start": 37.9,
+      "end": 38.7
+    },
+    {
+      "word": "apples",
+      "start": 38.7,
+      "end": 39.36
+    },
+    {
+      "word": "seeds",
+      "start": 39.92,
+      "end": 40.36
+    },
+    {
+      "word": "wait",
+      "start": 40.76,
+      "end": 40.92
+    },
+    {
+      "word": "inside",
+      "start": 40.92,
+      "end": 41.84
+    },
+    {
+      "word": "each",
+      "start": 41.84,
+      "end": 42.38
+    },
+    {
+      "word": "apple",
+      "start": 42.38,
+      "end": 42.94
+    },
+    {
+      "word": "the",
+      "start": 43.58,
+      "end": 43.96
+    },
+    {
+      "word": "cycle",
+      "start": 43.96,
+      "end": 44.5
+    },
+    {
+      "word": "begins",
+      "start": 44.5,
+      "end": 45.2
+    },
+    {
+      "word": "again",
+      "start": 45.2,
+      "end": 46.28
+    },
+    {
+      "word": "connections",
+      "start": 47.38,
+      "end": 47.38
+    },
+    {
+      "word": "writing",
+      "start": 48.6,
+      "end": 49.0
+    },
+    {
+      "word": "draw",
+      "start": 49.94,
+      "end": 50.4
+    },
+    {
+      "word": "a",
+      "start": 50.4,
+      "end": 50.76
+    },
+    {
+      "word": "picture",
+      "start": 50.76,
+      "end": 51.18
+    },
+    {
+      "word": "of",
+      "start": 51.18,
+      "end": 51.82
+    },
+    {
+      "word": "an",
+      "start": 51.82,
+      "end": 52.16
+    },
+    {
+      "word": "apple",
+      "start": 52.16,
+      "end": 52.82
+    },
+    {
+      "word": "write",
+      "start": 52.82,
+      "end": 54.04
+    },
+    {
+      "word": "words",
+      "start": 54.04,
+      "end": 54.74
+    },
+    {
+      "word": "to",
+      "start": 54.74,
+      "end": 55.42
+    },
+    {
+      "word": "describe",
+      "start": 55.42,
+      "end": 56.26
+    },
+    {
+      "word": "how",
+      "start": 56.26,
+      "end": 56.96
+    },
+    {
+      "word": "an",
+      "start": 56.96,
+      "end": 57.4
+    },
+    {
+      "word": "apple",
+      "start": 57.4,
+      "end": 57.86
+    },
+    {
+      "word": "tastes",
+      "start": 57.86,
+      "end": 58.74
+    },
+    {
+      "word": "smells",
+      "start": 59.36,
+      "end": 59.9
+    },
+    {
+      "word": "feels",
+      "start": 60.6,
+      "end": 61.08
+    },
+    {
+      "word": "looks",
+      "start": 62.22,
+      "end": 62.3
+    },
+    {
+      "word": "and",
+      "start": 62.3,
+      "end": 63.16
+    },
+    {
+      "word": "sounds",
+      "start": 63.16,
+      "end": 63.72
+    },
+    {
+      "word": "when",
+      "start": 63.72,
+      "end": 64.36
+    },
+    {
+      "word": "eaten",
+      "start": 64.36,
+      "end": 65.3
+    },
+    {
+      "word": "science",
+      "start": 66.22,
+      "end": 66.72
+    },
+    {
+      "word": "how",
+      "start": 68.2,
+      "end": 68.3
+    },
+    {
+      "word": "does",
+      "start": 68.3,
+      "end": 68.96
+    },
+    {
+      "word": "an",
+      "start": 68.96,
+      "end": 69.34
+    },
+    {
+      "word": "apple",
+      "start": 69.34,
+      "end": 69.8
+    },
+    {
+      "word": "grow",
+      "start": 69.8,
+      "end": 70.48
+    },
+    {
+      "word": "explain",
+      "start": 71.46,
+      "end": 72.0
+    },
+    {
+      "word": "the",
+      "start": 72.0,
+      "end": 72.76
+    },
+    {
+      "word": "different",
+      "start": 72.76,
+      "end": 73.34
+    },
+    {
+      "word": "stages",
+      "start": 73.34,
+      "end": 74.3
+    },
+    {
+      "word": "in",
+      "start": 74.3,
+      "end": 75.3
+    },
+    {
+      "word": "the",
+      "start": 75.3,
+      "end": 75.54
+    },
+    {
+      "word": "cycle",
+      "start": 75.54,
+      "end": 76.02
+    },
+    {
+      "word": "to",
+      "start": 76.02,
+      "end": 76.7
+    },
+    {
+      "word": "a",
+      "start": 76.7,
+      "end": 76.96
+    },
+    {
+      "word": "partner",
+      "start": 76.96,
+      "end": 77.44
+    }
+  ]
+}

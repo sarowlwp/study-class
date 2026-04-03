@@ -1,0 +1,151 @@
+{
+  "version": "1.0",
+  "total_words": 29,
+  "timings": [
+    {
+      "word": "hello",
+      "start": 0.0,
+      "end": 0.6
+    },
+    {
+      "word": "butterfly",
+      "start": 0.6,
+      "end": 1.9
+    },
+    {
+      "word": "written",
+      "start": 3.06,
+      "end": 3.36
+    },
+    {
+      "word": "by",
+      "start": 3.36,
+      "end": 4.2
+    },
+    {
+      "word": "harriet",
+      "start": 4.2,
+      "end": 4.68
+    },
+    {
+      "word": "rosenblum",
+      "start": 4.68,
+      "end": 6.28
+    },
+    {
+      "word": "hello",
+      "start": 6.7,
+      "end": 7.1
+    },
+    {
+      "word": "big",
+      "start": 7.1,
+      "end": 8.02
+    },
+    {
+      "word": "butterfly",
+      "start": 8.02,
+      "end": 9.02
+    },
+    {
+      "word": "hello",
+      "start": 9.72,
+      "end": 10.26
+    },
+    {
+      "word": "small",
+      "start": 10.26,
+      "end": 11.42
+    },
+    {
+      "word": "butterfly",
+      "start": 11.42,
+      "end": 12.3
+    },
+    {
+      "word": "hello",
+      "start": 13.18,
+      "end": 13.84
+    },
+    {
+      "word": "red",
+      "start": 14.46,
+      "end": 14.76
+    },
+    {
+      "word": "butterfly",
+      "start": 14.76,
+      "end": 15.76
+    },
+    {
+      "word": "hello",
+      "start": 16.7,
+      "end": 17.22
+    },
+    {
+      "word": "green",
+      "start": 18.14,
+      "end": 18.5
+    },
+    {
+      "word": "butterfly",
+      "start": 18.5,
+      "end": 19.28
+    },
+    {
+      "word": "hello",
+      "start": 20.32,
+      "end": 20.9
+    },
+    {
+      "word": "striped",
+      "start": 21.72,
+      "end": 22.26
+    },
+    {
+      "word": "butterfly",
+      "start": 22.26,
+      "end": 22.84
+    },
+    {
+      "word": "hello",
+      "start": 23.76,
+      "end": 24.34
+    },
+    {
+      "word": "spotted",
+      "start": 24.98,
+      "end": 25.34
+    },
+    {
+      "word": "butterfly",
+      "start": 25.34,
+      "end": 26.42
+    },
+    {
+      "word": "hello",
+      "start": 27.16,
+      "end": 27.6
+    },
+    {
+      "word": "new",
+      "start": 28.58,
+      "end": 28.84
+    },
+    {
+      "word": "butterfly",
+      "start": 28.84,
+      "end": 29.56
+    },
+    {
+      "word": "hello",
+      "start": 30.0,
+      "end": 30.82
+    },
+    {
+      "word": "butterfly",
+      "start": 31.46,
+      "end": 32.08
+    }
+  ]
+}

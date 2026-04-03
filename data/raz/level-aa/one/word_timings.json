@@ -1,0 +1,126 @@
+{
+  "version": "1.0",
+  "total_words": 24,
+  "timings": [
+    {
+      "word": "1",
+      "start": 1.58,
+      "end": 2.98
+    },
+    {
+      "word": "written",
+      "start": 3.74,
+      "end": 4.44
+    },
+    {
+      "word": "by",
+      "start": 4.44,
+      "end": 5.02
+    },
+    {
+      "word": "mary",
+      "start": 5.02,
+      "end": 5.44
+    },
+    {
+      "word": "ann",
+      "start": 5.44,
+      "end": 5.96
+    },
+    {
+      "word": "morazzi",
+      "start": 5.96,
+      "end": 6.82
+    },
+    {
+      "word": "illustrated",
+      "start": 7.06,
+      "end": 8.46
+    },
+    {
+      "word": "by",
+      "start": 8.46,
+      "end": 9.04
+    },
+    {
+      "word": "laura",
+      "start": 9.04,
+      "end": 9.42
+    },
+    {
+      "word": "freeman",
+      "start": 9.42,
+      "end": 10.3
+    },
+    {
+      "word": "1",
+      "start": 13.1,
+      "end": 14.5
+    },
+    {
+      "word": "ed",
+      "start": 15.24,
+      "end": 16.56
+    },
+    {
+      "word": "1",
+      "start": 22.2,
+      "end": 23.6
+    },
+    {
+      "word": "one",
+      "start": 23.6,
+      "end": 23.74
+    },
+    {
+      "word": "pillow",
+      "start": 24.2,
+      "end": 24.9
+    },
+    {
+      "word": "one",
+      "start": 32.18,
+      "end": 32.88
+    },
+    {
+      "word": "window",
+      "start": 33.56,
+      "end": 33.96
+    },
+    {
+      "word": "one",
+      "start": 43.36,
+      "end": 44.06
+    },
+    {
+      "word": "hook",
+      "start": 44.82,
+      "end": 45.16
+    },
+    {
+      "word": "1",
+      "start": 51.48,
+      "end": 52.18
+    },
+    {
+      "word": "1",
+      "start": 53.74,
+      "end": 54.32
+    },
+    {
+      "word": "1",
+      "start": 60.16,
+      "end": 60.88
+    },
+    {
+      "word": "rug",
+      "start": 61.48,
+      "end": 61.86
+    },
+    {
+      "word": "1",
+      "start": 84.5,
+      "end": 85.9
+    }
+  ]
+}

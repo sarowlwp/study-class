@@ -1,0 +1,58 @@
+{
+  "id": "level-b/old-and-new",
+  "title": "Old And New",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Old and New Written Anthony Curran wwwreadinga-z.com by"
+    },
+    {
+      "page": 2,
+      "text": "Old and New Written by Anthony Curran wwwreadinga-z.com Focus Question What is the difference between old and new?"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know bikes old houses pickup trucks new bears Photo Credits: Front cover (left)  page 9: @ Peter Jobst/Alamy; front cover (center): @ Valengilda/iStock/Thinkstock; front cover (right): OlsenCanadal iStock/Thinkstock; title page (left): @ Lee Barnwell/Hemera/Thinkstock; title page (right): Oleksiy Maksymenko Photography/Alamy; page 3: Arterra Picture Library/Alamy; page 4: Lon C. Diehl/PhotoEdit; page 5: @ Steve Vidler/Corbis; page 6: @ JohnnyHs/iStock/Thinkstock; page 7: @ Tim Woodcock/Alamy: page 8: @ Tnsd19/Dreamstime.com; page IO: @ Alexander Pitel/Dreamstime.com Old and New Level B Leveled Book Correlation @ Learning A-Z LEVEL B Written by Anthony Curran Fountas & Pinnell B AIl rights reserved. Reading Recovery 2 DRA 2 wwwreadinga-z.com teddy"
+    },
+    {
+      "page": 4,
+      "text": "These pickup trucks are old_ Old and New Level B 3"
+    },
+    {
+      "page": 5,
+      "text": "1 These pickup trucks are new:"
+    },
+    {
+      "page": 6,
+      "text": "These houses are old_ Old and New Level B 5"
+    },
+    {
+      "page": 7,
+      "text": "These houses are new:"
+    },
+    {
+      "page": 8,
+      "text": "These bikes are old_ Old and New Level B"
+    },
+    {
+      "page": 9,
+      "text": "These bikes are new: 8"
+    },
+    {
+      "page": 10,
+      "text": "These teddy bears are old_ Old and New Level B"
+    },
+    {
+      "page": 11,
+      "text": "These teddy bears are new: 10"
+    },
+    {
+      "page": 12,
+      "text": "Old and New A Reading A-Z Level B Leveled Book Word Count: 36 Connections Writing Choose two items from this book. Write how the old item is different from the new item: Math Ask your classmates which of each item prefer; the old or the new. Create a class graph showing the information: Reading A-Z Visit wwwreadinga-z.com for thousands of books and materials: they"
+    }
+  ]
+}

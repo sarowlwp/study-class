@@ -1,0 +1,54 @@
+{
+  "id": "level-b/i-pick-up",
+  "title": "I Pick Up",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B I Pick K 0 L Written by Pam Bull Illustrated by Angela Kamstra-Jacobson wwwreadinga-z.com Up"
+    },
+    {
+      "page": 2,
+      "text": "I Pick Written Pam Bull Illustrated by Angela Kamstra-Jacobson wwwreadinga-z.com Up by"
+    },
+    {
+      "page": 3,
+      "text": "6 I pick up my ball: Pick Up Level B 3"
+    },
+    {
+      "page": 4,
+      "text": "S 0 I up my book pick"
+    },
+    {
+      "page": 5,
+      "text": "I pick up my shoes: Pick Up Level B 5"
+    },
+    {
+      "page": 6,
+      "text": "< I up my hat_ pick"
+    },
+    {
+      "page": 7,
+      "text": "I  0 I pick up my teddy bear: Pick Up Level B L7"
+    },
+    {
+      "page": 8,
+      "text": "S I up my cars. 8 '(ii_ pick"
+    },
+    {
+      "page": 9,
+      "text": "I 8_ @ t il I pick up my blanket. Pick Up Level B"
+    },
+    {
+      "page": 10,
+      "text": "5 room is all picked upl 10 My"
+    },
+    {
+      "page": 11,
+      "text": "I Pick Up Level B Leveled Book Learning A-Z Correlation Written by Pam Bull LEVEL B Illustrated by Angela Kamstra-Jacobson Fountas & Pinnell B All rights reserved: Reading Recovery 2 DRA 2 wwwreadinga-zcom"
+    }
+  ]
+}

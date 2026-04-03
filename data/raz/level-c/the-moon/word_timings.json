@@ -1,0 +1,546 @@
+{
+  "version": "1.0",
+  "total_words": 108,
+  "timings": [
+    {
+      "word": "the",
+      "start": 0.0,
+      "end": 0.52
+    },
+    {
+      "word": "moon",
+      "start": 0.52,
+      "end": 1.76
+    },
+    {
+      "word": "written",
+      "start": 2.52,
+      "end": 2.94
+    },
+    {
+      "word": "by",
+      "start": 2.94,
+      "end": 3.72
+    },
+    {
+      "word": "d",
+      "start": 3.72,
+      "end": 4.2
+    },
+    {
+      "word": "g",
+      "start": 4.52,
+      "end": 4.94
+    },
+    {
+      "word": "chelsea",
+      "start": 5.96,
+      "end": 5.96
+    },
+    {
+      "word": "focus",
+      "start": 7.34,
+      "end": 7.6
+    },
+    {
+      "word": "question",
+      "start": 7.6,
+      "end": 8.72
+    },
+    {
+      "word": "how",
+      "start": 9.88,
+      "end": 10.1
+    },
+    {
+      "word": "does",
+      "start": 10.1,
+      "end": 10.84
+    },
+    {
+      "word": "the",
+      "start": 10.84,
+      "end": 11.38
+    },
+    {
+      "word": "moon",
+      "start": 11.38,
+      "end": 11.8
+    },
+    {
+      "word": "look",
+      "start": 11.8,
+      "end": 12.58
+    },
+    {
+      "word": "different",
+      "start": 12.58,
+      "end": 13.3
+    },
+    {
+      "word": "over",
+      "start": 13.3,
+      "end": 14.22
+    },
+    {
+      "word": "time",
+      "start": 14.22,
+      "end": 14.84
+    },
+    {
+      "word": "the",
+      "start": 15.04,
+      "end": 15.32
+    },
+    {
+      "word": "moon",
+      "start": 15.32,
+      "end": 15.8
+    },
+    {
+      "word": "looks",
+      "start": 15.8,
+      "end": 16.48
+    },
+    {
+      "word": "different",
+      "start": 16.48,
+      "end": 17.2
+    },
+    {
+      "word": "over",
+      "start": 17.2,
+      "end": 18.2
+    },
+    {
+      "word": "time",
+      "start": 18.2,
+      "end": 18.88
+    },
+    {
+      "word": "the",
+      "start": 19.52,
+      "end": 19.86
+    },
+    {
+      "word": "changes",
+      "start": 19.86,
+      "end": 20.54
+    },
+    {
+      "word": "happen",
+      "start": 20.54,
+      "end": 21.54
+    },
+    {
+      "word": "in",
+      "start": 21.54,
+      "end": 22.32
+    },
+    {
+      "word": "a",
+      "start": 22.32,
+      "end": 22.92
+    },
+    {
+      "word": "cycle",
+      "start": 22.92,
+      "end": 23.78
+    },
+    {
+      "word": "the",
+      "start": 23.98,
+      "end": 24.32
+    },
+    {
+      "word": "moon",
+      "start": 24.32,
+      "end": 24.8
+    },
+    {
+      "word": "is",
+      "start": 24.8,
+      "end": 25.52
+    },
+    {
+      "word": "dark",
+      "start": 25.52,
+      "end": 26.42
+    },
+    {
+      "word": "tonight",
+      "start": 26.42,
+      "end": 27.24
+    },
+    {
+      "word": "the",
+      "start": 27.94,
+      "end": 27.94
+    },
+    {
+      "word": "moon",
+      "start": 27.94,
+      "end": 28.64
+    },
+    {
+      "word": "is",
+      "start": 28.64,
+      "end": 29.3
+    },
+    {
+      "word": "thin",
+      "start": 29.3,
+      "end": 29.96
+    },
+    {
+      "word": "tonight",
+      "start": 29.96,
+      "end": 31.06
+    },
+    {
+      "word": "the",
+      "start": 31.68,
+      "end": 31.72
+    },
+    {
+      "word": "moon",
+      "start": 31.72,
+      "end": 32.28
+    },
+    {
+      "word": "is",
+      "start": 32.28,
+      "end": 33.1
+    },
+    {
+      "word": "half",
+      "start": 33.1,
+      "end": 33.62
+    },
+    {
+      "word": "full",
+      "start": 33.62,
+      "end": 34.6
+    },
+    {
+      "word": "tonight",
+      "start": 34.6,
+      "end": 35.42
+    },
+    {
+      "word": "the",
+      "start": 35.88,
+      "end": 36.2
+    },
+    {
+      "word": "moon",
+      "start": 36.2,
+      "end": 36.68
+    },
+    {
+      "word": "is",
+      "start": 36.68,
+      "end": 37.44
+    },
+    {
+      "word": "full",
+      "start": 37.44,
+      "end": 38.56
+    },
+    {
+      "word": "tonight",
+      "start": 38.56,
+      "end": 39.42
+    },
+    {
+      "word": "the",
+      "start": 39.62,
+      "end": 40.02
+    },
+    {
+      "word": "moon",
+      "start": 40.02,
+      "end": 40.66
+    },
+    {
+      "word": "is",
+      "start": 40.66,
+      "end": 41.76
+    },
+    {
+      "word": "half",
+      "start": 41.76,
+      "end": 42.26
+    },
+    {
+      "word": "full",
+      "start": 42.26,
+      "end": 43.38
+    },
+    {
+      "word": "tonight",
+      "start": 43.38,
+      "end": 44.14
+    },
+    {
+      "word": "the",
+      "start": 44.14,
+      "end": 44.78
+    },
+    {
+      "word": "moon",
+      "start": 44.78,
+      "end": 45.36
+    },
+    {
+      "word": "is",
+      "start": 45.36,
+      "end": 46.54
+    },
+    {
+      "word": "thin",
+      "start": 46.54,
+      "end": 47.22
+    },
+    {
+      "word": "tonight",
+      "start": 47.22,
+      "end": 48.34
+    },
+    {
+      "word": "the",
+      "start": 48.58,
+      "end": 48.9
+    },
+    {
+      "word": "moon",
+      "start": 48.9,
+      "end": 49.42
+    },
+    {
+      "word": "is",
+      "start": 49.42,
+      "end": 50.28
+    },
+    {
+      "word": "dark",
+      "start": 50.28,
+      "end": 51.4
+    },
+    {
+      "word": "tonight",
+      "start": 51.4,
+      "end": 52.26
+    },
+    {
+      "word": "the",
+      "start": 53.04,
+      "end": 53.4
+    },
+    {
+      "word": "cycle",
+      "start": 53.4,
+      "end": 54.08
+    },
+    {
+      "word": "starts",
+      "start": 54.08,
+      "end": 54.98
+    },
+    {
+      "word": "over",
+      "start": 54.98,
+      "end": 56.08
+    },
+    {
+      "word": "again",
+      "start": 56.08,
+      "end": 56.86
+    },
+    {
+      "word": "connections",
+      "start": 56.86,
+      "end": 58.14
+    },
+    {
+      "word": "writing",
+      "start": 58.96,
+      "end": 59.24
+    },
+    {
+      "word": "and",
+      "start": 59.24,
+      "end": 60.16
+    },
+    {
+      "word": "art",
+      "start": 60.16,
+      "end": 61.24
+    },
+    {
+      "word": "make",
+      "start": 62.22,
+      "end": 62.26
+    },
+    {
+      "word": "a",
+      "start": 62.26,
+      "end": 63.0
+    },
+    {
+      "word": "poster",
+      "start": 63.0,
+      "end": 63.5
+    },
+    {
+      "word": "about",
+      "start": 63.5,
+      "end": 64.42
+    },
+    {
+      "word": "the",
+      "start": 64.42,
+      "end": 64.96
+    },
+    {
+      "word": "cycle",
+      "start": 64.96,
+      "end": 65.48
+    },
+    {
+      "word": "of",
+      "start": 65.48,
+      "end": 66.14
+    },
+    {
+      "word": "the",
+      "start": 66.14,
+      "end": 66.38
+    },
+    {
+      "word": "moon",
+      "start": 66.38,
+      "end": 67.02
+    },
+    {
+      "word": "draw",
+      "start": 67.76,
+      "end": 68.1
+    },
+    {
+      "word": "pictures",
+      "start": 68.1,
+      "end": 68.64
+    },
+    {
+      "word": "on",
+      "start": 68.64,
+      "end": 69.48
+    },
+    {
+      "word": "your",
+      "start": 69.48,
+      "end": 69.74
+    },
+    {
+      "word": "poster",
+      "start": 69.74,
+      "end": 70.4
+    },
+    {
+      "word": "and",
+      "start": 70.4,
+      "end": 71.28
+    },
+    {
+      "word": "label",
+      "start": 71.28,
+      "end": 71.74
+    },
+    {
+      "word": "them",
+      "start": 71.74,
+      "end": 72.26
+    },
+    {
+      "word": "science",
+      "start": 72.26,
+      "end": 73.86
+    },
+    {
+      "word": "and",
+      "start": 73.86,
+      "end": 74.5
+    },
+    {
+      "word": "art",
+      "start": 74.5,
+      "end": 75.32
+    },
+    {
+      "word": "draw",
+      "start": 76.1,
+      "end": 76.28
+    },
+    {
+      "word": "a",
+      "start": 76.28,
+      "end": 76.78
+    },
+    {
+      "word": "picture",
+      "start": 76.78,
+      "end": 77.16
+    },
+    {
+      "word": "of",
+      "start": 77.16,
+      "end": 77.78
+    },
+    {
+      "word": "the",
+      "start": 77.78,
+      "end": 77.98
+    },
+    {
+      "word": "moon",
+      "start": 77.98,
+      "end": 78.36
+    },
+    {
+      "word": "tonight",
+      "start": 78.36,
+      "end": 79.1
+    },
+    {
+      "word": "describe",
+      "start": 79.92,
+      "end": 80.36
+    },
+    {
+      "word": "your",
+      "start": 80.36,
+      "end": 80.98
+    },
+    {
+      "word": "picture",
+      "start": 80.98,
+      "end": 81.48
+    },
+    {
+      "word": "to",
+      "start": 81.48,
+      "end": 82.22
+    },
+    {
+      "word": "a",
+      "start": 82.22,
+      "end": 82.44
+    },
+    {
+      "word": "partner",
+      "start": 82.44,
+      "end": 82.84
+    }
+  ]
+}

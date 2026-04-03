@@ -1,0 +1,326 @@
+{
+  "version": "1.0",
+  "total_words": 64,
+  "timings": [
+    {
+      "word": "these",
+      "start": 0.0,
+      "end": 0.68
+    },
+    {
+      "word": "birds",
+      "start": 0.68,
+      "end": 2.14
+    },
+    {
+      "word": "written",
+      "start": 2.14,
+      "end": 3.82
+    },
+    {
+      "word": "by",
+      "start": 3.82,
+      "end": 4.62
+    },
+    {
+      "word": "rachel",
+      "start": 4.62,
+      "end": 5.14
+    },
+    {
+      "word": "rice",
+      "start": 5.14,
+      "end": 6.26
+    },
+    {
+      "word": "focus",
+      "start": 7.78,
+      "end": 8.04
+    },
+    {
+      "word": "question",
+      "start": 8.04,
+      "end": 9.08
+    },
+    {
+      "word": "how",
+      "start": 10.66,
+      "end": 10.94
+    },
+    {
+      "word": "are",
+      "start": 10.94,
+      "end": 11.52
+    },
+    {
+      "word": "birds",
+      "start": 11.52,
+      "end": 12.12
+    },
+    {
+      "word": "the",
+      "start": 12.12,
+      "end": 12.74
+    },
+    {
+      "word": "same",
+      "start": 12.74,
+      "end": 13.16
+    },
+    {
+      "word": "and",
+      "start": 13.16,
+      "end": 14.0
+    },
+    {
+      "word": "different",
+      "start": 14.0,
+      "end": 14.52
+    },
+    {
+      "word": "these",
+      "start": 14.52,
+      "end": 15.4
+    },
+    {
+      "word": "doves",
+      "start": 15.4,
+      "end": 16.72
+    },
+    {
+      "word": "these",
+      "start": 17.08,
+      "end": 17.48
+    },
+    {
+      "word": "hocks",
+      "start": 17.48,
+      "end": 18.48
+    },
+    {
+      "word": "these",
+      "start": 19.04,
+      "end": 19.4
+    },
+    {
+      "word": "crows",
+      "start": 19.4,
+      "end": 20.62
+    },
+    {
+      "word": "these",
+      "start": 21.02,
+      "end": 21.6
+    },
+    {
+      "word": "owls",
+      "start": 21.6,
+      "end": 22.52
+    },
+    {
+      "word": "these",
+      "start": 23.24,
+      "end": 23.64
+    },
+    {
+      "word": "eagles",
+      "start": 23.64,
+      "end": 24.56
+    },
+    {
+      "word": "these",
+      "start": 25.02,
+      "end": 25.4
+    },
+    {
+      "word": "geese",
+      "start": 25.4,
+      "end": 26.72
+    },
+    {
+      "word": "these",
+      "start": 26.94,
+      "end": 27.56
+    },
+    {
+      "word": "turkeys",
+      "start": 27.56,
+      "end": 28.54
+    },
+    {
+      "word": "these",
+      "start": 29.14,
+      "end": 29.72
+    },
+    {
+      "word": "birds",
+      "start": 29.72,
+      "end": 30.56
+    },
+    {
+      "word": "connections",
+      "start": 31.06,
+      "end": 31.7
+    },
+    {
+      "word": "writing",
+      "start": 33.12,
+      "end": 33.32
+    },
+    {
+      "word": "and",
+      "start": 33.32,
+      "end": 34.14
+    },
+    {
+      "word": "art",
+      "start": 34.14,
+      "end": 35.1
+    },
+    {
+      "word": "choose",
+      "start": 36.14,
+      "end": 36.46
+    },
+    {
+      "word": "your",
+      "start": 36.46,
+      "end": 37.12
+    },
+    {
+      "word": "favorite",
+      "start": 37.12,
+      "end": 37.66
+    },
+    {
+      "word": "bird",
+      "start": 37.66,
+      "end": 38.44
+    },
+    {
+      "word": "from",
+      "start": 38.44,
+      "end": 39.18
+    },
+    {
+      "word": "this",
+      "start": 39.18,
+      "end": 39.58
+    },
+    {
+      "word": "book",
+      "start": 39.58,
+      "end": 40.3
+    },
+    {
+      "word": "draw",
+      "start": 40.3,
+      "end": 41.68
+    },
+    {
+      "word": "a",
+      "start": 41.68,
+      "end": 42.14
+    },
+    {
+      "word": "picture",
+      "start": 42.14,
+      "end": 42.5
+    },
+    {
+      "word": "of",
+      "start": 42.5,
+      "end": 43.04
+    },
+    {
+      "word": "the",
+      "start": 43.04,
+      "end": 43.26
+    },
+    {
+      "word": "bird",
+      "start": 43.26,
+      "end": 43.64
+    },
+    {
+      "word": "and",
+      "start": 43.64,
+      "end": 44.4
+    },
+    {
+      "word": "write",
+      "start": 44.4,
+      "end": 44.76
+    },
+    {
+      "word": "a",
+      "start": 44.76,
+      "end": 45.26
+    },
+    {
+      "word": "sentence",
+      "start": 45.26,
+      "end": 45.7
+    },
+    {
+      "word": "about",
+      "start": 45.7,
+      "end": 46.22
+    },
+    {
+      "word": "it",
+      "start": 46.22,
+      "end": 47.4
+    },
+    {
+      "word": "science",
+      "start": 47.88,
+      "end": 48.32
+    },
+    {
+      "word": "tell",
+      "start": 49.78,
+      "end": 49.88
+    },
+    {
+      "word": "a",
+      "start": 49.88,
+      "end": 50.36
+    },
+    {
+      "word": "partner",
+      "start": 50.36,
+      "end": 50.76
+    },
+    {
+      "word": "to",
+      "start": 50.76,
+      "end": 51.5
+    },
+    {
+      "word": "facts",
+      "start": 51.5,
+      "end": 52.16
+    },
+    {
+      "word": "you",
+      "start": 52.16,
+      "end": 52.68
+    },
+    {
+      "word": "know",
+      "start": 52.68,
+      "end": 53.14
+    },
+    {
+      "word": "about",
+      "start": 53.14,
+      "end": 53.66
+    },
+    {
+      "word": "birds",
+      "start": 53.66,
+      "end": 54.28
+    }
+  ]
+}

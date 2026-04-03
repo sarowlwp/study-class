@@ -1,0 +1,54 @@
+{
+  "id": "level-c/we-make-a-snowman",
+  "title": "We Make A Snowman",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C We Make a Snowman Written by Cheryl Illustrated by John Kastner wwwreadinga-z.com Ryan"
+    },
+    {
+      "page": 2,
+      "text": "We Make a Snowman Written by Cheryl Ryan Illustrated John Kastner wwwreadinga-z.com by"
+    },
+    {
+      "page": 3,
+      "text": "I go ouf to play_ We Make a Snowman Level € 3 4L"
+    },
+    {
+      "page": 4,
+      "text": "friends go ouf to play. My"
+    },
+    {
+      "page": 5,
+      "text": "We play in the snow We Make a Snowman Level € 5"
+    },
+    {
+      "page": 6,
+      "text": "2 We make a snowman_"
+    },
+    {
+      "page": 7,
+      "text": "6 We make arms for the snowman_ We Make a Snowman Level C O5"
+    },
+    {
+      "page": 8,
+      "text": "Mn Lt We make eyes for the snowman. We make a nose and 4 mouth. 8 ~3x"
+    },
+    {
+      "page": 9,
+      "text": "uuy We play with the snowman. We Make a Snowman Level €"
+    },
+    {
+      "page": 10,
+      "text": "We in the house. Dad makes hot soup. Yum. 10 go"
+    },
+    {
+      "page": 11,
+      "text": "LOADING We Make a Snowman Level €C Leveled Book Learning A-Z Correlation Written by Cheryl Ryan LEVEL C Illustrated by John Kastner Fountas & Pinnell C All rights reserved. Reading Recovery 3-4 DRA 3-4 WWW.  readinga-z.com"
+    }
+  ]
+}

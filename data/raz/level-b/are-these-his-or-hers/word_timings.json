@@ -1,0 +1,511 @@
+{
+  "version": "1.0",
+  "total_words": 101,
+  "timings": [
+    {
+      "word": "are",
+      "start": 0.0,
+      "end": 0.54
+    },
+    {
+      "word": "these",
+      "start": 0.54,
+      "end": 1.28
+    },
+    {
+      "word": "his",
+      "start": 2.28,
+      "end": 2.28
+    },
+    {
+      "word": "or",
+      "start": 2.54,
+      "end": 2.98
+    },
+    {
+      "word": "hers",
+      "start": 2.98,
+      "end": 3.96
+    },
+    {
+      "word": "written",
+      "start": 5.54,
+      "end": 5.82
+    },
+    {
+      "word": "by",
+      "start": 5.82,
+      "end": 6.62
+    },
+    {
+      "word": "rachel",
+      "start": 6.62,
+      "end": 7.16
+    },
+    {
+      "word": "rice",
+      "start": 7.16,
+      "end": 8.34
+    },
+    {
+      "word": "illustrated",
+      "start": 9.22,
+      "end": 10.02
+    },
+    {
+      "word": "by",
+      "start": 10.02,
+      "end": 10.88
+    },
+    {
+      "word": "lisa",
+      "start": 10.88,
+      "end": 11.42
+    },
+    {
+      "word": "fields",
+      "start": 11.42,
+      "end": 12.66
+    },
+    {
+      "word": "focus",
+      "start": 14.86,
+      "end": 14.88
+    },
+    {
+      "word": "question",
+      "start": 14.88,
+      "end": 15.9
+    },
+    {
+      "word": "why",
+      "start": 17.22,
+      "end": 17.6
+    },
+    {
+      "word": "is",
+      "start": 17.6,
+      "end": 18.64
+    },
+    {
+      "word": "the",
+      "start": 18.64,
+      "end": 19.3
+    },
+    {
+      "word": "family",
+      "start": 19.3,
+      "end": 19.9
+    },
+    {
+      "word": "doing",
+      "start": 19.9,
+      "end": 20.94
+    },
+    {
+      "word": "the",
+      "start": 20.94,
+      "end": 21.76
+    },
+    {
+      "word": "chore",
+      "start": 21.76,
+      "end": 22.24
+    },
+    {
+      "word": "in",
+      "start": 22.24,
+      "end": 22.96
+    },
+    {
+      "word": "the",
+      "start": 22.96,
+      "end": 23.52
+    },
+    {
+      "word": "story",
+      "start": 23.52,
+      "end": 24.32
+    },
+    {
+      "word": "are",
+      "start": 24.32,
+      "end": 25.38
+    },
+    {
+      "word": "these",
+      "start": 25.38,
+      "end": 26.02
+    },
+    {
+      "word": "clothes",
+      "start": 26.02,
+      "end": 27.06
+    },
+    {
+      "word": "his",
+      "start": 27.64,
+      "end": 28.18
+    },
+    {
+      "word": "or",
+      "start": 28.74,
+      "end": 29.04
+    },
+    {
+      "word": "hers",
+      "start": 29.04,
+      "end": 29.98
+    },
+    {
+      "word": "these",
+      "start": 30.0,
+      "end": 31.22
+    },
+    {
+      "word": "socks",
+      "start": 31.22,
+      "end": 32.18
+    },
+    {
+      "word": "are",
+      "start": 32.18,
+      "end": 33.4
+    },
+    {
+      "word": "his",
+      "start": 33.4,
+      "end": 34.3
+    },
+    {
+      "word": "these",
+      "start": 34.92,
+      "end": 35.42
+    },
+    {
+      "word": "shorts",
+      "start": 35.42,
+      "end": 36.34
+    },
+    {
+      "word": "are",
+      "start": 36.34,
+      "end": 37.46
+    },
+    {
+      "word": "hers",
+      "start": 37.46,
+      "end": 38.6
+    },
+    {
+      "word": "these",
+      "start": 39.26,
+      "end": 39.68
+    },
+    {
+      "word": "pajamas",
+      "start": 39.68,
+      "end": 40.58
+    },
+    {
+      "word": "are",
+      "start": 40.58,
+      "end": 41.76
+    },
+    {
+      "word": "his",
+      "start": 41.76,
+      "end": 42.64
+    },
+    {
+      "word": "these",
+      "start": 42.64,
+      "end": 43.68
+    },
+    {
+      "word": "shirts",
+      "start": 43.68,
+      "end": 44.52
+    },
+    {
+      "word": "are",
+      "start": 44.52,
+      "end": 45.72
+    },
+    {
+      "word": "hers",
+      "start": 45.72,
+      "end": 46.62
+    },
+    {
+      "word": "these",
+      "start": 46.62,
+      "end": 47.68
+    },
+    {
+      "word": "jackets",
+      "start": 47.68,
+      "end": 48.74
+    },
+    {
+      "word": "are",
+      "start": 48.74,
+      "end": 50.26
+    },
+    {
+      "word": "his",
+      "start": 50.26,
+      "end": 50.94
+    },
+    {
+      "word": "these",
+      "start": 51.52,
+      "end": 51.94
+    },
+    {
+      "word": "hats",
+      "start": 51.94,
+      "end": 52.78
+    },
+    {
+      "word": "are",
+      "start": 52.78,
+      "end": 53.72
+    },
+    {
+      "word": "hers",
+      "start": 53.72,
+      "end": 54.68
+    },
+    {
+      "word": "are",
+      "start": 54.68,
+      "end": 55.56
+    },
+    {
+      "word": "these",
+      "start": 55.56,
+      "end": 56.24
+    },
+    {
+      "word": "jeans",
+      "start": 56.24,
+      "end": 56.92
+    },
+    {
+      "word": "his",
+      "start": 57.46,
+      "end": 57.96
+    },
+    {
+      "word": "or",
+      "start": 57.96,
+      "end": 58.62
+    },
+    {
+      "word": "hers",
+      "start": 58.62,
+      "end": 59.24
+    },
+    {
+      "word": "they",
+      "start": 60.0,
+      "end": 61.12
+    },
+    {
+      "word": "are",
+      "start": 61.12,
+      "end": 61.92
+    },
+    {
+      "word": "his",
+      "start": 61.92,
+      "end": 62.78
+    },
+    {
+      "word": "and",
+      "start": 62.78,
+      "end": 63.56
+    },
+    {
+      "word": "hers",
+      "start": 63.56,
+      "end": 64.5
+    },
+    {
+      "word": "connections",
+      "start": 64.5,
+      "end": 65.82
+    },
+    {
+      "word": "writing",
+      "start": 67.66,
+      "end": 67.86
+    },
+    {
+      "word": "and",
+      "start": 67.86,
+      "end": 68.74
+    },
+    {
+      "word": "art",
+      "start": 68.74,
+      "end": 70.26
+    },
+    {
+      "word": "what",
+      "start": 71.82,
+      "end": 71.82
+    },
+    {
+      "word": "are",
+      "start": 71.82,
+      "end": 72.56
+    },
+    {
+      "word": "your",
+      "start": 72.56,
+      "end": 72.98
+    },
+    {
+      "word": "favorite",
+      "start": 72.98,
+      "end": 73.82
+    },
+    {
+      "word": "clothes",
+      "start": 73.82,
+      "end": 74.64
+    },
+    {
+      "word": "to",
+      "start": 74.64,
+      "end": 75.44
+    },
+    {
+      "word": "wear",
+      "start": 75.44,
+      "end": 76.52
+    },
+    {
+      "word": "draw",
+      "start": 78.14,
+      "end": 78.36
+    },
+    {
+      "word": "a",
+      "start": 78.36,
+      "end": 79.06
+    },
+    {
+      "word": "picture",
+      "start": 79.06,
+      "end": 79.48
+    },
+    {
+      "word": "and",
+      "start": 79.48,
+      "end": 80.46
+    },
+    {
+      "word": "label",
+      "start": 80.46,
+      "end": 80.8
+    },
+    {
+      "word": "it",
+      "start": 80.8,
+      "end": 82.06
+    },
+    {
+      "word": "social",
+      "start": 83.28,
+      "end": 83.56
+    },
+    {
+      "word": "studies",
+      "start": 83.56,
+      "end": 84.28
+    },
+    {
+      "word": "why",
+      "start": 84.28,
+      "end": 86.06
+    },
+    {
+      "word": "is",
+      "start": 86.06,
+      "end": 86.58
+    },
+    {
+      "word": "it",
+      "start": 86.58,
+      "end": 87.2
+    },
+    {
+      "word": "important",
+      "start": 87.2,
+      "end": 87.84
+    },
+    {
+      "word": "to",
+      "start": 87.84,
+      "end": 88.92
+    },
+    {
+      "word": "help",
+      "start": 88.92,
+      "end": 89.24
+    },
+    {
+      "word": "with",
+      "start": 89.24,
+      "end": 89.8
+    },
+    {
+      "word": "chores",
+      "start": 89.8,
+      "end": 90.24
+    },
+    {
+      "word": "at",
+      "start": 90.24,
+      "end": 90.82
+    },
+    {
+      "word": "home",
+      "start": 90.82,
+      "end": 91.54
+    },
+    {
+      "word": "share",
+      "start": 92.88,
+      "end": 93.14
+    },
+    {
+      "word": "your",
+      "start": 93.14,
+      "end": 93.94
+    },
+    {
+      "word": "ideas",
+      "start": 93.94,
+      "end": 94.6
+    },
+    {
+      "word": "with",
+      "start": 94.6,
+      "end": 95.38
+    },
+    {
+      "word": "a",
+      "start": 95.38,
+      "end": 95.6
+    },
+    {
+      "word": "partner",
+      "start": 95.6,
+      "end": 96.02
+    }
+  ]
+}

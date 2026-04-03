@@ -1,0 +1,54 @@
+{
+  "id": "level-b/how-many-legs",
+  "title": "How Many Legs",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B How Legs? ( Written by Ned Jensen wwwreadinga-z.com Many"
+    },
+    {
+      "page": 2,
+      "text": "How Legs? 0 Written by Ned Jensen wwwreadinga-z.com Many"
+    },
+    {
+      "page": 3,
+      "text": "animals have How Many Legs? 0 Level B 3 Many legs:"
+    },
+    {
+      "page": 4,
+      "text": "These animals have two legs."
+    },
+    {
+      "page": 5,
+      "text": "These animals have four How Many Legs? 0 Level B 5 legs:"
+    },
+    {
+      "page": 6,
+      "text": "These animals have six legs:"
+    },
+    {
+      "page": 7,
+      "text": "These animals have eight legs. How Many Legs? 0 Level B"
+    },
+    {
+      "page": 8,
+      "text": "These animals have ten 8 legs:"
+    },
+    {
+      "page": 9,
+      "text": "These animals have many legs: How Many Legs? 0 Level B"
+    },
+    {
+      "page": 10,
+      "text": "How many legs do these animals have? 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover; back cover; title page (right)  pages 3 (all), 4 (center; right)  5 (left; right), 6 (top left, bottom left; bottom right) 7 (center; right) ; 8 (left), 9 (top), 10 left & right): @ Hemera Technologies/Jupiterimages Corporation; front cover (center); page 5 (center): @ iStockphotocom/Roberto Adrian; front cover (right)  pages 6 (bottom right), 10 (middle): Jupiterimages Corporation; title page (left)  page 6 right): Spike Mafford/Photodisc/Getty Images; page 4 (left): Eric Isselee/123RF; page 5 (bottom right): iStockphotocom/Pixelpipe; page 7 (left): @ Chris Collins/Corbis; page 8 (right): iStockphotocom/Kelvin Yue; page 9: Brand X Pictures [OA DING How Legs? Level B Leveled Book Correlation @ Learning A-Z LEVEL B Written by Ned Jensen Fountas & Pinnell B All rights reserved Reading Recovery 2 DRA 2 wwwreadinga-zcom top (top (top 75 Many"
+    }
+  ]
+}

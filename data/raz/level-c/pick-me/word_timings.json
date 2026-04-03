@@ -1,0 +1,581 @@
+{
+  "version": "1.0",
+  "total_words": 115,
+  "timings": [
+    {
+      "word": "pick",
+      "start": 0.0,
+      "end": 0.36
+    },
+    {
+      "word": "me",
+      "start": 0.36,
+      "end": 1.34
+    },
+    {
+      "word": "written",
+      "start": 1.98,
+      "end": 2.36
+    },
+    {
+      "word": "by",
+      "start": 2.36,
+      "end": 3.02
+    },
+    {
+      "word": "sarah",
+      "start": 3.02,
+      "end": 3.78
+    },
+    {
+      "word": "guson",
+      "start": 3.78,
+      "end": 5.12
+    },
+    {
+      "word": "illustrated",
+      "start": 5.7,
+      "end": 6.3
+    },
+    {
+      "word": "by",
+      "start": 6.3,
+      "end": 7.24
+    },
+    {
+      "word": "laura",
+      "start": 7.24,
+      "end": 7.76
+    },
+    {
+      "word": "zaryn",
+      "start": 7.76,
+      "end": 8.86
+    },
+    {
+      "word": "focus",
+      "start": 10.1,
+      "end": 10.44
+    },
+    {
+      "word": "question",
+      "start": 10.44,
+      "end": 11.36
+    },
+    {
+      "word": "how",
+      "start": 12.04,
+      "end": 12.22
+    },
+    {
+      "word": "does",
+      "start": 12.22,
+      "end": 12.74
+    },
+    {
+      "word": "the",
+      "start": 12.74,
+      "end": 13.2
+    },
+    {
+      "word": "main",
+      "start": 13.2,
+      "end": 13.64
+    },
+    {
+      "word": "character",
+      "start": 13.64,
+      "end": 14.28
+    },
+    {
+      "word": "solve",
+      "start": 14.28,
+      "end": 15.18
+    },
+    {
+      "word": "the",
+      "start": 15.18,
+      "end": 15.68
+    },
+    {
+      "word": "problem",
+      "start": 15.68,
+      "end": 16.16
+    },
+    {
+      "word": "in",
+      "start": 16.16,
+      "end": 16.8
+    },
+    {
+      "word": "the",
+      "start": 16.8,
+      "end": 17.02
+    },
+    {
+      "word": "story",
+      "start": 17.02,
+      "end": 17.44
+    },
+    {
+      "word": "i",
+      "start": 18.18,
+      "end": 18.2
+    },
+    {
+      "word": "always",
+      "start": 18.2,
+      "end": 19.3
+    },
+    {
+      "word": "get",
+      "start": 19.3,
+      "end": 20.04
+    },
+    {
+      "word": "picked",
+      "start": 20.04,
+      "end": 20.82
+    },
+    {
+      "word": "last",
+      "start": 20.82,
+      "end": 21.74
+    },
+    {
+      "word": "for",
+      "start": 21.74,
+      "end": 22.76
+    },
+    {
+      "word": "kickball",
+      "start": 22.76,
+      "end": 23.74
+    },
+    {
+      "word": "david",
+      "start": 23.74,
+      "end": 24.36
+    },
+    {
+      "word": "picked",
+      "start": 24.36,
+      "end": 25.32
+    },
+    {
+      "word": "me",
+      "start": 25.32,
+      "end": 26.3
+    },
+    {
+      "word": "last",
+      "start": 26.3,
+      "end": 27.34
+    },
+    {
+      "word": "on",
+      "start": 27.34,
+      "end": 28.22
+    },
+    {
+      "word": "monday",
+      "start": 28.22,
+      "end": 29.22
+    },
+    {
+      "word": "olivia",
+      "start": 30.08,
+      "end": 30.08
+    },
+    {
+      "word": "picked",
+      "start": 30.08,
+      "end": 31.38
+    },
+    {
+      "word": "me",
+      "start": 31.38,
+      "end": 32.16
+    },
+    {
+      "word": "last",
+      "start": 32.16,
+      "end": 33.2
+    },
+    {
+      "word": "on",
+      "start": 33.2,
+      "end": 34.24
+    },
+    {
+      "word": "tuesday",
+      "start": 34.24,
+      "end": 35.28
+    },
+    {
+      "word": "carter",
+      "start": 35.74,
+      "end": 36.18
+    },
+    {
+      "word": "picked",
+      "start": 36.18,
+      "end": 37.16
+    },
+    {
+      "word": "me",
+      "start": 37.16,
+      "end": 37.9
+    },
+    {
+      "word": "last",
+      "start": 37.9,
+      "end": 38.72
+    },
+    {
+      "word": "on",
+      "start": 38.72,
+      "end": 39.76
+    },
+    {
+      "word": "wednesday",
+      "start": 39.76,
+      "end": 40.74
+    },
+    {
+      "word": "on",
+      "start": 40.74,
+      "end": 41.38
+    },
+    {
+      "word": "ya",
+      "start": 41.38,
+      "end": 41.68
+    },
+    {
+      "word": "picked",
+      "start": 42.36,
+      "end": 42.64
+    },
+    {
+      "word": "me",
+      "start": 42.64,
+      "end": 43.34
+    },
+    {
+      "word": "last",
+      "start": 43.34,
+      "end": 44.16
+    },
+    {
+      "word": "on",
+      "start": 44.16,
+      "end": 45.08
+    },
+    {
+      "word": "thursday",
+      "start": 45.08,
+      "end": 46.12
+    },
+    {
+      "word": "louie",
+      "start": 46.6,
+      "end": 47.36
+    },
+    {
+      "word": "picked",
+      "start": 47.36,
+      "end": 47.96
+    },
+    {
+      "word": "me",
+      "start": 47.96,
+      "end": 48.68
+    },
+    {
+      "word": "last",
+      "start": 48.68,
+      "end": 49.38
+    },
+    {
+      "word": "on",
+      "start": 49.38,
+      "end": 50.52
+    },
+    {
+      "word": "friday",
+      "start": 50.52,
+      "end": 51.04
+    },
+    {
+      "word": "jean",
+      "start": 51.5,
+      "end": 51.9
+    },
+    {
+      "word": "picked",
+      "start": 51.9,
+      "end": 52.9
+    },
+    {
+      "word": "me",
+      "start": 52.9,
+      "end": 53.62
+    },
+    {
+      "word": "last",
+      "start": 53.62,
+      "end": 54.64
+    },
+    {
+      "word": "on",
+      "start": 54.64,
+      "end": 55.64
+    },
+    {
+      "word": "saturday",
+      "start": 55.64,
+      "end": 56.62
+    },
+    {
+      "word": "i",
+      "start": 57.26,
+      "end": 57.48
+    },
+    {
+      "word": "asked",
+      "start": 57.48,
+      "end": 58.84
+    },
+    {
+      "word": "to",
+      "start": 58.84,
+      "end": 59.78
+    },
+    {
+      "word": "pick",
+      "start": 59.78,
+      "end": 60.82
+    },
+    {
+      "word": "on",
+      "start": 60.82,
+      "end": 61.92
+    },
+    {
+      "word": "sunday",
+      "start": 61.92,
+      "end": 63.4
+    },
+    {
+      "word": "everyone",
+      "start": 64.14,
+      "end": 65.0
+    },
+    {
+      "word": "agreed",
+      "start": 65.0,
+      "end": 65.92
+    },
+    {
+      "word": "now",
+      "start": 65.92,
+      "end": 67.48
+    },
+    {
+      "word": "i",
+      "start": 68.1,
+      "end": 68.44
+    },
+    {
+      "word": "get",
+      "start": 68.44,
+      "end": 68.98
+    },
+    {
+      "word": "to",
+      "start": 68.98,
+      "end": 69.58
+    },
+    {
+      "word": "pick",
+      "start": 69.58,
+      "end": 70.18
+    },
+    {
+      "word": "connections",
+      "start": 70.18,
+      "end": 71.0
+    },
+    {
+      "word": "writing",
+      "start": 72.2,
+      "end": 72.52
+    },
+    {
+      "word": "list",
+      "start": 73.98,
+      "end": 74.16
+    },
+    {
+      "word": "all",
+      "start": 74.16,
+      "end": 74.82
+    },
+    {
+      "word": "of",
+      "start": 74.82,
+      "end": 75.16
+    },
+    {
+      "word": "the",
+      "start": 75.16,
+      "end": 75.34
+    },
+    {
+      "word": "children's",
+      "start": 75.34,
+      "end": 75.78
+    },
+    {
+      "word": "names",
+      "start": 75.78,
+      "end": 76.18
+    },
+    {
+      "word": "from",
+      "start": 76.18,
+      "end": 76.7
+    },
+    {
+      "word": "the",
+      "start": 76.7,
+      "end": 76.92
+    },
+    {
+      "word": "book",
+      "start": 76.92,
+      "end": 77.42
+    },
+    {
+      "word": "then",
+      "start": 78.32,
+      "end": 78.66
+    },
+    {
+      "word": "write",
+      "start": 78.66,
+      "end": 79.48
+    },
+    {
+      "word": "the",
+      "start": 79.48,
+      "end": 79.7
+    },
+    {
+      "word": "names",
+      "start": 79.7,
+      "end": 80.02
+    },
+    {
+      "word": "in",
+      "start": 80.02,
+      "end": 80.56
+    },
+    {
+      "word": "abc",
+      "start": 80.56,
+      "end": 81.26
+    },
+    {
+      "word": "order",
+      "start": 81.26,
+      "end": 82.28
+    },
+    {
+      "word": "social",
+      "start": 83.42,
+      "end": 83.62
+    },
+    {
+      "word": "studies",
+      "start": 83.62,
+      "end": 84.18
+    },
+    {
+      "word": "and",
+      "start": 84.18,
+      "end": 84.7
+    },
+    {
+      "word": "art",
+      "start": 84.7,
+      "end": 85.76
+    },
+    {
+      "word": "draw",
+      "start": 86.52,
+      "end": 86.68
+    },
+    {
+      "word": "a",
+      "start": 86.68,
+      "end": 86.98
+    },
+    {
+      "word": "picture",
+      "start": 86.98,
+      "end": 87.3
+    },
+    {
+      "word": "of",
+      "start": 87.3,
+      "end": 87.66
+    },
+    {
+      "word": "a",
+      "start": 87.66,
+      "end": 87.98
+    },
+    {
+      "word": "time",
+      "start": 87.98,
+      "end": 88.24
+    },
+    {
+      "word": "you",
+      "start": 88.24,
+      "end": 88.46
+    },
+    {
+      "word": "take",
+      "start": 88.46,
+      "end": 88.72
+    },
+    {
+      "word": "turns",
+      "start": 88.72,
+      "end": 89.38
+    },
+    {
+      "word": "write",
+      "start": 90.1,
+      "end": 90.34
+    },
+    {
+      "word": "about",
+      "start": 90.34,
+      "end": 90.82
+    },
+    {
+      "word": "your",
+      "start": 90.82,
+      "end": 91.08
+    },
+    {
+      "word": "picture",
+      "start": 91.08,
+      "end": 91.46
+    }
+  ]
+}

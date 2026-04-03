@@ -1,0 +1,226 @@
+{
+  "version": "1.0",
+  "total_words": 44,
+  "timings": [
+    {
+      "word": "near",
+      "start": 0.0,
+      "end": 0.54
+    },
+    {
+      "word": "and",
+      "start": 0.54,
+      "end": 1.22
+    },
+    {
+      "word": "far",
+      "start": 1.22,
+      "end": 1.58
+    },
+    {
+      "word": "away",
+      "start": 1.58,
+      "end": 2.7
+    },
+    {
+      "word": "written",
+      "start": 2.7,
+      "end": 3.44
+    },
+    {
+      "word": "by",
+      "start": 3.44,
+      "end": 4.08
+    },
+    {
+      "word": "cheryl",
+      "start": 4.08,
+      "end": 4.52
+    },
+    {
+      "word": "ryan",
+      "start": 4.52,
+      "end": 5.32
+    },
+    {
+      "word": "this",
+      "start": 5.98,
+      "end": 6.18
+    },
+    {
+      "word": "lion",
+      "start": 6.18,
+      "end": 6.82
+    },
+    {
+      "word": "is",
+      "start": 6.82,
+      "end": 7.62
+    },
+    {
+      "word": "near",
+      "start": 7.62,
+      "end": 8.1
+    },
+    {
+      "word": "that",
+      "start": 8.3,
+      "end": 8.76
+    },
+    {
+      "word": "lion",
+      "start": 8.76,
+      "end": 9.48
+    },
+    {
+      "word": "is",
+      "start": 9.48,
+      "end": 10.36
+    },
+    {
+      "word": "far",
+      "start": 10.36,
+      "end": 10.72
+    },
+    {
+      "word": "away",
+      "start": 10.72,
+      "end": 11.36
+    },
+    {
+      "word": "this",
+      "start": 11.68,
+      "end": 12.22
+    },
+    {
+      "word": "owl",
+      "start": 12.22,
+      "end": 12.72
+    },
+    {
+      "word": "is",
+      "start": 12.72,
+      "end": 13.66
+    },
+    {
+      "word": "near",
+      "start": 13.66,
+      "end": 14.08
+    },
+    {
+      "word": "that",
+      "start": 14.44,
+      "end": 14.8
+    },
+    {
+      "word": "owl",
+      "start": 14.8,
+      "end": 15.52
+    },
+    {
+      "word": "is",
+      "start": 15.52,
+      "end": 16.4
+    },
+    {
+      "word": "far",
+      "start": 16.4,
+      "end": 16.78
+    },
+    {
+      "word": "away",
+      "start": 16.78,
+      "end": 17.34
+    },
+    {
+      "word": "this",
+      "start": 17.66,
+      "end": 18.28
+    },
+    {
+      "word": "wolf",
+      "start": 18.28,
+      "end": 18.8
+    },
+    {
+      "word": "is",
+      "start": 18.8,
+      "end": 19.4
+    },
+    {
+      "word": "near",
+      "start": 19.4,
+      "end": 19.86
+    },
+    {
+      "word": "that",
+      "start": 19.98,
+      "end": 20.46
+    },
+    {
+      "word": "wolf",
+      "start": 20.46,
+      "end": 21.06
+    },
+    {
+      "word": "is",
+      "start": 21.06,
+      "end": 21.76
+    },
+    {
+      "word": "far",
+      "start": 21.76,
+      "end": 22.16
+    },
+    {
+      "word": "away",
+      "start": 22.16,
+      "end": 22.78
+    },
+    {
+      "word": "this",
+      "start": 23.0,
+      "end": 23.56
+    },
+    {
+      "word": "deer",
+      "start": 23.56,
+      "end": 24.26
+    },
+    {
+      "word": "is",
+      "start": 24.26,
+      "end": 25.08
+    },
+    {
+      "word": "near",
+      "start": 25.08,
+      "end": 25.82
+    },
+    {
+      "word": "that",
+      "start": 26.24,
+      "end": 26.76
+    },
+    {
+      "word": "deer",
+      "start": 26.76,
+      "end": 27.44
+    },
+    {
+      "word": "it's",
+      "start": 27.44,
+      "end": 28.42
+    },
+    {
+      "word": "far",
+      "start": 28.42,
+      "end": 28.88
+    },
+    {
+      "word": "away",
+      "start": 28.88,
+      "end": 29.48
+    }
+  ]
+}

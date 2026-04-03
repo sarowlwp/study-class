@@ -1,0 +1,436 @@
+{
+  "version": "1.0",
+  "total_words": 86,
+  "timings": [
+    {
+      "word": "my",
+      "start": 0.0,
+      "end": 0.78
+    },
+    {
+      "word": "little",
+      "start": 0.78,
+      "end": 1.52
+    },
+    {
+      "word": "brother",
+      "start": 1.52,
+      "end": 2.6
+    },
+    {
+      "word": "written",
+      "start": 3.62,
+      "end": 3.86
+    },
+    {
+      "word": "by",
+      "start": 3.86,
+      "end": 4.62
+    },
+    {
+      "word": "elizabeth",
+      "start": 4.62,
+      "end": 5.44
+    },
+    {
+      "word": "jane",
+      "start": 5.44,
+      "end": 6.48
+    },
+    {
+      "word": "pustilnik",
+      "start": 6.48,
+      "end": 8.04
+    },
+    {
+      "word": "illustrated",
+      "start": 8.68,
+      "end": 9.18
+    },
+    {
+      "word": "by",
+      "start": 9.18,
+      "end": 10.14
+    },
+    {
+      "word": "tammy",
+      "start": 10.14,
+      "end": 10.86
+    },
+    {
+      "word": "lyon",
+      "start": 10.86,
+      "end": 12.14
+    },
+    {
+      "word": "focus",
+      "start": 12.82,
+      "end": 13.04
+    },
+    {
+      "word": "question",
+      "start": 13.04,
+      "end": 14.06
+    },
+    {
+      "word": "how",
+      "start": 14.06,
+      "end": 15.1
+    },
+    {
+      "word": "does",
+      "start": 15.1,
+      "end": 15.74
+    },
+    {
+      "word": "the",
+      "start": 15.74,
+      "end": 16.2
+    },
+    {
+      "word": "girl",
+      "start": 16.2,
+      "end": 16.74
+    },
+    {
+      "word": "take",
+      "start": 16.74,
+      "end": 17.26
+    },
+    {
+      "word": "care",
+      "start": 17.26,
+      "end": 18.02
+    },
+    {
+      "word": "of",
+      "start": 18.02,
+      "end": 18.48
+    },
+    {
+      "word": "her",
+      "start": 18.48,
+      "end": 18.92
+    },
+    {
+      "word": "brother",
+      "start": 18.92,
+      "end": 19.34
+    },
+    {
+      "word": "i",
+      "start": 19.34,
+      "end": 20.12
+    },
+    {
+      "word": "need",
+      "start": 20.12,
+      "end": 20.86
+    },
+    {
+      "word": "my",
+      "start": 20.86,
+      "end": 21.6
+    },
+    {
+      "word": "brother",
+      "start": 21.6,
+      "end": 22.28
+    },
+    {
+      "word": "i",
+      "start": 23.04,
+      "end": 23.06
+    },
+    {
+      "word": "hold",
+      "start": 23.06,
+      "end": 23.82
+    },
+    {
+      "word": "my",
+      "start": 23.82,
+      "end": 24.58
+    },
+    {
+      "word": "brother",
+      "start": 24.58,
+      "end": 25.26
+    },
+    {
+      "word": "i",
+      "start": 25.88,
+      "end": 26.24
+    },
+    {
+      "word": "hear",
+      "start": 26.24,
+      "end": 27.14
+    },
+    {
+      "word": "my",
+      "start": 27.14,
+      "end": 28.08
+    },
+    {
+      "word": "brother",
+      "start": 28.08,
+      "end": 28.8
+    },
+    {
+      "word": "i",
+      "start": 29.38,
+      "end": 29.62
+    },
+    {
+      "word": "feed",
+      "start": 29.62,
+      "end": 30.44
+    },
+    {
+      "word": "my",
+      "start": 30.44,
+      "end": 31.36
+    },
+    {
+      "word": "brother",
+      "start": 31.36,
+      "end": 32.08
+    },
+    {
+      "word": "i",
+      "start": 32.6,
+      "end": 32.88
+    },
+    {
+      "word": "rock",
+      "start": 32.88,
+      "end": 33.52
+    },
+    {
+      "word": "my",
+      "start": 34.46,
+      "end": 34.46
+    },
+    {
+      "word": "brother",
+      "start": 34.46,
+      "end": 35.1
+    },
+    {
+      "word": "i",
+      "start": 35.74,
+      "end": 35.92
+    },
+    {
+      "word": "help",
+      "start": 35.92,
+      "end": 36.68
+    },
+    {
+      "word": "my",
+      "start": 37.08,
+      "end": 37.48
+    },
+    {
+      "word": "brother",
+      "start": 37.48,
+      "end": 38.14
+    },
+    {
+      "word": "i",
+      "start": 38.68,
+      "end": 38.94
+    },
+    {
+      "word": "kiss",
+      "start": 38.94,
+      "end": 39.84
+    },
+    {
+      "word": "my",
+      "start": 39.84,
+      "end": 40.6
+    },
+    {
+      "word": "brother",
+      "start": 40.6,
+      "end": 41.36
+    },
+    {
+      "word": "i",
+      "start": 41.8,
+      "end": 42.22
+    },
+    {
+      "word": "love",
+      "start": 42.22,
+      "end": 43.04
+    },
+    {
+      "word": "my",
+      "start": 43.04,
+      "end": 44.02
+    },
+    {
+      "word": "brother",
+      "start": 44.02,
+      "end": 44.8
+    },
+    {
+      "word": "connections",
+      "start": 44.8,
+      "end": 46.4
+    },
+    {
+      "word": "writing",
+      "start": 47.12,
+      "end": 47.56
+    },
+    {
+      "word": "and",
+      "start": 47.56,
+      "end": 48.26
+    },
+    {
+      "word": "art",
+      "start": 48.26,
+      "end": 49.3
+    },
+    {
+      "word": "who",
+      "start": 50.2,
+      "end": 50.48
+    },
+    {
+      "word": "is",
+      "start": 50.48,
+      "end": 51.3
+    },
+    {
+      "word": "in",
+      "start": 51.3,
+      "end": 51.78
+    },
+    {
+      "word": "your",
+      "start": 51.78,
+      "end": 52.16
+    },
+    {
+      "word": "family",
+      "start": 52.16,
+      "end": 53.18
+    },
+    {
+      "word": "draw",
+      "start": 53.92,
+      "end": 54.2
+    },
+    {
+      "word": "and",
+      "start": 54.2,
+      "end": 54.94
+    },
+    {
+      "word": "label",
+      "start": 54.94,
+      "end": 55.36
+    },
+    {
+      "word": "a",
+      "start": 55.36,
+      "end": 55.84
+    },
+    {
+      "word": "picture",
+      "start": 55.84,
+      "end": 56.38
+    },
+    {
+      "word": "of",
+      "start": 56.38,
+      "end": 57.2
+    },
+    {
+      "word": "your",
+      "start": 57.2,
+      "end": 57.78
+    },
+    {
+      "word": "family",
+      "start": 57.78,
+      "end": 58.54
+    },
+    {
+      "word": "social",
+      "start": 59.72,
+      "end": 60.02
+    },
+    {
+      "word": "studies",
+      "start": 60.02,
+      "end": 60.94
+    },
+    {
+      "word": "how",
+      "start": 60.94,
+      "end": 62.3
+    },
+    {
+      "word": "can",
+      "start": 62.3,
+      "end": 62.82
+    },
+    {
+      "word": "you",
+      "start": 62.82,
+      "end": 63.28
+    },
+    {
+      "word": "help",
+      "start": 63.28,
+      "end": 63.9
+    },
+    {
+      "word": "your",
+      "start": 63.9,
+      "end": 64.56
+    },
+    {
+      "word": "family",
+      "start": 64.56,
+      "end": 65.2
+    },
+    {
+      "word": "share",
+      "start": 65.2,
+      "end": 66.38
+    },
+    {
+      "word": "your",
+      "start": 66.38,
+      "end": 67.02
+    },
+    {
+      "word": "ideas",
+      "start": 67.02,
+      "end": 67.66
+    },
+    {
+      "word": "with",
+      "start": 67.66,
+      "end": 68.68
+    },
+    {
+      "word": "a",
+      "start": 68.68,
+      "end": 68.94
+    },
+    {
+      "word": "partner",
+      "start": 68.94,
+      "end": 69.3
+    }
+  ]
+}

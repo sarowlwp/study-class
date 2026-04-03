@@ -1,0 +1,496 @@
+{
+  "version": "1.0",
+  "total_words": 98,
+  "timings": [
+    {
+      "word": "this",
+      "start": 0.0,
+      "end": 0.66
+    },
+    {
+      "word": "smells",
+      "start": 0.66,
+      "end": 1.86
+    },
+    {
+      "word": "written",
+      "start": 1.86,
+      "end": 3.58
+    },
+    {
+      "word": "by",
+      "start": 3.58,
+      "end": 4.26
+    },
+    {
+      "word": "ed",
+      "start": 4.26,
+      "end": 4.92
+    },
+    {
+      "word": "evans",
+      "start": 4.92,
+      "end": 5.9
+    },
+    {
+      "word": "illustrated",
+      "start": 5.9,
+      "end": 7.56
+    },
+    {
+      "word": "by",
+      "start": 7.56,
+      "end": 8.44
+    },
+    {
+      "word": "linda",
+      "start": 8.44,
+      "end": 8.96
+    },
+    {
+      "word": "silvestri",
+      "start": 8.96,
+      "end": 10.86
+    },
+    {
+      "word": "focus",
+      "start": 11.98,
+      "end": 12.24
+    },
+    {
+      "word": "question",
+      "start": 12.24,
+      "end": 13.02
+    },
+    {
+      "word": "what",
+      "start": 14.46,
+      "end": 14.66
+    },
+    {
+      "word": "different",
+      "start": 14.66,
+      "end": 15.38
+    },
+    {
+      "word": "words",
+      "start": 15.38,
+      "end": 16.14
+    },
+    {
+      "word": "can",
+      "start": 16.14,
+      "end": 16.7
+    },
+    {
+      "word": "you",
+      "start": 16.7,
+      "end": 17.0
+    },
+    {
+      "word": "use",
+      "start": 17.0,
+      "end": 17.6
+    },
+    {
+      "word": "to",
+      "start": 17.6,
+      "end": 17.92
+    },
+    {
+      "word": "describe",
+      "start": 17.92,
+      "end": 18.56
+    },
+    {
+      "word": "how",
+      "start": 18.56,
+      "end": 19.32
+    },
+    {
+      "word": "something",
+      "start": 19.32,
+      "end": 20.02
+    },
+    {
+      "word": "smells",
+      "start": 20.02,
+      "end": 20.94
+    },
+    {
+      "word": "this",
+      "start": 20.94,
+      "end": 21.84
+    },
+    {
+      "word": "smells",
+      "start": 21.84,
+      "end": 22.72
+    },
+    {
+      "word": "so",
+      "start": 22.72,
+      "end": 23.66
+    },
+    {
+      "word": "sour",
+      "start": 23.66,
+      "end": 24.62
+    },
+    {
+      "word": "this",
+      "start": 25.38,
+      "end": 25.46
+    },
+    {
+      "word": "smells",
+      "start": 25.46,
+      "end": 26.26
+    },
+    {
+      "word": "so",
+      "start": 26.26,
+      "end": 27.06
+    },
+    {
+      "word": "sweet",
+      "start": 27.06,
+      "end": 27.92
+    },
+    {
+      "word": "this",
+      "start": 28.58,
+      "end": 28.82
+    },
+    {
+      "word": "smells",
+      "start": 28.82,
+      "end": 29.72
+    },
+    {
+      "word": "so",
+      "start": 29.72,
+      "end": 30.5
+    },
+    {
+      "word": "old",
+      "start": 30.5,
+      "end": 31.56
+    },
+    {
+      "word": "this",
+      "start": 32.24,
+      "end": 32.48
+    },
+    {
+      "word": "smells",
+      "start": 32.48,
+      "end": 33.44
+    },
+    {
+      "word": "so",
+      "start": 33.44,
+      "end": 34.26
+    },
+    {
+      "word": "new",
+      "start": 34.26,
+      "end": 35.24
+    },
+    {
+      "word": "this",
+      "start": 35.7,
+      "end": 36.02
+    },
+    {
+      "word": "smells",
+      "start": 36.02,
+      "end": 36.96
+    },
+    {
+      "word": "so",
+      "start": 36.96,
+      "end": 37.78
+    },
+    {
+      "word": "dirty",
+      "start": 37.78,
+      "end": 38.78
+    },
+    {
+      "word": "this",
+      "start": 39.52,
+      "end": 39.74
+    },
+    {
+      "word": "smells",
+      "start": 39.74,
+      "end": 40.58
+    },
+    {
+      "word": "so",
+      "start": 40.58,
+      "end": 41.3
+    },
+    {
+      "word": "clean",
+      "start": 41.3,
+      "end": 42.2
+    },
+    {
+      "word": "this",
+      "start": 42.2,
+      "end": 43.1
+    },
+    {
+      "word": "smells",
+      "start": 43.1,
+      "end": 44.06
+    },
+    {
+      "word": "so",
+      "start": 44.06,
+      "end": 44.92
+    },
+    {
+      "word": "bad",
+      "start": 44.92,
+      "end": 45.78
+    },
+    {
+      "word": "this",
+      "start": 46.56,
+      "end": 46.62
+    },
+    {
+      "word": "smells",
+      "start": 46.62,
+      "end": 47.5
+    },
+    {
+      "word": "so",
+      "start": 47.5,
+      "end": 48.36
+    },
+    {
+      "word": "good",
+      "start": 48.36,
+      "end": 49.44
+    },
+    {
+      "word": "connections",
+      "start": 49.86,
+      "end": 50.8
+    },
+    {
+      "word": "writing",
+      "start": 51.72,
+      "end": 51.72
+    },
+    {
+      "word": "and",
+      "start": 51.72,
+      "end": 52.44
+    },
+    {
+      "word": "art",
+      "start": 52.44,
+      "end": 53.34
+    },
+    {
+      "word": "think",
+      "start": 54.16,
+      "end": 54.18
+    },
+    {
+      "word": "of",
+      "start": 54.18,
+      "end": 54.58
+    },
+    {
+      "word": "an",
+      "start": 54.58,
+      "end": 54.88
+    },
+    {
+      "word": "object",
+      "start": 54.88,
+      "end": 55.3
+    },
+    {
+      "word": "in",
+      "start": 55.3,
+      "end": 55.84
+    },
+    {
+      "word": "your",
+      "start": 55.84,
+      "end": 56.14
+    },
+    {
+      "word": "house",
+      "start": 56.14,
+      "end": 57.08
+    },
+    {
+      "word": "draw",
+      "start": 57.54,
+      "end": 57.76
+    },
+    {
+      "word": "a",
+      "start": 57.76,
+      "end": 58.28
+    },
+    {
+      "word": "picture",
+      "start": 58.28,
+      "end": 58.5
+    },
+    {
+      "word": "of",
+      "start": 58.5,
+      "end": 58.9
+    },
+    {
+      "word": "it",
+      "start": 58.9,
+      "end": 59.28
+    },
+    {
+      "word": "and",
+      "start": 59.28,
+      "end": 59.8
+    },
+    {
+      "word": "write",
+      "start": 59.8,
+      "end": 60.22
+    },
+    {
+      "word": "words",
+      "start": 60.22,
+      "end": 60.74
+    },
+    {
+      "word": "to",
+      "start": 60.74,
+      "end": 61.26
+    },
+    {
+      "word": "describe",
+      "start": 61.26,
+      "end": 61.8
+    },
+    {
+      "word": "how",
+      "start": 61.8,
+      "end": 62.32
+    },
+    {
+      "word": "it",
+      "start": 62.32,
+      "end": 62.64
+    },
+    {
+      "word": "smells",
+      "start": 62.64,
+      "end": 63.16
+    },
+    {
+      "word": "science",
+      "start": 64.7,
+      "end": 65.2
+    },
+    {
+      "word": "think",
+      "start": 66.34,
+      "end": 66.58
+    },
+    {
+      "word": "of",
+      "start": 66.58,
+      "end": 66.92
+    },
+    {
+      "word": "your",
+      "start": 66.92,
+      "end": 67.26
+    },
+    {
+      "word": "favorite",
+      "start": 67.26,
+      "end": 67.7
+    },
+    {
+      "word": "food",
+      "start": 67.7,
+      "end": 68.7
+    },
+    {
+      "word": "describe",
+      "start": 69.44,
+      "end": 69.92
+    },
+    {
+      "word": "the",
+      "start": 69.92,
+      "end": 70.22
+    },
+    {
+      "word": "way",
+      "start": 70.22,
+      "end": 70.4
+    },
+    {
+      "word": "it",
+      "start": 70.4,
+      "end": 70.66
+    },
+    {
+      "word": "smells",
+      "start": 70.66,
+      "end": 71.14
+    },
+    {
+      "word": "tastes",
+      "start": 71.9,
+      "end": 72.28
+    },
+    {
+      "word": "sounds",
+      "start": 72.96,
+      "end": 73.46
+    },
+    {
+      "word": "looks",
+      "start": 74.06,
+      "end": 74.36
+    },
+    {
+      "word": "and",
+      "start": 75.04,
+      "end": 75.26
+    },
+    {
+      "word": "feels",
+      "start": 75.26,
+      "end": 75.68
+    },
+    {
+      "word": "to",
+      "start": 75.68,
+      "end": 76.24
+    },
+    {
+      "word": "a",
+      "start": 76.24,
+      "end": 76.4
+    },
+    {
+      "word": "partner",
+      "start": 76.4,
+      "end": 76.72
+    }
+  ]
+}

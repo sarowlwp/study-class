@@ -1,0 +1,54 @@
+{
+  "id": "level-a/i-see-my-colors",
+  "title": "I See My Colors",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A 1 See Colors Written Maribeth Boelts Illustrated by Shirley Ng-Benitez www.readinga-z.com My by"
+    },
+    {
+      "page": 2,
+      "text": "I See Colors 6 C Written by Maribeth Boelts Illustrated by Shirley Ng-Benitez wwwreadinga-z.com My"
+    },
+    {
+      "page": 3,
+      "text": "I see blue: See My Colors Level A 3"
+    },
+    {
+      "page": 4,
+      "text": "Y I see green: 4"
+    },
+    {
+      "page": 5,
+      "text": "I see purple: See My Colors Level A 5 Wnt"
+    },
+    {
+      "page": 6,
+      "text": "I see brown."
+    },
+    {
+      "page": 7,
+      "text": "9 I see 9r See My Colors Level A U ) pink."
+    },
+    {
+      "page": 8,
+      "text": "I see red: 8"
+    },
+    {
+      "page": 9,
+      "text": "6 I see orange: See My Colors Level A"
+    },
+    {
+      "page": 10,
+      "text": "F I see 10 gold"
+    },
+    {
+      "page": 11,
+      "text": "I See My Colors Level A Leveled Book 0 Learning A-Z Correlation Written by Maribeth Boelts LEVEL A Illustrated by Shirley Ng-Benitez Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-zcom"
+    }
+  ]
+}

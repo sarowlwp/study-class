@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/on",
+  "title": "On",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , aa On 9 I )) Written by Cheryl Ryan Illustrated by Nora Voutas wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "On Written by Cheryl Illustrated Nora Voutas WWWreadinga-z.com Ryan by"
+    },
+    {
+      "page": 3,
+      "text": "On the house. On Level aa 3"
+    },
+    {
+      "page": 4,
+      "text": "On the bike. 2"
+    },
+    {
+      "page": 5,
+      "text": "S On the On Level aa 5 swing"
+    },
+    {
+      "page": 6,
+      "text": "0 0 On the bed. 4"
+    },
+    {
+      "page": 7,
+      "text": "(( ( On the airplane. On Level aa"
+    },
+    {
+      "page": 8,
+      "text": "O ( ( ^ On the fence. 8"
+    },
+    {
+      "page": 9,
+      "text": "On the table. On Level aa 9"
+    },
+    {
+      "page": 10,
+      "text": "'G On the skates. 10"
+    },
+    {
+      "page": 11,
+      "text": "On Level aa Leveled Book Learning A-Z Correlation Written by Cheryl Ryan LEVEL aa Illustrated by Nora Voutas Fountas & Pinnell A All rights reserved. Reading_Recovery DRA A-I WWw readinga-z.com"
+    }
+  ]
+}

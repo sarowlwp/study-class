@@ -1,0 +1,58 @@
+{
+  "id": "level-a/christmas-cookies",
+  "title": "Christmas Cookies",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Christmas Cookies 6 Written by Harriet Rosenbloom wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Christmas Cookies Written by Harriet Rosenbloom wwWreadinga-z.com Focus Question How are the cookies in this book the same? How are different? they"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know bell Santa candle snowflake cookies snowman flower tree make Photo Credits: Front cover: 0 iStock/Sarsmis; back cover: emirkoo/123RF; title page: Blend Images/Alamy Stock Photo; page 3 (top): @ iStock/matyunag; pages 3 (bottom), 6 (bottom): @ Maksim Shebeko/i23RF; page 4 (top): Zoonar GmbH/Alamy Stock Photo; page 4 (bottom): @ tobi/i23RF; page 5 (top): @ Antonia Johnson/123RF; pages 5 (bottom); 7 (top): @ iStock/bauhausiOOO; page 6 (top): @ iStock/ RADZONIMO; page 7 (bottom): Viktorfischer/Dreamstime.com; page 8 (top): iStock/KarpenkovDenis; page 8 (bottom): @ iStock/joeygil; page 9 (top): iStock/st-design; page 9 (bottom): Peter Vrabel/Alamy Stock Photo: page 10 (top): @ iStock/YinYang; page 10 (bottom): @ Tom Cockrem/Exactostock-1491/ Superstock Christmas Cookies Level A Leveled Book Correlation Learning A-Z LEVEL A Written by Harriet Rosenbloom Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "Make star cookies. Christmas Cookies Level A 3"
+    },
+    {
+      "page": 5,
+      "text": "Make bell cookies."
+    },
+    {
+      "page": 6,
+      "text": "Make snowflake cookies. Christmas Cookies Level A 5"
+    },
+    {
+      "page": 7,
+      "text": "Make tree cookies. 6"
+    },
+    {
+      "page": 8,
+      "text": "Make flower cookies. Christmas Cookies Level A"
+    },
+    {
+      "page": 9,
+      "text": ".K Make snowman cookies: 8"
+    },
+    {
+      "page": 10,
+      "text": "2 Make candle cookies. Christmas Cookies Level A"
+    },
+    {
+      "page": 11,
+      "text": "Make Santa cookiesl 10"
+    },
+    {
+      "page": 12,
+      "text": "Christmas Cookies A Reading A-Z Level A Leveled Book Word Count: 24 Connections Writing and Art What is your favorite holiday? Write about a cookie you would make for that holiday: Draw a picture of it and write this sentence: I make cookies; Math How many cookies are in the book? Draw pictures to help you count all the cookies in the book Reading A-z Visit www.readinga-z.com for thousands of books and materials."
+    }
+  ]
+}

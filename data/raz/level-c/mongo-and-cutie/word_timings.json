@@ -1,0 +1,36 @@
+{
+  "version": "1.0",
+  "total_words": 6,
+  "timings": [
+    {
+      "word": "did",
+      "start": 0.0,
+      "end": 0.2
+    },
+    {
+      "word": "you",
+      "start": 0.2,
+      "end": 0.48
+    },
+    {
+      "word": "look",
+      "start": 0.48,
+      "end": 0.78
+    },
+    {
+      "word": "in",
+      "start": 0.78,
+      "end": 1.02
+    },
+    {
+      "word": "your",
+      "start": 1.02,
+      "end": 1.26
+    },
+    {
+      "word": "closet",
+      "start": 1.26,
+      "end": 1.68
+    }
+  ]
+}

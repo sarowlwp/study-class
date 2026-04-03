@@ -1,0 +1,416 @@
+{
+  "version": "1.0",
+  "total_words": 82,
+  "timings": [
+    {
+      "word": "how",
+      "start": 0.0,
+      "end": 0.36
+    },
+    {
+      "word": "many",
+      "start": 0.36,
+      "end": 1.0
+    },
+    {
+      "word": "written",
+      "start": 1.52,
+      "end": 2.06
+    },
+    {
+      "word": "by",
+      "start": 2.06,
+      "end": 2.46
+    },
+    {
+      "word": "katie",
+      "start": 2.46,
+      "end": 2.78
+    },
+    {
+      "word": "knight",
+      "start": 2.78,
+      "end": 3.46
+    },
+    {
+      "word": "illustrated",
+      "start": 4.2,
+      "end": 4.58
+    },
+    {
+      "word": "by",
+      "start": 4.58,
+      "end": 4.94
+    },
+    {
+      "word": "sydney",
+      "start": 4.94,
+      "end": 5.42
+    },
+    {
+      "word": "norton",
+      "start": 5.42,
+      "end": 6.1
+    },
+    {
+      "word": "how",
+      "start": 6.8,
+      "end": 6.92
+    },
+    {
+      "word": "many",
+      "start": 6.92,
+      "end": 7.2
+    },
+    {
+      "word": "eyes",
+      "start": 7.2,
+      "end": 7.9
+    },
+    {
+      "word": "do",
+      "start": 7.9,
+      "end": 8.26
+    },
+    {
+      "word": "you",
+      "start": 8.26,
+      "end": 8.54
+    },
+    {
+      "word": "see",
+      "start": 8.54,
+      "end": 9.02
+    },
+    {
+      "word": "i",
+      "start": 10.0,
+      "end": 10.32
+    },
+    {
+      "word": "see",
+      "start": 10.32,
+      "end": 10.64
+    },
+    {
+      "word": "too",
+      "start": 10.64,
+      "end": 11.74
+    },
+    {
+      "word": "how",
+      "start": 12.12,
+      "end": 12.36
+    },
+    {
+      "word": "many",
+      "start": 12.36,
+      "end": 12.7
+    },
+    {
+      "word": "wheels",
+      "start": 12.7,
+      "end": 13.16
+    },
+    {
+      "word": "do",
+      "start": 13.16,
+      "end": 13.62
+    },
+    {
+      "word": "you",
+      "start": 13.62,
+      "end": 13.88
+    },
+    {
+      "word": "see",
+      "start": 13.88,
+      "end": 14.54
+    },
+    {
+      "word": "i",
+      "start": 15.72,
+      "end": 16.02
+    },
+    {
+      "word": "see",
+      "start": 16.02,
+      "end": 16.32
+    },
+    {
+      "word": "three",
+      "start": 16.32,
+      "end": 17.08
+    },
+    {
+      "word": "how",
+      "start": 17.84,
+      "end": 18.06
+    },
+    {
+      "word": "many",
+      "start": 18.06,
+      "end": 18.52
+    },
+    {
+      "word": "wings",
+      "start": 18.52,
+      "end": 18.98
+    },
+    {
+      "word": "do",
+      "start": 18.98,
+      "end": 19.46
+    },
+    {
+      "word": "you",
+      "start": 19.46,
+      "end": 19.7
+    },
+    {
+      "word": "see",
+      "start": 19.7,
+      "end": 20.24
+    },
+    {
+      "word": "i",
+      "start": 21.7,
+      "end": 22.58
+    },
+    {
+      "word": "see",
+      "start": 22.58,
+      "end": 22.86
+    },
+    {
+      "word": "four",
+      "start": 22.86,
+      "end": 23.86
+    },
+    {
+      "word": "how",
+      "start": 24.54,
+      "end": 24.54
+    },
+    {
+      "word": "many",
+      "start": 24.54,
+      "end": 24.88
+    },
+    {
+      "word": "candles",
+      "start": 24.88,
+      "end": 25.58
+    },
+    {
+      "word": "do",
+      "start": 25.58,
+      "end": 26.28
+    },
+    {
+      "word": "you",
+      "start": 26.28,
+      "end": 26.56
+    },
+    {
+      "word": "see",
+      "start": 26.56,
+      "end": 27.18
+    },
+    {
+      "word": "i",
+      "start": 28.86,
+      "end": 29.06
+    },
+    {
+      "word": "see",
+      "start": 29.06,
+      "end": 29.38
+    },
+    {
+      "word": "five",
+      "start": 29.38,
+      "end": 30.5
+    },
+    {
+      "word": "how",
+      "start": 30.82,
+      "end": 31.06
+    },
+    {
+      "word": "many",
+      "start": 31.06,
+      "end": 31.44
+    },
+    {
+      "word": "kites",
+      "start": 31.44,
+      "end": 31.88
+    },
+    {
+      "word": "do",
+      "start": 31.88,
+      "end": 32.32
+    },
+    {
+      "word": "you",
+      "start": 32.32,
+      "end": 32.4
+    },
+    {
+      "word": "see",
+      "start": 32.4,
+      "end": 33.06
+    },
+    {
+      "word": "i",
+      "start": 34.84,
+      "end": 35.06
+    },
+    {
+      "word": "see",
+      "start": 35.06,
+      "end": 35.38
+    },
+    {
+      "word": "six",
+      "start": 35.38,
+      "end": 36.3
+    },
+    {
+      "word": "how",
+      "start": 37.32,
+      "end": 37.5
+    },
+    {
+      "word": "many",
+      "start": 37.5,
+      "end": 37.94
+    },
+    {
+      "word": "windows",
+      "start": 37.94,
+      "end": 38.5
+    },
+    {
+      "word": "do",
+      "start": 38.5,
+      "end": 39.16
+    },
+    {
+      "word": "you",
+      "start": 39.16,
+      "end": 39.62
+    },
+    {
+      "word": "see",
+      "start": 39.62,
+      "end": 40.32
+    },
+    {
+      "word": "i",
+      "start": 42.86,
+      "end": 43.18
+    },
+    {
+      "word": "see",
+      "start": 43.18,
+      "end": 43.48
+    },
+    {
+      "word": "seven",
+      "start": 43.48,
+      "end": 44.2
+    },
+    {
+      "word": "how",
+      "start": 44.92,
+      "end": 45.04
+    },
+    {
+      "word": "many",
+      "start": 45.04,
+      "end": 45.44
+    },
+    {
+      "word": "arms",
+      "start": 45.44,
+      "end": 45.84
+    },
+    {
+      "word": "do",
+      "start": 45.84,
+      "end": 46.36
+    },
+    {
+      "word": "you",
+      "start": 46.36,
+      "end": 46.62
+    },
+    {
+      "word": "see",
+      "start": 46.62,
+      "end": 47.06
+    },
+    {
+      "word": "i",
+      "start": 49.08,
+      "end": 49.96
+    },
+    {
+      "word": "see",
+      "start": 49.96,
+      "end": 50.2
+    },
+    {
+      "word": "eight",
+      "start": 50.2,
+      "end": 50.96
+    },
+    {
+      "word": "how",
+      "start": 51.7,
+      "end": 51.92
+    },
+    {
+      "word": "many",
+      "start": 51.92,
+      "end": 52.22
+    },
+    {
+      "word": "smiles",
+      "start": 52.22,
+      "end": 52.98
+    },
+    {
+      "word": "do",
+      "start": 52.98,
+      "end": 53.42
+    },
+    {
+      "word": "you",
+      "start": 53.42,
+      "end": 53.68
+    },
+    {
+      "word": "see",
+      "start": 53.68,
+      "end": 54.58
+    },
+    {
+      "word": "i",
+      "start": 56.76,
+      "end": 57.08
+    },
+    {
+      "word": "see",
+      "start": 57.08,
+      "end": 57.52
+    },
+    {
+      "word": "nine",
+      "start": 57.52,
+      "end": 58.04
+    }
+  ]
+}

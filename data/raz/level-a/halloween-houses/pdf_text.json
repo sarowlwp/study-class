@@ -1,0 +1,58 @@
+{
+  "id": "level-a/halloween-houses",
+  "title": "Halloween Houses",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Halloween Houses Written by Sarah Ghusson Illustrated by Teresa Martinez wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Halloween Houses Written by Sarah Ghusson Illustrated by Teresa Martinez www.readinga-z.com Focus Question What can you see on Halloween?"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know candles monsters pumpkins ghosts webs Halloween Houses Level A Leveled Book 0 Learning A-Z Correlation Written by Sarah Ghusson LEVEL A Illustrated by Teresa Martinez Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com fog"
+    },
+    {
+      "page": 4,
+      "text": "75 This house has pumpkins Halloween Houses Level A 3"
+    },
+    {
+      "page": 5,
+      "text": "This house has bats."
+    },
+    {
+      "page": 6,
+      "text": "LGd This house has candles. Halloween Houses Level A 5 t(l"
+    },
+    {
+      "page": 7,
+      "text": "This house has webs."
+    },
+    {
+      "page": 8,
+      "text": "This house has   ghosts. Halloween Houses Level A"
+    },
+    {
+      "page": 9,
+      "text": "This house has 8 fog;"
+    },
+    {
+      "page": 10,
+      "text": "This house has monsters. Halloween Houses Level A"
+    },
+    {
+      "page": 11,
+      "text": "2 This house has Moml 10"
+    },
+    {
+      "page": 12,
+      "text": "Halloween Houses A ReadingA-ZLevel A Leveled Book WordCount: 32 Connections Writing and Art How would you decorate a house for Halloween? Draw a picture and write about it. Social Studies When is Halloween? Find the date on a calendar: Reading A-z Visit www.readinga-z.com for thousands of books and materials:"
+    }
+  ]
+}

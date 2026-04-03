@@ -1,0 +1,371 @@
+{
+  "version": "1.0",
+  "total_words": 73,
+  "timings": [
+    {
+      "word": "all",
+      "start": 0.0,
+      "end": 0.48
+    },
+    {
+      "word": "about",
+      "start": 0.48,
+      "end": 1.28
+    },
+    {
+      "word": "penguins",
+      "start": 1.28,
+      "end": 2.38
+    },
+    {
+      "word": "written",
+      "start": 2.54,
+      "end": 3.44
+    },
+    {
+      "word": "by",
+      "start": 3.44,
+      "end": 3.94
+    },
+    {
+      "word": "keith",
+      "start": 3.94,
+      "end": 4.4
+    },
+    {
+      "word": "and",
+      "start": 4.4,
+      "end": 4.96
+    },
+    {
+      "word": "sarah",
+      "start": 4.96,
+      "end": 5.32
+    },
+    {
+      "word": "cortamartin",
+      "start": 5.32,
+      "end": 6.58
+    },
+    {
+      "word": "all",
+      "start": 6.86,
+      "end": 7.32
+    },
+    {
+      "word": "penguins",
+      "start": 7.32,
+      "end": 7.98
+    },
+    {
+      "word": "are",
+      "start": 7.98,
+      "end": 8.66
+    },
+    {
+      "word": "birds",
+      "start": 8.66,
+      "end": 9.34
+    },
+    {
+      "word": "some",
+      "start": 9.88,
+      "end": 10.16
+    },
+    {
+      "word": "penguins",
+      "start": 10.16,
+      "end": 11.18
+    },
+    {
+      "word": "are",
+      "start": 11.18,
+      "end": 12.06
+    },
+    {
+      "word": "in",
+      "start": 12.06,
+      "end": 12.48
+    },
+    {
+      "word": "cold",
+      "start": 12.48,
+      "end": 12.86
+    },
+    {
+      "word": "places",
+      "start": 12.86,
+      "end": 13.78
+    },
+    {
+      "word": "all",
+      "start": 14.4,
+      "end": 14.66
+    },
+    {
+      "word": "penguins",
+      "start": 14.66,
+      "end": 15.48
+    },
+    {
+      "word": "are",
+      "start": 15.48,
+      "end": 16.14
+    },
+    {
+      "word": "birds",
+      "start": 16.14,
+      "end": 16.96
+    },
+    {
+      "word": "some",
+      "start": 18.04,
+      "end": 18.32
+    },
+    {
+      "word": "penguins",
+      "start": 18.32,
+      "end": 19.3
+    },
+    {
+      "word": "are",
+      "start": 19.3,
+      "end": 20.2
+    },
+    {
+      "word": "in",
+      "start": 20.2,
+      "end": 20.4
+    },
+    {
+      "word": "warm",
+      "start": 20.4,
+      "end": 21.02
+    },
+    {
+      "word": "places",
+      "start": 21.02,
+      "end": 22.18
+    },
+    {
+      "word": "all",
+      "start": 22.18,
+      "end": 22.98
+    },
+    {
+      "word": "penguins",
+      "start": 22.98,
+      "end": 23.8
+    },
+    {
+      "word": "are",
+      "start": 23.8,
+      "end": 24.66
+    },
+    {
+      "word": "birds",
+      "start": 24.66,
+      "end": 25.46
+    },
+    {
+      "word": "some",
+      "start": 26.48,
+      "end": 26.76
+    },
+    {
+      "word": "penguins",
+      "start": 26.76,
+      "end": 27.86
+    },
+    {
+      "word": "are",
+      "start": 27.86,
+      "end": 28.44
+    },
+    {
+      "word": "black",
+      "start": 28.44,
+      "end": 29.14
+    },
+    {
+      "word": "and",
+      "start": 29.14,
+      "end": 29.96
+    },
+    {
+      "word": "white",
+      "start": 29.96,
+      "end": 30.54
+    },
+    {
+      "word": "all",
+      "start": 31.36,
+      "end": 31.38
+    },
+    {
+      "word": "penguins",
+      "start": 31.38,
+      "end": 32.3
+    },
+    {
+      "word": "are",
+      "start": 32.3,
+      "end": 32.84
+    },
+    {
+      "word": "birds",
+      "start": 32.84,
+      "end": 33.72
+    },
+    {
+      "word": "some",
+      "start": 34.96,
+      "end": 35.24
+    },
+    {
+      "word": "penguins",
+      "start": 35.24,
+      "end": 36.28
+    },
+    {
+      "word": "are",
+      "start": 36.28,
+      "end": 37.06
+    },
+    {
+      "word": "blue",
+      "start": 37.06,
+      "end": 37.7
+    },
+    {
+      "word": "and",
+      "start": 37.7,
+      "end": 38.6
+    },
+    {
+      "word": "white",
+      "start": 38.6,
+      "end": 39.48
+    },
+    {
+      "word": "all",
+      "start": 39.96,
+      "end": 40.14
+    },
+    {
+      "word": "penguins",
+      "start": 40.14,
+      "end": 41.08
+    },
+    {
+      "word": "are",
+      "start": 41.08,
+      "end": 41.68
+    },
+    {
+      "word": "birds",
+      "start": 41.68,
+      "end": 42.54
+    },
+    {
+      "word": "some",
+      "start": 42.54,
+      "end": 44.12
+    },
+    {
+      "word": "penguins",
+      "start": 44.12,
+      "end": 45.16
+    },
+    {
+      "word": "are",
+      "start": 45.16,
+      "end": 45.98
+    },
+    {
+      "word": "little",
+      "start": 45.98,
+      "end": 46.56
+    },
+    {
+      "word": "all",
+      "start": 46.94,
+      "end": 47.44
+    },
+    {
+      "word": "penguins",
+      "start": 47.44,
+      "end": 48.22
+    },
+    {
+      "word": "are",
+      "start": 48.22,
+      "end": 48.9
+    },
+    {
+      "word": "birds",
+      "start": 48.9,
+      "end": 49.8
+    },
+    {
+      "word": "some",
+      "start": 51.14,
+      "end": 51.44
+    },
+    {
+      "word": "penguins",
+      "start": 51.44,
+      "end": 52.32
+    },
+    {
+      "word": "are",
+      "start": 52.32,
+      "end": 53.04
+    },
+    {
+      "word": "big",
+      "start": 53.04,
+      "end": 54.04
+    },
+    {
+      "word": "all",
+      "start": 54.52,
+      "end": 54.88
+    },
+    {
+      "word": "penguins",
+      "start": 54.88,
+      "end": 55.84
+    },
+    {
+      "word": "cannot",
+      "start": 55.84,
+      "end": 56.62
+    },
+    {
+      "word": "fly",
+      "start": 56.62,
+      "end": 57.68
+    },
+    {
+      "word": "all",
+      "start": 58.62,
+      "end": 59.06
+    },
+    {
+      "word": "penguins",
+      "start": 59.06,
+      "end": 59.84
+    },
+    {
+      "word": "swim",
+      "start": 59.84,
+      "end": 60.72
+    },
+    {
+      "word": "well",
+      "start": 60.72,
+      "end": 61.5
+    }
+  ]
+}

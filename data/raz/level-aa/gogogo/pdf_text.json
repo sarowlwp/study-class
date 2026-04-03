@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/gogogo",
+  "title": "Gogogo",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , aa Go, Go, Go Written Brian Roberts Illustrated by Nora Voutas wwwreadinga-z.com by"
+    },
+    {
+      "page": 2,
+      "text": "Go, Go } Written by Brian Roberts Illustrated by Nora Voutas wwwreadinga-z.com Go;"
+    },
+    {
+      "page": 3,
+      "text": "& 8 The dogs gO. Go, Go Level aa 3 G0,"
+    },
+    {
+      "page": 4,
+      "text": "8 8 83 The pigs go_"
+    },
+    {
+      "page": 5,
+      "text": "8- 82 8 The birds go_ Go, Go Level aa 5 G0,"
+    },
+    {
+      "page": 6,
+      "text": "0 8 83 The cats go_"
+    },
+    {
+      "page": 7,
+      "text": "8 83 The goats go_ Go, Go Level aa G0,"
+    },
+    {
+      "page": 8,
+      "text": "8 83 The CowS go. 8"
+    },
+    {
+      "page": 9,
+      "text": "&- 8 The ducks go_ Go, Go Level aa 9 G0,"
+    },
+    {
+      "page": 10,
+      "text": "The animals gO. 10"
+    },
+    {
+      "page": 11,
+      "text": "Go, Go, Go Level aa Leveled Book @ Learning A-Z Correlation Written by Brian Roberts LEVEL aa Illustrated by Nora Voutas Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-zcom"
+    }
+  ]
+}

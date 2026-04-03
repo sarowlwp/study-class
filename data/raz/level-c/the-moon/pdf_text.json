@@ -1,0 +1,58 @@
+{
+  "id": "level-c/the-moon",
+  "title": "The Moon",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C The Moon Written by D.G= Chelsea www.readinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "The Moon Written by DG. Chelsea www.readinga-z.com Focus Question How does the Moon look different over time?"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know changes different cycle full dark thin Photo Credits: Front cover: Pratik Panda/Dreamstime.com; title page: Jean Paul Ferrerolardea.com; page 3: @ Eckhard Slawik /Science Source; page 4: @ Scott Stulberg/Corbis; page 5: @ mauritius images GmbHJAlamy Stock Photo; page b: @ Jurgen Freund/NPL/Minden Pictures; page 7: @ Topic Photo Agency/Corbis; page 8: Prisma Bildagentur AGIAlamy Stock Photo; page 9: @ LOOK Die Bildagentur der Fotografen GmbH/Alamy Stock Photo; page 10: Denis Belitskiy/Dreamstime.com The Moon Level C Leveled Book Correlation Learning A-Z LEVEL C Written D.G. Chelsea Fountas & Pinnell C All rights reserved: Reading_Recovery 3-4 DRA 3-4 wwwreadinga-z.com by"
+    },
+    {
+      "page": 4,
+      "text": "The Moon looks different over time: The changes happen in a cycle: The Moon * Level € 3"
+    },
+    {
+      "page": 5,
+      "text": "The Moon is dark  tonight:"
+    },
+    {
+      "page": 6,
+      "text": "The Moon is thin tonight: The Moon * Level € 5"
+    },
+    {
+      "page": 7,
+      "text": "The Moon is half full  tonight:"
+    },
+    {
+      "page": 8,
+      "text": "The Moon is full tonight: The Moon * Level €"
+    },
+    {
+      "page": 9,
+      "text": "The Moon is half full  tonight: 8"
+    },
+    {
+      "page": 10,
+      "text": "The Moon is thin tonight: The Moon * Level €"
+    },
+    {
+      "page": 11,
+      "text": "The Moon is dark  tonight: The cycle starts over again: 10"
+    },
+    {
+      "page": 12,
+      "text": "The Moon A Reading A-Z Level C Leveled Book Word Count: 54 Connections Writing and Art Make a poster about the cycle of the Moon: Draw pictures on your poster and label them: Science and Art Draw a picture of the Moon tonight: Describe your picture to a partner: Reading A-Z Visit wwwreadinga-z.com for thousands of books and materials."
+    }
+  ]
+}

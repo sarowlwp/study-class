@@ -1,0 +1,54 @@
+{
+  "id": "level-a/my-house",
+  "title": "My House",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A House Written by Bev Osborn wwwreadinga-z.com My 09"
+    },
+    {
+      "page": 2,
+      "text": "House Written by Bev Osborn wwwreadinga-z.com My"
+    },
+    {
+      "page": 3,
+      "text": "This is my house: My House Level A 3"
+    },
+    {
+      "page": 4,
+      "text": "This is the door:"
+    },
+    {
+      "page": 5,
+      "text": "This is the room. My House Level A 5 living"
+    },
+    {
+      "page": 6,
+      "text": "This is the kitchen:"
+    },
+    {
+      "page": 7,
+      "text": "This is the room. My House Level A dining"
+    },
+    {
+      "page": 8,
+      "text": "This is the hall: 8"
+    },
+    {
+      "page": 9,
+      "text": "%>d% % t e\"t% 9 4 3#*\"+*\"40\"+e8t* 8 3 60 8 3 00 004 60 6t 4Y %y 4y# %\" 4m 60 8 0 60 7 x > 49 e # A R 80963963 7 63 Y ry$*>04\" * 4 0 62960 Ey 4 $ Y # 284672126 1 629$2 07 YYfr 470*\"+ % Y 47 4y 7 2 7 Y 7 4 76 4 This is the bathroom: My House Level A 8 6 h 40 62 2 4>"
+    },
+    {
+      "page": 10,
+      "text": "This is my bedrooml 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: All photos: Gawain Douglas/@ Learning A-Z My House Level A Leveled Book Correlation 0 Learning A-Z LEVEL A Written by Bev Osborn Fountas & Pinnell A AIl rights reserved: Reading Recovery_ DRA A-1 wwwreadinga-z.com"
+    }
+  ]
+}

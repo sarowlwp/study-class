@@ -1,0 +1,58 @@
+{
+  "id": "level-b/clean-is-not-for-me",
+  "title": "Clean Is Not For Me",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Clean Is Not for Mel Written by Anthony Curran Illustrated by Marcus Cutler www.readinga-Z.com ~"
+    },
+    {
+      "page": 2,
+      "text": "Clean Is Not for Mel Written by Anthony Curran Illustrated Marcus Cutler www.readinga-z.com Focus Question What are some ways to get messy? by"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know dirt ketchup grass oil Clean Is Not for Mel Level B Leveled Book Learning A-Z Correlation Written by Anthony Curran LEVEL B Illustrated by Marcus Cutler Fountas & Pinnell B All rights reserved. Reading Recovery 2 DRA 2 wwwreadinga-z.com hay paint"
+    },
+    {
+      "page": 4,
+      "text": "Mud is for my shoes. Clean Is Not for Mel Level B 3"
+    },
+    {
+      "page": 5,
+      "text": "Ketchup is for my shirt:"
+    },
+    {
+      "page": 6,
+      "text": "Oil is for my fingers: Clean Is Not for Mel Level B 5"
+    },
+    {
+      "page": 7,
+      "text": "FF Grass is for my pants."
+    },
+    {
+      "page": 8,
+      "text": "Paint is for my hat. Clean Is Not for Mel Level B"
+    },
+    {
+      "page": 9,
+      "text": "0 Dirt is for my socks. 8"
+    },
+    {
+      "page": 10,
+      "text": "is for my hair: Clean Is Not for Mel Level B Hay"
+    },
+    {
+      "page": 11,
+      "text": "Clean is not for mel 10"
+    },
+    {
+      "page": 12,
+      "text": "Clean Is Not for Mel A Reading A-Z Level B Leveled Book Word Count: 40 Connections Writing and Art Draw a picture and write a sentence about your favorite way to messy: Science Tell a partner which season this story likely takes place in and give examples from the book to support your answer: Reading A-Z Visit wwwreadinga-z.com for thousands of books and materials. get"
+    }
+  ]
+}

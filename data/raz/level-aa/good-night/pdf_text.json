@@ -1,0 +1,58 @@
+{
+  "id": "level-aa/good-night",
+  "title": "Good Night",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , aa Good Night Written Harriet Rosenbloom Illustrated by Kiersten Eagan wwwreadinga-z.com by"
+    },
+    {
+      "page": 2,
+      "text": "Good Night Written by Harriet Rosenbloom Illustrated by Kiersten Eagan wwwreadinga-z.com Focus Question How does the girl get ready to go to sleep?"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know blanket Moon dream pillow kiss Good Night Level aa Leveled Book 0 Learning A-Z Correlation Written by Harriet Rosenbloom LEVEL aa Illustrated by Kiersten Eagan Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com story"
+    },
+    {
+      "page": 4,
+      "text": "The Good Night Level aa 3 ~m story:"
+    },
+    {
+      "page": 5,
+      "text": "P6 The bed_"
+    },
+    {
+      "page": 6,
+      "text": "The pillow: Good Night Level aa 5"
+    },
+    {
+      "page": 7,
+      "text": "The bear: 6"
+    },
+    {
+      "page": 8,
+      "text": "The blanket: Good Night Level aa"
+    },
+    {
+      "page": 9,
+      "text": "The kiss. 8"
+    },
+    {
+      "page": 10,
+      "text": "The Moon. Good Night Level aa"
+    },
+    {
+      "page": 11,
+      "text": "Y 1 The dream. 10"
+    },
+    {
+      "page": 12,
+      "text": "Good Night A Reading A-Z Level aa Leveled Book Word Count: 16 Connections Writing and Art What is your favorite to do before you go to sleep? Draw & picture and label it. Health is it important to enough at night? Share your ideas with a partner: Reading A-z Visit www.readinga-z.com for thousands of books and materials. thing Why get sleep"
+    }
+  ]
+}

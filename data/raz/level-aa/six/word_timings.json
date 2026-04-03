@@ -1,0 +1,131 @@
+{
+  "version": "1.0",
+  "total_words": 25,
+  "timings": [
+    {
+      "word": "six",
+      "start": 0.0,
+      "end": 0.84
+    },
+    {
+      "word": "written",
+      "start": 1.74,
+      "end": 2.1
+    },
+    {
+      "word": "by",
+      "start": 2.1,
+      "end": 2.72
+    },
+    {
+      "word": "marianne",
+      "start": 2.72,
+      "end": 4.0
+    },
+    {
+      "word": "morazzi",
+      "start": 4.0,
+      "end": 4.66
+    },
+    {
+      "word": "illustrated",
+      "start": 5.54,
+      "end": 6.18
+    },
+    {
+      "word": "by",
+      "start": 6.18,
+      "end": 6.76
+    },
+    {
+      "word": "ivica",
+      "start": 6.76,
+      "end": 7.48
+    },
+    {
+      "word": "stavanovich",
+      "start": 7.48,
+      "end": 8.76
+    },
+    {
+      "word": "six",
+      "start": 9.48,
+      "end": 9.66
+    },
+    {
+      "word": "shirts",
+      "start": 9.66,
+      "end": 10.5
+    },
+    {
+      "word": "six",
+      "start": 11.14,
+      "end": 11.64
+    },
+    {
+      "word": "pants",
+      "start": 11.64,
+      "end": 12.54
+    },
+    {
+      "word": "six",
+      "start": 13.3,
+      "end": 13.68
+    },
+    {
+      "word": "dresses",
+      "start": 13.68,
+      "end": 14.62
+    },
+    {
+      "word": "six",
+      "start": 15.46,
+      "end": 15.88
+    },
+    {
+      "word": "shorts",
+      "start": 15.88,
+      "end": 16.76
+    },
+    {
+      "word": "six",
+      "start": 17.48,
+      "end": 18.0
+    },
+    {
+      "word": "socks",
+      "start": 18.0,
+      "end": 18.88
+    },
+    {
+      "word": "six",
+      "start": 19.5,
+      "end": 20.0
+    },
+    {
+      "word": "coats",
+      "start": 20.0,
+      "end": 20.84
+    },
+    {
+      "word": "six",
+      "start": 21.48,
+      "end": 21.98
+    },
+    {
+      "word": "gloves",
+      "start": 21.98,
+      "end": 22.88
+    },
+    {
+      "word": "six",
+      "start": 23.58,
+      "end": 24.06
+    },
+    {
+      "word": "hats",
+      "start": 24.06,
+      "end": 24.7
+    }
+  ]
+}

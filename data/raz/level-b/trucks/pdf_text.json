@@ -1,0 +1,58 @@
+{
+  "id": "level-b/trucks",
+  "title": "Trucks",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Trucks Written by Marvin D Bodner wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Trucks VEREEH Written by Marvin D. Bodner wwwreadinga-z.com Focus Question What do trucks carry?"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know carry logs cement mail garbage trucks Photo Credits: Front cover: @ Aaron Kohr/123RF; title page: Images-USA/Alamy; page 3: @ Mikezfocus/Dreamstime.com; page 4: @ Redzaal/iStock/ Thinkstock; page 5: @ JohnnyHs/iStock/Thinkstock; page 6: @ Darin Burt/iStock/Thinkstock; page 7: @ Anton Foltin/iStock/Thinkstock; page 8: Leonard Zhukovsky/123RF; page 9: @ Artzzz/Dreamstime.com; page 10: @ Colin UnderhillAlamy Trucks Level B Leveled Book Correlation Learning A-Z LEVEL B Written by Marvin D Bodner Fountas & Pinnell B AIl rights reserved. Reading Recovery 2 DRA 2 wwwreadinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "4305290 MUSTRCM 409 Some trucks carry mail: Trucks U Level B 3"
+    },
+    {
+      "page": 5,
+      "text": "Some trucks carry animals."
+    },
+    {
+      "page": 6,
+      "text": "Some trucks carry garbage: Trucks U Level B 5"
+    },
+    {
+      "page": 7,
+      "text": "Some trucks carry logs."
+    },
+    {
+      "page": 8,
+      "text": "Some trucks carry cement; Trucks U Level B"
+    },
+    {
+      "page": 9,
+      "text": "WMMEH  HYMGH SHAKES Some trucks carry ice cream_ 8"
+    },
+    {
+      "page": 10,
+      "text": "HYUnDA K829HE 164] Some trucks carry cars. Trucks U Level B"
+    },
+    {
+      "page": 11,
+      "text": "Some trucks carry trucks. 10"
+    },
+    {
+      "page": 12,
+      "text": "Trucks A Reading A-Z Level B Leveled Book Word Count: 33 Connections Writing and Art Which truck from the book is your favorite? Why? Draw a picture and write about it. Math Count the trucks in this book Then, sort the trucks into groups based on their size, what carry, and so on. Reading A-Z Visit wwwreadinga-z.com for thousands of books and materials: they"
+    }
+  ]
+}

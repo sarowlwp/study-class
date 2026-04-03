@@ -1,0 +1,54 @@
+{
+  "id": "level-b/we-pack-a-picnic",
+  "title": "We Pack A Picnic",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B We Pack a Picnic Written by Alyse Sweeney Illustrated by Angela Kamstra-Jacobson Www.readinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "We Pack a Picnic l/ i , illl 4l, Scod Written by Alyse Sweeney Illustrated by Angela Kamstra-Jacobson wwwreadinga-z.com 3i2"
+    },
+    {
+      "page": 3,
+      "text": "~' = We pack grapes. We Pack a Picnic Level B 3"
+    },
+    {
+      "page": 4,
+      "text": "We sandwiches. pack"
+    },
+    {
+      "page": 5,
+      "text": "@ 1 We drinks. We Pack a Picnic Level B 5 thie M pack"
+    },
+    {
+      "page": 6,
+      "text": "Dried Apple We apples. Slices pack"
+    },
+    {
+      "page": 7,
+      "text": "We cheese. We Pack a Picnic Level B pack"
+    },
+    {
+      "page": 8,
+      "text": "74 4 J_L We carrots_ 8 pack"
+    },
+    {
+      "page": 9,
+      "text": "We crackers. We Pack a Picnic Level B 9 0 pack"
+    },
+    {
+      "page": 10,
+      "text": "Alu Ilia Au, Ilu Al, Smod 8 @ We a picnicl 10 3utie pack"
+    },
+    {
+      "page": 11,
+      "text": "LOADING pnied ed We Pack a Picnic Level B Leveled Book Learning A-Z Correlation Written by Sweeney LEVEL B Illustrated by Angela Kamstra-Jacobson Fountas & Pinnell B All rights reserved. Reading Recovery 2 DRA 2 WWW.R readinga-z.com Alyse"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "level-a/nice-not-nice",
+  "title": "Nice Not Nice",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Nice, Not Nice Written by Edie Evans Illustrated by Neesha Hudson WWWreadinga-Z.com"
+    },
+    {
+      "page": 2,
+      "text": "Nice, Not Nice 0 Written by Edie Evans Illustrated Neesha Hudson wwwreadinga-z.com by"
+    },
+    {
+      "page": 3,
+      "text": "Al This is nice: Nice, Not Nice Level A 3 push"
+    },
+    {
+      "page": 4,
+      "text": "0 This is not nice: push"
+    },
+    {
+      "page": 5,
+      "text": "JuL This kick is nice: Nice, Not Nice Level A 5"
+    },
+    {
+      "page": 6,
+      "text": "This kick is not nice:"
+    },
+    {
+      "page": 7,
+      "text": "J This hit is nice: Nice, Not Nice Level A )"
+    },
+    {
+      "page": 8,
+      "text": "This hit is not nice. 8"
+    },
+    {
+      "page": 9,
+      "text": "If 4 This is nice: Nice, Not Nice Level A ull Oen Wlikyn pull"
+    },
+    {
+      "page": 10,
+      "text": "This is not nice: 10 pull"
+    },
+    {
+      "page": 11,
+      "text": "Nice; Not Nice Level A Leveled Book 0 Learning A-Z Correlation Written by Edie Evans LEVEL A Illustrated by Neesha Hudson Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com"
+    }
+  ]
+}

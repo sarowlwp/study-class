@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/the-backyard",
+  "title": "The Backyard",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , aa The 8 8 4 D 3 Wrillen @nd Illushaled by Nora Voutas 4 wwwreadinga-z.com Backyard} 8"
+    },
+    {
+      "page": 2,
+      "text": "The Backyard Written and Illustrated by Nora Voutas wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "1 22z 222 The fence. up The Backyard Level aa 3"
+    },
+    {
+      "page": 4,
+      "text": "9_ M The dog-"
+    },
+    {
+      "page": 5,
+      "text": "5& ? 8 3 8 2 8 8 The The Backyard Level aa 5 8 & 8& 8 88  swing"
+    },
+    {
+      "page": 6,
+      "text": "O2C 12 V Z 4Z7 The ball. 6 Yz"
+    },
+    {
+      "page": 7,
+      "text": "133 SE The flowers. The Backyard Level aa 853"
+    },
+    {
+      "page": 8,
+      "text": "The tree. 8 3u84"
+    },
+    {
+      "page": 9,
+      "text": "() W The hose_ The Backyard Level aa 9 (ym"
+    },
+    {
+      "page": 10,
+      "text": "83 8 4 8 8 M R CO % The backyard_ l) 10 _ 8"
+    },
+    {
+      "page": 11,
+      "text": "The Backyard Level aa Leveled Book Learning A-Z Correlation Wrilten by Nora Voutas LEVEL aa Illustrated by Nora Voutas Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 WWW . readinga-z.C com"
+    }
+  ]
+}

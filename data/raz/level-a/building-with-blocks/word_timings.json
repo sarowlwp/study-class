@@ -1,0 +1,451 @@
+{
+  "version": "1.0",
+  "total_words": 89,
+  "timings": [
+    {
+      "word": "building",
+      "start": 0.0,
+      "end": 0.62
+    },
+    {
+      "word": "with",
+      "start": 0.62,
+      "end": 1.76
+    },
+    {
+      "word": "blocks",
+      "start": 1.76,
+      "end": 2.86
+    },
+    {
+      "word": "written",
+      "start": 4.26,
+      "end": 4.48
+    },
+    {
+      "word": "by",
+      "start": 4.48,
+      "end": 5.34
+    },
+    {
+      "word": "anthony",
+      "start": 5.34,
+      "end": 6.58
+    },
+    {
+      "word": "kern",
+      "start": 6.58,
+      "end": 7.8
+    },
+    {
+      "word": "illustrated",
+      "start": 9.06,
+      "end": 9.86
+    },
+    {
+      "word": "by",
+      "start": 9.86,
+      "end": 11.04
+    },
+    {
+      "word": "laura",
+      "start": 11.04,
+      "end": 11.96
+    },
+    {
+      "word": "logan",
+      "start": 11.96,
+      "end": 13.14
+    },
+    {
+      "word": "focus",
+      "start": 14.84,
+      "end": 15.1
+    },
+    {
+      "word": "question",
+      "start": 15.1,
+      "end": 16.36
+    },
+    {
+      "word": "what",
+      "start": 17.78,
+      "end": 18.1
+    },
+    {
+      "word": "can",
+      "start": 18.1,
+      "end": 19.22
+    },
+    {
+      "word": "you",
+      "start": 19.22,
+      "end": 20.18
+    },
+    {
+      "word": "build",
+      "start": 20.18,
+      "end": 21.24
+    },
+    {
+      "word": "with",
+      "start": 21.24,
+      "end": 22.36
+    },
+    {
+      "word": "blocks",
+      "start": 22.36,
+      "end": 23.38
+    },
+    {
+      "word": "i",
+      "start": 24.3,
+      "end": 24.3
+    },
+    {
+      "word": "build",
+      "start": 24.3,
+      "end": 25.2
+    },
+    {
+      "word": "a",
+      "start": 25.2,
+      "end": 26.06
+    },
+    {
+      "word": "house",
+      "start": 26.06,
+      "end": 27.14
+    },
+    {
+      "word": "i",
+      "start": 27.52,
+      "end": 27.82
+    },
+    {
+      "word": "build",
+      "start": 27.82,
+      "end": 28.8
+    },
+    {
+      "word": "a",
+      "start": 28.8,
+      "end": 29.82
+    },
+    {
+      "word": "horse",
+      "start": 30.0,
+      "end": 30.92
+    },
+    {
+      "word": "i",
+      "start": 31.48,
+      "end": 31.84
+    },
+    {
+      "word": "build",
+      "start": 31.84,
+      "end": 32.8
+    },
+    {
+      "word": "a",
+      "start": 32.8,
+      "end": 33.78
+    },
+    {
+      "word": "plane",
+      "start": 33.78,
+      "end": 34.94
+    },
+    {
+      "word": "i",
+      "start": 35.54,
+      "end": 35.78
+    },
+    {
+      "word": "build",
+      "start": 35.78,
+      "end": 36.82
+    },
+    {
+      "word": "a",
+      "start": 36.82,
+      "end": 37.52
+    },
+    {
+      "word": "duck",
+      "start": 37.52,
+      "end": 38.48
+    },
+    {
+      "word": "i",
+      "start": 39.02,
+      "end": 39.26
+    },
+    {
+      "word": "build",
+      "start": 39.26,
+      "end": 40.28
+    },
+    {
+      "word": "a",
+      "start": 40.28,
+      "end": 41.06
+    },
+    {
+      "word": "tree",
+      "start": 41.06,
+      "end": 41.98
+    },
+    {
+      "word": "i",
+      "start": 42.64,
+      "end": 42.78
+    },
+    {
+      "word": "build",
+      "start": 42.78,
+      "end": 44.1
+    },
+    {
+      "word": "a",
+      "start": 44.1,
+      "end": 44.7
+    },
+    {
+      "word": "maze",
+      "start": 44.7,
+      "end": 45.94
+    },
+    {
+      "word": "i",
+      "start": 46.44,
+      "end": 46.6
+    },
+    {
+      "word": "build",
+      "start": 46.6,
+      "end": 47.7
+    },
+    {
+      "word": "a",
+      "start": 47.7,
+      "end": 48.42
+    },
+    {
+      "word": "boat",
+      "start": 48.42,
+      "end": 49.32
+    },
+    {
+      "word": "i",
+      "start": 49.36,
+      "end": 50.04
+    },
+    {
+      "word": "build",
+      "start": 50.04,
+      "end": 51.16
+    },
+    {
+      "word": "a",
+      "start": 51.16,
+      "end": 51.88
+    },
+    {
+      "word": "castle",
+      "start": 51.88,
+      "end": 53.06
+    },
+    {
+      "word": "connections",
+      "start": 54.28,
+      "end": 54.28
+    },
+    {
+      "word": "writing",
+      "start": 55.72,
+      "end": 56.0
+    },
+    {
+      "word": "and",
+      "start": 56.0,
+      "end": 56.86
+    },
+    {
+      "word": "art",
+      "start": 56.86,
+      "end": 57.92
+    },
+    {
+      "word": "what",
+      "start": 57.92,
+      "end": 59.48
+    },
+    {
+      "word": "is",
+      "start": 59.48,
+      "end": 60.52
+    },
+    {
+      "word": "your",
+      "start": 60.52,
+      "end": 61.36
+    },
+    {
+      "word": "favorite",
+      "start": 61.36,
+      "end": 62.44
+    },
+    {
+      "word": "thing",
+      "start": 62.44,
+      "end": 63.6
+    },
+    {
+      "word": "to",
+      "start": 63.6,
+      "end": 64.58
+    },
+    {
+      "word": "build",
+      "start": 64.58,
+      "end": 65.48
+    },
+    {
+      "word": "with",
+      "start": 65.48,
+      "end": 66.48
+    },
+    {
+      "word": "blocks",
+      "start": 66.48,
+      "end": 67.44
+    },
+    {
+      "word": "draw",
+      "start": 68.74,
+      "end": 68.98
+    },
+    {
+      "word": "a",
+      "start": 68.98,
+      "end": 69.74
+    },
+    {
+      "word": "picture",
+      "start": 69.74,
+      "end": 70.62
+    },
+    {
+      "word": "and",
+      "start": 70.62,
+      "end": 71.86
+    },
+    {
+      "word": "label",
+      "start": 71.86,
+      "end": 72.94
+    },
+    {
+      "word": "it",
+      "start": 72.94,
+      "end": 73.76
+    },
+    {
+      "word": "social",
+      "start": 73.76,
+      "end": 75.56
+    },
+    {
+      "word": "studies",
+      "start": 75.56,
+      "end": 76.82
+    },
+    {
+      "word": "should",
+      "start": 76.82,
+      "end": 78.54
+    },
+    {
+      "word": "you",
+      "start": 78.54,
+      "end": 79.54
+    },
+    {
+      "word": "knock",
+      "start": 79.54,
+      "end": 80.44
+    },
+    {
+      "word": "over",
+      "start": 80.44,
+      "end": 81.5
+    },
+    {
+      "word": "another",
+      "start": 81.5,
+      "end": 82.88
+    },
+    {
+      "word": "student's",
+      "start": 82.88,
+      "end": 84.42
+    },
+    {
+      "word": "locks",
+      "start": 84.42,
+      "end": 85.04
+    },
+    {
+      "word": "why",
+      "start": 85.76,
+      "end": 86.14
+    },
+    {
+      "word": "or",
+      "start": 86.96,
+      "end": 87.2
+    },
+    {
+      "word": "why",
+      "start": 87.2,
+      "end": 88.2
+    },
+    {
+      "word": "not",
+      "start": 88.2,
+      "end": 89.26
+    },
+    {
+      "word": "share",
+      "start": 90.2,
+      "end": 90.52
+    },
+    {
+      "word": "your",
+      "start": 90.52,
+      "end": 91.6
+    },
+    {
+      "word": "ideas",
+      "start": 91.6,
+      "end": 92.44
+    },
+    {
+      "word": "with",
+      "start": 92.44,
+      "end": 93.46
+    },
+    {
+      "word": "a",
+      "start": 93.46,
+      "end": 94.3
+    },
+    {
+      "word": "partner",
+      "start": 94.3,
+      "end": 94.72
+    }
+  ]
+}

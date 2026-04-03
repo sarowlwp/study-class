@@ -1,0 +1,171 @@
+{
+  "version": "1.0",
+  "total_words": 33,
+  "timings": [
+    {
+      "word": "in",
+      "start": 0.0,
+      "end": 0.52
+    },
+    {
+      "word": "written",
+      "start": 1.18,
+      "end": 1.78
+    },
+    {
+      "word": "by",
+      "start": 1.78,
+      "end": 2.62
+    },
+    {
+      "word": "cheryl",
+      "start": 2.62,
+      "end": 3.2
+    },
+    {
+      "word": "ryan",
+      "start": 3.2,
+      "end": 4.08
+    },
+    {
+      "word": "illustrated",
+      "start": 4.72,
+      "end": 5.3
+    },
+    {
+      "word": "by",
+      "start": 5.3,
+      "end": 6.4
+    },
+    {
+      "word": "nora",
+      "start": 6.4,
+      "end": 6.94
+    },
+    {
+      "word": "voodis",
+      "start": 6.94,
+      "end": 7.92
+    },
+    {
+      "word": "in",
+      "start": 10.5,
+      "end": 10.86
+    },
+    {
+      "word": "the",
+      "start": 10.86,
+      "end": 11.28
+    },
+    {
+      "word": "car",
+      "start": 11.28,
+      "end": 11.9
+    },
+    {
+      "word": "in",
+      "start": 14.48,
+      "end": 14.64
+    },
+    {
+      "word": "the",
+      "start": 14.64,
+      "end": 14.9
+    },
+    {
+      "word": "wagon",
+      "start": 14.9,
+      "end": 15.62
+    },
+    {
+      "word": "in",
+      "start": 18.36,
+      "end": 18.56
+    },
+    {
+      "word": "the",
+      "start": 18.56,
+      "end": 18.78
+    },
+    {
+      "word": "boat",
+      "start": 18.78,
+      "end": 19.84
+    },
+    {
+      "word": "in",
+      "start": 22.2,
+      "end": 22.32
+    },
+    {
+      "word": "the",
+      "start": 22.32,
+      "end": 22.6
+    },
+    {
+      "word": "house",
+      "start": 22.6,
+      "end": 23.42
+    },
+    {
+      "word": "in",
+      "start": 26.04,
+      "end": 26.18
+    },
+    {
+      "word": "the",
+      "start": 26.18,
+      "end": 26.42
+    },
+    {
+      "word": "water",
+      "start": 26.42,
+      "end": 26.98
+    },
+    {
+      "word": "in",
+      "start": 29.28,
+      "end": 30.08
+    },
+    {
+      "word": "the",
+      "start": 30.08,
+      "end": 30.44
+    },
+    {
+      "word": "grass",
+      "start": 30.44,
+      "end": 31.26
+    },
+    {
+      "word": "in",
+      "start": 33.78,
+      "end": 34.02
+    },
+    {
+      "word": "the",
+      "start": 34.02,
+      "end": 34.26
+    },
+    {
+      "word": "mud",
+      "start": 34.26,
+      "end": 34.94
+    },
+    {
+      "word": "in",
+      "start": 37.44,
+      "end": 37.76
+    },
+    {
+      "word": "the",
+      "start": 37.76,
+      "end": 38.1
+    },
+    {
+      "word": "bathtub",
+      "start": 38.1,
+      "end": 38.54
+    }
+  ]
+}

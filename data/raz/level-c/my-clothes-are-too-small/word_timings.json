@@ -1,0 +1,591 @@
+{
+  "version": "1.0",
+  "total_words": 117,
+  "timings": [
+    {
+      "word": "my",
+      "start": 0.0,
+      "end": 0.54
+    },
+    {
+      "word": "clothes",
+      "start": 0.54,
+      "end": 1.28
+    },
+    {
+      "word": "are",
+      "start": 1.28,
+      "end": 1.96
+    },
+    {
+      "word": "too",
+      "start": 1.96,
+      "end": 2.44
+    },
+    {
+      "word": "small",
+      "start": 2.44,
+      "end": 3.26
+    },
+    {
+      "word": "written",
+      "start": 4.24,
+      "end": 4.54
+    },
+    {
+      "word": "by",
+      "start": 4.54,
+      "end": 5.36
+    },
+    {
+      "word": "anthony",
+      "start": 5.36,
+      "end": 5.92
+    },
+    {
+      "word": "keren",
+      "start": 5.92,
+      "end": 6.82
+    },
+    {
+      "word": "illustrated",
+      "start": 7.98,
+      "end": 8.4
+    },
+    {
+      "word": "by",
+      "start": 8.4,
+      "end": 9.18
+    },
+    {
+      "word": "janet",
+      "start": 9.18,
+      "end": 9.6
+    },
+    {
+      "word": "mcdonnell",
+      "start": 9.6,
+      "end": 10.74
+    },
+    {
+      "word": "focus",
+      "start": 12.2,
+      "end": 12.44
+    },
+    {
+      "word": "question",
+      "start": 12.44,
+      "end": 13.14
+    },
+    {
+      "word": "how",
+      "start": 14.46,
+      "end": 14.74
+    },
+    {
+      "word": "does",
+      "start": 14.74,
+      "end": 15.22
+    },
+    {
+      "word": "the",
+      "start": 15.22,
+      "end": 15.54
+    },
+    {
+      "word": "boy",
+      "start": 15.54,
+      "end": 16.0
+    },
+    {
+      "word": "know",
+      "start": 16.0,
+      "end": 16.68
+    },
+    {
+      "word": "he",
+      "start": 16.68,
+      "end": 17.02
+    },
+    {
+      "word": "has",
+      "start": 17.02,
+      "end": 17.38
+    },
+    {
+      "word": "grown",
+      "start": 17.38,
+      "end": 17.82
+    },
+    {
+      "word": "i",
+      "start": 18.3,
+      "end": 18.46
+    },
+    {
+      "word": "must",
+      "start": 18.46,
+      "end": 18.94
+    },
+    {
+      "word": "have",
+      "start": 18.94,
+      "end": 19.42
+    },
+    {
+      "word": "grown",
+      "start": 19.42,
+      "end": 19.8
+    },
+    {
+      "word": "over",
+      "start": 19.8,
+      "end": 20.52
+    },
+    {
+      "word": "the",
+      "start": 20.52,
+      "end": 20.88
+    },
+    {
+      "word": "summer",
+      "start": 20.88,
+      "end": 21.28
+    },
+    {
+      "word": "my",
+      "start": 21.28,
+      "end": 21.96
+    },
+    {
+      "word": "old",
+      "start": 21.96,
+      "end": 22.56
+    },
+    {
+      "word": "shirt",
+      "start": 22.56,
+      "end": 23.14
+    },
+    {
+      "word": "is",
+      "start": 23.14,
+      "end": 23.72
+    },
+    {
+      "word": "too",
+      "start": 23.72,
+      "end": 24.36
+    },
+    {
+      "word": "small",
+      "start": 24.36,
+      "end": 25.0
+    },
+    {
+      "word": "my",
+      "start": 25.48,
+      "end": 25.58
+    },
+    {
+      "word": "old",
+      "start": 25.58,
+      "end": 26.24
+    },
+    {
+      "word": "sweatshirt",
+      "start": 26.24,
+      "end": 27.26
+    },
+    {
+      "word": "is",
+      "start": 27.26,
+      "end": 27.82
+    },
+    {
+      "word": "too",
+      "start": 27.82,
+      "end": 28.5
+    },
+    {
+      "word": "small",
+      "start": 28.5,
+      "end": 29.02
+    },
+    {
+      "word": "my",
+      "start": 29.56,
+      "end": 29.8
+    },
+    {
+      "word": "old",
+      "start": 29.8,
+      "end": 30.36
+    },
+    {
+      "word": "pants",
+      "start": 30.36,
+      "end": 31.04
+    },
+    {
+      "word": "are",
+      "start": 31.04,
+      "end": 31.78
+    },
+    {
+      "word": "too",
+      "start": 31.78,
+      "end": 32.32
+    },
+    {
+      "word": "small",
+      "start": 32.32,
+      "end": 32.88
+    },
+    {
+      "word": "my",
+      "start": 33.38,
+      "end": 33.54
+    },
+    {
+      "word": "old",
+      "start": 33.54,
+      "end": 34.18
+    },
+    {
+      "word": "hat",
+      "start": 34.18,
+      "end": 34.64
+    },
+    {
+      "word": "is",
+      "start": 34.64,
+      "end": 35.44
+    },
+    {
+      "word": "too",
+      "start": 35.44,
+      "end": 36.18
+    },
+    {
+      "word": "small",
+      "start": 36.18,
+      "end": 36.74
+    },
+    {
+      "word": "my",
+      "start": 37.22,
+      "end": 37.44
+    },
+    {
+      "word": "old",
+      "start": 37.44,
+      "end": 38.24
+    },
+    {
+      "word": "socks",
+      "start": 38.24,
+      "end": 38.62
+    },
+    {
+      "word": "are",
+      "start": 38.62,
+      "end": 39.5
+    },
+    {
+      "word": "too",
+      "start": 39.5,
+      "end": 39.94
+    },
+    {
+      "word": "small",
+      "start": 39.94,
+      "end": 40.7
+    },
+    {
+      "word": "my",
+      "start": 40.94,
+      "end": 41.24
+    },
+    {
+      "word": "old",
+      "start": 41.24,
+      "end": 42.1
+    },
+    {
+      "word": "shoes",
+      "start": 42.1,
+      "end": 42.6
+    },
+    {
+      "word": "are",
+      "start": 42.6,
+      "end": 43.26
+    },
+    {
+      "word": "too",
+      "start": 43.26,
+      "end": 43.94
+    },
+    {
+      "word": "small",
+      "start": 43.94,
+      "end": 44.48
+    },
+    {
+      "word": "it",
+      "start": 44.7,
+      "end": 45.0
+    },
+    {
+      "word": "is",
+      "start": 45.0,
+      "end": 45.4
+    },
+    {
+      "word": "good",
+      "start": 45.4,
+      "end": 45.88
+    },
+    {
+      "word": "i",
+      "start": 46.52,
+      "end": 46.52
+    },
+    {
+      "word": "have",
+      "start": 46.52,
+      "end": 47.1
+    },
+    {
+      "word": "a",
+      "start": 47.1,
+      "end": 47.56
+    },
+    {
+      "word": "little",
+      "start": 47.56,
+      "end": 47.86
+    },
+    {
+      "word": "brother",
+      "start": 47.86,
+      "end": 48.62
+    },
+    {
+      "word": "connections",
+      "start": 48.62,
+      "end": 49.66
+    },
+    {
+      "word": "writing",
+      "start": 49.66,
+      "end": 50.94
+    },
+    {
+      "word": "and",
+      "start": 50.94,
+      "end": 51.6
+    },
+    {
+      "word": "art",
+      "start": 51.6,
+      "end": 52.3
+    },
+    {
+      "word": "what",
+      "start": 53.42,
+      "end": 53.46
+    },
+    {
+      "word": "do",
+      "start": 53.46,
+      "end": 53.9
+    },
+    {
+      "word": "you",
+      "start": 53.9,
+      "end": 54.14
+    },
+    {
+      "word": "do",
+      "start": 54.14,
+      "end": 54.6
+    },
+    {
+      "word": "when",
+      "start": 54.6,
+      "end": 54.96
+    },
+    {
+      "word": "you",
+      "start": 54.96,
+      "end": 55.24
+    },
+    {
+      "word": "grow",
+      "start": 55.24,
+      "end": 55.52
+    },
+    {
+      "word": "out",
+      "start": 55.52,
+      "end": 56.0
+    },
+    {
+      "word": "of",
+      "start": 56.0,
+      "end": 56.3
+    },
+    {
+      "word": "your",
+      "start": 56.3,
+      "end": 56.62
+    },
+    {
+      "word": "clothes",
+      "start": 56.62,
+      "end": 57.26
+    },
+    {
+      "word": "draw",
+      "start": 58.34,
+      "end": 58.58
+    },
+    {
+      "word": "a",
+      "start": 58.58,
+      "end": 59.08
+    },
+    {
+      "word": "picture",
+      "start": 59.08,
+      "end": 59.38
+    },
+    {
+      "word": "and",
+      "start": 59.38,
+      "end": 60.14
+    },
+    {
+      "word": "write",
+      "start": 60.14,
+      "end": 60.58
+    },
+    {
+      "word": "about",
+      "start": 60.58,
+      "end": 60.98
+    },
+    {
+      "word": "it",
+      "start": 60.98,
+      "end": 61.66
+    },
+    {
+      "word": "social",
+      "start": 62.94,
+      "end": 63.18
+    },
+    {
+      "word": "studies",
+      "start": 63.18,
+      "end": 63.84
+    },
+    {
+      "word": "how",
+      "start": 65.5,
+      "end": 65.52
+    },
+    {
+      "word": "is",
+      "start": 65.52,
+      "end": 66.08
+    },
+    {
+      "word": "the",
+      "start": 66.08,
+      "end": 66.4
+    },
+    {
+      "word": "story",
+      "start": 66.4,
+      "end": 66.88
+    },
+    {
+      "word": "in",
+      "start": 66.88,
+      "end": 67.36
+    },
+    {
+      "word": "the",
+      "start": 67.36,
+      "end": 67.54
+    },
+    {
+      "word": "book",
+      "start": 67.54,
+      "end": 68.04
+    },
+    {
+      "word": "related",
+      "start": 68.04,
+      "end": 68.66
+    },
+    {
+      "word": "to",
+      "start": 68.66,
+      "end": 69.36
+    },
+    {
+      "word": "reducing",
+      "start": 69.36,
+      "end": 69.98
+    },
+    {
+      "word": "reusing",
+      "start": 70.76,
+      "end": 71.38
+    },
+    {
+      "word": "and",
+      "start": 71.38,
+      "end": 72.66
+    },
+    {
+      "word": "recycling",
+      "start": 72.66,
+      "end": 73.3
+    },
+    {
+      "word": "share",
+      "start": 74.5,
+      "end": 74.7
+    },
+    {
+      "word": "your",
+      "start": 74.7,
+      "end": 75.08
+    },
+    {
+      "word": "ideas",
+      "start": 75.08,
+      "end": 75.56
+    },
+    {
+      "word": "with",
+      "start": 75.56,
+      "end": 76.4
+    },
+    {
+      "word": "a",
+      "start": 76.4,
+      "end": 76.7
+    },
+    {
+      "word": "partner",
+      "start": 76.7,
+      "end": 77.08
+    }
+  ]
+}

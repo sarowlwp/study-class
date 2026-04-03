@@ -1,0 +1,436 @@
+{
+  "version": "1.0",
+  "total_words": 86,
+  "timings": [
+    {
+      "word": "tools",
+      "start": 0.0,
+      "end": 0.64
+    },
+    {
+      "word": "written",
+      "start": 0.64,
+      "end": 1.7
+    },
+    {
+      "word": "by",
+      "start": 1.7,
+      "end": 2.26
+    },
+    {
+      "word": "robert",
+      "start": 2.26,
+      "end": 2.64
+    },
+    {
+      "word": "charles",
+      "start": 2.64,
+      "end": 3.76
+    },
+    {
+      "word": "illustrated",
+      "start": 3.76,
+      "end": 4.6
+    },
+    {
+      "word": "by",
+      "start": 4.6,
+      "end": 5.28
+    },
+    {
+      "word": "randy",
+      "start": 5.28,
+      "end": 5.78
+    },
+    {
+      "word": "gates",
+      "start": 5.78,
+      "end": 6.4
+    },
+    {
+      "word": "i",
+      "start": 6.88,
+      "end": 7.08
+    },
+    {
+      "word": "c",
+      "start": 7.08,
+      "end": 7.4
+    },
+    {
+      "word": "tools",
+      "start": 7.84,
+      "end": 7.84
+    },
+    {
+      "word": "everywhere",
+      "start": 7.84,
+      "end": 8.82
+    },
+    {
+      "word": "tools",
+      "start": 9.82,
+      "end": 10.28
+    },
+    {
+      "word": "help",
+      "start": 10.28,
+      "end": 10.68
+    },
+    {
+      "word": "us",
+      "start": 10.68,
+      "end": 11.1
+    },
+    {
+      "word": "work",
+      "start": 11.1,
+      "end": 11.56
+    },
+    {
+      "word": "here",
+      "start": 11.56,
+      "end": 12.14
+    },
+    {
+      "word": "as",
+      "start": 12.14,
+      "end": 12.32
+    },
+    {
+      "word": "a",
+      "start": 12.32,
+      "end": 12.56
+    },
+    {
+      "word": "tool",
+      "start": 12.56,
+      "end": 12.96
+    },
+    {
+      "word": "it",
+      "start": 13.66,
+      "end": 13.72
+    },
+    {
+      "word": "is",
+      "start": 13.72,
+      "end": 14.04
+    },
+    {
+      "word": "a",
+      "start": 14.04,
+      "end": 14.18
+    },
+    {
+      "word": "pencil",
+      "start": 14.18,
+      "end": 14.58
+    },
+    {
+      "word": "for",
+      "start": 14.58,
+      "end": 15.0
+    },
+    {
+      "word": "writing",
+      "start": 15.0,
+      "end": 15.46
+    },
+    {
+      "word": "here",
+      "start": 16.04,
+      "end": 16.04
+    },
+    {
+      "word": "is",
+      "start": 16.04,
+      "end": 16.12
+    },
+    {
+      "word": "a",
+      "start": 16.12,
+      "end": 16.36
+    },
+    {
+      "word": "tool",
+      "start": 16.36,
+      "end": 16.94
+    },
+    {
+      "word": "it",
+      "start": 17.56,
+      "end": 17.62
+    },
+    {
+      "word": "is",
+      "start": 17.62,
+      "end": 17.88
+    },
+    {
+      "word": "a",
+      "start": 17.88,
+      "end": 18.14
+    },
+    {
+      "word": "rank",
+      "start": 18.14,
+      "end": 18.5
+    },
+    {
+      "word": "for",
+      "start": 18.5,
+      "end": 19.02
+    },
+    {
+      "word": "writing",
+      "start": 19.02,
+      "end": 19.5
+    },
+    {
+      "word": "here",
+      "start": 20.06,
+      "end": 20.08
+    },
+    {
+      "word": "is",
+      "start": 20.08,
+      "end": 20.36
+    },
+    {
+      "word": "a",
+      "start": 20.36,
+      "end": 20.56
+    },
+    {
+      "word": "tool",
+      "start": 20.56,
+      "end": 20.96
+    },
+    {
+      "word": "it",
+      "start": 21.64,
+      "end": 21.72
+    },
+    {
+      "word": "is",
+      "start": 21.72,
+      "end": 22.02
+    },
+    {
+      "word": "a",
+      "start": 22.02,
+      "end": 22.18
+    },
+    {
+      "word": "hammer",
+      "start": 22.18,
+      "end": 22.56
+    },
+    {
+      "word": "for",
+      "start": 22.56,
+      "end": 23.02
+    },
+    {
+      "word": "pounding",
+      "start": 23.02,
+      "end": 23.52
+    },
+    {
+      "word": "here",
+      "start": 23.88,
+      "end": 24.06
+    },
+    {
+      "word": "is",
+      "start": 24.06,
+      "end": 24.32
+    },
+    {
+      "word": "a",
+      "start": 24.32,
+      "end": 24.5
+    },
+    {
+      "word": "tool",
+      "start": 24.5,
+      "end": 24.94
+    },
+    {
+      "word": "it",
+      "start": 24.94,
+      "end": 25.76
+    },
+    {
+      "word": "is",
+      "start": 25.76,
+      "end": 26.04
+    },
+    {
+      "word": "a",
+      "start": 26.04,
+      "end": 26.28
+    },
+    {
+      "word": "shovel",
+      "start": 26.28,
+      "end": 26.68
+    },
+    {
+      "word": "for",
+      "start": 26.68,
+      "end": 27.24
+    },
+    {
+      "word": "digging",
+      "start": 27.24,
+      "end": 27.68
+    },
+    {
+      "word": "here",
+      "start": 27.94,
+      "end": 28.12
+    },
+    {
+      "word": "is",
+      "start": 28.12,
+      "end": 28.36
+    },
+    {
+      "word": "a",
+      "start": 28.36,
+      "end": 28.52
+    },
+    {
+      "word": "tool",
+      "start": 28.52,
+      "end": 28.92
+    },
+    {
+      "word": "it",
+      "start": 29.64,
+      "end": 29.72
+    },
+    {
+      "word": "is",
+      "start": 29.72,
+      "end": 30.06
+    },
+    {
+      "word": "a",
+      "start": 30.06,
+      "end": 30.22
+    },
+    {
+      "word": "knife",
+      "start": 30.22,
+      "end": 30.62
+    },
+    {
+      "word": "for",
+      "start": 30.62,
+      "end": 31.04
+    },
+    {
+      "word": "cutting",
+      "start": 31.04,
+      "end": 31.5
+    },
+    {
+      "word": "here",
+      "start": 31.9,
+      "end": 31.9
+    },
+    {
+      "word": "is",
+      "start": 31.9,
+      "end": 32.1
+    },
+    {
+      "word": "a",
+      "start": 32.1,
+      "end": 32.22
+    },
+    {
+      "word": "tool",
+      "start": 32.22,
+      "end": 32.66
+    },
+    {
+      "word": "it",
+      "start": 33.24,
+      "end": 33.32
+    },
+    {
+      "word": "is",
+      "start": 33.32,
+      "end": 33.58
+    },
+    {
+      "word": "a",
+      "start": 33.58,
+      "end": 33.72
+    },
+    {
+      "word": "wheelbarrow",
+      "start": 33.72,
+      "end": 34.56
+    },
+    {
+      "word": "for",
+      "start": 34.56,
+      "end": 34.8
+    },
+    {
+      "word": "carrying",
+      "start": 34.8,
+      "end": 35.42
+    },
+    {
+      "word": "i",
+      "start": 35.8,
+      "end": 35.98
+    },
+    {
+      "word": "see",
+      "start": 35.98,
+      "end": 36.28
+    },
+    {
+      "word": "tools",
+      "start": 36.28,
+      "end": 36.72
+    },
+    {
+      "word": "everywhere",
+      "start": 36.72,
+      "end": 37.48
+    },
+    {
+      "word": "what",
+      "start": 38.54,
+      "end": 38.84
+    },
+    {
+      "word": "tools",
+      "start": 38.84,
+      "end": 39.28
+    },
+    {
+      "word": "do",
+      "start": 39.28,
+      "end": 39.66
+    },
+    {
+      "word": "you",
+      "start": 39.66,
+      "end": 39.98
+    },
+    {
+      "word": "see",
+      "start": 39.98,
+      "end": 40.32
+    }
+  ]
+}

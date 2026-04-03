@@ -1,0 +1,126 @@
+{
+  "version": "1.0",
+  "total_words": 24,
+  "timings": [
+    {
+      "word": "the",
+      "start": 0.0,
+      "end": 0.2
+    },
+    {
+      "word": "backyard",
+      "start": 0.2,
+      "end": 0.84
+    },
+    {
+      "word": "written",
+      "start": 1.42,
+      "end": 1.64
+    },
+    {
+      "word": "and",
+      "start": 1.64,
+      "end": 1.98
+    },
+    {
+      "word": "illustrated",
+      "start": 1.98,
+      "end": 2.36
+    },
+    {
+      "word": "by",
+      "start": 2.36,
+      "end": 2.88
+    },
+    {
+      "word": "nora",
+      "start": 2.88,
+      "end": 3.2
+    },
+    {
+      "word": "vuitton",
+      "start": 3.2,
+      "end": 3.84
+    },
+    {
+      "word": "the",
+      "start": 6.12,
+      "end": 6.28
+    },
+    {
+      "word": "fence",
+      "start": 6.28,
+      "end": 6.78
+    },
+    {
+      "word": "the",
+      "start": 9.06,
+      "end": 9.18
+    },
+    {
+      "word": "dog",
+      "start": 9.18,
+      "end": 9.6
+    },
+    {
+      "word": "the",
+      "start": 11.92,
+      "end": 12.0
+    },
+    {
+      "word": "swing",
+      "start": 12.0,
+      "end": 12.44
+    },
+    {
+      "word": "the",
+      "start": 14.7,
+      "end": 14.82
+    },
+    {
+      "word": "ball",
+      "start": 14.82,
+      "end": 15.56
+    },
+    {
+      "word": "the",
+      "start": 17.56,
+      "end": 17.62
+    },
+    {
+      "word": "flowers",
+      "start": 17.62,
+      "end": 18.2
+    },
+    {
+      "word": "the",
+      "start": 20.64,
+      "end": 20.66
+    },
+    {
+      "word": "tree",
+      "start": 20.66,
+      "end": 21.08
+    },
+    {
+      "word": "the",
+      "start": 23.38,
+      "end": 23.48
+    },
+    {
+      "word": "hose",
+      "start": 23.48,
+      "end": 24.04
+    },
+    {
+      "word": "the",
+      "start": 26.22,
+      "end": 26.38
+    },
+    {
+      "word": "backyard",
+      "start": 26.38,
+      "end": 26.8
+    }
+  ]
+}

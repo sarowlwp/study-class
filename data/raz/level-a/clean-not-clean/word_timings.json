@@ -1,0 +1,486 @@
+{
+  "version": "1.0",
+  "total_words": 96,
+  "timings": [
+    {
+      "word": "clean",
+      "start": 0.0,
+      "end": 0.58
+    },
+    {
+      "word": "not",
+      "start": 1.12,
+      "end": 1.58
+    },
+    {
+      "word": "clean",
+      "start": 1.58,
+      "end": 2.32
+    },
+    {
+      "word": "written",
+      "start": 3.68,
+      "end": 3.98
+    },
+    {
+      "word": "by",
+      "start": 3.98,
+      "end": 4.64
+    },
+    {
+      "word": "ed",
+      "start": 4.64,
+      "end": 5.1
+    },
+    {
+      "word": "evans",
+      "start": 5.1,
+      "end": 6.26
+    },
+    {
+      "word": "illustrated",
+      "start": 7.08,
+      "end": 7.66
+    },
+    {
+      "word": "by",
+      "start": 7.66,
+      "end": 8.74
+    },
+    {
+      "word": "nisha",
+      "start": 8.74,
+      "end": 9.58
+    },
+    {
+      "word": "hudson",
+      "start": 9.58,
+      "end": 10.4
+    },
+    {
+      "word": "focus",
+      "start": 11.84,
+      "end": 12.08
+    },
+    {
+      "word": "question",
+      "start": 12.08,
+      "end": 13.26
+    },
+    {
+      "word": "what",
+      "start": 14.96,
+      "end": 15.16
+    },
+    {
+      "word": "is",
+      "start": 15.16,
+      "end": 15.72
+    },
+    {
+      "word": "the",
+      "start": 15.72,
+      "end": 15.88
+    },
+    {
+      "word": "difference",
+      "start": 15.88,
+      "end": 16.46
+    },
+    {
+      "word": "between",
+      "start": 16.46,
+      "end": 17.14
+    },
+    {
+      "word": "clean",
+      "start": 17.14,
+      "end": 17.8
+    },
+    {
+      "word": "and",
+      "start": 17.8,
+      "end": 18.58
+    },
+    {
+      "word": "not",
+      "start": 18.58,
+      "end": 19.14
+    },
+    {
+      "word": "clean",
+      "start": 19.14,
+      "end": 19.56
+    },
+    {
+      "word": "this",
+      "start": 20.28,
+      "end": 20.58
+    },
+    {
+      "word": "room",
+      "start": 20.58,
+      "end": 21.1
+    },
+    {
+      "word": "is",
+      "start": 21.1,
+      "end": 21.96
+    },
+    {
+      "word": "clean",
+      "start": 21.96,
+      "end": 22.72
+    },
+    {
+      "word": "this",
+      "start": 23.5,
+      "end": 23.82
+    },
+    {
+      "word": "room",
+      "start": 23.82,
+      "end": 24.48
+    },
+    {
+      "word": "is",
+      "start": 24.48,
+      "end": 25.36
+    },
+    {
+      "word": "not",
+      "start": 25.36,
+      "end": 26.24
+    },
+    {
+      "word": "clean",
+      "start": 26.24,
+      "end": 27.02
+    },
+    {
+      "word": "this",
+      "start": 27.02,
+      "end": 28.02
+    },
+    {
+      "word": "shoe",
+      "start": 28.02,
+      "end": 28.98
+    },
+    {
+      "word": "is",
+      "start": 28.98,
+      "end": 30.06
+    },
+    {
+      "word": "clean",
+      "start": 30.06,
+      "end": 30.78
+    },
+    {
+      "word": "this",
+      "start": 31.62,
+      "end": 31.92
+    },
+    {
+      "word": "shoe",
+      "start": 31.92,
+      "end": 32.66
+    },
+    {
+      "word": "is",
+      "start": 32.66,
+      "end": 33.84
+    },
+    {
+      "word": "not",
+      "start": 33.84,
+      "end": 34.68
+    },
+    {
+      "word": "clean",
+      "start": 34.68,
+      "end": 35.42
+    },
+    {
+      "word": "this",
+      "start": 36.24,
+      "end": 36.48
+    },
+    {
+      "word": "hand",
+      "start": 36.48,
+      "end": 37.52
+    },
+    {
+      "word": "is",
+      "start": 37.52,
+      "end": 38.46
+    },
+    {
+      "word": "clean",
+      "start": 38.46,
+      "end": 39.18
+    },
+    {
+      "word": "this",
+      "start": 39.98,
+      "end": 40.36
+    },
+    {
+      "word": "hand",
+      "start": 40.36,
+      "end": 40.9
+    },
+    {
+      "word": "is",
+      "start": 40.9,
+      "end": 41.84
+    },
+    {
+      "word": "not",
+      "start": 41.84,
+      "end": 42.68
+    },
+    {
+      "word": "clean",
+      "start": 42.68,
+      "end": 43.42
+    },
+    {
+      "word": "this",
+      "start": 44.26,
+      "end": 44.38
+    },
+    {
+      "word": "food",
+      "start": 44.38,
+      "end": 45.22
+    },
+    {
+      "word": "is",
+      "start": 45.22,
+      "end": 46.06
+    },
+    {
+      "word": "clean",
+      "start": 46.06,
+      "end": 46.86
+    },
+    {
+      "word": "this",
+      "start": 47.44,
+      "end": 47.82
+    },
+    {
+      "word": "food",
+      "start": 47.82,
+      "end": 48.56
+    },
+    {
+      "word": "is",
+      "start": 48.56,
+      "end": 49.32
+    },
+    {
+      "word": "not",
+      "start": 49.32,
+      "end": 50.32
+    },
+    {
+      "word": "clean",
+      "start": 50.32,
+      "end": 51.1
+    },
+    {
+      "word": "connections",
+      "start": 51.76,
+      "end": 52.6
+    },
+    {
+      "word": "writing",
+      "start": 53.64,
+      "end": 53.98
+    },
+    {
+      "word": "and",
+      "start": 53.98,
+      "end": 54.9
+    },
+    {
+      "word": "art",
+      "start": 54.9,
+      "end": 55.9
+    },
+    {
+      "word": "right",
+      "start": 55.9,
+      "end": 57.2
+    },
+    {
+      "word": "two",
+      "start": 57.2,
+      "end": 58.22
+    },
+    {
+      "word": "new",
+      "start": 58.22,
+      "end": 58.72
+    },
+    {
+      "word": "pages",
+      "start": 58.72,
+      "end": 59.22
+    },
+    {
+      "word": "for",
+      "start": 59.22,
+      "end": 60.16
+    },
+    {
+      "word": "the",
+      "start": 60.16,
+      "end": 60.88
+    },
+    {
+      "word": "book",
+      "start": 60.88,
+      "end": 61.48
+    },
+    {
+      "word": "use",
+      "start": 62.34,
+      "end": 62.78
+    },
+    {
+      "word": "the",
+      "start": 62.78,
+      "end": 63.24
+    },
+    {
+      "word": "pattern",
+      "start": 63.24,
+      "end": 63.68
+    },
+    {
+      "word": "from",
+      "start": 63.68,
+      "end": 64.54
+    },
+    {
+      "word": "the",
+      "start": 64.54,
+      "end": 65.28
+    },
+    {
+      "word": "book",
+      "start": 65.28,
+      "end": 66.04
+    },
+    {
+      "word": "draw",
+      "start": 66.66,
+      "end": 66.96
+    },
+    {
+      "word": "a",
+      "start": 66.96,
+      "end": 67.42
+    },
+    {
+      "word": "picture",
+      "start": 67.42,
+      "end": 67.9
+    },
+    {
+      "word": "for",
+      "start": 67.9,
+      "end": 68.8
+    },
+    {
+      "word": "each",
+      "start": 68.8,
+      "end": 69.28
+    },
+    {
+      "word": "page",
+      "start": 69.28,
+      "end": 70.44
+    },
+    {
+      "word": "health",
+      "start": 71.68,
+      "end": 71.8
+    },
+    {
+      "word": "when",
+      "start": 73.26,
+      "end": 73.46
+    },
+    {
+      "word": "is",
+      "start": 73.46,
+      "end": 74.18
+    },
+    {
+      "word": "it",
+      "start": 74.18,
+      "end": 74.68
+    },
+    {
+      "word": "important",
+      "start": 74.68,
+      "end": 75.18
+    },
+    {
+      "word": "to",
+      "start": 75.18,
+      "end": 76.06
+    },
+    {
+      "word": "have",
+      "start": 76.06,
+      "end": 76.48
+    },
+    {
+      "word": "clean",
+      "start": 76.48,
+      "end": 77.1
+    },
+    {
+      "word": "hands",
+      "start": 77.1,
+      "end": 78.1
+    },
+    {
+      "word": "share",
+      "start": 79.22,
+      "end": 79.68
+    },
+    {
+      "word": "your",
+      "start": 79.68,
+      "end": 80.52
+    },
+    {
+      "word": "ideas",
+      "start": 80.52,
+      "end": 81.18
+    },
+    {
+      "word": "with",
+      "start": 81.18,
+      "end": 82.4
+    },
+    {
+      "word": "a",
+      "start": 82.4,
+      "end": 83.08
+    },
+    {
+      "word": "partner",
+      "start": 83.08,
+      "end": 83.5
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "version": "1.0",
+  "total_words": 82,
+  "timings": [
+    {
+      "word": "4",
+      "start": 0.0,
+      "end": 0.78
+    },
+    {
+      "word": "mom",
+      "start": 1.3,
+      "end": 2.5
+    },
+    {
+      "word": "written",
+      "start": 3.1,
+      "end": 3.52
+    },
+    {
+      "word": "by",
+      "start": 3.52,
+      "end": 4.74
+    },
+    {
+      "word": "harriet",
+      "start": 4.74,
+      "end": 5.76
+    },
+    {
+      "word": "rosenblum",
+      "start": 5.76,
+      "end": 7.54
+    },
+    {
+      "word": "focus",
+      "start": 8.8,
+      "end": 9.12
+    },
+    {
+      "word": "question",
+      "start": 9.12,
+      "end": 10.2
+    },
+    {
+      "word": "what",
+      "start": 11.64,
+      "end": 11.88
+    },
+    {
+      "word": "can",
+      "start": 11.88,
+      "end": 12.62
+    },
+    {
+      "word": "children",
+      "start": 12.62,
+      "end": 13.12
+    },
+    {
+      "word": "do",
+      "start": 13.12,
+      "end": 14.16
+    },
+    {
+      "word": "for",
+      "start": 14.16,
+      "end": 15.14
+    },
+    {
+      "word": "their",
+      "start": 15.14,
+      "end": 15.82
+    },
+    {
+      "word": "moms",
+      "start": 15.82,
+      "end": 16.26
+    },
+    {
+      "word": "i",
+      "start": 16.86,
+      "end": 16.88
+    },
+    {
+      "word": "draw",
+      "start": 16.88,
+      "end": 17.64
+    },
+    {
+      "word": "for",
+      "start": 17.64,
+      "end": 18.82
+    },
+    {
+      "word": "mom",
+      "start": 18.82,
+      "end": 19.78
+    },
+    {
+      "word": "i",
+      "start": 20.1,
+      "end": 20.46
+    },
+    {
+      "word": "cook",
+      "start": 20.46,
+      "end": 21.28
+    },
+    {
+      "word": "for",
+      "start": 21.28,
+      "end": 22.74
+    },
+    {
+      "word": "mom",
+      "start": 22.74,
+      "end": 23.94
+    },
+    {
+      "word": "i",
+      "start": 24.12,
+      "end": 24.54
+    },
+    {
+      "word": "sing",
+      "start": 24.54,
+      "end": 25.46
+    },
+    {
+      "word": "4",
+      "start": 25.46,
+      "end": 26.84
+    },
+    {
+      "word": "mom",
+      "start": 27.9,
+      "end": 27.9
+    },
+    {
+      "word": "i",
+      "start": 28.16,
+      "end": 28.72
+    },
+    {
+      "word": "clean",
+      "start": 28.72,
+      "end": 29.38
+    },
+    {
+      "word": "4",
+      "start": 30.72,
+      "end": 30.72
+    },
+    {
+      "word": "mom",
+      "start": 31.2,
+      "end": 31.52
+    },
+    {
+      "word": "i",
+      "start": 32.14,
+      "end": 32.16
+    },
+    {
+      "word": "carry",
+      "start": 32.16,
+      "end": 32.96
+    },
+    {
+      "word": "4",
+      "start": 34.46,
+      "end": 34.48
+    },
+    {
+      "word": "mom",
+      "start": 35.02,
+      "end": 35.58
+    },
+    {
+      "word": "i",
+      "start": 36.18,
+      "end": 36.18
+    },
+    {
+      "word": "smile",
+      "start": 36.18,
+      "end": 37.28
+    },
+    {
+      "word": "4",
+      "start": 38.58,
+      "end": 38.68
+    },
+    {
+      "word": "mom",
+      "start": 39.22,
+      "end": 39.72
+    },
+    {
+      "word": "i",
+      "start": 40.3,
+      "end": 40.48
+    },
+    {
+      "word": "read",
+      "start": 40.48,
+      "end": 41.32
+    },
+    {
+      "word": "4",
+      "start": 42.52,
+      "end": 42.52
+    },
+    {
+      "word": "mom",
+      "start": 42.9,
+      "end": 43.36
+    },
+    {
+      "word": "i",
+      "start": 43.8,
+      "end": 44.06
+    },
+    {
+      "word": "sleep",
+      "start": 44.06,
+      "end": 44.86
+    },
+    {
+      "word": "for",
+      "start": 44.86,
+      "end": 46.2
+    },
+    {
+      "word": "mom",
+      "start": 46.2,
+      "end": 47.24
+    },
+    {
+      "word": "connections",
+      "start": 47.24,
+      "end": 48.32
+    },
+    {
+      "word": "writing",
+      "start": 49.48,
+      "end": 49.68
+    },
+    {
+      "word": "and",
+      "start": 49.68,
+      "end": 50.52
+    },
+    {
+      "word": "art",
+      "start": 50.52,
+      "end": 51.28
+    },
+    {
+      "word": "how",
+      "start": 52.76,
+      "end": 52.98
+    },
+    {
+      "word": "do",
+      "start": 52.98,
+      "end": 53.88
+    },
+    {
+      "word": "you",
+      "start": 53.88,
+      "end": 54.54
+    },
+    {
+      "word": "help",
+      "start": 54.54,
+      "end": 55.06
+    },
+    {
+      "word": "someone",
+      "start": 55.06,
+      "end": 56.06
+    },
+    {
+      "word": "draw",
+      "start": 56.06,
+      "end": 57.48
+    },
+    {
+      "word": "a",
+      "start": 57.48,
+      "end": 58.06
+    },
+    {
+      "word": "picture",
+      "start": 58.06,
+      "end": 58.44
+    },
+    {
+      "word": "and",
+      "start": 58.44,
+      "end": 59.44
+    },
+    {
+      "word": "write",
+      "start": 59.44,
+      "end": 59.92
+    },
+    {
+      "word": "this",
+      "start": 59.92,
+      "end": 60.84
+    },
+    {
+      "word": "sentence",
+      "start": 60.84,
+      "end": 61.58
+    },
+    {
+      "word": "i",
+      "start": 63.16,
+      "end": 63.16
+    },
+    {
+      "word": "for",
+      "start": 64.26,
+      "end": 65.24
+    },
+    {
+      "word": "social",
+      "start": 65.24,
+      "end": 67.48
+    },
+    {
+      "word": "studies",
+      "start": 67.48,
+      "end": 68.36
+    },
+    {
+      "word": "why",
+      "start": 69.38,
+      "end": 69.78
+    },
+    {
+      "word": "is",
+      "start": 69.78,
+      "end": 70.46
+    },
+    {
+      "word": "it",
+      "start": 70.46,
+      "end": 71.02
+    },
+    {
+      "word": "important",
+      "start": 71.02,
+      "end": 71.64
+    },
+    {
+      "word": "to",
+      "start": 71.64,
+      "end": 72.7
+    },
+    {
+      "word": "do",
+      "start": 72.7,
+      "end": 73.14
+    },
+    {
+      "word": "things",
+      "start": 73.14,
+      "end": 73.78
+    },
+    {
+      "word": "for",
+      "start": 73.78,
+      "end": 74.48
+    },
+    {
+      "word": "other",
+      "start": 74.48,
+      "end": 74.84
+    },
+    {
+      "word": "share",
+      "start": 74.84,
+      "end": 76.86
+    },
+    {
+      "word": "your",
+      "start": 76.86,
+      "end": 77.48
+    },
+    {
+      "word": "ideas",
+      "start": 77.48,
+      "end": 78.18
+    },
+    {
+      "word": "with",
+      "start": 78.18,
+      "end": 79.24
+    },
+    {
+      "word": "a",
+      "start": 79.24,
+      "end": 79.52
+    },
+    {
+      "word": "partner",
+      "start": 79.52,
+      "end": 79.92
+    }
+  ]
+}

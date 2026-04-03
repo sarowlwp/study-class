@@ -1,0 +1,181 @@
+{
+  "version": "1.0",
+  "total_words": 35,
+  "timings": [
+    {
+      "word": "up",
+      "start": 0.0,
+      "end": 0.32
+    },
+    {
+      "word": "and",
+      "start": 0.32,
+      "end": 0.92
+    },
+    {
+      "word": "down",
+      "start": 0.92,
+      "end": 1.64
+    },
+    {
+      "word": "written",
+      "start": 2.12,
+      "end": 2.32
+    },
+    {
+      "word": "by",
+      "start": 2.32,
+      "end": 2.64
+    },
+    {
+      "word": "ali",
+      "start": 2.64,
+      "end": 2.92
+    },
+    {
+      "word": "sullivan",
+      "start": 2.92,
+      "end": 3.46
+    },
+    {
+      "word": "illustrated",
+      "start": 4.08,
+      "end": 4.66
+    },
+    {
+      "word": "by",
+      "start": 4.66,
+      "end": 5.02
+    },
+    {
+      "word": "patrick",
+      "start": 5.02,
+      "end": 5.36
+    },
+    {
+      "word": "gerard",
+      "start": 5.36,
+      "end": 5.92
+    },
+    {
+      "word": "eyes",
+      "start": 6.52,
+      "end": 6.78
+    },
+    {
+      "word": "go",
+      "start": 6.78,
+      "end": 7.04
+    },
+    {
+      "word": "up",
+      "start": 7.04,
+      "end": 7.5
+    },
+    {
+      "word": "eyes",
+      "start": 7.98,
+      "end": 8.42
+    },
+    {
+      "word": "go",
+      "start": 8.42,
+      "end": 8.7
+    },
+    {
+      "word": "down",
+      "start": 8.7,
+      "end": 9.24
+    },
+    {
+      "word": "hands",
+      "start": 9.76,
+      "end": 10.14
+    },
+    {
+      "word": "go",
+      "start": 10.14,
+      "end": 10.44
+    },
+    {
+      "word": "up",
+      "start": 10.44,
+      "end": 10.88
+    },
+    {
+      "word": "hands",
+      "start": 11.28,
+      "end": 11.58
+    },
+    {
+      "word": "go",
+      "start": 11.58,
+      "end": 11.92
+    },
+    {
+      "word": "down",
+      "start": 11.92,
+      "end": 12.34
+    },
+    {
+      "word": "dog",
+      "start": 12.66,
+      "end": 12.98
+    },
+    {
+      "word": "goes",
+      "start": 12.98,
+      "end": 13.32
+    },
+    {
+      "word": "up",
+      "start": 13.32,
+      "end": 13.86
+    },
+    {
+      "word": "dog",
+      "start": 14.12,
+      "end": 14.34
+    },
+    {
+      "word": "goes",
+      "start": 14.34,
+      "end": 14.7
+    },
+    {
+      "word": "down",
+      "start": 14.7,
+      "end": 15.34
+    },
+    {
+      "word": "frog",
+      "start": 15.72,
+      "end": 16.0
+    },
+    {
+      "word": "goes",
+      "start": 16.0,
+      "end": 16.5
+    },
+    {
+      "word": "up",
+      "start": 16.5,
+      "end": 17.08
+    },
+    {
+      "word": "frog",
+      "start": 17.34,
+      "end": 17.68
+    },
+    {
+      "word": "goes",
+      "start": 17.68,
+      "end": 18.14
+    },
+    {
+      "word": "down",
+      "start": 18.14,
+      "end": 18.58
+    }
+  ]
+}

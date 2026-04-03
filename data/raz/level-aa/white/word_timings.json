@@ -1,0 +1,416 @@
+{
+  "version": "1.0",
+  "total_words": 82,
+  "timings": [
+    {
+      "word": "white",
+      "start": 0.0,
+      "end": 0.9
+    },
+    {
+      "word": "written",
+      "start": 2.1,
+      "end": 2.6
+    },
+    {
+      "word": "by",
+      "start": 2.6,
+      "end": 3.44
+    },
+    {
+      "word": "nigel",
+      "start": 3.44,
+      "end": 4.12
+    },
+    {
+      "word": "pepper",
+      "start": 4.12,
+      "end": 4.92
+    },
+    {
+      "word": "house",
+      "start": 4.92,
+      "end": 5.78
+    },
+    {
+      "word": "focus",
+      "start": 7.0,
+      "end": 7.22
+    },
+    {
+      "word": "question",
+      "start": 7.22,
+      "end": 8.12
+    },
+    {
+      "word": "where",
+      "start": 9.4,
+      "end": 9.76
+    },
+    {
+      "word": "can",
+      "start": 9.76,
+      "end": 10.36
+    },
+    {
+      "word": "you",
+      "start": 10.36,
+      "end": 10.82
+    },
+    {
+      "word": "see",
+      "start": 10.82,
+      "end": 11.3
+    },
+    {
+      "word": "the",
+      "start": 11.3,
+      "end": 11.88
+    },
+    {
+      "word": "color",
+      "start": 11.88,
+      "end": 12.3
+    },
+    {
+      "word": "white",
+      "start": 12.3,
+      "end": 12.9
+    },
+    {
+      "word": "in",
+      "start": 12.9,
+      "end": 13.78
+    },
+    {
+      "word": "nature",
+      "start": 13.78,
+      "end": 14.42
+    },
+    {
+      "word": "the",
+      "start": 14.96,
+      "end": 15.12
+    },
+    {
+      "word": "white",
+      "start": 15.12,
+      "end": 15.82
+    },
+    {
+      "word": "snow",
+      "start": 15.82,
+      "end": 16.82
+    },
+    {
+      "word": "the",
+      "start": 17.68,
+      "end": 17.76
+    },
+    {
+      "word": "white",
+      "start": 17.76,
+      "end": 18.68
+    },
+    {
+      "word": "flowers",
+      "start": 18.68,
+      "end": 19.96
+    },
+    {
+      "word": "the",
+      "start": 20.92,
+      "end": 21.08
+    },
+    {
+      "word": "white",
+      "start": 21.08,
+      "end": 22.04
+    },
+    {
+      "word": "fox",
+      "start": 22.04,
+      "end": 23.12
+    },
+    {
+      "word": "the",
+      "start": 23.94,
+      "end": 24.04
+    },
+    {
+      "word": "white",
+      "start": 24.04,
+      "end": 24.84
+    },
+    {
+      "word": "whale",
+      "start": 24.84,
+      "end": 25.72
+    },
+    {
+      "word": "the",
+      "start": 25.72,
+      "end": 26.62
+    },
+    {
+      "word": "white",
+      "start": 26.62,
+      "end": 27.46
+    },
+    {
+      "word": "seal",
+      "start": 27.46,
+      "end": 28.56
+    },
+    {
+      "word": "the",
+      "start": 29.44,
+      "end": 29.44
+    },
+    {
+      "word": "white",
+      "start": 29.44,
+      "end": 30.18
+    },
+    {
+      "word": "eggs",
+      "start": 30.18,
+      "end": 31.3
+    },
+    {
+      "word": "the",
+      "start": 32.04,
+      "end": 32.2
+    },
+    {
+      "word": "white",
+      "start": 32.2,
+      "end": 32.96
+    },
+    {
+      "word": "owl",
+      "start": 32.96,
+      "end": 33.94
+    },
+    {
+      "word": "the",
+      "start": 34.7,
+      "end": 34.84
+    },
+    {
+      "word": "white",
+      "start": 34.84,
+      "end": 35.6
+    },
+    {
+      "word": "igloo",
+      "start": 35.6,
+      "end": 36.76
+    },
+    {
+      "word": "connections",
+      "start": 36.76,
+      "end": 37.86
+    },
+    {
+      "word": "writing",
+      "start": 39.36,
+      "end": 39.54
+    },
+    {
+      "word": "and",
+      "start": 39.54,
+      "end": 40.62
+    },
+    {
+      "word": "art",
+      "start": 40.62,
+      "end": 41.36
+    },
+    {
+      "word": "think",
+      "start": 42.74,
+      "end": 42.9
+    },
+    {
+      "word": "of",
+      "start": 42.9,
+      "end": 43.46
+    },
+    {
+      "word": "something",
+      "start": 43.46,
+      "end": 43.94
+    },
+    {
+      "word": "else",
+      "start": 43.94,
+      "end": 44.6
+    },
+    {
+      "word": "that",
+      "start": 44.6,
+      "end": 45.4
+    },
+    {
+      "word": "is",
+      "start": 45.4,
+      "end": 45.76
+    },
+    {
+      "word": "white",
+      "start": 45.76,
+      "end": 46.28
+    },
+    {
+      "word": "draw",
+      "start": 47.42,
+      "end": 47.66
+    },
+    {
+      "word": "a",
+      "start": 47.66,
+      "end": 48.14
+    },
+    {
+      "word": "picture",
+      "start": 48.14,
+      "end": 48.58
+    },
+    {
+      "word": "and",
+      "start": 48.58,
+      "end": 49.46
+    },
+    {
+      "word": "write",
+      "start": 49.46,
+      "end": 49.86
+    },
+    {
+      "word": "about",
+      "start": 49.86,
+      "end": 50.22
+    },
+    {
+      "word": "it",
+      "start": 50.22,
+      "end": 50.92
+    },
+    {
+      "word": "science",
+      "start": 50.92,
+      "end": 52.76
+    },
+    {
+      "word": "many",
+      "start": 54.38,
+      "end": 54.58
+    },
+    {
+      "word": "animals",
+      "start": 54.58,
+      "end": 55.34
+    },
+    {
+      "word": "that",
+      "start": 55.34,
+      "end": 56.22
+    },
+    {
+      "word": "live",
+      "start": 56.22,
+      "end": 56.48
+    },
+    {
+      "word": "in",
+      "start": 56.48,
+      "end": 56.96
+    },
+    {
+      "word": "the",
+      "start": 56.96,
+      "end": 57.24
+    },
+    {
+      "word": "snow",
+      "start": 57.24,
+      "end": 57.8
+    },
+    {
+      "word": "are",
+      "start": 57.8,
+      "end": 58.98
+    },
+    {
+      "word": "white",
+      "start": 58.98,
+      "end": 59.54
+    },
+    {
+      "word": "why",
+      "start": 61.08,
+      "end": 61.42
+    },
+    {
+      "word": "do",
+      "start": 61.42,
+      "end": 61.96
+    },
+    {
+      "word": "you",
+      "start": 61.96,
+      "end": 62.3
+    },
+    {
+      "word": "think",
+      "start": 62.3,
+      "end": 62.74
+    },
+    {
+      "word": "this",
+      "start": 62.74,
+      "end": 63.5
+    },
+    {
+      "word": "is",
+      "start": 63.5,
+      "end": 64.4
+    },
+    {
+      "word": "how",
+      "start": 65.1,
+      "end": 65.54
+    },
+    {
+      "word": "does",
+      "start": 65.54,
+      "end": 66.18
+    },
+    {
+      "word": "being",
+      "start": 66.18,
+      "end": 66.52
+    },
+    {
+      "word": "white",
+      "start": 66.52,
+      "end": 67.16
+    },
+    {
+      "word": "help",
+      "start": 67.16,
+      "end": 68.0
+    },
+    {
+      "word": "these",
+      "start": 68.0,
+      "end": 68.66
+    },
+    {
+      "word": "animals",
+      "start": 68.66,
+      "end": 69.36
+    }
+  ]
+}

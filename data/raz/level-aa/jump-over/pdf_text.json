@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/jump-over",
+  "title": "Jump Over",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , aa Jump Over Wiillen by Anthony Gunren Illlustrated by Nord Voutas wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Jump Over 4 Written by Anthony Curran Illustrated by Nora Voutas wwwreadinga-z.com 8 D5"
+    },
+    {
+      "page": 3,
+      "text": "02 Q The cat jumps over. Jump Over Level aa 3"
+    },
+    {
+      "page": 4,
+      "text": "W 9 M The jumps over. Jab dog"
+    },
+    {
+      "page": 5,
+      "text": "O Q 0 The horse jumps over. Jump Over Level aa 5 8 :"
+    },
+    {
+      "page": 6,
+      "text": "1z The fox   jumps over. 6 8 DD"
+    },
+    {
+      "page": 7,
+      "text": "Mz The deer   jumps over. Jump Over Level aa"
+    },
+    {
+      "page": 8,
+      "text": "MRrI] ~ 8, 8 The jumps over. 8 83 goat"
+    },
+    {
+      "page": 9,
+      "text": "The girl   jumps over. Jump Over Level aa 9 2 (( 5"
+    },
+    {
+      "page": 10,
+      "text": "( 2 The COW jumps over. 10 N 3"
+    },
+    {
+      "page": 11,
+      "text": "Jump Over Correlation Level aa Leveled Book LEVEL aa Learning A-Z AIl rights reserved. Wrilten by Anthony Curran Fountas & Pinnell A Illustrated by Nora Voutas Reading Recovery 1 DRA A-1 WWW . readinga-z.C com"
+    }
+  ]
+}

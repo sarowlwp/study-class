@@ -1,0 +1,226 @@
+{
+  "version": "1.0",
+  "total_words": 44,
+  "timings": [
+    {
+      "word": "you",
+      "start": 0.0,
+      "end": 0.34
+    },
+    {
+      "word": "can",
+      "start": 0.34,
+      "end": 0.64
+    },
+    {
+      "word": "go",
+      "start": 0.64,
+      "end": 1.56
+    },
+    {
+      "word": "written",
+      "start": 2.18,
+      "end": 2.64
+    },
+    {
+      "word": "by",
+      "start": 2.64,
+      "end": 3.04
+    },
+    {
+      "word": "elizabeth",
+      "start": 3.04,
+      "end": 3.54
+    },
+    {
+      "word": "strauss",
+      "start": 3.54,
+      "end": 4.62
+    },
+    {
+      "word": "illustrated",
+      "start": 5.42,
+      "end": 6.1
+    },
+    {
+      "word": "by",
+      "start": 6.1,
+      "end": 6.58
+    },
+    {
+      "word": "nora",
+      "start": 6.58,
+      "end": 7.04
+    },
+    {
+      "word": "vutes",
+      "start": 7.04,
+      "end": 7.66
+    },
+    {
+      "word": "you",
+      "start": 8.62,
+      "end": 8.64
+    },
+    {
+      "word": "can",
+      "start": 8.64,
+      "end": 9.18
+    },
+    {
+      "word": "go",
+      "start": 9.18,
+      "end": 9.64
+    },
+    {
+      "word": "over",
+      "start": 9.64,
+      "end": 10.24
+    },
+    {
+      "word": "you",
+      "start": 10.88,
+      "end": 11.28
+    },
+    {
+      "word": "can",
+      "start": 11.28,
+      "end": 11.8
+    },
+    {
+      "word": "go",
+      "start": 11.8,
+      "end": 12.44
+    },
+    {
+      "word": "under",
+      "start": 12.44,
+      "end": 13.08
+    },
+    {
+      "word": "you",
+      "start": 13.58,
+      "end": 14.06
+    },
+    {
+      "word": "can",
+      "start": 14.06,
+      "end": 14.58
+    },
+    {
+      "word": "go",
+      "start": 14.58,
+      "end": 15.16
+    },
+    {
+      "word": "around",
+      "start": 15.16,
+      "end": 15.94
+    },
+    {
+      "word": "you",
+      "start": 16.5,
+      "end": 16.96
+    },
+    {
+      "word": "can",
+      "start": 16.96,
+      "end": 17.42
+    },
+    {
+      "word": "go",
+      "start": 17.42,
+      "end": 18.04
+    },
+    {
+      "word": "through",
+      "start": 18.04,
+      "end": 18.56
+    },
+    {
+      "word": "you",
+      "start": 19.36,
+      "end": 19.84
+    },
+    {
+      "word": "can",
+      "start": 19.84,
+      "end": 20.3
+    },
+    {
+      "word": "go",
+      "start": 20.3,
+      "end": 20.98
+    },
+    {
+      "word": "forward",
+      "start": 20.98,
+      "end": 21.58
+    },
+    {
+      "word": "you",
+      "start": 22.36,
+      "end": 22.86
+    },
+    {
+      "word": "can",
+      "start": 22.86,
+      "end": 23.34
+    },
+    {
+      "word": "go",
+      "start": 23.34,
+      "end": 23.92
+    },
+    {
+      "word": "backward",
+      "start": 23.92,
+      "end": 24.64
+    },
+    {
+      "word": "you",
+      "start": 25.56,
+      "end": 26.1
+    },
+    {
+      "word": "can",
+      "start": 26.1,
+      "end": 26.5
+    },
+    {
+      "word": "go",
+      "start": 26.5,
+      "end": 26.98
+    },
+    {
+      "word": "across",
+      "start": 26.98,
+      "end": 27.54
+    },
+    {
+      "word": "i",
+      "start": 27.54,
+      "end": 28.96
+    },
+    {
+      "word": "can",
+      "start": 28.96,
+      "end": 29.42
+    },
+    {
+      "word": "go",
+      "start": 29.42,
+      "end": 29.78
+    },
+    {
+      "word": "with",
+      "start": 29.78,
+      "end": 30.08
+    },
+    {
+      "word": "you",
+      "start": 30.08,
+      "end": 30.32
+    }
+  ]
+}

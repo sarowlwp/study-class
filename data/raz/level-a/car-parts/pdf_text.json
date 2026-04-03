@@ -1,0 +1,54 @@
+{
+  "id": "level-a/car-parts",
+  "title": "Car Parts",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Car Parts Written by Rus Buyok wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Car Parts ID FD 1 Written by Rus Buyok wwwreadinga-Z.com"
+    },
+    {
+      "page": 3,
+      "text": "ChE A car has an engine: Car Parts Level A 3"
+    },
+    {
+      "page": 4,
+      "text": "A car has a trunk"
+    },
+    {
+      "page": 5,
+      "text": "Jettd 25 A car has lights. Car Parts Level A 5"
+    },
+    {
+      "page": 6,
+      "text": "A car has wheels."
+    },
+    {
+      "page": 7,
+      "text": "A car has doors: Car Parts Level A"
+    },
+    {
+      "page": 8,
+      "text": ". A car has windows. 8"
+    },
+    {
+      "page": 9,
+      "text": "A car has seats. Car Parts Level A"
+    },
+    {
+      "page": 10,
+      "text": "A car has seat belts. 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: All photos: Craig Frederick/@ Learning A-Z Car Parts Level A Leveled Book Correlation Learning A-Z LEVEL A Written by Rus Buyok Fountas & Pinnell A AIl rights reserved. Reading Recovery DRA A-1 wwwreadinga-z.com"
+    }
+  ]
+}

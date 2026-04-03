@@ -1,0 +1,176 @@
+{
+  "version": "1.0",
+  "total_words": 34,
+  "timings": [
+    {
+      "word": "i",
+      "start": 0.0,
+      "end": 0.88
+    },
+    {
+      "word": "can",
+      "start": 0.88,
+      "end": 1.46
+    },
+    {
+      "word": "written",
+      "start": 2.18,
+      "end": 2.52
+    },
+    {
+      "word": "by",
+      "start": 2.52,
+      "end": 3.0
+    },
+    {
+      "word": "bill",
+      "start": 3.0,
+      "end": 3.64
+    },
+    {
+      "word": "denardo",
+      "start": 3.64,
+      "end": 4.36
+    },
+    {
+      "word": "illustrated",
+      "start": 4.36,
+      "end": 5.44
+    },
+    {
+      "word": "by",
+      "start": 5.44,
+      "end": 6.18
+    },
+    {
+      "word": "nora",
+      "start": 6.18,
+      "end": 6.76
+    },
+    {
+      "word": "voodis",
+      "start": 6.76,
+      "end": 7.76
+    },
+    {
+      "word": "i",
+      "start": 8.74,
+      "end": 8.78
+    },
+    {
+      "word": "can",
+      "start": 8.78,
+      "end": 9.2
+    },
+    {
+      "word": "run",
+      "start": 9.2,
+      "end": 9.6
+    },
+    {
+      "word": "i",
+      "start": 10.18,
+      "end": 10.42
+    },
+    {
+      "word": "can",
+      "start": 10.42,
+      "end": 10.9
+    },
+    {
+      "word": "jump",
+      "start": 10.9,
+      "end": 11.34
+    },
+    {
+      "word": "i",
+      "start": 12.0,
+      "end": 12.42
+    },
+    {
+      "word": "can",
+      "start": 12.42,
+      "end": 12.98
+    },
+    {
+      "word": "swing",
+      "start": 12.98,
+      "end": 13.44
+    },
+    {
+      "word": "i",
+      "start": 14.08,
+      "end": 14.44
+    },
+    {
+      "word": "can",
+      "start": 14.44,
+      "end": 14.84
+    },
+    {
+      "word": "hop",
+      "start": 14.84,
+      "end": 15.32
+    },
+    {
+      "word": "i",
+      "start": 15.7,
+      "end": 15.98
+    },
+    {
+      "word": "can",
+      "start": 15.98,
+      "end": 16.38
+    },
+    {
+      "word": "ride",
+      "start": 16.38,
+      "end": 16.94
+    },
+    {
+      "word": "i",
+      "start": 17.54,
+      "end": 17.96
+    },
+    {
+      "word": "can",
+      "start": 17.96,
+      "end": 18.34
+    },
+    {
+      "word": "climb",
+      "start": 18.34,
+      "end": 18.86
+    },
+    {
+      "word": "i",
+      "start": 19.32,
+      "end": 19.8
+    },
+    {
+      "word": "can",
+      "start": 19.8,
+      "end": 20.34
+    },
+    {
+      "word": "crawl",
+      "start": 20.34,
+      "end": 20.98
+    },
+    {
+      "word": "i",
+      "start": 21.56,
+      "end": 21.9
+    },
+    {
+      "word": "can",
+      "start": 21.9,
+      "end": 22.24
+    },
+    {
+      "word": "play",
+      "start": 22.24,
+      "end": 22.72
+    }
+  ]
+}

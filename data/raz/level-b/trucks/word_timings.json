@@ -1,0 +1,441 @@
+{
+  "version": "1.0",
+  "total_words": 87,
+  "timings": [
+    {
+      "word": "trucks",
+      "start": 0.0,
+      "end": 0.82
+    },
+    {
+      "word": "written",
+      "start": 1.98,
+      "end": 2.24
+    },
+    {
+      "word": "by",
+      "start": 2.24,
+      "end": 2.96
+    },
+    {
+      "word": "marvin",
+      "start": 2.96,
+      "end": 3.5
+    },
+    {
+      "word": "d",
+      "start": 3.5,
+      "end": 4.32
+    },
+    {
+      "word": "bodner",
+      "start": 4.78,
+      "end": 5.46
+    },
+    {
+      "word": "focus",
+      "start": 6.9,
+      "end": 7.1
+    },
+    {
+      "word": "question",
+      "start": 7.1,
+      "end": 7.92
+    },
+    {
+      "word": "what",
+      "start": 8.86,
+      "end": 9.06
+    },
+    {
+      "word": "do",
+      "start": 9.06,
+      "end": 9.6
+    },
+    {
+      "word": "trucks",
+      "start": 9.6,
+      "end": 10.22
+    },
+    {
+      "word": "carry",
+      "start": 10.22,
+      "end": 10.96
+    },
+    {
+      "word": "some",
+      "start": 11.92,
+      "end": 11.92
+    },
+    {
+      "word": "trucks",
+      "start": 11.92,
+      "end": 12.98
+    },
+    {
+      "word": "carry",
+      "start": 12.98,
+      "end": 13.6
+    },
+    {
+      "word": "mail",
+      "start": 13.6,
+      "end": 14.42
+    },
+    {
+      "word": "some",
+      "start": 15.4,
+      "end": 15.72
+    },
+    {
+      "word": "trucks",
+      "start": 15.72,
+      "end": 16.74
+    },
+    {
+      "word": "carry",
+      "start": 16.74,
+      "end": 17.24
+    },
+    {
+      "word": "animals",
+      "start": 17.24,
+      "end": 18.06
+    },
+    {
+      "word": "some",
+      "start": 19.06,
+      "end": 19.62
+    },
+    {
+      "word": "trucks",
+      "start": 19.62,
+      "end": 20.24
+    },
+    {
+      "word": "carry",
+      "start": 20.24,
+      "end": 20.92
+    },
+    {
+      "word": "garbage",
+      "start": 20.92,
+      "end": 21.64
+    },
+    {
+      "word": "some",
+      "start": 22.6,
+      "end": 22.9
+    },
+    {
+      "word": "trucks",
+      "start": 22.9,
+      "end": 23.74
+    },
+    {
+      "word": "carry",
+      "start": 23.74,
+      "end": 24.28
+    },
+    {
+      "word": "logs",
+      "start": 24.28,
+      "end": 24.98
+    },
+    {
+      "word": "some",
+      "start": 24.98,
+      "end": 26.0
+    },
+    {
+      "word": "trucks",
+      "start": 26.0,
+      "end": 26.76
+    },
+    {
+      "word": "carry",
+      "start": 26.76,
+      "end": 27.38
+    },
+    {
+      "word": "cement",
+      "start": 27.38,
+      "end": 28.2
+    },
+    {
+      "word": "some",
+      "start": 29.0,
+      "end": 29.2
+    },
+    {
+      "word": "trucks",
+      "start": 29.2,
+      "end": 29.82
+    },
+    {
+      "word": "carry",
+      "start": 29.82,
+      "end": 30.6
+    },
+    {
+      "word": "ice",
+      "start": 30.6,
+      "end": 31.14
+    },
+    {
+      "word": "cream",
+      "start": 31.14,
+      "end": 31.72
+    },
+    {
+      "word": "some",
+      "start": 32.28,
+      "end": 32.52
+    },
+    {
+      "word": "trucks",
+      "start": 32.52,
+      "end": 33.22
+    },
+    {
+      "word": "carry",
+      "start": 33.22,
+      "end": 33.9
+    },
+    {
+      "word": "cars",
+      "start": 33.9,
+      "end": 34.64
+    },
+    {
+      "word": "some",
+      "start": 35.32,
+      "end": 35.66
+    },
+    {
+      "word": "trucks",
+      "start": 35.66,
+      "end": 36.32
+    },
+    {
+      "word": "carry",
+      "start": 36.32,
+      "end": 37.0
+    },
+    {
+      "word": "trucks",
+      "start": 37.0,
+      "end": 37.96
+    },
+    {
+      "word": "connections",
+      "start": 38.7,
+      "end": 39.0
+    },
+    {
+      "word": "writing",
+      "start": 40.34,
+      "end": 40.52
+    },
+    {
+      "word": "and",
+      "start": 40.52,
+      "end": 41.28
+    },
+    {
+      "word": "art",
+      "start": 41.28,
+      "end": 42.62
+    },
+    {
+      "word": "which",
+      "start": 43.52,
+      "end": 43.64
+    },
+    {
+      "word": "truck",
+      "start": 43.64,
+      "end": 44.22
+    },
+    {
+      "word": "from",
+      "start": 44.22,
+      "end": 44.72
+    },
+    {
+      "word": "the",
+      "start": 44.72,
+      "end": 44.96
+    },
+    {
+      "word": "book",
+      "start": 44.96,
+      "end": 45.32
+    },
+    {
+      "word": "is",
+      "start": 45.32,
+      "end": 45.88
+    },
+    {
+      "word": "your",
+      "start": 45.88,
+      "end": 46.26
+    },
+    {
+      "word": "favorite",
+      "start": 46.26,
+      "end": 46.72
+    },
+    {
+      "word": "why",
+      "start": 47.88,
+      "end": 48.28
+    },
+    {
+      "word": "draw",
+      "start": 49.46,
+      "end": 49.78
+    },
+    {
+      "word": "a",
+      "start": 49.78,
+      "end": 50.16
+    },
+    {
+      "word": "picture",
+      "start": 50.16,
+      "end": 50.52
+    },
+    {
+      "word": "and",
+      "start": 50.52,
+      "end": 51.18
+    },
+    {
+      "word": "write",
+      "start": 51.18,
+      "end": 51.52
+    },
+    {
+      "word": "about",
+      "start": 51.52,
+      "end": 51.96
+    },
+    {
+      "word": "it",
+      "start": 51.96,
+      "end": 52.92
+    },
+    {
+      "word": "math",
+      "start": 52.92,
+      "end": 54.32
+    },
+    {
+      "word": "count",
+      "start": 55.28,
+      "end": 55.56
+    },
+    {
+      "word": "the",
+      "start": 55.56,
+      "end": 56.0
+    },
+    {
+      "word": "trucks",
+      "start": 56.0,
+      "end": 56.4
+    },
+    {
+      "word": "in",
+      "start": 56.4,
+      "end": 56.94
+    },
+    {
+      "word": "this",
+      "start": 56.94,
+      "end": 57.22
+    },
+    {
+      "word": "book",
+      "start": 57.22,
+      "end": 57.84
+    },
+    {
+      "word": "then",
+      "start": 58.96,
+      "end": 59.2
+    },
+    {
+      "word": "sort",
+      "start": 59.2,
+      "end": 60.24
+    },
+    {
+      "word": "the",
+      "start": 60.24,
+      "end": 60.66
+    },
+    {
+      "word": "trucks",
+      "start": 60.66,
+      "end": 61.06
+    },
+    {
+      "word": "into",
+      "start": 61.06,
+      "end": 61.56
+    },
+    {
+      "word": "groups",
+      "start": 61.56,
+      "end": 62.16
+    },
+    {
+      "word": "based",
+      "start": 62.16,
+      "end": 62.9
+    },
+    {
+      "word": "on",
+      "start": 62.9,
+      "end": 63.2
+    },
+    {
+      "word": "their",
+      "start": 63.2,
+      "end": 63.46
+    },
+    {
+      "word": "what",
+      "start": 63.46,
+      "end": 64.88
+    },
+    {
+      "word": "they",
+      "start": 64.88,
+      "end": 65.28
+    },
+    {
+      "word": "carry",
+      "start": 65.28,
+      "end": 65.7
+    },
+    {
+      "word": "and",
+      "start": 66.48,
+      "end": 66.64
+    },
+    {
+      "word": "so",
+      "start": 66.64,
+      "end": 66.88
+    },
+    {
+      "word": "on",
+      "start": 66.88,
+      "end": 67.2
+    }
+  ]
+}

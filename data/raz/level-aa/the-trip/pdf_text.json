@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/the-trip",
+  "title": "The Trip",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book 0 A0 The Trip Written by Laura Tully Zwickl Illustrated by Nora Voutas wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "The Trip Written by Laura Tully Zwickl Illustrated Nora Voutas wwwreadinga-z.com by"
+    },
+    {
+      "page": 3,
+      "text": "The clothes_ The Level aa 3 Trip"
+    },
+    {
+      "page": 4,
+      "text": "The suitcase."
+    },
+    {
+      "page": 5,
+      "text": "End 40 17 n ^ ^ ^ START The map. The Level aa 5 clc 2 Trip"
+    },
+    {
+      "page": 6,
+      "text": "I The car"
+    },
+    {
+      "page": 7,
+      "text": "The seat belt. The Level aa Trip"
+    },
+    {
+      "page": 8,
+      "text": "The 8 dog:;"
+    },
+    {
+      "page": 9,
+      "text": "The book. The Level aa 2 BuGs Trip"
+    },
+    {
+      "page": 10,
+      "text": "LA Ixi N The grandparents. 10"
+    },
+    {
+      "page": 11,
+      "text": "The Level aa Leveled Book @ Learning A-Z Correlation Written by Laura Tully Zwickl LEVEL aa Illustrated by Nora Voutas Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-zcom Trip"
+    }
+  ]
+}

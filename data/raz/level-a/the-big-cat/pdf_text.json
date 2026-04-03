@@ -1,0 +1,54 @@
+{
+  "id": "level-a/the-big-cat",
+  "title": "The Big Cat",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A The Cat Written and Illustrated by Nora Voutas wwwreadinga-z.com Big"
+    },
+    {
+      "page": 2,
+      "text": "The Big Cat 26\" Written and Illustrated Nora Voutas wwwreadinga-z.com by"
+    },
+    {
+      "page": 3,
+      "text": "The big cat plays. The Big Cat LevelA 3 3u3 )) ~S"
+    },
+    {
+      "page": 4,
+      "text": ")) The big cat hides:"
+    },
+    {
+      "page": 5,
+      "text": "The big cat eats. The Big Cat LevelA 5"
+    },
+    {
+      "page": 6,
+      "text": "jJ The big cat looks. 6"
+    },
+    {
+      "page": 7,
+      "text": "(( The big cat climbs. The Big Cat LevelA"
+    },
+    {
+      "page": 8,
+      "text": "The big cat runs. 8 2"
+    },
+    {
+      "page": 9,
+      "text": "26\" The big cat cleans. The Big Cat LevelA "
+    },
+    {
+      "page": 10,
+      "text": "L 2 1 (\" The big cat 10 sleeps:"
+    },
+    {
+      "page": 11,
+      "text": "The Cat Level A Leveled Book Learning A-Z Correlation Written by Nora Voutas LEVEL A Illustrated by Voutas Fountas & Pinnell A AIl rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-z.com Big Nora"
+    }
+  ]
+}

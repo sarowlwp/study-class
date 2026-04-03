@@ -1,0 +1,141 @@
+{
+  "version": "1.0",
+  "total_words": 27,
+  "timings": [
+    {
+      "word": "my",
+      "start": 0.0,
+      "end": 0.36
+    },
+    {
+      "word": "family",
+      "start": 0.36,
+      "end": 1.22
+    },
+    {
+      "word": "written",
+      "start": 2.12,
+      "end": 2.34
+    },
+    {
+      "word": "by",
+      "start": 2.34,
+      "end": 3.04
+    },
+    {
+      "word": "cheryl",
+      "start": 3.04,
+      "end": 3.58
+    },
+    {
+      "word": "ryan",
+      "start": 3.58,
+      "end": 4.7
+    },
+    {
+      "word": "illustrated",
+      "start": 5.52,
+      "end": 6.08
+    },
+    {
+      "word": "by",
+      "start": 6.08,
+      "end": 6.86
+    },
+    {
+      "word": "nora",
+      "start": 6.86,
+      "end": 7.44
+    },
+    {
+      "word": "bhutas",
+      "start": 7.44,
+      "end": 8.5
+    },
+    {
+      "word": "my",
+      "start": 10.86,
+      "end": 11.06
+    },
+    {
+      "word": "mother",
+      "start": 11.06,
+      "end": 12.08
+    },
+    {
+      "word": "my",
+      "start": 14.36,
+      "end": 14.42
+    },
+    {
+      "word": "father",
+      "start": 14.42,
+      "end": 15.62
+    },
+    {
+      "word": "my",
+      "start": 17.62,
+      "end": 17.74
+    },
+    {
+      "word": "brother",
+      "start": 17.74,
+      "end": 18.32
+    },
+    {
+      "word": "my",
+      "start": 20.8,
+      "end": 21.04
+    },
+    {
+      "word": "sister",
+      "start": 21.04,
+      "end": 21.68
+    },
+    {
+      "word": "my",
+      "start": 24.28,
+      "end": 24.52
+    },
+    {
+      "word": "grandfather",
+      "start": 24.52,
+      "end": 25.54
+    },
+    {
+      "word": "my",
+      "start": 25.54,
+      "end": 28.32
+    },
+    {
+      "word": "grandmother",
+      "start": 28.32,
+      "end": 29.5
+    },
+    {
+      "word": "me",
+      "start": 32.14,
+      "end": 32.76
+    },
+    {
+      "word": "my",
+      "start": 33.08,
+      "end": 34.98
+    },
+    {
+      "word": "family",
+      "start": 34.98,
+      "end": 35.5
+    },
+    {
+      "word": "and",
+      "start": 36.24,
+      "end": 36.24
+    },
+    {
+      "word": "me",
+      "start": 36.24,
+      "end": 36.68
+    }
+  ]
+}

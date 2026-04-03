@@ -1,0 +1,136 @@
+{
+  "version": "1.0",
+  "total_words": 26,
+  "timings": [
+    {
+      "word": "4",
+      "start": 2.0,
+      "end": 3.4
+    },
+    {
+      "word": "written",
+      "start": 4.04,
+      "end": 4.42
+    },
+    {
+      "word": "by",
+      "start": 4.42,
+      "end": 4.88
+    },
+    {
+      "word": "marianne",
+      "start": 4.88,
+      "end": 5.64
+    },
+    {
+      "word": "marazzi",
+      "start": 5.64,
+      "end": 6.32
+    },
+    {
+      "word": "illustrated",
+      "start": 6.66,
+      "end": 7.7
+    },
+    {
+      "word": "by",
+      "start": 7.7,
+      "end": 8.08
+    },
+    {
+      "word": "luciana",
+      "start": 8.08,
+      "end": 9.0
+    },
+    {
+      "word": "navarro",
+      "start": 9.0,
+      "end": 9.9
+    },
+    {
+      "word": "powell",
+      "start": 9.9,
+      "end": 10.94
+    },
+    {
+      "word": "4",
+      "start": 17.76,
+      "end": 18.46
+    },
+    {
+      "word": "busses",
+      "start": 19.12,
+      "end": 20.28
+    },
+    {
+      "word": "4",
+      "start": 27.84,
+      "end": 29.24
+    },
+    {
+      "word": "wagons",
+      "start": 29.24,
+      "end": 30.64
+    },
+    {
+      "word": "4",
+      "start": 36.74,
+      "end": 38.14
+    },
+    {
+      "word": "cars",
+      "start": 38.14,
+      "end": 38.84
+    },
+    {
+      "word": "4",
+      "start": 45.64,
+      "end": 47.04
+    },
+    {
+      "word": "cars",
+      "start": 47.04,
+      "end": 48.22
+    },
+    {
+      "word": "4",
+      "start": 52.98,
+      "end": 54.38
+    },
+    {
+      "word": "airplanes",
+      "start": 54.38,
+      "end": 55.22
+    },
+    {
+      "word": "4",
+      "start": 62.3,
+      "end": 63.7
+    },
+    {
+      "word": "boats",
+      "start": 63.7,
+      "end": 64.4
+    },
+    {
+      "word": "4",
+      "start": 70.86,
+      "end": 72.26
+    },
+    {
+      "word": "tracks",
+      "start": 72.26,
+      "end": 73.66
+    },
+    {
+      "word": "or",
+      "start": 80.32,
+      "end": 81.72
+    },
+    {
+      "word": "vans",
+      "start": 81.72,
+      "end": 82.96
+    }
+  ]
+}

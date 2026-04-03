@@ -1,0 +1,54 @@
+{
+  "id": "level-c/water-fight",
+  "title": "Water Fight",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C Water Fighil Written by Harriet Rosenbloom Illustrated by Felicia Cano wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Water Fightl Written by Harriet Rosenbloom Illustrated by Felicia Cano wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "Jasmine soaked with a bath Water Fightl Level € 3 got toy:"
+    },
+    {
+      "page": 4,
+      "text": "0 Pancho soaked with a sponge: \" got"
+    },
+    {
+      "page": 5,
+      "text": "0 Emma soaked with a squirt gun: Water Fightl Level € 5 got"
+    },
+    {
+      "page": 6,
+      "text": "7 73 Qt Luis soaked with a noodle: 2 got"
+    },
+    {
+      "page": 7,
+      "text": "U Jacob soaked with a water balloon: Water Fightl Level € got"
+    },
+    {
+      "page": 8,
+      "text": "3 William soaked with a bucket: 8 got"
+    },
+    {
+      "page": 9,
+      "text": "Nora soaked with a hose. Water Fightl Level € got"
+    },
+    {
+      "page": 10,
+      "text": "0 Madison soaked everyonel 10 got by"
+    },
+    {
+      "page": 11,
+      "text": "Water Fightl Level C Leveled Book 0 Learning A-Z Correlation Written by Harriet Rosenbloom LEVEL C Illustrated by Felicia Cano Fountas & Pinnell All rights reserved. Reading Recovery 3-4 DRA 3-4 www.readinga-z.com"
+    }
+  ]
+}

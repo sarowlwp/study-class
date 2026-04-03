@@ -1,0 +1,58 @@
+{
+  "id": "level-b/healthy-snacks",
+  "title": "Healthy Snacks",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Healthy Snacks Written by Nigel Pepperhouse wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Healthy Snacks Written by Nigel Pepperhouse wwwreadinga-z.com Focus Question What snacks can be healthy?"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know celery healthy cereal seeds cheese snacks Photo Credits: Front cover: @ Ian Allenden/Alamy Stock Photo; title page: @ Ross Whitaker/ The Image Bank/Getty Images; page 3: @ WiroKlyngz/iStock /Thinkstock; page 4: @ Francisco Romero/E+/Getty Images; page 5: @ National Geographic Creative/Alamy Stock Photo; page 6: @ Petr Zamecnik/Dreamstime.com; page 7: @ Kelly Sillaste/Moment/Getty Images; page 8: @ Geoff du Feu/Alamy Stock Photo; page %: Blend Images/Alamy Stock Photo; page 10: Jupiterimages/Pixland/Thinkstock Healthy Snacks Level B Leveled Book Correlation Learning A-Z LEVEL B Written by Nigel Pepperhouse Fountas & Pinnell B All rights reserved. Reading Recovery 2 DRA 2 www.readinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "Apples can be healthy: Healthy Snacks Level B 3"
+    },
+    {
+      "page": 5,
+      "text": "Celery can be healthy:"
+    },
+    {
+      "page": 6,
+      "text": "Nuts can be healthy: Healthy Snacks Level B 5"
+    },
+    {
+      "page": 7,
+      "text": "Seeds can be healthy: 6"
+    },
+    {
+      "page": 8,
+      "text": "Cheese can be healthy: Healthy Snacks Level B 7"
+    },
+    {
+      "page": 9,
+      "text": "Carrots can be healthy: 8"
+    },
+    {
+      "page": 10,
+      "text": "Cereal can be healthy: Healthy Snacks Level B 9"
+    },
+    {
+      "page": 11,
+      "text": "Healthy snacks taste 10 goodl"
+    },
+    {
+      "page": 12,
+      "text": "Healthy Snacks A Reading A-Z Level B Leveled Book Word Count: 32 Connections Writing and Art What is your favorite healthy snack? Draw a picture and write about it. Math Sort the foods from the book into different groups. Share your ideas with a partner: Reading A-z Visit www.readinga-z.com for thousands of books and materials."
+    }
+  ]
+}

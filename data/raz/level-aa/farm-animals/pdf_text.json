@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/farm-animals",
+  "title": "Farm Animals",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book 0 Aa Farm Animals DK Written by Cheryl Ryan Illustrated by Nora Voutas wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Farm Animals Written by Cheryl Ryan Illustrated Nora Voutas wwwreadinga-z.com '8 by"
+    },
+    {
+      "page": 3,
+      "text": "@ The Farm Animals Level aa 3 dog_"
+    },
+    {
+      "page": 4,
+      "text": "a The pig_"
+    },
+    {
+      "page": 5,
+      "text": "The chicken_ Farm Animals Level aa 5 4"
+    },
+    {
+      "page": 6,
+      "text": "( [ The \"33 goat_"
+    },
+    {
+      "page": 7,
+      "text": "The COW _ Farm Animals Level aa"
+    },
+    {
+      "page": 8,
+      "text": "(( A\" The duck. 8"
+    },
+    {
+      "page": 9,
+      "text": "{( ( ( The Farm Animals Level aa sheep_"
+    },
+    {
+      "page": 10,
+      "text": "The animals. 10 Oi"
+    },
+    {
+      "page": 11,
+      "text": "Farm Animals Level aa Leveled Book Learning A-Z Correlation Written by Cheryl Ryan LEVEL aa Illustrated by Nora Voutas Fountas & Pinnell A AIl rights reserved. Reading Recovery 1 DRA A-1 WWW.R readinga-z.com"
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "version": "1.0",
+  "total_words": 52,
+  "timings": [
+    {
+      "word": "yours",
+      "start": 0.0,
+      "end": 0.84
+    },
+    {
+      "word": "or",
+      "start": 1.7,
+      "end": 2.14
+    },
+    {
+      "word": "mine",
+      "start": 2.14,
+      "end": 3.3
+    },
+    {
+      "word": "written",
+      "start": 4.04,
+      "end": 4.36
+    },
+    {
+      "word": "by",
+      "start": 4.36,
+      "end": 5.16
+    },
+    {
+      "word": "ed",
+      "start": 5.16,
+      "end": 6.16
+    },
+    {
+      "word": "evans",
+      "start": 6.16,
+      "end": 7.5
+    },
+    {
+      "word": "illustrated",
+      "start": 8.42,
+      "end": 9.3
+    },
+    {
+      "word": "by",
+      "start": 9.3,
+      "end": 10.24
+    },
+    {
+      "word": "violet",
+      "start": 10.24,
+      "end": 11.66
+    },
+    {
+      "word": "lamey",
+      "start": 11.66,
+      "end": 13.02
+    },
+    {
+      "word": "this",
+      "start": 13.14,
+      "end": 13.48
+    },
+    {
+      "word": "bed",
+      "start": 13.48,
+      "end": 14.42
+    },
+    {
+      "word": "is",
+      "start": 14.42,
+      "end": 15.18
+    },
+    {
+      "word": "my",
+      "start": 15.18,
+      "end": 16.04
+    },
+    {
+      "word": "bed",
+      "start": 16.04,
+      "end": 16.94
+    },
+    {
+      "word": "this",
+      "start": 17.92,
+      "end": 17.92
+    },
+    {
+      "word": "bed",
+      "start": 17.92,
+      "end": 18.78
+    },
+    {
+      "word": "is",
+      "start": 18.78,
+      "end": 19.7
+    },
+    {
+      "word": "your",
+      "start": 19.7,
+      "end": 20.7
+    },
+    {
+      "word": "bed",
+      "start": 20.7,
+      "end": 21.62
+    },
+    {
+      "word": "this",
+      "start": 22.46,
+      "end": 22.46
+    },
+    {
+      "word": "food",
+      "start": 22.46,
+      "end": 23.26
+    },
+    {
+      "word": "is",
+      "start": 23.26,
+      "end": 24.38
+    },
+    {
+      "word": "my",
+      "start": 24.38,
+      "end": 25.28
+    },
+    {
+      "word": "food",
+      "start": 25.28,
+      "end": 26.26
+    },
+    {
+      "word": "this",
+      "start": 26.82,
+      "end": 27.08
+    },
+    {
+      "word": "food",
+      "start": 27.08,
+      "end": 27.94
+    },
+    {
+      "word": "is",
+      "start": 27.94,
+      "end": 29.02
+    },
+    {
+      "word": "your",
+      "start": 29.02,
+      "end": 29.82
+    },
+    {
+      "word": "food",
+      "start": 29.82,
+      "end": 30.72
+    },
+    {
+      "word": "this",
+      "start": 31.26,
+      "end": 31.68
+    },
+    {
+      "word": "tail",
+      "start": 31.68,
+      "end": 32.68
+    },
+    {
+      "word": "is",
+      "start": 32.68,
+      "end": 33.62
+    },
+    {
+      "word": "my",
+      "start": 33.62,
+      "end": 34.42
+    },
+    {
+      "word": "tail",
+      "start": 34.42,
+      "end": 35.36
+    },
+    {
+      "word": "this",
+      "start": 35.84,
+      "end": 36.3
+    },
+    {
+      "word": "tail",
+      "start": 36.3,
+      "end": 37.32
+    },
+    {
+      "word": "is",
+      "start": 37.32,
+      "end": 38.18
+    },
+    {
+      "word": "your",
+      "start": 38.18,
+      "end": 39.04
+    },
+    {
+      "word": "tail",
+      "start": 39.04,
+      "end": 40.0
+    },
+    {
+      "word": "this",
+      "start": 40.0,
+      "end": 40.96
+    },
+    {
+      "word": "room",
+      "start": 40.96,
+      "end": 41.86
+    },
+    {
+      "word": "is",
+      "start": 41.86,
+      "end": 43.08
+    },
+    {
+      "word": "my",
+      "start": 43.08,
+      "end": 43.96
+    },
+    {
+      "word": "room",
+      "start": 43.96,
+      "end": 44.82
+    },
+    {
+      "word": "this",
+      "start": 45.5,
+      "end": 45.86
+    },
+    {
+      "word": "room",
+      "start": 45.86,
+      "end": 46.68
+    },
+    {
+      "word": "is",
+      "start": 46.68,
+      "end": 47.78
+    },
+    {
+      "word": "your",
+      "start": 47.78,
+      "end": 48.66
+    },
+    {
+      "word": "room",
+      "start": 48.66,
+      "end": 49.74
+    },
+    {
+      "word": "too",
+      "start": 49.74,
+      "end": 50.44
+    }
+  ]
+}

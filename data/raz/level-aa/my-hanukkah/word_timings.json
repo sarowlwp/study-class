@@ -1,0 +1,326 @@
+{
+  "version": "1.0",
+  "total_words": 64,
+  "timings": [
+    {
+      "word": "my",
+      "start": 0.0,
+      "end": 0.54
+    },
+    {
+      "word": "hanukkah",
+      "start": 0.54,
+      "end": 2.6
+    },
+    {
+      "word": "written",
+      "start": 3.44,
+      "end": 3.74
+    },
+    {
+      "word": "by",
+      "start": 3.74,
+      "end": 4.78
+    },
+    {
+      "word": "elizabeth",
+      "start": 4.78,
+      "end": 5.42
+    },
+    {
+      "word": "jane",
+      "start": 5.42,
+      "end": 6.74
+    },
+    {
+      "word": "pustilnick",
+      "start": 6.74,
+      "end": 8.76
+    },
+    {
+      "word": "illustrated",
+      "start": 9.76,
+      "end": 10.46
+    },
+    {
+      "word": "by",
+      "start": 10.46,
+      "end": 11.58
+    },
+    {
+      "word": "jennifer",
+      "start": 11.58,
+      "end": 12.14
+    },
+    {
+      "word": "zavoyan",
+      "start": 12.14,
+      "end": 13.94
+    },
+    {
+      "word": "focus",
+      "start": 15.54,
+      "end": 15.82
+    },
+    {
+      "word": "question",
+      "start": 15.82,
+      "end": 16.7
+    },
+    {
+      "word": "what",
+      "start": 17.82,
+      "end": 18.14
+    },
+    {
+      "word": "can",
+      "start": 18.14,
+      "end": 18.92
+    },
+    {
+      "word": "you",
+      "start": 18.92,
+      "end": 19.56
+    },
+    {
+      "word": "see",
+      "start": 19.56,
+      "end": 20.6
+    },
+    {
+      "word": "during",
+      "start": 20.6,
+      "end": 21.56
+    },
+    {
+      "word": "hanukkah",
+      "start": 21.56,
+      "end": 22.76
+    },
+    {
+      "word": "my",
+      "start": 22.76,
+      "end": 23.38
+    },
+    {
+      "word": "family",
+      "start": 23.38,
+      "end": 25.42
+    },
+    {
+      "word": "my",
+      "start": 27.08,
+      "end": 27.08
+    },
+    {
+      "word": "candle",
+      "start": 27.08,
+      "end": 28.08
+    },
+    {
+      "word": "my",
+      "start": 28.72,
+      "end": 29.2
+    },
+    {
+      "word": "bread",
+      "start": 29.2,
+      "end": 30.62
+    },
+    {
+      "word": "my",
+      "start": 31.12,
+      "end": 31.76
+    },
+    {
+      "word": "toy",
+      "start": 31.76,
+      "end": 33.0
+    },
+    {
+      "word": "my",
+      "start": 33.6,
+      "end": 34.06
+    },
+    {
+      "word": "gift",
+      "start": 34.06,
+      "end": 35.16
+    },
+    {
+      "word": "my",
+      "start": 35.68,
+      "end": 36.46
+    },
+    {
+      "word": "candy",
+      "start": 36.46,
+      "end": 37.4
+    },
+    {
+      "word": "my",
+      "start": 37.98,
+      "end": 38.94
+    },
+    {
+      "word": "cookie",
+      "start": 38.94,
+      "end": 39.96
+    },
+    {
+      "word": "my",
+      "start": 40.64,
+      "end": 41.42
+    },
+    {
+      "word": "hanukkah",
+      "start": 41.42,
+      "end": 42.62
+    },
+    {
+      "word": "connections",
+      "start": 42.88,
+      "end": 43.52
+    },
+    {
+      "word": "riding",
+      "start": 43.52,
+      "end": 44.88
+    },
+    {
+      "word": "and",
+      "start": 44.88,
+      "end": 45.7
+    },
+    {
+      "word": "art",
+      "start": 45.7,
+      "end": 46.58
+    },
+    {
+      "word": "draw",
+      "start": 47.44,
+      "end": 47.58
+    },
+    {
+      "word": "a",
+      "start": 47.58,
+      "end": 48.06
+    },
+    {
+      "word": "picture",
+      "start": 48.06,
+      "end": 48.48
+    },
+    {
+      "word": "of",
+      "start": 48.48,
+      "end": 49.18
+    },
+    {
+      "word": "hanukkah",
+      "start": 49.18,
+      "end": 49.78
+    },
+    {
+      "word": "and",
+      "start": 49.78,
+      "end": 50.74
+    },
+    {
+      "word": "write",
+      "start": 50.74,
+      "end": 51.2
+    },
+    {
+      "word": "about",
+      "start": 51.2,
+      "end": 51.72
+    },
+    {
+      "word": "it",
+      "start": 51.72,
+      "end": 52.66
+    },
+    {
+      "word": "social",
+      "start": 53.26,
+      "end": 53.5
+    },
+    {
+      "word": "studies",
+      "start": 53.5,
+      "end": 54.2
+    },
+    {
+      "word": "what",
+      "start": 55.34,
+      "end": 55.46
+    },
+    {
+      "word": "holidays",
+      "start": 55.46,
+      "end": 56.36
+    },
+    {
+      "word": "do",
+      "start": 56.36,
+      "end": 56.9
+    },
+    {
+      "word": "you",
+      "start": 56.9,
+      "end": 57.4
+    },
+    {
+      "word": "celebrate",
+      "start": 57.4,
+      "end": 57.88
+    },
+    {
+      "word": "with",
+      "start": 57.88,
+      "end": 58.7
+    },
+    {
+      "word": "your",
+      "start": 58.7,
+      "end": 59.1
+    },
+    {
+      "word": "family",
+      "start": 59.1,
+      "end": 59.8
+    },
+    {
+      "word": "share",
+      "start": 60.9,
+      "end": 61.18
+    },
+    {
+      "word": "your",
+      "start": 61.18,
+      "end": 61.8
+    },
+    {
+      "word": "ideas",
+      "start": 61.8,
+      "end": 62.36
+    },
+    {
+      "word": "with",
+      "start": 62.36,
+      "end": 63.14
+    },
+    {
+      "word": "a",
+      "start": 63.14,
+      "end": 63.56
+    },
+    {
+      "word": "partner",
+      "start": 63.56,
+      "end": 63.94
+    }
+  ]
+}

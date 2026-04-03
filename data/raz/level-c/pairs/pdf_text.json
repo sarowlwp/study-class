@@ -1,0 +1,54 @@
+{
+  "id": "level-c/pairs",
+  "title": "Pairs",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C Pairs Written by Anthony Curran wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Pairs Written by Anthony Curran WWWreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "Two socks make one pair of socks. Pairs Level C 3"
+    },
+    {
+      "page": 4,
+      "text": "Two shoes make one pair of shoes."
+    },
+    {
+      "page": 5,
+      "text": "00 U 8S 15 SS Two gloves make one of gloves: Pairs Level C 5 S3 pair"
+    },
+    {
+      "page": 6,
+      "text": "Two skates make one of skates: pair"
+    },
+    {
+      "page": 7,
+      "text": "Two dice make one of dice. Pairs Level C pair"
+    },
+    {
+      "page": 8,
+      "text": "Two wings make one pair of 8 wings."
+    },
+    {
+      "page": 9,
+      "text": "Two eyes make one pair of eyes: Pairs Level C"
+    },
+    {
+      "page": 10,
+      "text": "Two twins make one of twins. 10 pair"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: All photos: Craig Frederick/@ Learning A-Z Pairs Level C Leveled Book Correlation Learning A-Z LEVEL C Written by Anthony Curran Fountas & Pinnell C AIl rights reserved. Reading Recovery 3-4 DRA 3-4 wwwreadinga-z.com"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "level-b/the-new-forest-path",
+  "title": "The New Forest Path",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B The New Forest Path Written by Maribeth Boelts wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "The New Forest Path Written Maribeth Boelts wwwreadinga-z.com by"
+    },
+    {
+      "page": 3,
+      "text": "We see a new forest path: The New Forest Path Level B 3"
+    },
+    {
+      "page": 4,
+      "text": "We see big trees by the path"
+    },
+    {
+      "page": 5,
+      "text": "We see small bugs by the The New Forest Path Level B 5 path_"
+    },
+    {
+      "page": 6,
+      "text": "We see green moss by the path_"
+    },
+    {
+      "page": 7,
+      "text": "We see brown birds by the The New Forest Path Level B path_"
+    },
+    {
+      "page": 8,
+      "text": "We see old leaves by the path: 8"
+    },
+    {
+      "page": 9,
+      "text": "0 We see new flowers by the The New Forest Path Level B path_"
+    },
+    {
+      "page": 10,
+      "text": "We see our dog by the path 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover; page 4: @ Natallia Yeumenenka/123RF; back cover; page 3: @ iStockphotocom/fotoVoyager; title page; page 7: @ Donaldarl Dreamstime.com; page 5: @ Brendan Rivison/Dreamstimecom; page 6: @ iStockphoto.com/Chris Wolf; page 8: @ iStockphotocom/Vladimir Caplinskij; page 9: @ Sarah Allison/123RF; page 10: @ iStockphotocom/CountryStyle Photography The New Forest Path Level B Leveled Book Correlation @ Learning A-Z LEVEL B Written by Maribeth Boelts Fountas & Pinnell B All rights reserved: Reading Recovery 2 DRA 2 wwwreadinga-zcom"
+    }
+  ]
+}

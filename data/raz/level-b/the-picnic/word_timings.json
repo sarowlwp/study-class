@@ -1,0 +1,276 @@
+{
+  "version": "1.0",
+  "total_words": 54,
+  "timings": [
+    {
+      "word": "the",
+      "start": 0.0,
+      "end": 0.26
+    },
+    {
+      "word": "picnic",
+      "start": 0.26,
+      "end": 0.94
+    },
+    {
+      "word": "written",
+      "start": 1.56,
+      "end": 1.76
+    },
+    {
+      "word": "by",
+      "start": 1.76,
+      "end": 2.16
+    },
+    {
+      "word": "ned",
+      "start": 2.16,
+      "end": 2.62
+    },
+    {
+      "word": "johnson",
+      "start": 2.62,
+      "end": 3.22
+    },
+    {
+      "word": "illustrated",
+      "start": 4.0,
+      "end": 4.42
+    },
+    {
+      "word": "by",
+      "start": 4.42,
+      "end": 4.96
+    },
+    {
+      "word": "sydney",
+      "start": 4.96,
+      "end": 5.64
+    },
+    {
+      "word": "norton",
+      "start": 5.64,
+      "end": 6.92
+    },
+    {
+      "word": "ted",
+      "start": 9.08,
+      "end": 9.14
+    },
+    {
+      "word": "and",
+      "start": 9.14,
+      "end": 9.62
+    },
+    {
+      "word": "peg",
+      "start": 9.62,
+      "end": 10.0
+    },
+    {
+      "word": "go",
+      "start": 10.0,
+      "end": 10.42
+    },
+    {
+      "word": "on",
+      "start": 10.42,
+      "end": 10.62
+    },
+    {
+      "word": "a",
+      "start": 10.62,
+      "end": 10.74
+    },
+    {
+      "word": "picnic",
+      "start": 10.74,
+      "end": 11.18
+    },
+    {
+      "word": "peg",
+      "start": 11.72,
+      "end": 11.98
+    },
+    {
+      "word": "gets",
+      "start": 11.98,
+      "end": 12.4
+    },
+    {
+      "word": "a",
+      "start": 12.4,
+      "end": 12.68
+    },
+    {
+      "word": "picnic",
+      "start": 12.68,
+      "end": 12.96
+    },
+    {
+      "word": "basket",
+      "start": 12.96,
+      "end": 13.62
+    },
+    {
+      "word": "ted",
+      "start": 15.42,
+      "end": 15.58
+    },
+    {
+      "word": "puts",
+      "start": 15.58,
+      "end": 16.06
+    },
+    {
+      "word": "in",
+      "start": 16.06,
+      "end": 16.36
+    },
+    {
+      "word": "cheese",
+      "start": 16.36,
+      "end": 17.04
+    },
+    {
+      "word": "peg",
+      "start": 18.72,
+      "end": 18.82
+    },
+    {
+      "word": "puts",
+      "start": 18.82,
+      "end": 19.16
+    },
+    {
+      "word": "in",
+      "start": 19.16,
+      "end": 19.46
+    },
+    {
+      "word": "sandwiches",
+      "start": 19.46,
+      "end": 19.94
+    },
+    {
+      "word": "ted",
+      "start": 21.82,
+      "end": 22.0
+    },
+    {
+      "word": "puts",
+      "start": 22.0,
+      "end": 22.52
+    },
+    {
+      "word": "in",
+      "start": 22.52,
+      "end": 22.84
+    },
+    {
+      "word": "ships",
+      "start": 22.84,
+      "end": 23.28
+    },
+    {
+      "word": "peg",
+      "start": 24.84,
+      "end": 25.2
+    },
+    {
+      "word": "puts",
+      "start": 25.2,
+      "end": 25.6
+    },
+    {
+      "word": "in",
+      "start": 25.6,
+      "end": 25.92
+    },
+    {
+      "word": "soda",
+      "start": 25.92,
+      "end": 26.14
+    },
+    {
+      "word": "pop",
+      "start": 26.14,
+      "end": 26.7
+    },
+    {
+      "word": "dad",
+      "start": 27.64,
+      "end": 28.4
+    },
+    {
+      "word": "puts",
+      "start": 28.4,
+      "end": 28.8
+    },
+    {
+      "word": "in",
+      "start": 28.8,
+      "end": 29.24
+    },
+    {
+      "word": "apples",
+      "start": 29.24,
+      "end": 29.78
+    },
+    {
+      "word": "peg",
+      "start": 31.52,
+      "end": 31.8
+    },
+    {
+      "word": "puts",
+      "start": 31.8,
+      "end": 32.2
+    },
+    {
+      "word": "in",
+      "start": 32.2,
+      "end": 32.62
+    },
+    {
+      "word": "cookies",
+      "start": 32.62,
+      "end": 33.1
+    },
+    {
+      "word": "who",
+      "start": 34.82,
+      "end": 34.96
+    },
+    {
+      "word": "put",
+      "start": 34.96,
+      "end": 35.24
+    },
+    {
+      "word": "the",
+      "start": 35.24,
+      "end": 35.54
+    },
+    {
+      "word": "mouse",
+      "start": 35.54,
+      "end": 35.84
+    },
+    {
+      "word": "in",
+      "start": 35.84,
+      "end": 36.14
+    },
+    {
+      "word": "the",
+      "start": 36.14,
+      "end": 36.3
+    },
+    {
+      "word": "basket",
+      "start": 36.3,
+      "end": 36.66
+    }
+  ]
+}

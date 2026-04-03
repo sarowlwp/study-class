@@ -1,0 +1,186 @@
+{
+  "version": "1.0",
+  "total_words": 36,
+  "timings": [
+    {
+      "word": "who",
+      "start": 0.0,
+      "end": 0.6
+    },
+    {
+      "word": "has",
+      "start": 0.6,
+      "end": 1.32
+    },
+    {
+      "word": "it",
+      "start": 1.32,
+      "end": 2.16
+    },
+    {
+      "word": "written",
+      "start": 2.16,
+      "end": 3.1
+    },
+    {
+      "word": "by",
+      "start": 3.1,
+      "end": 3.86
+    },
+    {
+      "word": "anthony",
+      "start": 3.86,
+      "end": 4.42
+    },
+    {
+      "word": "curran",
+      "start": 4.42,
+      "end": 5.98
+    },
+    {
+      "word": "illustrated",
+      "start": 6.48,
+      "end": 6.96
+    },
+    {
+      "word": "by",
+      "start": 6.96,
+      "end": 7.56
+    },
+    {
+      "word": "linda",
+      "start": 7.56,
+      "end": 7.98
+    },
+    {
+      "word": "sylvestery",
+      "start": 7.98,
+      "end": 9.34
+    },
+    {
+      "word": "who",
+      "start": 9.66,
+      "end": 10.12
+    },
+    {
+      "word": "has",
+      "start": 10.12,
+      "end": 10.64
+    },
+    {
+      "word": "it",
+      "start": 10.64,
+      "end": 11.3
+    },
+    {
+      "word": "i",
+      "start": 11.46,
+      "end": 11.94
+    },
+    {
+      "word": "have",
+      "start": 11.94,
+      "end": 12.48
+    },
+    {
+      "word": "it",
+      "start": 12.48,
+      "end": 13.12
+    },
+    {
+      "word": "you",
+      "start": 13.48,
+      "end": 13.8
+    },
+    {
+      "word": "have",
+      "start": 13.8,
+      "end": 14.48
+    },
+    {
+      "word": "it",
+      "start": 14.48,
+      "end": 15.16
+    },
+    {
+      "word": "he",
+      "start": 15.34,
+      "end": 15.68
+    },
+    {
+      "word": "has",
+      "start": 15.68,
+      "end": 16.4
+    },
+    {
+      "word": "it",
+      "start": 16.4,
+      "end": 17.04
+    },
+    {
+      "word": "she",
+      "start": 17.24,
+      "end": 17.7
+    },
+    {
+      "word": "has",
+      "start": 17.7,
+      "end": 18.56
+    },
+    {
+      "word": "it",
+      "start": 18.56,
+      "end": 19.24
+    },
+    {
+      "word": "they",
+      "start": 19.5,
+      "end": 19.94
+    },
+    {
+      "word": "have",
+      "start": 19.94,
+      "end": 20.8
+    },
+    {
+      "word": "it",
+      "start": 20.8,
+      "end": 21.36
+    },
+    {
+      "word": "we",
+      "start": 21.64,
+      "end": 21.96
+    },
+    {
+      "word": "have",
+      "start": 21.96,
+      "end": 22.8
+    },
+    {
+      "word": "it",
+      "start": 22.8,
+      "end": 23.4
+    },
+    {
+      "word": "the",
+      "start": 23.74,
+      "end": 24.08
+    },
+    {
+      "word": "dog",
+      "start": 24.08,
+      "end": 24.74
+    },
+    {
+      "word": "has",
+      "start": 24.74,
+      "end": 25.46
+    },
+    {
+      "word": "it",
+      "start": 25.46,
+      "end": 26.06
+    }
+  ]
+}

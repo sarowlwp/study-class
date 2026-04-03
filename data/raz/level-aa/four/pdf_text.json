@@ -1,0 +1,46 @@
+{
+  "id": "level-aa/four",
+  "title": "Four",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 9,
+  "pages": [
+    {
+      "page": 1,
+      "text": "Four Written by Ann Marazzi Illustrated Luciana Navarro Powell wwwreadinga-z.com Mary by"
+    },
+    {
+      "page": 2,
+      "text": "Four buses: Four 0 Level aa 3"
+    },
+    {
+      "page": 3,
+      "text": "9 Four wagons. 4"
+    },
+    {
+      "page": 4,
+      "text": "Four cars Four 0 Level aa 5 |"
+    },
+    {
+      "page": 5,
+      "text": "Four carts_ 0 6"
+    },
+    {
+      "page": 6,
+      "text": "L Four   airplanes: Four 0 Level aa 559S 55oS 7 5595 7"
+    },
+    {
+      "page": 7,
+      "text": "4 Four boats. # 8"
+    },
+    {
+      "page": 8,
+      "text": "Ba 0 Four trucks_ # Four 0 Level aa"
+    },
+    {
+      "page": 9,
+      "text": "Four vans_ 0 10"
+    }
+  ]
+}

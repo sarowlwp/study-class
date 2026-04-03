@@ -1,0 +1,446 @@
+{
+  "version": "1.0",
+  "total_words": 88,
+  "timings": [
+    {
+      "word": "i",
+      "start": 0.0,
+      "end": 0.4
+    },
+    {
+      "word": "won't",
+      "start": 0.4,
+      "end": 1.0
+    },
+    {
+      "word": "written",
+      "start": 1.28,
+      "end": 1.56
+    },
+    {
+      "word": "by",
+      "start": 1.56,
+      "end": 1.82
+    },
+    {
+      "word": "elise",
+      "start": 1.82,
+      "end": 2.18
+    },
+    {
+      "word": "sweeney",
+      "start": 2.18,
+      "end": 3.06
+    },
+    {
+      "word": "illustrated",
+      "start": 3.64,
+      "end": 4.0
+    },
+    {
+      "word": "by",
+      "start": 4.0,
+      "end": 4.4
+    },
+    {
+      "word": "chris",
+      "start": 4.4,
+      "end": 4.74
+    },
+    {
+      "word": "baldwin",
+      "start": 4.74,
+      "end": 5.12
+    },
+    {
+      "word": "will",
+      "start": 5.64,
+      "end": 5.64
+    },
+    {
+      "word": "you",
+      "start": 5.64,
+      "end": 5.86
+    },
+    {
+      "word": "read",
+      "start": 5.86,
+      "end": 6.12
+    },
+    {
+      "word": "me",
+      "start": 6.12,
+      "end": 6.48
+    },
+    {
+      "word": "a",
+      "start": 6.48,
+      "end": 6.74
+    },
+    {
+      "word": "scary",
+      "start": 6.74,
+      "end": 7.0
+    },
+    {
+      "word": "book",
+      "start": 7.0,
+      "end": 7.5
+    },
+    {
+      "word": "no",
+      "start": 8.38,
+      "end": 8.6
+    },
+    {
+      "word": "i",
+      "start": 8.7,
+      "end": 8.86
+    },
+    {
+      "word": "won't",
+      "start": 8.86,
+      "end": 9.2
+    },
+    {
+      "word": "will",
+      "start": 9.56,
+      "end": 9.7
+    },
+    {
+      "word": "you",
+      "start": 9.7,
+      "end": 9.92
+    },
+    {
+      "word": "make",
+      "start": 9.92,
+      "end": 10.16
+    },
+    {
+      "word": "me",
+      "start": 10.16,
+      "end": 10.6
+    },
+    {
+      "word": "a",
+      "start": 10.6,
+      "end": 10.8
+    },
+    {
+      "word": "scary",
+      "start": 10.8,
+      "end": 11.1
+    },
+    {
+      "word": "mask",
+      "start": 11.1,
+      "end": 11.68
+    },
+    {
+      "word": "no",
+      "start": 12.46,
+      "end": 12.76
+    },
+    {
+      "word": "i",
+      "start": 12.88,
+      "end": 13.06
+    },
+    {
+      "word": "won't",
+      "start": 13.06,
+      "end": 13.44
+    },
+    {
+      "word": "will",
+      "start": 13.78,
+      "end": 13.94
+    },
+    {
+      "word": "you",
+      "start": 13.94,
+      "end": 14.3
+    },
+    {
+      "word": "sing",
+      "start": 14.3,
+      "end": 14.48
+    },
+    {
+      "word": "me",
+      "start": 14.48,
+      "end": 14.88
+    },
+    {
+      "word": "a",
+      "start": 14.88,
+      "end": 15.16
+    },
+    {
+      "word": "scary",
+      "start": 15.16,
+      "end": 15.5
+    },
+    {
+      "word": "song",
+      "start": 15.5,
+      "end": 16.04
+    },
+    {
+      "word": "no",
+      "start": 16.92,
+      "end": 17.26
+    },
+    {
+      "word": "i",
+      "start": 17.26,
+      "end": 17.5
+    },
+    {
+      "word": "won't",
+      "start": 17.5,
+      "end": 17.88
+    },
+    {
+      "word": "will",
+      "start": 18.28,
+      "end": 18.36
+    },
+    {
+      "word": "you",
+      "start": 18.36,
+      "end": 18.62
+    },
+    {
+      "word": "draw",
+      "start": 18.62,
+      "end": 18.82
+    },
+    {
+      "word": "me",
+      "start": 18.82,
+      "end": 19.24
+    },
+    {
+      "word": "a",
+      "start": 19.24,
+      "end": 19.48
+    },
+    {
+      "word": "scary",
+      "start": 19.48,
+      "end": 19.74
+    },
+    {
+      "word": "picture",
+      "start": 19.74,
+      "end": 20.2
+    },
+    {
+      "word": "no",
+      "start": 21.18,
+      "end": 21.68
+    },
+    {
+      "word": "i",
+      "start": 21.72,
+      "end": 21.92
+    },
+    {
+      "word": "won't",
+      "start": 21.92,
+      "end": 22.32
+    },
+    {
+      "word": "will",
+      "start": 22.74,
+      "end": 22.86
+    },
+    {
+      "word": "you",
+      "start": 22.86,
+      "end": 23.12
+    },
+    {
+      "word": "make",
+      "start": 23.12,
+      "end": 23.46
+    },
+    {
+      "word": "scary",
+      "start": 23.46,
+      "end": 24.12
+    },
+    {
+      "word": "sounds",
+      "start": 24.12,
+      "end": 24.76
+    },
+    {
+      "word": "no",
+      "start": 25.56,
+      "end": 26.08
+    },
+    {
+      "word": "i",
+      "start": 26.32,
+      "end": 26.52
+    },
+    {
+      "word": "won't",
+      "start": 26.52,
+      "end": 26.9
+    },
+    {
+      "word": "will",
+      "start": 27.12,
+      "end": 27.32
+    },
+    {
+      "word": "you",
+      "start": 27.32,
+      "end": 27.54
+    },
+    {
+      "word": "tell",
+      "start": 27.54,
+      "end": 27.74
+    },
+    {
+      "word": "me",
+      "start": 27.74,
+      "end": 28.1
+    },
+    {
+      "word": "a",
+      "start": 28.1,
+      "end": 28.28
+    },
+    {
+      "word": "scary",
+      "start": 28.28,
+      "end": 28.52
+    },
+    {
+      "word": "story",
+      "start": 28.52,
+      "end": 29.08
+    },
+    {
+      "word": "no",
+      "start": 30.1,
+      "end": 30.48
+    },
+    {
+      "word": "i",
+      "start": 30.54,
+      "end": 30.7
+    },
+    {
+      "word": "won't",
+      "start": 30.7,
+      "end": 31.06
+    },
+    {
+      "word": "will",
+      "start": 31.3,
+      "end": 31.52
+    },
+    {
+      "word": "you",
+      "start": 31.52,
+      "end": 31.8
+    },
+    {
+      "word": "watch",
+      "start": 31.8,
+      "end": 32.08
+    },
+    {
+      "word": "a",
+      "start": 32.08,
+      "end": 32.38
+    },
+    {
+      "word": "scary",
+      "start": 32.38,
+      "end": 32.64
+    },
+    {
+      "word": "show",
+      "start": 32.64,
+      "end": 32.96
+    },
+    {
+      "word": "with",
+      "start": 32.96,
+      "end": 33.22
+    },
+    {
+      "word": "me",
+      "start": 33.22,
+      "end": 33.66
+    },
+    {
+      "word": "no",
+      "start": 34.46,
+      "end": 34.84
+    },
+    {
+      "word": "i",
+      "start": 34.86,
+      "end": 35.06
+    },
+    {
+      "word": "won't",
+      "start": 35.06,
+      "end": 35.46
+    },
+    {
+      "word": "will",
+      "start": 35.8,
+      "end": 35.88
+    },
+    {
+      "word": "you",
+      "start": 35.88,
+      "end": 36.14
+    },
+    {
+      "word": "help",
+      "start": 36.14,
+      "end": 36.34
+    },
+    {
+      "word": "me",
+      "start": 36.34,
+      "end": 36.6
+    },
+    {
+      "word": "scare",
+      "start": 36.6,
+      "end": 36.88
+    },
+    {
+      "word": "mom",
+      "start": 36.88,
+      "end": 37.28
+    },
+    {
+      "word": "yes",
+      "start": 38.4,
+      "end": 38.8
+    },
+    {
+      "word": "i",
+      "start": 38.88,
+      "end": 39.1
+    },
+    {
+      "word": "will",
+      "start": 39.1,
+      "end": 39.36
+    }
+  ]
+}

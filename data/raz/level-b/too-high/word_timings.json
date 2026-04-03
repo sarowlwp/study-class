@@ -1,0 +1,461 @@
+{
+  "version": "1.0",
+  "total_words": 91,
+  "timings": [
+    {
+      "word": "to",
+      "start": 0.0,
+      "end": 0.44
+    },
+    {
+      "word": "high",
+      "start": 0.44,
+      "end": 1.6
+    },
+    {
+      "word": "written",
+      "start": 2.36,
+      "end": 2.74
+    },
+    {
+      "word": "by",
+      "start": 2.74,
+      "end": 3.26
+    },
+    {
+      "word": "gabriel",
+      "start": 3.26,
+      "end": 3.76
+    },
+    {
+      "word": "harper",
+      "start": 3.76,
+      "end": 4.78
+    },
+    {
+      "word": "illustrated",
+      "start": 5.9,
+      "end": 6.44
+    },
+    {
+      "word": "by",
+      "start": 6.44,
+      "end": 7.22
+    },
+    {
+      "word": "laura",
+      "start": 7.22,
+      "end": 7.68
+    },
+    {
+      "word": "zaryn",
+      "start": 7.68,
+      "end": 8.54
+    },
+    {
+      "word": "focus",
+      "start": 10.14,
+      "end": 10.28
+    },
+    {
+      "word": "question",
+      "start": 10.28,
+      "end": 11.2
+    },
+    {
+      "word": "what",
+      "start": 13.1,
+      "end": 13.24
+    },
+    {
+      "word": "is",
+      "start": 13.24,
+      "end": 13.94
+    },
+    {
+      "word": "high",
+      "start": 13.94,
+      "end": 14.62
+    },
+    {
+      "word": "for",
+      "start": 14.62,
+      "end": 15.6
+    },
+    {
+      "word": "the",
+      "start": 15.6,
+      "end": 16.16
+    },
+    {
+      "word": "boy",
+      "start": 16.16,
+      "end": 16.58
+    },
+    {
+      "word": "this",
+      "start": 17.32,
+      "end": 17.32
+    },
+    {
+      "word": "chair",
+      "start": 17.32,
+      "end": 18.2
+    },
+    {
+      "word": "is",
+      "start": 18.2,
+      "end": 19.22
+    },
+    {
+      "word": "to",
+      "start": 19.22,
+      "end": 20.42
+    },
+    {
+      "word": "high",
+      "start": 20.42,
+      "end": 21.26
+    },
+    {
+      "word": "this",
+      "start": 21.72,
+      "end": 22.0
+    },
+    {
+      "word": "hook",
+      "start": 22.0,
+      "end": 22.74
+    },
+    {
+      "word": "is",
+      "start": 22.74,
+      "end": 23.64
+    },
+    {
+      "word": "to",
+      "start": 23.64,
+      "end": 24.64
+    },
+    {
+      "word": "high",
+      "start": 24.64,
+      "end": 25.46
+    },
+    {
+      "word": "this",
+      "start": 25.76,
+      "end": 26.16
+    },
+    {
+      "word": "shelf",
+      "start": 26.16,
+      "end": 27.16
+    },
+    {
+      "word": "is",
+      "start": 27.16,
+      "end": 28.08
+    },
+    {
+      "word": "to",
+      "start": 28.08,
+      "end": 29.04
+    },
+    {
+      "word": "high",
+      "start": 29.04,
+      "end": 29.74
+    },
+    {
+      "word": "this",
+      "start": 29.74,
+      "end": 30.46
+    },
+    {
+      "word": "sink",
+      "start": 30.46,
+      "end": 31.46
+    },
+    {
+      "word": "is",
+      "start": 31.46,
+      "end": 32.16
+    },
+    {
+      "word": "to",
+      "start": 32.16,
+      "end": 33.0
+    },
+    {
+      "word": "high",
+      "start": 33.0,
+      "end": 33.82
+    },
+    {
+      "word": "this",
+      "start": 34.16,
+      "end": 34.58
+    },
+    {
+      "word": "tree",
+      "start": 34.58,
+      "end": 35.4
+    },
+    {
+      "word": "is",
+      "start": 35.4,
+      "end": 36.24
+    },
+    {
+      "word": "to",
+      "start": 36.24,
+      "end": 37.22
+    },
+    {
+      "word": "high",
+      "start": 37.22,
+      "end": 37.94
+    },
+    {
+      "word": "this",
+      "start": 38.34,
+      "end": 38.66
+    },
+    {
+      "word": "roof",
+      "start": 38.66,
+      "end": 39.54
+    },
+    {
+      "word": "is",
+      "start": 39.54,
+      "end": 40.36
+    },
+    {
+      "word": "to",
+      "start": 40.36,
+      "end": 41.04
+    },
+    {
+      "word": "high",
+      "start": 41.04,
+      "end": 41.82
+    },
+    {
+      "word": "this",
+      "start": 42.34,
+      "end": 42.52
+    },
+    {
+      "word": "hoop",
+      "start": 42.52,
+      "end": 43.46
+    },
+    {
+      "word": "is",
+      "start": 43.46,
+      "end": 44.12
+    },
+    {
+      "word": "to",
+      "start": 44.12,
+      "end": 44.76
+    },
+    {
+      "word": "high",
+      "start": 44.76,
+      "end": 45.66
+    },
+    {
+      "word": "this",
+      "start": 46.02,
+      "end": 46.46
+    },
+    {
+      "word": "head",
+      "start": 46.46,
+      "end": 47.38
+    },
+    {
+      "word": "is",
+      "start": 47.38,
+      "end": 48.3
+    },
+    {
+      "word": "just",
+      "start": 48.3,
+      "end": 48.92
+    },
+    {
+      "word": "right",
+      "start": 48.92,
+      "end": 49.72
+    },
+    {
+      "word": "connections",
+      "start": 50.06,
+      "end": 50.8
+    },
+    {
+      "word": "writing",
+      "start": 52.26,
+      "end": 52.58
+    },
+    {
+      "word": "and",
+      "start": 52.58,
+      "end": 53.1
+    },
+    {
+      "word": "art",
+      "start": 53.1,
+      "end": 53.84
+    },
+    {
+      "word": "what",
+      "start": 53.84,
+      "end": 55.6
+    },
+    {
+      "word": "is",
+      "start": 55.6,
+      "end": 56.0
+    },
+    {
+      "word": "something",
+      "start": 56.0,
+      "end": 56.6
+    },
+    {
+      "word": "that",
+      "start": 56.6,
+      "end": 57.04
+    },
+    {
+      "word": "is",
+      "start": 57.04,
+      "end": 57.46
+    },
+    {
+      "word": "too",
+      "start": 57.46,
+      "end": 57.88
+    },
+    {
+      "word": "high",
+      "start": 57.88,
+      "end": 58.26
+    },
+    {
+      "word": "for",
+      "start": 58.26,
+      "end": 58.82
+    },
+    {
+      "word": "you",
+      "start": 58.82,
+      "end": 59.68
+    },
+    {
+      "word": "draw",
+      "start": 60.54,
+      "end": 60.76
+    },
+    {
+      "word": "a",
+      "start": 60.76,
+      "end": 61.12
+    },
+    {
+      "word": "picture",
+      "start": 61.12,
+      "end": 61.42
+    },
+    {
+      "word": "and",
+      "start": 61.42,
+      "end": 62.3
+    },
+    {
+      "word": "label",
+      "start": 62.3,
+      "end": 62.6
+    },
+    {
+      "word": "it",
+      "start": 62.6,
+      "end": 64.28
+    },
+    {
+      "word": "social",
+      "start": 65.0,
+      "end": 65.24
+    },
+    {
+      "word": "studies",
+      "start": 65.24,
+      "end": 65.84
+    },
+    {
+      "word": "how",
+      "start": 68.0,
+      "end": 68.14
+    },
+    {
+      "word": "would",
+      "start": 68.14,
+      "end": 68.66
+    },
+    {
+      "word": "you",
+      "start": 68.66,
+      "end": 69.1
+    },
+    {
+      "word": "help",
+      "start": 69.1,
+      "end": 69.64
+    },
+    {
+      "word": "the",
+      "start": 69.64,
+      "end": 70.0
+    },
+    {
+      "word": "boy",
+      "start": 70.0,
+      "end": 70.76
+    },
+    {
+      "word": "share",
+      "start": 71.98,
+      "end": 72.32
+    },
+    {
+      "word": "your",
+      "start": 72.32,
+      "end": 72.82
+    },
+    {
+      "word": "ideas",
+      "start": 72.82,
+      "end": 73.36
+    },
+    {
+      "word": "with",
+      "start": 73.36,
+      "end": 74.28
+    },
+    {
+      "word": "a",
+      "start": 74.28,
+      "end": 74.48
+    },
+    {
+      "word": "partner",
+      "start": 74.48,
+      "end": 74.8
+    }
+  ]
+}

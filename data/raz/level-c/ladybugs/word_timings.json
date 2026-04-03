@@ -1,0 +1,581 @@
+{
+  "version": "1.0",
+  "total_words": 115,
+  "timings": [
+    {
+      "word": "lady",
+      "start": 0.0,
+      "end": 0.62
+    },
+    {
+      "word": "bugs",
+      "start": 0.62,
+      "end": 1.6
+    },
+    {
+      "word": "written",
+      "start": 2.06,
+      "end": 2.3
+    },
+    {
+      "word": "by",
+      "start": 2.3,
+      "end": 2.84
+    },
+    {
+      "word": "anthony",
+      "start": 2.84,
+      "end": 3.62
+    },
+    {
+      "word": "keren",
+      "start": 3.62,
+      "end": 4.5
+    },
+    {
+      "word": "focus",
+      "start": 5.74,
+      "end": 6.08
+    },
+    {
+      "word": "question",
+      "start": 6.08,
+      "end": 7.08
+    },
+    {
+      "word": "how",
+      "start": 8.54,
+      "end": 8.56
+    },
+    {
+      "word": "are",
+      "start": 8.56,
+      "end": 9.48
+    },
+    {
+      "word": "lady",
+      "start": 9.48,
+      "end": 9.88
+    },
+    {
+      "word": "bugs",
+      "start": 9.88,
+      "end": 10.42
+    },
+    {
+      "word": "alike",
+      "start": 10.42,
+      "end": 11.16
+    },
+    {
+      "word": "and",
+      "start": 11.16,
+      "end": 12.16
+    },
+    {
+      "word": "different",
+      "start": 12.16,
+      "end": 12.8
+    },
+    {
+      "word": "all",
+      "start": 13.56,
+      "end": 13.56
+    },
+    {
+      "word": "lady",
+      "start": 13.56,
+      "end": 14.22
+    },
+    {
+      "word": "bugs",
+      "start": 14.22,
+      "end": 14.74
+    },
+    {
+      "word": "are",
+      "start": 14.74,
+      "end": 15.34
+    },
+    {
+      "word": "insects",
+      "start": 15.34,
+      "end": 16.12
+    },
+    {
+      "word": "some",
+      "start": 16.98,
+      "end": 17.2
+    },
+    {
+      "word": "lady",
+      "start": 17.2,
+      "end": 17.88
+    },
+    {
+      "word": "bugs",
+      "start": 17.88,
+      "end": 18.32
+    },
+    {
+      "word": "are",
+      "start": 18.32,
+      "end": 19.06
+    },
+    {
+      "word": "red",
+      "start": 19.06,
+      "end": 19.88
+    },
+    {
+      "word": "some",
+      "start": 21.0,
+      "end": 21.26
+    },
+    {
+      "word": "lady",
+      "start": 21.26,
+      "end": 21.94
+    },
+    {
+      "word": "bugs",
+      "start": 21.94,
+      "end": 22.44
+    },
+    {
+      "word": "are",
+      "start": 22.44,
+      "end": 23.18
+    },
+    {
+      "word": "yellow",
+      "start": 23.18,
+      "end": 24.06
+    },
+    {
+      "word": "some",
+      "start": 24.76,
+      "end": 25.02
+    },
+    {
+      "word": "lady",
+      "start": 25.02,
+      "end": 25.72
+    },
+    {
+      "word": "bugs",
+      "start": 25.72,
+      "end": 26.22
+    },
+    {
+      "word": "are",
+      "start": 26.22,
+      "end": 27.0
+    },
+    {
+      "word": "orange",
+      "start": 27.0,
+      "end": 27.96
+    },
+    {
+      "word": "some",
+      "start": 27.96,
+      "end": 29.5
+    },
+    {
+      "word": "lady",
+      "start": 29.5,
+      "end": 30.12
+    },
+    {
+      "word": "bugs",
+      "start": 30.12,
+      "end": 30.54
+    },
+    {
+      "word": "are",
+      "start": 30.54,
+      "end": 31.18
+    },
+    {
+      "word": "other",
+      "start": 31.18,
+      "end": 32.0
+    },
+    {
+      "word": "colors",
+      "start": 32.0,
+      "end": 32.74
+    },
+    {
+      "word": "some",
+      "start": 33.56,
+      "end": 33.82
+    },
+    {
+      "word": "lady",
+      "start": 33.82,
+      "end": 34.52
+    },
+    {
+      "word": "bugs",
+      "start": 34.52,
+      "end": 35.04
+    },
+    {
+      "word": "have",
+      "start": 35.04,
+      "end": 35.62
+    },
+    {
+      "word": "spots",
+      "start": 35.62,
+      "end": 36.4
+    },
+    {
+      "word": "some",
+      "start": 37.28,
+      "end": 37.52
+    },
+    {
+      "word": "lady",
+      "start": 37.52,
+      "end": 38.08
+    },
+    {
+      "word": "bugs",
+      "start": 38.08,
+      "end": 38.5
+    },
+    {
+      "word": "have",
+      "start": 38.5,
+      "end": 39.24
+    },
+    {
+      "word": "stripes",
+      "start": 39.24,
+      "end": 39.96
+    },
+    {
+      "word": "some",
+      "start": 40.78,
+      "end": 41.1
+    },
+    {
+      "word": "lady",
+      "start": 41.1,
+      "end": 41.72
+    },
+    {
+      "word": "bugs",
+      "start": 41.72,
+      "end": 42.36
+    },
+    {
+      "word": "have",
+      "start": 42.36,
+      "end": 42.94
+    },
+    {
+      "word": "just",
+      "start": 42.94,
+      "end": 43.64
+    },
+    {
+      "word": "one",
+      "start": 43.64,
+      "end": 44.4
+    },
+    {
+      "word": "color",
+      "start": 44.4,
+      "end": 44.92
+    },
+    {
+      "word": "some",
+      "start": 45.58,
+      "end": 45.86
+    },
+    {
+      "word": "lady",
+      "start": 45.86,
+      "end": 46.52
+    },
+    {
+      "word": "bugs",
+      "start": 46.52,
+      "end": 47.08
+    },
+    {
+      "word": "eat",
+      "start": 47.08,
+      "end": 47.64
+    },
+    {
+      "word": "other",
+      "start": 47.64,
+      "end": 48.4
+    },
+    {
+      "word": "insects",
+      "start": 48.4,
+      "end": 49.36
+    },
+    {
+      "word": "some",
+      "start": 50.46,
+      "end": 50.66
+    },
+    {
+      "word": "lady",
+      "start": 50.66,
+      "end": 51.24
+    },
+    {
+      "word": "bugs",
+      "start": 51.24,
+      "end": 51.68
+    },
+    {
+      "word": "eat",
+      "start": 51.68,
+      "end": 52.52
+    },
+    {
+      "word": "plants",
+      "start": 52.52,
+      "end": 53.06
+    },
+    {
+      "word": "all",
+      "start": 53.82,
+      "end": 54.1
+    },
+    {
+      "word": "lady",
+      "start": 54.1,
+      "end": 54.7
+    },
+    {
+      "word": "bugs",
+      "start": 54.7,
+      "end": 55.16
+    },
+    {
+      "word": "have",
+      "start": 55.16,
+      "end": 55.94
+    },
+    {
+      "word": "wings",
+      "start": 55.94,
+      "end": 56.57
+    },
+    {
+      "word": "connections",
+      "start": 56.57,
+      "end": 57.75
+    },
+    {
+      "word": "writing",
+      "start": 58.83,
+      "end": 59.13
+    },
+    {
+      "word": "choose",
+      "start": 60.47,
+      "end": 60.59
+    },
+    {
+      "word": "your",
+      "start": 60.59,
+      "end": 61.09
+    },
+    {
+      "word": "favorite",
+      "start": 61.09,
+      "end": 61.73
+    },
+    {
+      "word": "ladybug",
+      "start": 61.73,
+      "end": 62.79
+    },
+    {
+      "word": "from",
+      "start": 62.79,
+      "end": 63.65
+    },
+    {
+      "word": "the",
+      "start": 63.65,
+      "end": 64.25
+    },
+    {
+      "word": "book",
+      "start": 64.25,
+      "end": 64.93
+    },
+    {
+      "word": "write",
+      "start": 65.95,
+      "end": 66.09
+    },
+    {
+      "word": "about",
+      "start": 66.09,
+      "end": 66.87
+    },
+    {
+      "word": "why",
+      "start": 66.87,
+      "end": 67.31
+    },
+    {
+      "word": "it",
+      "start": 67.31,
+      "end": 67.85
+    },
+    {
+      "word": "is",
+      "start": 67.85,
+      "end": 68.27
+    },
+    {
+      "word": "your",
+      "start": 68.27,
+      "end": 68.59
+    },
+    {
+      "word": "favorite",
+      "start": 68.59,
+      "end": 69.17
+    },
+    {
+      "word": "science",
+      "start": 70.35,
+      "end": 70.81
+    },
+    {
+      "word": "draw",
+      "start": 71.95,
+      "end": 72.15
+    },
+    {
+      "word": "a",
+      "start": 72.15,
+      "end": 72.61
+    },
+    {
+      "word": "picture",
+      "start": 72.61,
+      "end": 73.05
+    },
+    {
+      "word": "of",
+      "start": 73.05,
+      "end": 73.57
+    },
+    {
+      "word": "a",
+      "start": 73.57,
+      "end": 73.69
+    },
+    {
+      "word": "ladybug",
+      "start": 73.69,
+      "end": 74.55
+    },
+    {
+      "word": "and",
+      "start": 74.55,
+      "end": 75.09
+    },
+    {
+      "word": "label",
+      "start": 75.09,
+      "end": 75.51
+    },
+    {
+      "word": "its",
+      "start": 75.51,
+      "end": 76.03
+    },
+    {
+      "word": "head",
+      "start": 76.03,
+      "end": 76.53
+    },
+    {
+      "word": "wings",
+      "start": 76.97,
+      "end": 77.35
+    },
+    {
+      "word": "legs",
+      "start": 78.23,
+      "end": 78.61
+    },
+    {
+      "word": "and",
+      "start": 79.35,
+      "end": 79.49
+    },
+    {
+      "word": "any",
+      "start": 79.49,
+      "end": 80.03
+    },
+    {
+      "word": "other",
+      "start": 80.03,
+      "end": 80.47
+    },
+    {
+      "word": "parts",
+      "start": 80.47,
+      "end": 80.95
+    },
+    {
+      "word": "you",
+      "start": 80.95,
+      "end": 81.31
+    },
+    {
+      "word": "know",
+      "start": 81.31,
+      "end": 82.03
+    },
+    {
+      "word": "share",
+      "start": 82.61,
+      "end": 82.93
+    },
+    {
+      "word": "your",
+      "start": 82.93,
+      "end": 83.59
+    },
+    {
+      "word": "drawing",
+      "start": 83.59,
+      "end": 84.15
+    },
+    {
+      "word": "with",
+      "start": 84.15,
+      "end": 84.89
+    },
+    {
+      "word": "a",
+      "start": 84.89,
+      "end": 85.17
+    },
+    {
+      "word": "partner",
+      "start": 85.17,
+      "end": 85.59
+    }
+  ]
+}

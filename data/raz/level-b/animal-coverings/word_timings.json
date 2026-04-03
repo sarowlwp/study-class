@@ -1,0 +1,161 @@
+{
+  "version": "1.0",
+  "total_words": 31,
+  "timings": [
+    {
+      "word": "animal",
+      "start": 0.0,
+      "end": 0.44
+    },
+    {
+      "word": "coverings",
+      "start": 0.44,
+      "end": 1.28
+    },
+    {
+      "word": "written",
+      "start": 1.76,
+      "end": 1.92
+    },
+    {
+      "word": "by",
+      "start": 1.92,
+      "end": 2.48
+    },
+    {
+      "word": "kira",
+      "start": 2.48,
+      "end": 2.84
+    },
+    {
+      "word": "fried",
+      "start": 2.84,
+      "end": 3.38
+    },
+    {
+      "word": "we",
+      "start": 4.24,
+      "end": 4.28
+    },
+    {
+      "word": "have",
+      "start": 4.28,
+      "end": 4.76
+    },
+    {
+      "word": "scales",
+      "start": 4.76,
+      "end": 5.4
+    },
+    {
+      "word": "we",
+      "start": 5.78,
+      "end": 5.96
+    },
+    {
+      "word": "have",
+      "start": 5.96,
+      "end": 6.5
+    },
+    {
+      "word": "feathers",
+      "start": 6.5,
+      "end": 7.1
+    },
+    {
+      "word": "we",
+      "start": 7.88,
+      "end": 7.88
+    },
+    {
+      "word": "have",
+      "start": 7.88,
+      "end": 8.48
+    },
+    {
+      "word": "shells",
+      "start": 8.48,
+      "end": 8.98
+    },
+    {
+      "word": "we",
+      "start": 9.46,
+      "end": 9.52
+    },
+    {
+      "word": "have",
+      "start": 9.52,
+      "end": 10.02
+    },
+    {
+      "word": "spines",
+      "start": 10.02,
+      "end": 10.72
+    },
+    {
+      "word": "we",
+      "start": 11.5,
+      "end": 11.84
+    },
+    {
+      "word": "have",
+      "start": 11.84,
+      "end": 12.42
+    },
+    {
+      "word": "armor",
+      "start": 12.42,
+      "end": 12.96
+    },
+    {
+      "word": "we",
+      "start": 13.66,
+      "end": 14.02
+    },
+    {
+      "word": "have",
+      "start": 14.02,
+      "end": 14.58
+    },
+    {
+      "word": "fur",
+      "start": 14.58,
+      "end": 15.06
+    },
+    {
+      "word": "we",
+      "start": 15.7,
+      "end": 15.98
+    },
+    {
+      "word": "have",
+      "start": 15.98,
+      "end": 16.5
+    },
+    {
+      "word": "hair",
+      "start": 16.5,
+      "end": 17.02
+    },
+    {
+      "word": "we",
+      "start": 17.7,
+      "end": 18.14
+    },
+    {
+      "word": "just",
+      "start": 18.14,
+      "end": 18.46
+    },
+    {
+      "word": "have",
+      "start": 18.46,
+      "end": 18.82
+    },
+    {
+      "word": "skin",
+      "start": 18.82,
+      "end": 19.18
+    }
+  ]
+}

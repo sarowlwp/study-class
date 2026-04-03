@@ -1,0 +1,386 @@
+{
+  "version": "1.0",
+  "total_words": 76,
+  "timings": [
+    {
+      "word": "the",
+      "start": 0.0,
+      "end": 0.28
+    },
+    {
+      "word": "woodsie",
+      "start": 0.28,
+      "end": 1.04
+    },
+    {
+      "word": "band",
+      "start": 1.04,
+      "end": 1.52
+    },
+    {
+      "word": "jam",
+      "start": 1.52,
+      "end": 2.42
+    },
+    {
+      "word": "written",
+      "start": 2.54,
+      "end": 3.12
+    },
+    {
+      "word": "by",
+      "start": 3.12,
+      "end": 3.56
+    },
+    {
+      "word": "pam",
+      "start": 3.56,
+      "end": 4.12
+    },
+    {
+      "word": "bull",
+      "start": 4.12,
+      "end": 5.0
+    },
+    {
+      "word": "illustrated",
+      "start": 5.6,
+      "end": 6.1
+    },
+    {
+      "word": "by",
+      "start": 6.1,
+      "end": 6.98
+    },
+    {
+      "word": "angela",
+      "start": 6.98,
+      "end": 7.6
+    },
+    {
+      "word": "camstrad",
+      "start": 7.6,
+      "end": 8.5
+    },
+    {
+      "word": "jacobson",
+      "start": 8.5,
+      "end": 9.82
+    },
+    {
+      "word": "spring",
+      "start": 10.96,
+      "end": 10.98
+    },
+    {
+      "word": "is",
+      "start": 10.98,
+      "end": 11.26
+    },
+    {
+      "word": "here",
+      "start": 11.26,
+      "end": 11.74
+    },
+    {
+      "word": "said",
+      "start": 12.14,
+      "end": 12.32
+    },
+    {
+      "word": "woodchuck",
+      "start": 12.32,
+      "end": 12.94
+    },
+    {
+      "word": "let's",
+      "start": 13.62,
+      "end": 14.16
+    },
+    {
+      "word": "jam",
+      "start": 14.16,
+      "end": 14.56
+    },
+    {
+      "word": "he",
+      "start": 14.82,
+      "end": 15.04
+    },
+    {
+      "word": "said",
+      "start": 15.04,
+      "end": 15.78
+    },
+    {
+      "word": "out",
+      "start": 16.08,
+      "end": 16.32
+    },
+    {
+      "word": "came",
+      "start": 16.32,
+      "end": 16.68
+    },
+    {
+      "word": "elk",
+      "start": 16.68,
+      "end": 17.22
+    },
+    {
+      "word": "i'll",
+      "start": 18.12,
+      "end": 18.32
+    },
+    {
+      "word": "play",
+      "start": 18.32,
+      "end": 18.5
+    },
+    {
+      "word": "my",
+      "start": 18.5,
+      "end": 18.82
+    },
+    {
+      "word": "horn",
+      "start": 18.82,
+      "end": 19.2
+    },
+    {
+      "word": "said",
+      "start": 19.52,
+      "end": 19.68
+    },
+    {
+      "word": "elk",
+      "start": 19.68,
+      "end": 20.26
+    },
+    {
+      "word": "out",
+      "start": 20.92,
+      "end": 21.2
+    },
+    {
+      "word": "came",
+      "start": 21.2,
+      "end": 21.58
+    },
+    {
+      "word": "bear",
+      "start": 21.58,
+      "end": 22.1
+    },
+    {
+      "word": "i'll",
+      "start": 22.74,
+      "end": 22.94
+    },
+    {
+      "word": "play",
+      "start": 22.94,
+      "end": 23.12
+    },
+    {
+      "word": "my",
+      "start": 23.12,
+      "end": 23.4
+    },
+    {
+      "word": "banjo",
+      "start": 23.4,
+      "end": 24.16
+    },
+    {
+      "word": "said",
+      "start": 24.56,
+      "end": 24.76
+    },
+    {
+      "word": "bear",
+      "start": 24.76,
+      "end": 25.24
+    },
+    {
+      "word": "out",
+      "start": 25.24,
+      "end": 26.34
+    },
+    {
+      "word": "came",
+      "start": 26.34,
+      "end": 26.68
+    },
+    {
+      "word": "owl",
+      "start": 26.68,
+      "end": 27.32
+    },
+    {
+      "word": "i'll",
+      "start": 28.5,
+      "end": 28.6
+    },
+    {
+      "word": "play",
+      "start": 28.6,
+      "end": 28.76
+    },
+    {
+      "word": "my",
+      "start": 28.76,
+      "end": 29.1
+    },
+    {
+      "word": "fiddle",
+      "start": 29.1,
+      "end": 29.54
+    },
+    {
+      "word": "said",
+      "start": 29.88,
+      "end": 30.06
+    },
+    {
+      "word": "owl",
+      "start": 30.06,
+      "end": 30.52
+    },
+    {
+      "word": "out",
+      "start": 31.18,
+      "end": 31.42
+    },
+    {
+      "word": "came",
+      "start": 31.42,
+      "end": 31.84
+    },
+    {
+      "word": "rabbit",
+      "start": 31.84,
+      "end": 32.36
+    },
+    {
+      "word": "i'll",
+      "start": 33.26,
+      "end": 33.64
+    },
+    {
+      "word": "play",
+      "start": 33.64,
+      "end": 33.84
+    },
+    {
+      "word": "my",
+      "start": 33.84,
+      "end": 34.22
+    },
+    {
+      "word": "fife",
+      "start": 34.22,
+      "end": 34.66
+    },
+    {
+      "word": "said",
+      "start": 35.1,
+      "end": 35.32
+    },
+    {
+      "word": "rabbit",
+      "start": 35.32,
+      "end": 35.8
+    },
+    {
+      "word": "out",
+      "start": 36.56,
+      "end": 36.82
+    },
+    {
+      "word": "came",
+      "start": 36.82,
+      "end": 37.16
+    },
+    {
+      "word": "raccoon",
+      "start": 37.16,
+      "end": 37.92
+    },
+    {
+      "word": "i'll",
+      "start": 38.88,
+      "end": 39.1
+    },
+    {
+      "word": "play",
+      "start": 39.1,
+      "end": 39.24
+    },
+    {
+      "word": "my",
+      "start": 39.24,
+      "end": 39.54
+    },
+    {
+      "word": "drum",
+      "start": 39.54,
+      "end": 39.96
+    },
+    {
+      "word": "said",
+      "start": 40.42,
+      "end": 40.6
+    },
+    {
+      "word": "raccoon",
+      "start": 40.6,
+      "end": 41.3
+    },
+    {
+      "word": "out",
+      "start": 42.3,
+      "end": 42.48
+    },
+    {
+      "word": "came",
+      "start": 42.48,
+      "end": 42.94
+    },
+    {
+      "word": "fox",
+      "start": 42.94,
+      "end": 43.5
+    },
+    {
+      "word": "i'll",
+      "start": 44.62,
+      "end": 45.22
+    },
+    {
+      "word": "sing",
+      "start": 45.22,
+      "end": 45.58
+    },
+    {
+      "word": "said",
+      "start": 46.1,
+      "end": 46.26
+    },
+    {
+      "word": "fox",
+      "start": 46.26,
+      "end": 46.88
+    },
+    {
+      "word": "let's",
+      "start": 47.78,
+      "end": 48.46
+    },
+    {
+      "word": "jam",
+      "start": 48.46,
+      "end": 48.88
+    }
+  ]
+}

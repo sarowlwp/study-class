@@ -1,0 +1,62 @@
+{
+  "id": "level-a/maria-goes-to-school",
+  "title": "Maria Goes To School",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 13,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Maria Goes \"th, 1 to School Iz I k_ Writion by Susan Hlartley Illus iraadl by7 Angela Kamstra wwwreadinga-z.com Ip alu,"
+    },
+    {
+      "page": 2,
+      "text": "Maria Goes to School Written by Susan Hartley Illustrated Angela Kamstra wwwreadinga-z.com (9 by"
+    },
+    {
+      "page": 3,
+      "text": "1 get my backpack: Maria Goes to School Level A 3"
+    },
+    {
+      "page": 4,
+      "text": "1 my pencils. get"
+    },
+    {
+      "page": 5,
+      "text": "6 3 LS 1 my ruler . Maria Goes to School Level A 5 get"
+    },
+    {
+      "page": 6,
+      "text": "5 1 my eraser. 2 get"
+    },
+    {
+      "page": 7,
+      "text": "H ' @ 0 I # L my crayons. Maria Goes to School Level A ~o get"
+    },
+    {
+      "page": 8,
+      "text": "8a [ my sweater . 8 3 get"
+    },
+    {
+      "page": 9,
+      "text": "1 get my brother . Maria Goes to School Level A :"
+    },
+    {
+      "page": 10,
+      "text": "Luis Emily Maria L my lunch. 10 GC get"
+    },
+    {
+      "page": 11,
+      "text": "1 get my hug: Maria Goes to School Level A J"
+    },
+    {
+      "page": 12,
+      "text": "'J HnL 'Hf 1 my ride. 12 get"
+    },
+    {
+      "page": 13,
+      "text": "LOADING Maria Goes to School Level A Leveled Book Learning A-Z Correlation Written by Susan Hartley LEVEL A Illustrated by Angela Kamstra Fountas & Pinnell A All reserved. Reading_Recovery DRA A-I WWW: readinga-z.com rights"
+    }
+  ]
+}

@@ -1,0 +1,486 @@
+{
+  "version": "1.0",
+  "total_words": 96,
+  "timings": [
+    {
+      "word": "sunday",
+      "start": 0.0,
+      "end": 0.68
+    },
+    {
+      "word": "time",
+      "start": 0.68,
+      "end": 1.86
+    },
+    {
+      "word": "written",
+      "start": 2.34,
+      "end": 2.64
+    },
+    {
+      "word": "by",
+      "start": 2.64,
+      "end": 3.44
+    },
+    {
+      "word": "rachel",
+      "start": 3.44,
+      "end": 4.24
+    },
+    {
+      "word": "rice",
+      "start": 4.24,
+      "end": 5.3
+    },
+    {
+      "word": "illustrated",
+      "start": 5.82,
+      "end": 7.08
+    },
+    {
+      "word": "by",
+      "start": 7.08,
+      "end": 8.0
+    },
+    {
+      "word": "alessia",
+      "start": 8.0,
+      "end": 8.98
+    },
+    {
+      "word": "jira",
+      "start": 8.98,
+      "end": 9.98
+    },
+    {
+      "word": "sole",
+      "start": 9.98,
+      "end": 10.5
+    },
+    {
+      "word": "focus",
+      "start": 11.58,
+      "end": 11.92
+    },
+    {
+      "word": "question",
+      "start": 11.92,
+      "end": 12.86
+    },
+    {
+      "word": "what",
+      "start": 13.88,
+      "end": 13.96
+    },
+    {
+      "word": "are",
+      "start": 13.96,
+      "end": 14.82
+    },
+    {
+      "word": "the",
+      "start": 14.82,
+      "end": 15.18
+    },
+    {
+      "word": "steps",
+      "start": 15.18,
+      "end": 15.78
+    },
+    {
+      "word": "for",
+      "start": 15.78,
+      "end": 16.36
+    },
+    {
+      "word": "making",
+      "start": 16.36,
+      "end": 16.82
+    },
+    {
+      "word": "a",
+      "start": 16.82,
+      "end": 17.4
+    },
+    {
+      "word": "sunday",
+      "start": 17.4,
+      "end": 18.0
+    },
+    {
+      "word": "i",
+      "start": 18.92,
+      "end": 18.92
+    },
+    {
+      "word": "add",
+      "start": 18.92,
+      "end": 19.74
+    },
+    {
+      "word": "the",
+      "start": 19.74,
+      "end": 20.42
+    },
+    {
+      "word": "brownie",
+      "start": 20.42,
+      "end": 21.56
+    },
+    {
+      "word": "i",
+      "start": 22.16,
+      "end": 22.16
+    },
+    {
+      "word": "add",
+      "start": 22.16,
+      "end": 23.46
+    },
+    {
+      "word": "the",
+      "start": 23.46,
+      "end": 24.32
+    },
+    {
+      "word": "i",
+      "start": 24.32,
+      "end": 25.28
+    },
+    {
+      "word": "scream",
+      "start": 25.28,
+      "end": 26.14
+    },
+    {
+      "word": "i",
+      "start": 26.8,
+      "end": 27.06
+    },
+    {
+      "word": "add",
+      "start": 27.06,
+      "end": 28.18
+    },
+    {
+      "word": "the",
+      "start": 28.18,
+      "end": 29.1
+    },
+    {
+      "word": "banana",
+      "start": 29.1,
+      "end": 29.96
+    },
+    {
+      "word": "i",
+      "start": 31.0,
+      "end": 31.18
+    },
+    {
+      "word": "add",
+      "start": 31.18,
+      "end": 32.24
+    },
+    {
+      "word": "the",
+      "start": 32.24,
+      "end": 33.02
+    },
+    {
+      "word": "hot",
+      "start": 33.02,
+      "end": 33.96
+    },
+    {
+      "word": "-fudge",
+      "start": 33.96,
+      "end": 34.92
+    },
+    {
+      "word": "i",
+      "start": 35.58,
+      "end": 35.72
+    },
+    {
+      "word": "add",
+      "start": 35.72,
+      "end": 36.74
+    },
+    {
+      "word": "the",
+      "start": 36.74,
+      "end": 37.64
+    },
+    {
+      "word": "nuts",
+      "start": 37.64,
+      "end": 38.82
+    },
+    {
+      "word": "i",
+      "start": 39.42,
+      "end": 39.78
+    },
+    {
+      "word": "add",
+      "start": 39.78,
+      "end": 40.66
+    },
+    {
+      "word": "the",
+      "start": 40.66,
+      "end": 41.42
+    },
+    {
+      "word": "candy",
+      "start": 41.42,
+      "end": 42.4
+    },
+    {
+      "word": "i",
+      "start": 43.02,
+      "end": 43.38
+    },
+    {
+      "word": "add",
+      "start": 43.38,
+      "end": 44.34
+    },
+    {
+      "word": "the",
+      "start": 44.34,
+      "end": 45.32
+    },
+    {
+      "word": "berries",
+      "start": 45.32,
+      "end": 46.08
+    },
+    {
+      "word": "i",
+      "start": 46.96,
+      "end": 47.22
+    },
+    {
+      "word": "add",
+      "start": 47.22,
+      "end": 48.36
+    },
+    {
+      "word": "the",
+      "start": 48.36,
+      "end": 49.16
+    },
+    {
+      "word": "spoons",
+      "start": 49.16,
+      "end": 50.48
+    },
+    {
+      "word": "connections",
+      "start": 50.98,
+      "end": 51.72
+    },
+    {
+      "word": "writing",
+      "start": 51.72,
+      "end": 53.36
+    },
+    {
+      "word": "and",
+      "start": 53.36,
+      "end": 54.18
+    },
+    {
+      "word": "art",
+      "start": 54.18,
+      "end": 54.78
+    },
+    {
+      "word": "how",
+      "start": 56.12,
+      "end": 56.2
+    },
+    {
+      "word": "would",
+      "start": 56.2,
+      "end": 56.76
+    },
+    {
+      "word": "you",
+      "start": 56.76,
+      "end": 57.22
+    },
+    {
+      "word": "make",
+      "start": 57.22,
+      "end": 57.76
+    },
+    {
+      "word": "an",
+      "start": 57.76,
+      "end": 58.16
+    },
+    {
+      "word": "ice",
+      "start": 58.16,
+      "end": 58.46
+    },
+    {
+      "word": "cream",
+      "start": 58.46,
+      "end": 58.86
+    },
+    {
+      "word": "sunday",
+      "start": 58.86,
+      "end": 59.56
+    },
+    {
+      "word": "draw",
+      "start": 60.56,
+      "end": 60.8
+    },
+    {
+      "word": "a",
+      "start": 60.8,
+      "end": 61.28
+    },
+    {
+      "word": "picture",
+      "start": 61.28,
+      "end": 61.68
+    },
+    {
+      "word": "and",
+      "start": 61.68,
+      "end": 62.38
+    },
+    {
+      "word": "write",
+      "start": 62.38,
+      "end": 62.66
+    },
+    {
+      "word": "about",
+      "start": 62.66,
+      "end": 63.12
+    },
+    {
+      "word": "it",
+      "start": 63.12,
+      "end": 63.72
+    },
+    {
+      "word": "math",
+      "start": 65.08,
+      "end": 65.38
+    },
+    {
+      "word": "how",
+      "start": 66.76,
+      "end": 67.02
+    },
+    {
+      "word": "many",
+      "start": 67.02,
+      "end": 67.46
+    },
+    {
+      "word": "different",
+      "start": 67.46,
+      "end": 68.06
+    },
+    {
+      "word": "items",
+      "start": 68.06,
+      "end": 68.74
+    },
+    {
+      "word": "get",
+      "start": 68.74,
+      "end": 69.42
+    },
+    {
+      "word": "added",
+      "start": 69.42,
+      "end": 69.98
+    },
+    {
+      "word": "to",
+      "start": 69.98,
+      "end": 70.44
+    },
+    {
+      "word": "the",
+      "start": 70.44,
+      "end": 70.66
+    },
+    {
+      "word": "sunday",
+      "start": 70.66,
+      "end": 71.18
+    },
+    {
+      "word": "in",
+      "start": 71.18,
+      "end": 71.66
+    },
+    {
+      "word": "the",
+      "start": 71.66,
+      "end": 71.88
+    },
+    {
+      "word": "book",
+      "start": 71.88,
+      "end": 72.42
+    },
+    {
+      "word": "count",
+      "start": 73.24,
+      "end": 73.5
+    },
+    {
+      "word": "them",
+      "start": 73.5,
+      "end": 74.02
+    },
+    {
+      "word": "and",
+      "start": 74.02,
+      "end": 74.52
+    },
+    {
+      "word": "share",
+      "start": 74.52,
+      "end": 74.92
+    },
+    {
+      "word": "your",
+      "start": 74.92,
+      "end": 75.36
+    },
+    {
+      "word": "answer",
+      "start": 75.36,
+      "end": 75.84
+    },
+    {
+      "word": "with",
+      "start": 75.84,
+      "end": 76.56
+    },
+    {
+      "word": "a",
+      "start": 76.56,
+      "end": 76.8
+    },
+    {
+      "word": "partner",
+      "start": 76.8,
+      "end": 77.14
+    }
+  ]
+}

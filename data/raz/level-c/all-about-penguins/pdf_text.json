@@ -1,0 +1,54 @@
+{
+  "id": "level-c/all-about-penguins",
+  "title": "All About Penguins",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C AII About Penguins Written by Keith and Sarah Kortemartin wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "AIl About Penguins Written by Keith and Sarah Kortemartin wwwreadinga-Z.com"
+    },
+    {
+      "page": 3,
+      "text": "AII penguins are birds. AIl About Penguins Level € 3"
+    },
+    {
+      "page": 4,
+      "text": "Some penguins are in cold places:"
+    },
+    {
+      "page": 5,
+      "text": "All penguins are birds. Some penguins are in warm places AIl About Penguins Level € 5"
+    },
+    {
+      "page": 6,
+      "text": "All penguins are birds. Some penguins are black and white:"
+    },
+    {
+      "page": 7,
+      "text": "All penguins are birds. Some penguins are blue and white: AIl About Penguins Level €"
+    },
+    {
+      "page": 8,
+      "text": "All penguins are birds. Some penguins are little: 8"
+    },
+    {
+      "page": 9,
+      "text": "All penguins are birds. Some penguins are AIl About Penguins Level € big"
+    },
+    {
+      "page": 10,
+      "text": "All penguins cannot All penguins swim well: 10 fly:"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover: @ M. Watson/ardea.com; back cover: @ Suzi Eszterhas/Minden Pictures; title page: @ Lynsey Allan/iStock/Thinkstock; page 3: Frizi/iStock/Thinkstock; page 4: @ Fuse/Thinkstock; page 5: @ Karel Gallas/iStock/Thinkstock; page 6 (left): @ Radius Images/Alamy; page 6 (right): @ Volodymyr Goinyk/iStock/Thinkstock; page 7: @ tiger_barb/iStock/Thinkstock; page 8: Brooks Kraft/Sygma/Corbis; page %: @ Bill Costerlardea.com; page 1O: @ Paul Nicklen/National Geographic Creative AIl About Penguins Level C Leveled Book Correlation 0 Learning A-Z LEVEL C Written by Keith and Sarah Kortemartin Fountas & Pinnell C AIl rights reserved. Reading Recovery 3-4 DRA 3-4 wwwreadinga-z.com"
+    }
+  ]
+}

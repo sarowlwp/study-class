@@ -1,0 +1,54 @@
+{
+  "id": "level-a/getting-dressed",
+  "title": "Getting Dressed",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Getting Dressed Written by Felicia Brown wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Getting Dressed Written by Felicia Brown wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": " on my shirt Getting Dressed 0 Level A 3 put"
+    },
+    {
+      "page": 4,
+      "text": "I on my pants put"
+    },
+    {
+      "page": 5,
+      "text": " on my belt. Getting Dressed 0 Level A 5 put"
+    },
+    {
+      "page": 6,
+      "text": "I on my socks_ put"
+    },
+    {
+      "page": 7,
+      "text": " on my shoes. Getting Dressed 0 Level A put"
+    },
+    {
+      "page": 8,
+      "text": "I put on my glasses 8"
+    },
+    {
+      "page": 9,
+      "text": " on my  jacket: Getting Dressed 0 Level A put"
+    },
+    {
+      "page": 10,
+      "text": "I put on my backpack 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: AIl photos: Tim Fuller/@ Learning A-Z, Inc Getting Dressed Level G Leveled Book Correlation Learning A-Z LEVEL A Written by Felicia Brown Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-zcom"
+    }
+  ]
+}

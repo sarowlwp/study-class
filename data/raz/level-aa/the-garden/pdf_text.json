@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/the-garden",
+  "title": "The Garden",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , Aa The Garden Written by Ned Jensen Illustrated by Cende Hill wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "The Garden Written by Ned Jensen Illustrated by Cende Hill wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "The peas. 0 The Garden Level aa 3 \"Jhl"
+    },
+    {
+      "page": 4,
+      "text": "The beans; EedE"
+    },
+    {
+      "page": 5,
+      "text": "2 The melons: The Garden Level aa 5"
+    },
+    {
+      "page": 6,
+      "text": "The onions"
+    },
+    {
+      "page": 7,
+      "text": "JA The potatoes The Garden Level aa"
+    },
+    {
+      "page": 8,
+      "text": "The tomatoes. 8"
+    },
+    {
+      "page": 9,
+      "text": "The corn. The Garden Level aa"
+    },
+    {
+      "page": 10,
+      "text": "The garden:' 10"
+    },
+    {
+      "page": 11,
+      "text": "The Garden Level aa Leveled Book @ Learning A-Z Correlation Written by Ned Jensen LEVEL aa Illustrated by Cende Hill Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-zcom"
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "version": "1.0",
+  "total_words": 48,
+  "timings": [
+    {
+      "word": "hamster",
+      "start": 0.0,
+      "end": 0.6
+    },
+    {
+      "word": "home",
+      "start": 0.6,
+      "end": 1.26
+    },
+    {
+      "word": "written",
+      "start": 1.94,
+      "end": 2.14
+    },
+    {
+      "word": "by",
+      "start": 2.14,
+      "end": 2.58
+    },
+    {
+      "word": "anthony",
+      "start": 2.58,
+      "end": 2.9
+    },
+    {
+      "word": "kuren",
+      "start": 2.9,
+      "end": 3.74
+    },
+    {
+      "word": "illustrated",
+      "start": 4.5,
+      "end": 5.0
+    },
+    {
+      "word": "by",
+      "start": 5.0,
+      "end": 5.72
+    },
+    {
+      "word": "leanne",
+      "start": 5.72,
+      "end": 6.24
+    },
+    {
+      "word": "d's",
+      "start": 6.24,
+      "end": 7.24
+    },
+    {
+      "word": "the",
+      "start": 9.58,
+      "end": 9.66
+    },
+    {
+      "word": "hamster",
+      "start": 9.66,
+      "end": 10.2
+    },
+    {
+      "word": "has",
+      "start": 10.2,
+      "end": 10.9
+    },
+    {
+      "word": "a",
+      "start": 10.9,
+      "end": 11.28
+    },
+    {
+      "word": "ball",
+      "start": 11.28,
+      "end": 11.92
+    },
+    {
+      "word": "the",
+      "start": 15.08,
+      "end": 15.24
+    },
+    {
+      "word": "hamster",
+      "start": 15.24,
+      "end": 15.78
+    },
+    {
+      "word": "has",
+      "start": 15.78,
+      "end": 16.66
+    },
+    {
+      "word": "a",
+      "start": 16.66,
+      "end": 16.92
+    },
+    {
+      "word": "cage",
+      "start": 16.92,
+      "end": 17.6
+    },
+    {
+      "word": "the",
+      "start": 20.24,
+      "end": 20.46
+    },
+    {
+      "word": "hamster",
+      "start": 20.46,
+      "end": 21.1
+    },
+    {
+      "word": "has",
+      "start": 21.1,
+      "end": 21.74
+    },
+    {
+      "word": "food",
+      "start": 21.74,
+      "end": 22.74
+    },
+    {
+      "word": "the",
+      "start": 24.76,
+      "end": 25.42
+    },
+    {
+      "word": "hamster",
+      "start": 25.42,
+      "end": 25.96
+    },
+    {
+      "word": "has",
+      "start": 25.96,
+      "end": 26.76
+    },
+    {
+      "word": "water",
+      "start": 26.76,
+      "end": 27.52
+    },
+    {
+      "word": "the",
+      "start": 30.08,
+      "end": 31.24
+    },
+    {
+      "word": "hamster",
+      "start": 31.24,
+      "end": 31.84
+    },
+    {
+      "word": "has",
+      "start": 31.84,
+      "end": 32.58
+    },
+    {
+      "word": "a",
+      "start": 32.58,
+      "end": 32.86
+    },
+    {
+      "word": "nest",
+      "start": 32.86,
+      "end": 33.52
+    },
+    {
+      "word": "the",
+      "start": 36.28,
+      "end": 36.8
+    },
+    {
+      "word": "hamster",
+      "start": 36.8,
+      "end": 37.34
+    },
+    {
+      "word": "has",
+      "start": 37.34,
+      "end": 38.16
+    },
+    {
+      "word": "a",
+      "start": 38.16,
+      "end": 38.48
+    },
+    {
+      "word": "tube",
+      "start": 38.48,
+      "end": 38.98
+    },
+    {
+      "word": "the",
+      "start": 41.64,
+      "end": 41.84
+    },
+    {
+      "word": "hamster",
+      "start": 41.84,
+      "end": 42.42
+    },
+    {
+      "word": "has",
+      "start": 42.42,
+      "end": 43.36
+    },
+    {
+      "word": "a",
+      "start": 43.36,
+      "end": 43.64
+    },
+    {
+      "word": "wheel",
+      "start": 43.64,
+      "end": 44.4
+    },
+    {
+      "word": "the",
+      "start": 47.32,
+      "end": 47.88
+    },
+    {
+      "word": "hamster",
+      "start": 47.88,
+      "end": 48.46
+    },
+    {
+      "word": "has",
+      "start": 48.46,
+      "end": 49.26
+    },
+    {
+      "word": "a",
+      "start": 49.26,
+      "end": 49.76
+    },
+    {
+      "word": "home",
+      "start": 49.76,
+      "end": 50.12
+    }
+  ]
+}

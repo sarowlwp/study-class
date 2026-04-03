@@ -1,0 +1,221 @@
+{
+  "version": "1.0",
+  "total_words": 43,
+  "timings": [
+    {
+      "word": "what",
+      "start": 0.0,
+      "end": 0.46
+    },
+    {
+      "word": "lives",
+      "start": 0.46,
+      "end": 1.02
+    },
+    {
+      "word": "here",
+      "start": 1.02,
+      "end": 1.68
+    },
+    {
+      "word": "written",
+      "start": 2.32,
+      "end": 2.6
+    },
+    {
+      "word": "by",
+      "start": 2.6,
+      "end": 3.2
+    },
+    {
+      "word": "r",
+      "start": 3.2,
+      "end": 3.84
+    },
+    {
+      "word": "k",
+      "start": 3.84,
+      "end": 4.16
+    },
+    {
+      "word": "burris",
+      "start": 4.46,
+      "end": 4.98
+    },
+    {
+      "word": "illustrated",
+      "start": 5.4,
+      "end": 5.9
+    },
+    {
+      "word": "by",
+      "start": 5.9,
+      "end": 6.68
+    },
+    {
+      "word": "cindy",
+      "start": 6.68,
+      "end": 7.26
+    },
+    {
+      "word": "hill",
+      "start": 7.26,
+      "end": 8.22
+    },
+    {
+      "word": "animals",
+      "start": 8.7,
+      "end": 8.96
+    },
+    {
+      "word": "live",
+      "start": 8.96,
+      "end": 9.38
+    },
+    {
+      "word": "here",
+      "start": 9.38,
+      "end": 9.98
+    },
+    {
+      "word": "a",
+      "start": 10.56,
+      "end": 10.6
+    },
+    {
+      "word": "bear",
+      "start": 10.6,
+      "end": 11.02
+    },
+    {
+      "word": "lives",
+      "start": 11.02,
+      "end": 11.48
+    },
+    {
+      "word": "here",
+      "start": 11.48,
+      "end": 12.04
+    },
+    {
+      "word": "a",
+      "start": 12.56,
+      "end": 12.6
+    },
+    {
+      "word": "deer",
+      "start": 12.6,
+      "end": 12.96
+    },
+    {
+      "word": "lives",
+      "start": 12.96,
+      "end": 13.48
+    },
+    {
+      "word": "here",
+      "start": 13.48,
+      "end": 14.06
+    },
+    {
+      "word": "a",
+      "start": 14.6,
+      "end": 14.62
+    },
+    {
+      "word": "fish",
+      "start": 14.62,
+      "end": 14.98
+    },
+    {
+      "word": "lives",
+      "start": 14.98,
+      "end": 15.5
+    },
+    {
+      "word": "here",
+      "start": 15.5,
+      "end": 16.1
+    },
+    {
+      "word": "a",
+      "start": 16.58,
+      "end": 16.66
+    },
+    {
+      "word": "frog",
+      "start": 16.66,
+      "end": 17.1
+    },
+    {
+      "word": "lives",
+      "start": 17.1,
+      "end": 17.54
+    },
+    {
+      "word": "here",
+      "start": 17.54,
+      "end": 18.28
+    },
+    {
+      "word": "a",
+      "start": 18.78,
+      "end": 18.94
+    },
+    {
+      "word": "worm",
+      "start": 18.94,
+      "end": 19.36
+    },
+    {
+      "word": "lives",
+      "start": 19.36,
+      "end": 19.8
+    },
+    {
+      "word": "here",
+      "start": 19.8,
+      "end": 20.58
+    },
+    {
+      "word": "a",
+      "start": 21.02,
+      "end": 21.14
+    },
+    {
+      "word": "bee",
+      "start": 21.14,
+      "end": 21.44
+    },
+    {
+      "word": "lives",
+      "start": 21.44,
+      "end": 21.98
+    },
+    {
+      "word": "here",
+      "start": 21.98,
+      "end": 22.62
+    },
+    {
+      "word": "a",
+      "start": 23.1,
+      "end": 23.1
+    },
+    {
+      "word": "child",
+      "start": 23.1,
+      "end": 23.58
+    },
+    {
+      "word": "lives",
+      "start": 23.58,
+      "end": 24.0
+    },
+    {
+      "word": "here",
+      "start": 24.0,
+      "end": 24.5
+    }
+  ]
+}

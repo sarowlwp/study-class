@@ -1,0 +1,516 @@
+{
+  "version": "1.0",
+  "total_words": 102,
+  "timings": [
+    {
+      "word": "sophie",
+      "start": 0.0,
+      "end": 1.04
+    },
+    {
+      "word": "goes",
+      "start": 1.04,
+      "end": 1.92
+    },
+    {
+      "word": "for",
+      "start": 1.92,
+      "end": 2.98
+    },
+    {
+      "word": "a",
+      "start": 2.98,
+      "end": 3.46
+    },
+    {
+      "word": "walk",
+      "start": 3.46,
+      "end": 4.28
+    },
+    {
+      "word": "written",
+      "start": 5.58,
+      "end": 5.94
+    },
+    {
+      "word": "by",
+      "start": 5.94,
+      "end": 6.56
+    },
+    {
+      "word": "sarah",
+      "start": 6.56,
+      "end": 7.4
+    },
+    {
+      "word": "gooseon",
+      "start": 7.4,
+      "end": 9.8
+    },
+    {
+      "word": "illustrated",
+      "start": 9.8,
+      "end": 11.12
+    },
+    {
+      "word": "by",
+      "start": 11.12,
+      "end": 12.04
+    },
+    {
+      "word": "martin",
+      "start": 12.04,
+      "end": 12.66
+    },
+    {
+      "word": "fagan",
+      "start": 12.66,
+      "end": 13.92
+    },
+    {
+      "word": "focus",
+      "start": 15.8,
+      "end": 15.98
+    },
+    {
+      "word": "question",
+      "start": 15.98,
+      "end": 17.18
+    },
+    {
+      "word": "what",
+      "start": 18.52,
+      "end": 18.74
+    },
+    {
+      "word": "does",
+      "start": 18.74,
+      "end": 19.46
+    },
+    {
+      "word": "sophie",
+      "start": 19.46,
+      "end": 20.04
+    },
+    {
+      "word": "sniff",
+      "start": 20.04,
+      "end": 20.88
+    },
+    {
+      "word": "on",
+      "start": 20.88,
+      "end": 21.72
+    },
+    {
+      "word": "her",
+      "start": 21.72,
+      "end": 22.2
+    },
+    {
+      "word": "walk",
+      "start": 22.2,
+      "end": 22.86
+    },
+    {
+      "word": "sophie",
+      "start": 23.58,
+      "end": 24.28
+    },
+    {
+      "word": "sniffs",
+      "start": 24.28,
+      "end": 25.16
+    },
+    {
+      "word": "the",
+      "start": 25.16,
+      "end": 25.96
+    },
+    {
+      "word": "long",
+      "start": 25.96,
+      "end": 26.72
+    },
+    {
+      "word": "leash",
+      "start": 26.72,
+      "end": 27.74
+    },
+    {
+      "word": "sophie",
+      "start": 27.74,
+      "end": 29.16
+    },
+    {
+      "word": "sniffs",
+      "start": 29.16,
+      "end": 30.26
+    },
+    {
+      "word": "the",
+      "start": 30.28,
+      "end": 30.82
+    },
+    {
+      "word": "cut",
+      "start": 30.82,
+      "end": 31.36
+    },
+    {
+      "word": "grass",
+      "start": 31.36,
+      "end": 32.86
+    },
+    {
+      "word": "sophie",
+      "start": 33.7,
+      "end": 34.0
+    },
+    {
+      "word": "sniffs",
+      "start": 34.0,
+      "end": 35.04
+    },
+    {
+      "word": "the",
+      "start": 35.44,
+      "end": 35.76
+    },
+    {
+      "word": "fat",
+      "start": 35.76,
+      "end": 36.32
+    },
+    {
+      "word": "cat",
+      "start": 36.32,
+      "end": 37.54
+    },
+    {
+      "word": "sophie",
+      "start": 38.56,
+      "end": 38.94
+    },
+    {
+      "word": "sniffs",
+      "start": 38.94,
+      "end": 39.98
+    },
+    {
+      "word": "the",
+      "start": 40.4,
+      "end": 40.8
+    },
+    {
+      "word": "fresh",
+      "start": 40.8,
+      "end": 41.46
+    },
+    {
+      "word": "pie",
+      "start": 41.46,
+      "end": 42.8
+    },
+    {
+      "word": "sophie",
+      "start": 43.62,
+      "end": 44.26
+    },
+    {
+      "word": "sniffs",
+      "start": 44.26,
+      "end": 45.06
+    },
+    {
+      "word": "the",
+      "start": 45.44,
+      "end": 45.92
+    },
+    {
+      "word": "jumpy",
+      "start": 45.92,
+      "end": 46.94
+    },
+    {
+      "word": "male",
+      "start": 46.94,
+      "end": 47.48
+    },
+    {
+      "word": "man",
+      "start": 47.48,
+      "end": 48.3
+    },
+    {
+      "word": "sophie",
+      "start": 49.06,
+      "end": 49.64
+    },
+    {
+      "word": "sniffs",
+      "start": 49.64,
+      "end": 50.46
+    },
+    {
+      "word": "the",
+      "start": 50.96,
+      "end": 51.18
+    },
+    {
+      "word": "hot",
+      "start": 51.18,
+      "end": 51.62
+    },
+    {
+      "word": "steak",
+      "start": 51.62,
+      "end": 53.0
+    },
+    {
+      "word": "sophie",
+      "start": 53.0,
+      "end": 54.4
+    },
+    {
+      "word": "sniffs",
+      "start": 54.4,
+      "end": 55.44
+    },
+    {
+      "word": "the",
+      "start": 55.6,
+      "end": 55.98
+    },
+    {
+      "word": "big",
+      "start": 55.98,
+      "end": 56.98
+    },
+    {
+      "word": "skunk",
+      "start": 56.98,
+      "end": 58.06
+    },
+    {
+      "word": "sophie",
+      "start": 58.68,
+      "end": 59.24
+    },
+    {
+      "word": "sniffs",
+      "start": 59.24,
+      "end": 60.12
+    },
+    {
+      "word": "the",
+      "start": 60.48,
+      "end": 60.9
+    },
+    {
+      "word": "new",
+      "start": 60.9,
+      "end": 61.4
+    },
+    {
+      "word": "friend",
+      "start": 61.4,
+      "end": 62.78
+    },
+    {
+      "word": "connections",
+      "start": 63.64,
+      "end": 64.22
+    },
+    {
+      "word": "writing",
+      "start": 65.86,
+      "end": 66.22
+    },
+    {
+      "word": "and",
+      "start": 66.22,
+      "end": 66.88
+    },
+    {
+      "word": "art",
+      "start": 66.88,
+      "end": 68.18
+    },
+    {
+      "word": "what",
+      "start": 69.28,
+      "end": 69.38
+    },
+    {
+      "word": "else",
+      "start": 69.38,
+      "end": 70.12
+    },
+    {
+      "word": "could",
+      "start": 70.12,
+      "end": 70.68
+    },
+    {
+      "word": "sophie",
+      "start": 70.68,
+      "end": 71.28
+    },
+    {
+      "word": "sniff",
+      "start": 71.28,
+      "end": 72.12
+    },
+    {
+      "word": "on",
+      "start": 72.12,
+      "end": 72.74
+    },
+    {
+      "word": "a",
+      "start": 72.74,
+      "end": 73.5
+    },
+    {
+      "word": "walk",
+      "start": 73.5,
+      "end": 74.22
+    },
+    {
+      "word": "draw",
+      "start": 75.62,
+      "end": 75.96
+    },
+    {
+      "word": "a",
+      "start": 75.96,
+      "end": 76.46
+    },
+    {
+      "word": "picture",
+      "start": 76.46,
+      "end": 76.98
+    },
+    {
+      "word": "and",
+      "start": 76.98,
+      "end": 77.74
+    },
+    {
+      "word": "write",
+      "start": 77.74,
+      "end": 78.18
+    },
+    {
+      "word": "this",
+      "start": 78.18,
+      "end": 78.96
+    },
+    {
+      "word": "sentence",
+      "start": 78.96,
+      "end": 79.94
+    },
+    {
+      "word": "sophie",
+      "start": 79.94,
+      "end": 82.3
+    },
+    {
+      "word": "sniffs",
+      "start": 82.3,
+      "end": 83.14
+    },
+    {
+      "word": "the",
+      "start": 83.8,
+      "end": 84.6
+    },
+    {
+      "word": "science",
+      "start": 84.6,
+      "end": 86.96
+    },
+    {
+      "word": "how",
+      "start": 88.9,
+      "end": 88.9
+    },
+    {
+      "word": "could",
+      "start": 88.9,
+      "end": 89.32
+    },
+    {
+      "word": "you",
+      "start": 89.32,
+      "end": 89.78
+    },
+    {
+      "word": "sort",
+      "start": 89.78,
+      "end": 90.34
+    },
+    {
+      "word": "what",
+      "start": 90.34,
+      "end": 91.02
+    },
+    {
+      "word": "sophie",
+      "start": 91.02,
+      "end": 91.74
+    },
+    {
+      "word": "sniffs",
+      "start": 91.74,
+      "end": 92.46
+    },
+    {
+      "word": "into",
+      "start": 92.46,
+      "end": 93.22
+    },
+    {
+      "word": "two",
+      "start": 93.22,
+      "end": 94.1
+    },
+    {
+      "word": "groups",
+      "start": 94.1,
+      "end": 95.08
+    },
+    {
+      "word": "share",
+      "start": 96.52,
+      "end": 96.78
+    },
+    {
+      "word": "your",
+      "start": 96.78,
+      "end": 97.3
+    },
+    {
+      "word": "ideas",
+      "start": 97.3,
+      "end": 98.2
+    },
+    {
+      "word": "with",
+      "start": 98.2,
+      "end": 99.04
+    },
+    {
+      "word": "a",
+      "start": 99.04,
+      "end": 99.34
+    },
+    {
+      "word": "partner",
+      "start": 99.34,
+      "end": 99.88
+    }
+  ]
+}

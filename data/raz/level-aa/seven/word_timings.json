@@ -1,0 +1,136 @@
+{
+  "version": "1.0",
+  "total_words": 26,
+  "timings": [
+    {
+      "word": "seven",
+      "start": 0.0,
+      "end": 0.94
+    },
+    {
+      "word": "written",
+      "start": 0.94,
+      "end": 2.26
+    },
+    {
+      "word": "by",
+      "start": 2.26,
+      "end": 3.2
+    },
+    {
+      "word": "mary",
+      "start": 3.2,
+      "end": 4.04
+    },
+    {
+      "word": "anne",
+      "start": 4.04,
+      "end": 4.94
+    },
+    {
+      "word": "morazzi",
+      "start": 4.94,
+      "end": 6.1
+    },
+    {
+      "word": "illustrated",
+      "start": 6.1,
+      "end": 7.72
+    },
+    {
+      "word": "by",
+      "start": 7.72,
+      "end": 8.94
+    },
+    {
+      "word": "rebecca",
+      "start": 8.94,
+      "end": 9.68
+    },
+    {
+      "word": "stuff",
+      "start": 9.68,
+      "end": 10.98
+    },
+    {
+      "word": "seven",
+      "start": 10.98,
+      "end": 11.88
+    },
+    {
+      "word": "worms",
+      "start": 11.88,
+      "end": 13.0
+    },
+    {
+      "word": "seven",
+      "start": 13.0,
+      "end": 14.42
+    },
+    {
+      "word": "ladybugs",
+      "start": 14.42,
+      "end": 15.64
+    },
+    {
+      "word": "seven",
+      "start": 16.34,
+      "end": 16.7
+    },
+    {
+      "word": "spiders",
+      "start": 16.7,
+      "end": 17.72
+    },
+    {
+      "word": "seven",
+      "start": 18.94,
+      "end": 19.44
+    },
+    {
+      "word": "frogs",
+      "start": 19.44,
+      "end": 20.52
+    },
+    {
+      "word": "seven",
+      "start": 21.5,
+      "end": 21.96
+    },
+    {
+      "word": "lizards",
+      "start": 21.96,
+      "end": 23.34
+    },
+    {
+      "word": "seven",
+      "start": 24.0,
+      "end": 24.48
+    },
+    {
+      "word": "snakes",
+      "start": 24.48,
+      "end": 25.6
+    },
+    {
+      "word": "seven",
+      "start": 26.32,
+      "end": 26.98
+    },
+    {
+      "word": "snails",
+      "start": 26.98,
+      "end": 28.48
+    },
+    {
+      "word": "seven",
+      "start": 29.36,
+      "end": 29.62
+    },
+    {
+      "word": "turtles",
+      "start": 29.62,
+      "end": 30.4
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "level-a/i-can-skate",
+  "title": "I Can Skate",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A I Can Skate 36 Written by Anthony Curran Illustrated by Violet Lemay wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "I Can Skate Written by Anthony Curran Illustrated by Violet Lemay WWWreadinga-Z.com Focus Question What can the girl do while skating?"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know backward jump fast slow forward I Can Skate Level A Leveled Book Learning A-Z Correlation Written by Anthony Curran LEVEL A Illustrated by Violet Lemay Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 wwwreadinga-z.com spin"
+    },
+    {
+      "page": 4,
+      "text": "I can skate fast; Can Skate Level A 3"
+    },
+    {
+      "page": 5,
+      "text": "I can skate slow. 4 MM"
+    },
+    {
+      "page": 6,
+      "text": "I can skate forward: Can Skate Level A 5 Rn + 4"
+    },
+    {
+      "page": 7,
+      "text": "I can skate backward:"
+    },
+    {
+      "page": 8,
+      "text": "~ I can spin; Can Skate Level A Vv"
+    },
+    {
+      "page": 9,
+      "text": "I can jump 8 GN"
+    },
+    {
+      "page": 10,
+      "text": "I can fall: Can Skate Level A"
+    },
+    {
+      "page": 11,
+      "text": "I can have fun. 10"
+    },
+    {
+      "page": 12,
+      "text": "I Can Skate A Reading A-Z Level A Leveled Book Word Count: 29 Connections Writing and Art What is an activity you know how to do? Draw a picture of that activity, then finish the sentence: I can Science people ice-skate in winter: Describe the season of winter to a partner: Then make a poster that includes pictures and words that describe winter: Reading A-Z Visit wwwreadinga-z.com for thousands of books and materials. Many"
+    }
+  ]
+}

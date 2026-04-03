@@ -1,0 +1,511 @@
+{
+  "version": "1.0",
+  "total_words": 101,
+  "timings": [
+    {
+      "word": "what",
+      "start": 0.0,
+      "end": 0.48
+    },
+    {
+      "word": "can",
+      "start": 0.48,
+      "end": 0.96
+    },
+    {
+      "word": "i",
+      "start": 0.96,
+      "end": 1.32
+    },
+    {
+      "word": "be",
+      "start": 1.32,
+      "end": 2.16
+    },
+    {
+      "word": "written",
+      "start": 2.62,
+      "end": 2.86
+    },
+    {
+      "word": "by",
+      "start": 2.86,
+      "end": 3.44
+    },
+    {
+      "word": "karen",
+      "start": 3.44,
+      "end": 4.12
+    },
+    {
+      "word": "mokler",
+      "start": 4.12,
+      "end": 4.94
+    },
+    {
+      "word": "illustrated",
+      "start": 5.62,
+      "end": 6.18
+    },
+    {
+      "word": "by",
+      "start": 6.18,
+      "end": 7.24
+    },
+    {
+      "word": "kathy",
+      "start": 7.24,
+      "end": 7.94
+    },
+    {
+      "word": "reene",
+      "start": 7.94,
+      "end": 8.82
+    },
+    {
+      "word": "focus",
+      "start": 9.88,
+      "end": 10.12
+    },
+    {
+      "word": "question",
+      "start": 10.12,
+      "end": 10.86
+    },
+    {
+      "word": "who",
+      "start": 11.82,
+      "end": 11.92
+    },
+    {
+      "word": "is",
+      "start": 11.92,
+      "end": 12.54
+    },
+    {
+      "word": "telling",
+      "start": 12.54,
+      "end": 12.9
+    },
+    {
+      "word": "this",
+      "start": 12.9,
+      "end": 13.52
+    },
+    {
+      "word": "story",
+      "start": 13.52,
+      "end": 14.08
+    },
+    {
+      "word": "halloween",
+      "start": 14.7,
+      "end": 15.3
+    },
+    {
+      "word": "is",
+      "start": 15.3,
+      "end": 16.06
+    },
+    {
+      "word": "coming",
+      "start": 16.06,
+      "end": 16.56
+    },
+    {
+      "word": "soon",
+      "start": 16.56,
+      "end": 17.54
+    },
+    {
+      "word": "what",
+      "start": 18.18,
+      "end": 18.4
+    },
+    {
+      "word": "can",
+      "start": 18.4,
+      "end": 18.82
+    },
+    {
+      "word": "i",
+      "start": 18.82,
+      "end": 19.26
+    },
+    {
+      "word": "be",
+      "start": 19.26,
+      "end": 19.78
+    },
+    {
+      "word": "i",
+      "start": 20.36,
+      "end": 20.78
+    },
+    {
+      "word": "can",
+      "start": 20.78,
+      "end": 21.4
+    },
+    {
+      "word": "be",
+      "start": 21.4,
+      "end": 21.82
+    },
+    {
+      "word": "a",
+      "start": 21.82,
+      "end": 22.06
+    },
+    {
+      "word": "pale",
+      "start": 22.06,
+      "end": 22.44
+    },
+    {
+      "word": "ghost",
+      "start": 22.44,
+      "end": 23.3
+    },
+    {
+      "word": "i",
+      "start": 23.9,
+      "end": 23.9
+    },
+    {
+      "word": "can",
+      "start": 23.9,
+      "end": 24.16
+    },
+    {
+      "word": "be",
+      "start": 24.16,
+      "end": 24.62
+    },
+    {
+      "word": "a",
+      "start": 24.62,
+      "end": 25.08
+    },
+    {
+      "word": "shiny",
+      "start": 25.08,
+      "end": 25.46
+    },
+    {
+      "word": "robot",
+      "start": 25.46,
+      "end": 26.14
+    },
+    {
+      "word": "i",
+      "start": 26.64,
+      "end": 26.92
+    },
+    {
+      "word": "can",
+      "start": 26.92,
+      "end": 27.16
+    },
+    {
+      "word": "be",
+      "start": 27.16,
+      "end": 27.6
+    },
+    {
+      "word": "an",
+      "start": 27.6,
+      "end": 28.12
+    },
+    {
+      "word": "old",
+      "start": 28.12,
+      "end": 28.5
+    },
+    {
+      "word": "mummy",
+      "start": 28.5,
+      "end": 28.96
+    },
+    {
+      "word": "i",
+      "start": 28.96,
+      "end": 29.82
+    },
+    {
+      "word": "can",
+      "start": 29.82,
+      "end": 30.24
+    },
+    {
+      "word": "be",
+      "start": 30.24,
+      "end": 30.62
+    },
+    {
+      "word": "a",
+      "start": 30.62,
+      "end": 31.16
+    },
+    {
+      "word": "big",
+      "start": 31.16,
+      "end": 31.44
+    },
+    {
+      "word": "box",
+      "start": 31.44,
+      "end": 32.04
+    },
+    {
+      "word": "i",
+      "start": 32.56,
+      "end": 32.76
+    },
+    {
+      "word": "can",
+      "start": 32.76,
+      "end": 33.08
+    },
+    {
+      "word": "be",
+      "start": 33.08,
+      "end": 33.62
+    },
+    {
+      "word": "a",
+      "start": 33.62,
+      "end": 34.22
+    },
+    {
+      "word": "cute",
+      "start": 34.22,
+      "end": 34.52
+    },
+    {
+      "word": "carrot",
+      "start": 34.52,
+      "end": 35.18
+    },
+    {
+      "word": "i",
+      "start": 35.74,
+      "end": 35.98
+    },
+    {
+      "word": "can",
+      "start": 35.98,
+      "end": 36.38
+    },
+    {
+      "word": "be",
+      "start": 36.38,
+      "end": 36.96
+    },
+    {
+      "word": "a",
+      "start": 36.96,
+      "end": 37.48
+    },
+    {
+      "word": "sweet",
+      "start": 37.48,
+      "end": 37.88
+    },
+    {
+      "word": "child",
+      "start": 37.88,
+      "end": 38.4
+    },
+    {
+      "word": "maybe",
+      "start": 38.94,
+      "end": 39.38
+    },
+    {
+      "word": "you",
+      "start": 39.38,
+      "end": 40.16
+    },
+    {
+      "word": "can",
+      "start": 40.16,
+      "end": 40.68
+    },
+    {
+      "word": "be",
+      "start": 40.68,
+      "end": 40.94
+    },
+    {
+      "word": "me",
+      "start": 40.94,
+      "end": 41.46
+    },
+    {
+      "word": "connections",
+      "start": 42.36,
+      "end": 42.36
+    },
+    {
+      "word": "writing",
+      "start": 43.5,
+      "end": 43.76
+    },
+    {
+      "word": "and",
+      "start": 43.76,
+      "end": 44.3
+    },
+    {
+      "word": "art",
+      "start": 44.3,
+      "end": 45.48
+    },
+    {
+      "word": "what",
+      "start": 46.1,
+      "end": 46.2
+    },
+    {
+      "word": "else",
+      "start": 46.2,
+      "end": 46.68
+    },
+    {
+      "word": "could",
+      "start": 46.68,
+      "end": 47.08
+    },
+    {
+      "word": "the",
+      "start": 47.08,
+      "end": 47.32
+    },
+    {
+      "word": "monster",
+      "start": 47.32,
+      "end": 47.84
+    },
+    {
+      "word": "dress",
+      "start": 47.84,
+      "end": 48.4
+    },
+    {
+      "word": "up",
+      "start": 48.4,
+      "end": 48.94
+    },
+    {
+      "word": "as",
+      "start": 48.94,
+      "end": 49.34
+    },
+    {
+      "word": "for",
+      "start": 49.34,
+      "end": 49.94
+    },
+    {
+      "word": "halloween",
+      "start": 49.94,
+      "end": 50.58
+    },
+    {
+      "word": "draw",
+      "start": 51.88,
+      "end": 52.16
+    },
+    {
+      "word": "a",
+      "start": 52.16,
+      "end": 52.46
+    },
+    {
+      "word": "picture",
+      "start": 52.46,
+      "end": 52.9
+    },
+    {
+      "word": "and",
+      "start": 52.9,
+      "end": 53.82
+    },
+    {
+      "word": "label",
+      "start": 53.82,
+      "end": 54.38
+    },
+    {
+      "word": "it",
+      "start": 54.38,
+      "end": 55.38
+    },
+    {
+      "word": "social",
+      "start": 55.38,
+      "end": 56.78
+    },
+    {
+      "word": "studies",
+      "start": 56.78,
+      "end": 57.82
+    },
+    {
+      "word": "what",
+      "start": 58.78,
+      "end": 58.86
+    },
+    {
+      "word": "are",
+      "start": 58.86,
+      "end": 59.54
+    },
+    {
+      "word": "some",
+      "start": 59.54,
+      "end": 60.0
+    },
+    {
+      "word": "halloween",
+      "start": 60.0,
+      "end": 60.56
+    },
+    {
+      "word": "traditions",
+      "start": 60.56,
+      "end": 61.76
+    },
+    {
+      "word": "share",
+      "start": 63.26,
+      "end": 63.48
+    },
+    {
+      "word": "your",
+      "start": 63.48,
+      "end": 64.04
+    },
+    {
+      "word": "ideas",
+      "start": 64.04,
+      "end": 64.78
+    },
+    {
+      "word": "with",
+      "start": 64.78,
+      "end": 65.78
+    },
+    {
+      "word": "a",
+      "start": 65.78,
+      "end": 65.96
+    },
+    {
+      "word": "partner",
+      "start": 65.96,
+      "end": 66.38
+    }
+  ]
+}

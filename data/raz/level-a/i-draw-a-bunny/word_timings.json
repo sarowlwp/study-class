@@ -1,0 +1,206 @@
+{
+  "version": "1.0",
+  "total_words": 40,
+  "timings": [
+    {
+      "word": "i",
+      "start": 0.0,
+      "end": 0.68
+    },
+    {
+      "word": "draw",
+      "start": 0.68,
+      "end": 1.46
+    },
+    {
+      "word": "a",
+      "start": 1.46,
+      "end": 1.82
+    },
+    {
+      "word": "bunny",
+      "start": 1.82,
+      "end": 2.3
+    },
+    {
+      "word": "written",
+      "start": 3.12,
+      "end": 3.38
+    },
+    {
+      "word": "by",
+      "start": 3.38,
+      "end": 3.94
+    },
+    {
+      "word": "bev",
+      "start": 3.94,
+      "end": 4.58
+    },
+    {
+      "word": "osborn",
+      "start": 4.58,
+      "end": 5.62
+    },
+    {
+      "word": "i",
+      "start": 6.3,
+      "end": 6.48
+    },
+    {
+      "word": "draw",
+      "start": 6.48,
+      "end": 7.2
+    },
+    {
+      "word": "the",
+      "start": 7.2,
+      "end": 7.78
+    },
+    {
+      "word": "ears",
+      "start": 7.78,
+      "end": 8.54
+    },
+    {
+      "word": "i",
+      "start": 9.14,
+      "end": 9.52
+    },
+    {
+      "word": "draw",
+      "start": 9.52,
+      "end": 10.14
+    },
+    {
+      "word": "the",
+      "start": 10.14,
+      "end": 10.56
+    },
+    {
+      "word": "nose",
+      "start": 10.56,
+      "end": 11.34
+    },
+    {
+      "word": "i",
+      "start": 11.98,
+      "end": 12.28
+    },
+    {
+      "word": "draw",
+      "start": 12.28,
+      "end": 13.06
+    },
+    {
+      "word": "the",
+      "start": 13.06,
+      "end": 13.84
+    },
+    {
+      "word": "eyes",
+      "start": 13.84,
+      "end": 14.66
+    },
+    {
+      "word": "i",
+      "start": 15.14,
+      "end": 15.6
+    },
+    {
+      "word": "draw",
+      "start": 15.6,
+      "end": 16.14
+    },
+    {
+      "word": "the",
+      "start": 16.14,
+      "end": 16.78
+    },
+    {
+      "word": "body",
+      "start": 16.78,
+      "end": 17.28
+    },
+    {
+      "word": "i",
+      "start": 17.8,
+      "end": 18.0
+    },
+    {
+      "word": "draw",
+      "start": 18.0,
+      "end": 18.82
+    },
+    {
+      "word": "the",
+      "start": 18.82,
+      "end": 19.42
+    },
+    {
+      "word": "teeth",
+      "start": 19.42,
+      "end": 19.96
+    },
+    {
+      "word": "i",
+      "start": 20.5,
+      "end": 20.76
+    },
+    {
+      "word": "draw",
+      "start": 20.76,
+      "end": 21.36
+    },
+    {
+      "word": "the",
+      "start": 21.36,
+      "end": 21.84
+    },
+    {
+      "word": "feet",
+      "start": 21.84,
+      "end": 22.34
+    },
+    {
+      "word": "i",
+      "start": 22.9,
+      "end": 23.26
+    },
+    {
+      "word": "draw",
+      "start": 23.26,
+      "end": 24.08
+    },
+    {
+      "word": "the",
+      "start": 24.08,
+      "end": 24.48
+    },
+    {
+      "word": "tail",
+      "start": 24.48,
+      "end": 25.0
+    },
+    {
+      "word": "i",
+      "start": 25.72,
+      "end": 26.0
+    },
+    {
+      "word": "draw",
+      "start": 26.0,
+      "end": 26.6
+    },
+    {
+      "word": "a",
+      "start": 26.6,
+      "end": 27.26
+    },
+    {
+      "word": "bunny",
+      "start": 27.26,
+      "end": 27.62
+    }
+  ]
+}

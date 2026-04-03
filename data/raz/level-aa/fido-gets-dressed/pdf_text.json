@@ -1,0 +1,62 @@
+{
+  "id": "level-aa/fido-gets-dressed",
+  "title": "Fido Gets Dressed",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 13,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A0 Fido Gets Dressed 0 Q9 Written by $. R. Ricjenson Illustrated by Angela Kamstra wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Fido Gets Dressed k Written by SR. Richenson Illustrated by Angela Kamstra wwwreadinga-z.com 1"
+    },
+    {
+      "page": 3,
+      "text": "1i0' 28) '08 sweater; Ib Fido Gets Dressed * Level aa 3 My"
+    },
+    {
+      "page": 4,
+      "text": "99 boots. ~ 6 My"
+    },
+    {
+      "page": 5,
+      "text": "00 S9 & hat. Fido Gets Dressed * Level aa 5 My"
+    },
+    {
+      "page": 6,
+      "text": "1 28 3 98 scarf My"
+    },
+    {
+      "page": 7,
+      "text": " LS L hat. Fido Gets Dressed * Level aa My"
+    },
+    {
+      "page": 8,
+      "text": "1 P sunglasses: 8 (Co ( 1, My"
+    },
+    {
+      "page": 9,
+      "text": "2 J 7 Mta M hat. Fido Gets Dressed * Level aa My"
+    },
+    {
+      "page": 10,
+      "text": "&7 cape: 10 My"
+    },
+    {
+      "page": 11,
+      "text": "~ 2_9 \"6 'Y mask: Fido Gets Dressed * Level aa 11 5 My"
+    },
+    {
+      "page": 12,
+      "text": "hat. 12 My"
+    },
+    {
+      "page": 13,
+      "text": "Fido Gets Dressed Level aa Leveled Book @ Learning A-Z Correlation Written by $. R. Richenson LEVEL aa Illustrated by Angela Kamstra Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-zcom"
+    }
+  ]
+}

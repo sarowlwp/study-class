@@ -1,0 +1,54 @@
+{
+  "id": "level-a/what-i-like",
+  "title": "What I Like",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A What I Like Written by Wa E: Strauss Illusirated by Rebecca Thornburgh wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "What I Like Written W: E. Strauss Illustrated by Rebecca Thornburgh wwwreadinga-z.com by"
+    },
+    {
+      "page": 3,
+      "text": "I like flowers. What Like Level A 3"
+    },
+    {
+      "page": 4,
+      "text": "Nlz I like trees:"
+    },
+    {
+      "page": 5,
+      "text": "I like birds_ What Like Level A 5 Iot"
+    },
+    {
+      "page": 6,
+      "text": "Mndnn_M_ L 2 M I like bees. LtnMnrt"
+    },
+    {
+      "page": 7,
+      "text": "0 I like to swing: What Like Level A KZ"
+    },
+    {
+      "page": 8,
+      "text": "w 2 I like to slide: 8 4J"
+    },
+    {
+      "page": 9,
+      "text": "W I like to What Like Level A VaA Knt dig:"
+    },
+    {
+      "page": 10,
+      "text": "503 I like to play outside: 10 W"
+    },
+    {
+      "page": 11,
+      "text": "What I Like Level A Leveled Book Learning A-Z Correlation Written by W. E. Strauss LEVEL A Illustrated by Rebecca Thornburgh Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-zcom"
+    }
+  ]
+}

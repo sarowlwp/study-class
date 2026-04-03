@@ -1,0 +1,58 @@
+{
+  "id": "level-b/after-school",
+  "title": "After School",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B After School 33 Written by Elizabeth Jane Pustilnik Illustrated by Tracy wwwreadinga-z.com (k Bishop"
+    },
+    {
+      "page": 2,
+      "text": "After School Written by Elizabeth Jane Pustilnik Illustrated Tracy Bishop WWWreadinga-Z.com Focus Question What are some ways to have fun after school? by"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know act play bike dance After School Level B Leveled Book Learning A-Z Correlation Written by Elizabeth Jane Pustilnik LEVEL B Illustrated by Tracy Fountas & Pinnell B All rights reserved. Reading Recovery 2 DRA 2 wwwreadinga-z.com sing study Bishop"
+    },
+    {
+      "page": 4,
+      "text": "I like to after school: After School Level B 3 VA CA study"
+    },
+    {
+      "page": 5,
+      "text": "I like to play after school:"
+    },
+    {
+      "page": 6,
+      "text": "I like to dance after school: After School Level B 5"
+    },
+    {
+      "page": 7,
+      "text": "I like to act after school:"
+    },
+    {
+      "page": 8,
+      "text": "I like to read after school: After School Level B"
+    },
+    {
+      "page": 9,
+      "text": "I like to sing after school: 8"
+    },
+    {
+      "page": 10,
+      "text": "I like to bike after school: After School Level B"
+    },
+    {
+      "page": 11,
+      "text": "33 K We like to have fun after school: 10"
+    },
+    {
+      "page": 12,
+      "text": "After School A Reading A-Z Level B Leveled Book Word Count: 49 Connections Writing and Art Make a new page for this book Draw a picture and write this sentence: I like to after school. Math What do your classmates do after school? Make a bar graph as a class to show this information: Reading A-Z Visit wwwreadinga-z.com for thousands of books and materials."
+    }
+  ]
+}

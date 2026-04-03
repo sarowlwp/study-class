@@ -1,0 +1,58 @@
+{
+  "id": "level-aa/this-kitchen",
+  "title": "This Kitchen",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , aa This Kitchen Written by Racheal Rice wwwreadinga-z.com KoMe"
+    },
+    {
+      "page": 2,
+      "text": "This Kitchen Written by Racheal Rice wwwreadinga-z.com Focus Question What can you find in a kitchen?"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know cookie jar sink counter stove cupboard toaster fridge trash can Photo Credits: Front cover; back cover: 0 Jupiterimages/Creatas/Thinkstock; title page: Elenathewise/iStock/Thinkstock; page 3: @ Irina88w/Dreamstime.com; page 4: @ Jrockar/Dreamstime.com; page 5: @ Sean Pavone/Dreamstime.com; page 6: @ arquiplay77/iStock/Thinkstock; page 7: @ Jumiati Marginean/iStock/ Thinkstock:; page 8: @ Fuse/Thinkstock; page 9: @ EJJohnsonPhotography/ iStock/Thinkstock; page 10: @ Darko Novakovic/Hemera/Thinkstock This Kitchen Level aa Leveled Book Correlation Learning A-Z LEVEL aa Written by Racheal Rice Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "This stove. This Kitchen Level aa 3"
+    },
+    {
+      "page": 5,
+      "text": "This sink"
+    },
+    {
+      "page": 6,
+      "text": "This   fridge: This Kitchen Level aa 5"
+    },
+    {
+      "page": 7,
+      "text": "This cupboard."
+    },
+    {
+      "page": 8,
+      "text": "This counter This Kitchen Level aa"
+    },
+    {
+      "page": 9,
+      "text": "This toaster: 8"
+    },
+    {
+      "page": 10,
+      "text": "This cookie jar: This Kitchen Level aa"
+    },
+    {
+      "page": 11,
+      "text": "This trash can_ 10"
+    },
+    {
+      "page": 12,
+      "text": "This Kitchen A Reading A-Z Level aa Leveled Book Word Count: 18 Su_cs GAME  3pm Connections Writing Write the names of the things in your kitchen: Art Make a map of your kitchen: Reading A-2 Visit wwwreadinga-z.com for thousands of books and materials."
+    }
+  ]
+}

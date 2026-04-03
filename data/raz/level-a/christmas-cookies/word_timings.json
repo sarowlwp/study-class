@@ -1,0 +1,491 @@
+{
+  "version": "1.0",
+  "total_words": 97,
+  "timings": [
+    {
+      "word": "christmas",
+      "start": 0.0,
+      "end": 0.92
+    },
+    {
+      "word": "cookies",
+      "start": 0.92,
+      "end": 2.42
+    },
+    {
+      "word": "written",
+      "start": 2.42,
+      "end": 3.46
+    },
+    {
+      "word": "by",
+      "start": 3.46,
+      "end": 4.54
+    },
+    {
+      "word": "harriet",
+      "start": 4.54,
+      "end": 5.18
+    },
+    {
+      "word": "rosenblum",
+      "start": 5.18,
+      "end": 7.26
+    },
+    {
+      "word": "focus",
+      "start": 7.26,
+      "end": 8.54
+    },
+    {
+      "word": "question",
+      "start": 8.54,
+      "end": 9.98
+    },
+    {
+      "word": "how",
+      "start": 9.98,
+      "end": 11.08
+    },
+    {
+      "word": "are",
+      "start": 11.08,
+      "end": 11.68
+    },
+    {
+      "word": "the",
+      "start": 11.68,
+      "end": 11.9
+    },
+    {
+      "word": "cookies",
+      "start": 11.9,
+      "end": 12.34
+    },
+    {
+      "word": "in",
+      "start": 12.34,
+      "end": 13.04
+    },
+    {
+      "word": "this",
+      "start": 13.04,
+      "end": 13.36
+    },
+    {
+      "word": "book",
+      "start": 13.36,
+      "end": 14.06
+    },
+    {
+      "word": "the",
+      "start": 14.06,
+      "end": 14.62
+    },
+    {
+      "word": "same",
+      "start": 14.62,
+      "end": 15.32
+    },
+    {
+      "word": "how",
+      "start": 15.32,
+      "end": 16.64
+    },
+    {
+      "word": "are",
+      "start": 16.64,
+      "end": 17.2
+    },
+    {
+      "word": "they",
+      "start": 17.2,
+      "end": 17.44
+    },
+    {
+      "word": "different",
+      "start": 17.44,
+      "end": 18.12
+    },
+    {
+      "word": "make",
+      "start": 19.02,
+      "end": 19.02
+    },
+    {
+      "word": "star",
+      "start": 19.02,
+      "end": 20.36
+    },
+    {
+      "word": "cookies",
+      "start": 20.36,
+      "end": 21.66
+    },
+    {
+      "word": "make",
+      "start": 21.66,
+      "end": 23.12
+    },
+    {
+      "word": "bell",
+      "start": 23.12,
+      "end": 24.38
+    },
+    {
+      "word": "cookies",
+      "start": 24.38,
+      "end": 25.84
+    },
+    {
+      "word": "make",
+      "start": 25.84,
+      "end": 26.8
+    },
+    {
+      "word": "snowflake",
+      "start": 26.8,
+      "end": 28.88
+    },
+    {
+      "word": "cookies",
+      "start": 28.88,
+      "end": 29.7
+    },
+    {
+      "word": "make",
+      "start": 29.7,
+      "end": 30.66
+    },
+    {
+      "word": "tree",
+      "start": 30.66,
+      "end": 31.82
+    },
+    {
+      "word": "cookies",
+      "start": 31.82,
+      "end": 33.18
+    },
+    {
+      "word": "make",
+      "start": 33.18,
+      "end": 34.22
+    },
+    {
+      "word": "flower",
+      "start": 34.22,
+      "end": 35.6
+    },
+    {
+      "word": "cookies",
+      "start": 35.6,
+      "end": 36.86
+    },
+    {
+      "word": "make",
+      "start": 36.86,
+      "end": 38.1
+    },
+    {
+      "word": "no",
+      "start": 38.1,
+      "end": 39.2
+    },
+    {
+      "word": "man",
+      "start": 39.2,
+      "end": 39.72
+    },
+    {
+      "word": "cookies",
+      "start": 40.32,
+      "end": 40.74
+    },
+    {
+      "word": "make",
+      "start": 41.6,
+      "end": 42.06
+    },
+    {
+      "word": "candle",
+      "start": 43.04,
+      "end": 43.64
+    },
+    {
+      "word": "cookies",
+      "start": 44.58,
+      "end": 45.08
+    },
+    {
+      "word": "make",
+      "start": 45.82,
+      "end": 46.34
+    },
+    {
+      "word": "santa",
+      "start": 47.4,
+      "end": 47.7
+    },
+    {
+      "word": "cookies",
+      "start": 48.58,
+      "end": 49.38
+    },
+    {
+      "word": "connections",
+      "start": 50.84,
+      "end": 50.84
+    },
+    {
+      "word": "writing",
+      "start": 52.02,
+      "end": 52.4
+    },
+    {
+      "word": "and",
+      "start": 53.12,
+      "end": 53.32
+    },
+    {
+      "word": "art",
+      "start": 53.32,
+      "end": 54.06
+    },
+    {
+      "word": "what",
+      "start": 55.42,
+      "end": 55.5
+    },
+    {
+      "word": "is",
+      "start": 55.5,
+      "end": 56.24
+    },
+    {
+      "word": "your",
+      "start": 56.24,
+      "end": 56.82
+    },
+    {
+      "word": "favorite",
+      "start": 56.82,
+      "end": 57.8
+    },
+    {
+      "word": "holiday",
+      "start": 57.8,
+      "end": 58.96
+    },
+    {
+      "word": "right",
+      "start": 58.96,
+      "end": 60.66
+    },
+    {
+      "word": "about",
+      "start": 60.66,
+      "end": 61.84
+    },
+    {
+      "word": "a",
+      "start": 61.84,
+      "end": 62.5
+    },
+    {
+      "word": "cookie",
+      "start": 62.5,
+      "end": 62.9
+    },
+    {
+      "word": "you",
+      "start": 62.9,
+      "end": 64.04
+    },
+    {
+      "word": "would",
+      "start": 64.04,
+      "end": 64.48
+    },
+    {
+      "word": "make",
+      "start": 64.48,
+      "end": 65.0
+    },
+    {
+      "word": "for",
+      "start": 65.0,
+      "end": 65.84
+    },
+    {
+      "word": "that",
+      "start": 65.84,
+      "end": 66.46
+    },
+    {
+      "word": "holiday",
+      "start": 66.46,
+      "end": 67.72
+    },
+    {
+      "word": "draw",
+      "start": 69.18,
+      "end": 69.2
+    },
+    {
+      "word": "a",
+      "start": 69.2,
+      "end": 69.94
+    },
+    {
+      "word": "picture",
+      "start": 69.94,
+      "end": 70.36
+    },
+    {
+      "word": "of",
+      "start": 70.36,
+      "end": 70.82
+    },
+    {
+      "word": "it",
+      "start": 70.82,
+      "end": 71.44
+    },
+    {
+      "word": "and",
+      "start": 71.44,
+      "end": 71.98
+    },
+    {
+      "word": "write",
+      "start": 71.98,
+      "end": 72.38
+    },
+    {
+      "word": "this",
+      "start": 72.38,
+      "end": 73.42
+    },
+    {
+      "word": "sentence",
+      "start": 73.42,
+      "end": 74.18
+    },
+    {
+      "word": "i",
+      "start": 74.18,
+      "end": 75.44
+    },
+    {
+      "word": "make",
+      "start": 75.44,
+      "end": 76.7
+    },
+    {
+      "word": "cookies",
+      "start": 76.7,
+      "end": 79.44
+    },
+    {
+      "word": "math",
+      "start": 79.44,
+      "end": 80.9
+    },
+    {
+      "word": "how",
+      "start": 80.9,
+      "end": 82.42
+    },
+    {
+      "word": "many",
+      "start": 82.42,
+      "end": 82.88
+    },
+    {
+      "word": "cookies",
+      "start": 82.88,
+      "end": 83.56
+    },
+    {
+      "word": "are",
+      "start": 83.56,
+      "end": 84.44
+    },
+    {
+      "word": "in",
+      "start": 84.44,
+      "end": 85.04
+    },
+    {
+      "word": "the",
+      "start": 85.04,
+      "end": 85.56
+    },
+    {
+      "word": "book",
+      "start": 85.56,
+      "end": 86.32
+    },
+    {
+      "word": "draw",
+      "start": 87.08,
+      "end": 87.32
+    },
+    {
+      "word": "pictures",
+      "start": 87.32,
+      "end": 87.98
+    },
+    {
+      "word": "to",
+      "start": 87.98,
+      "end": 88.94
+    },
+    {
+      "word": "help",
+      "start": 88.94,
+      "end": 89.4
+    },
+    {
+      "word": "you",
+      "start": 89.4,
+      "end": 89.72
+    },
+    {
+      "word": "count",
+      "start": 89.72,
+      "end": 90.22
+    },
+    {
+      "word": "all",
+      "start": 90.22,
+      "end": 91.24
+    },
+    {
+      "word": "the",
+      "start": 91.24,
+      "end": 91.54
+    },
+    {
+      "word": "cookies",
+      "start": 91.54,
+      "end": 92.04
+    },
+    {
+      "word": "in",
+      "start": 92.04,
+      "end": 92.86
+    },
+    {
+      "word": "the",
+      "start": 92.86,
+      "end": 93.32
+    },
+    {
+      "word": "book",
+      "start": 93.32,
+      "end": 93.74
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "version": "1.0",
+  "total_words": 28,
+  "timings": [
+    {
+      "word": "the",
+      "start": 0.0,
+      "end": 0.34
+    },
+    {
+      "word": "trip",
+      "start": 0.34,
+      "end": 1.08
+    },
+    {
+      "word": "written",
+      "start": 1.08,
+      "end": 1.94
+    },
+    {
+      "word": "by",
+      "start": 1.94,
+      "end": 2.26
+    },
+    {
+      "word": "laura",
+      "start": 2.26,
+      "end": 2.6
+    },
+    {
+      "word": "tully",
+      "start": 2.6,
+      "end": 3.28
+    },
+    {
+      "word": "swickle",
+      "start": 3.28,
+      "end": 4.58
+    },
+    {
+      "word": "illustrated",
+      "start": 4.58,
+      "end": 5.88
+    },
+    {
+      "word": "by",
+      "start": 5.88,
+      "end": 6.24
+    },
+    {
+      "word": "nora",
+      "start": 6.24,
+      "end": 6.72
+    },
+    {
+      "word": "vutus",
+      "start": 6.72,
+      "end": 8.08
+    },
+    {
+      "word": "the",
+      "start": 9.58,
+      "end": 10.28
+    },
+    {
+      "word": "clothes",
+      "start": 10.28,
+      "end": 12.2
+    },
+    {
+      "word": "the",
+      "start": 12.96,
+      "end": 13.66
+    },
+    {
+      "word": "suitcase",
+      "start": 13.66,
+      "end": 15.14
+    },
+    {
+      "word": "the",
+      "start": 16.46,
+      "end": 17.16
+    },
+    {
+      "word": "map",
+      "start": 17.16,
+      "end": 18.18
+    },
+    {
+      "word": "the",
+      "start": 19.72,
+      "end": 20.42
+    },
+    {
+      "word": "car",
+      "start": 20.42,
+      "end": 21.16
+    },
+    {
+      "word": "the",
+      "start": 22.94,
+      "end": 23.64
+    },
+    {
+      "word": "seat",
+      "start": 23.64,
+      "end": 24.5
+    },
+    {
+      "word": "belt",
+      "start": 24.5,
+      "end": 25.24
+    },
+    {
+      "word": "the",
+      "start": 25.24,
+      "end": 27.4
+    },
+    {
+      "word": "dog",
+      "start": 27.4,
+      "end": 28.66
+    },
+    {
+      "word": "the",
+      "start": 30.0,
+      "end": 30.7
+    },
+    {
+      "word": "book",
+      "start": 30.7,
+      "end": 31.86
+    },
+    {
+      "word": "the",
+      "start": 31.86,
+      "end": 34.12
+    },
+    {
+      "word": "grandparents",
+      "start": 34.12,
+      "end": 35.38
+    }
+  ]
+}

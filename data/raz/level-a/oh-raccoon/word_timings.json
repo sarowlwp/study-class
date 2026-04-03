@@ -1,0 +1,446 @@
+{
+  "version": "1.0",
+  "total_words": 88,
+  "timings": [
+    {
+      "word": "oh",
+      "start": 0.0,
+      "end": 0.62
+    },
+    {
+      "word": "ra",
+      "start": 0.94,
+      "end": 1.34
+    },
+    {
+      "word": "-kun",
+      "start": 1.34,
+      "end": 1.88
+    },
+    {
+      "word": "written",
+      "start": 3.2,
+      "end": 3.58
+    },
+    {
+      "word": "by",
+      "start": 3.58,
+      "end": 4.66
+    },
+    {
+      "word": "karen",
+      "start": 4.66,
+      "end": 5.56
+    },
+    {
+      "word": "mokler",
+      "start": 5.56,
+      "end": 6.9
+    },
+    {
+      "word": "illustrated",
+      "start": 7.98,
+      "end": 8.7
+    },
+    {
+      "word": "by",
+      "start": 8.7,
+      "end": 9.86
+    },
+    {
+      "word": "hugh",
+      "start": 9.86,
+      "end": 10.72
+    },
+    {
+      "word": "jamison",
+      "start": 10.72,
+      "end": 12.2
+    },
+    {
+      "word": "focus",
+      "start": 13.66,
+      "end": 13.92
+    },
+    {
+      "word": "question",
+      "start": 13.92,
+      "end": 15.18
+    },
+    {
+      "word": "what",
+      "start": 16.02,
+      "end": 16.3
+    },
+    {
+      "word": "do",
+      "start": 16.3,
+      "end": 17.18
+    },
+    {
+      "word": "you",
+      "start": 17.18,
+      "end": 17.88
+    },
+    {
+      "word": "learn",
+      "start": 17.88,
+      "end": 18.58
+    },
+    {
+      "word": "about",
+      "start": 18.58,
+      "end": 19.42
+    },
+    {
+      "word": "racoon",
+      "start": 19.42,
+      "end": 20.64
+    },
+    {
+      "word": "racoon",
+      "start": 21.58,
+      "end": 22.14
+    },
+    {
+      "word": "is",
+      "start": 22.14,
+      "end": 22.9
+    },
+    {
+      "word": "awake",
+      "start": 22.9,
+      "end": 23.96
+    },
+    {
+      "word": "racoon",
+      "start": 24.84,
+      "end": 25.38
+    },
+    {
+      "word": "is",
+      "start": 25.38,
+      "end": 26.16
+    },
+    {
+      "word": "hungry",
+      "start": 26.16,
+      "end": 27.16
+    },
+    {
+      "word": "racoon",
+      "start": 28.1,
+      "end": 28.64
+    },
+    {
+      "word": "is",
+      "start": 28.64,
+      "end": 29.6
+    },
+    {
+      "word": "smart",
+      "start": 29.6,
+      "end": 30.82
+    },
+    {
+      "word": "racoon",
+      "start": 31.58,
+      "end": 32.5
+    },
+    {
+      "word": "is",
+      "start": 32.5,
+      "end": 33.32
+    },
+    {
+      "word": "messy",
+      "start": 33.32,
+      "end": 34.48
+    },
+    {
+      "word": "racoon",
+      "start": 35.3,
+      "end": 35.84
+    },
+    {
+      "word": "is",
+      "start": 35.84,
+      "end": 36.68
+    },
+    {
+      "word": "sneaky",
+      "start": 36.68,
+      "end": 37.92
+    },
+    {
+      "word": "racoon",
+      "start": 38.46,
+      "end": 39.22
+    },
+    {
+      "word": "is",
+      "start": 39.22,
+      "end": 39.96
+    },
+    {
+      "word": "full",
+      "start": 39.96,
+      "end": 40.88
+    },
+    {
+      "word": "racoon",
+      "start": 41.58,
+      "end": 42.22
+    },
+    {
+      "word": "is",
+      "start": 42.22,
+      "end": 43.0
+    },
+    {
+      "word": "sleepy",
+      "start": 43.0,
+      "end": 44.14
+    },
+    {
+      "word": "racoon",
+      "start": 44.84,
+      "end": 45.72
+    },
+    {
+      "word": "is",
+      "start": 45.72,
+      "end": 46.58
+    },
+    {
+      "word": "cute",
+      "start": 46.58,
+      "end": 47.76
+    },
+    {
+      "word": "connections",
+      "start": 47.76,
+      "end": 49.3
+    },
+    {
+      "word": "writing",
+      "start": 50.58,
+      "end": 50.72
+    },
+    {
+      "word": "and",
+      "start": 50.72,
+      "end": 51.7
+    },
+    {
+      "word": "art",
+      "start": 51.7,
+      "end": 53.0
+    },
+    {
+      "word": "raccoon",
+      "start": 54.04,
+      "end": 54.6
+    },
+    {
+      "word": "has",
+      "start": 54.6,
+      "end": 55.2
+    },
+    {
+      "word": "a",
+      "start": 55.2,
+      "end": 55.7
+    },
+    {
+      "word": "busy",
+      "start": 55.7,
+      "end": 56.22
+    },
+    {
+      "word": "night",
+      "start": 56.22,
+      "end": 57.06
+    },
+    {
+      "word": "if",
+      "start": 58.08,
+      "end": 58.1
+    },
+    {
+      "word": "you",
+      "start": 58.1,
+      "end": 58.6
+    },
+    {
+      "word": "were",
+      "start": 58.6,
+      "end": 58.98
+    },
+    {
+      "word": "awake",
+      "start": 58.98,
+      "end": 59.66
+    },
+    {
+      "word": "all",
+      "start": 59.66,
+      "end": 60.2
+    },
+    {
+      "word": "night",
+      "start": 60.2,
+      "end": 60.88
+    },
+    {
+      "word": "what",
+      "start": 61.58,
+      "end": 61.78
+    },
+    {
+      "word": "would",
+      "start": 61.78,
+      "end": 62.3
+    },
+    {
+      "word": "you",
+      "start": 62.3,
+      "end": 62.58
+    },
+    {
+      "word": "do",
+      "start": 62.58,
+      "end": 63.52
+    },
+    {
+      "word": "draw",
+      "start": 64.02,
+      "end": 64.22
+    },
+    {
+      "word": "a",
+      "start": 64.22,
+      "end": 64.6
+    },
+    {
+      "word": "picture",
+      "start": 64.6,
+      "end": 65.06
+    },
+    {
+      "word": "label",
+      "start": 65.44,
+      "end": 65.8
+    },
+    {
+      "word": "it",
+      "start": 65.8,
+      "end": 66.58
+    },
+    {
+      "word": "and",
+      "start": 66.58,
+      "end": 66.92
+    },
+    {
+      "word": "share",
+      "start": 66.92,
+      "end": 67.24
+    },
+    {
+      "word": "your",
+      "start": 67.24,
+      "end": 67.76
+    },
+    {
+      "word": "answer",
+      "start": 67.76,
+      "end": 68.2
+    },
+    {
+      "word": "with",
+      "start": 68.2,
+      "end": 68.64
+    },
+    {
+      "word": "a",
+      "start": 68.64,
+      "end": 68.8
+    },
+    {
+      "word": "partner",
+      "start": 68.8,
+      "end": 69.8
+    },
+    {
+      "word": "science",
+      "start": 70.66,
+      "end": 71.02
+    },
+    {
+      "word": "and",
+      "start": 71.02,
+      "end": 71.72
+    },
+    {
+      "word": "art",
+      "start": 71.72,
+      "end": 72.62
+    },
+    {
+      "word": "draw",
+      "start": 73.32,
+      "end": 73.62
+    },
+    {
+      "word": "a",
+      "start": 73.62,
+      "end": 74.2
+    },
+    {
+      "word": "diagram",
+      "start": 74.2,
+      "end": 74.78
+    },
+    {
+      "word": "of",
+      "start": 74.78,
+      "end": 75.64
+    },
+    {
+      "word": "a",
+      "start": 75.64,
+      "end": 75.86
+    },
+    {
+      "word": "raccoon",
+      "start": 75.86,
+      "end": 76.56
+    },
+    {
+      "word": "and",
+      "start": 76.56,
+      "end": 77.12
+    },
+    {
+      "word": "label",
+      "start": 77.12,
+      "end": 77.48
+    },
+    {
+      "word": "five",
+      "start": 77.48,
+      "end": 78.28
+    },
+    {
+      "word": "body",
+      "start": 78.28,
+      "end": 78.88
+    },
+    {
+      "word": "parts",
+      "start": 78.88,
+      "end": 79.56
+    }
+  ]
+}

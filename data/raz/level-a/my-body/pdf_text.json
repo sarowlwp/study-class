@@ -1,0 +1,54 @@
+{
+  "id": "level-a/my-body",
+  "title": "My Body",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A My Written by Elizabeth Austin wwwreadinga-z.com Body"
+    },
+    {
+      "page": 2,
+      "text": "Written by Elizabeth Austin wwwreadinga-z.com Body My"
+    },
+    {
+      "page": 3,
+      "text": "This is my foot My Body Level A 3"
+    },
+    {
+      "page": 4,
+      "text": "This is my leg;"
+    },
+    {
+      "page": 5,
+      "text": "This is my belly:' My Body Level A 5"
+    },
+    {
+      "page": 6,
+      "text": "This is my chest."
+    },
+    {
+      "page": 7,
+      "text": "This is my hand_ My Body Level A"
+    },
+    {
+      "page": 8,
+      "text": "This is my arm_ 8"
+    },
+    {
+      "page": 9,
+      "text": "This is my head: My Body Level A"
+    },
+    {
+      "page": 10,
+      "text": "This is my body: 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: All photos: Tim Fuller/@ Learning A-Z LOADING My Body Level A Leveled Book Correlation 0 Learning A-Z LEVEL A Written by Elizabeth Austin Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-zcom"
+    }
+  ]
+}

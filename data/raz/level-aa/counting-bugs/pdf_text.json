@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/counting-bugs",
+  "title": "Counting Bugs",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book 0 a0 Counting Bugs Written by Laura Zwickl wwwreadinga-z.com Tully"
+    },
+    {
+      "page": 2,
+      "text": "Counting Written Laura Tully Zwickl wwwreadinga-z.com Bugs by"
+    },
+    {
+      "page": 3,
+      "text": "One bug: Counting Bugs Level aa 3"
+    },
+    {
+      "page": 4,
+      "text": "Two bugs"
+    },
+    {
+      "page": 5,
+      "text": "Three bugs. Counting Bugs Level aa 5"
+    },
+    {
+      "page": 6,
+      "text": "Four bugs."
+    },
+    {
+      "page": 7,
+      "text": "Five bugs Counting Bugs Level aa"
+    },
+    {
+      "page": 8,
+      "text": "Six bugs. 8"
+    },
+    {
+      "page": 9,
+      "text": "Seven bugs: Counting Bugs Level aa"
+    },
+    {
+      "page": 10,
+      "text": "So many bugsl 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover: Filip Fuxa/Dreamstimecom; back cover: @ Aleksandr Volkovl Dreamstime.com; title page: @ Takashi Shinkai/Minden Pictures; page 3: Arndt/Minden Pictures; page 4: @ Cathy Keifer/Dreamstimecom; page 5: Piotr Naskrecki/Minden Pictures; page 6: @ Tommy Schultz/Dreamstimecom; page 7: @ Igor SiwanowiczBarcroft Media/Landov; page 8: @ Andrey Davidenkol Dreamstimecom; page 9: @ Httin/Dreamstimecom; page IO: @ Norbert Wul Science Faction/Corbis Note to teachers: In this book, we use \"bug\" to mean insect,\" since most of our readers consider all insects to be bugs. In fact; a is a specific type of insect within the arthropod group that includes aphids, cicadas, and stinkbugs True bugs would not include all the insects in this book. Counting Bugs Level aa Leveled Book Correlation Learning A-Z LEVEL aa Written by Laura Tully Zwickl Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-zcom Ingo bug"
+    }
+  ]
+}

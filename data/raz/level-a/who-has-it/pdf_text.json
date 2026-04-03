@@ -1,0 +1,54 @@
+{
+  "id": "level-a/who-has-it",
+  "title": "Who Has It",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Who Has s Ii? A44 Ml Mu M LM W4N WM Written Anthony Curran Illustrated by Linda Silvestri wwwreadinga-z.com Vnw by"
+    },
+    {
+      "page": 2,
+      "text": "Who Has I J 4K[I /[/44 M It? 74 xe Written by Anthony Curran Illustrated by Linda Silvestri wwwreadinga-z.com 8"
+    },
+    {
+      "page": 3,
+      "text": "0 N MA H W LM ! I1 I Who has it? Who Has It? Level A 3 3 { Wl"
+    },
+    {
+      "page": 4,
+      "text": "3 Wy UUL A W YJ M Jut [ Ma Mtl I have it. 4 U L~ D~ M D Mn WlW"
+    },
+    {
+      "page": 5,
+      "text": "3 0 ANA 4| IM You have it. Who Has It? Level A 5 e~ 4 Le~ ~uun c {"
+    },
+    {
+      "page": 6,
+      "text": "Lut G Wn He has it. *un AWl"
+    },
+    {
+      "page": 7,
+      "text": "~im J UAL LULA She has it. Who Has It? Level A"
+    },
+    {
+      "page": 8,
+      "text": "l Juo U ( They have it. 8 ~Ly GU 3"
+    },
+    {
+      "page": 9,
+      "text": "L ? 5 in (1N We have it. Who Has It? Level A 7) 33"
+    },
+    {
+      "page": 10,
+      "text": "L Ly WJ Uv D The dog has it. 10 ) A ~W Gu"
+    },
+    {
+      "page": 11,
+      "text": "Who Has It? Level A Leveled Book 0 Learning A-Z Correlation Written by Anthony Curran LEVEL A Illustrated by Linda Silvestri Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com"
+    }
+  ]
+}

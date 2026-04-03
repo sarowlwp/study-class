@@ -1,0 +1,54 @@
+{
+  "id": "level-b/on-the-farm",
+  "title": "On The Farm",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B On the Farm 8 Lw Written by Cheryl Ryan Illustrated by Nora Voutas WWw.readinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "On the Farm W Written by Cheryl Ryan Illustrated Nora Voutas wwwreadinga-z.com by"
+    },
+    {
+      "page": 3,
+      "text": "83 A is in a house. On the Farm Level B 3 dog"
+    },
+    {
+      "page": 4,
+      "text": "A COW is in a barn_ IAA M"
+    },
+    {
+      "page": 5,
+      "text": "7 W A pig is in the mud. On the Farm Level B 5"
+    },
+    {
+      "page": 6,
+      "text": "MV 74 O 4 (AKIN A chicken is in the 0 hay-"
+    },
+    {
+      "page": 7,
+      "text": "N )) A is in a field. On the Farm Level B goat"
+    },
+    {
+      "page": 8,
+      "text": "Q A duck is on a 8 L 8 pond."
+    },
+    {
+      "page": 9,
+      "text": "alus L A is on a hill_ On the Farm Level B 6 sheep"
+    },
+    {
+      "page": 10,
+      "text": "Animals are on a farm_ 10"
+    },
+    {
+      "page": 11,
+      "text": "LOADING On the Farm Level B Leveled Book Learning A-Z Correlation Written by Cheryl Ryan LEVEL B Illustrated by Nora Voutas Fountas & Pinnell B AIl rights reserved. Reading Recovery 2 DRA 2 WWW.R readinga-z.com"
+    }
+  ]
+}

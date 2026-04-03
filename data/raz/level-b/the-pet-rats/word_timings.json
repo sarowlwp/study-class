@@ -1,0 +1,451 @@
+{
+  "version": "1.0",
+  "total_words": 89,
+  "timings": [
+    {
+      "word": "the",
+      "start": 0.0,
+      "end": 0.5
+    },
+    {
+      "word": "pet",
+      "start": 0.5,
+      "end": 1.14
+    },
+    {
+      "word": "rats",
+      "start": 1.14,
+      "end": 2.34
+    },
+    {
+      "word": "written",
+      "start": 2.5,
+      "end": 3.18
+    },
+    {
+      "word": "by",
+      "start": 3.18,
+      "end": 3.96
+    },
+    {
+      "word": "rachel",
+      "start": 3.96,
+      "end": 4.48
+    },
+    {
+      "word": "rice",
+      "start": 4.48,
+      "end": 5.54
+    },
+    {
+      "word": "illustrated",
+      "start": 6.1,
+      "end": 6.62
+    },
+    {
+      "word": "by",
+      "start": 6.62,
+      "end": 7.32
+    },
+    {
+      "word": "gabor",
+      "start": 7.32,
+      "end": 8.14
+    },
+    {
+      "word": "utomo",
+      "start": 8.14,
+      "end": 9.12
+    },
+    {
+      "word": "focus",
+      "start": 10.24,
+      "end": 10.46
+    },
+    {
+      "word": "question",
+      "start": 10.46,
+      "end": 11.46
+    },
+    {
+      "word": "what",
+      "start": 12.58,
+      "end": 12.84
+    },
+    {
+      "word": "can",
+      "start": 12.84,
+      "end": 13.74
+    },
+    {
+      "word": "pet",
+      "start": 13.74,
+      "end": 14.12
+    },
+    {
+      "word": "rats",
+      "start": 14.12,
+      "end": 14.9
+    },
+    {
+      "word": "do",
+      "start": 14.9,
+      "end": 15.68
+    },
+    {
+      "word": "the",
+      "start": 16.82,
+      "end": 16.82
+    },
+    {
+      "word": "pet",
+      "start": 16.82,
+      "end": 17.18
+    },
+    {
+      "word": "rats",
+      "start": 17.18,
+      "end": 18.2
+    },
+    {
+      "word": "eat",
+      "start": 18.2,
+      "end": 19.02
+    },
+    {
+      "word": "the",
+      "start": 20.04,
+      "end": 20.04
+    },
+    {
+      "word": "pet",
+      "start": 20.04,
+      "end": 20.74
+    },
+    {
+      "word": "rats",
+      "start": 20.74,
+      "end": 21.88
+    },
+    {
+      "word": "drink",
+      "start": 21.88,
+      "end": 22.92
+    },
+    {
+      "word": "the",
+      "start": 22.92,
+      "end": 23.62
+    },
+    {
+      "word": "pet",
+      "start": 23.62,
+      "end": 24.4
+    },
+    {
+      "word": "rats",
+      "start": 24.4,
+      "end": 25.44
+    },
+    {
+      "word": "chew",
+      "start": 25.44,
+      "end": 26.44
+    },
+    {
+      "word": "the",
+      "start": 26.44,
+      "end": 27.28
+    },
+    {
+      "word": "pet",
+      "start": 27.28,
+      "end": 28.08
+    },
+    {
+      "word": "rats",
+      "start": 28.08,
+      "end": 29.06
+    },
+    {
+      "word": "climb",
+      "start": 29.06,
+      "end": 30.1
+    },
+    {
+      "word": "the",
+      "start": 30.1,
+      "end": 30.94
+    },
+    {
+      "word": "pet",
+      "start": 30.94,
+      "end": 31.66
+    },
+    {
+      "word": "rats",
+      "start": 31.66,
+      "end": 32.56
+    },
+    {
+      "word": "hide",
+      "start": 32.56,
+      "end": 33.48
+    },
+    {
+      "word": "the",
+      "start": 33.48,
+      "end": 34.38
+    },
+    {
+      "word": "pet",
+      "start": 34.38,
+      "end": 35.16
+    },
+    {
+      "word": "rats",
+      "start": 35.16,
+      "end": 36.1
+    },
+    {
+      "word": "run",
+      "start": 36.1,
+      "end": 37.02
+    },
+    {
+      "word": "the",
+      "start": 37.02,
+      "end": 37.76
+    },
+    {
+      "word": "pet",
+      "start": 37.76,
+      "end": 38.56
+    },
+    {
+      "word": "rats",
+      "start": 38.56,
+      "end": 39.36
+    },
+    {
+      "word": "sleep",
+      "start": 39.36,
+      "end": 40.52
+    },
+    {
+      "word": "rats",
+      "start": 40.52,
+      "end": 41.6
+    },
+    {
+      "word": "are",
+      "start": 41.6,
+      "end": 42.42
+    },
+    {
+      "word": "fun",
+      "start": 42.42,
+      "end": 42.96
+    },
+    {
+      "word": "class",
+      "start": 42.96,
+      "end": 43.72
+    },
+    {
+      "word": "pets",
+      "start": 43.72,
+      "end": 44.6
+    },
+    {
+      "word": "connections",
+      "start": 44.6,
+      "end": 45.86
+    },
+    {
+      "word": "writing",
+      "start": 45.86,
+      "end": 47.34
+    },
+    {
+      "word": "and",
+      "start": 47.34,
+      "end": 48.12
+    },
+    {
+      "word": "art",
+      "start": 48.12,
+      "end": 49.34
+    },
+    {
+      "word": "what",
+      "start": 49.34,
+      "end": 50.3
+    },
+    {
+      "word": "animal",
+      "start": 50.3,
+      "end": 51.08
+    },
+    {
+      "word": "would",
+      "start": 51.08,
+      "end": 51.74
+    },
+    {
+      "word": "you",
+      "start": 51.74,
+      "end": 52.0
+    },
+    {
+      "word": "like",
+      "start": 52.0,
+      "end": 52.28
+    },
+    {
+      "word": "for",
+      "start": 52.28,
+      "end": 52.64
+    },
+    {
+      "word": "a",
+      "start": 52.64,
+      "end": 52.84
+    },
+    {
+      "word": "class",
+      "start": 52.84,
+      "end": 53.16
+    },
+    {
+      "word": "pet",
+      "start": 53.16,
+      "end": 54.12
+    },
+    {
+      "word": "draw",
+      "start": 54.72,
+      "end": 54.98
+    },
+    {
+      "word": "a",
+      "start": 54.98,
+      "end": 55.44
+    },
+    {
+      "word": "picture",
+      "start": 55.44,
+      "end": 55.76
+    },
+    {
+      "word": "and",
+      "start": 55.76,
+      "end": 56.4
+    },
+    {
+      "word": "write",
+      "start": 56.4,
+      "end": 56.68
+    },
+    {
+      "word": "about",
+      "start": 56.68,
+      "end": 57.12
+    },
+    {
+      "word": "it",
+      "start": 57.12,
+      "end": 58.28
+    },
+    {
+      "word": "science",
+      "start": 58.88,
+      "end": 59.38
+    },
+    {
+      "word": "what",
+      "start": 60.76,
+      "end": 60.9
+    },
+    {
+      "word": "do",
+      "start": 60.9,
+      "end": 61.3
+    },
+    {
+      "word": "you",
+      "start": 61.3,
+      "end": 61.52
+    },
+    {
+      "word": "need",
+      "start": 61.52,
+      "end": 62.0
+    },
+    {
+      "word": "to",
+      "start": 62.0,
+      "end": 62.38
+    },
+    {
+      "word": "take",
+      "start": 62.38,
+      "end": 62.68
+    },
+    {
+      "word": "care",
+      "start": 62.68,
+      "end": 63.12
+    },
+    {
+      "word": "of",
+      "start": 63.12,
+      "end": 63.34
+    },
+    {
+      "word": "a",
+      "start": 63.34,
+      "end": 63.54
+    },
+    {
+      "word": "pet",
+      "start": 63.54,
+      "end": 63.86
+    },
+    {
+      "word": "rat",
+      "start": 63.86,
+      "end": 64.32
+    },
+    {
+      "word": "share",
+      "start": 65.32,
+      "end": 65.56
+    },
+    {
+      "word": "your",
+      "start": 65.56,
+      "end": 66.02
+    },
+    {
+      "word": "ideas",
+      "start": 66.02,
+      "end": 66.48
+    },
+    {
+      "word": "with",
+      "start": 66.48,
+      "end": 66.86
+    },
+    {
+      "word": "a",
+      "start": 66.86,
+      "end": 66.98
+    },
+    {
+      "word": "partner",
+      "start": 66.98,
+      "end": 67.24
+    }
+  ]
+}

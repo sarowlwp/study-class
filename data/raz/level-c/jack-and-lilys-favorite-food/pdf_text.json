@@ -1,0 +1,54 @@
+{
+  "id": "level-c/jack-and-lilys-favorite-food",
+  "title": "Jack And Lilys Favorite Food",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED READER , C \"Jack and Lily's Favorite Food Written by Katherine Illustrated by Kaori Tajima WWw.readinga-z.com Page"
+    },
+    {
+      "page": 2,
+      "text": "\"Jack and Lily's Favorite Food JANUAFYJ  1 Written by Katherine Page Illustrated by Kaori Tajima wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "In some waYS , Jack and are different. Jack and Lily's Favorite Food Level € 3 Lily"
+    },
+    {
+      "page": 4,
+      "text": "APRL 4 Jack likes chicken. doesn't. 3 Lily"
+    },
+    {
+      "page": 5,
+      "text": "JUNE Jack likes beef . doesn't. Jack and Lily's Favorite Food Level € 5 Lily"
+    },
+    {
+      "page": 6,
+      "text": "TF'I 0 4 Jack likes tuna. doesn't. 6 3 Lily"
+    },
+    {
+      "page": 7,
+      "text": "OCTOER 10 Jack likes pork. doesn't. Jack and Lily's Favorite Food Level € Porvi Lily"
+    },
+    {
+      "page": 8,
+      "text": "McNzER 11 Jack likes turkey: doesn't_ 8 Lily"
+    },
+    {
+      "page": 9,
+      "text": "JANUARy 1/ Jack loves salmon_ does, tool Jack and Lily's Favorite Food Level € 9 3 Lily"
+    },
+    {
+      "page": 10,
+      "text": "1 In this waY , Jack and are the same. 10 JANUAPY} Lily"
+    },
+    {
+      "page": 11,
+      "text": "Jack and Lily' $ Favorite Food Level C Leveled Reader Learning A-Z Correlation Written by Katherine LEVEL € Illustrated Kaori Tajima Fountas & Pinnell All rights reserved: Reading_Recovery 3-4 DRA 3-4 WWW _ readinga-z.< com Page by"
+    }
+  ]
+}

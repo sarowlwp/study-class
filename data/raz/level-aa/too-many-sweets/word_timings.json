@@ -1,0 +1,146 @@
+{
+  "version": "1.0",
+  "total_words": 28,
+  "timings": [
+    {
+      "word": "too",
+      "start": 0.0,
+      "end": 0.38
+    },
+    {
+      "word": "many",
+      "start": 0.38,
+      "end": 0.82
+    },
+    {
+      "word": "sweets",
+      "start": 0.82,
+      "end": 1.46
+    },
+    {
+      "word": "written",
+      "start": 2.4,
+      "end": 2.66
+    },
+    {
+      "word": "by",
+      "start": 2.66,
+      "end": 3.22
+    },
+    {
+      "word": "russ",
+      "start": 3.22,
+      "end": 3.62
+    },
+    {
+      "word": "buyak",
+      "start": 3.62,
+      "end": 4.5
+    },
+    {
+      "word": "illustrated",
+      "start": 5.16,
+      "end": 5.82
+    },
+    {
+      "word": "by",
+      "start": 5.82,
+      "end": 6.42
+    },
+    {
+      "word": "damian",
+      "start": 6.42,
+      "end": 6.92
+    },
+    {
+      "word": "ward",
+      "start": 6.92,
+      "end": 7.62
+    },
+    {
+      "word": "my",
+      "start": 10.26,
+      "end": 10.28
+    },
+    {
+      "word": "cake",
+      "start": 10.28,
+      "end": 11.06
+    },
+    {
+      "word": "my",
+      "start": 13.74,
+      "end": 13.78
+    },
+    {
+      "word": "cookie",
+      "start": 13.78,
+      "end": 14.48
+    },
+    {
+      "word": "my",
+      "start": 17.36,
+      "end": 17.44
+    },
+    {
+      "word": "cupcake",
+      "start": 17.44,
+      "end": 18.28
+    },
+    {
+      "word": "my",
+      "start": 21.26,
+      "end": 21.4
+    },
+    {
+      "word": "ice",
+      "start": 21.4,
+      "end": 22.0
+    },
+    {
+      "word": "cream",
+      "start": 22.0,
+      "end": 22.44
+    },
+    {
+      "word": "my",
+      "start": 23.94,
+      "end": 25.34
+    },
+    {
+      "word": "pie",
+      "start": 25.34,
+      "end": 26.54
+    },
+    {
+      "word": "my",
+      "start": 28.84,
+      "end": 29.02
+    },
+    {
+      "word": "brownie",
+      "start": 29.02,
+      "end": 30.3
+    },
+    {
+      "word": "my",
+      "start": 32.5,
+      "end": 32.84
+    },
+    {
+      "word": "candy",
+      "start": 32.84,
+      "end": 33.56
+    },
+    {
+      "word": "my",
+      "start": 36.42,
+      "end": 36.68
+    },
+    {
+      "word": "belly",
+      "start": 36.68,
+      "end": 37.36
+    }
+  ]
+}

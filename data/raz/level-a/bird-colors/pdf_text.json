@@ -1,0 +1,62 @@
+{
+  "id": "level-a/bird-colors",
+  "title": "Bird Colors",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 13,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Bird Colors Writfen by Anthony Curran wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Bird Colors Written by Anthony Curran wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "This bird is green: Bird Colors Level A 3"
+    },
+    {
+      "page": 4,
+      "text": "This bird is yellow:"
+    },
+    {
+      "page": 5,
+      "text": "This bird is red_ Bird Colors Level A 5"
+    },
+    {
+      "page": 6,
+      "text": "This bird is blue:"
+    },
+    {
+      "page": 7,
+      "text": "This bird is purple: Bird Colors Level A"
+    },
+    {
+      "page": 8,
+      "text": "8 This bird is 8 pink"
+    },
+    {
+      "page": 9,
+      "text": "This bird is brown: Bird Colors Level A"
+    },
+    {
+      "page": 10,
+      "text": "This bird is orange: 10"
+    },
+    {
+      "page": 11,
+      "text": "This bird is gray: Bird Colors Level A 11"
+    },
+    {
+      "page": 12,
+      "text": "This bird is many colors 12"
+    },
+    {
+      "page": 13,
+      "text": "Photo Credits: Front cover; page 12: @ Matt Antonino/Dreamstime.com; back cover: @ Eduardo Rivero/123RF; title page, page 4: @ Dreamstime.com; icon throughout: @ iStockphotocom/Irina Tischenko; page 3: @ Cusoncom/Dreamstimecom; page 5: @ Peter Wollinga/Dreamstimecom; page 6: @ Duncan Noakes/i23RF; page 7: @ Jack Sullivan/Alamy: page 8: @ Olgakuts/Dreamstimecom; page 9: 0 Alta Oosthuizen/123RF; page 10: @ Brian Bevan/ardeacom; page Il: @ Steve Byland/Dreamstime.com Bird Colors Level A Leveled Book Correlation Learning A-Z LEVEL A Written by Anthony Curran Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-zcom"
+    }
+  ]
+}

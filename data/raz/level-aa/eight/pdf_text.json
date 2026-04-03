@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/eight",
+  "title": "Eight",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , aa Eight series Numbers Written by Ann Marazzi Illustrated by Mary Uhles WWWreadinga-Z.com S Mary"
+    },
+    {
+      "page": 2,
+      "text": "Eight Ks 82 59 Written by Ann Marazzi Illustrated by Uhles wwwreadinga-z.com Mary Mary"
+    },
+    {
+      "page": 3,
+      "text": "@0 Eight backpacks. Eight 0 Level aa 3"
+    },
+    {
+      "page": 4,
+      "text": "9 Eight bottles."
+    },
+    {
+      "page": 5,
+      "text": "8 Jl 1 Eight raincoats. Eight 0 Level aa 5"
+    },
+    {
+      "page": 6,
+      "text": "Eight chairs."
+    },
+    {
+      "page": 7,
+      "text": "37 Eight lights. Eight 0 Level aa"
+    },
+    {
+      "page": 8,
+      "text": "Eight sticks. 8 1"
+    },
+    {
+      "page": 9,
+      "text": "0 C Eight hot dogs Eight 0 Level aa 8"
+    },
+    {
+      "page": 10,
+      "text": "Eight friends. 10"
+    },
+    {
+      "page": 11,
+      "text": "Eight Level aa Leveled Book 0 Learning A-Z Correlation Written by Ann Marazzi LEVEL aa Illustrated by Mary Uhles Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com Mary"
+    }
+  ]
+}

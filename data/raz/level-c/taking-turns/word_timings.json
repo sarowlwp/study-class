@@ -1,0 +1,386 @@
+{
+  "version": "1.0",
+  "total_words": 76,
+  "timings": [
+    {
+      "word": "taking",
+      "start": 0.0,
+      "end": 0.36
+    },
+    {
+      "word": "turns",
+      "start": 0.36,
+      "end": 1.32
+    },
+    {
+      "word": "written",
+      "start": 1.72,
+      "end": 1.94
+    },
+    {
+      "word": "by",
+      "start": 1.94,
+      "end": 2.32
+    },
+    {
+      "word": "meribeth",
+      "start": 2.32,
+      "end": 2.94
+    },
+    {
+      "word": "bolts",
+      "start": 2.94,
+      "end": 3.58
+    },
+    {
+      "word": "when",
+      "start": 4.1,
+      "end": 4.12
+    },
+    {
+      "word": "is",
+      "start": 4.12,
+      "end": 4.44
+    },
+    {
+      "word": "it",
+      "start": 4.44,
+      "end": 4.64
+    },
+    {
+      "word": "my",
+      "start": 4.64,
+      "end": 4.92
+    },
+    {
+      "word": "turn",
+      "start": 4.92,
+      "end": 5.36
+    },
+    {
+      "word": "the",
+      "start": 5.68,
+      "end": 5.74
+    },
+    {
+      "word": "teacher",
+      "start": 5.74,
+      "end": 6.2
+    },
+    {
+      "word": "is",
+      "start": 6.2,
+      "end": 6.54
+    },
+    {
+      "word": "the",
+      "start": 6.54,
+      "end": 6.84
+    },
+    {
+      "word": "first",
+      "start": 6.84,
+      "end": 7.18
+    },
+    {
+      "word": "to",
+      "start": 7.18,
+      "end": 7.62
+    },
+    {
+      "word": "read",
+      "start": 7.62,
+      "end": 8.0
+    },
+    {
+      "word": "then",
+      "start": 8.28,
+      "end": 8.58
+    },
+    {
+      "word": "it",
+      "start": 8.58,
+      "end": 8.98
+    },
+    {
+      "word": "is",
+      "start": 8.98,
+      "end": 9.24
+    },
+    {
+      "word": "may's",
+      "start": 9.24,
+      "end": 9.72
+    },
+    {
+      "word": "turn",
+      "start": 9.72,
+      "end": 10.04
+    },
+    {
+      "word": "to",
+      "start": 10.04,
+      "end": 10.46
+    },
+    {
+      "word": "read",
+      "start": 10.46,
+      "end": 10.78
+    },
+    {
+      "word": "mikael",
+      "start": 11.18,
+      "end": 11.72
+    },
+    {
+      "word": "is",
+      "start": 11.72,
+      "end": 12.1
+    },
+    {
+      "word": "the",
+      "start": 12.1,
+      "end": 12.42
+    },
+    {
+      "word": "first",
+      "start": 12.42,
+      "end": 12.82
+    },
+    {
+      "word": "to",
+      "start": 12.82,
+      "end": 13.2
+    },
+    {
+      "word": "slide",
+      "start": 13.2,
+      "end": 13.68
+    },
+    {
+      "word": "then",
+      "start": 14.1,
+      "end": 14.38
+    },
+    {
+      "word": "it",
+      "start": 14.38,
+      "end": 14.72
+    },
+    {
+      "word": "is",
+      "start": 14.72,
+      "end": 15.04
+    },
+    {
+      "word": "dawn's",
+      "start": 15.04,
+      "end": 15.62
+    },
+    {
+      "word": "turn",
+      "start": 15.62,
+      "end": 15.96
+    },
+    {
+      "word": "to",
+      "start": 15.96,
+      "end": 16.22
+    },
+    {
+      "word": "slide",
+      "start": 16.22,
+      "end": 16.72
+    },
+    {
+      "word": "it",
+      "start": 16.84,
+      "end": 17.04
+    },
+    {
+      "word": "is",
+      "start": 17.04,
+      "end": 17.38
+    },
+    {
+      "word": "louisa's",
+      "start": 17.38,
+      "end": 18.22
+    },
+    {
+      "word": "turn",
+      "start": 18.22,
+      "end": 18.5
+    },
+    {
+      "word": "to",
+      "start": 18.5,
+      "end": 18.8
+    },
+    {
+      "word": "drink",
+      "start": 18.8,
+      "end": 19.18
+    },
+    {
+      "word": "then",
+      "start": 19.62,
+      "end": 19.8
+    },
+    {
+      "word": "it",
+      "start": 19.8,
+      "end": 20.16
+    },
+    {
+      "word": "is",
+      "start": 20.16,
+      "end": 20.48
+    },
+    {
+      "word": "meg's",
+      "start": 20.48,
+      "end": 21.02
+    },
+    {
+      "word": "turn",
+      "start": 21.02,
+      "end": 21.32
+    },
+    {
+      "word": "to",
+      "start": 21.32,
+      "end": 21.56
+    },
+    {
+      "word": "drink",
+      "start": 21.56,
+      "end": 21.94
+    },
+    {
+      "word": "grandwa",
+      "start": 22.22,
+      "end": 22.78
+    },
+    {
+      "word": "is",
+      "start": 22.78,
+      "end": 23.08
+    },
+    {
+      "word": "first",
+      "start": 23.08,
+      "end": 23.68
+    },
+    {
+      "word": "to",
+      "start": 23.68,
+      "end": 23.94
+    },
+    {
+      "word": "cut",
+      "start": 23.94,
+      "end": 24.22
+    },
+    {
+      "word": "out",
+      "start": 24.22,
+      "end": 24.52
+    },
+    {
+      "word": "cookies",
+      "start": 24.52,
+      "end": 24.9
+    },
+    {
+      "word": "then",
+      "start": 24.9,
+      "end": 25.62
+    },
+    {
+      "word": "i",
+      "start": 25.62,
+      "end": 26.12
+    },
+    {
+      "word": "cut",
+      "start": 26.12,
+      "end": 26.36
+    },
+    {
+      "word": "out",
+      "start": 26.36,
+      "end": 26.74
+    },
+    {
+      "word": "cookies",
+      "start": 26.74,
+      "end": 27.12
+    },
+    {
+      "word": "we",
+      "start": 27.68,
+      "end": 27.72
+    },
+    {
+      "word": "all",
+      "start": 27.72,
+      "end": 28.2
+    },
+    {
+      "word": "play",
+      "start": 28.2,
+      "end": 28.5
+    },
+    {
+      "word": "a",
+      "start": 28.5,
+      "end": 28.8
+    },
+    {
+      "word": "game",
+      "start": 28.8,
+      "end": 29.16
+    },
+    {
+      "word": "now",
+      "start": 29.82,
+      "end": 30.14
+    },
+    {
+      "word": "it",
+      "start": 30.14,
+      "end": 30.42
+    },
+    {
+      "word": "is",
+      "start": 30.42,
+      "end": 30.86
+    },
+    {
+      "word": "my",
+      "start": 30.86,
+      "end": 31.14
+    },
+    {
+      "word": "turn",
+      "start": 31.14,
+      "end": 31.46
+    },
+    {
+      "word": "to",
+      "start": 31.46,
+      "end": 31.68
+    },
+    {
+      "word": "go",
+      "start": 31.68,
+      "end": 31.98
+    },
+    {
+      "word": "first",
+      "start": 31.98,
+      "end": 32.52
+    }
+  ]
+}

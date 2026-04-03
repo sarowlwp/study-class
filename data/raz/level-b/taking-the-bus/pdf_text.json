@@ -1,0 +1,54 @@
+{
+  "id": "level-b/taking-the-bus",
+  "title": "Taking The Bus",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Taking Qe the Bus Written by Elizabeth Strauss wwwreadinga-z.com 2529 dond"
+    },
+    {
+      "page": 2,
+      "text": "Taking the Bus SunTran 792 2'222 Written by Elizabeth Strauss wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "SuaIren 79? 5222 I walk to the bus  stop. Taking the Bus Level B 3"
+    },
+    {
+      "page": 4,
+      "text": "6-7047 1 ii I wait for the bus:"
+    },
+    {
+      "page": 5,
+      "text": "Tol I see the bus come; Taking the Bus Level B 5"
+    },
+    {
+      "page": 6,
+      "text": "I get on the bus."
+    },
+    {
+      "page": 7,
+      "text": "I pay for the bus ride: Taking the Bus Level B 1"
+    },
+    {
+      "page": 8,
+      "text": "I ride on the bus: 8"
+    },
+    {
+      "page": 9,
+      "text": "2523 Evme I get off the bus: Taking the Bus Level B Ed"
+    },
+    {
+      "page": 10,
+      "text": "#mmum: dhgtied 174 I walk the rest Of the waY to school: 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: All photos: Craig Frederick/@ Learning A-Z, Inc Reading A-Z gives special thanks to Tucson; Arizona's bus service provided by Sun Tran the Bus Level B Leveled Book Correlation Learning A-Z LEVEL B Written by Elizabeth Strauss Fountas & Pinnell B All rights reserved: Reading_ Recovery 2 DRA 2 wwwreadinga-zcom Taking"
+    }
+  ]
+}

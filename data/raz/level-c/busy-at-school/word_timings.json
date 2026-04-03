@@ -1,0 +1,281 @@
+{
+  "version": "1.0",
+  "total_words": 55,
+  "timings": [
+    {
+      "word": "busy",
+      "start": 0.0,
+      "end": 0.38
+    },
+    {
+      "word": "at",
+      "start": 0.38,
+      "end": 1.1
+    },
+    {
+      "word": "school",
+      "start": 1.1,
+      "end": 1.96
+    },
+    {
+      "word": "written",
+      "start": 2.46,
+      "end": 2.66
+    },
+    {
+      "word": "by",
+      "start": 2.66,
+      "end": 3.28
+    },
+    {
+      "word": "brycy",
+      "start": 3.28,
+      "end": 4.24
+    },
+    {
+      "word": "wilson",
+      "start": 4.24,
+      "end": 4.96
+    },
+    {
+      "word": "the",
+      "start": 5.86,
+      "end": 5.86
+    },
+    {
+      "word": "children",
+      "start": 5.86,
+      "end": 6.28
+    },
+    {
+      "word": "are",
+      "start": 6.28,
+      "end": 6.82
+    },
+    {
+      "word": "busy",
+      "start": 6.82,
+      "end": 7.3
+    },
+    {
+      "word": "at",
+      "start": 7.3,
+      "end": 7.82
+    },
+    {
+      "word": "school",
+      "start": 7.82,
+      "end": 8.26
+    },
+    {
+      "word": "they",
+      "start": 8.74,
+      "end": 9.1
+    },
+    {
+      "word": "sing",
+      "start": 9.1,
+      "end": 9.52
+    },
+    {
+      "word": "a",
+      "start": 9.52,
+      "end": 10.02
+    },
+    {
+      "word": "song",
+      "start": 10.02,
+      "end": 10.4
+    },
+    {
+      "word": "they",
+      "start": 11.0,
+      "end": 11.0
+    },
+    {
+      "word": "paint",
+      "start": 11.0,
+      "end": 11.62
+    },
+    {
+      "word": "a",
+      "start": 11.62,
+      "end": 12.04
+    },
+    {
+      "word": "picture",
+      "start": 12.04,
+      "end": 12.5
+    },
+    {
+      "word": "they",
+      "start": 13.0,
+      "end": 13.22
+    },
+    {
+      "word": "play",
+      "start": 13.22,
+      "end": 13.84
+    },
+    {
+      "word": "a",
+      "start": 13.84,
+      "end": 14.4
+    },
+    {
+      "word": "game",
+      "start": 14.4,
+      "end": 14.8
+    },
+    {
+      "word": "they",
+      "start": 15.18,
+      "end": 15.5
+    },
+    {
+      "word": "listen",
+      "start": 15.5,
+      "end": 16.2
+    },
+    {
+      "word": "to",
+      "start": 16.2,
+      "end": 16.8
+    },
+    {
+      "word": "a",
+      "start": 16.8,
+      "end": 16.96
+    },
+    {
+      "word": "story",
+      "start": 16.96,
+      "end": 17.52
+    },
+    {
+      "word": "they",
+      "start": 17.76,
+      "end": 18.2
+    },
+    {
+      "word": "eat",
+      "start": 18.2,
+      "end": 18.78
+    },
+    {
+      "word": "snacks",
+      "start": 18.78,
+      "end": 19.7
+    },
+    {
+      "word": "they",
+      "start": 20.5,
+      "end": 20.6
+    },
+    {
+      "word": "share",
+      "start": 20.6,
+      "end": 21.04
+    },
+    {
+      "word": "toys",
+      "start": 21.04,
+      "end": 21.88
+    },
+    {
+      "word": "they",
+      "start": 21.88,
+      "end": 22.5
+    },
+    {
+      "word": "count",
+      "start": 22.5,
+      "end": 23.06
+    },
+    {
+      "word": "numbers",
+      "start": 23.06,
+      "end": 23.88
+    },
+    {
+      "word": "they",
+      "start": 24.42,
+      "end": 24.78
+    },
+    {
+      "word": "write",
+      "start": 24.78,
+      "end": 25.28
+    },
+    {
+      "word": "the",
+      "start": 25.28,
+      "end": 25.84
+    },
+    {
+      "word": "abcs",
+      "start": 25.84,
+      "end": 27.34
+    },
+    {
+      "word": "the",
+      "start": 27.98,
+      "end": 28.04
+    },
+    {
+      "word": "children",
+      "start": 28.04,
+      "end": 28.5
+    },
+    {
+      "word": "are",
+      "start": 28.5,
+      "end": 29.0
+    },
+    {
+      "word": "busy",
+      "start": 29.0,
+      "end": 29.36
+    },
+    {
+      "word": "at",
+      "start": 29.36,
+      "end": 29.86
+    },
+    {
+      "word": "school",
+      "start": 29.86,
+      "end": 30.32
+    },
+    {
+      "word": "what",
+      "start": 31.16,
+      "end": 31.4
+    },
+    {
+      "word": "other",
+      "start": 31.4,
+      "end": 31.92
+    },
+    {
+      "word": "things",
+      "start": 31.92,
+      "end": 32.42
+    },
+    {
+      "word": "do",
+      "start": 32.42,
+      "end": 32.84
+    },
+    {
+      "word": "they",
+      "start": 32.84,
+      "end": 33.12
+    },
+    {
+      "word": "do",
+      "start": 33.12,
+      "end": 33.52
+    }
+  ]
+}

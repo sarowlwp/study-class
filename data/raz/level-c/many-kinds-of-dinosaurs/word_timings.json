@@ -1,0 +1,531 @@
+{
+  "version": "1.0",
+  "total_words": 105,
+  "timings": [
+    {
+      "word": "many",
+      "start": 0.0,
+      "end": 0.44
+    },
+    {
+      "word": "kinds",
+      "start": 0.44,
+      "end": 1.12
+    },
+    {
+      "word": "of",
+      "start": 1.12,
+      "end": 1.86
+    },
+    {
+      "word": "dinosaurs",
+      "start": 1.86,
+      "end": 2.5
+    },
+    {
+      "word": "written",
+      "start": 3.42,
+      "end": 3.62
+    },
+    {
+      "word": "by",
+      "start": 3.62,
+      "end": 4.3
+    },
+    {
+      "word": "rachel",
+      "start": 4.3,
+      "end": 5.06
+    },
+    {
+      "word": "rice",
+      "start": 5.06,
+      "end": 6.2
+    },
+    {
+      "word": "focus",
+      "start": 7.24,
+      "end": 7.62
+    },
+    {
+      "word": "question",
+      "start": 7.62,
+      "end": 8.38
+    },
+    {
+      "word": "how",
+      "start": 9.54,
+      "end": 9.76
+    },
+    {
+      "word": "were",
+      "start": 9.76,
+      "end": 10.3
+    },
+    {
+      "word": "dinosaurs",
+      "start": 10.3,
+      "end": 10.96
+    },
+    {
+      "word": "different",
+      "start": 10.96,
+      "end": 12.14
+    },
+    {
+      "word": "from",
+      "start": 12.14,
+      "end": 12.72
+    },
+    {
+      "word": "one",
+      "start": 12.72,
+      "end": 12.96
+    },
+    {
+      "word": "another",
+      "start": 12.96,
+      "end": 13.48
+    },
+    {
+      "word": "dinosaurs",
+      "start": 13.48,
+      "end": 14.56
+    },
+    {
+      "word": "lived",
+      "start": 14.56,
+      "end": 15.3
+    },
+    {
+      "word": "long",
+      "start": 15.3,
+      "end": 16.0
+    },
+    {
+      "word": "ago",
+      "start": 16.0,
+      "end": 16.68
+    },
+    {
+      "word": "there",
+      "start": 17.58,
+      "end": 17.7
+    },
+    {
+      "word": "were",
+      "start": 17.7,
+      "end": 18.06
+    },
+    {
+      "word": "many",
+      "start": 18.06,
+      "end": 18.6
+    },
+    {
+      "word": "kinds",
+      "start": 18.6,
+      "end": 19.18
+    },
+    {
+      "word": "of",
+      "start": 19.18,
+      "end": 19.56
+    },
+    {
+      "word": "dinosaurs",
+      "start": 19.56,
+      "end": 20.18
+    },
+    {
+      "word": "some",
+      "start": 20.92,
+      "end": 21.24
+    },
+    {
+      "word": "dinosaurs",
+      "start": 21.24,
+      "end": 21.96
+    },
+    {
+      "word": "had",
+      "start": 21.96,
+      "end": 22.82
+    },
+    {
+      "word": "large",
+      "start": 22.82,
+      "end": 23.34
+    },
+    {
+      "word": "heads",
+      "start": 23.34,
+      "end": 24.04
+    },
+    {
+      "word": "some",
+      "start": 24.04,
+      "end": 24.86
+    },
+    {
+      "word": "dinosaurs",
+      "start": 24.86,
+      "end": 25.52
+    },
+    {
+      "word": "had",
+      "start": 25.52,
+      "end": 26.42
+    },
+    {
+      "word": "small",
+      "start": 26.42,
+      "end": 26.86
+    },
+    {
+      "word": "heads",
+      "start": 26.86,
+      "end": 27.58
+    },
+    {
+      "word": "some",
+      "start": 28.1,
+      "end": 28.34
+    },
+    {
+      "word": "dinosaurs",
+      "start": 28.34,
+      "end": 28.82
+    },
+    {
+      "word": "had",
+      "start": 28.82,
+      "end": 29.82
+    },
+    {
+      "word": "short",
+      "start": 29.82,
+      "end": 30.26
+    },
+    {
+      "word": "teeth",
+      "start": 30.26,
+      "end": 31.08
+    },
+    {
+      "word": "some",
+      "start": 31.46,
+      "end": 31.72
+    },
+    {
+      "word": "dinosaurs",
+      "start": 31.72,
+      "end": 32.28
+    },
+    {
+      "word": "had",
+      "start": 32.28,
+      "end": 33.26
+    },
+    {
+      "word": "long",
+      "start": 33.26,
+      "end": 33.76
+    },
+    {
+      "word": "teeth",
+      "start": 33.76,
+      "end": 34.2
+    },
+    {
+      "word": "some",
+      "start": 34.72,
+      "end": 35.0
+    },
+    {
+      "word": "dinosaurs",
+      "start": 35.0,
+      "end": 35.84
+    },
+    {
+      "word": "had",
+      "start": 35.84,
+      "end": 36.7
+    },
+    {
+      "word": "two",
+      "start": 36.7,
+      "end": 37.38
+    },
+    {
+      "word": "legs",
+      "start": 37.38,
+      "end": 38.04
+    },
+    {
+      "word": "some",
+      "start": 38.64,
+      "end": 38.96
+    },
+    {
+      "word": "dinosaurs",
+      "start": 38.96,
+      "end": 39.64
+    },
+    {
+      "word": "had",
+      "start": 39.64,
+      "end": 40.92
+    },
+    {
+      "word": "four",
+      "start": 40.92,
+      "end": 41.4
+    },
+    {
+      "word": "legs",
+      "start": 41.4,
+      "end": 42.02
+    },
+    {
+      "word": "there",
+      "start": 42.44,
+      "end": 42.64
+    },
+    {
+      "word": "were",
+      "start": 42.64,
+      "end": 43.12
+    },
+    {
+      "word": "many",
+      "start": 43.12,
+      "end": 43.6
+    },
+    {
+      "word": "kinds",
+      "start": 43.6,
+      "end": 44.38
+    },
+    {
+      "word": "of",
+      "start": 44.38,
+      "end": 44.8
+    },
+    {
+      "word": "dinosaurs",
+      "start": 44.8,
+      "end": 45.64
+    },
+    {
+      "word": "dinosaur's",
+      "start": 45.64,
+      "end": 47.62
+    },
+    {
+      "word": "lived",
+      "start": 47.62,
+      "end": 48.0
+    },
+    {
+      "word": "long",
+      "start": 48.0,
+      "end": 48.56
+    },
+    {
+      "word": "ago",
+      "start": 48.56,
+      "end": 49.22
+    },
+    {
+      "word": "connections",
+      "start": 49.22,
+      "end": 50.22
+    },
+    {
+      "word": "writing",
+      "start": 51.52,
+      "end": 51.66
+    },
+    {
+      "word": "and",
+      "start": 51.66,
+      "end": 52.46
+    },
+    {
+      "word": "art",
+      "start": 52.46,
+      "end": 53.18
+    },
+    {
+      "word": "pick",
+      "start": 54.04,
+      "end": 54.06
+    },
+    {
+      "word": "one",
+      "start": 54.06,
+      "end": 54.66
+    },
+    {
+      "word": "dinosaur",
+      "start": 54.66,
+      "end": 55.14
+    },
+    {
+      "word": "from",
+      "start": 55.14,
+      "end": 55.92
+    },
+    {
+      "word": "the",
+      "start": 55.92,
+      "end": 56.2
+    },
+    {
+      "word": "book",
+      "start": 56.2,
+      "end": 56.76
+    },
+    {
+      "word": "draw",
+      "start": 57.54,
+      "end": 57.8
+    },
+    {
+      "word": "a",
+      "start": 57.8,
+      "end": 58.26
+    },
+    {
+      "word": "picture",
+      "start": 58.26,
+      "end": 58.6
+    },
+    {
+      "word": "of",
+      "start": 58.6,
+      "end": 58.92
+    },
+    {
+      "word": "it",
+      "start": 58.92,
+      "end": 59.34
+    },
+    {
+      "word": "and",
+      "start": 59.34,
+      "end": 60.06
+    },
+    {
+      "word": "describe",
+      "start": 60.06,
+      "end": 60.86
+    },
+    {
+      "word": "it",
+      "start": 60.86,
+      "end": 61.44
+    },
+    {
+      "word": "in",
+      "start": 61.44,
+      "end": 61.62
+    },
+    {
+      "word": "a",
+      "start": 61.62,
+      "end": 61.84
+    },
+    {
+      "word": "sentence",
+      "start": 61.84,
+      "end": 62.48
+    },
+    {
+      "word": "science",
+      "start": 63.66,
+      "end": 64.14
+    },
+    {
+      "word": "what",
+      "start": 65.36,
+      "end": 65.44
+    },
+    {
+      "word": "are",
+      "start": 65.44,
+      "end": 65.86
+    },
+    {
+      "word": "some",
+      "start": 65.86,
+      "end": 66.44
+    },
+    {
+      "word": "other",
+      "start": 66.44,
+      "end": 66.84
+    },
+    {
+      "word": "ways",
+      "start": 66.84,
+      "end": 67.24
+    },
+    {
+      "word": "you",
+      "start": 67.24,
+      "end": 67.84
+    },
+    {
+      "word": "could",
+      "start": 67.84,
+      "end": 68.16
+    },
+    {
+      "word": "sort",
+      "start": 68.16,
+      "end": 68.52
+    },
+    {
+      "word": "the",
+      "start": 68.52,
+      "end": 68.96
+    },
+    {
+      "word": "dinosaurs",
+      "start": 68.96,
+      "end": 69.52
+    },
+    {
+      "word": "share",
+      "start": 70.88,
+      "end": 71.12
+    },
+    {
+      "word": "your",
+      "start": 71.12,
+      "end": 71.62
+    },
+    {
+      "word": "ideas",
+      "start": 71.62,
+      "end": 72.24
+    },
+    {
+      "word": "with",
+      "start": 72.24,
+      "end": 72.92
+    },
+    {
+      "word": "a",
+      "start": 72.92,
+      "end": 73.16
+    },
+    {
+      "word": "partner",
+      "start": 73.16,
+      "end": 73.48
+    }
+  ]
+}

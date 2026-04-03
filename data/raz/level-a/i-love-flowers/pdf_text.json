@@ -1,0 +1,54 @@
+{
+  "id": "level-a/i-love-flowers",
+  "title": "I Love Flowers",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A I Love Flowers 78 Written by Harriet Rosenbloom"
+    },
+    {
+      "page": 2,
+      "text": "I Love Flowers Written by Harriet Rosenbloom wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "I love violets. Love Flowers LevelA 3"
+    },
+    {
+      "page": 4,
+      "text": "I love lilies. 4"
+    },
+    {
+      "page": 5,
+      "text": "I love daisies. Love Flowers LevelA 5"
+    },
+    {
+      "page": 6,
+      "text": "0 I love sunflowers. 6"
+    },
+    {
+      "page": 7,
+      "text": "I love poppies Love Flowers LevelA"
+    },
+    {
+      "page": 8,
+      "text": "I love roses. 8"
+    },
+    {
+      "page": 9,
+      "text": "I love mums. Love Flowers LevelA"
+    },
+    {
+      "page": 10,
+      "text": "I love flowers! 10 1"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Cover spread: @ Pat138241/Dreamstime.com; title page: @ Yulia Kuznetsoval page 3: @ Willi Rolfes/Foto Natura/Minden Pictures; page 4: 0 VisionsPictures/Minden Pictures; page 5: @ iStock/Alexander Chernyakov; page 6: @ Carlos Sanchez Pereyr/Kalium/age fotostock; page 7: @ Nailia Schwarz/123RF; page 8: @ Pitukchai Muanglek/123RF; page 9: @ Kenneth M Highfill/Science Source; page 10: @ Eurocampigliolage fotostock I Love Flowers Level A Leveled Book Correlation Learning A-Z LEVEL A Written by Harriet Rosenbloom Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com Alamy;"
+    }
+  ]
+}

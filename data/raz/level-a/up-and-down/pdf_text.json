@@ -1,0 +1,54 @@
+{
+  "id": "level-a/up-and-down",
+  "title": "Up And Down",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Up and Down 0 Written by Allie Sullivan Illustrated by Patrick Girouard wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "and Down Written by Allie Sullivan Illustrated by Patrick Girouard wwwreadinga-z.com Up_"
+    },
+    {
+      "page": 3,
+      "text": "2 Eyes go up_ Up and Down Level A 3"
+    },
+    {
+      "page": 4,
+      "text": "X~ go down. Eyes"
+    },
+    {
+      "page": 5,
+      "text": "3 7 v Hands go up Up and Down Level A 5"
+    },
+    {
+      "page": 6,
+      "text": "Ann Hands go down."
+    },
+    {
+      "page": 7,
+      "text": "~9 C Dog goes up_ Up and Down Level A"
+    },
+    {
+      "page": 8,
+      "text": "8 ( goes down. 8 Dog"
+    },
+    {
+      "page": 9,
+      "text": "goes up_ Up and Down Level A Frog"
+    },
+    {
+      "page": 10,
+      "text": "~*- 0 goes down_ 10 Frog"
+    },
+    {
+      "page": 11,
+      "text": "Up and Down Level A Leveled Book Learning A-Z Correlation Written by Allie Sullivan LEVEL A Illustrated by Patrick Girouard Fountas & Pinnell A All reserved. Reading_Recovery DRA A-1 WWW.   readinga-z.( com rights"
+    }
+  ]
+}

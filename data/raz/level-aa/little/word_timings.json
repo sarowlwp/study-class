@@ -1,0 +1,171 @@
+{
+  "version": "1.0",
+  "total_words": 33,
+  "timings": [
+    {
+      "word": "little",
+      "start": 0.0,
+      "end": 0.74
+    },
+    {
+      "word": "written",
+      "start": 1.48,
+      "end": 1.82
+    },
+    {
+      "word": "by",
+      "start": 1.82,
+      "end": 2.5
+    },
+    {
+      "word": "cheryl",
+      "start": 2.5,
+      "end": 3.1
+    },
+    {
+      "word": "ryan",
+      "start": 3.1,
+      "end": 4.0
+    },
+    {
+      "word": "illustrated",
+      "start": 4.76,
+      "end": 5.16
+    },
+    {
+      "word": "by",
+      "start": 5.16,
+      "end": 5.84
+    },
+    {
+      "word": "gio",
+      "start": 5.84,
+      "end": 6.38
+    },
+    {
+      "word": "bodie",
+      "start": 6.38,
+      "end": 7.24
+    },
+    {
+      "word": "a",
+      "start": 10.44,
+      "end": 10.44
+    },
+    {
+      "word": "little",
+      "start": 10.44,
+      "end": 10.82
+    },
+    {
+      "word": "house",
+      "start": 10.82,
+      "end": 11.9
+    },
+    {
+      "word": "a",
+      "start": 14.32,
+      "end": 14.36
+    },
+    {
+      "word": "little",
+      "start": 14.36,
+      "end": 14.64
+    },
+    {
+      "word": "dog",
+      "start": 14.64,
+      "end": 15.62
+    },
+    {
+      "word": "a",
+      "start": 18.44,
+      "end": 18.44
+    },
+    {
+      "word": "little",
+      "start": 18.44,
+      "end": 18.88
+    },
+    {
+      "word": "car",
+      "start": 18.88,
+      "end": 19.8
+    },
+    {
+      "word": "a",
+      "start": 20.22,
+      "end": 22.38
+    },
+    {
+      "word": "little",
+      "start": 22.38,
+      "end": 22.72
+    },
+    {
+      "word": "plane",
+      "start": 22.72,
+      "end": 23.5
+    },
+    {
+      "word": "a",
+      "start": 26.06,
+      "end": 26.68
+    },
+    {
+      "word": "little",
+      "start": 26.68,
+      "end": 27.14
+    },
+    {
+      "word": "tree",
+      "start": 27.14,
+      "end": 27.66
+    },
+    {
+      "word": "a",
+      "start": 30.0,
+      "end": 30.88
+    },
+    {
+      "word": "little",
+      "start": 30.88,
+      "end": 31.14
+    },
+    {
+      "word": "bug",
+      "start": 31.14,
+      "end": 31.86
+    },
+    {
+      "word": "a",
+      "start": 34.16,
+      "end": 35.16
+    },
+    {
+      "word": "little",
+      "start": 35.16,
+      "end": 35.58
+    },
+    {
+      "word": "mouse",
+      "start": 35.58,
+      "end": 36.36
+    },
+    {
+      "word": "a",
+      "start": 39.06,
+      "end": 39.8
+    },
+    {
+      "word": "little",
+      "start": 39.8,
+      "end": 40.34
+    },
+    {
+      "word": "baby",
+      "start": 40.34,
+      "end": 40.76
+    }
+  ]
+}

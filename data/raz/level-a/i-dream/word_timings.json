@@ -1,0 +1,406 @@
+{
+  "version": "1.0",
+  "total_words": 80,
+  "timings": [
+    {
+      "word": "i",
+      "start": 0.0,
+      "end": 0.46
+    },
+    {
+      "word": "dream",
+      "start": 0.46,
+      "end": 1.44
+    },
+    {
+      "word": "written",
+      "start": 2.9,
+      "end": 3.22
+    },
+    {
+      "word": "by",
+      "start": 3.22,
+      "end": 4.22
+    },
+    {
+      "word": "anthony",
+      "start": 4.22,
+      "end": 4.86
+    },
+    {
+      "word": "curran",
+      "start": 4.86,
+      "end": 6.58
+    },
+    {
+      "word": "illustrated",
+      "start": 7.78,
+      "end": 8.48
+    },
+    {
+      "word": "by",
+      "start": 8.48,
+      "end": 9.62
+    },
+    {
+      "word": "marcus",
+      "start": 9.62,
+      "end": 10.38
+    },
+    {
+      "word": "cutler",
+      "start": 10.38,
+      "end": 11.98
+    },
+    {
+      "word": "focus",
+      "start": 13.62,
+      "end": 14.04
+    },
+    {
+      "word": "question",
+      "start": 14.04,
+      "end": 15.36
+    },
+    {
+      "word": "what",
+      "start": 17.0,
+      "end": 17.36
+    },
+    {
+      "word": "is",
+      "start": 17.36,
+      "end": 18.88
+    },
+    {
+      "word": "a",
+      "start": 18.88,
+      "end": 19.96
+    },
+    {
+      "word": "dream",
+      "start": 19.96,
+      "end": 20.6
+    },
+    {
+      "word": "i",
+      "start": 20.6,
+      "end": 21.4
+    },
+    {
+      "word": "dream",
+      "start": 21.4,
+      "end": 22.46
+    },
+    {
+      "word": "about",
+      "start": 22.46,
+      "end": 24.24
+    },
+    {
+      "word": "space",
+      "start": 24.24,
+      "end": 25.58
+    },
+    {
+      "word": "i",
+      "start": 26.06,
+      "end": 26.46
+    },
+    {
+      "word": "dream",
+      "start": 26.46,
+      "end": 27.84
+    },
+    {
+      "word": "about",
+      "start": 27.84,
+      "end": 29.54
+    },
+    {
+      "word": "monkeys",
+      "start": 29.54,
+      "end": 31.08
+    },
+    {
+      "word": "i",
+      "start": 31.92,
+      "end": 32.16
+    },
+    {
+      "word": "dream",
+      "start": 32.16,
+      "end": 33.58
+    },
+    {
+      "word": "about",
+      "start": 33.58,
+      "end": 35.04
+    },
+    {
+      "word": "robots",
+      "start": 35.04,
+      "end": 36.5
+    },
+    {
+      "word": "i",
+      "start": 37.28,
+      "end": 37.56
+    },
+    {
+      "word": "dream",
+      "start": 37.56,
+      "end": 39.06
+    },
+    {
+      "word": "about",
+      "start": 39.06,
+      "end": 40.26
+    },
+    {
+      "word": "super",
+      "start": 40.26,
+      "end": 41.76
+    },
+    {
+      "word": "powers",
+      "start": 41.76,
+      "end": 43.62
+    },
+    {
+      "word": "i",
+      "start": 44.06,
+      "end": 44.36
+    },
+    {
+      "word": "dream",
+      "start": 44.36,
+      "end": 45.78
+    },
+    {
+      "word": "about",
+      "start": 45.78,
+      "end": 47.28
+    },
+    {
+      "word": "food",
+      "start": 47.28,
+      "end": 49.02
+    },
+    {
+      "word": "i",
+      "start": 49.02,
+      "end": 50.16
+    },
+    {
+      "word": "dream",
+      "start": 50.16,
+      "end": 51.62
+    },
+    {
+      "word": "about",
+      "start": 51.62,
+      "end": 53.2
+    },
+    {
+      "word": "sports",
+      "start": 53.2,
+      "end": 54.7
+    },
+    {
+      "word": "i",
+      "start": 55.5,
+      "end": 55.88
+    },
+    {
+      "word": "dream",
+      "start": 55.88,
+      "end": 57.22
+    },
+    {
+      "word": "about",
+      "start": 57.22,
+      "end": 58.84
+    },
+    {
+      "word": "monsters",
+      "start": 58.84,
+      "end": 60.62
+    },
+    {
+      "word": "i",
+      "start": 61.6,
+      "end": 61.82
+    },
+    {
+      "word": "dream",
+      "start": 61.82,
+      "end": 63.3
+    },
+    {
+      "word": "about",
+      "start": 63.3,
+      "end": 64.72
+    },
+    {
+      "word": "good",
+      "start": 64.72,
+      "end": 66.46
+    },
+    {
+      "word": "sleep",
+      "start": 66.46,
+      "end": 68.14
+    },
+    {
+      "word": "connections",
+      "start": 68.14,
+      "end": 69.66
+    },
+    {
+      "word": "writing",
+      "start": 69.66,
+      "end": 71.32
+    },
+    {
+      "word": "and",
+      "start": 71.32,
+      "end": 72.34
+    },
+    {
+      "word": "art",
+      "start": 72.34,
+      "end": 73.84
+    },
+    {
+      "word": "what",
+      "start": 73.84,
+      "end": 75.22
+    },
+    {
+      "word": "do",
+      "start": 75.22,
+      "end": 76.24
+    },
+    {
+      "word": "you",
+      "start": 76.24,
+      "end": 76.86
+    },
+    {
+      "word": "dream",
+      "start": 76.86,
+      "end": 77.88
+    },
+    {
+      "word": "about",
+      "start": 77.88,
+      "end": 79.12
+    },
+    {
+      "word": "draw",
+      "start": 80.62,
+      "end": 80.88
+    },
+    {
+      "word": "a",
+      "start": 80.88,
+      "end": 81.58
+    },
+    {
+      "word": "picture",
+      "start": 81.58,
+      "end": 82.2
+    },
+    {
+      "word": "and",
+      "start": 82.2,
+      "end": 83.34
+    },
+    {
+      "word": "write",
+      "start": 83.34,
+      "end": 83.86
+    },
+    {
+      "word": "this",
+      "start": 83.86,
+      "end": 84.86
+    },
+    {
+      "word": "sentence",
+      "start": 84.86,
+      "end": 86.04
+    },
+    {
+      "word": "i",
+      "start": 87.3,
+      "end": 87.56
+    },
+    {
+      "word": "dream",
+      "start": 87.56,
+      "end": 88.48
+    },
+    {
+      "word": "about",
+      "start": 88.48,
+      "end": 90.76
+    },
+    {
+      "word": "science",
+      "start": 90.76,
+      "end": 93.46
+    },
+    {
+      "word": "why",
+      "start": 93.46,
+      "end": 95.52
+    },
+    {
+      "word": "do",
+      "start": 95.52,
+      "end": 96.58
+    },
+    {
+      "word": "you",
+      "start": 96.58,
+      "end": 97.9
+    },
+    {
+      "word": "sleep",
+      "start": 97.9,
+      "end": 98.48
+    },
+    {
+      "word": "share",
+      "start": 100.22,
+      "end": 100.66
+    },
+    {
+      "word": "your",
+      "start": 100.66,
+      "end": 101.52
+    },
+    {
+      "word": "ideas",
+      "start": 101.52,
+      "end": 102.4
+    },
+    {
+      "word": "with",
+      "start": 102.4,
+      "end": 104.1
+    },
+    {
+      "word": "a",
+      "start": 104.1,
+      "end": 104.8
+    },
+    {
+      "word": "partner",
+      "start": 104.8,
+      "end": 105.4
+    }
+  ]
+}

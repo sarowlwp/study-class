@@ -1,0 +1,54 @@
+{
+  "id": "level-b/where",
+  "title": "Where",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Where? (( Written by Cheryl Ryan Illustrated by Nora Voutas wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Where? << 3 Written by Cheryl Ryan Illustrated by Nora Voutas wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": ")) %4 Where?\" asked the little brown bear: Where? Level B 3 00"
+    },
+    {
+      "page": 4,
+      "text": "Where is my mother?\""
+    },
+    {
+      "page": 5,
+      "text": "Where is my father?\" Where? Level B 5"
+    },
+    {
+      "page": 6,
+      "text": "Where is my house?\""
+    },
+    {
+      "page": 7,
+      "text": "0 @ < Where is my bed?\" Where? Level B 1//) X"
+    },
+    {
+      "page": 8,
+      "text": "HONE 8 73 Where is my Of honey?\" 8 Aas pot"
+    },
+    {
+      "page": 9,
+      "text": "~l >CS Lu U Where am I?\" Where? Level B"
+    },
+    {
+      "page": 10,
+      "text": "38, \"I am lost. Can you help me?\" 10 8"
+    },
+    {
+      "page": 11,
+      "text": "[ OADING Where? Level B Leveled Book 0 Learning A-Z Correlation Written by Cheryl Ryan LEVEL B Illustrated by Nora Voutas Fountas & Pinnell B All rights reserved: Reading Recovery 2 DRA 2 wwwreadinga-zcom"
+    }
+  ]
+}

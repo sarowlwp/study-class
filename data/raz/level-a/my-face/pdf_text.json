@@ -1,0 +1,54 @@
+{
+  "id": "level-a/my-face",
+  "title": "My Face",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A My Face Written by Elizabeth Austin wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Face Written by Elizabeth Austin wwwreadinga-z.com My"
+    },
+    {
+      "page": 3,
+      "text": "eye This is my eye: My Face Level A 3"
+    },
+    {
+      "page": 4,
+      "text": "eyebrow This is my eyebrow:"
+    },
+    {
+      "page": 5,
+      "text": "ear This is my ear; My Face Level A 5"
+    },
+    {
+      "page": 6,
+      "text": "cheek This is my cheek"
+    },
+    {
+      "page": 7,
+      "text": "nose This is my nose: My Face Level A"
+    },
+    {
+      "page": 8,
+      "text": "mouth This is my mouth_ 8"
+    },
+    {
+      "page": 9,
+      "text": "chin This is my chin_ My Face Level A"
+    },
+    {
+      "page": 10,
+      "text": "This is my face: 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: All photos: Tim Fuller/@ Learningpage; Inc My Face Level A Leveled Book Correlation 0 Learning A-Z LEVEL A Written by Elizabeth Austin Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-zcom"
+    }
+  ]
+}

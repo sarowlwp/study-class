@@ -1,0 +1,54 @@
+{
+  "id": "level-a/spring-weather",
+  "title": "Spring Weather",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Spring Weclither Written by Katie Knight wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Spring Weather Written by Katie Knight wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "The fog comes Spring Weather Level A 3"
+    },
+    {
+      "page": 4,
+      "text": "The clouds come."
+    },
+    {
+      "page": 5,
+      "text": "The storm comes. Spring Weather Level A 5"
+    },
+    {
+      "page": 6,
+      "text": "The rain comes."
+    },
+    {
+      "page": 7,
+      "text": "The wind comes Spring Weather Level A"
+    },
+    {
+      "page": 8,
+      "text": "The sun comes 8"
+    },
+    {
+      "page": 9,
+      "text": "The flowers come. Spring Weather Level A"
+    },
+    {
+      "page": 10,
+      "text": "The spring comes 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover; back cover; title page, pages 3, 4_ 5,7, 8, 9, 10, Il, 12: @ Jupiterimages Corporation; page b: @ Westendbl GmbH/Alamy Spring Weather Level A Leveled Book Correlation Learning A-Z LEVEL A Written by Katie Knight Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-zcom"
+    }
+  ]
+}

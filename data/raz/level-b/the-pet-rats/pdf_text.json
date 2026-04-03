@@ -1,0 +1,58 @@
+{
+  "id": "level-b/the-pet-rats",
+  "title": "The Pet Rats",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B The Pet Rats Written by Racheal Rice Illustrated by Gabhor Utomo wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "The Pet Rats Written by Racheal Rice Illustrated by Gabhor Utomo wwwreadinga-z.com Focus Question What can rats do? pet"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know chew drink class hide climb sleep The Pet Rats Level B Leveled Book 0 Learning A-Z Correlation Written by Racheal Rice LEVEL B Illustrated by Gabhor Utomo Fountas & Pinnell B All rights reserved. Reading Recovery 2 DRA 2 www.readinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "7 7 The pet rats eat. The Pet Rats Level B 3 37"
+    },
+    {
+      "page": 5,
+      "text": "6 0 U The pet rats drink C47 S"
+    },
+    {
+      "page": 6,
+      "text": "The rats chew. The Pet Rats Level B 5 pet"
+    },
+    {
+      "page": 7,
+      "text": "The pet rats climb_ 6"
+    },
+    {
+      "page": 8,
+      "text": "The rats hide: The Pet Rats Level B pet"
+    },
+    {
+      "page": 9,
+      "text": "The pet rats run. 8"
+    },
+    {
+      "page": 10,
+      "text": "The rats The Pet Rats Level B sleep pet"
+    },
+    {
+      "page": 11,
+      "text": "Rats are fun class 10 pets."
+    },
+    {
+      "page": 12,
+      "text": "The Pet Rats A Reading A-Z Level B Leveled Book Word Count: 33 Connections Writing and Art What animal would you like for a class Draw a picture and write about it. Science What do you need to take care of a pet rat? Share your ideas with a partner: Reading A-z Visit wwwreadinga-z.com for thousands of books and materials. 3 pet?"
+    }
+  ]
+}

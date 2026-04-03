@@ -1,0 +1,371 @@
+{
+  "version": "1.0",
+  "total_words": 73,
+  "timings": [
+    {
+      "word": "what",
+      "start": 0.0,
+      "end": 0.34
+    },
+    {
+      "word": "animals",
+      "start": 0.34,
+      "end": 1.06
+    },
+    {
+      "word": "eat",
+      "start": 1.06,
+      "end": 2.14
+    },
+    {
+      "word": "written",
+      "start": 2.68,
+      "end": 2.98
+    },
+    {
+      "word": "by",
+      "start": 2.98,
+      "end": 3.54
+    },
+    {
+      "word": "cheryl",
+      "start": 3.54,
+      "end": 4.4
+    },
+    {
+      "word": "ryan",
+      "start": 4.4,
+      "end": 5.44
+    },
+    {
+      "word": "illustrated",
+      "start": 5.86,
+      "end": 6.36
+    },
+    {
+      "word": "by",
+      "start": 6.36,
+      "end": 7.22
+    },
+    {
+      "word": "joe",
+      "start": 7.22,
+      "end": 7.94
+    },
+    {
+      "word": "bowdy",
+      "start": 7.94,
+      "end": 8.8
+    },
+    {
+      "word": "cows",
+      "start": 9.58,
+      "end": 9.8
+    },
+    {
+      "word": "like",
+      "start": 9.8,
+      "end": 10.42
+    },
+    {
+      "word": "to",
+      "start": 10.42,
+      "end": 10.92
+    },
+    {
+      "word": "eat",
+      "start": 10.92,
+      "end": 11.36
+    },
+    {
+      "word": "grass",
+      "start": 11.36,
+      "end": 12.48
+    },
+    {
+      "word": "munch",
+      "start": 13.58,
+      "end": 13.76
+    },
+    {
+      "word": "munch",
+      "start": 14.14,
+      "end": 14.68
+    },
+    {
+      "word": "birds",
+      "start": 15.72,
+      "end": 16.16
+    },
+    {
+      "word": "like",
+      "start": 16.16,
+      "end": 16.88
+    },
+    {
+      "word": "to",
+      "start": 16.88,
+      "end": 17.3
+    },
+    {
+      "word": "eat",
+      "start": 17.3,
+      "end": 17.94
+    },
+    {
+      "word": "seeds",
+      "start": 17.94,
+      "end": 18.84
+    },
+    {
+      "word": "crunch",
+      "start": 20.1,
+      "end": 20.24
+    },
+    {
+      "word": "crunch",
+      "start": 20.46,
+      "end": 21.14
+    },
+    {
+      "word": "pandas",
+      "start": 21.84,
+      "end": 22.52
+    },
+    {
+      "word": "like",
+      "start": 22.52,
+      "end": 23.16
+    },
+    {
+      "word": "to",
+      "start": 23.16,
+      "end": 23.58
+    },
+    {
+      "word": "eat",
+      "start": 23.58,
+      "end": 24.06
+    },
+    {
+      "word": "leaves",
+      "start": 24.06,
+      "end": 25.02
+    },
+    {
+      "word": "munch",
+      "start": 26.1,
+      "end": 26.36
+    },
+    {
+      "word": "munch",
+      "start": 26.9,
+      "end": 27.44
+    },
+    {
+      "word": "frogs",
+      "start": 27.44,
+      "end": 29.28
+    },
+    {
+      "word": "like",
+      "start": 29.28,
+      "end": 29.86
+    },
+    {
+      "word": "to",
+      "start": 29.86,
+      "end": 30.26
+    },
+    {
+      "word": "eat",
+      "start": 30.26,
+      "end": 30.78
+    },
+    {
+      "word": "bugs",
+      "start": 30.78,
+      "end": 32.02
+    },
+    {
+      "word": "zap",
+      "start": 32.38,
+      "end": 33.6
+    },
+    {
+      "word": "zap",
+      "start": 33.82,
+      "end": 34.96
+    },
+    {
+      "word": "monkeys",
+      "start": 36.08,
+      "end": 36.48
+    },
+    {
+      "word": "like",
+      "start": 36.48,
+      "end": 37.22
+    },
+    {
+      "word": "to",
+      "start": 37.22,
+      "end": 37.68
+    },
+    {
+      "word": "eat",
+      "start": 37.68,
+      "end": 38.3
+    },
+    {
+      "word": "fruit",
+      "start": 38.3,
+      "end": 38.98
+    },
+    {
+      "word": "slurp",
+      "start": 39.98,
+      "end": 40.5
+    },
+    {
+      "word": "slurp",
+      "start": 40.82,
+      "end": 41.48
+    },
+    {
+      "word": "seals",
+      "start": 42.4,
+      "end": 42.6
+    },
+    {
+      "word": "like",
+      "start": 42.6,
+      "end": 43.4
+    },
+    {
+      "word": "to",
+      "start": 43.4,
+      "end": 43.84
+    },
+    {
+      "word": "eat",
+      "start": 43.84,
+      "end": 44.36
+    },
+    {
+      "word": "fish",
+      "start": 44.36,
+      "end": 45.12
+    },
+    {
+      "word": "gulp",
+      "start": 45.12,
+      "end": 46.44
+    },
+    {
+      "word": "gulp",
+      "start": 46.44,
+      "end": 47.84
+    },
+    {
+      "word": "goats",
+      "start": 47.84,
+      "end": 48.66
+    },
+    {
+      "word": "like",
+      "start": 48.66,
+      "end": 49.32
+    },
+    {
+      "word": "to",
+      "start": 49.32,
+      "end": 49.78
+    },
+    {
+      "word": "eat",
+      "start": 49.78,
+      "end": 50.28
+    },
+    {
+      "word": "everything",
+      "start": 50.28,
+      "end": 51.26
+    },
+    {
+      "word": "hey",
+      "start": 51.26,
+      "end": 52.78
+    },
+    {
+      "word": "stop",
+      "start": 52.78,
+      "end": 53.92
+    },
+    {
+      "word": "that's",
+      "start": 53.92,
+      "end": 55.0
+    },
+    {
+      "word": "my",
+      "start": 55.0,
+      "end": 55.24
+    },
+    {
+      "word": "sock",
+      "start": 55.24,
+      "end": 56.18
+    },
+    {
+      "word": "hey",
+      "start": 56.18,
+      "end": 57.62
+    },
+    {
+      "word": "stop",
+      "start": 57.62,
+      "end": 58.62
+    },
+    {
+      "word": "that's",
+      "start": 58.62,
+      "end": 59.66
+    },
+    {
+      "word": "my",
+      "start": 59.66,
+      "end": 59.98
+    },
+    {
+      "word": "shoe",
+      "start": 59.98,
+      "end": 60.96
+    },
+    {
+      "word": "hey",
+      "start": 60.96,
+      "end": 61.98
+    },
+    {
+      "word": "stop",
+      "start": 61.98,
+      "end": 63.02
+    },
+    {
+      "word": "that's",
+      "start": 63.02,
+      "end": 64.16
+    },
+    {
+      "word": "my",
+      "start": 64.16,
+      "end": 64.28
+    },
+    {
+      "word": "book",
+      "start": 64.28,
+      "end": 64.86
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "level-a/vegetables",
+  "title": "Vegetables",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Vegetables Written by Cheryl Ryan wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Vegetables Written by Cheryl Ryan wwwreadinga-z.com Focus Question What are some vegetables?"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know broccoli lettuce cabbage potato chile pepper vegetables Photo Credits: Front cover: @ iStockphoto.com/Kelly Cline; title page, page 10: 0 iStockphoto.com; page 3: @ 123RF; page 4: @ Nina Demianenko/123RF; page 5: Danny Smythe/123RF; page b: @ iStockphoto com/Alistair Forrester Shankie: page 7: @ Eric Krouse/123RF; page &: @ Viktar Malyshchyts/123RF; page 9: @ Julian Weber/123RF Vegetables Level A Leveled Book Correlation Learning A-Z LEVEL A Written by Cheryl Ryan Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "This is  a potato. Vegetables Level A 3"
+    },
+    {
+      "page": 5,
+      "text": "This is broccoli:"
+    },
+    {
+      "page": 6,
+      "text": "This is lettuce: Vegetables Level A 5"
+    },
+    {
+      "page": 7,
+      "text": "This is corn."
+    },
+    {
+      "page": 8,
+      "text": "This is  a chile pepper: Vegetables Level A"
+    },
+    {
+      "page": 9,
+      "text": "This is cabbage 8"
+    },
+    {
+      "page": 10,
+      "text": "These are carrots. Vegetables Level A"
+    },
+    {
+      "page": 11,
+      "text": "These are vegetables: 10"
+    },
+    {
+      "page": 12,
+      "text": "Vegetables A Reading A-Z Level A Leveled Book Word Count: 24 Connections Writing What is your favorite vegetable? Draw a picture and write about it. Science Pick two vegetables from the book How are the same? How are different? Share your ideas with a partner: Reading A-z Visit www.readinga-z.com for thousands of books and materials. they they"
+    }
+  ]
+}

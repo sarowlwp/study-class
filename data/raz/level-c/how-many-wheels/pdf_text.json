@@ -1,0 +1,54 @@
+{
+  "id": "level-c/how-many-wheels",
+  "title": "How Many Wheels",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C How Wheels? Written by Jerry Hopkins wwwreadinga-z.com Many"
+    },
+    {
+      "page": 2,
+      "text": "How Wheels? FUHEAI Written by Jerry Hopkins wwwreadinga-z.com Many Cant"
+    },
+    {
+      "page": 3,
+      "text": "Many  things have wheels. Wheels help move. How Many Wheels? Level C 3 things"
+    },
+    {
+      "page": 4,
+      "text": "Ip)) Some have one wheel: things"
+    },
+    {
+      "page": 5,
+      "text": "Some things have two wheels. How Many Wheels? Level C 5"
+    },
+    {
+      "page": 6,
+      "text": "Some things have three wheels."
+    },
+    {
+      "page": 7,
+      "text": "Some things have four wheels. How Many Wheels? Level C"
+    },
+    {
+      "page": 8,
+      "text": "( S Some  things have many wheels. 8"
+    },
+    {
+      "page": 9,
+      "text": "WO These things have many wheels, too: How Many Wheels? Level C"
+    },
+    {
+      "page": 10,
+      "text": "Some things have no wheels. How do these move? 10 Noowell things"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover; back cover; title page: Francis Vachon/Alamy; pages 3, 5 (right) . 6 (right): 7, 8, 9, I0: @ ArtToday; pages 4 (left), 5 (left) , 6 (left): Hemera Technologies/Jupiterimages Corporation; page 4 (right): @ Transtock/Corbis How Wheels? Level C Leveled Book Correlation @ Learning A-Z LEVEL C Written by Jerry Hopkins Fountas & Pinnell C All rights reserved: Reading Recovery 3-4 DRA 3-4 wwwreadinga-zcom Many"
+    }
+  ]
+}

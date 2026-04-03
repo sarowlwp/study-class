@@ -1,0 +1,58 @@
+{
+  "id": "level-a/smile",
+  "title": "Smile",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Smile D 2+2-4 2+3=5 2+4=6 Jy Written by Anthony Curran Illustrated by Arthur Lin WWWreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Smile Written by Anthony Curran Illustrated by Arthur Lin www.readinga-z.com Focus Question Who is the smiling at? boy"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know brother sister dad smile teacher friend yourself mom Smile Level A Leveled Book Learning A-Z Correlation Written by Anthony Curran LEVEL A Illustrated by Arthur Lin Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 wwwreadinga-z.com dog"
+    },
+    {
+      "page": 4,
+      "text": "7.05AM Smile at your Smile Level A 3 dog;"
+    },
+    {
+      "page": 5,
+      "text": "Smile at your brother:"
+    },
+    {
+      "page": 6,
+      "text": "Smile at your sister: Smile Level A 5"
+    },
+    {
+      "page": 7,
+      "text": "Smile at your mom."
+    },
+    {
+      "page": 8,
+      "text": "G696 69G5 I 1 @D D@O @D Smile at your dad: Smile Level A"
+    },
+    {
+      "page": 9,
+      "text": "Smile at your friend: 8"
+    },
+    {
+      "page": 10,
+      "text": "2+2-4 2+3=5 2+4=6 Jy Smile at your teacher: Smile Level A"
+    },
+    {
+      "page": 11,
+      "text": "1 L T Smile at yourself: 10"
+    },
+    {
+      "page": 12,
+      "text": "Smile A Reading A-Z Level A Leveled Book Word Count: 31 Connections  Writing and Art What do you do before school? Draw a picture and write about it. Social Studies What makes you smile? Share your ideas with a partner Reading A-2 Visit wwwreadinga-z.com for thousands of books and materials."
+    }
+  ]
+}

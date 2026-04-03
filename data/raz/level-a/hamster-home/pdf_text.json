@@ -1,0 +1,54 @@
+{
+  "id": "level-a/hamster-home",
+  "title": "Hamster Home",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A Hamster Home Written by Anthony Curran Illustrated by Leighanne Dees wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Hamster Home Written by Anthony Curran Illustrated by Leighanne Dees wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "The hamster has a ball: Hamster Home Level A 3 0)"
+    },
+    {
+      "page": 4,
+      "text": "The hamster has a cage: 4"
+    },
+    {
+      "page": 5,
+      "text": "The hamster has food. Hamster Home Level A 5"
+    },
+    {
+      "page": 6,
+      "text": "The hamster has water."
+    },
+    {
+      "page": 7,
+      "text": "45 The hamster has a nest, Hamster Home Level A"
+    },
+    {
+      "page": 8,
+      "text": "The hamster has a tube: 8"
+    },
+    {
+      "page": 9,
+      "text": "The hamster has 0 wheel: Hamster Home Level A"
+    },
+    {
+      "page": 10,
+      "text": "The hamster has a home 10"
+    },
+    {
+      "page": 11,
+      "text": "Hamster Home Level A Leveled Book Learning A-Z Correlation Written by Anthony Curran LEVEL A Illustrated by Leighanne Dees Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-zcom"
+    }
+  ]
+}

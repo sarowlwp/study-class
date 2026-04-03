@@ -1,0 +1,101 @@
+{
+  "version": "1.0",
+  "total_words": 19,
+  "timings": [
+    {
+      "word": "water",
+      "start": 0.0,
+      "end": 0.66
+    },
+    {
+      "word": "written",
+      "start": 0.66,
+      "end": 1.56
+    },
+    {
+      "word": "by",
+      "start": 1.56,
+      "end": 1.9
+    },
+    {
+      "word": "catherine",
+      "start": 1.9,
+      "end": 2.2
+    },
+    {
+      "word": "page",
+      "start": 2.2,
+      "end": 3.4
+    },
+    {
+      "word": "water",
+      "start": 5.52,
+      "end": 5.94
+    },
+    {
+      "word": "the",
+      "start": 6.64,
+      "end": 8.56
+    },
+    {
+      "word": "ocean",
+      "start": 8.56,
+      "end": 9.24
+    },
+    {
+      "word": "the",
+      "start": 11.7,
+      "end": 11.82
+    },
+    {
+      "word": "lake",
+      "start": 11.82,
+      "end": 12.28
+    },
+    {
+      "word": "the",
+      "start": 14.92,
+      "end": 15.0
+    },
+    {
+      "word": "river",
+      "start": 15.0,
+      "end": 15.46
+    },
+    {
+      "word": "the",
+      "start": 17.82,
+      "end": 17.94
+    },
+    {
+      "word": "rain",
+      "start": 17.94,
+      "end": 18.38
+    },
+    {
+      "word": "the",
+      "start": 18.38,
+      "end": 20.94
+    },
+    {
+      "word": "snow",
+      "start": 20.94,
+      "end": 21.78
+    },
+    {
+      "word": "the",
+      "start": 23.86,
+      "end": 23.9
+    },
+    {
+      "word": "ice",
+      "start": 23.9,
+      "end": 24.44
+    },
+    {
+      "word": "water",
+      "start": 26.94,
+      "end": 27.2
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "level-a/my-hair",
+  "title": "My Hair",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A My Hclir U G 0 Written by Julie Hlarding Illusfrafed by Argela Kamsira wwwreadinga-z.com 3"
+    },
+    {
+      "page": 2,
+      "text": "Hair AaUf Uf Written by Julie Harding Illustrated by Angela Kamstra wwwreadinga-z.com My"
+    },
+    {
+      "page": 3,
+      "text": "9 U G C> hair is My Hair Level A 3 'y GC My curly"
+    },
+    {
+      "page": 4,
+      "text": "hair is straight_ My"
+    },
+    {
+      "page": 5,
+      "text": "61 ( 01, (c , hair is black_ My Hair Level A 5 My"
+    },
+    {
+      "page": 6,
+      "text": "hair is blond_ My"
+    },
+    {
+      "page": 7,
+      "text": "3KREKF3AI 1 ~ )) hair is braided: My Hair Level A My"
+    },
+    {
+      "page": 8,
+      "text": "3 Laluus LUusfm hair is short _ 8 My"
+    },
+    {
+      "page": 9,
+      "text": "LE hair is long: My Hair Level A My"
+    },
+    {
+      "page": 10,
+      "text": "Ui 6, What is your hair like? 10"
+    },
+    {
+      "page": 11,
+      "text": "Hair Loadingl Written by' Julie Hording Illustrated by Angelo Komstro My Hair Level A Leveled Book Learning A-Z Correlation Written by Julie Harding LEVEL A Illustrated by Angela Kamstra Fountas & Pinnell A All reserved. Reading_Recovery DRA A-1 WWW.   readinga-z.( com My rights"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "level-a/carlos-goes-to-school",
+  "title": "Carlos Goes To School",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 13,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED READER , A Carlos Goes to School BCHG Written by Lorena F DiBello Illustrated by Angela Kamstra-Jacobson wwwreadinga-z.com DIS"
+    },
+    {
+      "page": 2,
+      "text": "Carlos Goes to School Written by Lorena F DiBello Illustrated Angela Kamstra-Jacobson wwwreadinga-z.com by"
+    },
+    {
+      "page": 3,
+      "text": "1 my backpack. Carlos Goes to School Level A 3 UEY get"
+    },
+    {
+      "page": 4,
+      "text": "L 4 0f e L my pencils. LL ~ 4#~ 4 (t++ L+ €l` Science) get"
+    },
+    {
+      "page": 5,
+      "text": "(C 0 Udp 1 my ruler _ Carlos Goes to School Level A 5 get"
+    },
+    {
+      "page": 6,
+      "text": "\"Y_ 4= Idb [ my eraser_ Science_ get"
+    },
+    {
+      "page": 7,
+      "text": "7 I8 1 my crayons. Carlos Goes to School Level A 7- Ow 47 get"
+    },
+    {
+      "page": 8,
+      "text": "X Lo [ my sweater_ 8 3 get"
+    },
+    {
+      "page": 9,
+      "text": "1 my sister _ Carlos Goes to School Level A ~0i (ill get"
+    },
+    {
+      "page": 10,
+      "text": "((( (h [ my lunch_ 10 get"
+    },
+    {
+      "page": 11,
+      "text": " my hug: Carlos Goes to School Level A get"
+    },
+    {
+      "page": 12,
+      "text": "Wt' (Wv DRIVE SLOW SCHOOL W ZONE 444 Nlns [ my ride. 12 6 get"
+    },
+    {
+      "page": 13,
+      "text": "Carlos Goes to School Correlation Level A Leveled Reader LEVEL A Learning A-Z All rights reserved. Written by Lorena F: DiBello Fountas & Pinnell A Illustrations by Angela Kamstra-Jacobson Reading Recovery DRA A-1 WWW.  readinga-z.c com"
+    }
+  ]
+}

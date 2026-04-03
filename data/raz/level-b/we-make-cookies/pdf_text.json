@@ -1,0 +1,54 @@
+{
+  "id": "level-b/we-make-cookies",
+  "title": "We Make Cookies",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B We Make Cookies Written by Cheryl Ryan Illustrated by John Kastner wwwreadinga-z.com MiLK"
+    },
+    {
+      "page": 2,
+      "text": "We Make Cookies 8 Written by Cheryl Ryan Illustrated by John Kastner wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "FLOU We in some flour_ We Make Cookies Level B 3 put"
+    },
+    {
+      "page": 4,
+      "text": "We in some sugar. g put"
+    },
+    {
+      "page": 5,
+      "text": "4  We in a little salt_ We Make Cookies Level B 5 put"
+    },
+    {
+      "page": 6,
+      "text": "We in two eggs. 9 put"
+    },
+    {
+      "page": 7,
+      "text": "T) M We in some milk We Make Cookies Level B Da MILK put"
+    },
+    {
+      "page": 8,
+      "text": "3yTTer We in some butter. 8 put"
+    },
+    {
+      "page": 9,
+      "text": "We mix it up_ We Make Cookies Level B"
+    },
+    {
+      "page": 10,
+      "text": "Dad puts it in the oven_ yum_ 10 Yum,"
+    },
+    {
+      "page": 11,
+      "text": "We Make Cookies Level B Leveled Book Learning A-Z Correlation Written by Cheryl Ryan LEVEL B Illustrated by John Kastner Fountas & Pinnell B All rights reserved. Reading Recovery 2 DRA 2 WWW.  readinga-z.com"
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "version": "1.0",
+  "total_words": 53,
+  "timings": [
+    {
+      "word": "taking",
+      "start": 0.0,
+      "end": 0.54
+    },
+    {
+      "word": "the",
+      "start": 0.54,
+      "end": 1.04
+    },
+    {
+      "word": "bus",
+      "start": 1.04,
+      "end": 1.78
+    },
+    {
+      "word": "written",
+      "start": 2.14,
+      "end": 2.52
+    },
+    {
+      "word": "by",
+      "start": 2.52,
+      "end": 3.1
+    },
+    {
+      "word": "elizabeth",
+      "start": 3.1,
+      "end": 3.78
+    },
+    {
+      "word": "strauss",
+      "start": 3.78,
+      "end": 4.68
+    },
+    {
+      "word": "i",
+      "start": 5.4,
+      "end": 5.4
+    },
+    {
+      "word": "walk",
+      "start": 5.4,
+      "end": 5.92
+    },
+    {
+      "word": "to",
+      "start": 5.92,
+      "end": 6.56
+    },
+    {
+      "word": "the",
+      "start": 6.56,
+      "end": 6.88
+    },
+    {
+      "word": "bus",
+      "start": 6.88,
+      "end": 7.28
+    },
+    {
+      "word": "stop",
+      "start": 7.28,
+      "end": 7.78
+    },
+    {
+      "word": "i",
+      "start": 8.04,
+      "end": 8.44
+    },
+    {
+      "word": "wait",
+      "start": 8.44,
+      "end": 8.86
+    },
+    {
+      "word": "for",
+      "start": 8.86,
+      "end": 9.74
+    },
+    {
+      "word": "the",
+      "start": 9.74,
+      "end": 10.12
+    },
+    {
+      "word": "bus",
+      "start": 10.12,
+      "end": 10.64
+    },
+    {
+      "word": "i",
+      "start": 10.92,
+      "end": 11.36
+    },
+    {
+      "word": "see",
+      "start": 11.36,
+      "end": 11.76
+    },
+    {
+      "word": "the",
+      "start": 11.76,
+      "end": 12.44
+    },
+    {
+      "word": "bus",
+      "start": 12.44,
+      "end": 12.84
+    },
+    {
+      "word": "come",
+      "start": 12.84,
+      "end": 13.64
+    },
+    {
+      "word": "i",
+      "start": 14.06,
+      "end": 14.26
+    },
+    {
+      "word": "get",
+      "start": 14.26,
+      "end": 14.9
+    },
+    {
+      "word": "on",
+      "start": 14.9,
+      "end": 15.68
+    },
+    {
+      "word": "the",
+      "start": 15.68,
+      "end": 16.08
+    },
+    {
+      "word": "bus",
+      "start": 16.08,
+      "end": 16.56
+    },
+    {
+      "word": "i",
+      "start": 16.84,
+      "end": 17.12
+    },
+    {
+      "word": "pay",
+      "start": 17.12,
+      "end": 17.92
+    },
+    {
+      "word": "for",
+      "start": 17.92,
+      "end": 18.66
+    },
+    {
+      "word": "the",
+      "start": 18.66,
+      "end": 19.28
+    },
+    {
+      "word": "bus",
+      "start": 19.28,
+      "end": 19.74
+    },
+    {
+      "word": "ride",
+      "start": 19.74,
+      "end": 20.32
+    },
+    {
+      "word": "i",
+      "start": 20.38,
+      "end": 21.0
+    },
+    {
+      "word": "ride",
+      "start": 21.0,
+      "end": 21.46
+    },
+    {
+      "word": "on",
+      "start": 21.46,
+      "end": 22.36
+    },
+    {
+      "word": "the",
+      "start": 22.36,
+      "end": 22.72
+    },
+    {
+      "word": "bus",
+      "start": 22.72,
+      "end": 23.24
+    },
+    {
+      "word": "i",
+      "start": 23.66,
+      "end": 24.0
+    },
+    {
+      "word": "get",
+      "start": 24.0,
+      "end": 24.6
+    },
+    {
+      "word": "off",
+      "start": 24.6,
+      "end": 25.08
+    },
+    {
+      "word": "the",
+      "start": 25.08,
+      "end": 25.82
+    },
+    {
+      "word": "bus",
+      "start": 25.82,
+      "end": 26.26
+    },
+    {
+      "word": "i",
+      "start": 26.26,
+      "end": 27.0
+    },
+    {
+      "word": "walk",
+      "start": 27.0,
+      "end": 27.36
+    },
+    {
+      "word": "the",
+      "start": 27.36,
+      "end": 28.0
+    },
+    {
+      "word": "rest",
+      "start": 28.0,
+      "end": 28.44
+    },
+    {
+      "word": "of",
+      "start": 28.44,
+      "end": 29.1
+    },
+    {
+      "word": "the",
+      "start": 29.1,
+      "end": 29.48
+    },
+    {
+      "word": "way",
+      "start": 29.48,
+      "end": 29.96
+    },
+    {
+      "word": "to",
+      "start": 29.96,
+      "end": 30.56
+    },
+    {
+      "word": "school",
+      "start": 30.56,
+      "end": 31.02
+    }
+  ]
+}

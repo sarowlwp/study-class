@@ -1,0 +1,426 @@
+{
+  "version": "1.0",
+  "total_words": 84,
+  "timings": [
+    {
+      "word": "what",
+      "start": 0.0,
+      "end": 0.42
+    },
+    {
+      "word": "makes",
+      "start": 0.42,
+      "end": 0.94
+    },
+    {
+      "word": "me",
+      "start": 0.94,
+      "end": 1.42
+    },
+    {
+      "word": "happy",
+      "start": 1.42,
+      "end": 2.14
+    },
+    {
+      "word": "written",
+      "start": 3.1,
+      "end": 3.46
+    },
+    {
+      "word": "by",
+      "start": 3.46,
+      "end": 3.82
+    },
+    {
+      "word": "marvin",
+      "start": 3.82,
+      "end": 4.4
+    },
+    {
+      "word": "d",
+      "start": 4.4,
+      "end": 5.1
+    },
+    {
+      "word": "bodner",
+      "start": 5.64,
+      "end": 6.1
+    },
+    {
+      "word": "focus",
+      "start": 7.42,
+      "end": 7.48
+    },
+    {
+      "word": "question",
+      "start": 7.48,
+      "end": 8.64
+    },
+    {
+      "word": "what",
+      "start": 9.86,
+      "end": 9.9
+    },
+    {
+      "word": "are",
+      "start": 9.9,
+      "end": 10.26
+    },
+    {
+      "word": "some",
+      "start": 10.26,
+      "end": 10.6
+    },
+    {
+      "word": "things",
+      "start": 10.6,
+      "end": 11.14
+    },
+    {
+      "word": "that",
+      "start": 11.14,
+      "end": 11.64
+    },
+    {
+      "word": "make",
+      "start": 11.64,
+      "end": 11.96
+    },
+    {
+      "word": "kids",
+      "start": 11.96,
+      "end": 12.4
+    },
+    {
+      "word": "happy",
+      "start": 12.4,
+      "end": 12.98
+    },
+    {
+      "word": "dogs",
+      "start": 13.34,
+      "end": 13.74
+    },
+    {
+      "word": "make",
+      "start": 13.74,
+      "end": 14.46
+    },
+    {
+      "word": "me",
+      "start": 14.46,
+      "end": 15.26
+    },
+    {
+      "word": "happy",
+      "start": 15.26,
+      "end": 15.74
+    },
+    {
+      "word": "cats",
+      "start": 16.34,
+      "end": 16.68
+    },
+    {
+      "word": "make",
+      "start": 16.68,
+      "end": 17.56
+    },
+    {
+      "word": "me",
+      "start": 17.56,
+      "end": 18.46
+    },
+    {
+      "word": "happy",
+      "start": 18.46,
+      "end": 19.0
+    },
+    {
+      "word": "bubbles",
+      "start": 19.42,
+      "end": 19.96
+    },
+    {
+      "word": "make",
+      "start": 19.96,
+      "end": 20.72
+    },
+    {
+      "word": "me",
+      "start": 20.72,
+      "end": 21.58
+    },
+    {
+      "word": "happy",
+      "start": 21.58,
+      "end": 22.24
+    },
+    {
+      "word": "trains",
+      "start": 22.72,
+      "end": 23.3
+    },
+    {
+      "word": "make",
+      "start": 23.3,
+      "end": 24.02
+    },
+    {
+      "word": "me",
+      "start": 24.02,
+      "end": 24.66
+    },
+    {
+      "word": "happy",
+      "start": 24.66,
+      "end": 25.16
+    },
+    {
+      "word": "swings",
+      "start": 25.82,
+      "end": 26.46
+    },
+    {
+      "word": "make",
+      "start": 26.46,
+      "end": 27.3
+    },
+    {
+      "word": "me",
+      "start": 27.3,
+      "end": 28.28
+    },
+    {
+      "word": "happy",
+      "start": 28.28,
+      "end": 28.76
+    },
+    {
+      "word": "flowers",
+      "start": 28.76,
+      "end": 29.96
+    },
+    {
+      "word": "make",
+      "start": 29.96,
+      "end": 30.86
+    },
+    {
+      "word": "me",
+      "start": 30.86,
+      "end": 31.68
+    },
+    {
+      "word": "happy",
+      "start": 31.68,
+      "end": 32.34
+    },
+    {
+      "word": "books",
+      "start": 33.04,
+      "end": 33.04
+    },
+    {
+      "word": "make",
+      "start": 33.04,
+      "end": 33.76
+    },
+    {
+      "word": "me",
+      "start": 33.76,
+      "end": 34.52
+    },
+    {
+      "word": "happy",
+      "start": 34.52,
+      "end": 35.22
+    },
+    {
+      "word": "friends",
+      "start": 35.92,
+      "end": 36.16
+    },
+    {
+      "word": "make",
+      "start": 36.16,
+      "end": 37.04
+    },
+    {
+      "word": "me",
+      "start": 37.04,
+      "end": 37.94
+    },
+    {
+      "word": "happy",
+      "start": 37.94,
+      "end": 38.68
+    },
+    {
+      "word": "connections",
+      "start": 39.26,
+      "end": 40.22
+    },
+    {
+      "word": "writing",
+      "start": 41.3,
+      "end": 41.46
+    },
+    {
+      "word": "and",
+      "start": 41.46,
+      "end": 42.44
+    },
+    {
+      "word": "art",
+      "start": 42.44,
+      "end": 43.64
+    },
+    {
+      "word": "what",
+      "start": 44.46,
+      "end": 44.48
+    },
+    {
+      "word": "makes",
+      "start": 44.48,
+      "end": 44.88
+    },
+    {
+      "word": "you",
+      "start": 44.88,
+      "end": 45.3
+    },
+    {
+      "word": "happy",
+      "start": 45.3,
+      "end": 45.86
+    },
+    {
+      "word": "draw",
+      "start": 47.04,
+      "end": 47.28
+    },
+    {
+      "word": "a",
+      "start": 47.28,
+      "end": 47.68
+    },
+    {
+      "word": "picture",
+      "start": 47.68,
+      "end": 48.06
+    },
+    {
+      "word": "and",
+      "start": 48.06,
+      "end": 48.68
+    },
+    {
+      "word": "write",
+      "start": 48.68,
+      "end": 48.96
+    },
+    {
+      "word": "about",
+      "start": 48.96,
+      "end": 49.36
+    },
+    {
+      "word": "it",
+      "start": 49.36,
+      "end": 50.06
+    },
+    {
+      "word": "math",
+      "start": 50.06,
+      "end": 51.58
+    },
+    {
+      "word": "what",
+      "start": 52.82,
+      "end": 52.98
+    },
+    {
+      "word": "are",
+      "start": 52.98,
+      "end": 53.42
+    },
+    {
+      "word": "some",
+      "start": 53.42,
+      "end": 53.78
+    },
+    {
+      "word": "things",
+      "start": 53.78,
+      "end": 54.36
+    },
+    {
+      "word": "that",
+      "start": 54.36,
+      "end": 54.9
+    },
+    {
+      "word": "make",
+      "start": 54.9,
+      "end": 55.16
+    },
+    {
+      "word": "your",
+      "start": 55.16,
+      "end": 55.48
+    },
+    {
+      "word": "classmates",
+      "start": 55.48,
+      "end": 55.96
+    },
+    {
+      "word": "happy",
+      "start": 55.96,
+      "end": 56.82
+    },
+    {
+      "word": "create",
+      "start": 57.9,
+      "end": 58.3
+    },
+    {
+      "word": "a",
+      "start": 58.3,
+      "end": 59.0
+    },
+    {
+      "word": "class",
+      "start": 59.0,
+      "end": 59.36
+    },
+    {
+      "word": "graph",
+      "start": 59.36,
+      "end": 60.08
+    },
+    {
+      "word": "showing",
+      "start": 60.08,
+      "end": 61.02
+    },
+    {
+      "word": "what",
+      "start": 61.02,
+      "end": 61.66
+    },
+    {
+      "word": "you",
+      "start": 61.66,
+      "end": 61.98
+    },
+    {
+      "word": "find",
+      "start": 61.98,
+      "end": 62.52
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "level-b/i-love-art-class",
+  "title": "I Love Art Class",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B I Love Arf Class c C UL Written by Keith and Sarah Kortemartin Illustrated by Marilyn Janovitz wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "I Love Art Class 2 Written by Keith and Sarah Kortemartin Illustrated by Marilyn Janovitz wwwreadinga-z.com JJUL"
+    },
+    {
+      "page": 3,
+      "text": "c ( 1 make a drawing: Love Art Class * Level B 3 fejte"
+    },
+    {
+      "page": 4,
+      "text": "Smlusyyy C I make a hat."
+    },
+    {
+      "page": 5,
+      "text": "1 make a flower: Love Art Class * Level B 5"
+    },
+    {
+      "page": 6,
+      "text": "I make a chain_ FULnul"
+    },
+    {
+      "page": 7,
+      "text": "22 1 make an airplane: Love Art Class * Level B"
+    },
+    {
+      "page": 8,
+      "text": "3z C C I make a painting: 8"
+    },
+    {
+      "page": 9,
+      "text": "OMAUusli 3 LV) {-4 1 make a messl Love Art Class * Level B J"
+    },
+    {
+      "page": 10,
+      "text": "0 YAean I S1i, , ~t I love art classl 10"
+    },
+    {
+      "page": 11,
+      "text": "I Love Art Class Level B Leveled Book Learning A-Z Correlation Written by Keith and Sarah Kortemartin LEVEL B Illustrated by Marilyn Janovitz Fountas & Pinnell B AIl rights reserved: Reading Recovery_ 2 DRA 2 wwwreadinga-z.com"
+    }
+  ]
+}

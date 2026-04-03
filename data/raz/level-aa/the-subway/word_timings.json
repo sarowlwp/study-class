@@ -1,0 +1,456 @@
+{
+  "version": "1.0",
+  "total_words": 90,
+  "timings": [
+    {
+      "word": "the",
+      "start": 0.0,
+      "end": 0.66
+    },
+    {
+      "word": "subway",
+      "start": 0.66,
+      "end": 3.06
+    },
+    {
+      "word": "written",
+      "start": 3.52,
+      "end": 4.2
+    },
+    {
+      "word": "by",
+      "start": 4.2,
+      "end": 5.48
+    },
+    {
+      "word": "sarah",
+      "start": 5.48,
+      "end": 6.9
+    },
+    {
+      "word": "guson",
+      "start": 6.9,
+      "end": 8.82
+    },
+    {
+      "word": "illustrated",
+      "start": 9.64,
+      "end": 10.38
+    },
+    {
+      "word": "by",
+      "start": 10.38,
+      "end": 12.0
+    },
+    {
+      "word": "juan",
+      "start": 12.0,
+      "end": 13.12
+    },
+    {
+      "word": "manuel",
+      "start": 13.12,
+      "end": 14.46
+    },
+    {
+      "word": "moreno",
+      "start": 14.46,
+      "end": 16.14
+    },
+    {
+      "word": "focus",
+      "start": 17.42,
+      "end": 17.72
+    },
+    {
+      "word": "question",
+      "start": 17.72,
+      "end": 19.16
+    },
+    {
+      "word": "what",
+      "start": 19.16,
+      "end": 20.44
+    },
+    {
+      "word": "steps",
+      "start": 20.44,
+      "end": 21.8
+    },
+    {
+      "word": "do",
+      "start": 21.8,
+      "end": 22.88
+    },
+    {
+      "word": "you",
+      "start": 22.88,
+      "end": 23.72
+    },
+    {
+      "word": "take",
+      "start": 23.72,
+      "end": 24.4
+    },
+    {
+      "word": "to",
+      "start": 24.4,
+      "end": 25.36
+    },
+    {
+      "word": "ride",
+      "start": 25.36,
+      "end": 26.08
+    },
+    {
+      "word": "the",
+      "start": 26.08,
+      "end": 26.72
+    },
+    {
+      "word": "subway",
+      "start": 26.72,
+      "end": 27.36
+    },
+    {
+      "word": "the",
+      "start": 28.96,
+      "end": 28.96
+    },
+    {
+      "word": "stairs",
+      "start": 28.96,
+      "end": 30.0
+    },
+    {
+      "word": "the",
+      "start": 30.5,
+      "end": 31.36
+    },
+    {
+      "word": "ticket",
+      "start": 31.36,
+      "end": 32.56
+    },
+    {
+      "word": "the",
+      "start": 33.1,
+      "end": 33.86
+    },
+    {
+      "word": "gate",
+      "start": 33.86,
+      "end": 35.04
+    },
+    {
+      "word": "the",
+      "start": 35.68,
+      "end": 36.64
+    },
+    {
+      "word": "people",
+      "start": 36.64,
+      "end": 37.48
+    },
+    {
+      "word": "the",
+      "start": 38.08,
+      "end": 39.34
+    },
+    {
+      "word": "time",
+      "start": 39.34,
+      "end": 40.46
+    },
+    {
+      "word": "the",
+      "start": 41.76,
+      "end": 41.92
+    },
+    {
+      "word": "tunnel",
+      "start": 41.92,
+      "end": 42.76
+    },
+    {
+      "word": "the",
+      "start": 43.26,
+      "end": 44.0
+    },
+    {
+      "word": "doors",
+      "start": 44.0,
+      "end": 45.16
+    },
+    {
+      "word": "the",
+      "start": 45.64,
+      "end": 46.8
+    },
+    {
+      "word": "subway",
+      "start": 46.8,
+      "end": 47.84
+    },
+    {
+      "word": "connections",
+      "start": 47.84,
+      "end": 49.22
+    },
+    {
+      "word": "writing",
+      "start": 50.54,
+      "end": 50.84
+    },
+    {
+      "word": "and",
+      "start": 50.84,
+      "end": 52.0
+    },
+    {
+      "word": "art",
+      "start": 52.0,
+      "end": 53.32
+    },
+    {
+      "word": "people",
+      "start": 54.42,
+      "end": 54.96
+    },
+    {
+      "word": "ride",
+      "start": 54.96,
+      "end": 55.94
+    },
+    {
+      "word": "the",
+      "start": 55.94,
+      "end": 56.62
+    },
+    {
+      "word": "subway",
+      "start": 56.62,
+      "end": 57.18
+    },
+    {
+      "word": "to",
+      "start": 57.18,
+      "end": 58.32
+    },
+    {
+      "word": "get",
+      "start": 58.32,
+      "end": 58.74
+    },
+    {
+      "word": "from",
+      "start": 58.74,
+      "end": 59.36
+    },
+    {
+      "word": "place",
+      "start": 59.36,
+      "end": 60.14
+    },
+    {
+      "word": "to",
+      "start": 60.14,
+      "end": 60.9
+    },
+    {
+      "word": "place",
+      "start": 60.9,
+      "end": 61.62
+    },
+    {
+      "word": "in",
+      "start": 61.62,
+      "end": 62.34
+    },
+    {
+      "word": "a",
+      "start": 62.34,
+      "end": 62.9
+    },
+    {
+      "word": "city",
+      "start": 62.9,
+      "end": 63.54
+    },
+    {
+      "word": "where",
+      "start": 64.74,
+      "end": 64.96
+    },
+    {
+      "word": "do",
+      "start": 64.96,
+      "end": 65.46
+    },
+    {
+      "word": "you",
+      "start": 65.46,
+      "end": 65.98
+    },
+    {
+      "word": "think",
+      "start": 65.98,
+      "end": 66.52
+    },
+    {
+      "word": "the",
+      "start": 66.52,
+      "end": 67.26
+    },
+    {
+      "word": "girl",
+      "start": 67.26,
+      "end": 67.76
+    },
+    {
+      "word": "is",
+      "start": 67.76,
+      "end": 68.44
+    },
+    {
+      "word": "going",
+      "start": 68.44,
+      "end": 69.42
+    },
+    {
+      "word": "draw",
+      "start": 70.32,
+      "end": 70.64
+    },
+    {
+      "word": "a",
+      "start": 70.64,
+      "end": 71.2
+    },
+    {
+      "word": "picture",
+      "start": 71.2,
+      "end": 71.78
+    },
+    {
+      "word": "and",
+      "start": 71.78,
+      "end": 72.96
+    },
+    {
+      "word": "write",
+      "start": 72.96,
+      "end": 73.6
+    },
+    {
+      "word": "about",
+      "start": 73.6,
+      "end": 74.3
+    },
+    {
+      "word": "it",
+      "start": 74.3,
+      "end": 75.14
+    },
+    {
+      "word": "social",
+      "start": 75.14,
+      "end": 76.34
+    },
+    {
+      "word": "studies",
+      "start": 76.34,
+      "end": 77.3
+    },
+    {
+      "word": "what",
+      "start": 78.64,
+      "end": 78.7
+    },
+    {
+      "word": "are",
+      "start": 78.7,
+      "end": 79.4
+    },
+    {
+      "word": "some",
+      "start": 79.4,
+      "end": 79.88
+    },
+    {
+      "word": "other",
+      "start": 79.88,
+      "end": 80.56
+    },
+    {
+      "word": "ways",
+      "start": 80.56,
+      "end": 81.24
+    },
+    {
+      "word": "to",
+      "start": 81.24,
+      "end": 81.94
+    },
+    {
+      "word": "get",
+      "start": 81.94,
+      "end": 82.38
+    },
+    {
+      "word": "from",
+      "start": 82.38,
+      "end": 82.94
+    },
+    {
+      "word": "one",
+      "start": 82.94,
+      "end": 83.42
+    },
+    {
+      "word": "place",
+      "start": 83.42,
+      "end": 83.92
+    },
+    {
+      "word": "to",
+      "start": 83.92,
+      "end": 84.7
+    },
+    {
+      "word": "another",
+      "start": 84.7,
+      "end": 85.62
+    },
+    {
+      "word": "share",
+      "start": 86.84,
+      "end": 87.14
+    },
+    {
+      "word": "your",
+      "start": 87.14,
+      "end": 88.02
+    },
+    {
+      "word": "ideas",
+      "start": 88.02,
+      "end": 88.92
+    },
+    {
+      "word": "with",
+      "start": 88.92,
+      "end": 90.14
+    },
+    {
+      "word": "a",
+      "start": 90.14,
+      "end": 90.48
+    },
+    {
+      "word": "partner",
+      "start": 90.48,
+      "end": 90.88
+    }
+  ]
+}

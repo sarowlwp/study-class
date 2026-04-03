@@ -1,0 +1,181 @@
+{
+  "version": "1.0",
+  "total_words": 35,
+  "timings": [
+    {
+      "word": "over",
+      "start": 0.0,
+      "end": 0.58
+    },
+    {
+      "word": "written",
+      "start": 1.04,
+      "end": 1.56
+    },
+    {
+      "word": "by",
+      "start": 1.56,
+      "end": 1.84
+    },
+    {
+      "word": "a",
+      "start": 1.84,
+      "end": 2.14
+    },
+    {
+      "word": "net",
+      "start": 2.14,
+      "end": 2.3
+    },
+    {
+      "word": "co",
+      "start": 2.58,
+      "end": 2.66
+    },
+    {
+      "word": "-reathers",
+      "start": 2.66,
+      "end": 3.1
+    },
+    {
+      "word": "illustrated",
+      "start": 3.76,
+      "end": 4.2
+    },
+    {
+      "word": "by",
+      "start": 4.2,
+      "end": 5.0
+    },
+    {
+      "word": "nora",
+      "start": 5.0,
+      "end": 5.48
+    },
+    {
+      "word": "voodis",
+      "start": 5.48,
+      "end": 6.38
+    },
+    {
+      "word": "over",
+      "start": 8.7,
+      "end": 8.86
+    },
+    {
+      "word": "the",
+      "start": 9.12,
+      "end": 9.36
+    },
+    {
+      "word": "log",
+      "start": 9.36,
+      "end": 9.96
+    },
+    {
+      "word": "over",
+      "start": 12.26,
+      "end": 12.56
+    },
+    {
+      "word": "the",
+      "start": 12.84,
+      "end": 13.08
+    },
+    {
+      "word": "pot",
+      "start": 13.08,
+      "end": 13.46
+    },
+    {
+      "word": "over",
+      "start": 15.84,
+      "end": 16.24
+    },
+    {
+      "word": "the",
+      "start": 16.54,
+      "end": 16.8
+    },
+    {
+      "word": "hole",
+      "start": 16.8,
+      "end": 17.3
+    },
+    {
+      "word": "over",
+      "start": 19.66,
+      "end": 20.0
+    },
+    {
+      "word": "the",
+      "start": 20.38,
+      "end": 20.56
+    },
+    {
+      "word": "bike",
+      "start": 20.56,
+      "end": 20.98
+    },
+    {
+      "word": "over",
+      "start": 23.34,
+      "end": 23.72
+    },
+    {
+      "word": "the",
+      "start": 24.14,
+      "end": 24.42
+    },
+    {
+      "word": "bat",
+      "start": 24.42,
+      "end": 24.82
+    },
+    {
+      "word": "over",
+      "start": 26.3,
+      "end": 27.54
+    },
+    {
+      "word": "the",
+      "start": 27.54,
+      "end": 28.08
+    },
+    {
+      "word": "ball",
+      "start": 28.08,
+      "end": 28.98
+    },
+    {
+      "word": "over",
+      "start": 30.84,
+      "end": 31.32
+    },
+    {
+      "word": "the",
+      "start": 31.32,
+      "end": 31.94
+    },
+    {
+      "word": "doll",
+      "start": 31.94,
+      "end": 32.66
+    },
+    {
+      "word": "over",
+      "start": 34.72,
+      "end": 35.08
+    },
+    {
+      "word": "the",
+      "start": 35.08,
+      "end": 35.64
+    },
+    {
+      "word": "cat",
+      "start": 35.64,
+      "end": 35.98
+    }
+  ]
+}

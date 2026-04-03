@@ -1,0 +1,62 @@
+{
+  "id": "level-c/feelings",
+  "title": "Feelings",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 13,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C Feelings 2 Written by Cheryl Ryan Illustrated by Siri Weber Feeney wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Feelings Written by Cheryl Ryan Illustrated Siri Weber Feeney wwwreadinga-z.com by"
+    },
+    {
+      "page": 3,
+      "text": "2 I have many feelings: feelings  change from time to time: Level C 3 My Feelings"
+    },
+    {
+      "page": 4,
+      "text": "Sometimes I feel kind of happy:"
+    },
+    {
+      "page": 5,
+      "text": "4 Sometimes I feel very happy: Level C 5 Feelings"
+    },
+    {
+      "page": 6,
+      "text": "6 3 d0 Sometimes I feel kind of sad_ ="
+    },
+    {
+      "page": 7,
+      "text": "Cat ( Sometimes I feel very sad_ Level C Lost Lost Feelings"
+    },
+    {
+      "page": 8,
+      "text": "( Sometimes I feel kind of angry: 8"
+    },
+    {
+      "page": 9,
+      "text": "6 Sometimes I feel very angry: Level C Feelings"
+    },
+    {
+      "page": 10,
+      "text": "7 Od Sometimes I feel kind of scared_ 10"
+    },
+    {
+      "page": 11,
+      "text": "3 Sometimes I feel very scared_ Level C 11 Feelings"
+    },
+    {
+      "page": 12,
+      "text": "I have many different feelings Do yoU have many different feelings; too? 12 C)"
+    },
+    {
+      "page": 13,
+      "text": "Feelings Level C Leveled Book Learning A-Z Correlation Written by Cheryl Ryan LEVEL C Illustrated by Siri Weber Feeney Fountas & Pinnell C All rights reserved: Reading Recovery 3-4 DRA 3-4 wwwreadinga-zcom"
+    }
+  ]
+}

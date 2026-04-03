@@ -1,0 +1,276 @@
+{
+  "version": "1.0",
+  "total_words": 54,
+  "timings": [
+    {
+      "word": "pond",
+      "start": 0.0,
+      "end": 0.5
+    },
+    {
+      "word": "life",
+      "start": 0.5,
+      "end": 1.36
+    },
+    {
+      "word": "written",
+      "start": 1.72,
+      "end": 2.08
+    },
+    {
+      "word": "by",
+      "start": 2.08,
+      "end": 2.66
+    },
+    {
+      "word": "susan",
+      "start": 2.66,
+      "end": 3.1
+    },
+    {
+      "word": "hartley",
+      "start": 3.1,
+      "end": 3.82
+    },
+    {
+      "word": "there",
+      "start": 4.32,
+      "end": 4.5
+    },
+    {
+      "word": "are",
+      "start": 4.5,
+      "end": 5.08
+    },
+    {
+      "word": "plants",
+      "start": 5.08,
+      "end": 5.52
+    },
+    {
+      "word": "in",
+      "start": 5.52,
+      "end": 6.18
+    },
+    {
+      "word": "the",
+      "start": 6.18,
+      "end": 6.56
+    },
+    {
+      "word": "pond",
+      "start": 6.56,
+      "end": 7.12
+    },
+    {
+      "word": "there",
+      "start": 7.82,
+      "end": 7.9
+    },
+    {
+      "word": "are",
+      "start": 7.9,
+      "end": 8.54
+    },
+    {
+      "word": "fish",
+      "start": 8.54,
+      "end": 8.88
+    },
+    {
+      "word": "in",
+      "start": 8.88,
+      "end": 9.5
+    },
+    {
+      "word": "the",
+      "start": 9.5,
+      "end": 9.86
+    },
+    {
+      "word": "pond",
+      "start": 9.86,
+      "end": 10.34
+    },
+    {
+      "word": "there",
+      "start": 10.92,
+      "end": 11.06
+    },
+    {
+      "word": "are",
+      "start": 11.06,
+      "end": 11.56
+    },
+    {
+      "word": "snails",
+      "start": 11.56,
+      "end": 12.48
+    },
+    {
+      "word": "in",
+      "start": 12.48,
+      "end": 13.06
+    },
+    {
+      "word": "the",
+      "start": 13.06,
+      "end": 13.52
+    },
+    {
+      "word": "pond",
+      "start": 13.52,
+      "end": 13.96
+    },
+    {
+      "word": "there",
+      "start": 14.66,
+      "end": 14.72
+    },
+    {
+      "word": "are",
+      "start": 14.72,
+      "end": 15.32
+    },
+    {
+      "word": "bugs",
+      "start": 15.32,
+      "end": 15.74
+    },
+    {
+      "word": "in",
+      "start": 15.74,
+      "end": 16.66
+    },
+    {
+      "word": "the",
+      "start": 16.66,
+      "end": 17.1
+    },
+    {
+      "word": "pond",
+      "start": 17.1,
+      "end": 17.5
+    },
+    {
+      "word": "there",
+      "start": 18.08,
+      "end": 18.24
+    },
+    {
+      "word": "are",
+      "start": 18.24,
+      "end": 18.68
+    },
+    {
+      "word": "ducks",
+      "start": 18.68,
+      "end": 19.28
+    },
+    {
+      "word": "in",
+      "start": 19.28,
+      "end": 20.18
+    },
+    {
+      "word": "the",
+      "start": 20.18,
+      "end": 20.64
+    },
+    {
+      "word": "pond",
+      "start": 20.64,
+      "end": 21.1
+    },
+    {
+      "word": "there",
+      "start": 21.58,
+      "end": 21.88
+    },
+    {
+      "word": "are",
+      "start": 21.88,
+      "end": 22.32
+    },
+    {
+      "word": "turtles",
+      "start": 22.32,
+      "end": 22.72
+    },
+    {
+      "word": "in",
+      "start": 22.72,
+      "end": 23.74
+    },
+    {
+      "word": "the",
+      "start": 23.74,
+      "end": 24.18
+    },
+    {
+      "word": "pond",
+      "start": 24.18,
+      "end": 24.6
+    },
+    {
+      "word": "there",
+      "start": 25.3,
+      "end": 25.52
+    },
+    {
+      "word": "are",
+      "start": 25.52,
+      "end": 26.26
+    },
+    {
+      "word": "beavers",
+      "start": 26.26,
+      "end": 26.94
+    },
+    {
+      "word": "in",
+      "start": 26.94,
+      "end": 27.54
+    },
+    {
+      "word": "the",
+      "start": 27.54,
+      "end": 27.9
+    },
+    {
+      "word": "pond",
+      "start": 27.9,
+      "end": 28.36
+    },
+    {
+      "word": "there",
+      "start": 28.36,
+      "end": 29.18
+    },
+    {
+      "word": "are",
+      "start": 29.18,
+      "end": 29.72
+    },
+    {
+      "word": "boys",
+      "start": 29.72,
+      "end": 30.2
+    },
+    {
+      "word": "in",
+      "start": 30.2,
+      "end": 30.94
+    },
+    {
+      "word": "the",
+      "start": 30.94,
+      "end": 31.24
+    },
+    {
+      "word": "pond",
+      "start": 31.24,
+      "end": 31.62
+    }
+  ]
+}

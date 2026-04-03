@@ -1,0 +1,311 @@
+{
+  "version": "1.0",
+  "total_words": 61,
+  "timings": [
+    {
+      "word": "pairs",
+      "start": 0.0,
+      "end": 0.66
+    },
+    {
+      "word": "written",
+      "start": 0.66,
+      "end": 1.9
+    },
+    {
+      "word": "by",
+      "start": 1.9,
+      "end": 2.56
+    },
+    {
+      "word": "anthony",
+      "start": 2.56,
+      "end": 3.3
+    },
+    {
+      "word": "kurrin",
+      "start": 3.3,
+      "end": 4.56
+    },
+    {
+      "word": "two",
+      "start": 5.22,
+      "end": 5.22
+    },
+    {
+      "word": "socks",
+      "start": 5.22,
+      "end": 5.74
+    },
+    {
+      "word": "make",
+      "start": 5.74,
+      "end": 6.7
+    },
+    {
+      "word": "one",
+      "start": 6.7,
+      "end": 7.58
+    },
+    {
+      "word": "pair",
+      "start": 7.58,
+      "end": 8.44
+    },
+    {
+      "word": "of",
+      "start": 8.44,
+      "end": 9.12
+    },
+    {
+      "word": "socks",
+      "start": 9.12,
+      "end": 9.68
+    },
+    {
+      "word": "two",
+      "start": 10.22,
+      "end": 10.56
+    },
+    {
+      "word": "shoes",
+      "start": 10.56,
+      "end": 11.7
+    },
+    {
+      "word": "make",
+      "start": 11.7,
+      "end": 12.64
+    },
+    {
+      "word": "one",
+      "start": 12.64,
+      "end": 13.6
+    },
+    {
+      "word": "pair",
+      "start": 13.6,
+      "end": 14.54
+    },
+    {
+      "word": "of",
+      "start": 14.54,
+      "end": 15.04
+    },
+    {
+      "word": "shoes",
+      "start": 15.04,
+      "end": 15.88
+    },
+    {
+      "word": "two",
+      "start": 16.48,
+      "end": 16.94
+    },
+    {
+      "word": "gloves",
+      "start": 16.94,
+      "end": 17.86
+    },
+    {
+      "word": "make",
+      "start": 17.86,
+      "end": 19.1
+    },
+    {
+      "word": "one",
+      "start": 19.1,
+      "end": 20.18
+    },
+    {
+      "word": "pair",
+      "start": 20.18,
+      "end": 20.96
+    },
+    {
+      "word": "of",
+      "start": 20.96,
+      "end": 21.78
+    },
+    {
+      "word": "gloves",
+      "start": 21.78,
+      "end": 22.58
+    },
+    {
+      "word": "two",
+      "start": 23.06,
+      "end": 23.42
+    },
+    {
+      "word": "skates",
+      "start": 23.42,
+      "end": 24.64
+    },
+    {
+      "word": "make",
+      "start": 24.64,
+      "end": 25.72
+    },
+    {
+      "word": "one",
+      "start": 25.72,
+      "end": 26.62
+    },
+    {
+      "word": "pair",
+      "start": 26.62,
+      "end": 27.74
+    },
+    {
+      "word": "of",
+      "start": 27.74,
+      "end": 28.34
+    },
+    {
+      "word": "skates",
+      "start": 28.34,
+      "end": 29.2
+    },
+    {
+      "word": "two",
+      "start": 29.2,
+      "end": 30.04
+    },
+    {
+      "word": "dice",
+      "start": 30.04,
+      "end": 31.22
+    },
+    {
+      "word": "make",
+      "start": 32.18,
+      "end": 32.42
+    },
+    {
+      "word": "one",
+      "start": 32.42,
+      "end": 33.4
+    },
+    {
+      "word": "pair",
+      "start": 33.4,
+      "end": 34.28
+    },
+    {
+      "word": "of",
+      "start": 34.28,
+      "end": 35.04
+    },
+    {
+      "word": "dice",
+      "start": 35.04,
+      "end": 35.88
+    },
+    {
+      "word": "two",
+      "start": 36.48,
+      "end": 36.86
+    },
+    {
+      "word": "wings",
+      "start": 36.86,
+      "end": 37.74
+    },
+    {
+      "word": "make",
+      "start": 38.96,
+      "end": 39.22
+    },
+    {
+      "word": "one",
+      "start": 39.22,
+      "end": 40.02
+    },
+    {
+      "word": "pair",
+      "start": 40.02,
+      "end": 40.86
+    },
+    {
+      "word": "of",
+      "start": 40.86,
+      "end": 41.92
+    },
+    {
+      "word": "wings",
+      "start": 41.92,
+      "end": 42.48
+    },
+    {
+      "word": "two",
+      "start": 42.96,
+      "end": 43.4
+    },
+    {
+      "word": "eyes",
+      "start": 43.4,
+      "end": 44.38
+    },
+    {
+      "word": "make",
+      "start": 45.44,
+      "end": 45.68
+    },
+    {
+      "word": "one",
+      "start": 45.68,
+      "end": 46.7
+    },
+    {
+      "word": "pair",
+      "start": 46.7,
+      "end": 47.58
+    },
+    {
+      "word": "of",
+      "start": 47.58,
+      "end": 48.18
+    },
+    {
+      "word": "eyes",
+      "start": 48.18,
+      "end": 49.0
+    },
+    {
+      "word": "two",
+      "start": 49.52,
+      "end": 49.88
+    },
+    {
+      "word": "twins",
+      "start": 49.88,
+      "end": 50.84
+    },
+    {
+      "word": "make",
+      "start": 50.84,
+      "end": 52.06
+    },
+    {
+      "word": "one",
+      "start": 52.06,
+      "end": 52.9
+    },
+    {
+      "word": "pair",
+      "start": 52.9,
+      "end": 53.96
+    },
+    {
+      "word": "of",
+      "start": 53.96,
+      "end": 54.62
+    },
+    {
+      "word": "twins",
+      "start": 54.62,
+      "end": 55.16
+    }
+  ]
+}

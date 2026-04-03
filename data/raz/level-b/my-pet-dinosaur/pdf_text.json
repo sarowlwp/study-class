@@ -1,0 +1,58 @@
+{
+  "id": "level-b/my-pet-dinosaur",
+  "title": "My Pet Dinosaur",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Pet Dinosaur} Written by Anthony Curran - Illustrated by Simard WWwreadinga-z.com ~My Remy"
+    },
+    {
+      "page": 2,
+      "text": "MyPet GO 6 G Written by Anthony Curran Illustrated by Remy Simard wwWreadinga-Z com] Focus Question What can the pet dinosaur do? Dinosayr"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know beg dinosaur roar fetch shake hands Pet Dinosaur Level B Leveled Book 0 Learning A-Z Correlation Written by Anthony Curran LEVEL B Illustrated by Remy Simard Fountas & Pinnell B All rights reserved: Reading Recovery 2 DRA 2 wwwreadinga-z.com pet My"
+    },
+    {
+      "page": 4,
+      "text": "k; pet dinosaur can fetch: Pet Dinosaur Level B 3 PFFF My My"
+    },
+    {
+      "page": 5,
+      "text": "ZN 7 0 0 pet dinosaur can sit. My"
+    },
+    {
+      "page": 6,
+      "text": "3* GO 6 C pet dinosaur can shake hands. Pet Dinosaur Level B 5 55 V My My"
+    },
+    {
+      "page": 7,
+      "text": "dinosaur can My beg_ pet"
+    },
+    {
+      "page": 8,
+      "text": "pet dinosaur can lie down. Pet Dinosaur Level B My My"
+    },
+    {
+      "page": 9,
+      "text": "Roollke pet dinosaur can roar 8 My"
+    },
+    {
+      "page": 10,
+      "text": "A 7 6 pet dinosaur can lick. Pet Dinosaur Level B I2 My My"
+    },
+    {
+      "page": 11,
+      "text": "pet dinosaur cannot hide: 10 2 My"
+    },
+    {
+      "page": 12,
+      "text": "Pet Dinosaur A Reading A-Z Level B Leveled Book Word Count: 42 13 Connections Writing and Art If you could have a pet dinosaur; what trick would you teach it to do? Draw a picture and write about it; Science How is the dinosaur the same as a dog? How is it different? Share your ideas with a partner Reading A-Z Visit wwwreadinga-z.com for thousands of books and materials: My pet pet"
+    }
+  ]
+}

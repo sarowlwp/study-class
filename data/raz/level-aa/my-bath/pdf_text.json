@@ -1,0 +1,58 @@
+{
+  "id": "level-aa/my-bath",
+  "title": "My Bath",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , Aa My Bath Written by Elizabeth Jane Pustilnik Illustrated by Marcus Cufler WWw.readinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Bath Written by Elizabeth Jane Pustilnik Illustrated by Marcus Cutler wwwreadinga-z.com Focus Question What can you see while taking a bath? My"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know bath soap bubbles towel shampoo tub My Bath Level aa Leveled Book Learning A-Z Correlation Written by Elizabeth Jane Pustilnik LEVEL aa Illustrated by Marcus Cutler Fountas & Pinnell A AIl rights reserved. Reading Recovery_ DRA A-1 wwwreadinga-z.com"
+    },
+    {
+      "page": 4,
+      "text": "tub_ Bath Level aa 3 My My"
+    },
+    {
+      "page": 5,
+      "text": "water: My"
+    },
+    {
+      "page": 6,
+      "text": "bubbles. Bath Level aa 5 My My"
+    },
+    {
+      "page": 7,
+      "text": "1 A WJ toys. E S 1 0 6 0I My"
+    },
+    {
+      "page": 8,
+      "text": "soap. Bath Level aa My My"
+    },
+    {
+      "page": 9,
+      "text": "shampoo. 8 My"
+    },
+    {
+      "page": 10,
+      "text": "towel. Bath Level aa My My"
+    },
+    {
+      "page": 11,
+      "text": "bath_ 10 My"
+    },
+    {
+      "page": 12,
+      "text": "Bath A Reading A-Z Level aa Leveled Book Word Count: 16 Connections Writing and Art Draw a picture of your bathroom and label it. Social Studies People take baths to clean: Why do people need to keep clean? Share your ideas with a partner: Reading A-Z Visit wwwreadinga-z.com for thousands of books and materials. My get"
+    }
+  ]
+}

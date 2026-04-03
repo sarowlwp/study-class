@@ -1,0 +1,136 @@
+{
+  "version": "1.0",
+  "total_words": 26,
+  "timings": [
+    {
+      "word": "the",
+      "start": 0.0,
+      "end": 0.36
+    },
+    {
+      "word": "coast",
+      "start": 0.36,
+      "end": 0.88
+    },
+    {
+      "word": "written",
+      "start": 1.46,
+      "end": 1.88
+    },
+    {
+      "word": "by",
+      "start": 1.88,
+      "end": 2.36
+    },
+    {
+      "word": "catalina",
+      "start": 2.36,
+      "end": 3.1
+    },
+    {
+      "word": "page",
+      "start": 3.1,
+      "end": 3.84
+    },
+    {
+      "word": "illustrated",
+      "start": 4.52,
+      "end": 5.12
+    },
+    {
+      "word": "by",
+      "start": 5.12,
+      "end": 6.2
+    },
+    {
+      "word": "nora",
+      "start": 6.2,
+      "end": 6.66
+    },
+    {
+      "word": "votus",
+      "start": 6.66,
+      "end": 7.86
+    },
+    {
+      "word": "the",
+      "start": 10.02,
+      "end": 10.26
+    },
+    {
+      "word": "ocean",
+      "start": 10.26,
+      "end": 10.9
+    },
+    {
+      "word": "the",
+      "start": 13.42,
+      "end": 13.54
+    },
+    {
+      "word": "waves",
+      "start": 13.54,
+      "end": 14.18
+    },
+    {
+      "word": "the",
+      "start": 16.8,
+      "end": 17.02
+    },
+    {
+      "word": "beach",
+      "start": 17.02,
+      "end": 17.68
+    },
+    {
+      "word": "the",
+      "start": 20.34,
+      "end": 20.46
+    },
+    {
+      "word": "rocks",
+      "start": 20.46,
+      "end": 21.1
+    },
+    {
+      "word": "the",
+      "start": 22.54,
+      "end": 23.94
+    },
+    {
+      "word": "clip",
+      "start": 23.94,
+      "end": 24.84
+    },
+    {
+      "word": "the",
+      "start": 27.26,
+      "end": 27.52
+    },
+    {
+      "word": "birds",
+      "start": 27.52,
+      "end": 28.26
+    },
+    {
+      "word": "the",
+      "start": 30.86,
+      "end": 31.1
+    },
+    {
+      "word": "lighthouse",
+      "start": 31.1,
+      "end": 32.08
+    },
+    {
+      "word": "the",
+      "start": 34.46,
+      "end": 34.6
+    },
+    {
+      "word": "coast",
+      "start": 34.6,
+      "end": 35.1
+    }
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "version": "1.0",
+  "total_words": 66,
+  "timings": [
+    {
+      "word": "healthy",
+      "start": 0.0,
+      "end": 0.6
+    },
+    {
+      "word": "snacks",
+      "start": 0.6,
+      "end": 1.94
+    },
+    {
+      "word": "written",
+      "start": 2.88,
+      "end": 3.2
+    },
+    {
+      "word": "by",
+      "start": 3.2,
+      "end": 4.14
+    },
+    {
+      "word": "nigel",
+      "start": 4.14,
+      "end": 5.1
+    },
+    {
+      "word": "pepper",
+      "start": 5.1,
+      "end": 5.84
+    },
+    {
+      "word": "house",
+      "start": 5.84,
+      "end": 6.8
+    },
+    {
+      "word": "focus",
+      "start": 7.96,
+      "end": 8.16
+    },
+    {
+      "word": "question",
+      "start": 8.16,
+      "end": 8.98
+    },
+    {
+      "word": "what",
+      "start": 10.08,
+      "end": 10.24
+    },
+    {
+      "word": "snacks",
+      "start": 10.24,
+      "end": 11.32
+    },
+    {
+      "word": "can",
+      "start": 11.32,
+      "end": 12.18
+    },
+    {
+      "word": "be",
+      "start": 12.18,
+      "end": 12.5
+    },
+    {
+      "word": "healthy",
+      "start": 12.5,
+      "end": 12.94
+    },
+    {
+      "word": "apples",
+      "start": 12.94,
+      "end": 13.86
+    },
+    {
+      "word": "can",
+      "start": 13.86,
+      "end": 14.84
+    },
+    {
+      "word": "be",
+      "start": 14.84,
+      "end": 15.48
+    },
+    {
+      "word": "healthy",
+      "start": 15.48,
+      "end": 16.2
+    },
+    {
+      "word": "celery",
+      "start": 16.58,
+      "end": 17.0
+    },
+    {
+      "word": "can",
+      "start": 18.12,
+      "end": 18.34
+    },
+    {
+      "word": "be",
+      "start": 18.34,
+      "end": 19.18
+    },
+    {
+      "word": "healthy",
+      "start": 19.18,
+      "end": 19.9
+    },
+    {
+      "word": "nuts",
+      "start": 19.9,
+      "end": 20.74
+    },
+    {
+      "word": "can",
+      "start": 21.98,
+      "end": 22.04
+    },
+    {
+      "word": "be",
+      "start": 22.04,
+      "end": 22.88
+    },
+    {
+      "word": "healthy",
+      "start": 22.88,
+      "end": 23.62
+    },
+    {
+      "word": "seeds",
+      "start": 23.62,
+      "end": 24.76
+    },
+    {
+      "word": "can",
+      "start": 25.76,
+      "end": 26.14
+    },
+    {
+      "word": "be",
+      "start": 26.14,
+      "end": 26.82
+    },
+    {
+      "word": "healthy",
+      "start": 26.82,
+      "end": 27.5
+    },
+    {
+      "word": "cheese",
+      "start": 27.5,
+      "end": 28.58
+    },
+    {
+      "word": "can",
+      "start": 29.56,
+      "end": 29.86
+    },
+    {
+      "word": "be",
+      "start": 29.86,
+      "end": 43.44
+    },
+    {
+      "word": "healthy",
+      "start": 43.44,
+      "end": 43.66
+    },
+    {
+      "word": "writing",
+      "start": 43.66,
+      "end": 45.14
+    },
+    {
+      "word": "and",
+      "start": 45.14,
+      "end": 46.26
+    },
+    {
+      "word": "art",
+      "start": 46.26,
+      "end": 47.24
+    },
+    {
+      "word": "what",
+      "start": 48.42,
+      "end": 48.44
+    },
+    {
+      "word": "is",
+      "start": 48.44,
+      "end": 49.2
+    },
+    {
+      "word": "your",
+      "start": 49.2,
+      "end": 49.68
+    },
+    {
+      "word": "favorite",
+      "start": 49.68,
+      "end": 50.4
+    },
+    {
+      "word": "healthy",
+      "start": 50.4,
+      "end": 51.18
+    },
+    {
+      "word": "snack",
+      "start": 51.18,
+      "end": 52.0
+    },
+    {
+      "word": "draw",
+      "start": 52.98,
+      "end": 53.26
+    },
+    {
+      "word": "a",
+      "start": 53.26,
+      "end": 53.9
+    },
+    {
+      "word": "picture",
+      "start": 53.9,
+      "end": 54.4
+    },
+    {
+      "word": "and",
+      "start": 54.4,
+      "end": 55.72
+    },
+    {
+      "word": "write",
+      "start": 55.72,
+      "end": 56.08
+    },
+    {
+      "word": "about",
+      "start": 56.08,
+      "end": 56.44
+    },
+    {
+      "word": "it",
+      "start": 56.44,
+      "end": 57.13
+    },
+    {
+      "word": "math",
+      "start": 58.26,
+      "end": 58.8
+    },
+    {
+      "word": "sort",
+      "start": 59.96,
+      "end": 60.14
+    },
+    {
+      "word": "the",
+      "start": 60.14,
+      "end": 60.58
+    },
+    {
+      "word": "foods",
+      "start": 60.58,
+      "end": 61.18
+    },
+    {
+      "word": "from",
+      "start": 61.18,
+      "end": 61.96
+    },
+    {
+      "word": "the",
+      "start": 61.96,
+      "end": 62.32
+    },
+    {
+      "word": "book",
+      "start": 62.32,
+      "end": 62.88
+    },
+    {
+      "word": "into",
+      "start": 62.88,
+      "end": 63.8
+    },
+    {
+      "word": "different",
+      "start": 63.8,
+      "end": 64.54
+    },
+    {
+      "word": "groups",
+      "start": 64.54,
+      "end": 65.2
+    },
+    {
+      "word": "share",
+      "start": 66.4,
+      "end": 66.52
+    },
+    {
+      "word": "your",
+      "start": 66.52,
+      "end": 67.3
+    },
+    {
+      "word": "ideas",
+      "start": 67.3,
+      "end": 68.14
+    },
+    {
+      "word": "with",
+      "start": 68.14,
+      "end": 69.0
+    },
+    {
+      "word": "a",
+      "start": 69.0,
+      "end": 69.28
+    },
+    {
+      "word": "partner",
+      "start": 69.28,
+      "end": 69.62
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "version": "1.0",
+  "total_words": 51,
+  "timings": [
+    {
+      "word": "this",
+      "start": 0.0,
+      "end": 0.6
+    },
+    {
+      "word": "kitchen",
+      "start": 0.6,
+      "end": 1.44
+    },
+    {
+      "word": "written",
+      "start": 2.26,
+      "end": 2.7
+    },
+    {
+      "word": "by",
+      "start": 2.7,
+      "end": 3.4
+    },
+    {
+      "word": "rachel",
+      "start": 3.4,
+      "end": 4.0
+    },
+    {
+      "word": "rice",
+      "start": 4.0,
+      "end": 5.08
+    },
+    {
+      "word": "focus",
+      "start": 5.68,
+      "end": 6.04
+    },
+    {
+      "word": "question",
+      "start": 6.04,
+      "end": 7.02
+    },
+    {
+      "word": "what",
+      "start": 8.1,
+      "end": 8.28
+    },
+    {
+      "word": "can",
+      "start": 8.28,
+      "end": 8.88
+    },
+    {
+      "word": "you",
+      "start": 8.88,
+      "end": 9.26
+    },
+    {
+      "word": "find",
+      "start": 9.26,
+      "end": 9.74
+    },
+    {
+      "word": "in",
+      "start": 9.74,
+      "end": 10.32
+    },
+    {
+      "word": "a",
+      "start": 10.32,
+      "end": 10.56
+    },
+    {
+      "word": "kitchen",
+      "start": 10.56,
+      "end": 11.1
+    },
+    {
+      "word": "this",
+      "start": 11.86,
+      "end": 11.86
+    },
+    {
+      "word": "stove",
+      "start": 11.86,
+      "end": 12.82
+    },
+    {
+      "word": "this",
+      "start": 13.58,
+      "end": 13.72
+    },
+    {
+      "word": "sink",
+      "start": 13.72,
+      "end": 14.32
+    },
+    {
+      "word": "this",
+      "start": 15.06,
+      "end": 15.44
+    },
+    {
+      "word": "fridge",
+      "start": 15.44,
+      "end": 16.44
+    },
+    {
+      "word": "this",
+      "start": 17.0,
+      "end": 17.24
+    },
+    {
+      "word": "cupboard",
+      "start": 17.24,
+      "end": 18.02
+    },
+    {
+      "word": "this",
+      "start": 18.64,
+      "end": 19.04
+    },
+    {
+      "word": "counter",
+      "start": 19.04,
+      "end": 19.72
+    },
+    {
+      "word": "this",
+      "start": 20.44,
+      "end": 20.68
+    },
+    {
+      "word": "toaster",
+      "start": 20.68,
+      "end": 21.28
+    },
+    {
+      "word": "this",
+      "start": 22.04,
+      "end": 22.52
+    },
+    {
+      "word": "cookie",
+      "start": 22.52,
+      "end": 23.18
+    },
+    {
+      "word": "jar",
+      "start": 23.18,
+      "end": 23.82
+    },
+    {
+      "word": "this",
+      "start": 24.36,
+      "end": 24.64
+    },
+    {
+      "word": "trash",
+      "start": 24.64,
+      "end": 25.4
+    },
+    {
+      "word": "can",
+      "start": 25.4,
+      "end": 25.96
+    },
+    {
+      "word": "connections",
+      "start": 26.8,
+      "end": 27.58
+    },
+    {
+      "word": "writing",
+      "start": 27.58,
+      "end": 28.68
+    },
+    {
+      "word": "write",
+      "start": 29.7,
+      "end": 30.0
+    },
+    {
+      "word": "the",
+      "start": 30.0,
+      "end": 30.5
+    },
+    {
+      "word": "names",
+      "start": 30.5,
+      "end": 30.94
+    },
+    {
+      "word": "of",
+      "start": 30.94,
+      "end": 31.38
+    },
+    {
+      "word": "the",
+      "start": 31.38,
+      "end": 31.62
+    },
+    {
+      "word": "things",
+      "start": 31.62,
+      "end": 32.0
+    },
+    {
+      "word": "in",
+      "start": 32.0,
+      "end": 32.54
+    },
+    {
+      "word": "your",
+      "start": 32.54,
+      "end": 32.88
+    },
+    {
+      "word": "kitchen",
+      "start": 32.88,
+      "end": 33.54
+    },
+    {
+      "word": "art",
+      "start": 34.6,
+      "end": 34.9
+    },
+    {
+      "word": "make",
+      "start": 35.82,
+      "end": 36.1
+    },
+    {
+      "word": "a",
+      "start": 36.1,
+      "end": 36.42
+    },
+    {
+      "word": "map",
+      "start": 36.42,
+      "end": 36.84
+    },
+    {
+      "word": "of",
+      "start": 36.84,
+      "end": 37.36
+    },
+    {
+      "word": "your",
+      "start": 37.36,
+      "end": 37.74
+    },
+    {
+      "word": "kitchen",
+      "start": 37.74,
+      "end": 38.28
+    }
+  ]
+}

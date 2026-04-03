@@ -1,0 +1,54 @@
+{
+  "id": "level-a/this-is-my-bear",
+  "title": "This Is My Bear",
+  "level": "level-a",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , A This Is Bear Written by Gladys Osborn wwwreadinga-z.com My"
+    },
+    {
+      "page": 2,
+      "text": "This Is Bear Written by Gladys Osborn wwwreadinga-z.com My"
+    },
+    {
+      "page": 3,
+      "text": "This is my bear; This Is My Bear Level A 3"
+    },
+    {
+      "page": 4,
+      "text": "bear is soft. My"
+    },
+    {
+      "page": 5,
+      "text": "bear has fur; This Is My Bear Level A 5 My"
+    },
+    {
+      "page": 6,
+      "text": "bear is fat. My"
+    },
+    {
+      "page": 7,
+      "text": "bear is brown: This Is My Bear Level A My"
+    },
+    {
+      "page": 8,
+      "text": "bear has ears. 8 My"
+    },
+    {
+      "page": 9,
+      "text": "bear has feet: This Is My Bear Level A My"
+    },
+    {
+      "page": 10,
+      "text": "52 B I love my bear: 10 8"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover: @ Eduard Titov/Dreamstime.com; back cover; @ Science Photo Library/Alamy; title page; @ Ling Tie/Dreamstimecom; page 3: @ Alexey Petrunin/Dreamstime.com; page 4: @ Denkou Images/Alamy: page 5: @ Purestock/ page 6: @ FancylAlamy; page 7: @ Blend Images/Alamy: page 8: @ Heidi Powers-Armstrong; page 9: @ MIXAAlamy: page IO: @ David Young-Wolffl PhotoEdit This is My Bear Level A Leveled Book Correlation Learning A-Z LEVEL A Written by Gladys Osborn Fountas & Pinnell A All rights reserved: Reading Recovery 1 DRA A-1 wwwreadinga-zcom Hieng Alamy;"
+    }
+  ]
+}

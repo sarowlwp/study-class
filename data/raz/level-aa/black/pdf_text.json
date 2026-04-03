@@ -1,0 +1,58 @@
+{
+  "id": "level-aa/black",
+  "title": "Black",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , aa Black series Colors Written by Nigel Pepperhouse wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Black Written by Nigel Pepperhouse wwwreadinga-z.com Focus Question Where can you find the color black in a magic show?"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know cape suit sheet tie stage wand Photo Credits: Front Cover: @ Mark Taylor/NPL/Minden Pictures; back cover: @ Aleksander Kaczmarek/iStock/Thinkstock; title page: @ Aliaksei Lasevich/Dreamstime.com; page 3: @ Evgeny Sergeev/iStock/Thinkstock; page 4: @ Hipl/Alamy; page 5: 0 Sergey Sukhorukov/123RF; page 6: @ Glow Asia RFIAlamy: page 7: 0 Image Source/Alamy: page 8: @ Denkou Images/Alamy: page 9: Glenda Powers] iStock/Thinkstock; page 10: @ NHPA/NHPA/Superstock Black Level aa Leveled Book Correlation Learning A-Z LEVEL aa Written by Nigel Pepperhouse Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 www.readinga-z.com Hip"
+    },
+    {
+      "page": 4,
+      "text": "One black stage. Black Level aa 3"
+    },
+    {
+      "page": 5,
+      "text": "One black sheet:"
+    },
+    {
+      "page": 6,
+      "text": "One black suit. Black Level aa 5"
+    },
+    {
+      "page": 7,
+      "text": "One black tie. 6"
+    },
+    {
+      "page": 8,
+      "text": "One black cape: Black Level aa"
+    },
+    {
+      "page": 9,
+      "text": "One black hat. 8"
+    },
+    {
+      "page": 10,
+      "text": "One black wand: Black Level aa"
+    },
+    {
+      "page": 11,
+      "text": "One black rabbit: 10"
+    },
+    {
+      "page": 12,
+      "text": "Black A Reading A-Z Level aa Leveled Book Word Count: 24 Connections Writing and Art Choose something else that is the color black Draw a picture and finish the sentence: One black Math Count the number of black items in the book: Count the number of black items in your classroom As a class, talk about which number is more: Reading A-z Visit www.readinga-z.com for thousands of books and materials."
+    }
+  ]
+}

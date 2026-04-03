@@ -1,0 +1,281 @@
+{
+  "version": "1.0",
+  "total_words": 55,
+  "timings": [
+    {
+      "word": "maria",
+      "start": 0.0,
+      "end": 0.58
+    },
+    {
+      "word": "goes",
+      "start": 0.58,
+      "end": 1.08
+    },
+    {
+      "word": "to",
+      "start": 1.08,
+      "end": 1.36
+    },
+    {
+      "word": "school",
+      "start": 1.36,
+      "end": 2.14
+    },
+    {
+      "word": "written",
+      "start": 2.76,
+      "end": 2.92
+    },
+    {
+      "word": "by",
+      "start": 2.92,
+      "end": 3.42
+    },
+    {
+      "word": "susan",
+      "start": 3.42,
+      "end": 3.96
+    },
+    {
+      "word": "hartley",
+      "start": 3.96,
+      "end": 4.98
+    },
+    {
+      "word": "illustrated",
+      "start": 5.4,
+      "end": 5.76
+    },
+    {
+      "word": "by",
+      "start": 5.76,
+      "end": 6.68
+    },
+    {
+      "word": "angela",
+      "start": 6.68,
+      "end": 7.22
+    },
+    {
+      "word": "camstra",
+      "start": 7.22,
+      "end": 8.06
+    },
+    {
+      "word": "i",
+      "start": 8.84,
+      "end": 8.94
+    },
+    {
+      "word": "get",
+      "start": 8.94,
+      "end": 9.14
+    },
+    {
+      "word": "my",
+      "start": 9.14,
+      "end": 9.42
+    },
+    {
+      "word": "backpack",
+      "start": 9.42,
+      "end": 9.94
+    },
+    {
+      "word": "i",
+      "start": 10.7,
+      "end": 10.84
+    },
+    {
+      "word": "get",
+      "start": 10.84,
+      "end": 11.1
+    },
+    {
+      "word": "my",
+      "start": 11.1,
+      "end": 11.38
+    },
+    {
+      "word": "pencils",
+      "start": 11.38,
+      "end": 11.9
+    },
+    {
+      "word": "i",
+      "start": 13.02,
+      "end": 13.18
+    },
+    {
+      "word": "get",
+      "start": 13.18,
+      "end": 13.44
+    },
+    {
+      "word": "my",
+      "start": 13.44,
+      "end": 13.78
+    },
+    {
+      "word": "ruler",
+      "start": 13.78,
+      "end": 14.3
+    },
+    {
+      "word": "i",
+      "start": 15.32,
+      "end": 15.46
+    },
+    {
+      "word": "get",
+      "start": 15.46,
+      "end": 15.82
+    },
+    {
+      "word": "my",
+      "start": 15.82,
+      "end": 16.1
+    },
+    {
+      "word": "eraser",
+      "start": 16.1,
+      "end": 16.84
+    },
+    {
+      "word": "i",
+      "start": 17.9,
+      "end": 18.06
+    },
+    {
+      "word": "get",
+      "start": 18.06,
+      "end": 18.3
+    },
+    {
+      "word": "my",
+      "start": 18.3,
+      "end": 18.68
+    },
+    {
+      "word": "crayons",
+      "start": 18.68,
+      "end": 19.48
+    },
+    {
+      "word": "i",
+      "start": 20.42,
+      "end": 20.56
+    },
+    {
+      "word": "get",
+      "start": 20.56,
+      "end": 20.88
+    },
+    {
+      "word": "my",
+      "start": 20.88,
+      "end": 21.2
+    },
+    {
+      "word": "sweater",
+      "start": 21.2,
+      "end": 21.74
+    },
+    {
+      "word": "i",
+      "start": 22.94,
+      "end": 23.02
+    },
+    {
+      "word": "get",
+      "start": 23.02,
+      "end": 23.26
+    },
+    {
+      "word": "my",
+      "start": 23.26,
+      "end": 23.48
+    },
+    {
+      "word": "brother",
+      "start": 23.48,
+      "end": 23.98
+    },
+    {
+      "word": "i",
+      "start": 25.16,
+      "end": 25.32
+    },
+    {
+      "word": "get",
+      "start": 25.32,
+      "end": 25.6
+    },
+    {
+      "word": "my",
+      "start": 25.6,
+      "end": 25.94
+    },
+    {
+      "word": "lunch",
+      "start": 25.94,
+      "end": 26.46
+    },
+    {
+      "word": "i",
+      "start": 27.68,
+      "end": 27.84
+    },
+    {
+      "word": "get",
+      "start": 27.84,
+      "end": 28.2
+    },
+    {
+      "word": "my",
+      "start": 28.2,
+      "end": 28.66
+    },
+    {
+      "word": "hug",
+      "start": 28.66,
+      "end": 29.22
+    },
+    {
+      "word": "i",
+      "start": 29.88,
+      "end": 29.98
+    },
+    {
+      "word": "get",
+      "start": 29.98,
+      "end": 29.98
+    },
+    {
+      "word": "my",
+      "start": 29.98,
+      "end": 29.98
+    },
+    {
+      "word": "i",
+      "start": 29.98,
+      "end": 30.32
+    },
+    {
+      "word": "get",
+      "start": 30.32,
+      "end": 30.58
+    },
+    {
+      "word": "my",
+      "start": 30.58,
+      "end": 30.88
+    },
+    {
+      "word": "ride",
+      "start": 30.88,
+      "end": 31.38
+    }
+  ]
+}

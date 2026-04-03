@@ -1,0 +1,141 @@
+{
+  "version": "1.0",
+  "total_words": 27,
+  "timings": [
+    {
+      "word": "it",
+      "start": 0.0,
+      "end": 0.28
+    },
+    {
+      "word": "is",
+      "start": 0.28,
+      "end": 0.8
+    },
+    {
+      "word": "fall",
+      "start": 0.8,
+      "end": 1.56
+    },
+    {
+      "word": "written",
+      "start": 2.0,
+      "end": 2.22
+    },
+    {
+      "word": "by",
+      "start": 2.22,
+      "end": 2.78
+    },
+    {
+      "word": "ty",
+      "start": 2.78,
+      "end": 3.6
+    },
+    {
+      "word": "allison",
+      "start": 3.6,
+      "end": 4.32
+    },
+    {
+      "word": "illustrated",
+      "start": 5.06,
+      "end": 5.5
+    },
+    {
+      "word": "by",
+      "start": 5.5,
+      "end": 6.46
+    },
+    {
+      "word": "sydney",
+      "start": 6.46,
+      "end": 6.92
+    },
+    {
+      "word": "norton",
+      "start": 6.92,
+      "end": 8.0
+    },
+    {
+      "word": "the",
+      "start": 8.0,
+      "end": 10.62
+    },
+    {
+      "word": "leaf",
+      "start": 10.62,
+      "end": 11.4
+    },
+    {
+      "word": "the",
+      "start": 13.76,
+      "end": 13.9
+    },
+    {
+      "word": "apple",
+      "start": 13.9,
+      "end": 14.7
+    },
+    {
+      "word": "the",
+      "start": 14.7,
+      "end": 17.16
+    },
+    {
+      "word": "acorn",
+      "start": 17.16,
+      "end": 18.34
+    },
+    {
+      "word": "the",
+      "start": 19.7,
+      "end": 20.54
+    },
+    {
+      "word": "corn",
+      "start": 20.54,
+      "end": 21.62
+    },
+    {
+      "word": "the",
+      "start": 22.7,
+      "end": 23.9
+    },
+    {
+      "word": "pumpkin",
+      "start": 23.9,
+      "end": 24.64
+    },
+    {
+      "word": "the",
+      "start": 26.5,
+      "end": 27.2
+    },
+    {
+      "word": "rake",
+      "start": 27.2,
+      "end": 28.16
+    },
+    {
+      "word": "the",
+      "start": 29.7,
+      "end": 30.48
+    },
+    {
+      "word": "moon",
+      "start": 30.48,
+      "end": 31.14
+    },
+    {
+      "word": "the",
+      "start": 32.7,
+      "end": 33.76
+    },
+    {
+      "word": "jacket",
+      "start": 33.76,
+      "end": 34.04
+    }
+  ]
+}

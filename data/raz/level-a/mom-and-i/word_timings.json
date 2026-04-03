@@ -1,0 +1,256 @@
+{
+  "version": "1.0",
+  "total_words": 50,
+  "timings": [
+    {
+      "word": "mom",
+      "start": 0.0,
+      "end": 0.58
+    },
+    {
+      "word": "and",
+      "start": 0.58,
+      "end": 1.08
+    },
+    {
+      "word": "i",
+      "start": 1.08,
+      "end": 2.08
+    },
+    {
+      "word": "written",
+      "start": 2.76,
+      "end": 3.16
+    },
+    {
+      "word": "by",
+      "start": 3.16,
+      "end": 3.96
+    },
+    {
+      "word": "ava",
+      "start": 3.96,
+      "end": 4.56
+    },
+    {
+      "word": "g",
+      "start": 4.56,
+      "end": 5.3
+    },
+    {
+      "word": "k",
+      "start": 5.8,
+      "end": 6.08
+    },
+    {
+      "word": "lish",
+      "start": 6.08,
+      "end": 6.5
+    },
+    {
+      "word": "mom",
+      "start": 7.1,
+      "end": 7.42
+    },
+    {
+      "word": "and",
+      "start": 7.42,
+      "end": 8.22
+    },
+    {
+      "word": "i",
+      "start": 8.22,
+      "end": 8.88
+    },
+    {
+      "word": "are",
+      "start": 8.88,
+      "end": 10.4
+    },
+    {
+      "word": "lions",
+      "start": 10.4,
+      "end": 11.12
+    },
+    {
+      "word": "mom",
+      "start": 12.08,
+      "end": 12.5
+    },
+    {
+      "word": "and",
+      "start": 12.5,
+      "end": 13.62
+    },
+    {
+      "word": "i",
+      "start": 13.62,
+      "end": 14.2
+    },
+    {
+      "word": "are",
+      "start": 14.2,
+      "end": 15.24
+    },
+    {
+      "word": "elephants",
+      "start": 15.24,
+      "end": 16.2
+    },
+    {
+      "word": "mom",
+      "start": 16.84,
+      "end": 17.24
+    },
+    {
+      "word": "and",
+      "start": 17.24,
+      "end": 18.2
+    },
+    {
+      "word": "i",
+      "start": 18.2,
+      "end": 18.9
+    },
+    {
+      "word": "are",
+      "start": 18.9,
+      "end": 19.6
+    },
+    {
+      "word": "are",
+      "start": 19.6,
+      "end": 19.66
+    },
+    {
+      "word": "giraffes",
+      "start": 19.66,
+      "end": 21.52
+    },
+    {
+      "word": "mom",
+      "start": 21.86,
+      "end": 22.14
+    },
+    {
+      "word": "and",
+      "start": 22.14,
+      "end": 23.06
+    },
+    {
+      "word": "i",
+      "start": 23.06,
+      "end": 23.8
+    },
+    {
+      "word": "are",
+      "start": 23.8,
+      "end": 24.68
+    },
+    {
+      "word": "zebras",
+      "start": 24.68,
+      "end": 25.32
+    },
+    {
+      "word": "mom",
+      "start": 26.04,
+      "end": 26.42
+    },
+    {
+      "word": "and",
+      "start": 26.42,
+      "end": 27.32
+    },
+    {
+      "word": "i",
+      "start": 27.32,
+      "end": 27.92
+    },
+    {
+      "word": "are",
+      "start": 27.92,
+      "end": 29.04
+    },
+    {
+      "word": "bears",
+      "start": 29.04,
+      "end": 29.6
+    },
+    {
+      "word": "mom",
+      "start": 30.58,
+      "end": 31.0
+    },
+    {
+      "word": "and",
+      "start": 31.0,
+      "end": 32.26
+    },
+    {
+      "word": "i",
+      "start": 32.26,
+      "end": 32.68
+    },
+    {
+      "word": "are",
+      "start": 32.68,
+      "end": 33.88
+    },
+    {
+      "word": "apes",
+      "start": 33.88,
+      "end": 35.14
+    },
+    {
+      "word": "mom",
+      "start": 35.7,
+      "end": 36.08
+    },
+    {
+      "word": "and",
+      "start": 36.08,
+      "end": 36.88
+    },
+    {
+      "word": "i",
+      "start": 36.88,
+      "end": 37.4
+    },
+    {
+      "word": "are",
+      "start": 37.4,
+      "end": 38.2
+    },
+    {
+      "word": "kangaroos",
+      "start": 38.2,
+      "end": 39.9
+    },
+    {
+      "word": "mom",
+      "start": 40.5,
+      "end": 40.9
+    },
+    {
+      "word": "and",
+      "start": 41.62,
+      "end": 42.0
+    },
+    {
+      "word": "i",
+      "start": 42.0,
+      "end": 42.56
+    },
+    {
+      "word": "are",
+      "start": 42.56,
+      "end": 43.5
+    },
+    {
+      "word": "dolphins",
+      "start": 43.5,
+      "end": 44.2
+    }
+  ]
+}

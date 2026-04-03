@@ -1,0 +1,54 @@
+{
+  "id": "level-c/i-can-be",
+  "title": "I Can Be",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C Can Be N (Vc )/a Xli, Written by Elizabeth Strauss Illustrated by Angela Kamstra-Jacobson wwwreadinga-z.com (Xlh"
+    },
+    {
+      "page": 2,
+      "text": "Can Be Written by Elizabeth Strauss Illustrated by Angela Kamstra-Jacobson wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "5 I can be like many Can Be * Level C 3 things:"
+    },
+    {
+      "page": 4,
+      "text": "I can be aS loud aS a lion: Roo) I Uxxeols Vaj"
+    },
+    {
+      "page": 5,
+      "text": "I can be aS silent aS a snake: Can Be * Level C 5"
+    },
+    {
+      "page": 6,
+      "text": "11 Idp I can be aS proud aS a peacock Excelkent -"
+    },
+    {
+      "page": 7,
+      "text": "3 I can be aS meek aS a mouse: Can Be * Level C ~at 8"
+    },
+    {
+      "page": 8,
+      "text": "N ( Vc , //a Xlu , #I can be aS fast as a cheetah: 8 D))"
+    },
+    {
+      "page": 9,
+      "text": "@ l' Vi_ ) ) I can be aS slow aS a Can Be * Level C c| U /, slug;"
+    },
+    {
+      "page": 10,
+      "text": "Me I can also be just mel 10 ~L"
+    },
+    {
+      "page": 11,
+      "text": "I Can Be Level C Leveled Book Learning A-Z Correlation Written by Elizabeth Strauss LEVEL C Illustrated by Angela Kamstra-Jacobson Fountas & Pinnell C All rights reserved: Reading Recovery_ 3-4 DRA 3-4 wwwreadinga-zcom"
+    }
+  ]
+}

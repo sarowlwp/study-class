@@ -1,0 +1,46 @@
+{
+  "id": "level-aa/the-fort",
+  "title": "The Fort",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 9,
+  "pages": [
+    {
+      "page": 1,
+      "text": "The Fort Written by Rus Buyok Illustrated Mary Uhles wwwreadinga-z.com by"
+    },
+    {
+      "page": 2,
+      "text": "The friends_ 0 The Fort - Level aa 3"
+    },
+    {
+      "page": 3,
+      "text": "The chairs_ 4"
+    },
+    {
+      "page": 4,
+      "text": "The  pillows. 4 The Fort - Level aa 5"
+    },
+    {
+      "page": 5,
+      "text": "The blankets_ 6"
+    },
+    {
+      "page": 6,
+      "text": "The food_ 7 The Fort - Level aa"
+    },
+    {
+      "page": 7,
+      "text": "The games: 8 6"
+    },
+    {
+      "page": 8,
+      "text": "The lights: 0 The Fort - Level aa"
+    },
+    {
+      "page": 9,
+      "text": "The fortl 10"
+    }
+  ]
+}

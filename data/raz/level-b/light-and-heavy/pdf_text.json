@@ -1,0 +1,54 @@
+{
+  "id": "level-b/light-and-heavy",
+  "title": "Light And Heavy",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Light and Heavy Written by Rus Buyok wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Light and Heavy Written by Rus Buyok wwwreadinga-z.com"
+    },
+    {
+      "page": 3,
+      "text": "This dog is I cannot lift it. Light and Level B 3 heavy: Heavy"
+    },
+    {
+      "page": 4,
+      "text": "This dog is light: I can lift it. 4"
+    },
+    {
+      "page": 5,
+      "text": "This rock is I cannot lift it. Light and Level B 5 heavy: Heavy"
+    },
+    {
+      "page": 6,
+      "text": "805 This rock is light: I can lift it."
+    },
+    {
+      "page": 7,
+      "text": "This is heavy: I cannot lift it. Light and Level B log Heavy"
+    },
+    {
+      "page": 8,
+      "text": "This stick is light. I can lift it. 8"
+    },
+    {
+      "page": 9,
+      "text": "Dad is heavy: I cannot lift him: Light and Level B Heavy"
+    },
+    {
+      "page": 10,
+      "text": "I am light: Dad can lift mel 10"
+    },
+    {
+      "page": 11,
+      "text": "Photo Credits: Front cover; back cover; pages 3, 4, 5, 6, 7, 8: Gawain Douglas/@ Learning A-Z; title page; pages 9_ 10: Tillie Douglas/@ Learning A-Z Light and Heavy Level B Leveled Book Correlation Learning A-Z LEVEL B Written by Rus Buyok Fountas & Pinnell B All rights reserved: Reading Recovery 2 DRA 2 wwwreadinga-zcom"
+    }
+  ]
+}

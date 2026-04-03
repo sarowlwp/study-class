@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/the-ocean",
+  "title": "The Ocean",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , aa The Ocean Wfitten by Katalina Page 9-Illustrated by Nora Voutas wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "The Ocean Written by Katalina Illustrated by Nora Voutas wwwreadinga-z.com Page"
+    },
+    {
+      "page": 3,
+      "text": ">3 The water _ Ud The Ocean Level aa 3 LS 22"
+    },
+    {
+      "page": 4,
+      "text": "3 The sand_"
+    },
+    {
+      "page": 5,
+      "text": "T2 )) The coral. The Ocean Level aa 5"
+    },
+    {
+      "page": 6,
+      "text": "The seaweed  6"
+    },
+    {
+      "page": 7,
+      "text": "The fish. The Ocean Level aa"
+    },
+    {
+      "page": 8,
+      "text": "The crab. 8"
+    },
+    {
+      "page": 9,
+      "text": "(( 395 0 9 The starfish: The Ocean Level aa 9 0 % 2 :"
+    },
+    {
+      "page": 10,
+      "text": "50e The ocean. 10 42"
+    },
+    {
+      "page": 11,
+      "text": "The Ocean Level aa Leveled Book Learning A-Z Correlation Wrilten by Katalina LEVEL aa Illustrated by Nora Voutas Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 WWW . readinga-z.C com Page"
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "version": "1.0",
+  "total_words": 61,
+  "timings": [
+    {
+      "word": "ali",
+      "start": 0.0,
+      "end": 0.44
+    },
+    {
+      "word": "and",
+      "start": 0.44,
+      "end": 0.86
+    },
+    {
+      "word": "ali",
+      "start": 0.86,
+      "end": 1.42
+    },
+    {
+      "word": "written",
+      "start": 1.98,
+      "end": 2.2
+    },
+    {
+      "word": "by",
+      "start": 2.2,
+      "end": 2.58
+    },
+    {
+      "word": "katharine",
+      "start": 2.58,
+      "end": 3.14
+    },
+    {
+      "word": "page",
+      "start": 3.14,
+      "end": 3.92
+    },
+    {
+      "word": "illustrated",
+      "start": 4.48,
+      "end": 4.88
+    },
+    {
+      "word": "by",
+      "start": 4.88,
+      "end": 5.58
+    },
+    {
+      "word": "kayori",
+      "start": 5.58,
+      "end": 6.12
+    },
+    {
+      "word": "tijima",
+      "start": 6.12,
+      "end": 6.88
+    },
+    {
+      "word": "ali",
+      "start": 9.44,
+      "end": 9.56
+    },
+    {
+      "word": "and",
+      "start": 9.56,
+      "end": 10.06
+    },
+    {
+      "word": "ali",
+      "start": 10.06,
+      "end": 10.5
+    },
+    {
+      "word": "are",
+      "start": 10.5,
+      "end": 10.92
+    },
+    {
+      "word": "dogs",
+      "start": 10.92,
+      "end": 11.76
+    },
+    {
+      "word": "ali",
+      "start": 13.98,
+      "end": 14.18
+    },
+    {
+      "word": "and",
+      "start": 14.18,
+      "end": 14.76
+    },
+    {
+      "word": "ali",
+      "start": 14.76,
+      "end": 15.18
+    },
+    {
+      "word": "are",
+      "start": 15.18,
+      "end": 15.62
+    },
+    {
+      "word": "sisters",
+      "start": 15.62,
+      "end": 16.3
+    },
+    {
+      "word": "ali",
+      "start": 18.74,
+      "end": 19.0
+    },
+    {
+      "word": "and",
+      "start": 19.0,
+      "end": 19.64
+    },
+    {
+      "word": "ali",
+      "start": 19.64,
+      "end": 20.0
+    },
+    {
+      "word": "think",
+      "start": 20.0,
+      "end": 20.58
+    },
+    {
+      "word": "they",
+      "start": 20.58,
+      "end": 21.04
+    },
+    {
+      "word": "are",
+      "start": 21.04,
+      "end": 21.24
+    },
+    {
+      "word": "people",
+      "start": 21.24,
+      "end": 22.0
+    },
+    {
+      "word": "ali",
+      "start": 24.24,
+      "end": 24.44
+    },
+    {
+      "word": "and",
+      "start": 24.44,
+      "end": 24.9
+    },
+    {
+      "word": "ali",
+      "start": 24.9,
+      "end": 25.64
+    },
+    {
+      "word": "sit",
+      "start": 25.64,
+      "end": 25.88
+    },
+    {
+      "word": "like",
+      "start": 25.88,
+      "end": 26.32
+    },
+    {
+      "word": "people",
+      "start": 26.32,
+      "end": 26.9
+    },
+    {
+      "word": "ellie",
+      "start": 28.58,
+      "end": 29.5
+    },
+    {
+      "word": "and",
+      "start": 29.5,
+      "end": 29.84
+    },
+    {
+      "word": "ollie",
+      "start": 29.84,
+      "end": 30.36
+    },
+    {
+      "word": "eat",
+      "start": 30.36,
+      "end": 31.0
+    },
+    {
+      "word": "like",
+      "start": 31.0,
+      "end": 31.32
+    },
+    {
+      "word": "people",
+      "start": 31.32,
+      "end": 32.84
+    },
+    {
+      "word": "ellie",
+      "start": 33.84,
+      "end": 34.58
+    },
+    {
+      "word": "and",
+      "start": 34.58,
+      "end": 34.98
+    },
+    {
+      "word": "ollie",
+      "start": 34.98,
+      "end": 35.48
+    },
+    {
+      "word": "run",
+      "start": 35.48,
+      "end": 36.08
+    },
+    {
+      "word": "like",
+      "start": 36.08,
+      "end": 36.44
+    },
+    {
+      "word": "people",
+      "start": 36.44,
+      "end": 37.88
+    },
+    {
+      "word": "ellie",
+      "start": 39.4,
+      "end": 39.6
+    },
+    {
+      "word": "and",
+      "start": 39.6,
+      "end": 39.96
+    },
+    {
+      "word": "ollie",
+      "start": 39.96,
+      "end": 40.58
+    },
+    {
+      "word": "sleep",
+      "start": 40.58,
+      "end": 40.92
+    },
+    {
+      "word": "like",
+      "start": 40.92,
+      "end": 41.24
+    },
+    {
+      "word": "people",
+      "start": 41.24,
+      "end": 41.98
+    },
+    {
+      "word": "but",
+      "start": 44.14,
+      "end": 44.5
+    },
+    {
+      "word": "ellie",
+      "start": 44.5,
+      "end": 44.86
+    },
+    {
+      "word": "and",
+      "start": 44.86,
+      "end": 45.14
+    },
+    {
+      "word": "ollie",
+      "start": 45.14,
+      "end": 45.6
+    },
+    {
+      "word": "chase",
+      "start": 45.6,
+      "end": 45.98
+    },
+    {
+      "word": "cats",
+      "start": 45.98,
+      "end": 46.52
+    },
+    {
+      "word": "just",
+      "start": 46.52,
+      "end": 47.2
+    },
+    {
+      "word": "like",
+      "start": 47.2,
+      "end": 47.52
+    },
+    {
+      "word": "dogs",
+      "start": 47.52,
+      "end": 47.92
+    }
+  ]
+}

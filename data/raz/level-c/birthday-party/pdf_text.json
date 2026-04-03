@@ -1,0 +1,54 @@
+{
+  "id": "level-c/birthday-party",
+  "title": "Birthday Party",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C Birthday Written by Cheryl Ryan Illustrated by John Kastner wwwreadinga-z.com Party"
+    },
+    {
+      "page": 2,
+      "text": "Birthday Written by Cheryl Ryan Illustrated by John Kastner wwwreadinga-z.com Party"
+    },
+    {
+      "page": 3,
+      "text": "/L We go shopping: It is birthday party time: Birthday Party Level C 3"
+    },
+    {
+      "page": 4,
+      "text": "7 15877 9345 G8R}S CARDS K3 We go to the card We a card: shop get"
+    },
+    {
+      "page": 5,
+      "text": "We go to the balloon shop. We balloons: Birthday Party Level C 5 get"
+    },
+    {
+      "page": 6,
+      "text": "BAKEE 0 GA 3) 2 We go to the bakery: We a cake: JA KBS KeS get"
+    },
+    {
+      "page": 7,
+      "text": "We go to the ice cream We ice cream. Birthday Party Level C shop get"
+    },
+    {
+      "page": 8,
+      "text": "TT@ VS { f We go to the store. We a 8 toy get toy:"
+    },
+    {
+      "page": 9,
+      "text": "D4 8 2 1 We go to the birthday party: We play games: Birthday Party Level C"
+    },
+    {
+      "page": 10,
+      "text": "9 S We sing happy birthday: We have fun: 10 3"
+    },
+    {
+      "page": 11,
+      "text": "LOADING Birthday Party Level C Leveled Book Learning A-Z Correlation Written by Cheryl Ryan LEVEL C Illustrated by John Kastner Fountas & Pinnell C All rights reserved: Reading Recovery 3-4 DRA 3-4 wwwreadinga-zcom"
+    }
+  ]
+}

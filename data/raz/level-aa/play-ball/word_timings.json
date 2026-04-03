@@ -1,0 +1,141 @@
+{
+  "version": "1.0",
+  "total_words": 27,
+  "timings": [
+    {
+      "word": "play",
+      "start": 0.0,
+      "end": 0.5
+    },
+    {
+      "word": "ball",
+      "start": 0.5,
+      "end": 1.1
+    },
+    {
+      "word": "written",
+      "start": 1.58,
+      "end": 1.82
+    },
+    {
+      "word": "by",
+      "start": 1.82,
+      "end": 2.34
+    },
+    {
+      "word": "ty",
+      "start": 2.34,
+      "end": 2.82
+    },
+    {
+      "word": "ellison",
+      "start": 2.82,
+      "end": 3.54
+    },
+    {
+      "word": "a",
+      "start": 4.02,
+      "end": 4.18
+    },
+    {
+      "word": "beach",
+      "start": 4.18,
+      "end": 4.5
+    },
+    {
+      "word": "ball",
+      "start": 4.5,
+      "end": 5.26
+    },
+    {
+      "word": "a",
+      "start": 5.5,
+      "end": 5.94
+    },
+    {
+      "word": "baseball",
+      "start": 5.94,
+      "end": 6.58
+    },
+    {
+      "word": "a",
+      "start": 7.52,
+      "end": 7.72
+    },
+    {
+      "word": "basket",
+      "start": 7.72,
+      "end": 7.98
+    },
+    {
+      "word": "ball",
+      "start": 7.98,
+      "end": 8.76
+    },
+    {
+      "word": "a",
+      "start": 9.0,
+      "end": 9.36
+    },
+    {
+      "word": "football",
+      "start": 9.36,
+      "end": 9.86
+    },
+    {
+      "word": "a",
+      "start": 10.7,
+      "end": 10.84
+    },
+    {
+      "word": "tennis",
+      "start": 10.84,
+      "end": 11.22
+    },
+    {
+      "word": "ball",
+      "start": 11.22,
+      "end": 12.04
+    },
+    {
+      "word": "a",
+      "start": 12.34,
+      "end": 12.38
+    },
+    {
+      "word": "golf",
+      "start": 12.38,
+      "end": 13.0
+    },
+    {
+      "word": "ball",
+      "start": 13.0,
+      "end": 13.82
+    },
+    {
+      "word": "a",
+      "start": 14.12,
+      "end": 14.42
+    },
+    {
+      "word": "soccer",
+      "start": 14.42,
+      "end": 14.76
+    },
+    {
+      "word": "ball",
+      "start": 14.76,
+      "end": 15.58
+    },
+    {
+      "word": "a",
+      "start": 15.86,
+      "end": 15.92
+    },
+    {
+      "word": "volleyball",
+      "start": 15.92,
+      "end": 16.68
+    }
+  ]
+}

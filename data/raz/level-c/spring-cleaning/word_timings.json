@@ -1,0 +1,516 @@
+{
+  "version": "1.0",
+  "total_words": 102,
+  "timings": [
+    {
+      "word": "spring",
+      "start": 0.0,
+      "end": 0.82
+    },
+    {
+      "word": "cleaning",
+      "start": 0.82,
+      "end": 2.14
+    },
+    {
+      "word": "written",
+      "start": 2.18,
+      "end": 2.94
+    },
+    {
+      "word": "by",
+      "start": 2.94,
+      "end": 3.52
+    },
+    {
+      "word": "russ",
+      "start": 3.52,
+      "end": 4.22
+    },
+    {
+      "word": "booyock",
+      "start": 4.22,
+      "end": 5.28
+    },
+    {
+      "word": "illustrated",
+      "start": 5.96,
+      "end": 6.48
+    },
+    {
+      "word": "by",
+      "start": 6.48,
+      "end": 7.26
+    },
+    {
+      "word": "andy",
+      "start": 7.26,
+      "end": 7.94
+    },
+    {
+      "word": "elkerton",
+      "start": 7.94,
+      "end": 8.92
+    },
+    {
+      "word": "focus",
+      "start": 10.0,
+      "end": 10.22
+    },
+    {
+      "word": "question",
+      "start": 10.22,
+      "end": 11.34
+    },
+    {
+      "word": "what",
+      "start": 12.42,
+      "end": 12.6
+    },
+    {
+      "word": "does",
+      "start": 12.6,
+      "end": 13.32
+    },
+    {
+      "word": "the",
+      "start": 13.32,
+      "end": 13.94
+    },
+    {
+      "word": "family",
+      "start": 13.94,
+      "end": 14.42
+    },
+    {
+      "word": "clean",
+      "start": 14.42,
+      "end": 15.26
+    },
+    {
+      "word": "in",
+      "start": 15.26,
+      "end": 16.06
+    },
+    {
+      "word": "the",
+      "start": 16.06,
+      "end": 16.32
+    },
+    {
+      "word": "spring",
+      "start": 16.32,
+      "end": 16.86
+    },
+    {
+      "word": "it",
+      "start": 17.34,
+      "end": 17.56
+    },
+    {
+      "word": "was",
+      "start": 17.56,
+      "end": 18.12
+    },
+    {
+      "word": "spring",
+      "start": 18.12,
+      "end": 18.74
+    },
+    {
+      "word": "it",
+      "start": 19.54,
+      "end": 19.82
+    },
+    {
+      "word": "was",
+      "start": 19.82,
+      "end": 20.36
+    },
+    {
+      "word": "time",
+      "start": 20.36,
+      "end": 20.98
+    },
+    {
+      "word": "to",
+      "start": 20.98,
+      "end": 21.52
+    },
+    {
+      "word": "clean",
+      "start": 21.52,
+      "end": 22.04
+    },
+    {
+      "word": "the",
+      "start": 22.04,
+      "end": 22.44
+    },
+    {
+      "word": "house",
+      "start": 22.44,
+      "end": 23.16
+    },
+    {
+      "word": "mom",
+      "start": 23.16,
+      "end": 23.94
+    },
+    {
+      "word": "cleaned",
+      "start": 23.94,
+      "end": 24.84
+    },
+    {
+      "word": "the",
+      "start": 24.84,
+      "end": 25.36
+    },
+    {
+      "word": "kitchen",
+      "start": 25.36,
+      "end": 25.82
+    },
+    {
+      "word": "dad",
+      "start": 26.54,
+      "end": 26.84
+    },
+    {
+      "word": "cleaned",
+      "start": 26.84,
+      "end": 27.68
+    },
+    {
+      "word": "the",
+      "start": 27.68,
+      "end": 28.36
+    },
+    {
+      "word": "living",
+      "start": 28.36,
+      "end": 28.78
+    },
+    {
+      "word": "room",
+      "start": 28.78,
+      "end": 29.52
+    },
+    {
+      "word": "sasha",
+      "start": 30.1,
+      "end": 30.28
+    },
+    {
+      "word": "cleaned",
+      "start": 30.28,
+      "end": 31.28
+    },
+    {
+      "word": "the",
+      "start": 31.28,
+      "end": 31.88
+    },
+    {
+      "word": "bedrooms",
+      "start": 31.88,
+      "end": 32.44
+    },
+    {
+      "word": "mom",
+      "start": 33.62,
+      "end": 33.62
+    },
+    {
+      "word": "cleaned",
+      "start": 33.62,
+      "end": 34.46
+    },
+    {
+      "word": "the",
+      "start": 34.46,
+      "end": 34.96
+    },
+    {
+      "word": "bathroom",
+      "start": 34.96,
+      "end": 35.52
+    },
+    {
+      "word": "dad",
+      "start": 36.28,
+      "end": 36.44
+    },
+    {
+      "word": "cleaned",
+      "start": 36.44,
+      "end": 37.28
+    },
+    {
+      "word": "the",
+      "start": 37.28,
+      "end": 37.78
+    },
+    {
+      "word": "basement",
+      "start": 37.78,
+      "end": 38.4
+    },
+    {
+      "word": "sasha",
+      "start": 39.42,
+      "end": 39.42
+    },
+    {
+      "word": "cleaned",
+      "start": 39.42,
+      "end": 40.34
+    },
+    {
+      "word": "the",
+      "start": 40.34,
+      "end": 40.92
+    },
+    {
+      "word": "porch",
+      "start": 40.92,
+      "end": 41.52
+    },
+    {
+      "word": "sasha",
+      "start": 42.24,
+      "end": 42.56
+    },
+    {
+      "word": "left",
+      "start": 42.56,
+      "end": 43.26
+    },
+    {
+      "word": "the",
+      "start": 43.26,
+      "end": 44.02
+    },
+    {
+      "word": "front",
+      "start": 44.02,
+      "end": 44.34
+    },
+    {
+      "word": "door",
+      "start": 44.34,
+      "end": 44.94
+    },
+    {
+      "word": "open",
+      "start": 44.94,
+      "end": 45.92
+    },
+    {
+      "word": "now",
+      "start": 45.92,
+      "end": 47.24
+    },
+    {
+      "word": "they",
+      "start": 47.24,
+      "end": 48.04
+    },
+    {
+      "word": "have",
+      "start": 48.04,
+      "end": 48.38
+    },
+    {
+      "word": "to",
+      "start": 48.38,
+      "end": 48.84
+    },
+    {
+      "word": "clean",
+      "start": 48.84,
+      "end": 49.34
+    },
+    {
+      "word": "everything",
+      "start": 49.34,
+      "end": 50.38
+    },
+    {
+      "word": "again",
+      "start": 50.38,
+      "end": 51.4
+    },
+    {
+      "word": "connections",
+      "start": 52.46,
+      "end": 52.48
+    },
+    {
+      "word": "writing",
+      "start": 53.76,
+      "end": 54.06
+    },
+    {
+      "word": "and",
+      "start": 54.06,
+      "end": 54.88
+    },
+    {
+      "word": "art",
+      "start": 54.88,
+      "end": 55.74
+    },
+    {
+      "word": "what",
+      "start": 56.88,
+      "end": 56.96
+    },
+    {
+      "word": "do",
+      "start": 56.96,
+      "end": 57.6
+    },
+    {
+      "word": "you",
+      "start": 57.6,
+      "end": 58.24
+    },
+    {
+      "word": "clean",
+      "start": 58.24,
+      "end": 58.72
+    },
+    {
+      "word": "at",
+      "start": 58.72,
+      "end": 59.18
+    },
+    {
+      "word": "home",
+      "start": 59.18,
+      "end": 59.72
+    },
+    {
+      "word": "draw",
+      "start": 60.46,
+      "end": 60.82
+    },
+    {
+      "word": "a",
+      "start": 60.82,
+      "end": 61.28
+    },
+    {
+      "word": "picture",
+      "start": 61.28,
+      "end": 61.74
+    },
+    {
+      "word": "and",
+      "start": 61.74,
+      "end": 62.72
+    },
+    {
+      "word": "write",
+      "start": 62.72,
+      "end": 63.06
+    },
+    {
+      "word": "about",
+      "start": 63.06,
+      "end": 63.62
+    },
+    {
+      "word": "it",
+      "start": 63.62,
+      "end": 64.26
+    },
+    {
+      "word": "science",
+      "start": 65.02,
+      "end": 65.5
+    },
+    {
+      "word": "what",
+      "start": 66.7,
+      "end": 66.88
+    },
+    {
+      "word": "are",
+      "start": 66.88,
+      "end": 67.68
+    },
+    {
+      "word": "the",
+      "start": 67.68,
+      "end": 68.04
+    },
+    {
+      "word": "four",
+      "start": 68.04,
+      "end": 68.44
+    },
+    {
+      "word": "seasons",
+      "start": 68.44,
+      "end": 69.16
+    },
+    {
+      "word": "which",
+      "start": 69.98,
+      "end": 70.22
+    },
+    {
+      "word": "one",
+      "start": 70.22,
+      "end": 70.84
+    },
+    {
+      "word": "comes",
+      "start": 70.84,
+      "end": 71.56
+    },
+    {
+      "word": "before",
+      "start": 71.56,
+      "end": 72.22
+    },
+    {
+      "word": "spring",
+      "start": 72.22,
+      "end": 73.02
+    },
+    {
+      "word": "share",
+      "start": 73.02,
+      "end": 74.46
+    },
+    {
+      "word": "your",
+      "start": 74.46,
+      "end": 75.04
+    },
+    {
+      "word": "ideas",
+      "start": 75.04,
+      "end": 75.72
+    },
+    {
+      "word": "with",
+      "start": 75.72,
+      "end": 76.52
+    },
+    {
+      "word": "a",
+      "start": 76.52,
+      "end": 76.76
+    },
+    {
+      "word": "partner",
+      "start": 76.76,
+      "end": 77.16
+    }
+  ]
+}

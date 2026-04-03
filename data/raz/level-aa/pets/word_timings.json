@@ -1,0 +1,111 @@
+{
+  "version": "1.0",
+  "total_words": 21,
+  "timings": [
+    {
+      "word": "pets",
+      "start": 0.0,
+      "end": 0.88
+    },
+    {
+      "word": "written",
+      "start": 1.38,
+      "end": 1.68
+    },
+    {
+      "word": "by",
+      "start": 1.68,
+      "end": 2.32
+    },
+    {
+      "word": "lisa",
+      "start": 2.32,
+      "end": 3.14
+    },
+    {
+      "word": "ing",
+      "start": 3.14,
+      "end": 4.0
+    },
+    {
+      "word": "the",
+      "start": 7.36,
+      "end": 7.5
+    },
+    {
+      "word": "cat",
+      "start": 7.5,
+      "end": 8.3
+    },
+    {
+      "word": "the",
+      "start": 10.96,
+      "end": 11.2
+    },
+    {
+      "word": "dog",
+      "start": 11.2,
+      "end": 11.9
+    },
+    {
+      "word": "the",
+      "start": 14.62,
+      "end": 14.8
+    },
+    {
+      "word": "bunny",
+      "start": 14.8,
+      "end": 15.36
+    },
+    {
+      "word": "the",
+      "start": 17.82,
+      "end": 18.22
+    },
+    {
+      "word": "bird",
+      "start": 18.22,
+      "end": 18.82
+    },
+    {
+      "word": "the",
+      "start": 21.62,
+      "end": 22.14
+    },
+    {
+      "word": "goldfish",
+      "start": 22.14,
+      "end": 23.12
+    },
+    {
+      "word": "the",
+      "start": 25.78,
+      "end": 26.1
+    },
+    {
+      "word": "mouse",
+      "start": 26.1,
+      "end": 26.66
+    },
+    {
+      "word": "the",
+      "start": 28.72,
+      "end": 29.88
+    },
+    {
+      "word": "turtle",
+      "start": 29.88,
+      "end": 30.46
+    },
+    {
+      "word": "the",
+      "start": 30.98,
+      "end": 33.36
+    },
+    {
+      "word": "hamster",
+      "start": 33.36,
+      "end": 33.94
+    }
+  ]
+}

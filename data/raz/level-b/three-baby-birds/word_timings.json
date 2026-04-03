@@ -1,0 +1,286 @@
+{
+  "version": "1.0",
+  "total_words": 56,
+  "timings": [
+    {
+      "word": "three",
+      "start": 0.0,
+      "end": 0.32
+    },
+    {
+      "word": "baby",
+      "start": 0.74,
+      "end": 1.02
+    },
+    {
+      "word": "birds",
+      "start": 1.02,
+      "end": 1.8
+    },
+    {
+      "word": "written",
+      "start": 2.5,
+      "end": 2.74
+    },
+    {
+      "word": "by",
+      "start": 2.74,
+      "end": 3.2
+    },
+    {
+      "word": "russ",
+      "start": 3.2,
+      "end": 3.64
+    },
+    {
+      "word": "vuyak",
+      "start": 3.64,
+      "end": 4.56
+    },
+    {
+      "word": "illustrated",
+      "start": 5.28,
+      "end": 5.98
+    },
+    {
+      "word": "by",
+      "start": 5.98,
+      "end": 6.52
+    },
+    {
+      "word": "linda",
+      "start": 6.52,
+      "end": 6.94
+    },
+    {
+      "word": "silvestri",
+      "start": 6.94,
+      "end": 8.04
+    },
+    {
+      "word": "there",
+      "start": 8.36,
+      "end": 8.68
+    },
+    {
+      "word": "were",
+      "start": 8.68,
+      "end": 9.0
+    },
+    {
+      "word": "three",
+      "start": 9.0,
+      "end": 9.74
+    },
+    {
+      "word": "baby",
+      "start": 10.04,
+      "end": 10.3
+    },
+    {
+      "word": "birds",
+      "start": 10.3,
+      "end": 11.04
+    },
+    {
+      "word": "the",
+      "start": 11.72,
+      "end": 11.74
+    },
+    {
+      "word": "baby",
+      "start": 11.74,
+      "end": 12.48
+    },
+    {
+      "word": "birds",
+      "start": 12.48,
+      "end": 13.28
+    },
+    {
+      "word": "grew",
+      "start": 13.28,
+      "end": 14.14
+    },
+    {
+      "word": "and",
+      "start": 14.14,
+      "end": 14.9
+    },
+    {
+      "word": "grew",
+      "start": 14.9,
+      "end": 15.82
+    },
+    {
+      "word": "one",
+      "start": 16.28,
+      "end": 16.62
+    },
+    {
+      "word": "baby",
+      "start": 17.12,
+      "end": 17.42
+    },
+    {
+      "word": "bird",
+      "start": 17.42,
+      "end": 18.14
+    },
+    {
+      "word": "flew",
+      "start": 18.14,
+      "end": 18.7
+    },
+    {
+      "word": "away",
+      "start": 18.7,
+      "end": 19.42
+    },
+    {
+      "word": "two",
+      "start": 19.96,
+      "end": 20.26
+    },
+    {
+      "word": "baby",
+      "start": 20.78,
+      "end": 21.16
+    },
+    {
+      "word": "birds",
+      "start": 21.16,
+      "end": 21.88
+    },
+    {
+      "word": "grew",
+      "start": 21.88,
+      "end": 23.0
+    },
+    {
+      "word": "and",
+      "start": 23.0,
+      "end": 23.66
+    },
+    {
+      "word": "grew",
+      "start": 23.66,
+      "end": 24.34
+    },
+    {
+      "word": "one",
+      "start": 24.64,
+      "end": 24.92
+    },
+    {
+      "word": "baby",
+      "start": 25.18,
+      "end": 25.42
+    },
+    {
+      "word": "bird",
+      "start": 25.42,
+      "end": 26.12
+    },
+    {
+      "word": "flew",
+      "start": 26.12,
+      "end": 27.1
+    },
+    {
+      "word": "away",
+      "start": 27.1,
+      "end": 27.74
+    },
+    {
+      "word": "the",
+      "start": 27.74,
+      "end": 28.4
+    },
+    {
+      "word": "last",
+      "start": 28.4,
+      "end": 28.98
+    },
+    {
+      "word": "baby",
+      "start": 28.98,
+      "end": 29.72
+    },
+    {
+      "word": "bird",
+      "start": 29.72,
+      "end": 30.48
+    },
+    {
+      "word": "grew",
+      "start": 30.48,
+      "end": 31.42
+    },
+    {
+      "word": "and",
+      "start": 31.42,
+      "end": 32.46
+    },
+    {
+      "word": "grew",
+      "start": 32.46,
+      "end": 33.12
+    },
+    {
+      "word": "the",
+      "start": 33.66,
+      "end": 33.76
+    },
+    {
+      "word": "last",
+      "start": 33.76,
+      "end": 34.34
+    },
+    {
+      "word": "baby",
+      "start": 34.34,
+      "end": 35.34
+    },
+    {
+      "word": "bird",
+      "start": 35.34,
+      "end": 36.1
+    },
+    {
+      "word": "flew",
+      "start": 36.1,
+      "end": 36.86
+    },
+    {
+      "word": "away",
+      "start": 36.86,
+      "end": 37.68
+    },
+    {
+      "word": "the",
+      "start": 38.44,
+      "end": 38.44
+    },
+    {
+      "word": "mama",
+      "start": 38.44,
+      "end": 39.06
+    },
+    {
+      "word": "bird",
+      "start": 39.06,
+      "end": 39.76
+    },
+    {
+      "word": "could",
+      "start": 39.76,
+      "end": 40.4
+    },
+    {
+      "word": "rest",
+      "start": 40.4,
+      "end": 41.0
+    }
+  ]
+}

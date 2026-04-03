@@ -1,0 +1,58 @@
+{
+  "id": "level-c/apple-tree",
+  "title": "Apple Tree",
+  "level": "level-c",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 12,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , C Apple Tree Written by Karen Mockler Illustrated by Violet Kim"
+    },
+    {
+      "page": 2,
+      "text": "Apple Tree Written by Karen Mockler Illustrated by Violet Kim wwwreadinga-z.com Focus Question What is the life cycle of an apple?"
+    },
+    {
+      "page": 3,
+      "text": "Words to Know blooms grows comes sprout wait Apple Tree Level C Leveled Book 0 Learning A-Z Correlation Written by Karen Mockler LEVEL C Illustrated by Violet Kim Fountas & Pinnell All rights reserved. Reading Recovery 3-4 DRA 3-4 www.readinga-z.com cycle"
+    },
+    {
+      "page": 4,
+      "text": "6 An apple grows in a How does the cycle Apple Tree 0 Level C 3 cycle. go?"
+    },
+    {
+      "page": 5,
+      "text": "First comes the seed,"
+    },
+    {
+      "page": 6,
+      "text": "Then comes the sprout: Apple Tree 0 Level C 5"
+    },
+    {
+      "page": 7,
+      "text": "A Next come the years: 6 O"
+    },
+    {
+      "page": 8,
+      "text": "Then comes the tree. Apple Tree 0 Level C"
+    },
+    {
+      "page": 9,
+      "text": "Next come the blooms. 8"
+    },
+    {
+      "page": 10,
+      "text": "Then come the apples: Apple Tree 0 Level C"
+    },
+    {
+      "page": 11,
+      "text": "@J 1 Seeds wait inside each apple: The begins  again: 10 cycle"
+    },
+    {
+      "page": 12,
+      "text": "Apple Tree A Reading A-Z Level C Leveled Book Word Count: 43 Connections Writing Draw a picture of an apple: Write words to describe how an apple tastes, smells, feels, looks, and sounds when eaten. Science How does an apple grow? Explain the different stages in the cycle to a partner: Reading Az Visit wwwreadinga-Z.com for thousands of books and materials."
+    }
+  ]
+}

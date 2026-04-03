@@ -1,0 +1,216 @@
+{
+  "version": "1.0",
+  "total_words": 42,
+  "timings": [
+    {
+      "word": "to",
+      "start": 0.0,
+      "end": 0.44
+    },
+    {
+      "word": "little",
+      "start": 0.44,
+      "end": 1.32
+    },
+    {
+      "word": "dickie",
+      "start": 1.32,
+      "end": 2.26
+    },
+    {
+      "word": "birds",
+      "start": 2.26,
+      "end": 2.88
+    },
+    {
+      "word": "author",
+      "start": 3.58,
+      "end": 3.82
+    },
+    {
+      "word": "unknown",
+      "start": 4.42,
+      "end": 5.08
+    },
+    {
+      "word": "illustrated",
+      "start": 6.08,
+      "end": 6.84
+    },
+    {
+      "word": "by",
+      "start": 6.84,
+      "end": 7.44
+    },
+    {
+      "word": "nora",
+      "start": 7.44,
+      "end": 7.96
+    },
+    {
+      "word": "vutus",
+      "start": 7.96,
+      "end": 8.92
+    },
+    {
+      "word": "there",
+      "start": 9.38,
+      "end": 9.7
+    },
+    {
+      "word": "were",
+      "start": 9.7,
+      "end": 10.04
+    },
+    {
+      "word": "two",
+      "start": 10.04,
+      "end": 10.62
+    },
+    {
+      "word": "little",
+      "start": 10.62,
+      "end": 11.26
+    },
+    {
+      "word": "dickie",
+      "start": 11.26,
+      "end": 12.04
+    },
+    {
+      "word": "birds",
+      "start": 12.04,
+      "end": 12.62
+    },
+    {
+      "word": "they",
+      "start": 12.94,
+      "end": 13.24
+    },
+    {
+      "word": "met",
+      "start": 13.24,
+      "end": 13.78
+    },
+    {
+      "word": "on",
+      "start": 13.78,
+      "end": 14.42
+    },
+    {
+      "word": "a",
+      "start": 14.42,
+      "end": 14.82
+    },
+    {
+      "word": "hill",
+      "start": 14.82,
+      "end": 15.16
+    },
+    {
+      "word": "one",
+      "start": 15.52,
+      "end": 15.92
+    },
+    {
+      "word": "was",
+      "start": 15.92,
+      "end": 16.6
+    },
+    {
+      "word": "named",
+      "start": 16.6,
+      "end": 17.02
+    },
+    {
+      "word": "jack",
+      "start": 17.02,
+      "end": 17.74
+    },
+    {
+      "word": "the",
+      "start": 18.24,
+      "end": 18.44
+    },
+    {
+      "word": "other",
+      "start": 18.44,
+      "end": 19.1
+    },
+    {
+      "word": "was",
+      "start": 19.1,
+      "end": 19.8
+    },
+    {
+      "word": "named",
+      "start": 19.8,
+      "end": 20.24
+    },
+    {
+      "word": "jill",
+      "start": 20.24,
+      "end": 21.0
+    },
+    {
+      "word": "fly",
+      "start": 21.4,
+      "end": 21.64
+    },
+    {
+      "word": "away",
+      "start": 21.64,
+      "end": 22.18
+    },
+    {
+      "word": "jack",
+      "start": 22.7,
+      "end": 22.9
+    },
+    {
+      "word": "fly",
+      "start": 23.46,
+      "end": 23.7
+    },
+    {
+      "word": "away",
+      "start": 23.7,
+      "end": 24.4
+    },
+    {
+      "word": "jill",
+      "start": 24.7,
+      "end": 25.1
+    },
+    {
+      "word": "come",
+      "start": 25.54,
+      "end": 25.84
+    },
+    {
+      "word": "back",
+      "start": 25.84,
+      "end": 26.38
+    },
+    {
+      "word": "jack",
+      "start": 26.84,
+      "end": 27.26
+    },
+    {
+      "word": "come",
+      "start": 27.52,
+      "end": 27.96
+    },
+    {
+      "word": "back",
+      "start": 27.96,
+      "end": 28.56
+    },
+    {
+      "word": "jill",
+      "start": 28.9,
+      "end": 29.26
+    }
+  ]
+}

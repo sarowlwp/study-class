@@ -1,0 +1,54 @@
+{
+  "id": "level-b/two-little-dicky-birds",
+  "title": "Two Little Dicky Birds",
+  "level": "level-b",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book , B Two Little Dicky Birds Illustrated by Nora Voutas wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Two Little Birds 0 Author unknown Illustrated by Nora Voutas wwwreadinga-z.com Dicky"
+    },
+    {
+      "page": 3,
+      "text": "There were two little birds. Two Little Dicky Birds Level B 3 dicky"
+    },
+    {
+      "page": 4,
+      "text": "8 2 They met on a hill: Jl"
+    },
+    {
+      "page": 5,
+      "text": "0 One waS named Jack Two Little Dicky Birds Level B 5 (("
+    },
+    {
+      "page": 6,
+      "text": "O The other was named Jill:"
+    },
+    {
+      "page": 7,
+      "text": "0 (( 40 away, Jackl Two Little Dicky Birds Level B 82 Fly"
+    },
+    {
+      "page": 8,
+      "text": ")) awaY, Jilll 8 03 )) Fly"
+    },
+    {
+      "page": 9,
+      "text": "(Vz 62 Come back, Jackl Two Little Dicky Birds Level B"
+    },
+    {
+      "page": 10,
+      "text": "( Come back, Jilll 10"
+    },
+    {
+      "page": 11,
+      "text": "Two Little Dicky Birds Level B Leveled Book Learning A-Z Correlation Author unknown LEVEL B Illustrated by Nora Voutas Fountas & Pinnell B All rights reserved: Reading Recovery 2 DRA 2 wwwreadinga-zcom"
+    }
+  ]
+}

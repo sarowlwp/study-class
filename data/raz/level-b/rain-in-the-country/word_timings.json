@@ -1,0 +1,206 @@
+{
+  "version": "1.0",
+  "total_words": 40,
+  "timings": [
+    {
+      "word": "rain",
+      "start": 0.0,
+      "end": 0.86
+    },
+    {
+      "word": "in",
+      "start": 0.86,
+      "end": 1.72
+    },
+    {
+      "word": "the",
+      "start": 1.72,
+      "end": 2.12
+    },
+    {
+      "word": "city",
+      "start": 2.12,
+      "end": 2.84
+    },
+    {
+      "word": "written",
+      "start": 2.84,
+      "end": 3.96
+    },
+    {
+      "word": "by",
+      "start": 3.96,
+      "end": 4.64
+    },
+    {
+      "word": "anthony",
+      "start": 4.64,
+      "end": 5.32
+    },
+    {
+      "word": "carran",
+      "start": 5.32,
+      "end": 6.8
+    },
+    {
+      "word": "i",
+      "start": 7.4,
+      "end": 7.4
+    },
+    {
+      "word": "see",
+      "start": 7.4,
+      "end": 8.08
+    },
+    {
+      "word": "the",
+      "start": 8.08,
+      "end": 8.6
+    },
+    {
+      "word": "clouds",
+      "start": 8.6,
+      "end": 9.18
+    },
+    {
+      "word": "i",
+      "start": 9.84,
+      "end": 9.84
+    },
+    {
+      "word": "see",
+      "start": 9.84,
+      "end": 10.9
+    },
+    {
+      "word": "the",
+      "start": 10.9,
+      "end": 11.46
+    },
+    {
+      "word": "rain",
+      "start": 11.46,
+      "end": 12.02
+    },
+    {
+      "word": "i",
+      "start": 12.32,
+      "end": 12.64
+    },
+    {
+      "word": "see",
+      "start": 12.64,
+      "end": 13.52
+    },
+    {
+      "word": "the",
+      "start": 13.52,
+      "end": 14.26
+    },
+    {
+      "word": "lightning",
+      "start": 14.26,
+      "end": 14.74
+    },
+    {
+      "word": "i",
+      "start": 15.5,
+      "end": 15.78
+    },
+    {
+      "word": "see",
+      "start": 15.78,
+      "end": 16.84
+    },
+    {
+      "word": "the",
+      "start": 16.84,
+      "end": 17.58
+    },
+    {
+      "word": "umbrellas",
+      "start": 17.58,
+      "end": 18.38
+    },
+    {
+      "word": "i",
+      "start": 18.94,
+      "end": 18.94
+    },
+    {
+      "word": "see",
+      "start": 18.94,
+      "end": 19.86
+    },
+    {
+      "word": "the",
+      "start": 19.86,
+      "end": 20.4
+    },
+    {
+      "word": "puddle",
+      "start": 20.4,
+      "end": 20.9
+    },
+    {
+      "word": "i",
+      "start": 21.66,
+      "end": 21.66
+    },
+    {
+      "word": "see",
+      "start": 21.66,
+      "end": 22.6
+    },
+    {
+      "word": "the",
+      "start": 22.6,
+      "end": 23.18
+    },
+    {
+      "word": "drain",
+      "start": 23.18,
+      "end": 23.86
+    },
+    {
+      "word": "i",
+      "start": 24.44,
+      "end": 24.7
+    },
+    {
+      "word": "see",
+      "start": 24.7,
+      "end": 25.7
+    },
+    {
+      "word": "the",
+      "start": 25.7,
+      "end": 26.34
+    },
+    {
+      "word": "rainbow",
+      "start": 26.34,
+      "end": 26.82
+    },
+    {
+      "word": "i",
+      "start": 27.34,
+      "end": 27.6
+    },
+    {
+      "word": "see",
+      "start": 27.6,
+      "end": 28.56
+    },
+    {
+      "word": "the",
+      "start": 28.56,
+      "end": 29.3
+    },
+    {
+      "word": "sun",
+      "start": 29.3,
+      "end": 29.72
+    }
+  ]
+}

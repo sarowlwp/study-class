@@ -1,0 +1,54 @@
+{
+  "id": "level-aa/big",
+  "title": "Big",
+  "level": "level-aa",
+  "source": "pdf_extraction",
+  "description": "PDF 提取的原始文本，用于排查和对比",
+  "page_count": 11,
+  "pages": [
+    {
+      "page": 1,
+      "text": "LEVELED Book 0 Aa Big Written by Cheryl Ryan Illustrated by Joe Boddy wwwreadinga-z.com"
+    },
+    {
+      "page": 2,
+      "text": "Big Written by Cheryl Ryan Illustrated Joe wwwreadinga-z.com by Boddy"
+    },
+    {
+      "page": 3,
+      "text": "F H 0 0 AL M c M m A big house. Big Level aa 3 4"
+    },
+    {
+      "page": 4,
+      "text": "\" A big dog_ ML 8"
+    },
+    {
+      "page": 5,
+      "text": "2  0 (b A big car_ Big Level aa 5 0"
+    },
+    {
+      "page": 6,
+      "text": "A big bus."
+    },
+    {
+      "page": 7,
+      "text": "A big   plane. Big Level aa QOQoQQQoA"
+    },
+    {
+      "page": 8,
+      "text": "A big tree. 8"
+    },
+    {
+      "page": 9,
+      "text": "= 5 A big elephant. Big Level aa"
+    },
+    {
+      "page": 10,
+      "text": "A big dinosaur 10"
+    },
+    {
+      "page": 11,
+      "text": "Big Level aa Leveled Book Learning A-Z Correlation Written by Cheryl Ryan LEVEL aa Illustrated by Joe Boddy Fountas & Pinnell A All rights reserved. Reading Recovery 1 DRA A-1 WWW.R readinga-z.com"
+    }
+  ]
+}
