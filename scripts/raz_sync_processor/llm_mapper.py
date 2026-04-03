@@ -206,8 +206,52 @@ end   = timings[j]['end'] + 0.28               # 固定后置缓冲
             else:
                 json_str = content.strip()
 
-            return json.loads(json_str)
+            # 尝试解析 JSON
+            try:
+                result = json.loads(json_str)
+                return result
+            except json.JSONDecodeError as e:
+                logger.warning(f"JSON parse failed: {e}. Trying to fix...")
+
+                # 尝试修复常见问题
+                fixed_str = self._fix_json(json_str)
+                if fixed_str:
+                    try:
+                        result = json.loads(fixed_str)
+                        logger.info("Successfully fixed JSON!")
+                        return result
+                    except:
+                        pass
+
+                logger.error(f"Failed to parse JSON. Content snippet: {json_str[:200]}")
+                return None
 
         except Exception as e:
             logger.exception(f"LLM call failed: {e}")
             return None
+
+    def _fix_json(self, json_str: str) -> Optional[str]:
+        """尝试修复 JSON 格式问题."""
+        import re
+
+        # 尝试找到第一个 { 和最后一个 }
+        start_idx = json_str.find("{")
+        end_idx = json_str.rfind("}")
+
+        if start_idx == -1 or end_idx == -1:
+            return None
+
+        # 提取 JSON 部分
+        json_str = json_str[start_idx:end_idx + 1]
+
+        # 尝试修复常见问题
+        # 1. 修复 trailing commas
+        json_str = re.sub(r',\s*([}\]])', r'\1', json_str)
+
+        # 2. 修复单引号
+        json_str = json_str.replace("'", '"')
+
+        # 3. 修复未闭合的字符串
+        # 这个比较复杂，先不做
+
+        return json_str
